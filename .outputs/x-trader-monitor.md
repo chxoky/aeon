@@ -24,3 +24,17 @@ Perfect! I've completed the skill execution. Here's the summary:
 - ✓ memory/logs/2026-08-29.md: Logged full event details
 
 **Notification:** No Telegram alert sent (skipped per classification)
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Reply to @Tardegen on trading strategy timeframe choice
+
+Wild_Randomness: "@Tardegen Forsure, tbd if it's worth playing shorts or just focusing on Dec/Jan swings"
+
+Unable to classify — context: Original @Tardegen message not visible. Wild_Randomness expressing indecision between (a) pursuing short positions, or (b) focusing on Dec/Jan swing trades. No specific ticker, no execution language. 
+
+Is this:
+1. Awaiting your input on trade strategy direction?
+2. Market commentary on Dec/Jan seasonality?
+3. General thought-sharing with no action signal?
+
+[View post](https://x.com/Wild_Randomness/status/2093720600745517220)

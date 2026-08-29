@@ -1,0 +1,107 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "Event: Reply to @Tardegen on trading strategy timeframe choice"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@Tardegen Forsure, tbd if it's worth playing shorts or just focusing on Dec/Jan swings"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_unable",
+        "context_text",
+        "options_heading",
+        "options_stack",
+        "link_view"
+      ]
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Original @Tardegen message not visible. Wild_Randomness expressing indecision between (a) pursuing short positions, or (b) focusing on Dec/Jan swing trades. No specific ticker, no execution language.",
+        "type": "info"
+      }
+    },
+    "context_text": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations:",
+        "level": "h4"
+      }
+    },
+    "options_heading": {
+      "type": "Text",
+      "props": {
+        "text": ""
+      }
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Awaiting your input on trade strategy direction?",
+        "variant": "body"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Market commentary on Dec/Jan seasonality?",
+        "variant": "body"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "3. General thought-sharing with no action signal?",
+        "variant": "body"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093720600745517220"
+      }
+    }
+  }
+}
