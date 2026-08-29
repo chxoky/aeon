@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_post",
+        "link_view",
+        "text_question",
+        "separator_1",
+        "text_context"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Incomplete/truncated 3-word message, possibly reference to @Baskitchbrah/@CredibleCrypto posts",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@Baskitchbrah @CredibleCrypto What a cute"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2093612274724315522"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — cryptic message appears cut mid-thought. Is this sentiment (sarcasm/bullish/bearish), banter, or reaction to external event? What's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: 8+ pending calibrations from @swarmister in last ~28hrs (high cryptic-reply pattern; precision intraday scalp trader profile but these posts lack visible technical/market context)",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
