@@ -15,3 +15,12 @@ Once everyone comes to terms with this reality, DXY will be well on its way to 9
 
 [View tweet](https://x.com/Wild_Randomness/status/2093748793745555659)
 
+🐦 *[X] @Wild_Randomness*
+
+**US30Y Bond Yield Structure**
+
+US 30-Year Government bond yield at 5.257% (+0.73% today), testing key resistance at 5.300% zone. RSI momentum active.
+
+Context: Discussion on whether the long-end of yield curve follows short-end lower if economic data cools. Macro relevance — bond curve dynamics drive equity regimes and crypto correlation shifts.
+
+[View post](https://x.com/Wild_Randomness/status/2093749034859295006)

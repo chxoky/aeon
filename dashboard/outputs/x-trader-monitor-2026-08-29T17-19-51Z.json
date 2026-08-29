@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "US30Y Bond Yield Structure\n\nUS 30-Year Government bond yield at 5.257% (+0.73% today), testing key resistance at 5.300% zone. RSI momentum active.\n\nContext: Discussion on whether the long-end of yield curve follows short-end lower if economic data cools. Macro relevance — bond curve dynamics drive equity regimes and crypto correlation shifts."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093749034859295006"
+      }
+    }
+  }
+}

@@ -27,6 +27,9 @@
 - Last seen: 2026-08-29T17:13:07Z
 - **Events (rolling):**
   - Aug 29 17:13Z — informational: $DXY macro sentiment + price target (96). Political/macro commentary on soft econ data, election timing, Bessent/Warsh bond-vol control, FX regime direction. Step 6 macro outlook; no personal execution language; aligns with bearish-equities-into-Oct thesis (USD strength/equity weakness correlation). 3 media images (Step 7 deferred); alerted Kyle with macro thesis + target level [$DXY] [2093748793745555659]
+- Last seen: 2026-08-29T17:14:04Z
+- **Events (rolling):**
+  - Aug 29 17:14Z — informational: US30Y bond yield chart technical analysis; yield at 5.257% testing 5.300% resistance with RSI momentum; accompanied by Discord chat discussing long-end yield curve dynamics (whether long-end follows short-end down on cooling print); macro bond structure observation; no personal execution language; aligns with macro dispersion/macro thesis focus [$BONDS/$US30Y/$MACRO] [2093749034859295006]
   - Aug 29 15:21Z — ambiguous: @Tardegen reply on shorts vs Dec/Jan swings timeframe choice; "tbd if it's worth playing" conditional; no specific ticker; original @Tardegen context missing; intent unclear (strategy input request or market commentary?); HR-2 calibration sent [$UNKNOWN-TIMEFRAME-STRATEGY] [2093720600745517220]
   - Aug 29 14:57Z — informational: 2Y bond yield question to @Parida/@kernow_bull; USO2Y 4.360% recovery from support; "Rate hikes?"; cryptic macro sentiment/peer technical query [$BONDS/$MACRO] [2093714551749681594]
   - Aug 29 14:49Z — informational: MONUSDT POC breakout scalp replay; entry on POC breakdown, exited position, flat now; chart analysis volume-profile/support resistance [$MONUSDT] [2093712763403358645]
