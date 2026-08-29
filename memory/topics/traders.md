@@ -24,8 +24,9 @@
 - **Events (rolling):**
   - Aug 29 14:53Z — informational: QQQ/SOXX ratio technical breakdown; SOXX/MAGS 7.36 (-0.30%), QQQ 716.43 weak structure; sarcastic "up 20% over 6 months" bearish framing on chart evidence (RSI declining, ratio weakness); escalation of 14:47Z Septembear theme with semis complex technical context [$QQQ/$SOXX] [2093713637554954543]
   - Aug 29 14:47Z — informational: QQQ "Septembear" seasonality + "Guaranteed correction" forecast; 3-chart technical analysis (ZNQ weekly structure, S&P 500 2-week median returns by month showing September WORST seasonality of any month, NQ1 daily consolidation); continuation escalating 13:57Z QQQ bearish theme; macro-conviction escalation on equities selloff into mid-Sept [$QQQ/$NQ] [2093712115257450801]
-- Last seen: 2026-08-29T14:49:56Z
+- Last seen: 2026-08-29T14:57:03Z
 - **Events (rolling):**
+  - Aug 29 14:57Z — informational: 2Y bond yield question to @Parida/@kernow_bull; USO2Y 4.360% recovery from support; "Rate hikes?"; cryptic macro sentiment/peer technical query [$BONDS/$MACRO] [2093714551749681594]
   - Aug 29 14:49Z — informational: MONUSDT POC breakout scalp replay; entry on POC breakdown, exited position, flat now; chart analysis volume-profile/support resistance [$MONUSDT] [2093712763403358645]
   - Aug 29 13:57Z — informational: QQQ/SPCX IPO seasonality analysis; SpaceX +34% vs Anthropic -7%/flat pre-IPO context; NQ technical/QQQ seasonality/NASDAQ patterns charts [$QQQ/$SPCX/$ANT-IPO] [2093699523587850713]
   - Aug 29 13:48Z — ambiguous: "Just a hypothetical" + image; image link unresolvable (404/402); no ticker/asset/context visible; intent unclear (trade setup? market structure? banter?); HR-2 calibration sent [$UNKNOWN-HYPOTHETICAL] [2093697311952302587]
