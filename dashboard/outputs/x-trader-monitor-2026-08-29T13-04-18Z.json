@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "bitcoin:native has 2.98B short liquidations at 82.9K.\n\nIt has 20B long liquidations if price reaches 61K.\n\nMMs are positioned from below. Not retail & it shows.\n\nSo I think you know what area comes next on the HTF. https://x.com/KillaXBT/status/2093684844727263499"
+      }
+    }
+  }
+}
