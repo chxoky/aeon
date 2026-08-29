@@ -23,6 +23,9 @@
 - Last seen: 2026-08-29T14:47:22Z
 - **Events (rolling):**
   - Aug 29 14:47Z — informational: QQQ "Septembear" seasonality + "Guaranteed correction" forecast; 3-chart technical analysis (ZNQ weekly structure, S&P 500 2-week median returns by month showing September WORST seasonality of any month, NQ1 daily consolidation); continuation escalating 13:57Z QQQ bearish theme; macro-conviction escalation on equities selloff into mid-Sept [$QQQ/$NQ] [2093712115257450801]
+- Last seen: 2026-08-29T14:49:56Z
+- **Events (rolling):**
+  - Aug 29 14:49Z — informational: MONUSDT POC breakout scalp replay; entry on POC breakdown, exited position, flat now; chart analysis volume-profile/support resistance [$MONUSDT] [2093712763403358645]
   - Aug 29 13:57Z — informational: QQQ/SPCX IPO seasonality analysis; SpaceX +34% vs Anthropic -7%/flat pre-IPO context; NQ technical/QQQ seasonality/NASDAQ patterns charts [$QQQ/$SPCX/$ANT-IPO] [2093699523587850713]
   - Aug 29 13:48Z — ambiguous: "Just a hypothetical" + image; image link unresolvable (404/402); no ticker/asset/context visible; intent unclear (trade setup? market structure? banter?); HR-2 calibration sent [$UNKNOWN-HYPOTHETICAL] [2093697311952302587]
   - Aug 29 13:41Z — informational: $HYPE daily bearish divergence technical observation; ATH breakout ($85-87 zone) with RSI declining (momentum not confirming higher high); "Where have I seen this movie before?" rhetorical framing; 4-chart Step 7 multi-timeframe analysis (1D/4H structure); no personal execution language; technical observation sharing on resistance pattern; continuation of Aug 17 dismissive/skeptical HYPE near-term sentiment vs bullish group thesis [$HYPE-BEARISH-DIV] [2093695622650220998]
