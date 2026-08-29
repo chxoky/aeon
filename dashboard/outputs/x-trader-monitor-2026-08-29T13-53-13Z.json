@@ -1,0 +1,57 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness",
+        "description": "Event: Cryptic one-liner with attached chart/image"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-quote",
+        "alert-warning",
+        "text-classification",
+        "link-post"
+      ]
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness: \"Just a hypothetical\"",
+        "variant": "lead"
+      }
+    },
+    "alert-warning": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Image unavailable",
+        "message": "404 media / 402 tweet auth required"
+      }
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a trade setup, market structure comment, or banter?"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093697311952302587"
+      }
+    }
+  }
+}
