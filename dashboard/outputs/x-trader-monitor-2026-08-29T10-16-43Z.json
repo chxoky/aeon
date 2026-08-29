@@ -1,0 +1,113 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto"
+      },
+      "children": [
+        "event-text",
+        "separator1",
+        "tweet-section",
+        "separator2",
+        "status-stack",
+        "separator3",
+        "context-section",
+        "post-link"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Ongoing tracking of BTC range-top exit thesis",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "it's not the peak yet 🤓"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-badge",
+        "status-question"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "outline"
+      }
+    },
+    "status-question": {
+      "type": "Text",
+      "props": {
+        "text": "what's your read?",
+        "variant": "lead"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-body"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-body": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic 5-word reply to @MylesGinvest; original message unavailable; aligns with Aug 27 pattern of 3x ambiguous replies same day. Is this bullish price outlook, market sentiment, technical observation, or something else?",
+        "variant": "body"
+      }
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/t_in_crypto/status/2093642385989214643",
+        "source": "X"
+      }
+    }
+  }
+}

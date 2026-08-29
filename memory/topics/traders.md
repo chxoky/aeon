@@ -272,6 +272,11 @@
 - Last seen: 2026-08-29T10:07:47Z
 - **Events (rolling):**
   - Aug 29 10:07Z — ambiguous: "@MintBlock41288 @Lambada0426813 @Alulim123gmail1 Near" — minimal reply with three mentions + "Near" reference (ticker or spatial); no execution language; unable to determine intent without addressee context; HR-2 calibration sent [$NEAR?] [2093641756713574672]
+- Conviction notes: Contrarian trader; measured exit discipline; skeptical of trend-followers. Default tone: NOT confirmed ironic (apply HR-2 for ambiguous posts rather than irony default). Pattern of cryptic replies requires consistent calibration checks (Aug 27: 3x ambiguous same day; Aug 29: continuing).
+- Calibration: PENDING Aug 29 10:10Z (cryptic "@MylesGinvest it's not the peak yet 🤓" — 5-word reply; external context unavailable (original @MylesGinvest post missing); unable to determine if bullish price outlook / market sentiment / technical observation / execution intent; aligns with Aug 27 cryptic-reply pattern; HR-2 calibration sent)
+- Last seen: 2026-08-29T10:10:17Z
+- **Events (rolling):**
+  - Aug 29 10:10Z — ambiguous: "@MylesGinvest it's not the peak yet 🤓" — cryptic 5-word reply; external context unavailable (original @MylesGinvest message missing); unable to determine if bullish price outlook, market sentiment, technical observation, or execution signal; aligns with Aug 27 pattern of cryptic replies; HR-2 calibration sent [$BTC?] [2093642385989214643]
   - Aug 20 09:55Z — informational: "I bought 58.4 and will be closing my large long soon / we're close to the top of range" [$BTC] [2090377223546998992]
   - Aug 20 10:01Z — ambiguous: "Proof from my group 🎯📌 $btc" + chart inaccessible [$BTC] [2090378755529146394]
   - Aug 20 11:17Z — informational: "CT shorted 64-65K and today euphorically predicting bottom and 80K+ lmao" — contrarian dismissal [$BTC] [2090397831651610888]
