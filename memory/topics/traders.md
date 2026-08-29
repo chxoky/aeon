@@ -274,6 +274,16 @@
   - Aug 22 10:50Z — informational (X): Skepticism on liquidation data authenticity during acute -50% drawdown [$LIQUIDATION-DATA] [2091115883775058207]
   - Aug 22 10:53Z — ambiguous (X): "@AdeelahmadXX Foul play" — no financial context [$UNKNOWN] [2091116594483372214]
 
+## bull_genius
+
+- Platforms: X (Twitter)
+- Current open positions: None confirmed in tracked window (market commentary / trade ideas trader)
+- Recent thesis: Structural altcoin exhaustion bottom identification; generational buy prices on altcoins in recovery phase (Jul 31+); contrarian long-term bullish on major alts; protocol economic analysis (FWA gaming mechanics, emission curves); Solana pump-token thesis: extended upside on new ATH targets
+- Conviction notes: Technical analyst on altcoin cycles; cryptic delivery (irony/sarcasm default); protocol-level economic focus; conviction: medium on individual trades (more research-focused than execution-focused)
+- Last seen: 2026-08-29T13:55:45Z
+- **Events (rolling):**
+  - Aug 29 13:55Z — informational: Solana pump-token (pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn) bullish thesis; sarcastic commentary dismissing 15% above ICO price concern; "real move doesn't start until new ATH"; market opinion/trade idea share, no personal execution language [$PUMP/$SOL-BULLISH] [2093699127821357292]
+
 ## t_in_crypto
 
 - Platforms: X (Twitter)
