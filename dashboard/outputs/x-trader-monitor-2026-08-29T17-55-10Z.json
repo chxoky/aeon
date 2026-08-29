@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "event_text",
+        "tweet_card",
+        "caveat_alert",
+        "analysis_text",
+        "link_view"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @zk_gianmarco on external July 24 event impact",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Hmm happened on July 24th…\n\nI'd say if anything this is dampers the speculative swings while driving more structural demand for the underlying commodity"
+      }
+    },
+    "caveat_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Referenced chart unavailable",
+        "message": "Chart/link unavailable (t.co unresolved). Unclear which commodity or whether this is actionable trade signal vs market commentary."
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Your read?",
+        "variant": "lead"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093758148071105003"
+      }
+    }
+  }
+}

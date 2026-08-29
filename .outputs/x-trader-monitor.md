@@ -1,8 +1,9 @@
-🔍 *Calibration — @swarmister*
+🔍 *Calibration — @Wild_Randomness*
 
-Event: Reply to @garbycan (original post context unavailable)
-swarmister: "Nah"
+Event: Reply to @zk_gianmarco on external July 24 event impact
 
-Unable to classify — what's your read? Is this a setup rejection, sentiment pushback, or banter?
+Wild_Randomness: "Hmm happened on July 24th…\n\nI'd say if anything this is dampers the speculative swings while driving more structural demand for the underlying commodity"
 
-[View tweet](https://x.com/swarmister/status/2093751899560247807)
+Referenced chart/link unavailable (t.co unresolved). Unclear which commodity or whether this is actionable trade signal vs market commentary. Your read?
+
+[View post](https://x.com/Wild_Randomness/status/2093758148071105003)
