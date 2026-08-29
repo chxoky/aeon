@@ -1,0 +1,75 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_text_1",
+        "analysis_text_2",
+        "separator_2",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "The market bottom can't be at 60k"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "Dismissive reply to bearish sentiment; validates contrarian bullish BTC thesis."
+      },
+      "children": []
+    },
+    "analysis_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with trader's large long position (58.4 entry) awaiting top-of-range exit."
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2093694412958130594"
+      },
+      "children": []
+    }
+  }
+}

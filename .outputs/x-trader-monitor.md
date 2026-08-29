@@ -1,9 +1,7 @@
-🐦 **[X] @KillaXBT**
+🐦 *[X] @t_in_crypto*
 
-bitcoin:native has 2.98B short liquidations at 82.9K.
+The market bottom can't be at 60k
 
-It has 20B long liquidations if price reaches 61K.
+Dismissive reply to bearish sentiment; validates contrarian bullish BTC thesis. Aligns with trader's large long position (58.4 entry) awaiting top-of-range exit.
 
-MMs are positioned from below. Not retail & it shows.
-
-So I think you know what area comes next on the HTF. https://x.com/KillaXBT/status/2093684844727263499
+[View tweet](https://x.com/t_in_crypto/status/2093694412958130594)
