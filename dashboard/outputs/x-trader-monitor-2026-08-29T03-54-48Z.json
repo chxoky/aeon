@@ -1,0 +1,107 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration"
+      },
+      "children": [
+        "account-badge",
+        "event-heading",
+        "event-details",
+        "classification-question",
+        "view-post-link"
+      ]
+    },
+    "account-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@trading_axe",
+        "variant": "outline"
+      }
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Aug 29 03:48:32 UTC — URL-only post with dead link",
+        "level": "h3"
+      }
+    },
+    "event-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "url-section",
+        "media-section"
+      ]
+    },
+    "url-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "url-label",
+        "url-status-row"
+      ]
+    },
+    "url-label": {
+      "type": "Text",
+      "props": {
+        "text": "URL referenced: https://t.co/433lTtfqkp"
+      }
+    },
+    "url-status-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "error-badge",
+        "error-detail"
+      ]
+    },
+    "error-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "404 Not Found",
+        "variant": "destructive"
+      }
+    },
+    "error-detail": {
+      "type": "Text",
+      "props": {
+        "text": "page no longer exists",
+        "variant": "caption"
+      }
+    },
+    "media-section": {
+      "type": "Text",
+      "props": {
+        "text": "Media payload: Shows X error page screenshot"
+      }
+    },
+    "classification-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this noise to skip, or worth tracking? Should URL-only posts from trading_axe with dead links be treated as non-financial?",
+        "type": "info"
+      }
+    },
+    "view-post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2093546315082777081"
+      }
+    }
+  }
+}
