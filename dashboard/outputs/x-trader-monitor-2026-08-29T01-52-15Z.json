@@ -1,0 +1,79 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @trading_axe"
+      },
+      "children": [
+        "event-line",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "analysis-stack"
+      ]
+    },
+    "event-line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: pattern continuation from Aug 26–27 cryptic posts",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Patience young padawan.\n\nTiny financial sacrifice for the greater picture soon come.\n\n~ Dr. Axius."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-to-classify",
+        "context-details",
+        "view-link"
+      ]
+    },
+    "unable-to-classify": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "context-details": {
+      "type": "Text",
+      "props": {
+        "text": "Recurring 'Patience young padawan' motivational thread; may relate to market macro view or current DOPAMEME position strategy; no execution language",
+        "variant": "muted"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2093516425000333538"
+      }
+    }
+  }
+}
