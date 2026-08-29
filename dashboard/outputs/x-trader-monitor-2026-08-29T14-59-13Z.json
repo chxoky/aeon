@@ -1,0 +1,60 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "separator",
+        "continuation-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "QQQ technical setup: SOXX/MAGS ratio breakdown (7.36 -0.30%) with QQQ pulling from highs (716.43). Sarcastic framing of bearish equities outlook.\n\nChart shows semis underperformance vs MAGS; RSI declining. Escalation of 14:47Z \"Septembear\" seasonality call."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093713637554954543"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "continuation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation of macro bearish-equities-into-Oct thesis; aligns with group bearish near-term sentiment.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

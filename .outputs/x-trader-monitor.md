@@ -1,10 +1,10 @@
 🐦 *[X] @Wild_Randomness*
 
-$QQQ
+QQQ technical setup: SOXX/MAGS ratio breakdown (7.36 -0.30%) with QQQ pulling from highs (716.43). Sarcastic framing of bearish equities outlook.
 
-Septembear…
+Chart shows semis underperformance vs MAGS; RSI declining. Escalation of 14:47Z "Septembear" seasonality call.
 
-Worst seasonality of any single month
+[View tweet](https://x.com/Wild_Randomness/status/2093713637554954543)
 
 Anthropic IPO, rate hike, mid terms…
 
@@ -18,3 +18,4 @@ MONUSDT POC scalp: entered on breakout, exited, flat now.
 [View post](https://x.com/Wild_Randomness/status/2093712763403358645)
 
 _Chart shows volume-profile POC consolidation with multi-level support/resistance structure._
+↳ _Continuation of macro bearish-equities-into-Oct thesis; aligns with group bearish near-term sentiment._
