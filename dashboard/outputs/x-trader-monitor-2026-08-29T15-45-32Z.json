@@ -1,0 +1,69 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack",
+        "separator-1",
+        "chart-heading",
+        "chart-text"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "This incredibly simple diagram will help you find the answers to all your questions about where the August (September) peak and cycle bottom will be\n\nOh, and we haven't hit the bottom yet 💁🏻‍♀️"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2093725103984951661"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart read",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 1M cycle structure showing upper channel ~140K, current consolidation recovery 76K. Trader reaffirms contrarian thesis that capitulation bottom still pending.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
