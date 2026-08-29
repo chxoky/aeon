@@ -1,0 +1,154 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "chart-section",
+        "sep2",
+        "dates-section",
+        "sep3",
+        "note-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Clear and simple BTC consolidation structure + MRK timing confluence."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-heading",
+        "chart-text"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1h BTC/Tether Chart",
+        "level": "h3"
+      }
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "Price consolidating in 62.1K–87.2K range with multiple technical levels marked; clear resistance/support zones established."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "dates-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dates-heading",
+        "dates-list"
+      ]
+    },
+    "dates-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MRK Technical Dates",
+        "level": "h3"
+      }
+    },
+    "dates-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "date1",
+        "date2",
+        "date3"
+      ]
+    },
+    "date1": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 14: Reversal due"
+      }
+    },
+    "date2": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 17±1D: Next key window"
+      }
+    },
+    "date3": {
+      "type": "Text",
+      "props": {
+        "text": "September: VERY IMPORTANT ZONE"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tech-note",
+        "link-element"
+      ]
+    },
+    "tech-note": {
+      "type": "Text",
+      "props": {
+        "text": "Technical structure validates near-term technical confluence point. No personal execution signal.",
+        "variant": "muted"
+      }
+    },
+    "link-element": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2093723474711699770"
+      }
+    }
+  }
+}
