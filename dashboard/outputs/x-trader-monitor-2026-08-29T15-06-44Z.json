@@ -1,0 +1,279 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Bitcoin macro analysis from @KillaXBT"
+      },
+      "children": [
+        "tweet_header",
+        "separator_1",
+        "thesis_section",
+        "separator_2",
+        "arguments_section",
+        "separator_3",
+        "charts_section",
+        "separator_4",
+        "disclaimer_section",
+        "separator_5",
+        "link_post"
+      ]
+    },
+    "tweet_header": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "BTC Macro View: Bottom Already In?\n\n\"At the end of the day, bitcoin:native was probably not going to go as low as most people anticipated.\""
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_content"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis: Shallower Bear Cycles",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "thesis_content": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT argues that bear cycles are becoming \"gradually shallower,\" challenging the prevailing \"must bottom in October\" seasonal expectation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "arguments_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "historical_cycles_heading",
+        "historical_cycles",
+        "oct_bottom_heading",
+        "args_against_oct_bottom"
+      ]
+    },
+    "historical_cycles_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Historical Cycle Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "historical_cycles": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cycle_2017",
+        "cycle_2021",
+        "cycle_2026"
+      ]
+    },
+    "cycle_2017": {
+      "type": "Text",
+      "props": {
+        "text": "2017 bear cycle: Topped & bottomed December",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cycle_2021": {
+      "type": "Text",
+      "props": {
+        "text": "2021 bear cycle: Topped & bottomed November",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cycle_2026": {
+      "type": "Text",
+      "props": {
+        "text": "2026 bear cycle: Topped October → market expects October bottom",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "oct_bottom_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Why October Bottom Is Unlikely",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "args_against_oct_bottom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arg_1",
+        "arg_2",
+        "arg_3",
+        "arg_4"
+      ]
+    },
+    "arg_1": {
+      "type": "Text",
+      "props": {
+        "text": "Requires 40% drop from current levels within 35-40 days",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "arg_2": {
+      "type": "Text",
+      "props": {
+        "text": "Would erase entire recent rally and break previous lows",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "arg_3": {
+      "type": "Text",
+      "props": {
+        "text": "Price action after liquidation cascade doesn't match bearish setup",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "arg_4": {
+      "type": "Text",
+      "props": {
+        "text": "Technical characteristics suggest bottom may already be in",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "charts_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "charts_heading",
+        "charts_content"
+      ]
+    },
+    "charts_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Charts Provided",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "charts_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_1",
+        "chart_2"
+      ]
+    },
+    "chart_1": {
+      "type": "Text",
+      "props": {
+        "text": "Historical drawdowns from ATH (2011-2025) showing progressively shallower bear markets",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "chart_2": {
+      "type": "Text",
+      "props": {
+        "text": "Seasonality date comparison chart showing cycle tops/bottoms progression",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "disclaimer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "disclaimer_text"
+      ]
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"This is simply how I'm viewing the market based on the price action in front of me, regardless of how I'm positioned.\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View original post on X",
+        "href": "https://x.com/KillaXBT/status/2093715044840218944"
+      },
+      "children": []
+    }
+  }
+}
