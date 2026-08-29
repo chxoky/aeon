@@ -1,0 +1,59 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "view_link",
+        "separator",
+        "insight_heading",
+        "insight_text"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$QQQ\n\nSeptembear… Worst seasonality of any single month. Anthropic IPO, rate hike, mid terms… Guaranteed correction"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093712115257450801"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "insight_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 Key insight",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "insight_text": {
+      "type": "Text",
+      "props": {
+        "text": "September shows the WORST 2-week median S&P 500 returns of any month since 1950. Continuation of WR's Aug 29 13:57Z QQQ bearish theme — escalating macro conviction on equities pullback into mid-September.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
