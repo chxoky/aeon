@@ -1,0 +1,60 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "If you're aggressively shorting here and calling for 65-67 in the coming days... well, I don't know how to help you $btc #btc"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2093680862466380047"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC dominance (7.066%) chart validates range-top structure + contrarian dismissal of bearish thesis. Aligns with trader's Aug 20 long entry (58.4) + top-of-range exit positioning.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

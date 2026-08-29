@@ -269,13 +269,14 @@
 - Recent thesis: Contrarian at BTC range top; "close my large long soon" (Aug 20 09:55Z). Skeptical of CT's rapid sentiment reversal (short at 64-65K → euphoric 80K calls). "Next 12h max" timing reference (Aug 20 12:35Z) for exit.
 - Conviction notes: Contrarian trader; measured exit discipline; skeptical of trend-followers. Default tone: NOT confirmed ironic (apply HR-2 for ambiguous posts rather than irony default).
 - Calibration: PENDING Aug 29 10:07Z (cryptic "@MintBlock41288 @Lambada0426813 @Alulim123gmail1 Near" — minimal reply with three mentions + ticker reference; unable to determine if NEAR protocol interest, trade signal, or spatial reference; external context unknown; HR-2 calibration sent). PENDING Aug 27 10:41Z (cryptic "@Alulim123gmail1 It's not that simple, and no, my target is a little different" — reply context unknown, unable to determine asset/target/execution intent); PENDING Aug 27 17:16Z (cryptic reply referencing Aug 14 "bottom" + "breakout above 78" + "X target on X pivot day" — context unclear)
-- Last seen: 2026-08-29T10:07:47Z
+- Last seen: 2026-08-29T12:43:10Z
 - **Events (rolling):**
   - Aug 29 10:07Z — ambiguous: "@MintBlock41288 @Lambada0426813 @Alulim123gmail1 Near" — minimal reply with three mentions + "Near" reference (ticker or spatial); no execution language; unable to determine intent without addressee context; HR-2 calibration sent [$NEAR?] [2093641756713574672]
 - Conviction notes: Contrarian trader; measured exit discipline; skeptical of trend-followers. Default tone: NOT confirmed ironic (apply HR-2 for ambiguous posts rather than irony default). Pattern of cryptic replies requires consistent calibration checks (Aug 27: 3x ambiguous same day; Aug 29: continuing).
 - Calibration: PENDING Aug 29 10:10Z (cryptic "@MylesGinvest it's not the peak yet 🤓" — 5-word reply; external context unavailable (original @MylesGinvest post missing); unable to determine if bullish price outlook / market sentiment / technical observation / execution intent; aligns with Aug 27 cryptic-reply pattern; HR-2 calibration sent)
 - Last seen: 2026-08-29T10:10:17Z
 - **Events (rolling):**
+  - Aug 29 12:43Z — informational: "If you're aggressively shorting here and calling for 65-67 in the coming days... well, I don't know how to help you" + BTC dominance chart (7.066% current, structural support validation). Sarcastic dismissal of bearish short thesis; BTC dominance structure confirms contrarian bullish sentiment. [$BTC] [2093680862466380047]
   - Aug 29 10:10Z — ambiguous: "@MylesGinvest it's not the peak yet 🤓" — cryptic 5-word reply; external context unavailable (original @MylesGinvest message missing); unable to determine if bullish price outlook, market sentiment, technical observation, or execution signal; aligns with Aug 27 pattern of cryptic replies; HR-2 calibration sent [$BTC?] [2093642385989214643]
   - Aug 20 09:55Z — informational: "I bought 58.4 and will be closing my large long soon / we're close to the top of range" [$BTC] [2090377223546998992]
   - Aug 20 10:01Z — ambiguous: "Proof from my group 🎯📌 $btc" + chart inaccessible [$BTC] [2090378755529146394]
