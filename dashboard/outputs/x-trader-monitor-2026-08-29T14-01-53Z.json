@@ -1,0 +1,131 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_post_link",
+        "separator1",
+        "price_action_heading",
+        "ipo_comparison_grid",
+        "separator2",
+        "analysis_heading",
+        "analysis_text",
+        "separator3",
+        "context_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Let's assess the price action leading into the two big IPOs this year:\n\n1. QQQ +34% over the two months into the SpaceX IPO\n\n2. QQQ -7% to flat at best over the two months into the Anthropic IPO\n\nNot sure how the action will differ this time, but the context is v different"
+      }
+    },
+    "view_post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093699523587850713"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_action_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "IPO Price Action Comparison",
+        "level": "h3"
+      }
+    },
+    "ipo_comparison_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_spacex_ipo",
+        "stat_anthropic_ipo"
+      ]
+    },
+    "stat_spacex_ipo": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ into SpaceX IPO",
+        "value": "+34%",
+        "delta": "+34%",
+        "trend": "up"
+      }
+    },
+    "stat_anthropic_ipo": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ into Anthropic IPO",
+        "value": "-7% to flat",
+        "delta": "-7%",
+        "trend": "down"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Historical seasonal comparison + QQQ/NQ consolidation technical structure (3-chart Step 7 analysis). Macro market-structure observation; no personal trade execution language."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_qqq_watch",
+        "badge_spcx_tracking"
+      ]
+    },
+    "badge_qqq_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "QQQ Watch",
+        "variant": "default"
+      }
+    },
+    "badge_spcx_tracking": {
+      "type": "Badge",
+      "props": {
+        "text": "SPCX Tracking",
+        "variant": "secondary"
+      }
+    }
+  }
+}
