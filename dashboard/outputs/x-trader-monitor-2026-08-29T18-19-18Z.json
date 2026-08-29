@@ -1,0 +1,125 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "stats-section",
+        "separator-2",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "US30Y Bond Structure — Two Scenarios\n\nTwo options on 30-year yields:\n\n1. The 30yr is topping out this quarter — yield reverses before reaching 6% resistance\n   \nOR\n\n2. The 30yr does go to 6% but there is no pain and suffering — yields push through resistance cleanly with minimal drawdown\n\nChart shows: US30Y at 5.213%, testing 6% resistance level. Long-term recovery structure validates breakout potential. Volatility elevated (60 3M VIX).\n\nAligns with macro dispersion thesis (yields/equities inverse). Awaiting technical structure confirmation on which scenario plays out."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stats-heading",
+        "stats-grid"
+      ]
+    },
+    "stats-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Data",
+        "level": "h3"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-yield",
+        "stat-resistance",
+        "stat-vix"
+      ]
+    },
+    "stat-yield": {
+      "type": "Stat",
+      "props": {
+        "label": "US30Y Yield",
+        "value": "5.213%"
+      }
+    },
+    "stat-resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Level",
+        "value": "6%"
+      }
+    },
+    "stat-vix": {
+      "type": "Stat",
+      "props": {
+        "label": "3M VIX",
+        "value": "60"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-heading",
+        "link-post"
+      ]
+    },
+    "link-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Original Post",
+        "level": "h3"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2093764564672520489"
+      }
+    }
+  }
+}
