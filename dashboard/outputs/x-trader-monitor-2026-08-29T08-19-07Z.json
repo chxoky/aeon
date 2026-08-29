@@ -1,0 +1,158 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_section",
+        "sep1",
+        "quote_section",
+        "sep2",
+        "analysis_section",
+        "sep3",
+        "question_text"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calibration_heading",
+        "event_text"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @standard_rsv on a chart/setup reference",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bull Genius",
+        "handle": "bull_genius",
+        "text": "i like how this looks but how to get in"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_alert",
+        "context_text",
+        "language_note",
+        "uncertainties_heading",
+        "uncertainties_stack"
+      ]
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "warning"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "The original @standard_rsv post is not visible to assess the setup being referenced.",
+        "variant": "body"
+      }
+    },
+    "language_note": {
+      "type": "Text",
+      "props": {
+        "text": "The language \"how to get in\" is exploratory/questioning, not execution language.",
+        "variant": "body"
+      }
+    },
+    "uncertainties_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to determine:",
+        "level": "h4"
+      }
+    },
+    "uncertainties_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "uncertainty_1",
+        "uncertainty_2",
+        "uncertainty_3"
+      ]
+    },
+    "uncertainty_1": {
+      "type": "Text",
+      "props": {
+        "text": "What asset/chart is being referenced?",
+        "variant": "body"
+      }
+    },
+    "uncertainty_2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this asking for entry guidance (mechanical), timing (technical), or general interest?",
+        "variant": "body"
+      }
+    },
+    "uncertainty_3": {
+      "type": "Text",
+      "props": {
+        "text": "Does bull_genius have a personal position or just interested?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

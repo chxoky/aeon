@@ -1,10 +1,12 @@
-🔍 *Calibration — @swarmister*
+🔍 *Calibration — @bull_genius*
 
-Event: Incomplete/truncated 3-word message, possibly reference to @Baskitchbrah/@CredibleCrypto posts
-swarmister: "@Baskitchbrah @CredibleCrypto What a cute"
+Event: Reply to @standard_rsv on a chart/setup reference
 
-Unable to classify — cryptic message appears cut mid-thought. Is this sentiment (sarcasm/bullish/bearish), banter, or reaction to external event? What's your read?
+@bull_genius: "i like how this looks but how to get in"
 
-[View post](https://x.com/swarmister/status/2093612274724315522)
+Unable to classify — the original @standard_rsv post is not visible to assess the setup being referenced. The language "how to get in" is exploratory/questioning, not execution language. Unable to determine:
+- What asset/chart is being referenced?
+- Is this asking for entry guidance (mechanical), timing (technical), or general interest?
+- Does bull_genius have a personal position or just interested?
 
-**Context:** 8+ pending calibrations from @swarmister in last ~28hrs (high cryptic-reply pattern; precision intraday scalp trader profile but these posts lack visible technical/market context)
+What's your read?
