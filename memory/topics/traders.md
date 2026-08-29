@@ -1,3 +1,12 @@
+## Crypto_Chase
+
+- Platforms: X (Twitter), Discord
+- Current open positions: Last seen reply on gap structure analysis (Aug 29 12:57Z). Monitoring technical levels.
+- Recent thesis: Gap analysis and support/resistance technical trading patterns.
+- Last seen: 2026-08-29T12:57:38Z
+- **Events (rolling):**
+  - Aug 29 12:57Z — informational: gap/resistance/support technical analysis reply; "top of the gap 'should' have served as res, so it flips supp likely" reply to member question "did you come to this level in case we front run that gap ?"; technical structure observation, no personal execution language; supporting channel member Q&A; Discord first-sight [$PRICE-STRUCTURE/$GAP] [1543243231657984070]
+
 ## Wild_Randomness
 
 - Platforms: X (Twitter)
