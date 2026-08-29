@@ -1,0 +1,56 @@
+{
+  "root": "card-1",
+  "state": {},
+  "elements": {
+    "card-1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-1"
+      ]
+    },
+    "stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-1",
+        "sep-1",
+        "text-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "Everyone is expecting the low in October. Will they get it?"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2093825501978628570"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Contrarian sentiment probe on consensus October low expectations.",
+        "variant": "caption"
+      }
+    }
+  }
+}
