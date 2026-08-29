@@ -1,8 +1,8 @@
-🐦 *[X] @t_in_crypto*
+🐦 *[X] @Wild_Randomness*
 
-The market bottom can't be at 60k
+$HYPE — Daily bearish divergence this early into the ATH break?
 
-Dismissive reply to bearish sentiment; validates contrarian bullish BTC thesis. Aligns with trader's large long position (58.4 entry) awaiting top-of-range exit.
+Price broke resistance $85-87 zone, but RSI is declining from overbought (no momentum confirmation = classic bearish divergence pattern).
 
 [View tweet](https://x.com/t_in_crypto/status/2093694412958130594)
 🔍 *Calibration — @trading_axe*
@@ -16,3 +16,6 @@ Crazy upset.
 ~ Dr. Axius."
 
 Unable to classify — what's your read? Market equilibrium commentary or personal banter?
+↳ Contrarian to group bullish thesis (HCH/bull_genius/KillaXBT all holding/adding). WR dismissive on HYPE structure since Aug 17.
+
+[View tweet](https://x.com/Wild_Randomness/status/2093695622650220998)

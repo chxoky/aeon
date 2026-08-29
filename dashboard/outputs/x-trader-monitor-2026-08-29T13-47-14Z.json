@@ -1,0 +1,165 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "X trader analysis and technical insights"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "badge-stack",
+        "separator-2",
+        "analysis-section",
+        "separator-3",
+        "positioning-section",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$HYPE — Daily bearish divergence this early into the ATH break?\n\nPrice broke resistance $85-87 zone, but RSI is declining from overbought (no momentum confirmation = classic bearish divergence pattern)."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-divergence",
+        "badge-contrarian",
+        "badge-hype"
+      ]
+    },
+    "badge-divergence": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Divergence",
+        "variant": "destructive"
+      }
+    },
+    "badge-contrarian": {
+      "type": "Badge",
+      "props": {
+        "text": "Contrarian",
+        "variant": "secondary"
+      }
+    },
+    "badge-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "$HYPE",
+        "variant": "default"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-heading",
+        "price-stat",
+        "analysis-text"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Zone Broken",
+        "value": "$85–87"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "RSI declining from overbought with no momentum confirmation — a classic bearish divergence pattern.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positioning-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "positioning-heading",
+        "positioning-text",
+        "trader-list"
+      ]
+    },
+    "positioning-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Positioning",
+        "level": "h3"
+      }
+    },
+    "positioning-text": {
+      "type": "Text",
+      "props": {
+        "text": "Contrarian to group bullish thesis. Wild_Randomness has been dismissive on HYPE structure since Aug 17.",
+        "variant": "body"
+      }
+    },
+    "trader-list": {
+      "type": "Text",
+      "props": {
+        "text": "Bulls holding/adding: HCH, bull_genius, KillaXBT",
+        "variant": "caption"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093695622650220998"
+      }
+    }
+  }
+}
