@@ -268,9 +268,10 @@
 - Current open positions: BTC long (entry 58.4, large position, positioning for top-of-range exit)
 - Recent thesis: Contrarian at BTC range top; "close my large long soon" (Aug 20 09:55Z). Skeptical of CT's rapid sentiment reversal (short at 64-65K → euphoric 80K calls). "Next 12h max" timing reference (Aug 20 12:35Z) for exit.
 - Conviction notes: Contrarian trader; measured exit discipline; skeptical of trend-followers. Default tone: NOT confirmed ironic (apply HR-2 for ambiguous posts rather than irony default).
-- Calibration: PENDING Aug 27 10:41Z (cryptic "@Alulim123gmail1 It's not that simple, and no, my target is a little different" — reply context unknown, unable to determine asset/target/execution intent); PENDING Aug 27 17:16Z (cryptic reply referencing Aug 14 "bottom" + "breakout above 78" + "X target on X pivot day" — context unclear)
-- Last seen: 2026-08-27T17:43:39Z
+- Calibration: PENDING Aug 29 10:07Z (cryptic "@MintBlock41288 @Lambada0426813 @Alulim123gmail1 Near" — minimal reply with three mentions + ticker reference; unable to determine if NEAR protocol interest, trade signal, or spatial reference; external context unknown; HR-2 calibration sent). PENDING Aug 27 10:41Z (cryptic "@Alulim123gmail1 It's not that simple, and no, my target is a little different" — reply context unknown, unable to determine asset/target/execution intent); PENDING Aug 27 17:16Z (cryptic reply referencing Aug 14 "bottom" + "breakout above 78" + "X target on X pivot day" — context unclear)
+- Last seen: 2026-08-29T10:07:47Z
 - **Events (rolling):**
+  - Aug 29 10:07Z — ambiguous: "@MintBlock41288 @Lambada0426813 @Alulim123gmail1 Near" — minimal reply with three mentions + "Near" reference (ticker or spatial); no execution language; unable to determine intent without addressee context; HR-2 calibration sent [$NEAR?] [2093641756713574672]
   - Aug 20 09:55Z — informational: "I bought 58.4 and will be closing my large long soon / we're close to the top of range" [$BTC] [2090377223546998992]
   - Aug 20 10:01Z — ambiguous: "Proof from my group 🎯📌 $btc" + chart inaccessible [$BTC] [2090378755529146394]
   - Aug 20 11:17Z — informational: "CT shorted 64-65K and today euphorically predicting bottom and 80K+ lmao" — contrarian dismissal [$BTC] [2090397831651610888]
