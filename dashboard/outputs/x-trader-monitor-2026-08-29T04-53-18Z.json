@@ -1,0 +1,117 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "COCOA escalation",
+        "description": "@HeartCanHodl confirms bearish macro thesis with COCOA structure validation"
+      },
+      "children": [
+        "story_link",
+        "macro_section",
+        "cocoa_section",
+        "status_section"
+      ]
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "COCOA escalation",
+        "source": "@HeartCanHodl",
+        "href": "https://x.com/HeartCanHodl/status/2093561237187805207"
+      }
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "macro_heading",
+        "macro_text"
+      ]
+    },
+    "macro_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro frame (Apr 30)",
+        "level": "h3"
+      }
+    },
+    "macro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto leverage wipeout (8x bigger than Covid) → domino effect → full winter across all asset classes, commodities ripping."
+      }
+    },
+    "cocoa_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cocoa_heading",
+        "cocoa_text",
+        "cocoa_stat"
+      ]
+    },
+    "cocoa_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "COCOA setup",
+        "level": "h3"
+      }
+    },
+    "cocoa_text": {
+      "type": "Text",
+      "props": {
+        "text": "Endorsement suggests commodity shorts align with HCH's net-short regime + macro deflationary outlook."
+      }
+    },
+    "cocoa_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Apr-Jul rally",
+        "value": "3200→5754",
+        "delta": "+65%",
+        "trend": "up"
+      }
+    },
+    "status_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_heading",
+        "status_text",
+        "conviction_badge"
+      ]
+    },
+    "status_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status",
+        "level": "h3"
+      }
+    },
+    "status_text": {
+      "type": "Text",
+      "props": {
+        "text": "Informational alignment, no position documented."
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2-mention conviction (Aug 03 + Aug 29)",
+        "variant": "outline"
+      }
+    }
+  }
+}

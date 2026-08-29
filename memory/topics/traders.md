@@ -231,8 +231,9 @@
 - Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: 14+ tickers (BTC/ZEC/HYPE/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL/PUMP + others). Stocks: FULLY CLOSED Aug 20 15:42Z. Partial TPs Aug 21: SOL (7.5% covered), ETH (7.5% covered), HYPE (2.5% covered). BTC short conviction adds: Aug 20 09:15Z (+5%), Aug 21 07:22Z (+5%).
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. Scaled entries NOT all-in at single level (clarified Aug 21 06:54Z). "Blow off top forming like a shitcoin scam pump" on BTC (Aug 21 07:21Z). Expecting "full mega retrace" (Aug 22 09:03Z). Skeptical on reported liquidation data authenticity (Aug 22 10:50Z). "Fc X" posts = false-close chart check (not execution).
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. Multi-account structure. Irony default calibrated. "Always high-leverage & all-in folks get hurt."
-- Last seen: 2026-08-27T21:41:47Z
+- Last seen: 2026-08-29T04:47:50Z
 - **Events (rolling):**
+  - Aug 29 04:47Z — informational: [COCOA] Bearish macro thesis + commodity conviction escalation [2093561237187805207]
   - Aug 27 21:41Z — ambiguous (Discord Chat supporting): "These guys hold 5% of the supply?" + Fundstrat X post link (https://x.com/fundstrat/status/2092973378504196590); unclear which asset/fund referenced; cryptic question requesting interpretation [$UNKNOWN] [1542650361363434898]
   - Aug 27 14:06Z — ambiguous: "sizeable shakeout brewing" cryptic (unclear asset/timeframe); calibration sent [$UNKNOWN] [2092976997463200202]
   - Aug 27 10:46Z — conviction-add: "Adding back covered shorts here on eth, sol & hype" (Trades primary); re-escalating previously covered shorts on ETH/SOL/HYPE after Aug 21 partial TPs; market-order execution at current price [$ETH/$SOL/$HYPE-REENTRY] [1542485417583185930]
