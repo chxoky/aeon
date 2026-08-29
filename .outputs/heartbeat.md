@@ -1,21 +1,19 @@
-Heartbeat complete. Here's the summary:
+All checks complete. Here's the summary:
 
 ## Summary
 
-**P0 — Skills**: All clear. No failed, stuck, or degraded skills.
+**HEARTBEAT_OK · STATUS_PAGE=WATCH**
 
-**P0 — X Webhook**: WATCHED_TRADERS rule healthy (`is_effect=1`). ISS-002 guard passed.
+**P0 — Skills**: All clear. No failed, stuck, or degraded skills. Heartbeat last ran 5h ago (well within 36h threshold).
+
+**P0 — X Webhook**: WATCHED_TRADERS rule (35f3c57c…) confirmed active (`is_effect=1`) with 12 accounts tracked. ISS-002 remains resolved.
 
 **P1**: No open PRs, no urgent issues.
 
-**P2**: Nothing flagged in MEMORY.md.
+**P2**: No flagged MEMORY.md items.
 
-**P3**: 7 daily skills stale >48h since 2026-08-26 (morning-pipeline, morning-brief, token-alert, token-movers, market-context-refresh, narrative-tracker, skill-health) — already notified on 2026-08-28, dedup suppresses re-notification.
+**P3**: 6 daily skills stale >48h since 2026-08-26 (morning-pipeline, morning-brief, token-alert, token-movers, market-context-refresh, narrative-tracker). Previously notified Aug 28 21:15 UTC — dedup window still open, no re-notification sent. Note: skill-health is now current (ran at 18:24 UTC today).
 
-**Supplementary note**: `traders.md` TRIPWIRE fired repeatedly today at 165–178 KB (>150 KB limit). `trader-memory-compact` runs tomorrow Sunday 2026-08-30 at 20:00 UTC and will resolve it automatically.
+**No token pulse** — no `articles/token-report-*.md` files exist.
 
-**Notification**: None sent (all items within 48h dedup window).
-
-**`docs/status.md`**: Updated — STATUS_PAGE=WATCH.
-
-`HEARTBEAT_OK · STATUS_PAGE=WATCH`
+**Status page** (`docs/status.md`) updated to reflect skill-health returning to current and the corrected stale-skills count (6, not 7).
