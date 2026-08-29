@@ -1,0 +1,53 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "chart_annotation"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Far fetched but what if... bitcoin:native\n\nWe've been following 2022 PA since the top. What if we're witnessing re-accumulation before expansion?\n\nAs long as we hold the channel low, the structure remains valid. Fail to hold it, and I'll be looking for the 75.6K low for scalp longs."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2093653732932096041"
+      },
+      "children": []
+    },
+    "chart_annotation": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Analysis",
+        "message": "Chart shows parallel 2022/2026 PA structure validating re-accumulation thesis; conditional scalp long setup at 75.6K if channel breaks.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
