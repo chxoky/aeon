@@ -1,0 +1,68 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "thesis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$DXY\n\nwyd if the econ+ data over the next two weeks comes in soft?\n\nMidterms are how far away again? The grifter cabal can simply massage the data.\n\nPessent + Warsh are just controlling bond vol.\n\nOnce everyone comes to terms with this reality, DXY will be well on its way to 96."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "thesis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text",
+        "view-link"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Thesis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Political/economic commentary on USD direction. Strong dollar often correlates with equity weakness. Aligns with trader's \"bearish equities into Oct\" conviction."
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2093748793745555659"
+      },
+      "children": []
+    }
+  }
+}

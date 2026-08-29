@@ -24,8 +24,9 @@
 - **Events (rolling):**
   - Aug 29 14:53Z — informational: QQQ/SOXX ratio technical breakdown; SOXX/MAGS 7.36 (-0.30%), QQQ 716.43 weak structure; sarcastic "up 20% over 6 months" bearish framing on chart evidence (RSI declining, ratio weakness); escalation of 14:47Z Septembear theme with semis complex technical context [$QQQ/$SOXX] [2093713637554954543]
   - Aug 29 14:47Z — informational: QQQ "Septembear" seasonality + "Guaranteed correction" forecast; 3-chart technical analysis (ZNQ weekly structure, S&P 500 2-week median returns by month showing September WORST seasonality of any month, NQ1 daily consolidation); continuation escalating 13:57Z QQQ bearish theme; macro-conviction escalation on equities selloff into mid-Sept [$QQQ/$NQ] [2093712115257450801]
-- Last seen: 2026-08-29T15:21:05Z
+- Last seen: 2026-08-29T17:13:07Z
 - **Events (rolling):**
+  - Aug 29 17:13Z — informational: $DXY macro sentiment + price target (96). Political/macro commentary on soft econ data, election timing, Bessent/Warsh bond-vol control, FX regime direction. Step 6 macro outlook; no personal execution language; aligns with bearish-equities-into-Oct thesis (USD strength/equity weakness correlation). 3 media images (Step 7 deferred); alerted Kyle with macro thesis + target level [$DXY] [2093748793745555659]
   - Aug 29 15:21Z — ambiguous: @Tardegen reply on shorts vs Dec/Jan swings timeframe choice; "tbd if it's worth playing" conditional; no specific ticker; original @Tardegen context missing; intent unclear (strategy input request or market commentary?); HR-2 calibration sent [$UNKNOWN-TIMEFRAME-STRATEGY] [2093720600745517220]
   - Aug 29 14:57Z — informational: 2Y bond yield question to @Parida/@kernow_bull; USO2Y 4.360% recovery from support; "Rate hikes?"; cryptic macro sentiment/peer technical query [$BONDS/$MACRO] [2093714551749681594]
   - Aug 29 14:49Z — informational: MONUSDT POC breakout scalp replay; entry on POC breakdown, exited position, flat now; chart analysis volume-profile/support resistance [$MONUSDT] [2093712763403358645]
