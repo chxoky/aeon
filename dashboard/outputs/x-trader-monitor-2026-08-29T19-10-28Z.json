@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_killaXBT"
+      ]
+    },
+    "tweet_killaXBT": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "If I missed a 40% move, I'd be fucking furious too... Market psychology commentary on traders stuck sidelined. Chart validates 57K–81K recovery (+40%). Aligns with documented bull thesis."
+      },
+      "children": []
+    }
+  }
+}
