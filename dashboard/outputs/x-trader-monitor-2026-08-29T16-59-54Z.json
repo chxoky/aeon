@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @swarmister"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_card",
+        "text_analysis",
+        "text_prior",
+        "separator",
+        "text_question",
+        "link_tweet"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0xelevenquit in sequence",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "@0xelevenquit Fair"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "One-word cryptic bare reply (no external context visible).",
+        "variant": "body"
+      }
+    },
+    "text_prior": {
+      "type": "Text",
+      "props": {
+        "text": "Same user as prior ambiguous \"Explain\" message 16:42Z same day.",
+        "variant": "caption"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — your read?",
+        "variant": "lead"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2093743775810015617"
+      }
+    }
+  }
+}
