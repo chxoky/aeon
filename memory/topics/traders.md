@@ -467,6 +467,7 @@
   - Aug 28 19:33Z — informational: Trading philosophy + BTC bottom conviction reaffirmation; "trade the market for what it's doing, not what you want to happen"; market structure observation "trend has shifted. That isn't an opinion, it's TA"; dismissal of seasonality patterns; "bitcoin:native bottom is in" — reiterates prior Aug 21 bottom call; no personal action language [$BTC] [2093421735571779969]
   - Aug 29 10:55Z — informational: BTC re-accumulation pattern thesis (parallel 2022 PA structure); conditional scalp long setup at 75.6K if channel breaks; chart-driven analysis; "As long as we hold the channel low, the structure remains valid" [$BTC] [2093653732932096041]
   - Aug 29 12:59Z — informational: BTC liquidation structure analysis via heatmap; 2.98B short liq at 82.9K, 20B long liq if 61K hit; MMs positioned from below; market structure prediction on next HTF area [$BTC] [2093684844727263499]
+  - Aug 29 17:00Z — informational: BTC market psychology/bear-PTSD lesson; "stop trading market you remember, start trading market in front"; regime-shift recognition importance; historical cycle pattern (conditioning from repeated drawdowns); no personal execution language [$BTC] [2093745497899245609]
 ## trading_axe
 
 - Platforms: X (Twitter)
