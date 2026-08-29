@@ -1,0 +1,39 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "[Macro Scenario] @Wild_Randomness"
+      },
+      "children": [
+        "tweet-1",
+        "separator-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "What if China steps into the gold market next week and buys the soybean fed paper-handed American panic sells?\n\nTechnical Confluence:\n- XAUUSD: Consolidation structure, ready for recovery setup\n- USO2Y: 2Y yields rising into 4.3-4.4% (deflationary rate pressure)\n- DXY: Weak consolidation, dollar pressure (commodity tailwind)\n\nMacro dispersion scenario: commodity exporters face USD weakness + potential Chinese commodity demand shift."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2093750299475530001"
+      }
+    }
+  }
+}
