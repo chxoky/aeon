@@ -1,0 +1,113 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "event-info",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "context-stack",
+        "sep-3",
+        "alert-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @mr_abundance_ at 2026-08-30T13:14:05Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@mr_abundance_ 🔄"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-pattern",
+        "context-emoji"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-pattern": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto pattern (Aug 30): cryptic bare mentions with emojis (multiple pending calibrations since 12:16Z).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context-emoji": {
+      "type": "Text",
+      "props": {
+        "text": "Rotation emoji (🔄) could indicate asset rotation, cycle change, or sentiment shift — but original @mr_abundance_ trigger post unavailable.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
