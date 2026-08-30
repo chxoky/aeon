@@ -1,0 +1,103 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "text_unable",
+        "questions_stack",
+        "separator_2",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @Bermyden 2551. Tiny Sl",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "questions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_1",
+        "question_2",
+        "question_3"
+      ]
+    },
+    "question_1": {
+      "type": "Text",
+      "props": {
+        "text": "What does \"2551\" reference?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question_2": {
+      "type": "Text",
+      "props": {
+        "text": "Does this signal a personal trade action or market sentiment?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question_3": {
+      "type": "Text",
+      "props": {
+        "text": "Which asset/ticker is this related to?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2094011854582366462"
+      },
+      "children": []
+    }
+  }
+}
