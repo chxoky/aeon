@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "quote_text",
+        "question_text",
+        "link_view"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: reply to @0xtygra on market catalyst narratives",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"think abt it like this: it needs a big player to adopt a tech to kick off a narrative. i would even argue hip-5 options would be the catalyst that sparks it, not the end\""
+      },
+      "children": []
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2093877942250017239"
+      },
+      "children": []
+    }
+  }
+}
