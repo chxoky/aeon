@@ -1,0 +1,78 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event_text",
+        "separator1",
+        "tweet",
+        "classification_alert",
+        "separator2",
+        "story_link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @blknoiz06 with t.co link (unresolvable), continuing pattern of cryptic messaging (Aug 26-30)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Nigga?"
+      },
+      "children": []
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Asset/intent/external context unclear.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/trading_axe/status/20941201898224640666",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
