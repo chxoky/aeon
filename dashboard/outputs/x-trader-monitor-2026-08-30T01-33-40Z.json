@@ -1,0 +1,59 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — x-trader-monitor",
+        "description": "Reply to @0xtygra"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "alert-issue",
+        "text-question",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "why would it be bearish for drv tho (at this stage)"
+      }
+    },
+    "alert-issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "\"drv\" (DRV ticker? derivatives? other asset?) and the original assertion unknown without @0xtygra's context.",
+        "type": "info"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2093874181821669615"
+      }
+    }
+  }
+}
