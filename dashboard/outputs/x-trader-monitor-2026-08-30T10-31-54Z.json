@@ -1,0 +1,157 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "status_badge",
+        "sep1",
+        "earlier_section",
+        "sep2",
+        "resolved_section",
+        "sep3",
+        "interpretation_section",
+        "sep4",
+        "link_section"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Self-resolved — @t_in_crypto",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "earlier_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "earlier_heading",
+        "earlier_tweet",
+        "earlier_timestamp"
+      ]
+    },
+    "earlier_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier ambiguous",
+        "level": "h4"
+      }
+    },
+    "earlier_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "You don't understand what awaits you all from tomorrow until the fourth week of September $btc"
+      }
+    },
+    "earlier_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 30 04:35Z",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "resolved_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resolved_heading",
+        "resolved_tweet",
+        "resolved_timestamp"
+      ]
+    },
+    "resolved_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolved by",
+        "level": "h4"
+      }
+    },
+    "resolved_tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Haha 100% YES! They laughed at me for almost two months, but the market quickly put them in their place"
+      }
+    },
+    "resolved_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 30 10:25Z",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "interpretation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interpretation_heading",
+        "interpretation_text"
+      ]
+    },
+    "interpretation_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h4"
+      }
+    },
+    "interpretation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market validation of prior cryptic BTC prediction",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_link"
+      ]
+    },
+    "source_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original tweet",
+        "href": "https://x.com/t_in_crypto/status/2094008708183322666",
+        "source": "X"
+      }
+    }
+  }
+}
