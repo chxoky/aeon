@@ -1,9 +1,6 @@
-🔍 *Calibration — @trading_axe*
+🔍 *Calibration — @HeartCanHodl*
 
-Event: Reply to @blknoiz06 with t.co link (unresolvable), continuing pattern of cryptic messaging (Aug 26-30)
+Event: Reply to @QwQiao mentioning historical political figure (Lee Kuan Yew)
+Post: "@QwQiao Lee Kuan Yew"
 
-trading_axe: "Nigga?"
-
-Unable to classify — what's your read? Asset/intent/external context unclear.
-
-[View post](https://x.com/trading_axe/status/20941201898224640666)
+Unable to classify — what's your read? (Political reference, crypto sarcasm, or non-financial banter?)

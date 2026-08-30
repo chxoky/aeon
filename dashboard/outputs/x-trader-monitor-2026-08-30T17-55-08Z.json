@@ -1,0 +1,102 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_cal",
+        "separator_1",
+        "event_text",
+        "post_text",
+        "separator_2",
+        "question_text",
+        "options_stack"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @HeartCanHodl",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @QwQiao mentioning historical political figure (Lee Kuan Yew)"
+      },
+      "children": []
+    },
+    "post_text": {
+      "type": "Text",
+      "props": {
+        "text": "Post: \"@QwQiao Lee Kuan Yew\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_text": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_political",
+        "badge_sarcasm",
+        "badge_banter"
+      ]
+    },
+    "badge_political": {
+      "type": "Badge",
+      "props": {
+        "text": "Political reference",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_sarcasm": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto sarcasm",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_banter": {
+      "type": "Badge",
+      "props": {
+        "text": "Non-financial banter",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
