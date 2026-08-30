@@ -1,0 +1,99 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis-section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Data vs positioning vs sentiment surveys\n\n\"The data is the data…\n\nBut knowledge is also vol dampening (especially when it's reflected in positioning… far more important that sentiment surveys which give entirely different signals depending on the survey itself)\"\n\nChart (Carson Investment Research): September returns by year-type. Midterm years average +2.5%, non-midterm years negative/flat. Positioning knowledge (structural patterns) > sentiment-dependent signals.\n\nExtends Aug 30 16:07Z seasonality thesis with meta-analysis on why market-structure understanding beats survey noise."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source-text",
+        "returns-data",
+        "post-link"
+      ]
+    },
+    "source-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart Source: Carson Investment Research",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "returns-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "returns-title",
+        "midterm-return",
+        "nonmidterm-return"
+      ]
+    },
+    "returns-title": {
+      "type": "Heading",
+      "props": {
+        "text": "September Returns by Year-Type",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "midterm-return": {
+      "type": "Stat",
+      "props": {
+        "label": "Midterm Years Average",
+        "value": "+2.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "nonmidterm-return": {
+      "type": "Stat",
+      "props": {
+        "label": "Non-Midterm Years",
+        "value": "Negative/Flat",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2094097301384126602"
+      },
+      "children": []
+    }
+  }
+}
