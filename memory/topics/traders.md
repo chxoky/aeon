@@ -1,3 +1,13 @@
+## t_in_crypto
+
+- Platforms: X (Twitter)
+- Current open positions: Unknown (no prior tracking, first sighting Aug 30)
+- Recent thesis: Unknown
+- Conviction notes: Cryptic market sentiment on BTC structure; conditional language on time frame
+- Last seen: 2026-08-30T04:35:27Z
+- **Events (rolling):**
+  - Aug 30 04:35Z — ambiguous: Cryptic post "You don't understand what awaits you all from tomorrow until the fourth week of September $btc"; conditional time-frame language, mentions "trading plan" but unclear execution intent; references prior liquidations (Aug 17-20/21) as market observation; 2 images attached (pbs.twimg.com URLs, unreadable via sandbox); intent unclear (market sentiment/prediction vs personal trade setup?); HR-2 calibration alert sent to Kyle for interpretation [$BTC-UNKNOWN-SENTIMENT] [2093920510727885003]
+
 ## Crypto_Chase
 
 - Platforms: X (Twitter), Discord
