@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "@AndreaCapellin4 There are several levels between 46k and 42k. I even have lower levels that can't be ruled out, BUT only if we get there at a certain time. For me now this isn't \"the bull market has begun,\" but rather a liquidity hunt and a bull 🪤"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Contrarian BTC structure analysis — dismisses consensus bull thesis, identifies consolidation levels (46k/42k) with timing caveat; aligns with trader's positioning (long 58.4, top-of-range exit focus).",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
