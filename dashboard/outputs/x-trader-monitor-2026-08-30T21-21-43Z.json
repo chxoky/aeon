@@ -1,0 +1,106 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-conviction",
+        "tweet-card",
+        "separator1",
+        "context-section",
+        "question-text"
+      ]
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction Add",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ZEC just added another tranche at 845 level.\n\n\"Another tranche at 845\n\nSeems healthy overall, locally speaking\""
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-detail1",
+        "context-detail2",
+        "context-detail3",
+        "link-post"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Follows Aug 30 20:56Z ZEC re-entry at 853 (50% of 888 TP)",
+        "variant": "body"
+      }
+    },
+    "context-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "This is second-tranche conviction add at lower support",
+        "variant": "body"
+      }
+    },
+    "context-detail3": {
+      "type": "Text",
+      "props": {
+        "text": "Price levels: Re-entry at 853, Current add at 845, Target TP at 888",
+        "variant": "caption"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2094172895736185177"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your ZEC position too?",
+        "variant": "body"
+      }
+    }
+  }
+}

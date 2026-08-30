@@ -1,14 +1,12 @@
 ➕ *Conviction Add — @Wild_Randomness*
 
-Wild_Randomness just added back to their ZEC position at 853 (re-entry after 50% TP at 888).
+$ZEC just added another tranche at 845 level.
+"Another tranche at 845
 
-"Put about half of 888 TPs(~45% of 795 entry) back on at 853"
+Seems healthy overall, locally speaking"
 
-[View post](https://x.com/Wild_Randomness/status/2094167473809674501)
+Context: Follows Aug 30 20:56Z ZEC re-entry at 853 (50% of 888 TP). This is second-tranche conviction add at lower support.
 
-Want to add to yours too?
-🐦 *[X] @KillaXBT*
+[View post](https://x.com/Wild_Randomness/status/2094172895736185177)
 
-BTC never broke below the blue band and instead continued to respect it as support. Every time BTC has reclaimed and held above this blue band, it has marked a major pivot point in the broader trend direction. Trend is your friend. 😉
-
-[View tweet](https://x.com/KillaXBT/status/2094168515850682431)
+Want to add to your ZEC position too?
