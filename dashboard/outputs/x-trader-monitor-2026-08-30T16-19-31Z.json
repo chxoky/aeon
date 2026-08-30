@@ -1,0 +1,136 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market de-leverage analysis with September seasonality research"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Very nice for the market to be de-risked in advance of the guaranteed September Decline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "chart-analysis-text",
+        "metrics-grid",
+        "classification-section",
+        "separator-2",
+        "research-note",
+        "view-link"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Step 7 Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart-analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "US Fundamental Leverage (Gross vs Net) shows clear market de-leverage: from Aug 2025 peak (~67.5% net, ~230% gross) down to current levels (~50% net, ~180% gross). De-risking confirmed at fundamental level.",
+        "variant": "body"
+      }
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "metric-net-change",
+        "metric-gross-change"
+      ]
+    },
+    "metric-net-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Net Leverage",
+        "value": "50%",
+        "delta": "-17.5%",
+        "trend": "down"
+      }
+    },
+    "metric-gross-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Gross Leverage",
+        "value": "180%",
+        "delta": "-50%",
+        "trend": "down"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-label",
+        "classification-text"
+      ]
+    },
+    "classification-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h4"
+      }
+    },
+    "classification-text": {
+      "type": "Text",
+      "props": {
+        "text": "Informational macro sentiment + technical validation of Sept bearish setup",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "research-note": {
+      "type": "Text",
+      "props": {
+        "text": "Continues Aug 30 16:07Z September seasonality research theme; fundamental deleveraging now provides technical confirmation.",
+        "variant": "muted"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2094096711363031164"
+      }
+    }
+  }
+}
