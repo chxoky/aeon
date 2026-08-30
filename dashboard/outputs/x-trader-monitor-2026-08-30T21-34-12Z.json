@@ -1,0 +1,47 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "event-info",
+        "tweet-card",
+        "classification-note"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @volatilitycel (original post unavailable)",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Yeah that makes sense, tracks well"
+      }
+    },
+    "classification-note": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read? (asset/intent unclear)",
+        "type": "warning"
+      }
+    }
+  }
+}
