@@ -1,0 +1,117 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "market-section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Bears Monday: it's just EOM window dressing…\n\nBears Tuesday: it's just BOM flows\n\nLet's see https://x.com/Wild_Randomness/status/2094109691064533383"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-heading",
+        "market-grid",
+        "analysis-stack"
+      ]
+    },
+    "market-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Structure Commentary",
+        "level": "h3"
+      }
+    },
+    "market-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "xyz100-stat",
+        "qqq-support-stat",
+        "qqq-change-stat",
+        "timeframe-badge"
+      ]
+    },
+    "xyz100-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XYZ100 Consolidation Range",
+        "value": "29.6–29.7K"
+      }
+    },
+    "qqq-support-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ Support Level",
+        "value": "716"
+      }
+    },
+    "qqq-change-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "QQQ Change",
+        "value": "-0.65%",
+        "trend": "down"
+      }
+    },
+    "timeframe-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4-hour timeframe",
+        "variant": "secondary"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-text1",
+        "analysis-text2"
+      ]
+    },
+    "analysis-text1": {
+      "type": "Text",
+      "props": {
+        "text": "Trader observing bears attributing chop to month-end/month-start positioning rather than fundamentals.",
+        "variant": "body"
+      }
+    },
+    "analysis-text2": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation of macro September bearish setup (deleveraging + valuation extremes + seasonal risk) + QQQ consolidation at key technical zone awaiting breakout direction.",
+        "variant": "body"
+      }
+    }
+  }
+}
