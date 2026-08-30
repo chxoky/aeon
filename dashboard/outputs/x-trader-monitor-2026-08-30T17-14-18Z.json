@@ -1,0 +1,193 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$ZEC — Ahead of schedule"
+      },
+      "children": [
+        "tweet_stack",
+        "sep_1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ZEC\n\nAhead of schedule"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2094110529182990571"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "timeframe_badge",
+        "chart_items",
+        "recovery_stat",
+        "interpretation_group",
+        "sep_2",
+        "validation_section"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Step 7 Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "timeframe_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "4H ZECUSD",
+        "variant": "secondary"
+      }
+    },
+    "chart_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_1",
+        "item_2",
+        "item_3"
+      ]
+    },
+    "item_1": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC rallying hard with strong upside momentum",
+        "variant": "body"
+      }
+    },
+    "item_2": {
+      "type": "Text",
+      "props": {
+        "text": "Approaching 888.01 resistance",
+        "variant": "body"
+      }
+    },
+    "item_3": {
+      "type": "Text",
+      "props": {
+        "text": "Recovery +44% from Aug 26 capitulation lows",
+        "variant": "body"
+      }
+    },
+    "recovery_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery",
+        "value": "+44%",
+        "trend": "up"
+      }
+    },
+    "interpretation_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_1",
+        "interp_2",
+        "interp_3"
+      ]
+    },
+    "interp_1": {
+      "type": "Text",
+      "props": {
+        "text": "\"Ahead of schedule\" = rally pace exceeding typical recovery timeline",
+        "variant": "caption"
+      }
+    },
+    "interp_2": {
+      "type": "Text",
+      "props": {
+        "text": "No personal execution language",
+        "variant": "caption"
+      }
+    },
+    "interp_3": {
+      "type": "Text",
+      "props": {
+        "text": "Technical validation of bullish recovery thesis",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "validation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "val_heading",
+        "val_1",
+        "val_2"
+      ]
+    },
+    "val_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Validation",
+        "level": "h4"
+      }
+    },
+    "val_1": {
+      "type": "Text",
+      "props": {
+        "text": "Validates prior Aug 30 15:56Z recovery call",
+        "variant": "body"
+      }
+    },
+    "val_2": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces WR existing ZEC long conviction",
+        "variant": "body"
+      }
+    }
+  }
+}
