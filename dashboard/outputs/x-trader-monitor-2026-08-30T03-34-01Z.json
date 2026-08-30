@@ -1,0 +1,208 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto",
+        "description": "Classification challenge for single-word reply"
+      },
+      "children": [
+        "event-section",
+        "sep-1",
+        "tweet-section",
+        "sep-2",
+        "context-section",
+        "sep-3",
+        "analysis-section"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-meta"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @RAFAELA_RIGO_ at 2026-08-30T03:29:59Z",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-heading",
+        "tweet-card"
+      ]
+    },
+    "tweet-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "text": "Oh"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "trader-badges",
+        "position-stat",
+        "pattern-details"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Context",
+        "level": "h3"
+      }
+    },
+    "trader-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-contrarian",
+        "badge-bullish",
+        "badge-btc"
+      ]
+    },
+    "badge-contrarian": {
+      "type": "Badge",
+      "props": {
+        "text": "contrarian"
+      }
+    },
+    "badge-bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "bullish",
+        "variant": "secondary"
+      }
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC trader",
+        "variant": "secondary"
+      }
+    },
+    "position-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "58.4"
+      }
+    },
+    "pattern-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pattern-line-1",
+        "pattern-line-2"
+      ]
+    },
+    "pattern-line-1": {
+      "type": "Text",
+      "props": {
+        "text": "Recent pattern (Aug 29): Dismissal of bearish thesis on BTC with strong technical opinions",
+        "variant": "caption"
+      }
+    },
+    "pattern-line-2": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic-reply pattern documented: 3 pending calibrations Aug 29",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "classification-alert",
+        "question-text"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Challenge",
+        "level": "h3"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Single-word reply with no visible addressee context. Possible interpretations: agreement/disagreement, sarcasm, banter, BTC-related technical signal, or market sentiment reaction?",
+        "type": "warning"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
