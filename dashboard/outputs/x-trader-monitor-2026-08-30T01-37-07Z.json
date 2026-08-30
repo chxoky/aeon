@@ -1,0 +1,119 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "badge-author",
+        "text-event",
+        "sep-1",
+        "tweet-card",
+        "text-media-note",
+        "sep-2",
+        "heading-analysis",
+        "alert-image",
+        "text-question",
+        "sep-3",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge-author": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "default"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0xDawny questioning DefiLlama data validation",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "maybe, im looking at @DefiLlama is their data wrong?"
+      }
+    },
+    "text-media-note": {
+      "type": "Text",
+      "props": {
+        "text": "Contains: t.co link, image (HQ7wN9CWEAAb0zY.jpg)",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "alert-image": {
+      "type": "Alert",
+      "props": {
+        "title": "Image unavailable",
+        "message": "Image (HQ7wN9CWEAAb0zY.jpg) unavailable for Step 7 analysis (sandbox limitation). No ticker/context visible. Unable to determine which data metric is being questioned or whether this is actionable.",
+        "type": "warning"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2093875004274266460"
+      }
+    }
+  }
+}
