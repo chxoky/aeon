@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Market Sentiment",
+        "description": "Week ending 8/26 sentiment analysis from @Wild_Randomness"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "sentiment_section",
+        "separator_2",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "For example, other sentiment surveys are showing the market decidedly bearish\n\nIt's a mixed bag at best\n\nChart: Week ending 8/26: 44.4% bearish (vs 31.5% historical avg), 32.9% bullish, 22.6% neutral\n\nValidates Aug 30 16:17Z positioning-vs-sentiment thesis with concrete data."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_heading",
+        "stats_grid"
+      ]
+    },
+    "sentiment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Week Ending 8/26 Sentiment Breakdown",
+        "level": "h3"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_bearish",
+        "stat_bullish",
+        "stat_neutral"
+      ]
+    },
+    "stat_bearish": {
+      "type": "Stat",
+      "props": {
+        "label": "Bearish",
+        "value": "44.4%",
+        "delta": "+12.9% vs historical avg",
+        "trend": "down"
+      }
+    },
+    "stat_bullish": {
+      "type": "Stat",
+      "props": {
+        "label": "Bullish",
+        "value": "32.9%"
+      }
+    },
+    "stat_neutral": {
+      "type": "Stat",
+      "props": {
+        "label": "Neutral",
+        "value": "22.6%"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2094098789489635618"
+      }
+    }
+  }
+}
