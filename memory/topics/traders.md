@@ -565,8 +565,9 @@
 - Last seen: 2026-08-28T17:22:16Z
 - **Events (rolling):**
   - Aug 28 17:22Z — informational: $XMR 1H short setup; distribution pattern POI retest; downside targets marked [20933887083933148463]
-- Last seen: 2026-08-28T17:25:35Z
+- Last seen: 2026-08-30T10:14:19Z
 - **Events (rolling):**
+  - Aug 30 10:14Z — informational: $ETH 1D bearish Order Block retest setup; existing short from ~2,540, anticipating final retest on OB at ~$2,651 before downside continuation; technical levels marked: $2,356 / $2,287 / $2,117; conditional "can be used to consider new short" = setup sharing, not new execution; Step 7 chart resolved clear POI/reversal structure; alerted Kyle [$ETH-SHORT-SETUP] [2094005789962760340]
   - Aug 28 17:40Z — ambiguous: "@Dalio777 I have some orders" chart shows "re-enter POI zone" but ticker unspecified; intent unclear (personal execution vs sharing); HR-2 calibration sent [$UNKNOWN] [2093393401794215996]
   - Aug 28 17:25Z — mirror-partial-tp: BTC short 50% closed; "taking a partial profit" + POI re-entry plan in charts (80K-81K zone); downstream short still 50% open with break-even SL; updated thesis: selective TP on underwater -179% position shows conviction maintenance; charts clear (TradingView multi-level structure) [$BTC-SHORT-TP] [2093389546213822596]
   - Aug 28 10:40Z — informational: endorsing Marmot's BTC technical analysis on consolidation structure; volume profile + multi-timeframe VWAP levels (365d/7d/30d/90d rvwap, ATH avwap 78,263.9, 2026 avwap 71,344.5, lowest dip target 74,000); current 80,976.1 consolidation; agreement post "Marmot added to my analysis, and I fully agree with his thoughts"; no personal execution language; Step 7 chart analysis: sophisticated volume-weighted structure with gap analysis and key reversal levels marked [$BTC-MARMOT-ANALYSIS] [2093287714820911159]
