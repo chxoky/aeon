@@ -62,6 +62,9 @@
 - Last seen: 2026-08-30T17:07:11Z
 - **Events (rolling):**
   - Aug 30 17:07Z — informational: Market structure commentary on EOM vs BOM mechanics. "Bears Monday: it's just EOM window dressing... Bears Tuesday: it's just BOM flows. Let's see". Step 7 charts: (1) XYZ100 1H perpetual consolidation around 29,596-29,700 zone with recent 29,397 spike low; (2) QQQ fresh retest at 716.43 support with clear multi-level structure (740/720/700/680/660/640 zones marked). Trader observing that market bears are attributing moves to month-end/month-start positioning mechanics rather than fundamentals — setup-awaiting-direction posture. Continuation of macro bearish September + dispersion-trade conviction framework from prior Aug 30 16:07Z-16:53Z posts. No personal execution language (commentary, not "I entered/exited"). [$MACRO/$XYZ100/$QQQ-TECHNICAL-STRUCTURE] [2094109691064533383]
+- Last seen: 2026-08-30T17:29:08Z
+- **Events (rolling):**
+  - Aug 30 17:29Z — informational: Pre-Jackson Hole highs retest technical setup. "Probably a dumb statement, but I can't help but think my bull-posting crusade this weekend is influencing some things"; Market sentiment on consolidation sustainability. "Back to the pre-JH highs…We'll know more at the far more liquid futures open tonight and subsequent NY open tomorrow"; cryptic skepticism on bounce ("Some skepticism this doesn't snap back"). Step 7 chart: XYZ100 4H consolidation 29,436 (-103, -0.35%), prior resistance 29,800 (pre-JH highs), support 29,000-29,200 zone. Macro sentiment awaiting futures/NY open catalyst confirmation; continuation of Aug 30 17:07Z EOM/BOM mechanics commentary + macro dispersion framework. No personal execution language (market structure observation, not personal action). [$XYZ100/$QQQ/$MACRO] [2094115212320555226]
 - Last seen: 2026-08-30T17:14:33Z
 - **Events (rolling):**
   - Aug 30 17:14Z — mirror-partial-tp: ZEC Partial TP at 888 pivot; planning 25% more off [2094111544049316017]

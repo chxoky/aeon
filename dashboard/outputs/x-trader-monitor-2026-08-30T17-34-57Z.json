@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "separator_1",
+        "text_analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Probably a dumb statement, but I can't help but think my bull-posting crusade this weekend is influencing some things\n\nBack to the pre-JH highs…\n\nWe'll know more at the far more liquid futures open tonight and subsequent NY open tomorrow\n\nSome skepticism this doesn't snap back"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2094115212320555226"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "XYZ100 4H chart shows consolidation around 29,436 with prior resistance 29,800 (pre-Jackson Hole highs); awaiting futures/NY open catalyst confirmation on sustainability of bounce.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
