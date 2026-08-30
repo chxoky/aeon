@@ -235,12 +235,13 @@
 ## Crypto_Chase
 
 - Platforms: X (Twitter) + Discord
-- Current open positions: HYPE long (entry Aug 21 14:10Z 3-confluence; 1/3 TP Aug 22 13:21Z; 2/3 ACTIVE — reaffirmed Aug 28 "Yes, still the play"). ETH long (entry Aug 22 22:01Z; 1/3 fill Aug 23; 1/3 TP Aug 23; ~2/3 ACTIVE, pending Kyle approval to mirror). Gold long (entry Aug 28 16:44Z, pending Kyle `approve GOLD`; 1.6R target; invalidation = full bullish leg retracement). BTC limit-order DCA (Aug 30 01:48Z; 0.7R per level x2, 1.4R total risk; pending Kyle `approve BTC-DCA-CHASE`).
+- Current open positions: HYPE long (entry Aug 21 14:10Z 3-confluence; 1/3 TP Aug 22 13:21Z; 2/3 ACTIVE — reaffirmed Aug 28 "Yes, still the play"). ETH long (entry Aug 22 22:01Z; 1/3 fill Aug 23; 1/3 TP Aug 23; ~2/3 ACTIVE, pending Kyle approval to mirror). Gold long (entry Aug 28 16:44Z, pending Kyle `approve GOLD`; 1.6R target; invalidation = full bullish leg retracement). **BTC + HYPE multi-asset DCA (Aug 30 23:53Z; 1.3R BTC + 0.7R HYPE = 2R total risk; fill within next few days optimally tonight/tomorrow/Tuesday; pending Kyle `approve BTC-HYPE-DCA-CHASE`)**. Prior BTC limit-order DCA (Aug 30 01:48Z; 0.7R per level x2, 1.4R total risk; pending Kyle `approve BTC-DCA-CHASE`).
 - Recent thesis: Technical entry trader; breakaway gap thesis; HYPE/ETH/GOLD confluence setups. No interest in shorts unless "super clean" setup. Order layering: 3-5 tranches at varying demand zones. High-confidence setup discipline — wait. BTC optimal bid zone 74.5K-76.2K (74.3 add, invalidation below 72K high). Gold: 0.5-618 fib + MA retest + consolidation confluence. Copy-trading difficulty escalating ("PvE phase peaked").
 - Conviction notes: Known for correct ~20-min pre-BTC-breakout call Aug 20. Formations = "bait for newbies." "Levels are just areas I'm willing to buy." HTF sweeps not a factor in methodology. Conditional macro short Aug 20 "sub 50% area" superseded by current bullish stance.
 - Calibration: PENDING Aug 28 03:08Z (@CanixXS URL t.co link; context unknown), PENDING Aug 27 20:34Z ("I don't use H12"; context unknown), PENDING Aug 26 20:02Z (hmmmmm + chart attachment), PENDING Aug 25 14:53Z ("but yes after real pullback, long dip")
-- Last seen: 2026-08-30T20:29:xx
+- Last seen: 2026-08-30T23:53:29Z
 - **Events (rolling):**
+  - Aug 30 23:53Z — trade-new-entry: HYPE long + BTC multi-asset DCA; 1.3R BTC / 0.7R HYPE allocation; 2R total risk; fill within next few days (optimally tonight, tomorrow, or Tuesday); attached chart [$HYPE/$BTC] [1543770669626564668]
   - Aug 26 16:30Z — informational: "borderline 0% chance full retracement if healthy breakout" [$BTC] [1542209632456675400]
   - Aug 26 16:31Z — informational: "won't see those prices for months at best" [$PRICE-STRUCTURE] [1542209794901938266]
   - Aug 26 20:02Z — ambiguous: "hmmmmm" + chart; no ticker; HR-2 sent [$UNKNOWN] [1542262885080764477]
