@@ -777,8 +777,9 @@
 - Recent thesis: Jackson Hole bounce/cleanup move underway; BTC trading below ATH AVWAP/7D RVWAP; technical structure consolidation; market bias: not going back to 60s (bullish longer-term)
 - Conviction notes: Technical analyst on structure + price-action commentary; leverage trader (10x longs active); documented personal executions (PUMP/ZEC long positions with specific entry/mark prices); community presence (references pre-arranged morning discussion with Kyle)
 - Calibration: PENDING Aug 28 13:54Z (CASHCAT entry order-type ambiguity)
-- Last seen: 2026-08-30T00:23:31Z
+- Last seen: 2026-08-30T01:04:49Z
 - **Events (rolling):**
+  - Aug 30 01:04Z — informational: On-chain options DEX (DERIVE token) technical setup; 4H chart showing consolidation 0.10-0.11 support, current 0.17316; identifies $0.20 breakout level for price discovery; mentions $5M 24h volume, smallest coin in "starkiller article"; no execution language (trade idea, not personal action); Step 7 chart: RSI 59.46 neutral-to-bullish, volume-profile support structure. Single-mention quiet ticker, no Kyle alert. [$DERIVE-TECHNICAL] [2093867503424287093]
   - Aug 30 00:23Z — informational: FWA project backing/supply mechanics analysis; reply defending @Rhynotic against prior governance criticism (Aug 29 21:39Z); detailed thesis on redemption-unlock risk (430-unit supply, 7x orderbook imbalance, dump risk if 15%+ redeem); yield-structure confusion (yield = NFT floor value, not FWA token); successful-vs-failed launch scenarios; no personal execution language; market-structure commentary [$FWA-PROJECT] [2093857107611160670]
   - Aug 29 08:14Z — ambiguous: "@standard_rsv i like how this looks but how to get in"; reply to @standard_rsv on unvisible chart/setup reference; exploratory language ("how to get in" = asking for entry guidance, not execution); unable to determine asset/intent without original post; media empty; HR-2 calibration sent [$UNKNOWN] [2093613300214895064]
   - Aug 29 00:48Z — informational: BTC pullback mode + PUMP/ZEC position updates; Base froth signal [2093500945103831084]
