@@ -1,7 +1,17 @@
-🔁 *Mirrored — @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-ZEC — Partial profit-taking executed.
+bitcoin:native
 
-Wild_Randomness just took about 1/3 off on their ZEC position. Planning to take another ~25% off at 888 pivot, then re-entry above.
+Patience.
 
-[View post](https://x.com/Wild_Randomness/status/2094111544049316017)
+This will probably take time to materialize, but the setup remains the same: sweep the highs, quick wick lower to flush the late longs, then expansion.
+
+I don't expect this to happen overnight. More likely, it takes time to develop and plays out sometime next year.
+
+We have already had a very nice meaningful push up.
+
+---
+
+**Chart Context:** Technical structure labeled 86.5K (sweep), 82.2K (flush zone), 62.6K (2X swing entry)
+
+[View tweet](https://x.com/KillaXBT/status/2094113412917641589)

@@ -1,0 +1,95 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_asset",
+        "tweet_card",
+        "separator_1",
+        "heading_context",
+        "table_levels",
+        "separator_2",
+        "link_view"
+      ]
+    },
+    "badge_asset": {
+      "type": "Badge",
+      "props": {
+        "text": "bitcoin:native",
+        "variant": "secondary"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Patience.\n\nThis will probably take time to materialize, but the setup remains the same: sweep the highs, quick wick lower to flush the late longs, then expansion.\n\nI don't expect this to happen overnight. More likely, it takes time to develop and plays out sometime next year.\n\nWe have already had a very nice meaningful push up."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "table_levels": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Level",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Sweep",
+            "86.5K"
+          ],
+          [
+            "Flush zone",
+            "82.2K"
+          ],
+          [
+            "2X swing entry",
+            "62.6K"
+          ]
+        ]
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2094113412917641589"
+      }
+    }
+  }
+}
