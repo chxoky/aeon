@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "When the price rose above 72,000, I immediately wrote in my group that there was no point in opening short positions because we'd at least reach 76-78! There's a market structure that depends on geometry and mathematics"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Continues bullish range structure thesis from Aug 29 (dismissal of shorts, BTC consolidation 76-87K); targets 76-78K as minimum continuation from 72K breakout; aligns with large BTC long (58.4 entry) positioning.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
