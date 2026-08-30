@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: ZEC Technical Analysis"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ZEC\n\nZ Cashing [charts show strong recovery structure]\n\nStep 7 chart analysis: ZECUSD 4H recovery from ~$608 lows (Aug 26) to $821-865 current (+33.4% 24h). Multi-level support (756.72, 788.97) + resistance zones (850, 888, 920). Moving averages bullish-aligned, RSI momentum recovering. No personal execution language (informational technical observation).\n\nContinuation of Aug 25 ZEC ATH retest conviction + prior Aug 21 long holdings. Bullish technical recovery validation."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_key_metrics",
+        "stat_change",
+        "text_price_analysis",
+        "text_support_resistance",
+        "text_technical_indicators",
+        "text_context",
+        "link_post"
+      ]
+    },
+    "heading_key_metrics": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Metrics",
+        "level": "h3"
+      }
+    },
+    "stat_change": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+33.4%",
+        "trend": "up"
+      }
+    },
+    "text_price_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "ZECUSD 4H recovery from ~$608 lows (Aug 26) to $821-865 current",
+        "variant": "body"
+      }
+    },
+    "text_support_resistance": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-level support: 756.72, 788.97 | Resistance zones: 850, 888, 920",
+        "variant": "body"
+      }
+    },
+    "text_technical_indicators": {
+      "type": "Text",
+      "props": {
+        "text": "Moving averages bullish-aligned, RSI momentum recovering. Informational technical observation - no personal execution language.",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Continuation of Aug 25 ZEC ATH retest conviction + prior Aug 21 long holdings. Bullish technical recovery validation.",
+        "variant": "caption"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2094091970864124261"
+      }
+    }
+  }
+}
