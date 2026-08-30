@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_root"
+      ]
+    },
+    "stack_root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "badge_signal",
+        "link_to_post",
+        "separator2",
+        "text_analysis"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "When the Quant speaks, You listen."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "bitcoin:native",
+        "variant": "default"
+      }
+    },
+    "link_to_post": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet on X",
+        "href": "https://x.com/KillaXBT/status/2094036159328362654"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Amplifying bullish BTC signal from Quant analyst (native Bitcoin). Aligns with KillaXBT's existing HTF 2x long conviction.",
+        "variant": "body"
+      }
+    }
+  }
+}
