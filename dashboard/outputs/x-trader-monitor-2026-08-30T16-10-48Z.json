@@ -1,0 +1,97 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "data_heading",
+        "returns_grid",
+        "separator_2",
+        "context_text",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Research share: Carson Investment Research data on the best four September returns ever (1950-current) — all occurred in midterm election years (2010: 8.8%, 1954: 8.3%, 1998: 6.2%, 1950: 5.6%)."
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "data_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Best September Returns (Midterm Election Years)",
+        "level": "h3"
+      }
+    },
+    "returns_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_2010",
+        "stat_1954",
+        "stat_1998",
+        "stat_1950"
+      ]
+    },
+    "stat_2010": {
+      "type": "Stat",
+      "props": {
+        "label": "2010",
+        "value": "8.8%"
+      }
+    },
+    "stat_1954": {
+      "type": "Stat",
+      "props": {
+        "label": "1954",
+        "value": "8.3%"
+      }
+    },
+    "stat_1998": {
+      "type": "Stat",
+      "props": {
+        "label": "1998",
+        "value": "6.2%"
+      }
+    },
+    "stat_1950": {
+      "type": "Stat",
+      "props": {
+        "label": "1950",
+        "value": "5.6%"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Contextualizes his Septembear seasonality thesis from Aug 29 — adds midterm-year lens to seasonal patterns.",
+        "variant": "muted"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2094094720268124313"
+      }
+    }
+  }
+}
