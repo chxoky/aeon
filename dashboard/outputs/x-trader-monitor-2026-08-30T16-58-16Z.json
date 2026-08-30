@@ -1,0 +1,77 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — ENA Technical Analysis"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "analysis-stack",
+        "sep2",
+        "link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ENA — Technical retest at 0.1688 support level."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-h",
+        "chart-text",
+        "prior-text"
+      ]
+    },
+    "analysis-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis: Weekly shows 75%+ decline from peak; current 0.1688 = recovery bounce testing prior support (where trader exited Aug 28). 1H consolidation with declining RSI momentum suggests skepticism on recovery sustainability."
+      }
+    },
+    "prior-text": {
+      "type": "Text",
+      "props": {
+        "text": "Prior context: Aug 28 18:03Z closed ENA tactical position at this exact 0.1688 level with note 'will re-enter lower or on break' — this post appears to question whether price will hold or test lows again."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2094106274241868022"
+      }
+    }
+  }
+}
