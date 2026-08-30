@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "BTC/ETH trading below ATH AVWAP + 7d RVWAP levels. Market structure suggests -20% corrective move likely over next days, with 2026 VAH sweep as point of max opportunity.\n\nTwo scenarios: (1) -20% lower with decent likelihood before recovery, or (2) straight break upward (bull_genius prefers scenario 2 given spot-heavy positioning).\n\nTechnical chart attached to post."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2094013703070826511"
+      },
+      "children": []
+    }
+  }
+}

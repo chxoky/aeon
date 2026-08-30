@@ -1,3 +1,13 @@
+## bull_genius
+
+- Platforms: X (Twitter)
+- Current open positions: Unknown (first sighting Aug 30, no prior execution language tracked)
+- Recent thesis: Technical analysis on BTC/ETH trading below key levels (ATH AVWAP + 7d RVWAP); market structure expectation of -20% corrective move ("prepared to be adding -20% lower with a decent likelihood"); conditional leverage vs spot positioning discussion; macro scenario: 2026 VAH sweep as point of max opportunity
+- Conviction notes: First tracked Aug 30 10:45Z. Technical analyst sharing structured market outlook. Discusses two scenarios (downside -20% or straight upward breakout); emphasis on spot accumulation over aggressive leverage. Post includes technical chart reference (media).
+- Last seen: 2026-08-30T10:45:46Z
+- **Events (rolling):**
+  - Aug 30 10:45Z — informational: BTC/ETH technical level analysis + market structure outlook; two-scenario thesis (downside -20% vs upward breakout); conditional position-adding sentiment on dips (-20%); macro opportunity thesis on 2026 VAH sweep; Step 7 chart/media reference ($HQ9tj1QWgAE0KJs.jpg); technical analysis sharing, no personal execution language [$BTC/$ETH/$MACRO-STRUCTURE] [2094013703070826511]
+
 ## t_in_crypto
 
 - Platforms: X (Twitter)

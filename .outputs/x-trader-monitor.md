@@ -1,10 +1,10 @@
-Perfect! I've successfully executed the x-trader-monitor skill. Here's what was processed:
+🐦 *[X] @bull_genius*
 
-## Summary
+BTC/ETH trading below ATH AVWAP + 7d RVWAP levels. Market structure suggests -20% corrective move likely over next days, with 2026 VAH sweep as point of max opportunity.
 
-**Event:** Real-time tweet from @swarmister at 2026-08-30T10:40:35Z
+Two scenarios: (1) -20% lower with decent likelihood before recovery, or (2) straight break upward (bull_genius prefers scenario 2 given spot-heavy positioning).
 
-**Classification:** Non-financial / Platform meta-commentary (skip)
+Technical chart attached to post.
 
 **Details:**
 - Tweet ID: 2094012398185152541
@@ -32,3 +32,4 @@ Unable to classify — what's your read?
 - Which asset/ticker is this related to?
 
 [View post](https://x.com/swarmister/status/2094011854582366462)
+[View tweet](https://x.com/bull_genius/status/2094013703070826511)
