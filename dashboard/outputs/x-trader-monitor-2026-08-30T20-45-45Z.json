@@ -1,0 +1,88 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading1",
+        "badge1",
+        "text1",
+        "separator1",
+        "tweetcard1",
+        "separator2",
+        "alert1",
+        "link1"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Unknown context",
+        "variant": "outline"
+      }
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic standalone post, no recent trade or market reference visible",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Perhapsingly it is time.\n\n~ Dr. Axius."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What's your read? Matches Aug 26/27/29 pattern of cryptic \"Patience young padawan\" / motivational posts; asset/intent unclear"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2094163734365130757"
+      }
+    }
+  }
+}
