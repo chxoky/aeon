@@ -1,10 +1,11 @@
 ## Crypto_Chase
 
 - Platforms: X (Twitter), Discord
-- Current open positions: Last seen consolidation patience sentiment (Aug 29 13:53Z). Monitoring technical levels & consolidation structure for pullback signal.
-- Recent thesis: Gap analysis, support/resistance technical trading patterns, consolidation timing patience threshold.
-- Last seen: 2026-08-29T13:53:33Z
+- Current open positions: BTC limit-order DCA entry 2026-08-30T01:48Z (0.7R per level, 1.4R total risk). Multi-level bid structure awaiting market fill.
+- Recent thesis: Gap analysis, support/resistance technical trading patterns, consolidation timing patience threshold. Tactical BTC entry with disciplined risk sizing.
+- Last seen: 2026-08-30T01:48:08Z
 - **Events (rolling):**
+  - Aug 30 01:48Z — trade-new-entry: BTC bids set at 0.7R each level, 1.4R total risk if both orders fill; limit-order DCA structure (2-tier bids); primary channel highest-conviction entry; fast-path alerted by Cloudflare Worker (Telegram sent); awaiting Kyle `approve BTC-DCA-CHASE` to mirror on Kraken [$BTC-DCA-ENTRY] [1543437135707775038]
   - Aug 29 13:53Z — informational: consolidation patience/timing sentiment; "taking a bit too long" consolidation observation; looking for pullback next week; "no-trade situation" threshold condition; supporting channel member sentiment sharing; market structure conviction expression; no personal execution language [$CONSOLIDATION-TIMING] [1543257304730705930]
 - Current open positions: Continuation of gap/support level analysis (Aug 29 13:56Z). Monitoring technical levels.
 - Recent thesis: Gap analysis and support/resistance technical trading patterns.

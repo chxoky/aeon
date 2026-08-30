@@ -17,6 +17,24 @@
 
 ## Crypto_Chase
 
+### BTC (Bitcoin) — LONG (NEW ENTRY — 2026-08-30, LIMIT-ORDER DCA)
+- **Entry date**: 2026-08-30T01:48:08Z
+- **Entry message**: "Bids set on BTC, 0.7R at each level, 1.4R total risk if both orders fill."
+- **Entry type**: Limit orders (multi-level bid structure)
+- **Entry level**: Not specified (market-dependent fill, exact bids pending market action)
+- **Entry size**: Unknown (exact size/allocation not specified in post; awaiting Kyle approval)
+- **Position thesis**: Tactical DCA entry with disciplined risk management. 0.7R per bid level suggests 2 distinct bid levels for accumulation. Total 1.4R risk allocation caps downside exposure while maintaining multi-level entry opportunity.
+- **Risk structure**:
+  - Bid Level 1: 0.7R risk
+  - Bid Level 2: 0.7R risk
+  - Total risk if both fill: 1.4R
+- **Entry context**: Primary channel highest-conviction entry. Limit-order structure suggests patient accumulation strategy on tactical weakness. No market urgency ("bids set" = orders resting awaiting execution).
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve BTC-DCA-CHASE` to mirror on Kraken spot), or ignore to skip
+- **Trade alert format**: Step 5c (DCA plan with limit-order multi-level structure)
+- **Mirror instructions**: Upon Kyle approval, mirror BTC LONG limit orders on Kraken spot at corresponding bid levels (sizes to be specified by Kyle). Position will scale into market weakness via dual-tier bids.
+- **Alerted**: YES (2026-08-30T01:48:08Z, Discord fast-path alert sent by Cloudflare Worker)
+- **Last update**: 2026-08-30T01:48:08Z (discord-trader-monitor real-time event, step-5c pending approval, message_id=1543437135707775038)
+
 ### ETH (Ethereum) — LONG (NEW ENTRY — 2026-08-22, PARTIAL FILL 2026-08-23, PARTIAL TP 2026-08-23)
 - **Entry date**: 2026-08-22T22:01:13Z
 - **Entry message**: "ETH long, cancel if TP hits first"
