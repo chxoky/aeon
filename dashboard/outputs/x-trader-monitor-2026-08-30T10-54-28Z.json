@@ -1,0 +1,65 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Price zone scenario chain waypoints"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator",
+        "chart-context"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "bitcoin:native\n\nUpper 80s > Lower 70s.\nLower 70s > Upper 90s.\nUpper 90s > Lower 80s.\nLower 80s > 120s.\n\nHate the message, not the messenger."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/KillaXBT/status/2094014550379057520"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Price zone scenario chain marking waypoints. Aligns with documented re-accumulation thesis and 126K+ HTF target.",
+        "variant": "body"
+      }
+    }
+  }
+}
