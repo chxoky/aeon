@@ -1,5 +1,9 @@
 🐦 *[X] @Wild_Randomness*
 
-XYZ100 4H technical consolidation validation — sequential snapshots showing price confirmations on marked support/resistance levels. Consolidation 29,200-29,400 with key support 29,000-29,100.
+@chief_xbt ny session
 
-[View tweet](https://x.com/Wild_Randomness/status/2094186166107115773)
+My only point was that xyz100 got over its skis this weekend
+
+That has been resolved
+
+[View tweet](https://x.com/Wild_Randomness/status/2094190685666914497)
