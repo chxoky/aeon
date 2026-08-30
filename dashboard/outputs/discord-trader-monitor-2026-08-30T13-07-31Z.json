@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "text_summary",
+        "stat_support_zone",
+        "text_details"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "secondary"
+      }
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 4H consolidation zone with support highlighted",
+        "variant": "lead"
+      }
+    },
+    "stat_support_zone": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Zone",
+        "value": "$76.6K - $77K"
+      }
+    },
+    "text_details": {
+      "type": "Text",
+      "props": {
+        "text": "Technical structure analysis posted Aug 30 13:04Z post-DCA entry",
+        "variant": "caption"
+      }
+    }
+  }
+}
