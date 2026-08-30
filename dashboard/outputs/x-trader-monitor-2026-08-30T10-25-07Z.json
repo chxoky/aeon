@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "chart_analysis",
+        "view_tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "$BNB 4H Local Long\n\nConsolidation following a test of the bullish Order Block often leads to manipulation of the lows and a subsequent rally in the asset's price, which will be used to consider a long position.\n\nTargets are marked on the chart https://t.co/e4HeVjYUSU"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows: POI consolidation zone with annotated target levels (2.73% target visible). Setup qualifies as informational technical analysis—conditional language ('will be used to consider') rather than personal execution.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2094007746328752543"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,9 +1,11 @@
 🐦 *[X] @swarmister*
 
-$ETH 1D — Setup for short retest on bearish Order Block test.
+$BNB 4H Local Long
 
-"I'm already in a position from ~2,540, but the current structure suggests we can expect another, likely final, retest that will create even better conditions for a short. The bearish Order Block that has formed as the upper boundary of the range is being tested can be used to consider a new short position."
+Consolidation following a test of the bullish Order Block often leads to manipulation of the lows and a subsequent rally in the asset's price, which will be used to consider a long position.
 
-Target levels: $2,356 / $2,287 / $2,117 (marked on daily chart)
+Targets are marked on the chart https://t.co/e4HeVjYUSU
 
-[View post](https://x.com/swarmister/status/2094005789962760340)
+Chart shows: POI consolidation zone with annotated target levels (2.73% target visible). Setup qualifies as informational technical analysis—conditional language ('will be used to consider') rather than personal execution.
+
+[View tweet](https://x.com/swarmister/status/2094007746328752543)
