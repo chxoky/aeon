@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calib",
+        "separator_1",
+        "tweet_card",
+        "note_classify",
+        "separator_2",
+        "link_view"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Reply to @MylesGinvest: 🧐"
+      }
+    },
+    "note_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2094043330417992153"
+      }
+    }
+  }
+}
