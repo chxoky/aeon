@@ -1,0 +1,56 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event-info",
+        "tweet",
+        "analysis",
+        "question-text"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "variant": "lead"
+      }
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Just posted a reply to @bull_genius",
+        "variant": "body"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Pump ur pump"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cryptic informal language. Could be market sentiment, price action encouragement, or banter. Context of @bull_genius's original post not visible.",
+        "type": "info"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}
