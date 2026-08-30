@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "handle": "@Crypto_Chase",
+        "text": "Copy trading era cooling — market difficulty escalating. The \"PvE environment\" (easy-money phase) from past week/two likely peaked as mindshare maxes out. Runners have already 3x-100x; new entrants at disadvantage. Requires own thesis + early timing for next 100x+.\n\nI'd expect the difficulty level to increase from here moving forward. With that said, I have no doubt there's a runner, if not 3~ big runners, to find over the next month."
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Crypto_Chase/status/2094160688386121835"
+      },
+      "children": []
+    }
+  }
+}
