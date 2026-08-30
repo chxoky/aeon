@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration monitoring"
+      },
+      "children": [
+        "heading",
+        "event_type",
+        "tweet",
+        "separator",
+        "analysis_section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Stepn113/@Mrlegend2949 on market price opinion",
+        "variant": "muted"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "90? Not sure dear. A little bit higher than in may but not 90 or 90+ imo"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_unclear",
+        "asset_question"
+      ]
+    },
+    "ticker_unclear": {
+      "type": "Alert",
+      "props": {
+        "title": "Ticker Unclear",
+        "message": "\"90\" likely price level, unclear which asset — what's your read?",
+        "type": "warning"
+      }
+    },
+    "asset_question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this about BTC, another crypto, or equities?",
+        "variant": "lead"
+      }
+    }
+  }
+}
