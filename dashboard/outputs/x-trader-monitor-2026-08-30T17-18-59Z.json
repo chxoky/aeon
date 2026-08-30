@@ -1,0 +1,86 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "zec-badge",
+        "action-heading",
+        "description",
+        "details",
+        "link"
+      ]
+    },
+    "header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mirror-badge",
+        "trader-handle"
+      ]
+    },
+    "mirror-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔁 Mirrored"
+      }
+    },
+    "trader-handle": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "zec-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC"
+      }
+    },
+    "action-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Partial profit-taking executed",
+        "level": "h3"
+      }
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness just took about 1/3 off on their ZEC position."
+      }
+    },
+    "details": {
+      "type": "Text",
+      "props": {
+        "text": "Planning to take another ~25% off at 888 pivot, then re-entry above."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2094111544049316017"
+      }
+    }
+  }
+}
