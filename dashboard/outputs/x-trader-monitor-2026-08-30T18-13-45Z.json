@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "event_desc",
+        "sep1",
+        "tweet_card",
+        "alert_status",
+        "sep2",
+        "story_link"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Mention directed at @buyeropponzi with shortened t.co link (media unavailable)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "@buyeropponzi https://t.co/VxrXeWgSLA"
+      },
+      "children": []
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/trading_axe/status/2094125218360942597",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
