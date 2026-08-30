@@ -1,0 +1,125 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_status",
+        "text_author",
+        "separator_1",
+        "heading_earlier",
+        "text_earlier_quote",
+        "separator_2",
+        "heading_resolved",
+        "text_resolved_quote",
+        "separator_3",
+        "heading_classification",
+        "badge_classification",
+        "text_classification_detail",
+        "link_post"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved",
+        "variant": "default"
+      }
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "@t_in_crypto",
+        "variant": "muted"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_earlier": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier ambiguous (Aug 30 12:16Z)",
+        "level": "h4"
+      }
+    },
+    "text_earlier_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"90? Not sure dear. A little bit higher than in may but not 90 or 90+ imo\"",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_resolved": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolved by (Aug 30 13:58Z)",
+        "level": "h4"
+      }
+    },
+    "text_resolved_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Never say never in crypto but I don't see reaching 90k or higher\"",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h4"
+      }
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "secondary"
+      }
+    },
+    "text_classification_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish price sentiment on BTC not reaching 90k+ level. Predicts structural resistance/failure at 90k zone.",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2094062267624980562"
+      }
+    }
+  }
+}

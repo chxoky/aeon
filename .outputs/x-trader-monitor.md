@@ -1,9 +1,9 @@
-🔍 *Calibration — @t_in_crypto*
+✅ *Self-resolved — @t_in_crypto*
 
-Event: Reply to @mr_abundance_ at 2026-08-30T13:14:05Z
+Earlier ambiguous (Aug 30 12:16Z): "90? Not sure dear. A little bit higher than in may but not 90 or 90+ imo"
 
-@t_in_crypto: "@mr_abundance_ 🔄"
+Resolved by (Aug 30 13:58Z): "Never say never in crypto but I don't see reaching 90k or higher"
 
-Context: t_in_crypto pattern (Aug 30): cryptic bare mentions with emojis (multiple pending calibrations since 12:16Z). Rotation emoji (🔄) could indicate asset rotation, cycle change, or sentiment shift — but original @mr_abundance_ trigger post unavailable.
+Classification: **Informational** — Bearish price sentiment on BTC not reaching 90k+ level. Predicts structural resistance/failure at 90k zone.
 
-Unable to classify — what's your read?
+[View post](https://x.com/t_in_crypto/status/2094062267624980562)
