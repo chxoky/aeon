@@ -246,6 +246,7 @@
 - **Events (rolling):**
   - Aug 30 23:53Z — trade-new-entry: HYPE long + BTC multi-asset DCA; 1.3R BTC / 0.7R HYPE allocation; 2R total risk; fill within next few days (optimally tonight, tomorrow, or Tuesday); attached chart [$HYPE/$BTC] [1543770669626564668]
   - Aug 31 00:56Z — informational: supporting-channel reply to member question "did chase say 1R to him is 1% of his port?"; chase shares position-sizing clarification image; context: follow-up detail on Aug 30 23:53Z multi-asset DCA entry explaining risk allocation structure [Discord supporting channel — no standalone alert, folded into prior entry context]
+  - Aug 31 01:20Z — trade-order-adjustment: BTC bid reposition; move 2nd bid up from 75588 to 75831 (+$243); order management on Aug 30 23:53Z DCA entry [$BTC] [1543792569895354539]
   - Aug 26 16:30Z — informational: "borderline 0% chance full retracement if healthy breakout" [$BTC] [1542209632456675400]
   - Aug 26 16:31Z — informational: "won't see those prices for months at best" [$PRICE-STRUCTURE] [1542209794901938266]
   - Aug 26 20:02Z — ambiguous: "hmmmmm" + chart; no ticker; HR-2 sent [$UNKNOWN] [1542262885080764477]
