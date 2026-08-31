@@ -1,0 +1,47 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "source_info",
+        "tweet_card",
+        "view_link",
+        "interpretation"
+      ]
+    },
+    "source_info": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @Stoiiic",
+        "variant": "muted"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "BTC monthly (left 4H) and developing yearly (right 1D) consolidation structure.\n\nFor more pain in the interim, acceptance inside current month value. Currently trading around perimeter."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2094212043427528999"
+      }
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Dual-timeframe technical analysis showing BTC consolidation zone 77K-80K on 4H (red circle key zone) and monthly value acceptance range on 1D. Sentiment: expects continued consolidation before directional move; current range must hold for structure validity.",
+        "variant": "caption"
+      }
+    }
+  }
+}
