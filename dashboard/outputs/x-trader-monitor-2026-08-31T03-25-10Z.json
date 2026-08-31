@@ -1,0 +1,50 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "XAUUSD macro analysis from trader insights"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "platform",
+        "tweet",
+        "link"
+      ]
+    },
+    "platform": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "XAUUSD rate hike macro setup. Consolidation at 4,427-4,454 on weekly chart with Fibonacci retracement levels marked. 38.1% measured moves shown. DXY/yield dynamics alignment. Macro sentiment: next 2 weeks window before 60% rate hike event."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2094264214261244208"
+      }
+    }
+  }
+}

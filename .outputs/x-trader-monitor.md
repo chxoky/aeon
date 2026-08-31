@@ -1,9 +1,1 @@
-
-🐦 *[X] @Wild_Randomness*
-
-Bessen on the Trump account trying to stir things up and get filled on gold
-
-[View tweet](https://x.com/Wild_Randomness/status/2094263636357456100)
-
-↳ _Market structure observation on GOLD activity; aligns with bearish geopolitical outlook (oil/iran) thesis from Aug 31 02:15Z post._
-
+🐦 *[X] @Wild_Randomness* — XAUUSD rate hike macro setup. Consolidation at 4,427-4,454 on weekly chart with Fibonacci retracement levels marked. 38.1% measured moves shown. DXY/yield dynamics alignment. Macro sentiment: next 2 weeks window before 60% rate hike event. [View](https://x.com/Wild_Randomness/status/2094264214261244208)
