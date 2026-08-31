@@ -1,1 +1,6 @@
-🐦 *[X] @Wild_Randomness* — XAUUSD rate hike macro setup. Consolidation at 4,427-4,454 on weekly chart with Fibonacci retracement levels marked. 38.1% measured moves shown. DXY/yield dynamics alignment. Macro sentiment: next 2 weeks window before 60% rate hike event. [View](https://x.com/Wild_Randomness/status/2094264214261244208)
+🔍 *Calibration — @swarmister*
+
+Event: Reply to @based16z (context unknown)
+@swarmister: "That's how it is"
+
+Unable to classify — what's your read?

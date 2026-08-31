@@ -79,8 +79,8 @@
 - Current open positions: BTC SHORT (entry 69,190.5, mark 75,407.9, -179.72% ROI, 20x lev, 1/4 capital — 50% CLOSED Aug 28 17:25Z; 50% remainder SL POI). ETH SHORT (existing from ~2,540; final retest anticipated at ~$2,651 OB then downside; targets $2,356/$2,287/$2,117). SNDK LONG (entry 1,337.43, +402.77% ROI, 20x lev, 8x volume vs BTC). BNB LONG (50% TP at 3R Aug 25; 50% remainder SL break-even). SHIB LONG (50% TP at 3R Aug 25; 50% remainder SL break-even). NVDA LONG (entry ~220.01 Aug 26, 50% TP at 225.05 Aug 27).
 - Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis/tech (SNDK long multibagger). Intraday scalp trader (5M/15M/1H liquidity zones). ETH bearish order block setup. BTC false-breakout + reversal conditions — 83-84K required for full reversal confirmation. Portfolio profitable overall (semis >> BTC underwater).
 - Conviction notes: Precision intraday execution with disciplined TP (4RR Aug 28). High cryptic-reply ratio (banter baseline — most not financial). "CRITICAL ESCALATION" Aug 21-24 resolved by substantive Aug 25 TP. DIVERGES from group BTC bullish lean. ETH short from 2,540 with multi-target downside plan.
-- Calibration: PENDING Aug 30 11:23Z (@Baskitchbrah "When custom Swarmik / I wanna buy"), PENDING Aug 30 10:38Z (@Bermyden "2551. Tiny Sl"), PENDING Aug 30 10:29Z (@bull_genius "Pump ur pump"), PENDING Aug 29 08:10Z (@Baskitchbrah @CredibleCrypto "What a cute"), PENDING Aug 29 04:35Z (@tienluncon610 "Well, for now, it literally works"), PENDING Aug 28 19:48Z (@bull_genius "Yep"), PENDING Aug 28 09:00Z (@bull_genius daily chart ref), PENDING Aug 28 07:52Z (@OnlyZen_PK @0xjune_ "Yep 👍"), PENDING Aug 26 07:11Z (@BittexXBT "Calling top"), PENDING Aug 26 07:03Z (@0xShanu "1) what"), PENDING Aug 25 17:35Z (@flexing_red @Ehn_7H "100-300k is ok"), PENDING Aug 25 10:39Z ("I meant this (read)" + 4 images Discord)
-- Last seen: 2026-08-30T11:23:11Z
+- Calibration: PENDING Aug 31 03:52Z (@based16z "That's how it is"), PENDING Aug 30 11:23Z (@Baskitchbrah "When custom Swarmik / I wanna buy"), PENDING Aug 30 10:38Z (@Bermyden "2551. Tiny Sl"), PENDING Aug 30 10:29Z (@bull_genius "Pump ur pump"), PENDING Aug 29 08:10Z (@Baskitchbrah @CredibleCrypto "What a cute"), PENDING Aug 29 04:35Z (@tienluncon610 "Well, for now, it literally works"), PENDING Aug 28 19:48Z (@bull_genius "Yep"), PENDING Aug 28 09:00Z (@bull_genius daily chart ref), PENDING Aug 28 07:52Z (@OnlyZen_PK @0xjune_ "Yep 👍"), PENDING Aug 26 07:11Z (@BittexXBT "Calling top"), PENDING Aug 26 07:03Z (@0xShanu "1) what"), PENDING Aug 25 17:35Z (@flexing_red @Ehn_7H "100-300k is ok"), PENDING Aug 25 10:39Z ("I meant this (read)" + 4 images Discord)
+- Last seen: 2026-08-31T03:52:01Z
 - **Events (rolling):**
   - Aug 28 07:52Z — ambiguous: @OnlyZen_PK @0xjune_ "Yep 👍"; bare affirmation; context unknown; HR-2 sent [$UNKNOWN] [2093245251129417910]
   - Aug 28 06:00Z — trade-mirror-partial-tp: BTC long partial TP; 4RR achievement on 5M intraday structure; scalp-to-target execution [$BTC-LONG-TP] [2093217164325007616]
@@ -107,6 +107,7 @@
   - Aug 30 10:22Z — informational: $BNB 4H consolidation + order-block POI zone; 2.73% target conditional long setup [$BNB-4H-SETUP] [2094007746328752543]
   - Aug 30 10:29Z — ambiguous: @bull_genius "Pump ur pump"; informal cryptic reply; HR-2 sent [$UNKNOWN-SENTIMENT] [2094009567403266507]
   - Aug 30 10:38Z — ambiguous: @Bermyden "2551. Tiny Sl"; context unavailable; likely price level + stop loss; HR-2 sent [$UNKNOWN] [2094011854582366462]
+  - Aug 31 03:52Z — ambiguous: @based16z "That's how it is"; cryptic bare reply to @based16z (context unknown); no ticker/media/execution language; HR-2 calibration sent to Kyle pending response [$UNKNOWN] [2094271969734582658]
 
 ## Bitcoin_Astro
 
