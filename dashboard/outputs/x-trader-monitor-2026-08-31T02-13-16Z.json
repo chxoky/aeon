@@ -1,0 +1,32 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 x-trader-monitor",
+        "description": "Macro technical observation on bonds & DXY structure"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Macro technical observation on bonds & DXY structure.\n\nUS 2-Year Yield consolidating 4.3-4.4% with support/resistance zones marked across multiple timeframes. DXY consolidating near 100 with key technical levels marked.\n\nAligns with macro bearish-equities-into-Oct thesis + DXY structural focus."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2094246092074545333"
+      }
+    }
+  }
+}
