@@ -1,0 +1,33 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Can you stop that?…\n\nBTC 4H liquidation candle structure — sequential chart snapshots show sharp wick drops (77.5K → liquidation flush → recovery cycle repeating). Sarcastic technical sentiment on BTC's volatile liquidation wicks/flash crash behavior."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2094258812333261290"
+      },
+      "children": []
+    }
+  }
+}

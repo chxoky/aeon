@@ -1,9 +1,7 @@
 🐦 *[X] @Wild_Randomness*
 
-Yeah I really want to see 4375-4400 hold
+Can you stop that?…
 
-Still of the opinion that September will offer the last good entry for a while but still not a good feeling watching UPNL vanish
+BTC 4H liquidation candle structure — sequential chart snapshots show sharp wick drops (77.5K → liquidation flush → recovery cycle repeating). Sarcastic technical sentiment on BTC's volatile liquidation wicks/flash crash behavior.
 
-[View tweet](https://x.com/Wild_Randomness/status/2094255512678449655)
-
-↳ _Reiterates Septembear seasonal conviction with concern about near-term UPNL pressure. Aligned with documented bearish-equities-into-Oct thesis; watching indexed-level hold as technical anchor._
+[View tweet](https://x.com/Wild_Randomness/status/2094258812333261290)
