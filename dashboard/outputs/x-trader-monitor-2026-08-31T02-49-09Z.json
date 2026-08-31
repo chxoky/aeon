@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "annotation"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Yeah I really want to see 4375-4400 hold\n\nStill of the opinion that September will offer the last good entry for a while but still not a good feeling watching UPNL vanish"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2094255512678449655"
+      }
+    },
+    "annotation": {
+      "type": "Text",
+      "props": {
+        "text": "Reiterates Septembear seasonal conviction with concern about near-term UPNL pressure. Aligned with documented bearish-equities-into-Oct thesis; watching indexed-level hold as technical anchor.",
+        "variant": "muted"
+      }
+    }
+  }
+}
