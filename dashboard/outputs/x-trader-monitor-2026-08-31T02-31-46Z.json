@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "text-timeline",
+        "story-link",
+        "alert-challenge"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-timeline": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness posted a question about GOLD/DXY/2Yr correlation just 17 minutes after posting technical analysis."
+      },
+      "children": []
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Question on GOLD/DXY/2Yr correlation",
+        "href": "https://x.com/Wild_Randomness/status/2094250479031386192",
+        "source": "X"
+      },
+      "children": []
+    },
+    "alert-challenge": {
+      "type": "Alert",
+      "props": {
+        "title": "Intent Classification Challenge",
+        "message": "Unable to classify intent. Possible readings: genuine inquiry vs rhetorical skepticism vs education. What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
