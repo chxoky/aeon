@@ -1,0 +1,115 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "classification-section",
+        "separator-2",
+        "context-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Not what I wanted from gold though\n\nDXY and Yields both marginally down, but an honest reaction to oil/iran"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2094247607371813358"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-label",
+        "classification-text"
+      ]
+    },
+    "classification-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro sentiment",
+        "variant": "default"
+      }
+    },
+    "classification-text": {
+      "type": "Text",
+      "props": {
+        "text": "Gold reaction to geopolitical events (oil/iran) with DXY/yields correlation analysis",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text-1",
+        "context-text-2"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Trader has GOLD long pending approval",
+        "variant": "body"
+      }
+    },
+    "context-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Structural breakdown thesis on gold weekly trend documented Aug 30",
+        "variant": "body"
+      }
+    }
+  }
+}
