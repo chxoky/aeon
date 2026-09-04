@@ -1,39 +1,6 @@
 🔍 *Calibration — [DC: HCH — Chat]*
 
-HeartCanHodl: "Cause this was the target back in months"
-🔍 *Calibration — [DC: HCH — Chat]*
+Event: Supporting channel message, no reply context, no execution language
+HeartCanHodl: "people trenching on zec"
 
-Event: Supporting-channel real-time sentiment (Sep 04 08:51 UTC)
-HeartCanHodl: "Move up was trump's motion"
-
-No ticker, no referenced context, no execution language — intent unclear. Political commentary? Market sentiment on Trump? Asset-specific signal?
-
-**Event Details:**
-- **Trader:** HeartCanHodl (username verified)
-- **Channel:** 1279738718680256553 (HCH — Trades, ★primary)
-- **Message:** `fc lightusdt.p 4hr`
-- **Fast-path:** Already alerted (Cloudflare Worker sent Telegram ~2-5s post-message)
-
-**Classification:** **AMBIGUOUS** (Step 5B)
-- "fc" = unclear abbreviation (false close? from chart? other?)
-- "lightusdt" = possible LIGHT/USDT pair, not in tracked tickers
-- ".p" = unidentified (pivot? price?)
-- No execution language detected
-- Requires HR-2 calibration from Kyle
-
-**Actions Taken:**
-- Skipped redundant Telegram (fast-path already sent)
-- Updated `traders.md` with new event entry
-- Updated Last Seen timestamp to 2026-09-04T08:43:22Z
-- Logged to daily activity file (`memory/logs/2026-09-04.md`)
-- Added message ID to dedup tracking (`discord-trader-seen.txt`)
-
-**Next Steps:** Kyle calibration pending on message intent.
-HeartCanHodl: "2% pf"
-
-Unable to classify — what's your read? (2% profit? 2% portfolio add? 2% fill? ticker unclear)
-Unable to classify — what's your read? Cryptic reference to a past target, but no asset/ticker specified. No execution language.
-Unable to classify — what's your read?
-HeartCanHodl: "So crime triad"
-
-Unable to classify — what's your read? (Supporting channel, no context, no execution language, cryptic phrase intent unclear)
+Unable to classify — what's your read? (Market observation on traders positioning? Technical level people are fighting at? Personal conviction interest?)

@@ -1,0 +1,151 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "sep1",
+        "metadata-section",
+        "message-section",
+        "sep2",
+        "classification-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meta-event",
+        "meta-user"
+      ]
+    },
+    "meta-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting channel message, no reply context, no execution language",
+        "variant": "body"
+      }
+    },
+    "meta-user": {
+      "type": "Text",
+      "props": {
+        "text": "Source: HeartCanHodl",
+        "variant": "body"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-label",
+        "msg-content"
+      ]
+    },
+    "msg-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      }
+    },
+    "msg-content": {
+      "type": "Text",
+      "props": {
+        "text": "\"people trenching on zec\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "class-alert",
+        "class-options"
+      ]
+    },
+    "class-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this message?",
+        "type": "info"
+      }
+    },
+    "class-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "• Market observation on traders positioning",
+        "variant": "body"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "• Technical level people are fighting at",
+        "variant": "body"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "• Personal conviction interest",
+        "variant": "body"
+      }
+    }
+  }
+}
