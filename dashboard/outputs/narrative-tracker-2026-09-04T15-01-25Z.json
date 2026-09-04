@@ -1,0 +1,159 @@
+{
+  "root": "narrative-card",
+  "state": {},
+  "elements": {
+    "narrative-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-09-04"
+      },
+      "children": [
+        "transitions-stack",
+        "separator-1",
+        "reflexivity-stack"
+      ]
+    },
+    "transitions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transitions-subtext",
+        "transition-item-1",
+        "transition-item-2",
+        "transition-item-3"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions-subtext": {
+      "type": "Text",
+      "props": {
+        "text": "first run — no prior baseline; all NEW",
+        "variant": "muted"
+      }
+    },
+    "transition-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-1",
+        "text-clarity-act"
+      ]
+    },
+    "badge-new-1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text-clarity-act": {
+      "type": "Text",
+      "props": {
+        "text": "Clarity Act Reg Binary — Senate cloture Sep 15; Polymarket collapsed 58%→<20%; converges w/ Fed Sep 16 + quad witching Sep 18 → triple-catalyst vol window"
+      }
+    },
+    "transition-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-2",
+        "text-ai-agents"
+      ]
+    },
+    "badge-new-2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text-ai-agents": {
+      "type": "Text",
+      "props": {
+        "text": "AI x Agents / AI x DePIN — on-chain AI settlement $73M (176M txns); Canopy 27K testnet chains in 12 days; TAO/NEAR +20% 7d (narrative-led, no revenue anchor yet)"
+      }
+    },
+    "transition-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-3",
+        "text-altcoin-rotation"
+      ]
+    },
+    "badge-new-3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text-altcoin-rotation": {
+      "type": "Text",
+      "props": {
+        "text": "Altcoin Rotation — ETH/SOL/XRP capital inflows; BTC dominance slipping; Clarity Act passage = repricing catalyst; KillaXBT next long 74–75K signals more range pain first"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-item-1",
+        "reflexivity-item-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-item-1": {
+      "type": "Alert",
+      "props": {
+        "title": "AI x Crypto",
+        "message": "TAO/NEAR weekly gains precede revenue proof; Canopy testnet launches are attention-manufactured; a16z public endorsement before PMF = classic flywheel",
+        "type": "warning"
+      }
+    },
+    "reflexivity-item-2": {
+      "type": "Alert",
+      "props": {
+        "title": "RWA",
+        "message": "$377B represented",
+        "type": "info"
+      }
+    }
+  }
+}
