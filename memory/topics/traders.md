@@ -308,9 +308,10 @@
 - Calibration: PENDING Aug 28 03:08Z (@CanixXS URL t.co link; context unknown), PENDING Aug 27 20:34Z ("I don't use H12"; context unknown), PENDING Aug 26 20:02Z (hmmmmm + chart attachment), PENDING Aug 25 14:53Z ("but yes after real pullback, long dip")
 - Last seen: 2026-09-04T00:47:55Z
 - Calibration: PENDING Sep 04 00:47Z (Discord supporting channel "diaperterliquid" — cryptic nonsensical message or typo; intent unclear; HR-2 calibration sent to Kyle pending response), PENDING Aug 28 03:08Z (@CanixXS URL t.co link; context unknown), PENDING Aug 27 20:34Z ("I don't use H12"; context unknown), PENDING Aug 26 20:02Z (hmmmmm + chart attachment), PENDING Aug 25 14:53Z ("but yes after real pullback, long dip")
-- Last seen: 2026-09-04T13:27:24Z
+- Last seen: 2026-09-04T14:11:24Z
 - **Events (rolling):**
   - Sep 04 13:27:24Z — mirror-partial-tp: BTC half TP hit; TP2 target 81.5K~ (25%), TP3 target 82.8K~ (25%), SL set; Discord primary channel reply to positional updates; "reminder how quickly euphoria can reverse and why we take partial TP's"; fast-path alerted by Worker, informational follow-up commentary on major pullback; no changes from earlier positional updates [$BTC-PARTIAL-TP-PULLBACK-REMINDER] [1545425050331516928]
+    - Sep 04 14:11:24Z supporting-channel follow-up: "But luckily we all TP'd 75% of the position and no one got greedy, right?"; sentiment reflection on disciplined profit-taking and risk management (supporting Chase — Crypto channel); no standalone alert sent (folded as context to primary BTC TP alert) [1545436124544110664]
   - Aug 30 23:53Z — trade-new-entry: HYPE long + BTC multi-asset DCA; 1.3R BTC / 0.7R HYPE allocation; 2R total risk; fill within next few days (optimally tonight, tomorrow, or Tuesday); attached chart [$HYPE/$BTC] [1543770669626564668]
   - Aug 31 00:56Z — informational: supporting-channel reply to member question "did chase say 1R to him is 1% of his port?"; chase shares position-sizing clarification image; context: follow-up detail on Aug 30 23:53Z multi-asset DCA entry explaining risk allocation structure [Discord supporting channel — no standalone alert, folded into prior entry context]
   - Aug 31 01:20Z — trade-order-adjustment: BTC bid reposition; move 2nd bid up from 75588 to 75831 (+$243); order management on Aug 30 23:53Z DCA entry [$BTC] [1543792569895354539]
