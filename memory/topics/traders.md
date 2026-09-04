@@ -313,6 +313,9 @@
   - Sep 04 14:56Z — ambiguous: @firbyyyy reply "yeah its close to stoploss tho"; reply-format cryptic, original message unavailable; unclear whether personal stoploss hit/approaching or commentary on @firbyyyy's position; ticker/asset unspecified; HR-2 calibration sent [$UNKNOWN-CONTEXT] [2095888789184856147]
 - Last seen: 2026-09-04T21:57:51Z
   - Sep 04 21:57Z — informational: BTC technical analysis on 365D RVWAP rejection; daily RSI lower highs indicating weaker buyers despite new highs; jobs report and yield spike context; bull trap closed, breakout longs trapped above 80k; imminent breakout unlikely given September rate-hike risks (CPI 9/11, FOMC 9/16, 58% hike prob CME); washout pattern expected then ultimate long entry when hike odds reach 99.5% (final entry point); singular coin on-chain plays dangerous; invalidation strong close above 82k. Step 7 chart analysis: BTC 1h Binance perpetual showing 365D RVWAP rejection (~80,724), 7D RVWAP support (~78,671), consolidation zones at 76-75-74K buy areas, blue support at 73,626. Chart readable, clear structure. No personal execution language ("I bought", "I placed", "I closed") — pure technical/macro analysis and outlook. Classification: Step 6 INFORMATIONAL technical structure observation. [$BTC/$MACRO-TECHNICAL/$RATE-HIKE-RISK] [2095994777208541591]
+- Last seen: 2026-09-04T14:56:41Z
+  - Sep 04 21:59Z — informational: BTC macro FOMC timing thesis; near-term bearish (rejected 365d RVWAP, RSI lower high, bull trap, longs trapped >80k). "Weekend breakout attempts = obvious bait for short hedging." Macro catalyst window: CPI 9/11, FOMC 9/16. Rate hike odds 58% CME, 50% Polymarket. Strategy: "Warsh does it, odds 99.5% by FOMC, go ultimate long when hike done — only/last one." Alts/onchain dangerous. Invalidation >82k. [$BTC/$MACRO/$FOMC/$RATES/$HIKES] [2095995082730086571]
+- Last seen: 2026-09-04T21:59:04Z
 
 ## t_in_crypto
 

@@ -1,0 +1,44 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "BTC technical setup + FOMC macro timing"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_to_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "BTC technical setup + FOMC macro timing:\n\nNear-term bearish: Rejected 365d RVWAP, RSI lower high, bull trap closed, longs trapped >80k. Weekend breakout attempts = obvious bait for short hedging.\n\nCatalysts (next 2 weeks):\n- Sept 11: CPI\n- Sept 16: FOMC\n\nRate hike odds: 58% (CME), 50% (Polymarket) — back on table after being priced out.\n\nStrategy: \"Warsh does it, hike odds 99.5% by FOMC, thats where you go ultimate long when the hike is done. Should be the only and last one.\"\n\n⚠️ Alts/onchain = very dangerous spot now.\n\nInvalidation: Strong close >82k\n\nMacro timing: Bearish into FOMC → Ultimate long post-hike."
+      },
+      "children": []
+    },
+    "link_to_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2095995082730086571"
+      },
+      "children": []
+    }
+  }
+}
