@@ -1,7 +1,7 @@
 Perfect! I've successfully executed the discord-trader-monitor skill for the HeartCanHodl "chip spot" entry.
+## Summary
 
-Event: Supporting channel message, no reply context, no execution language
-HeartCanHodl: "people trenching on zec"
+Executed **discord-trader-monitor** skill for HeartCanHodl's Discord event on 2026-09-04 at 09:14:13 UTC.
 
 Unable to classify — what's your read? (Market observation on traders positioning? Technical level people are fighting at? Personal conviction interest?)
 ## Summary
@@ -24,3 +24,19 @@ Unable to classify — what's your read? (Market observation on traders position
 3. ✅ Updated `memory/topics/active-trades.md` — CHIP position created (4% allocation, ticker TBD)
 
 **Protocol followed:** Per fast-path alert rules, Telegram was already sent by Worker at ~2-5s latency. Skill processes classification + memory updates only (no duplicate alert). **Awaiting Kyle clarification on "chip" ticker definition** to fully scope position tracking.
+**Event Details:**
+- Message: "Fc chip 15m" (Trades primary channel — highest conviction)
+- Fast-path alerted: true (Cloudflare Worker already sent Telegram ~2-5s prior)
+- Classification: Ambiguous/cryptic chart reference
+  - "Fc" = false-close technical check (not execution per HCH pattern)
+  - "chip" = unidentified ticker 
+  - "15m" = 15-minute timeframe
+
+**Protocol Applied:**
+- Skipped redundant Telegram (fast-path alert already sent)
+- Logged classification to memory for context
+- Added message ID to dedup tracking (discord-trader-seen.txt)
+- Updated HCH Last Seen timestamp to 09:14:13Z
+- Appended Event 17 to daily log with full context
+
+Memory files updated: `discord-trader-seen.txt`, `topics/traders.md`, `logs/2026-09-04.md`
