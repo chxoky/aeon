@@ -1,9 +1,8 @@
-market context — 2026-08-26 (10:00 UTC)
+market context — 2026-09-04
 
-take: chop (risk-off bias), conviction medium
-BTC $78,134 (-0.69%) / ETH $2,446 (-0.64%) / SOL $96.39 (-1.49%) · F&G 65 Greed (unchanged)
-breadth 3/20 · DEX vol $10.46B · dominance 59.16%
-NEW: BTC ETF $314M inflows (7-day streak; Aug $3B+)
-Fed hike 34.5% YES (+2pp; PCE signal) · NVDA AH tonight
-top narrative: NVDA binary (peak) + JH T-1 (peak)
-hot market: Hormuz traffic normal YES 11.5% ($847K vol)
+take: chop (risk-off bias) (conviction medium)
+BTC $78,924 (-1.68%) / ETH $2,442 (-1.56%) · F&G 74 Greed (+9pts)
+breadth 5/20 · DEX vol $10.37B · chains TVL Eth $49.9B / SOL $5.89B
+top narrative: Sep FOMC hike binary (50.5% YES — up 16pp since JH) · NFP tonight
+hot market: "Fed raise rates 25bps Sep 2026?" YES 50.5% ($712K vol)
+

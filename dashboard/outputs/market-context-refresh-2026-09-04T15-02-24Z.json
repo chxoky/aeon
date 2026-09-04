@@ -1,0 +1,192 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-09-04",
+        "description": "chop (risk-off bias) • conviction medium"
+      },
+      "children": [
+        "prices-row",
+        "separator-1",
+        "metrics-row",
+        "separator-2",
+        "narratives-section"
+      ]
+    },
+    "prices-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat",
+        "fg-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$78,924",
+        "delta": "-1.68%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,442",
+        "delta": "-1.56%",
+        "trend": "down"
+      }
+    },
+    "fg-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G Greed",
+        "value": "74",
+        "delta": "+9pts",
+        "trend": "up"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breadth-dex-row",
+        "tvl-row"
+      ]
+    },
+    "breadth-dex-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "breadth-stat",
+        "dex-stat"
+      ]
+    },
+    "breadth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "breadth",
+        "value": "5/20"
+      }
+    },
+    "dex-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$10.37B"
+      }
+    },
+    "tvl-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "eth-tvl-stat",
+        "sol-tvl-stat"
+      ]
+    },
+    "eth-tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "chains TVL: Eth",
+        "value": "$49.9B"
+      }
+    },
+    "sol-tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "chains TVL: SOL",
+        "value": "$5.89B"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narratives-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "narrative-heading",
+        "fomc-narrative",
+        "nfp-alert",
+        "hot-market-stack"
+      ]
+    },
+    "narrative-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narratives",
+        "level": "h3"
+      }
+    },
+    "fomc-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Sep FOMC hike binary: 50.5% YES (up 16pp since JH)",
+        "variant": "body"
+      }
+    },
+    "nfp-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "NFP tonight",
+        "type": "info"
+      }
+    },
+    "hot-market-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hot-market-title",
+        "fed-rates-progress"
+      ]
+    },
+    "hot-market-title": {
+      "type": "Text",
+      "props": {
+        "text": "Hot market: Fed raise rates 25bps Sep 2026?",
+        "variant": "lead"
+      }
+    },
+    "fed-rates-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 50.5,
+        "max": 100,
+        "label": "YES ($712K vol)"
+      }
+    }
+  }
+}
