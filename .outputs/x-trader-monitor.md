@@ -1,9 +1,12 @@
 🔍 *Calibration — @Wild_Randomness*
 
-Event: Post with 2 chart/image attachments
+Event: Reply to @KumaCapxbt
+Wild_Randomness: "Absolutely, 5000 in Jan"
 
-@Wild_Randomness: "31 likes"
+Unable to classify — what's your read?
+- No ticker mentioned
+- Reply-format, external context unavailable
+- "5000 in Jan" unclear (price target? amount? level?)
+- "Absolutely" = agreement or personal action?
 
-Unable to classify — what's your read? (Media URLs unavailable in sandbox; intent unclear)
-
-[View post](https://x.com/Wild_Randomness/status/2095881775226695705)
+https://x.com/Wild_Randomness/status/2095884474164879774

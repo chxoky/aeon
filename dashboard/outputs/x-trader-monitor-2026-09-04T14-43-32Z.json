@@ -1,0 +1,133 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration request for ambiguous tweet"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calib",
+        "text_event",
+        "tweet_card",
+        "sep1",
+        "heading_issues",
+        "stack_issues",
+        "sep2",
+        "link_tweet"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @KumaCapxbt",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Absolutely, 5000 in Jan"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_issues": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_issues": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "issue1",
+        "issue2",
+        "issue3",
+        "issue4"
+      ]
+    },
+    "issue1": {
+      "type": "Text",
+      "props": {
+        "text": "No ticker mentioned",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "issue2": {
+      "type": "Text",
+      "props": {
+        "text": "Reply-format, external context unavailable",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "issue3": {
+      "type": "Text",
+      "props": {
+        "text": "\"5000 in Jan\" unclear (price target? amount? level?)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "issue4": {
+      "type": "Text",
+      "props": {
+        "text": "\"Absolutely\" = agreement or personal action?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2095884474164879774"
+      },
+      "children": []
+    }
+  }
+}
