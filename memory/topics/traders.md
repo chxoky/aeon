@@ -365,6 +365,7 @@
   - Aug 30 21:00Z — informational: BTC respecting blue band support; HTF trend confirmation [$BTC/$PRICE-STRUCTURE] [2094168515850682431]
   - Sep 04 10:57Z — informational: BTC swept monthly high 82.2K; patiently awaiting deviation wick or larger sweep [$BTC] [2095828629204635795]
   - Sep 04 11:51Z — informational: short limits 82.5K-84s (SL 87s); awaiting better sweep/LTF structure correction; cautious bias (Discord reply) [$BTC/$TACTICAL-SHORTS] [1545400864875741205]
+  - Sep 04 12:40Z — informational: Market psychology observation; when people celebrate price drops = most unpositioned (weak hands out) = bullish signal; contrarian positioning read; no personal action [$MACRO/$SENTIMENT/$POSITIONING] [2095854484383510665]
 
 ## trading_axe
 
