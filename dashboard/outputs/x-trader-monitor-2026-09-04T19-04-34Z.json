@@ -1,0 +1,143 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "technical-stack",
+        "sep2",
+        "funding-alert",
+        "sep3",
+        "context-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$LIT — No surprises. Pays to watch the tape."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "tech-pattern",
+        "price-stat",
+        "rsi-badge"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1H Technical",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tech-pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish consolidation",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "3.847",
+        "delta": "+1.50%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "rsi-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RSI elevated",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "funding-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Funding Rate Alert",
+        "message": "Predicted aggregated funding -2.39% (extreme negative) — shorts overextended. Squeeze risk on rally.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-text",
+        "view-link",
+        "conviction-badge"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves Aug 30 ambiguous post with chart context.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View",
+        "href": "https://x.com/Wild_Randomness/status/2095949939167969708"
+      },
+      "children": []
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WR already long LIT (50:50 conviction)",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
