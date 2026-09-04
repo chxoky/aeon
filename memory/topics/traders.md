@@ -364,6 +364,7 @@
   - Aug 30 19:45Z — informational: Discord range analysis; long 75K or short 82K; monthly pivots Sept 1/5; "waiting for range to establish" [$BTC/$MACRO-RANGE] [1543708373633816193]
   - Aug 30 21:00Z — informational: BTC respecting blue band support; HTF trend confirmation [$BTC/$PRICE-STRUCTURE] [2094168515850682431]
   - Sep 04 10:57Z — informational: BTC swept monthly high 82.2K; patiently awaiting deviation wick or larger sweep [$BTC] [2095828629204635795]
+  - Sep 04 11:51Z — informational: short limits 82.5K-84s (SL 87s); awaiting better sweep/LTF structure correction; cautious bias (Discord reply) [$BTC/$TACTICAL-SHORTS] [1545400864875741205]
 
 ## trading_axe
 
