@@ -1,0 +1,81 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: Semiconductor Divergence Analysis"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "stats-container",
+        "separator2",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Look I'm bullish semis but this isn't a bull post… if anything this makes me more inclined to dampen my bullishness for a reversion.\n\nChart shows: Korea exports (leading indicator, -30%) diverging sharply from SMH semiconductor ETF (+50%) — >50% value gap. Suggests mean-reversion risk in semis strength.\n\nSMH clearly leads my guy, there's like one exception to this late 2024"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-korea",
+        "stat-smh",
+        "stat-gap"
+      ]
+    },
+    "stat-korea": {
+      "type": "Stat",
+      "props": {
+        "label": "Korea Exports",
+        "value": "-30%",
+        "trend": "down"
+      }
+    },
+    "stat-smh": {
+      "type": "Stat",
+      "props": {
+        "label": "SMH Semiconductor ETF",
+        "value": "+50%",
+        "trend": "up"
+      }
+    },
+    "stat-gap": {
+      "type": "Stat",
+      "props": {
+        "label": "Value Gap",
+        "value": ">50%"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2095939998692638811"
+      }
+    }
+  }
+}
