@@ -1,0 +1,43 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - SNDK Technical Analysis"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "SNDK 1w technical chart share: bullish 'Higher' sentiment\n\nChart: Sandisk NASDAQ 1w → massive rally from $27.88 (Mar 2026) to $2,380 peak (Jul 2026), current $1,724.20 with yellow support/trend line structure validating established semis bullish convergence thesis (5-trader tracking: Chase TP'd Jul 27, ryzzqq entry Jul 28, WR sector bottom Jul 29, HCH hedge Jul 29, swarmister breakout long Aug 13 @1,360 awaiting your approval)"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2095974585711943878"
+      },
+      "children": []
+    }
+  }
+}
