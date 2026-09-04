@@ -1,0 +1,116 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading signal: ZEC spot position with Fed decision probabilities"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "fed-section",
+        "separator-2",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "ZEC spot long confirmed. Market expecting 56% hike (25bps) Sep 16 Fed decision per Kalshi. Risk if no hard reversal soon = potential liquidation cascade. Position: spot, no leverage, main core holdings. Trimmed all speculative/high-leverage positions."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "fed-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed-heading",
+        "fed-stats-stack"
+      ]
+    },
+    "fed-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed Decision Probabilities",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "fed-stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-hike-25",
+        "stat-maintain",
+        "stat-hike-over-25"
+      ]
+    },
+    "stat-hike-25": {
+      "type": "Stat",
+      "props": {
+        "label": "Hike 25bps",
+        "value": "56%"
+      },
+      "children": []
+    },
+    "stat-maintain": {
+      "type": "Stat",
+      "props": {
+        "label": "Maintain rate",
+        "value": "43%"
+      },
+      "children": []
+    },
+    "stat-hike-over-25": {
+      "type": "Stat",
+      "props": {
+        "label": "Hike >25bps",
+        "value": "2%"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link-tweet"
+      ]
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2095856966773928195"
+      },
+      "children": []
+    }
+  }
+}
