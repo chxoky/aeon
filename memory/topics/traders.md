@@ -279,7 +279,8 @@
   - Sep 04 13:54Z — informational: Trading discipline philosophy; "bullruns have nastiest corrections" + advice to avoid chasing PNL, respect 2-3yr timeframe, take breaks; technical ref (7d RVWAP marker moved down, image unavailable); educational/reflection tone, no personal execution signal [$SENTIMENT/$MACRO-DISCIPLINE] [2095873202631090471]
 - Last seen: 2026-09-04T13:54:00Z
   - Sep 04 13:57Z — informational: Market discipline + bullish no-short conviction; 'dont short market for next years, just buy or temporarily cover spot gains'; multi-VWAP technical structure (365d/7d/30d/50W EMA/ATH aVWAP); motivational on risk management/avoid chase; Step 7 chart: BTC confluence validation (80.5K, 78K+ consolidation, 73-74K support); no personal execution [$BTC/$MACRO/$SENTIMENT/$DISCIPLINE] [2095873858360238430]
-- Last seen: 2026-09-04T13:57:21Z
+  - Sep 04 14:56Z — ambiguous: @firbyyyy reply "yeah its close to stoploss tho"; reply-format cryptic, original message unavailable; unclear whether personal stoploss hit/approaching or commentary on @firbyyyy's position; ticker/asset unspecified; HR-2 calibration sent [$UNKNOWN-CONTEXT] [2095888789184856147]
+- Last seen: 2026-09-04T14:56:41Z
 
 ## t_in_crypto
 
