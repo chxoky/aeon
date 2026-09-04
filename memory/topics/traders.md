@@ -372,6 +372,7 @@
   - Sep 04 12:40Z — informational: Market psychology observation; when people celebrate price drops = most unpositioned (weak hands out) = bullish signal; contrarian positioning read; no personal action [$MACRO/$SENTIMENT/$POSITIONING] [2095854484383510665]
   - Sep 04 12:48Z — informational: 6B shorts liquidated; reply to @Steftwo joke on liquidations; market data confirmation + banter; no personal action [$BTC/$LIQUIDATIONS] [2095856436852994199]
   - Sep 04 13:02Z — informational: BTC liquidation chart retrospective; $19.5B long liq marked top (10/10), biggest short liq marked bottom (19/08); personal philosophy on conviction + confidence vs ego; 2-chart technical analysis showing historical top/bottom markers; Step 7 chart: dual-timeframe BTC candlestick data with liquidation event overlays; no execution language; reflection on being early/correct despite criticism; macro conviction reaffirmation [$BTC/$MACRO-CONVICTION/$LIQUIDATIONS] [2095860005786222856]
+  - Sep 04 13:12Z — trade-new-entry: BTC scalp long at 79.2K market order execution; tactical entry on price structure; message referenced Discord role pin to trading channel; fast-path alerted (no duplicate alert needed); classification: Step 6 trade-new-entry [$BTC-SCALP-LONG] [1545421419570135192]
 
 ## trading_axe
 
