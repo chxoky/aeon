@@ -1,0 +1,171 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Robinhood Chain Analysis"
+      },
+      "children": [
+        "heading-intro",
+        "separator-1",
+        "note-1-section",
+        "separator-2",
+        "note-2-section",
+        "separator-3",
+        "opportunity-section"
+      ]
+    },
+    "heading-intro": {
+      "type": "Heading",
+      "props": {
+        "text": "Found one striking thesis. Something to keep an eye out for..",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "note-1-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note-1-heading",
+        "note-1-text"
+      ]
+    },
+    "note-1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Note 1: Native Asset Implications",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "note-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unlike Solana, Robinhood does not have a native asset like SOL, which means all the crypto capital (Not equity) that otherwise would have bought the native token for exposure to the chain is instead going to buy the top assets on RH to get exposure. There was billions last cycle that went into SOL to get exposure to the memes activity. That capital still has not deployed, raise your ceilings for RH coins.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "note-2-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note-2-heading",
+        "financial-summary",
+        "note-2-text"
+      ]
+    },
+    "note-2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Note 2: Q2 2026 Revenue Breakdown",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "financial-summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-total-revenue",
+        "stat-options-revenue",
+        "stat-crypto-revenue"
+      ]
+    },
+    "stat-total-revenue": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Net Revenue (Q2 2026)",
+        "value": "$1.31B"
+      },
+      "children": []
+    },
+    "stat-options-revenue": {
+      "type": "Stat",
+      "props": {
+        "label": "Options Revenue",
+        "value": "$342M",
+        "delta": "+29%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-crypto-revenue": {
+      "type": "Stat",
+      "props": {
+        "label": "Crypto Products Revenue (Q2)",
+        "value": "$100M"
+      },
+      "children": []
+    },
+    "note-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "This means that Robinhood's customer base is very familiar with options and options are notoriously high margin (High profit for issuer).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "opportunity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opportunity-heading",
+        "opportunity-text"
+      ]
+    },
+    "opportunity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "The Opportunity: Options Protocol on RH Chain",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "opportunity-text": {
+      "type": "Text",
+      "props": {
+        "text": "If you want to find an instant winner on RH chain it will be an options protocol. If and when that arrives and the fundamentals line up, it could end up a top three protocol on RH chain, which means if you're fairly early a $10M–$1B+ move, 100x+ potential. That's a big opportunity to be on the look out for.",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
