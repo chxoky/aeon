@@ -363,6 +363,7 @@
   - Aug 30 17:21Z — informational: sweep-wick-expansion macro structure; 86.5K sweep → 82.2K wick → expansion thesis [$BTC/$MACRO-STRUCTURE] [2094113412917641589]
   - Aug 30 19:45Z — informational: Discord range analysis; long 75K or short 82K; monthly pivots Sept 1/5; "waiting for range to establish" [$BTC/$MACRO-RANGE] [1543708373633816193]
   - Aug 30 21:00Z — informational: BTC respecting blue band support; HTF trend confirmation [$BTC/$PRICE-STRUCTURE] [2094168515850682431]
+  - Sep 04 10:57Z — informational: BTC swept monthly high 82.2K; patiently awaiting deviation wick or larger sweep [$BTC] [2095828629204635795]
 
 ## trading_axe
 
