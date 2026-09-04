@@ -1,6 +1,7 @@
 🔍 *Calibration — [DC: HCH — Trades]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-**Discord-Trader-Monitor Execution Complete**
+HeartCanHodl: "Cause this was the target back in months"
 
 Processed real-time Discord message from HeartCanHodl (Sep 04 08:43:22Z):
 
@@ -28,3 +29,4 @@ Processed real-time Discord message from HeartCanHodl (Sep 04 08:43:22Z):
 HeartCanHodl: "2% pf"
 
 Unable to classify — what's your read? (2% profit? 2% portfolio add? 2% fill? ticker unclear)
+Unable to classify — what's your read? Cryptic reference to a past target, but no asset/ticker specified. No execution language.
