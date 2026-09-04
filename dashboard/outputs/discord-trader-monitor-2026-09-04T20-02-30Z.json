@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — DC: Chase — Chase"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_stack",
+        "separator_1",
+        "message_section",
+        "image_alert",
+        "calibration_note"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_channel",
+        "text_timestamp"
+      ]
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Primary — Chase",
+        "variant": "default"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-04 19:59:50 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_message",
+        "text_message"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "some recents sent out",
+        "variant": "body"
+      }
+    },
+    "image_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Image Attachment",
+        "message": "1 image (sandbox-inaccessible) — Unable to view",
+        "type": "warning"
+      }
+    },
+    "calibration_note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without seeing image — what's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}
