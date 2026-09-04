@@ -1,0 +1,130 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "sep1",
+        "heading_context",
+        "stat_btc_decline",
+        "text_conviction",
+        "sep2",
+        "heading_position",
+        "stack_position",
+        "text_tactical",
+        "badge_range"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "I'm going to buy the $BTC bottom in Q4.\n\nTell me, what's the plan now? Because unless we somehow reverse a 40% move in a single month, I think it might be time to change that plan."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2095960342052340021"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context & Analysis",
+        "level": "h3"
+      }
+    },
+    "stat_btc_decline": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC down from recent highs",
+        "value": "42.30%",
+        "trend": "down"
+      }
+    },
+    "text_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction downgrade from prior HTF bullish \"80% bear cycle complete\" thesis — questioning Q4 bottom-buy timing. Reference level: 79,488.16",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_position": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Details",
+        "level": "h3"
+      }
+    },
+    "stack_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_tp",
+        "stat_hedge"
+      ]
+    },
+    "stat_tp": {
+      "type": "Stat",
+      "props": {
+        "label": "2x swing long TP'd",
+        "value": "50% at 79.7K"
+      }
+    },
+    "stat_hedge": {
+      "type": "Stat",
+      "props": {
+        "label": "Hedge short (HSL)",
+        "value": "35% at 78.6K"
+      }
+    },
+    "text_tactical": {
+      "type": "Text",
+      "props": {
+        "text": "Tactical range for next long entry: 74–75K",
+        "variant": "lead"
+      }
+    },
+    "badge_range": {
+      "type": "Badge",
+      "props": {
+        "text": "74–75K tactical range",
+        "variant": "outline"
+      }
+    }
+  }
+}
