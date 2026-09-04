@@ -1,0 +1,383 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC — Technical rejection + macro divergence",
+        "description": "Analysis from @bull_genius"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "technical_section",
+        "sep2",
+        "macro_section",
+        "sep3",
+        "strategic_section",
+        "sep4",
+        "link_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "365D RVWAP rejection with daily RSI lower highs indicating weaker buyers & stronger sellers. Jobs report hot, yields spiked, rate hike odds back on table (58% CME, 50% polymarket). Three macro events next 2 weeks: CPI 9/11, Clarity Act 9/15, FOMC 9/16.\n\nStrategic take: Ultimate long when the hike is done (post-FOMC 9/16). Currently sees breakout as unlikely, warns on dangerous spot for altcoins, invalidation strong close above 82k."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_description",
+        "levels_grid"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tech_description": {
+      "type": "Text",
+      "props": {
+        "text": "BTC rejected sharply above 365D RVWAP, bounced to 7D RVWAP at 78.67K. Breakout longs trapped above 80K. Still above 7D RVWAP but below ATH AVWAP, indicating technically still above trend but rejection confirmed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "levels_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "level_365d",
+        "level_7d",
+        "level_80k",
+        "level_82k",
+        "level_ath"
+      ]
+    },
+    "level_365d": {
+      "type": "Stat",
+      "props": {
+        "label": "365D RVWAP",
+        "value": "Rejected",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "level_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7D RVWAP",
+        "value": "78.67K",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "level_80k": {
+      "type": "Stat",
+      "props": {
+        "label": "Breakout Trap Level",
+        "value": "80K",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "level_82k": {
+      "type": "Stat",
+      "props": {
+        "label": "Invalidation Level",
+        "value": "82K",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "level_ath": {
+      "type": "Stat",
+      "props": {
+        "label": "ATH AVWAP",
+        "value": "Above Trend",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "macro_heading",
+        "macro_context",
+        "rate_odds_stack",
+        "events_stack"
+      ]
+    },
+    "macro_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Context",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "macro_context": {
+      "type": "Text",
+      "props": {
+        "text": "Jobs report came in hot, triggering yield spike. Rate hike odds back on the table.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rate_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cme_odds",
+        "polymarket_odds"
+      ]
+    },
+    "cme_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "CME Rate Hike Odds",
+        "value": "58%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "polymarket_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket Rate Hike Odds",
+        "value": "50%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "events_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "events_label",
+        "event_cpi",
+        "event_clarity",
+        "event_fomc"
+      ]
+    },
+    "events_label": {
+      "type": "Text",
+      "props": {
+        "text": "Upcoming Macro Events (Next 2 Weeks)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event_cpi": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cpi",
+        "date_cpi"
+      ]
+    },
+    "badge_cpi": {
+      "type": "Badge",
+      "props": {
+        "text": "CPI",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "date_cpi": {
+      "type": "Text",
+      "props": {
+        "text": "9/11",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "event_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_clarity",
+        "date_clarity"
+      ]
+    },
+    "badge_clarity": {
+      "type": "Badge",
+      "props": {
+        "text": "Clarity Act",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "date_clarity": {
+      "type": "Text",
+      "props": {
+        "text": "9/15",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "event_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fomc",
+        "date_fomc"
+      ]
+    },
+    "badge_fomc": {
+      "type": "Badge",
+      "props": {
+        "text": "FOMC",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "date_fomc": {
+      "type": "Text",
+      "props": {
+        "text": "9/16",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "strategic_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "strategic_heading",
+        "strategic_outlook",
+        "alerts_stack"
+      ]
+    },
+    "strategic_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Strategic Outlook",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "strategic_outlook": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish ultimate long after FOMC decision on 9/16. However, currently sees breakout as unlikely in the near term.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alerts_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_entry",
+        "alert_invalidation",
+        "alert_altcoins"
+      ]
+    },
+    "alert_entry": {
+      "type": "Alert",
+      "props": {
+        "title": "Entry Signal",
+        "message": "Ultimate long when the hike is done (post-FOMC 9/16)",
+        "type": "info"
+      },
+      "children": []
+    },
+    "alert_invalidation": {
+      "type": "Alert",
+      "props": {
+        "title": "Invalidation Signal",
+        "message": "Strong close above 82K",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert_altcoins": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk Warning",
+        "message": "Dangerous spot for altcoins at current levels",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View original post on X",
+        "href": "https://x.com/bull_genius/status/2095998759838666835"
+      },
+      "children": []
+    }
+  }
+}
