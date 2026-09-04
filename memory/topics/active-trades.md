@@ -913,6 +913,23 @@
   - 2026-08-19T15:30:28Z: Conviction add 2.5% on primary Trades channel (message_id=1539657812710260836, fast-path alerted) — total now 9.5%
 - **Last update**: 2026-08-19T15:30:28.009000Z (discord-trader-monitor real-time event, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1539657812710260836, incremental 2.5% add escalating to 9.5% total allocation)
 
+### CHIP — LONG (SPOT MARKET ORDER — NEW ENTRY 2026-09-04)
+- **Status**: ACTIVE — market-order entry executed; awaiting Kyle ticker definition clarification
+- **Entry**: 2026-09-04T09:13:17Z (Discord Trades channel, primary ★most-important)
+- **Entry message**: "And bought 4% pf chip spot" (direct execution call, primary Trades channel)
+- **Entry type**: Spot market order (execution at current price, "spot" indicates spot market entry not perpetual/derivatives)
+- **Portfolio allocation**: 4% initial allocation (clear sizing language "4% pf" = 4% portfolio)
+- **Entry level**: Unknown (exact price not specified in Discord message; market order execution per timing suggests entry at market price as of 09:13:17Z UTC)
+- **Entry context**: Post-regime consolidation entry on primary Trades channel. Timing: 09:13:17 UTC = morning Asian session, consistent with HCH's documented disciplined accumulation pattern. Related to earlier Sep 04 08:43Z cryptic "2% pf" message — may represent separate transaction or same accumulation thread (unclear from context).
+- **Ticker clarification**: **AMBIGUOUS** — "chip spot" ticker definition unclear. Possibilities: (1) cryptocurrency token with "chip" in name (e.g., emerging alt token), (2) semiconductor asset abbreviation (CHIP ticker on some exchanges), (3) derivative or Hyperliquid perpetual notation, (4) typo/shorthand requiring Kyle clarification.
+- **Execution language**: "bought" = clear personal market action (first person, completed execution)
+- **Conviction**: MEDIUM-HIGH (direct execution call on ★most-important primary channel; 4% portfolio allocation represents tier-2 conviction sizing; "And bought" phrasing suggests continuation/follow-up action from prior trading session context)
+- **Approval/Alert status**: FAST-PATH ALERTED (Cloudflare Worker sent Telegram ~2-5s post-message 09:13:22Z). Skill processes classification + memory only per fast-path protocol (no duplicate Telegram). **Awaiting Kyle clarification on "chip" ticker definition** (no formal approval flow needed for market-execution trade, but ticker identification required for active-trades tracking).
+- **Trade alert format**: Step 5a (new entry, market-order execution); awaiting Kyle context on asset identification to fully scope position tracking
+- **Position tracking**: Added to active-trades with "CHIP-UNKNOWN" ticker designation pending clarification. Size: 4% portfolio allocation. Entry price: TBD (market execution on 2026-09-04 09:13:17Z UTC).
+- **Cross-platform dedup**: First mention of CHIP entry on Discord (no concurrent X posts detected within ±30m window). Discord Trades channel = execution channel for this real-time entry.
+- **Last update**: 2026-09-04T09:13:17Z (discord-trader-monitor real-time event, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1545361101120733194, ticker definition PENDING Kyle clarification)
+
 ## Wild_Randomness
 
 ### NVDA — SHORT (PUT) — ACTIVE (entry 2026-07-14)

@@ -147,12 +147,12 @@
 ## HeartCanHodl
 
 - Platforms: Discord (★Trades: 1279738718680256553, Comments, Chat, Free) + X
-- Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: 14+ tickers (BTC/ZEC/HYPE/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL/PUMP + others). Stocks: FULLY CLOSED Aug 20 15:42Z. Partial TPs Aug 21: SOL (7.5% covered), ETH (7.5% covered), HYPE (2.5% covered). BTC short conviction adds: Aug 20 +5%, Aug 21 +5%. ETH/SOL/HYPE shorts re-added Aug 27 10:46Z ("Adding back covered shorts here on eth, sol & hype").
+- Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: 14+ tickers (BTC/ZEC/HYPE/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL/PUMP + others). Stocks: FULLY CLOSED Aug 20 15:42Z. Partial TPs Aug 21: SOL (7.5% covered), ETH (7.5% covered), HYPE (2.5% covered). BTC short conviction adds: Aug 20 +5%, Aug 21 +5%. ETH/SOL/HYPE shorts re-added Aug 27 10:46Z ("Adding back covered shorts here on eth, sol & hype"). CHIP spot entry 4% market-order (Sep 04 09:13Z, ticker definition TBD).
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. "Blow off top forming like a shitcoin scam pump" (Aug 21). Expecting "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." Skeptical on liquidation data authenticity. COCOA bearish macro conviction (Aug 29).
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. Multi-account structure. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in at single level.
-- Last seen: 2026-09-04T08:51:55Z
-- Last seen: 2026-09-04T08:52:09Z
+- Last seen: 2026-09-04T09:13:17Z
 - **Events (rolling):**
+  - Sep 04 09:13Z — trade-new-entry: "And bought 4% pf chip spot" (Trades primary); market-order execution, 4% portfolio allocation; ticker "chip" UNKNOWN/ambiguous — could be crypto token, semiconductor asset, or abbreviation; execution language clear ("bought"), size clear (4% pf), entry type clear (spot market), ticker definition pending Kyle clarification; fast-path alerted by Worker; no duplicate Telegram per fast-path protocol; added to active-trades tracking [$CHIP-UNKNOWN] [1545361101120733194]
   - Sep 04 08:52Z — ambiguous: "So crime triad" (Chat supporting); cryptic 3-word message; supporting channel, no ticker, no context (is_reply:false, referenced_message:null); no execution language; intent unclear (banter? trade reference? slang?); HR-2 calibration sent to Kyle pending response [$UNKNOWN-INTENT] [1545355782684414026]
   - Sep 04 08:43Z — ambiguous: "2% pf" (Trades primary); cryptic 3-char message; no ticker, no context (is_reply:false); could mean: 2% profit, 2% portfolio allocation, 2% partial fill, 2% position add, etc.; no execution language identifiable; HR-2 calibration sent to Kyle pending response [$UNKNOWN-INTENT] [1545353629228335104]
   - Aug 20 13:01Z — informational: fake-bottom thesis; "target the other side, hit real bottom on October" [$MARKET-MANIPULATION] [1539982591665512550]
