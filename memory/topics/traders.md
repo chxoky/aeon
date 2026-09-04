@@ -212,6 +212,8 @@
   - Aug 31 00:00Z — informational: Position sentiment on existing longs; "lets see where these longs lead me... gut feel says ill roundtrip them"; ambivalent stance (willing to hold but expects consolidation/breakeven); reply to @xyzbtc1 [$LONGS/$MACRO-SENTIMENT] [2094213781496705355]
   - Sep 04 00:27Z — informational: Market rotation thesis + strategy shift; "rotation from robinhood should happen soon, should take a break from rh trenching"; planning to focus on majors for a few days and watch where money flows next; purr:2:native looking interesting (cryptic, needs clarification — unclear if ticker/project/L2 notation); forward-looking market commentary and personal trading approach adjustment, no current execution; HR-2 calibration pending on purr:2:native intent [$MAJORS/$ROTATION/$PURR-CRYPTIC] [2095669887825858655]
 - Last seen: 2026-09-04T00:26:51Z
+  - Sep 04 00:28Z — informational: Rotation thesis + personal planning reflection; rambling on "pons hits 1B rotation" + "break from rh trenching" + "focus on majors" + "purr-2:native looking interesting"; market sentiment observation, no execution language [$PONS?/$PURR2?/$MAJORS/$MACRO-SENTIMENT] [2095670328877867406]
+- Last seen: 2026-09-04T00:28:36Z
 
 ## t_in_crypto
 

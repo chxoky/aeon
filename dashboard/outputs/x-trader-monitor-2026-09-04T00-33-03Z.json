@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "i feel like a rotation from robinhood should happen soon when pons hits 1B and i should take a break from rh trenching and watch it happen from sidelines outside of my cashcat\n\nfocus on majors for a bit and check where money might flow next\n\npurr-2:native is looking interesting"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2095670328877867406"
+      }
+    }
+  }
+}
