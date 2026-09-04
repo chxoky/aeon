@@ -173,6 +173,7 @@
   - Aug 27 21:41Z — ambiguous: Discord Chat "These guys hold 5% of the supply?" + Fundstrat link; asset unclear [$UNKNOWN] [1542650361363434898]
   - Aug 29 04:47Z — informational: [COCOA] Bearish macro thesis + commodity conviction escalation [2093561237187805207]
   - Aug 30 17:49Z — ambiguous: @QwQiao "Lee Kuan Yew"; political/personal reference; HR-2 sent [$UNKNOWN-LEE-KUAN-YEW] [2094120457264062754]
+  - Sep 04 07:18Z — ambiguous: "Add 3% more to useless short. Fully filled" (Trades primary); execution language clear (conviction-add) but ticker unspecified; "useless short" does not identify which ticker from 14+ short basket; HR-2 calibration sent to Kyle pending response [$UNKNOWN-TICKER] [1545332163883311146]
 
 ## bull_genius
 
