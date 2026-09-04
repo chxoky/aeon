@@ -1,0 +1,29 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Post binance"
+      }
+    }
+  }
+}
