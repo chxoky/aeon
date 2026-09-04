@@ -1,0 +1,106 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "status-line",
+        "event-section",
+        "classification-section",
+        "final-status"
+      ]
+    },
+    "status-line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "timestamp"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ completed",
+        "variant": "default"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 04 07:19:41 UTC",
+        "variant": "caption"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-line1",
+        "event-line2"
+      ]
+    },
+    "event-line1": {
+      "type": "Text",
+      "props": {
+        "text": "📊 Event: HeartCanHodl (channel: HCH — Free)"
+      }
+    },
+    "event-line2": {
+      "type": "Text",
+      "props": {
+        "text": "🔗 Message: URL cross-post to X (no text content)"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-line1",
+        "classification-line2"
+      ]
+    },
+    "classification-line1": {
+      "type": "Text",
+      "props": {
+        "text": "📝 Classification: Skip (URL-only noise per calibration)"
+      }
+    },
+    "classification-line2": {
+      "type": "Text",
+      "props": {
+        "text": "⚠️ Alert sent: No"
+      }
+    },
+    "final-status": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Message marked seen, logged silently.",
+        "variant": "muted"
+      }
+    }
+  }
+}
