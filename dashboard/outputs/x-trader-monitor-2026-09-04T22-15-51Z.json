@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "tweet_card",
+        "separator_1",
+        "classification_alert",
+        "view_link"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @getderb; external context unavailable",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "@getderb how could i forget i will edit this in"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? (Financial signal, position management, or just banter?)",
+        "type": "info"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2095998694847897696"
+      }
+    }
+  }
+}
