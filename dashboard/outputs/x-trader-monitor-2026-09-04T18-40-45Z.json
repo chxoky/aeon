@@ -1,0 +1,153 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "X-Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_event",
+        "sep_1",
+        "section_context",
+        "sep_2",
+        "section_note",
+        "sep_3",
+        "section_link"
+      ]
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "tweet_card"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: External reference to @unveilance chart structure",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@unveilance look at LHS\n\nThis week had to be red with a long wick\n\nTrust the process"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Post references @unveilance's chart (external trader, not in watched 12) and \"LHS\" (Left-Hand Side — likely TradingView terminology for recent chart structure). No image URL provided; media empty. Weekly candle observation with conviction affirmation (\"trust the process\").",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_note": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_note",
+        "text_note"
+      ]
+    },
+    "heading_note": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Status",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify fully without seeing the referenced chart context. Does this tie to BTC/SPY weekly structure? How do you read the @unveilance reference?",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_post"
+      ]
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2095944019465658539"
+      },
+      "children": []
+    }
+  }
+}
