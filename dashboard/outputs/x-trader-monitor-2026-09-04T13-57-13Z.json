@@ -1,0 +1,141 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event",
+        "sep1",
+        "charts_heading",
+        "charts_15m",
+        "iv_stat",
+        "soxx_stat",
+        "charts_1d",
+        "sep2",
+        "context_heading",
+        "context_text",
+        "sep3",
+        "classify_heading",
+        "classify_question",
+        "classify_options",
+        "sep4",
+        "post_link"
+      ]
+    },
+    "event": {
+      "type": "Badge",
+      "props": {
+        "text": "Sep 04 13:50Z — image-only technical post (text field corrupted)",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "charts_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Charts analyzed",
+        "level": "h2"
+      }
+    },
+    "charts_15m": {
+      "type": "Text",
+      "props": {
+        "text": "15-minute: IGV.SOXX comparison (AMEX + CBOE ONE)",
+        "variant": "caption"
+      }
+    },
+    "iv_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "IGV (inverse vol)",
+        "value": "-3.2%",
+        "trend": "down"
+      }
+    },
+    "soxx_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXX (leveraged)",
+        "value": "+0.7%",
+        "trend": "up"
+      }
+    },
+    "charts_1d": {
+      "type": "Text",
+      "props": {
+        "text": "1-day: SOXX/IGV chart showing decline from ~7.50 to ~4.86, yellow trend + candlestick volatility structure",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness is equities/vol technical analyst (dispersion-trade framework). Prior pattern: image-only + cryptic posts sometimes indicate setup shares, sometimes market observation, intent unclear without text.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classify_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h2"
+      }
+    },
+    "classify_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "classify_options": {
+      "type": "Text",
+      "props": {
+        "text": "Volatility structure observation? Implicit entry signal? Market sentiment? Informational chart share?",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2095872006164254884",
+        "source": "@Wild_Randomness"
+      }
+    }
+  }
+}
