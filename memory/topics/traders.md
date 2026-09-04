@@ -249,6 +249,8 @@
   - Sep 04 02:09Z — informational: Social trading platform critique; "carnage in the bull" — skepticism on retail destruction via copy-trading tools (SKIWI example shown: "The Addiction Bird" SOL micro 7.44x pump in 30min); market commentary on right-tooling mattering in competitive landscape; no personal execution language [$SKIWI/$SOCIAL-TRADING-PLATFORMS/$SENTIMENT] [2095695646845972969]
   - Sep 04 02:13Z — informational: Social trading platforms; follow-up on SKIWI critique; reinforces concern about tooling/carnage in bull market; "the right tooling will matter a lot"; market-structure commentary, no execution [$SKIWI/$SOCIAL-TRADING/$SENTIMENT] [2095696607354245336]
 - Last seen: 2026-09-04T02:13:02Z
+  - Sep 04 10:49Z — informational: Market sentiment agreement; reply to @Leonardo_Web3 "kek yeah youre right it wasnt hard to call / but this means everyone must have bought and is profiting rn"; bullish agreement on profitability after market move; no personal execution language [$MACRO/$SENTIMENT] [2095826468823527578]
+- Last seen: 2026-09-04T10:49:03Z
 
 ## t_in_crypto
 
