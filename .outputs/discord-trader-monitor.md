@@ -1,18 +1,15 @@
-## Summary
+Skill execution complete. 
 
-Skill execution completed. I've processed KillaXBT's Discord message about taking a scalp long on BTC at 79.2K (message_id: 1545421419570135192, Sep 04 13:12:58Z).
+**Event Summary:**
+- **Trader:** Crypto_Chase
+- **Channel:** Discord primary (Chase — Chase)
+- **Message:** BTC positional update reply with pullback market commentary
+- **Content:** Confirmation of BTC half TP hit, TP2/TP3 targets set (81.5K and 82.8K at 25% each), SL established. Commentary reinforces risk management discipline ("reminder how quickly euphoria can reverse and why we take partial TP's")
+- **Fast-path Status:** Already alerted by Cloudflare Worker ~2-5s post-message (Telegram sent to Kyle, no duplicate needed)
+- **Classification:** Mirror-partial-TP with informational follow-up
+- **Action:** Memory updated with new BTC positional event, Crypto_Chase last-seen timestamp refreshed, message ID logged to dedup tracker
 
-**Key details:**
-- **Classification:** Trade-new-entry (Step 5a)
-- **Ticker:** BTC
-- **Entry:** 79.2K (market order, executed)
-- **Position type:** Scalp long
-- **Fast-path alert:** Already sent by Cloudflare Worker; skipped duplicate Telegram per protocol
-- **Memory updated:**
-  - Added message ID to discord-trader-seen.txt
-  - Updated traders.md with new BTC scalp trade event
-  - Logged event to memory/logs/2026-09-04.md
-
-**Trade status:** Pending Kyle approval to mirror on Kraken spot (or skip to monitor as memory-only entry).
-
-The message was valid, not a duplicate, and has been fully processed through Steps 1-10 of the skill protocol.
+Memory files updated:
+- `traders.md`: Crypto_Chase BTC partial TP event + last seen timestamp
+- `discord-trader-seen.txt`: Message ID 1545425050331516928 added
+- `logs/2026-09-04.md`: Full event entry logged with step-by-step processing notes
