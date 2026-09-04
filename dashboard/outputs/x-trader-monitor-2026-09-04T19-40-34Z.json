@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "alignment"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Portfolio technical retest setup on equities: $27.6M peak → $14.4M current, watching for $10M retest level on downside."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2095958783898141115"
+      }
+    },
+    "alignment": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with documented bearish-equities-into-Oct conviction; dispersion framework risk-on-complacency signal.",
+        "variant": "muted"
+      }
+    }
+  }
+}
