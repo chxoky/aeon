@@ -1,0 +1,45 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration"
+      },
+      "children": [
+        "author-badge",
+        "event-line",
+        "tweet-content",
+        "classification-note"
+      ]
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Stoiiic"
+      }
+    },
+    "event-line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @i_pally"
+      }
+    },
+    "tweet-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@i_pally real"
+      }
+    },
+    "classification-note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — external context unavailable. What's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}
