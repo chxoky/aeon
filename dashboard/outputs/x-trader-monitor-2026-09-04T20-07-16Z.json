@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "context_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@CryptoParadyme Gonna look like bottom blasting in a month"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text",
+        "link_tweet"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market sentiment prediction on BTC recovery within ~30 days. \"Bottom blasting\" = strong upward price action from bottom. Aligns with prior Sep 04 sentiments (bottom acceptance 16:20Z → CPI accommodation 16:29Z → now bullish 1-month target). Macro directional view, no personal trade execution.",
+        "variant": "body"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2095965701421019155"
+      }
+    }
+  }
+}
