@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "story"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "secondary"
+      }
+    },
+    "story": {
+      "type": "StoryLink",
+      "props": {
+        "title": "New campaign just dropped",
+        "href": "https://partner.blofin.com/d/HCH10",
+        "source": "Blofin"
+      }
+    }
+  }
+}
