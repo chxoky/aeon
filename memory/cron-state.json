@@ -61,10 +61,10 @@
   },
   "narrative-tracker": {
     "last_dispatch": "2026-09-04T14:57:18Z",
-    "last_status": "dispatched",
-    "last_success": "2026-08-26T14:17:55Z",
-    "total_runs": 41,
-    "total_successes": 41,
+    "last_status": "success",
+    "last_success": "2026-09-04T15:02:34Z",
+    "total_runs": 42,
+    "total_successes": 42,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
