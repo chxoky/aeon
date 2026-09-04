@@ -1,0 +1,126 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-section",
+        "separator-2",
+        "position-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "WTI Crude Oil consolidating at 90.66 support (1h chart). It's a great area to convert much of the fiat exposure to 1x lev. position — suggesting consolidation-support technical entry opportunity.\n\nLonger-term thesis: Slowly at first, then eventually… 📉 = bearish macro view on crude despite near-term consolidation setup."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text",
+        "prices-grid"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows: 93.14 high (Sep 2) → current consolidation 90.66-91.48 range with volume profile near support.",
+        "variant": "body"
+      }
+    },
+    "prices-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-current",
+        "stat-high",
+        "stat-range"
+      ]
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Support",
+        "value": "$90.66"
+      }
+    },
+    "stat-high": {
+      "type": "Stat",
+      "props": {
+        "label": "High (Sep 2)",
+        "value": "$93.14"
+      }
+    },
+    "stat-range": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Range",
+        "value": "$90.66–$91.48"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position-alert",
+        "link-tweet"
+      ]
+    },
+    "position-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Position",
+        "message": "2% CL short (added Aug 18–19)",
+        "type": "info"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2095787072414195858"
+      }
+    }
+  }
+}

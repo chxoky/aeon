@@ -150,7 +150,7 @@
 - Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: 14+ tickers (BTC/ZEC/HYPE/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL/PUMP + others). Stocks: FULLY CLOSED Aug 20 15:42Z. Partial TPs Aug 21: SOL (7.5% covered), ETH (7.5% covered), HYPE (2.5% covered). BTC short conviction adds: Aug 20 +5%, Aug 21 +5%. ETH/SOL/HYPE shorts re-added Aug 27 10:46Z ("Adding back covered shorts here on eth, sol & hype").
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. "Blow off top forming like a shitcoin scam pump" (Aug 21). Expecting "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." Skeptical on liquidation data authenticity. COCOA bearish macro conviction (Aug 29).
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. Multi-account structure. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in at single level.
-- Last seen: 2026-08-30T17:49:58Z
+- Last seen: 2026-09-04T08:12:30Z
 - **Events (rolling):**
   - Aug 20 13:01Z — informational: fake-bottom thesis; "target the other side, hit real bottom on October" [$MARKET-MANIPULATION] [1539982591665512550]
   - Aug 20 14:05Z — trade-partial-tp: "Cover half more stock shorts" [$STOCKS] [1539998785885835355]
@@ -173,6 +173,7 @@
   - Aug 27 21:41Z — ambiguous: Discord Chat "These guys hold 5% of the supply?" + Fundstrat link; asset unclear [$UNKNOWN] [1542650361363434898]
   - Aug 29 04:47Z — informational: [COCOA] Bearish macro thesis + commodity conviction escalation [2093561237187805207]
   - Aug 30 17:49Z — ambiguous: @QwQiao "Lee Kuan Yew"; political/personal reference; HR-2 sent [$UNKNOWN-LEE-KUAN-YEW] [2094120457264062754]
+  - Sep 04 08:12Z — informational: WTI crude oil 1h chart consolidation at 90.66 support; "great area to convert much of the fiat exposure to 1x lev. position"; HCH suggests technical entry level for leveraged positioning; longer-term bearish macro thesis ("Slowly at first, then eventually… 📉"); Step 7 chart analysis: price consolidated 90.66-93.14 range, prior swing highs 93.14 (Sep 2), intermediate pivots 92.29/91.48/89.57/88.97 marked, support structure at 90.66 (red dashed line); no personal execution language (suggestion/technical setup share, not "I'm entering here"); macro bearish view with near-term consolidation-support technical level highlighted [$CL-CONSOLIDATION-SETUP] [2095787072414195858]
   - Sep 04 07:18Z — ambiguous: "Add 3% more to useless short. Fully filled" (Trades primary); execution language clear (conviction-add) but ticker unspecified; "useless short" does not identify which ticker from 14+ short basket; HR-2 calibration sent to Kyle pending response [$UNKNOWN-TICKER] [1545332163883311146]
 
 ## bull_genius
