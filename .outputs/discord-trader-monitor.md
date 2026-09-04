@@ -1,4 +1,3 @@
-🔍 *Calibration — [DC: HCH — Trades]*
 🔍 *Calibration — [DC: HCH — Chat]*
 
 HeartCanHodl: "Cause this was the target back in months"
@@ -35,3 +34,6 @@ HeartCanHodl: "2% pf"
 Unable to classify — what's your read? (2% profit? 2% portfolio add? 2% fill? ticker unclear)
 Unable to classify — what's your read? Cryptic reference to a past target, but no asset/ticker specified. No execution language.
 Unable to classify — what's your read?
+HeartCanHodl: "So crime triad"
+
+Unable to classify — what's your read? (Supporting channel, no context, no execution language, cryptic phrase intent unclear)
