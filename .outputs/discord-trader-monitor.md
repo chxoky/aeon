@@ -1,6 +1,6 @@
-Skill execution complete. I've processed the real-time Discord event for HeartCanHodl per the discord-trader-monitor skill.
+🔍 *Calibration — [DC: HCH — Chat]*
 
-## Summary
+HeartCanHodl: "They likely will do their own thing"
 
 **Event:** Sep 04 09:20:13 UTC — HeartCanHodl trade entry on Discord supporting channel (HCH — Chat)
 
@@ -43,3 +43,4 @@ Perfect. Execution complete. Here's what I processed:
   - logs/2026-09-04.md: appended full event entry with classification reasoning
 
 **Result:** No duplicate alert sent (Worker pre-alerted ~2-5s post-message per fast-path protocol). Memory logged for continuity on CHIP position thesis development.
+Unable to classify — supporting channel, no ticker, no context. What's your read?
