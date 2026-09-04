@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "bullruns have the nastiest corrections too\n\ndont get caught up chasing pnl at the wrong spot\n\nyou have 2-3 years of time to make it, and you will\n\nas long as you stay disciplined and know when to take a break\n\ndont lose your money chasing that early\n\na week off wont hurt you wont miss the millions\n\n↳ Reinforces no-short conviction for next years — just buy or temporarily cover spot gains. BTC technical: 365d/7d/30d RVWAP structure (82K/78.3K/73.4K zones) validating consolidation discipline."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2095873858360238430"
+      },
+      "children": []
+    }
+  }
+}

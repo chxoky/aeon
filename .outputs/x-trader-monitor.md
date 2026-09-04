@@ -1,16 +1,21 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-**Event:** Sep 04 13:50Z image-only technical post (text field corrupted)
+bullruns have the nastiest corrections too
 
-**Charts analyzed:**
-- 15-minute: IGV.SOXX comparison (AMEX + CBOE ONE) — IGV (inverse vol) down -3.2%, SOXX (leveraged) up +0.7% divergence
-- 1-day: SOXX/IGV chart showing decline from ~7.50 to ~4.86, yellow trend + candlestick volatility structure
+dont get caught up chasing pnl at the wrong spot
 
-**Context:** Wild_Randomness is equities/vol technical analyst (dispersion-trade framework). Prior pattern: image-only + cryptic posts sometimes indicate setup shares, sometimes market observation, intent unclear without text.
+you have 2-3 years of time to make it, and you will
 
-**Unable to classify — what's your read?** Volatility structure observation? Implicit entry signal? Market sentiment? Informational chart share?
+as long as you stay disciplined and know when to take a break
 
 [View post](https://x.com/Wild_Randomness/status/2095872006164254884)
 🐦 *[X] @bull_genius* — Market Discipline
 
 bullruns have the nastiest corrections too; dont get caught up chasing pnl at the wrong spot; you have 2-3 years of time to make it. take breaks. [View tweet](https://x.com/bull_genius/status/2095873202631090471)
+dont lose your money chasing that early
+
+a week off wont hurt you wont miss the millions
+
+↳ _Reinforces no-short conviction for next years — just buy or temporarily cover spot gains. BTC technical: 365d/7d/30d RVWAP structure (82K/78.3K/73.4K zones) validating consolidation discipline._
+
+[View post](https://x.com/bull_genius/status/2095873858360238430)
