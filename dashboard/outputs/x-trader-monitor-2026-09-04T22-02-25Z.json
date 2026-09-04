@@ -1,0 +1,182 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Technical Rejection + Rate-Hike Washout Thesis"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "key-levels",
+        "sep2",
+        "buy-zones",
+        "sep3",
+        "macro-odds",
+        "sep4",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "365D RVWAP rejection confirmed; daily RSI shows lower highs (weaker buyers despite new highs). Post-jobs-report yield spike context. Bull trap closed, breakout longs trapped above 80k.\n\nMacro: September CPI (9/11) + FOMC (9/16) binary. Hike odds 58% CME / 50% Polymarket. Thesis: washout now → ultimate long entry once hike odds reach 99.5% (final entry point).\n\nLevels: Invalidation = strong close above 82k. Consolidation in 74-82k range expected.\n\nChart: BTC 1h Binance perpetual showing 365D RVWAP rejection (~80,724), 7D support (~78,671), buy zones 76-75-74K."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "key-levels": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "level-rvwap",
+        "level-support",
+        "level-invalidation",
+        "level-consolidation"
+      ]
+    },
+    "level-rvwap": {
+      "type": "Stat",
+      "props": {
+        "label": "365D RVWAP Rejection",
+        "value": "80,724"
+      }
+    },
+    "level-support": {
+      "type": "Stat",
+      "props": {
+        "label": "7D Support",
+        "value": "78,671"
+      }
+    },
+    "level-invalidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Invalidation (Strong Close)",
+        "value": "82,000"
+      }
+    },
+    "level-consolidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Range",
+        "value": "74K - 82K"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "buy-zones": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "zone-76",
+        "zone-75",
+        "zone-74"
+      ]
+    },
+    "zone-76": {
+      "type": "Badge",
+      "props": {
+        "text": "Buy Zone: 76K",
+        "variant": "secondary"
+      }
+    },
+    "zone-75": {
+      "type": "Badge",
+      "props": {
+        "text": "Buy Zone: 75K",
+        "variant": "secondary"
+      }
+    },
+    "zone-74": {
+      "type": "Badge",
+      "props": {
+        "text": "Buy Zone: 74K",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "macro-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "odds-header",
+        "odds-grid",
+        "entry-target"
+      ]
+    },
+    "odds-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Rate Hike Odds (9/11 CPI + 9/16 FOMC Binary)",
+        "level": "h3"
+      }
+    },
+    "odds-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "odds-cme",
+        "odds-polymarket"
+      ]
+    },
+    "odds-cme": {
+      "type": "Progress",
+      "props": {
+        "value": 58,
+        "max": 100,
+        "label": "CME Hike Odds"
+      }
+    },
+    "odds-polymarket": {
+      "type": "Progress",
+      "props": {
+        "value": 50,
+        "max": 100,
+        "label": "Polymarket Hike Odds"
+      }
+    },
+    "entry-target": {
+      "type": "Stat",
+      "props": {
+        "label": "Ultimate Long Entry Point",
+        "value": "99.5% hike odds"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/bull_genius/status/2095994777208541591"
+      }
+    }
+  }
+}
