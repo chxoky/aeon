@@ -1,0 +1,82 @@
+{
+  "root": "card_heartbeat",
+  "state": {},
+  "elements": {
+    "card_heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_stuck",
+        "separator_1",
+        "alert_stale",
+        "separator_2",
+        "section_watched_traders"
+      ]
+    },
+    "alert_stuck": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 STUCK: token-alert + token-movers",
+        "message": "Dispatched 2026-09-03 13:46 UTC (~31h ago), never completed. These are the last two skills still stuck from yesterday's Sep 03 runner issue. All others (market-context-refresh, narrative-tracker, skill-health, heartbeat) have recovered ✅.",
+        "type": "error"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_stale": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 STALE: morning-pipeline + morning-brief",
+        "message": "Last success 2026-08-26 (9 days, schedule daily). Pipeline hasn't run in 9 days.",
+        "type": "warning"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watched_traders": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_watched",
+        "text_watched_status"
+      ]
+    },
+    "heading_watched": {
+      "type": "Heading",
+      "props": {
+        "text": "X webhook WATCHED_TRADERS",
+        "level": "h3"
+      }
+    },
+    "text_watched_status": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Healthy (is_effect:1, all 12 traders). No open PRs or issues.",
+        "variant": "body"
+      }
+    }
+  }
+}
