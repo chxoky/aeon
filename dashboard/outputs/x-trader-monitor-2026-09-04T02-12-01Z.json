@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "link_x",
+        "separator_2",
+        "image_desc"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "these apps will create so much carnage in the bull lmfao\n\nthe right tooling will matter a lot"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_x": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2095695646845972969"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "image_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Image: SKIWI social trading platform alert showing \"The Addiction Bird\" SOL micro entry at $26.7k, +7.44x in 30min — example of copy-trading platform mechanics driving retail leverage cycles.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

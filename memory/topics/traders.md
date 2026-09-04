@@ -215,7 +215,8 @@
   - Sep 04 00:28Z — informational: Rotation thesis + personal planning reflection; rambling on "pons hits 1B rotation" + "break from rh trenching" + "focus on majors" + "purr-2:native looking interesting"; market sentiment observation, no execution language [$PONS?/$PURR2?/$MAJORS/$MACRO-SENTIMENT] [2095670328877867406]
 - Last seen: 2026-09-04T00:28:36Z
   - Sep 04 00:30Z — informational: OpenSea multichain swap adoption; strongbrokers/quotrons user expansion; bullish Q5 launch anticipation. Ecosystem sentiment, no ticker focus. [$ECOSYSTEM/$OPENSEA] [2095670848174571856]
-- Last seen: 2026-09-04T00:30:40Z
+  - Sep 04 02:09Z — informational: Social trading platform critique; "carnage in the bull" — skepticism on retail destruction via copy-trading tools (SKIWI example shown: "The Addiction Bird" SOL micro 7.44x pump in 30min); market commentary on right-tooling mattering in competitive landscape; no personal execution language [$SKIWI/$SOCIAL-TRADING-PLATFORMS/$SENTIMENT] [2095695646845972969]
+- Last seen: 2026-09-04T02:09:13Z
 
 ## t_in_crypto
 
