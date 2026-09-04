@@ -260,6 +260,8 @@
 - Conviction notes: Known for correct ~20-min pre-BTC-breakout call Aug 20. Formations = "bait for newbies." "Levels are just areas I'm willing to buy." HTF sweeps not a factor in methodology. Conditional macro short Aug 20 "sub 50% area" superseded by current bullish stance.
 - Calibration: PENDING Aug 28 03:08Z (@CanixXS URL t.co link; context unknown), PENDING Aug 27 20:34Z ("I don't use H12"; context unknown), PENDING Aug 26 20:02Z (hmmmmm + chart attachment), PENDING Aug 25 14:53Z ("but yes after real pullback, long dip")
 - Last seen: 2026-09-04T00:47:55Z
+- Calibration: PENDING Sep 04 00:47Z (Discord supporting channel "diaperterliquid" — cryptic nonsensical message or typo; intent unclear; HR-2 calibration sent to Kyle pending response), PENDING Aug 28 03:08Z (@CanixXS URL t.co link; context unknown), PENDING Aug 27 20:34Z ("I don't use H12"; context unknown), PENDING Aug 26 20:02Z (hmmmmm + chart attachment), PENDING Aug 25 14:53Z ("but yes after real pullback, long dip")
+- Last seen: 2026-08-30T23:53:29Z
 - **Events (rolling):**
   - Aug 30 23:53Z — trade-new-entry: HYPE long + BTC multi-asset DCA; 1.3R BTC / 0.7R HYPE allocation; 2R total risk; fill within next few days (optimally tonight, tomorrow, or Tuesday); attached chart [$HYPE/$BTC] [1543770669626564668]
   - Aug 31 00:56Z — informational: supporting-channel reply to member question "did chase say 1R to him is 1% of his port?"; chase shares position-sizing clarification image; context: follow-up detail on Aug 30 23:53Z multi-asset DCA entry explaining risk allocation structure [Discord supporting channel — no standalone alert, folded into prior entry context]

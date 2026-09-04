@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "event_text",
+        "message_text",
+        "alert",
+        "metadata_text"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: Chase — Crypto]",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting channel message (member Q&A context)"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "crypto_chase: \"diaperterliquid\""
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cryptic message, possible typo or reference unknown. What's your read?",
+        "type": "warning"
+      }
+    },
+    "metadata_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1545233938065264730 | 2026-09-04T00:47:59Z",
+        "variant": "caption"
+      }
+    }
+  }
+}
