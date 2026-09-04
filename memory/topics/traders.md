@@ -216,7 +216,8 @@
 - Last seen: 2026-09-04T00:28:36Z
   - Sep 04 00:30Z — informational: OpenSea multichain swap adoption; strongbrokers/quotrons user expansion; bullish Q5 launch anticipation. Ecosystem sentiment, no ticker focus. [$ECOSYSTEM/$OPENSEA] [2095670848174571856]
   - Sep 04 02:09Z — informational: Social trading platform critique; "carnage in the bull" — skepticism on retail destruction via copy-trading tools (SKIWI example shown: "The Addiction Bird" SOL micro 7.44x pump in 30min); market commentary on right-tooling mattering in competitive landscape; no personal execution language [$SKIWI/$SOCIAL-TRADING-PLATFORMS/$SENTIMENT] [2095695646845972969]
-- Last seen: 2026-09-04T02:09:13Z
+  - Sep 04 02:13Z — informational: Social trading platforms; follow-up on SKIWI critique; reinforces concern about tooling/carnage in bull market; "the right tooling will matter a lot"; market-structure commentary, no execution [$SKIWI/$SOCIAL-TRADING/$SENTIMENT] [2095696607354245336]
+- Last seen: 2026-09-04T02:13:02Z
 
 ## t_in_crypto
 
