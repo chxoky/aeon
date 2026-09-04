@@ -2,8 +2,12 @@
 🔍 *Calibration — [DC: HCH — Chat]*
 
 HeartCanHodl: "Cause this was the target back in months"
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Processed real-time Discord message from HeartCanHodl (Sep 04 08:43:22Z):
+Event: Supporting-channel real-time sentiment (Sep 04 08:51 UTC)
+HeartCanHodl: "Move up was trump's motion"
+
+No ticker, no referenced context, no execution language — intent unclear. Political commentary? Market sentiment on Trump? Asset-specific signal?
 
 **Event Details:**
 - **Trader:** HeartCanHodl (username verified)
@@ -30,3 +34,4 @@ HeartCanHodl: "2% pf"
 
 Unable to classify — what's your read? (2% profit? 2% portfolio add? 2% fill? ticker unclear)
 Unable to classify — what's your read? Cryptic reference to a past target, but no asset/ticker specified. No execution language.
+Unable to classify — what's your read?

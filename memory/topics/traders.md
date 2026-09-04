@@ -150,8 +150,7 @@
 - Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: 14+ tickers (BTC/ZEC/HYPE/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL/PUMP + others). Stocks: FULLY CLOSED Aug 20 15:42Z. Partial TPs Aug 21: SOL (7.5% covered), ETH (7.5% covered), HYPE (2.5% covered). BTC short conviction adds: Aug 20 +5%, Aug 21 +5%. ETH/SOL/HYPE shorts re-added Aug 27 10:46Z ("Adding back covered shorts here on eth, sol & hype").
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. "Blow off top forming like a shitcoin scam pump" (Aug 21). Expecting "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." Skeptical on liquidation data authenticity. COCOA bearish macro conviction (Aug 29).
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. Multi-account structure. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in at single level.
-- Last seen: 2026-09-04T08:43:22Z
-- Last seen: 2026-09-04T08:43:36Z
+- Last seen: 2026-09-04T08:51:55Z
 - **Events (rolling):**
   - Sep 04 08:43Z — ambiguous: "2% pf" (Trades primary); cryptic 3-char message; no ticker, no context (is_reply:false); could mean: 2% profit, 2% portfolio allocation, 2% partial fill, 2% position add, etc.; no execution language identifiable; HR-2 calibration sent to Kyle pending response [$UNKNOWN-INTENT] [1545353629228335104]
   - Aug 20 13:01Z — informational: fake-bottom thesis; "target the other side, hit real bottom on October" [$MARKET-MANIPULATION] [1539982591665512550]
@@ -179,6 +178,7 @@
   - Sep 04 07:18Z — ambiguous: "Add 3% more to useless short. Fully filled" (Trades primary); execution language clear (conviction-add) but ticker unspecified; "useless short" does not identify which ticker from 14+ short basket; HR-2 calibration sent to Kyle pending response [$UNKNOWN-TICKER] [1545332163883311146]
   - Sep 04 08:43Z — ambiguous: "fc lightusdt.p 4hr" (Trades primary); cryptic message — "fc" abbreviation unclear (false close? from chart?), "lightusdt" unidentified ticker (LIGHT/USDT not in tracked tickers), ".p" unidentified, "4hr" = 4-hour timeframe; no execution language; intent/context unknown; HR-2 calibration sent to Kyle pending response [$UNKNOWN-LIGHT-USDT-ABBREVIATION] [1545353571988668517]
   - Sep 04 08:47Z — ambiguous: Discord Chat (supporting channel) "Cause this was the target back in months"; cryptic reference to historical target, no asset/ticker specified; ambiguous time reference; no execution language; HR-2 calibration sent to Kyle pending response [$UNKNOWN-TARGET-REFERENCE] [1545354623471194133]
+  - Sep 04 08:51Z — ambiguous: "Move up was trump's motion" (Chat supporting); cryptic political/market sentiment, no ticker, no context (is_reply:false, referenced_message:null); could mean: market sentiment on Trump admin, political movement narrative, asset-specific signal tied to Trump; no execution language; intent unclear; HR-2 calibration sent to Kyle pending response [$UNKNOWN-TRUMP-MOTION] [1545353572025245705]
 
 ## bull_genius
 
