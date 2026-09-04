@@ -1,0 +1,158 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat Status"
+      },
+      "children": [
+        "alert_degraded",
+        "sep1",
+        "section_stuck",
+        "sep2",
+        "section_selfcheck",
+        "sep3",
+        "section_stale",
+        "sep4",
+        "section_ok",
+        "sep5",
+        "section_status_page"
+      ]
+    },
+    "alert_degraded": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 DEGRADED",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_stuck": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_stuck",
+        "stuck_table"
+      ]
+    },
+    "heading_stuck": {
+      "type": "Heading",
+      "props": {
+        "text": "🕸 STUCK — 6 skills dispatched Sep 03, never completed (all >45min, likely GitHub Actions runner failure)",
+        "level": "h3"
+      }
+    },
+    "stuck_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Dispatched",
+          "Duration"
+        ],
+        "rows": [
+          [
+            "market-context-refresh",
+            "Sep 03 13:46 UTC",
+            "~25h ago"
+          ],
+          [
+            "narrative-tracker",
+            "Sep 03 13:46 UTC",
+            "~25h ago"
+          ],
+          [
+            "token-alert",
+            "Sep 03 13:46 UTC",
+            "~25h ago"
+          ],
+          [
+            "token-movers",
+            "Sep 03 13:46 UTC",
+            "~25h ago"
+          ],
+          [
+            "skill-health",
+            "Sep 03 19:53 UTC",
+            "~19h ago"
+          ],
+          [
+            "heartbeat",
+            "Sep 03 21:58 UTC",
+            "~17h ago"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_selfcheck": {
+      "type": "Alert",
+      "props": {
+        "title": "⚠️ SELF-CHECK",
+        "message": "heartbeat last succeeded Aug 30 (>96h stale — scheduling appears broken since Sep 03)",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_stale": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 STALE",
+        "message": "morning-pipeline + morning-brief last succeeded Aug 26 (9+ days, >2× daily schedule)",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_ok": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ok",
+        "text_ok"
+      ]
+    },
+    "heading_ok": {
+      "type": "Heading",
+      "props": {
+        "text": "✅ OK",
+        "level": "h3"
+      }
+    },
+    "text_ok": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-monitor + discord-trader-monitor running normally (latest success Sep 04 14:55 UTC). X WATCHED_TRADERS webhook appears healthy (real-time events flowing). 0 open issues."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_status_page": {
+      "type": "Text",
+      "props": {
+        "text": "STATUS_PAGE=DEGRADED — docs/status.md updated."
+      }
+    }
+  }
+}

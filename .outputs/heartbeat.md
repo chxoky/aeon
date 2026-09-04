@@ -1,15 +1,17 @@
-HEARTBEAT_OK · STATUS_PAGE=WATCH
+🔴 DEGRADED
 
-## Summary
+🕸 STUCK — 6 skills dispatched Sep 03, never completed (all >45min, likely GitHub Actions runner failure):
+• market-context-refresh (dispatched Sep 03 13:46 UTC, ~25h ago)
+• narrative-tracker (dispatched Sep 03 13:46 UTC, ~25h ago)
+• token-alert (dispatched Sep 03 13:46 UTC, ~25h ago)
+• token-movers (dispatched Sep 03 13:46 UTC, ~25h ago)
+• skill-health (dispatched Sep 03 19:53 UTC, ~19h ago)
+• heartbeat (dispatched Sep 03 21:58 UTC, ~17h ago)
 
-**P0:** All clear. X webhook rule WATCHED_TRADERS active (`is_effect=1`). No failed, stuck, or chronically degraded skills. Heartbeat self-check ~25h since last success, within 36h threshold.
+⚠️ SELF-CHECK: heartbeat last succeeded Aug 30 (>96h stale — scheduling appears broken since Sep 03)
 
-**P1:** No open PRs, no urgent issues.
+🟡 STALE: morning-pipeline + morning-brief last succeeded Aug 26 (9+ days, >2× daily schedule)
 
-**P2:** No flagged memory items.
+✅ OK: x-trader-monitor + discord-trader-monitor running normally (latest success Sep 04 14:55 UTC). X WATCHED_TRADERS webhook appears healthy (real-time events flowing). 0 open issues.
 
-**P3:** 4 daily skills still stale since 2026-08-26 (morning-pipeline, morning-brief, market-context-refresh, narrative-tracker) — dedup applied, last notified 2026-08-28 21:15 UTC and still within 48h log window. token-alert, token-movers, and skill-health recovered today. trader-memory-compact was due at 20:00 UTC today (Sunday) but cron-state hasn't updated — traders.md at 206KB+ over the 150KB limit; dedup applies.
-
-**Notification:** None sent — all items within 48h dedup window.
-
-**docs/status.md** regenerated: 🟡 WATCH, updated 2026-08-30 22:00 UTC, next run morning-brief at 2026-08-31 07:00 UTC.
+STATUS_PAGE=DEGRADED — docs/status.md updated.
