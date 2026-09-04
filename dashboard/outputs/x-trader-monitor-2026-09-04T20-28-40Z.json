@@ -1,0 +1,125 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness",
+        "description": "Reply monitoring on unknown \"factions\" topic"
+      },
+      "children": [
+        "mainStack"
+      ]
+    },
+    "mainStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quoteSection",
+        "sep1",
+        "contextSection",
+        "sep2",
+        "classificationAlert",
+        "sep3",
+        "tweetLink"
+      ]
+    },
+    "quoteSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quoteAuthor",
+        "quoteText"
+      ]
+    },
+    "quoteAuthor": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "quoteText": {
+      "type": "Text",
+      "props": {
+        "text": "\"What's up with the factions man / Just own both and overweight whichever side is outperforming\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "contextSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "contextHeading",
+        "contextText"
+      ]
+    },
+    "contextHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "contextText": {
+      "type": "Text",
+      "props": {
+        "text": "Original @stogolp message not visible in payload. Strategy advice is clear (own both, overweight outperformer) but application asset/pair unknown.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classificationAlert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What are the \"factions\" and is this a specific market signal or general strategy philosophy?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweetLink": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2095970956187750436",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
