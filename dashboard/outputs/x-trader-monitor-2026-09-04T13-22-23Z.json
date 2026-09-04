@@ -1,0 +1,113 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @bull_genius",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "event_label",
+        "separator_1",
+        "quote_section",
+        "separator_2",
+        "analysis_section"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic market commentary suggesting capital preservation",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_context",
+        "tweet_card"
+      ]
+    },
+    "quote_context": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius → @heisenbzrg:",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "locally for rh i think this could be. save your dry powder"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable_to_classify_alert",
+        "questions_stack"
+      ]
+    },
+    "unable_to_classify_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Uncertain sentiment classification — needs clarification",
+        "type": "warning"
+      }
+    },
+    "questions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this market sentiment (wait for entries)?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a personal trading stance?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "What does 'locally for rh' refer to?",
+        "variant": "body"
+      }
+    }
+  }
+}
