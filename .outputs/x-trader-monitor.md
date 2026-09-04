@@ -1,9 +1,7 @@
+🔍 Calibration — @bull_genius
 
-🐦 *[X] @bull_genius*
+Event: Tweet about early-stage Solana asset
 
-ZEC spot long confirmed. Market expecting 56% hike (25bps) Sep 16 Fed decision per Kalshi. Risk if no hard reversal soon = potential liquidation cascade. Position: spot, no leverage, main core holdings. Trimmed all speculative/high-leverage positions.
+bull_genius: 'an early stage solana classic bullish'
 
-Fed decision probability: Hike 25bps 56% | Maintain rate 43% | Hike >25bps 2%
-
-[View tweet](https://x.com/bull_genius/status/2095856966773928195)
-
+Unable to classify — ambiguous asset reference (no ticker ID), media unavailable (CDN 0-byte). What's the thesis?

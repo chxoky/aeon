@@ -1,0 +1,43 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius",
+        "description": "Tweet about early-stage Solana asset"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "alert"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "an early stage solana classic bullish"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Ambiguous asset reference (no ticker ID), media unavailable (CDN 0-byte). What's the thesis?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
