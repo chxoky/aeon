@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "abetrade",
+        "text": "I find the extreme hate for on-chain trading funny. Aside from insider trading and other shady stuff, when momentum and attention are high, simple trend-following stuff and not being overly greedy give pretty decent odds of making money.\n\nMarket structure commentary: on-chain trading pools more reasonable than ES futures due to retail-only competition + sophisticated participants avoiding the size."
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/abetrade/status/2095943038153465906"
+      }
+    }
+  }
+}

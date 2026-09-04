@@ -492,8 +492,9 @@
 - Recent thesis: BTC IV at historic lows; Sep historically vol bottom (2023+2025 precedents); straddle/strangle setups direction-neutral. SPCX calendar spread (sell Sep straddle, buy Oct; IV 110% vs RV 50%). ETH call skew z-score spikes correlate with consolidation; rich OTM calls post-rally = good selling candidates. Market psychology: CT bottom-buyers were watching Rainbet sponsorship videos last week, not calling longs.
 - Conviction notes: Educational framework only; no personal execution language. Options volatility specialist. First tracked Aug 21 13:49Z.
 - Calibration: PENDING Aug 26 08:37Z (@btc_charlie @tradingriot "yes"; bare reply, context unknown), PENDING Aug 23 10:34Z (@MajesticQuant "no this only includes crypto markets"; scope unknown)
-- Last seen: 2026-08-27T22:27:28Z
+- Last seen: 2026-09-04T18:32:15Z
 - **Events (rolling):**
+  - Sep 04 18:32Z — informational: on-chain vs ES market structure; retail-driven pools [$MARKET-STRUCTURE] [2095943038153465906]
   - Aug 21 13:49Z — ambiguous: @BTC_yytho @deltaxbt "yea looks pretty good"; context unknown [$UNKNOWN] [2090798498316714353]
   - Aug 22 23:47Z — informational: trader credibility + market psychology; CT bottom-callers were watching sponsorship content last week [$TRADER-PSYCHOLOGY] [2091311362227978289]
   - Aug 23 10:34Z — ambiguous: @MajesticQuant "no this only includes crypto markets"; scope unknown [$UNKNOWN] [2091474101592309953]
