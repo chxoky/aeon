@@ -151,7 +151,9 @@
 - Recent thesis: Regime shifted to net-short Aug 07 on BTC structure rejection at 64K. "Blow off top forming like a shitcoin scam pump" (Aug 21). Expecting "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." Skeptical on liquidation data authenticity. COCOA bearish macro conviction (Aug 29).
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. Multi-account structure. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in at single level.
 - Last seen: 2026-09-04T08:43:22Z
+- Last seen: 2026-09-04T08:43:36Z
 - **Events (rolling):**
+  - Sep 04 08:43Z — ambiguous: "2% pf" (Trades primary); cryptic 3-char message; no ticker, no context (is_reply:false); could mean: 2% profit, 2% portfolio allocation, 2% partial fill, 2% position add, etc.; no execution language identifiable; HR-2 calibration sent to Kyle pending response [$UNKNOWN-INTENT] [1545353629228335104]
   - Aug 20 13:01Z — informational: fake-bottom thesis; "target the other side, hit real bottom on October" [$MARKET-MANIPULATION] [1539982591665512550]
   - Aug 20 14:05Z — trade-partial-tp: "Cover half more stock shorts" [$STOCKS] [1539998785885835355]
   - Aug 20 15:42Z — trade-full-tp: "Closing the stock short positions" [$STOCKS-FULL-CLOSE] [2090464481763856751]

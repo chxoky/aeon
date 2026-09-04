@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Trades]*
 
 **Discord-Trader-Monitor Execution Complete**
 
@@ -25,3 +25,6 @@ Processed real-time Discord message from HeartCanHodl (Sep 04 08:43:22Z):
 - Added message ID to dedup tracking (`discord-trader-seen.txt`)
 
 **Next Steps:** Kyle calibration pending on message intent.
+HeartCanHodl: "2% pf"
+
+Unable to classify — what's your read? (2% profit? 2% portfolio add? 2% fill? ticker unclear)
