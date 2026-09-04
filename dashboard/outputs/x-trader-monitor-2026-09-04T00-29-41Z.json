@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-section",
+        "note-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "i feel like a rotation from robinhood should happen soon and i should take a break from rh trenching\n\nfocus on majors for a few days and check where money might flow next\n\npurr:2:native is looking interesting"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2095669887825858655"
+      },
+      "children": []
+    },
+    "note-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator",
+        "clarification-alert"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "clarification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification needed",
+        "message": "'purr:2:native' is cryptic — unclear if ticker, project code, or layer-2 reference.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
