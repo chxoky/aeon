@@ -366,6 +366,7 @@
   - Sep 04 10:57Z — informational: BTC swept monthly high 82.2K; patiently awaiting deviation wick or larger sweep [$BTC] [2095828629204635795]
   - Sep 04 11:51Z — informational: short limits 82.5K-84s (SL 87s); awaiting better sweep/LTF structure correction; cautious bias (Discord reply) [$BTC/$TACTICAL-SHORTS] [1545400864875741205]
   - Sep 04 12:40Z — informational: Market psychology observation; when people celebrate price drops = most unpositioned (weak hands out) = bullish signal; contrarian positioning read; no personal action [$MACRO/$SENTIMENT/$POSITIONING] [2095854484383510665]
+  - Sep 04 12:48Z — informational: 6B shorts liquidated; reply to @Steftwo joke on liquidations; market data confirmation + banter; no personal action [$BTC/$LIQUIDATIONS] [2095856436852994199]
 
 ## trading_axe
 
