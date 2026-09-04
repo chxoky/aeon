@@ -11,3 +11,6 @@
 **Unable to classify — what's your read?** Volatility structure observation? Implicit entry signal? Market sentiment? Informational chart share?
 
 [View post](https://x.com/Wild_Randomness/status/2095872006164254884)
+🐦 *[X] @bull_genius* — Market Discipline
+
+bullruns have the nastiest corrections too; dont get caught up chasing pnl at the wrong spot; you have 2-3 years of time to make it. take breaks. [View tweet](https://x.com/bull_genius/status/2095873202631090471)

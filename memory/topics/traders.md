@@ -258,7 +258,8 @@
   - Sep 04 13:19Z — ambiguous: "@heisenbzrg locally for rh i think this could be. save your dry powder"; cryptic/incomplete thought; "locally for rh" unexplained (Robinhood? geographic? abbreviation?); "save your dry powder" = financial language (preserve capital), but intent unclear (personal stance vs market commentary); reply format requires external context; HR-2 calibration sent [$UNKNOWN-INTENT-RH-CONTEXT] [2095864206574665728]
   - Sep 04 13:23Z — informational: Market sentiment on hedging strategy on relief rallies; conversational tone listing altcoin positions (btc/eth/hype/lit/zec/xpl/ansem/marscoin/cashcat); speculative "maybe we'll hedge them out a bit" language (conditional/opinion rather than personal execution signal); reply-format discussion with @Mortid_X [$BTC/$ETH/$HYPE/$LIT/$ZEC/$ALTS] [2095865377532068351]
   - Sep 04 13:28Z — informational: Fed policy mechanics thesis; Warsh bluffing credibility play + Trump/Bessent liquidity injection strategy; "exactly one hike then cuts" forecast [$MACRO/$FED/$POLICY] [2095866614017110118]
-- Last seen: 2026-09-04T13:28:34Z
+  - Sep 04 13:54Z — informational: Trading discipline philosophy; "bullruns have nastiest corrections" + advice to avoid chasing PNL, respect 2-3yr timeframe, take breaks; technical ref (7d RVWAP marker moved down, image unavailable); educational/reflection tone, no personal execution signal [$SENTIMENT/$MACRO-DISCIPLINE] [2095873202631090471]
+- Last seen: 2026-09-04T13:54:00Z
 
 ## t_in_crypto
 

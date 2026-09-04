@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Market Discipline\n\nbullruns have the nastiest corrections too; dont get caught up chasing pnl at the wrong spot; you have 2-3 years of time to make it. take breaks."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2095873202631090471"
+      }
+    }
+  }
+}
