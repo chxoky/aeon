@@ -1,0 +1,33 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Kinda funny, init? The biggest $BTC long liquidations on 10/10 marked the top. The biggest short liquidations on 19/08 marked the bottom.\n\nBut sure, keep coping. The desperation for lower at this point is laughable.\n\n— I listened to absolutely fucking nobody apart from myself. Never mistake confidence for ego. A trader is naturally going to be confident in their own plan."
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2095860005786222856"
+      },
+      "children": []
+    }
+  }
+}
