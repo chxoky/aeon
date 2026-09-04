@@ -194,6 +194,9 @@
   - Sep 04 09:58Z — ambiguous: "Fc light 1m https://discord.com/channels/..." (Comments primary); cryptic message — "Fc" = false-close chart check notation (per HCH conviction notes; not execution), "light" unidentified ticker (possibly LIGHT/USDT or typo), "1m" = 1-minute timeframe; similar pattern to prior Sep 04 08:43Z "fc lightusdt.p 4hr" cryptic chart reference; no execution language; intent/ticker unclear; HR-2 calibration sent to Kyle pending response [$UNKNOWN-LIGHT-TICKER] [1545372425095610369]
 
 - Last seen: 2026-09-04T09:58:17Z
+  - Sep 04 09:59Z — informational: "I didn't know playing the long side was that easy" (Comments primary); sentiment commentary on ease/success of recent long-side positions; banter tone with Shiba emoji; follows recent long entries (CHIP 4% spot @ 09:13Z, BITLIGHT small-cap with SL @ 09:20Z); no execution language; sentiment/celebration on long-position performance in current regime (contrasts with net-short regime bias since Aug 07); Step 7 primary-channel informational alert sent [$LONGS/$SENTIMENT] [1545372846652522662]
+
+- Last seen: 2026-09-04T09:59:58Z
 
 ## bull_genius
 
