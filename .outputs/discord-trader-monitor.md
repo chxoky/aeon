@@ -1,4 +1,4 @@
-## Summary
+💬 *[DC: HCH — Chat]*
 
 **discord-trader-monitor skill execution complete.**
 
@@ -28,3 +28,4 @@ No Telegram alert sent (content is pure banter with zero financial signal).
 2. Updated traders.md with event entry + conviction context
 3. Updated HCH Last Seen timestamp to 2026-09-04T10:17:59Z
 4. Appended event to memory/logs/2026-09-04.md with full classification detail and fast-path protocol notes
+It takes a few 5m candles as such to reverse it all
