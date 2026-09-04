@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "tweet-card",
+        "alert-unable",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Post with 2 chart/image attachments",
+        "likes": 31
+      },
+      "children": []
+    },
+    "alert-unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Media URLs unavailable in sandbox; intent unclear",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2095881775226695705"
+      },
+      "children": []
+    }
+  }
+}

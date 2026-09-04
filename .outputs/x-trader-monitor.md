@@ -1,5 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-Rate-hike doom vs AI-trade cycle continuation setup. SOXL calls marked as cheap opportunity by Discord traders (reaction: 'imagine the smell if everyone dooming rate hikes while AI trade enters new leg').
+Event: Post with 2 chart/image attachments
 
-[View tweet](https://x.com/Wild_Randomness/status/2095877505127530726)
+@Wild_Randomness: "31 likes"
+
+Unable to classify — what's your read? (Media URLs unavailable in sandbox; intent unclear)
+
+[View post](https://x.com/Wild_Randomness/status/2095881775226695705)
