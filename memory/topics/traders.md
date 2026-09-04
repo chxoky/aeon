@@ -1,3 +1,14 @@
+## KillaXBT
+
+- Platforms: X (Twitter), Discord (Primary: 1411492188315193416 "K")
+- Current open positions: BTC 2x swing long (HTF), spot position remainder post-TP (Jul 18 TP'd 25% at 63.8K-62.6K), 35% hedge short activated Aug 21 at 73.6-74.9K with HSL 76.1K. HYPE long entry Aug 01 at 51.55 awaiting Kyle approval.
+- Recent thesis: HTF bullish swing conviction ("bear cycle ~80% complete"). Near-term: tactical range consolidation, searching for DCB (down close below) to 7970-7100s zone. Structure analysis on LTF continuation vs downside risk via 76K break zone. Risk management: discussing potential bounce on LTF, single-print fill opportunities on pullback, or dump through SL into 73-74K retest.
+- Conviction notes: High on HTF long thesis; near-term structure flexibility (playing probabilities rather than directional conviction on immediate move). Market structure observer rather than hard predictor — noted "game of probabilities" on LTF retest setup.
+- Calibration: None pending on this event (informational analysis, not ambiguous).
+- Last seen: 2026-09-04T14:13:57Z
+- **Events (rolling):**
+  - Sep 04 14:13Z — informational: BTC range structure analysis; "basically aiming for something like this. We had a decent sell off into NY open. We swept the external range highs, unfortunately we didn't deviate above the highs, given this current rejection back down below 80s, structure looks more corrective on the LTF." Testing DCB to 7970-7100s zone. "Either we catch a bounce or it dumps through the SL and ends up testing 76K again with the chances of hitting 73-74K becoming quite likely. Given we are in a range, I would expect after violent hunts above, that we spend more time ranging abit, so I am just playing the little retest if it comes or not. Game of probabilities." Technical market-structure commentary + risk-management thesis on range trading + LTF setup; chart attachment showing consolidation/structure context. No personal execution order (informational analysis of ongoing market dynamics); aligns with documented HTF long thesis while acknowledging near-term tactical range consolidation environment. [$BTC/$RANGE-STRUCTURE/$PROBABILITIES] [1545436763500052552]
+
 ## Wild_Randomness
 
 - Platforms: X (Twitter)
