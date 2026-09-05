@@ -1,8 +1,9 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Chat]*
 
-**discord-trader-monitor execution completed for HeartCanHodl message 2026-09-05T07:03:39Z**
+Event: Supporting channel real-time update
+HeartCanHodl: "Fc dash ema50 15m wide"
 
-### Classification: INFORMATIONAL (supporting channel technical insight)
+Unable to classify — what's your read?
 
 **Event Details:**
 - **Trader:** HeartCanHodl (heartcanhodl)
@@ -85,3 +86,4 @@ Perfect! I've successfully executed the **discord-trader-monitor** skill. Here's
 4. ✅ Logged event to `memory/logs/2026-09-05.md` with full classification details
 
 **Status:** Complete — event classified, deduped, and memory updated. Kyle already notified via fast-path alert.
+Context: Message appears to reference DASH or chart technical setup (EMA50 distance/width at 15m timeframe). Cryptic 'Fc' notation consistent with HCH's false-close chart-check pattern. No clear execution language detected. New ticker mention if DASH.

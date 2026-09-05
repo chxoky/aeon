@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "event-info",
+        "sep1",
+        "message-section",
+        "sep2",
+        "question-section",
+        "sep3",
+        "context-section"
+      ]
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting channel real-time update"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Fc dash ema50 15m wide"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "question-section": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Message appears to reference DASH or chart technical setup (EMA50 distance/width at 15m timeframe). Cryptic 'Fc' notation consistent with HCH's false-close chart-check pattern. No clear execution language detected. New ticker mention if DASH."
+      }
+    }
+  }
+}
