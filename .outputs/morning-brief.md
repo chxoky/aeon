@@ -1,22 +1,23 @@
-*Morning Brief — 2026-08-26*
+*Morning Brief — 2026-09-05*
 
 *Focus today*
-1. NVDA earnings tonight AH — miss triggers synchronized risk-off into JH T-1 tomorrow
-2. Jackson Hole T-1 (Warsh Aug 28) — first keynote; JH "Financial Innovation" theme = stablecoins/payments; BTC binary $73-76K vs $84-90K
-3. 4 pending calibrations — swarmister/HCH/Stoiiic/trading_axe ambiguous signals need your read today
+1. token-alert stuck 44h — another missed cycle means no BTC/ETH/SOL alerts fire today
+2. FOMC Sep 16 hike 50/50; CPI Sep 11 in 6 days sets the odds trajectory
+3. HCH bought BCH/BNB/STRK in 50min this AM — rare intraday longs from a net-short trader
 
 *Since yesterday*
-- [BTC] $80.5K → $78.9K; F&G 74→65 (-9pts, sharpest drop this bull leg); KillaXBT short live and green
-- [bull_genius] partial TP on BTC/ETH at 06:41Z — first tracked bull to lighten; distribution signal
-- [ZEC] CAPITULATION at $850 (WR called it); SOL broke $97 — two prior supports gone
-- [Hormuz] Strait of Hormuz #1 Polymarket by 24h vol ($890K); 40.5% blockade YES — new macro overlay
+- [moved] HCH: BCH 4% spot (07:08Z), BNB 2% (07:47Z, SL shifted to BE = profitable), STRK 2% (07:56Z), 1% unspecified — 4 entries in 50min
+- [moved] bull_genius macro thesis locked: washout now → ultimate long when FOMC hike odds reach 99.5%; near-term BTC weekend strength = bait for short hedges; invalidation 82K close
+- [moved] DASH [BREAKOUT] +32.8% 24h / 7d +72.6%; ZEC confirmed reversal from $850 cap → $1,005; privacy sector broadening
+- [moved] morning-pipeline back online after 10-day stall — today's chain ran successfully
+- [stuck] token-alert dispatched 2026-09-03 13:46 UTC, status still "dispatched"; root cause unknown
 
 *Watch*
-- NVDA miss + hawkish Warsh = Stoiiic $68K drawdown scenario activates (focus #1 + #2)
-- JH theme "Financial Innovation: Payments & Policy" — Warsh prior DeFi disclosures; most crypto-direct JH framing ever
+- CPI Sep 11 → FOMC Sep 16 — the binary that gates bull_genius's "ultimate long" entry trigger (focus #2)
+- PONS (RH ecosystem) trending #1, +25.8% 24h / 7d +393% — bull_genius flagged Sep 4; watch for personal execution signal
 
 *Running today*
-- x-trader-monitor / discord-trader-monitor @ continuous
-- token-alert / token-movers @ 12:00 UTC
+- token-alert @ 12:00 UTC (stuck — monitor)
+- token-movers @ 12:00 UTC
 - market-context-refresh @ 13:00 UTC
 - narrative-tracker @ 13:30 UTC
