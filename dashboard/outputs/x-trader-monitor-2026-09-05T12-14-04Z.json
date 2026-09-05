@@ -1,0 +1,168 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_context",
+        "sep1",
+        "text_quote",
+        "sep2",
+        "heading_ambiguity",
+        "stack_ambiguity",
+        "sep3",
+        "heading_trade_context",
+        "stat_pump",
+        "stat_zec",
+        "text_trade_details",
+        "sep4",
+        "text_question",
+        "link_post"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @chief_xbt @idrawfrogs on market scenario discussion",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"that would be my favorite scenario as im already exposed and just would want to add some lev longs on top\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_ambiguity": {
+      "type": "Heading",
+      "props": {
+        "text": "Ambiguity",
+        "level": "h3"
+      }
+    },
+    "stack_ambiguity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ambig_intro",
+        "text_ambig_1",
+        "text_ambig_2",
+        "text_ambig_3"
+      ]
+    },
+    "text_ambig_intro": {
+      "type": "Text",
+      "props": {
+        "text": "\"would want to add\" is conditional language, not definitive execution. Unclear whether this is:",
+        "variant": "body"
+      }
+    },
+    "text_ambig_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Imminent trade action right now",
+        "variant": "body"
+      }
+    },
+    "text_ambig_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Conditional future intention (if scenario confirms)",
+        "variant": "body"
+      }
+    },
+    "text_ambig_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Conversational preference within discussion",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_trade_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade context",
+        "level": "h3"
+      }
+    },
+    "stat_pump": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP 10x long",
+        "value": "+29.81%",
+        "trend": "up"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC 10x long",
+        "value": "+25.27%",
+        "trend": "up"
+      }
+    },
+    "text_trade_details": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius holds active positions, bullish on structural bottom. Sep 05 10:07Z post cautioned on September macro risk. Does \"would want to add lev\" signal conviction to scale position, or just prefer that scenario?",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2096209321012994145"
+      }
+    }
+  }
+}
