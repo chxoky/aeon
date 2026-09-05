@@ -1,0 +1,123 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — Discord Chat"
+      },
+      "children": [
+        "calibration-header",
+        "separator-1",
+        "quote-section",
+        "separator-2",
+        "classification-issue",
+        "separator-3",
+        "questions-section"
+      ]
+    },
+    "calibration-header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-author",
+        "quote-text"
+      ]
+    },
+    "quote-author": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "If it keeps holding above 0.16",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification-issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No ticker identified, conditional sentiment only.",
+        "type": "warning"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "questions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "questions-prompt",
+        "option-1",
+        "option-2",
+        "option-3",
+        "read-prompt"
+      ]
+    },
+    "questions-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:",
+        "variant": "body"
+      }
+    },
+    "option-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Tracking specific asset at 0.16 support?",
+        "variant": "body"
+      }
+    },
+    "option-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Market observation or conviction on existing position?",
+        "variant": "body"
+      }
+    },
+    "option-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Response to member discussion (context missing)?",
+        "variant": "body"
+      }
+    },
+    "read-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
