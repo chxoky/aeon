@@ -1,0 +1,189 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "header_stack",
+        "separator1",
+        "quote_section",
+        "separator2",
+        "classification_alert",
+        "separator3",
+        "context_section",
+        "separator4",
+        "link_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_label",
+        "author_badge"
+      ]
+    },
+    "calibration_label": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "lead"
+      }
+    },
+    "author_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text",
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "muted"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @idrawfrogs about market sentiment",
+        "variant": "body"
+      }
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "muted"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"@idrawfrogs first half very bad for bulls and bear lolocaust from there\"",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "This is a reply-format message with cryptic/meme terminology (\"lolocaust\"). Classification requires additional context.",
+        "type": "warning"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_questions"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context needed:",
+        "level": "h4"
+      }
+    },
+    "context_questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• What did @idrawfrogs post?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this agreement, sarcasm, or structural reference?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Does this signal conviction shift vs your documented bullish stance?",
+        "variant": "body"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_link"
+      ]
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2096179331571609683"
+      }
+    }
+  }
+}

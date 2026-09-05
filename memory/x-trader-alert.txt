@@ -1,3 +1,20 @@
+🔍 *Calibration — @bull_genius*
+
+Event: Reply to @idrawfrogs about market sentiment
+
+@bull_genius: "@idrawfrogs first half very bad for bulls and bear lolocaust from there"
+
+Unable to classify — this is a reply-format message with cryptic/meme terminology ("lolocaust"). The intent is genuinely ambiguous:
+- Is this agreement with @idrawfrogs on bearish sentiment?
+- Sarcasm about bull market resilience?
+- Technical signal reference?
+
+Context unavailable (original @idrawfrogs message not visible). What's your read on this exchange?
+
+[View post](https://x.com/bull_genius/status/2096179331571609683)
+
+---
+
 🐦 *[X] @Wild_Randomness*
 
 Historically: When Warsh opened his mouth and market freaked out, three things happened—
