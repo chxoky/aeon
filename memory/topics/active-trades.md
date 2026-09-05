@@ -316,14 +316,14 @@
 - **Entry type**: Market order (execution at current market price, 07:47:24 UTC)
 - **Entry level**: Market price at time of execution (Sep 05 07:47:24Z UTC, BNB spot/perp market)
 - **Entry size**: 2% portfolio allocation
-- **Stop loss**: 4% below entry (hard stop loss set)
-- **Entry context**: Primary Trades channel (★most important), highest-conviction tier. HCH continuing tactical long accumulation pattern (Sep 05 07:08 BCH +4%, 07:47 BNB +2% within 39-minute window). Pattern suggests morning-session (Asian hours, ~08:00 UTC ≈ 16:00 Singapore) portfolio scaling strategy.
-- **Position thesis**: BNB spot conviction long; disciplined 2% size allocation with 4% risk management. Aligns with HCH's systematic accumulation approach (small incremental positions, tight SL discipline).
-- **Status**: ACTIVE — market-order execution completed, 2% BNB long position established with 4% SL
-- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
-- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "2% pf long bnb with 4% SL"
-- **Alerted**: YES (2026-09-05T07:47:24Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, duplicate suppressed per protocol)
-- **Last update**: 2026-09-05T07:47:24Z (message_id=1545701873992998913, discord-trader-monitor real-time, trade-new-entry)
+- **Stop loss**: 4% below entry at entry time (Sep 05 07:47:24Z); **shifted to breakeven at Sep 05 08:25:04Z** (position management reply, message_id=1545711354344902738)
+- **Entry context**: Primary Trades channel (★most important), highest-conviction tier. HCH continuing tactical long accumulation pattern (Sep 05 07:08 BCH +4%, 07:47 BNB +2% within 39-minute window). Pattern suggests morning-session (Asian hours, ~08:00 UTC ≈ 16:00 Singapore) portfolio scaling strategy. SL shift to BE at 08:25:04Z (38min after entry) indicates rapid profit-taking discipline.
+- **Position thesis**: BNB spot conviction long; disciplined 2% size allocation with 4% initial risk management, tightened to breakeven within ~38 minutes. Aligns with HCH's systematic accumulation approach (small incremental positions, tight SL discipline, dynamic risk adjustment).
+- **Status**: ACTIVE — market-order execution completed, 2% BNB long position established; SL moved to breakeven (08:25:04Z reply: "Shift SL at BE")
+- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post); Step 5e (position management update, SL shift reply fast-path alerted)
+- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: original entry "2% pf long bnb with 4% SL"; update "Shift SL at BE"
+- **Alerted**: YES (2026-09-05T07:47:24Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; 2026-09-05T08:25:04Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker)
+- **Last update**: 2026-09-05T08:25:04Z (message_id=1545711354344902738, discord-trader-monitor real-time, position-management-sl-shift, fast-path-alerted)
 
 ### STRK (Starknet) — LONG (NEW ENTRY — 2026-09-05)
 - **Entry date**: 2026-09-05T07:56:09Z
