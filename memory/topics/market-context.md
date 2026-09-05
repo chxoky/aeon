@@ -1,29 +1,29 @@
-# Market Context (as of 2026-09-04)
+# Market Context (as of 2026-09-05)
 
-> **Take:** chop (risk-off bias) — BTC -1.68% 24h at $78,924 with breadth 5/20 green; September FOMC hike probability spiked to 50.5% YES (up 16pp from Aug 26's 34.5%) — that's the dominant macro ceiling. Conviction: medium (BTC ETF Sep 3 inflows $730.8M are structurally bullish; F&G 74 Greed from an intraday $81K test that reversed undercuts the greed read; NFP tonight is the next binary).
+> **Take:** chop — BTC -1.80% 24h at $79,607 with 4/17 alts green despite F&G holding Greed at 73; Sep 16 FOMC (50.5% hike / 48.5% no-change) remains the macro ceiling and NFP resolved inconclusive. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $78,924 (-1.68% 24h, -0.1% 7d) · dominance 59.10% (-0.06pp 24h)
-- ETH $2,442 (-1.56% 24h, -1.9% 7d) · ETH/BTC 0.03094 (weakening vs Aug 26's 0.03131)
-- SOL $100.78 (-3.08% 24h, -3.1% 7d)
-- Total mcap $2.66T (-2.43% 24h) · DEX vol $10.37B 24h
-- Breadth: 5/20 green 24h (ZEC +12.9%, FIGR_HELOC +1.93%, XMR +0.43%, HYPE +0.37%, USDT flat) · 5/20 green 7d (ZEC +23.8%, XMR +10.5%, ADA +3.2%, HYPE +2.5%, BNB +1.4%)
-- Fear & Greed: 74 (Greed) — yesterday 65 (+9pts; elevated despite weak breadth — reflects intraday $81K spike)
+- BTC $79,607 (-1.80% 24h, +2.9% 7d) · dominance 59.04% (-0.06pp 24h) · intraday high $81,379
+- ETH $2,454 (-2.49% 24h, +0.9% 7d) · ETH/BTC 0.03083 (continued weakening vs BTC)
+- SOL $102.23 (-1.59% 24h, -1.3% 7d)
+- Total mcap $2.70T (-3.41% 24h from peak) · DEX vol $10.15B 24h (+13.5% vs 7d avg $8.94B)
+- Breadth: 4/17 green 24h (BNB +4.12%, ZEC +3.85%, TRX +1.44%, FIGR_HELOC +0.60%) · 12/17 green 7d
+- Fear & Greed: 73 (Greed) — yesterday 74 (-1pt, flat)
 
 ## What Changed Since Last Refresh
-- **September FOMC hike probability: 34.5% → 50.5% (+16pp)** — single largest macro shift. Jackson Hole (Aug 27-29) resolved hawkishly; Warsh's "Financial Innovation" keynote interpreted as rate-hike-permissive. No-change probability now 46.5% — near 50/50 standoff. NFP tonight is the de facto deciding vote.
-- **ZEC $774 → $977 (+26.2%)** — prior snapshot called ZEC "fading"; incorrect. ZEC re-accelerated to +12.9% 24h / +23.8% 7d. Narrative phase upgraded from fading → rising.
-- **HYPE $80.91 → $84.00 (+3.8%)** — cleared the $82 resistance cited as ceiling in Aug 26 snapshot; HCH short further underwater.
-- **BTC intraday $81K test failed** — BTC briefly broke $81K today (Fed Governor Waller dovish comment + $400M short liquidations) then reversed; net 24h result -1.68%. Intraday range shows bulls present but ceiling holds.
-- **BTC ETF Aug 2026 record: $3.52B** — best month of 2026; total AUM $99.61B. Sep 3 inflows $730.8M (IBIT-led). Sep 1 saw $236.46M outflows — first crack in the streak.
-- **F&G: 65 → 74 (+9pts)** — moved from mid-Greed to upper Greed; conflict with 5/20 breadth signals intraday squeeze sentiment rather than organic risk-on.
+- **NFP resolved Sep 4 — no stalemate break:** BTC touched $81,379 intraday (dovish labor data implied) then reversed; hike odds unchanged at 50.5% YES, no-change moved 46.5% → 48.5% (+2pp). NFP was inconclusive — Sep 16 FOMC is now the hard binary date.
+- **ZEC broke $1,000:** $977 → $1,005 (+2.9%) — milestone breach on continued 25.9% 7d momentum; privacy narrative now at three names (ZEC/XMR/DASH).
+- **DASH entered privacy narrative:** +32.66% 24h, currently trending on CoinGecko. First time in 7 days a third major privacy coin joins ZEC and XMR in simultaneous breakout.
+- **HCH tactical long rotation this morning:** BCH 4% spot (07:08Z), BNB 2% spot (07:47Z, SL already at BE), STRK 2% spot (07:56Z), +1% unnamed spot (07:58Z) — net-short macro trader adding 8-9% portfolio in alt longs in under one hour. Significant positioning shift.
+- **BNB +4.12% 24h, strongest large-cap:** HCH thesis "Chinese tickers leading = structural bullish for BNB/CZ"; only large-cap besides ZEC in green on 24h. +7.5% 7d.
+- **BTC ETF AUM: $103.34B** (was $99.61B 2 days ago). Sep 3 was $731M single-day inflow (IBIT $454M), largest since January. Sep 5 Farside data pending.
 
 ## Active Narratives
-- **September FOMC hike binary** — phase: peak. Evidence: 50.5% YES hike / 46.5% YES no-change on Polymarket ($712K 24h vol); NFP tonight is the decisive input — strong print = hike confirmed, BTC $73-76K zone; weak = hike off, path to $83K+ opens.
-- **Privacy coin breakout (ZEC + XMR)** — phase: rising. Evidence: ZEC $977 (+12.9% 24h, +23.8% 7d) from $774 just 9 days ago; XMR $518 (+0.43% 24h, +10.5% 7d); both the only large-caps holding bid against broad-market bleed.
-- **HYPE divergence (vs HCH short)** — phase: rising. Evidence: HYPE $84 (+0.37% 24h, +2.5% 7d); cleared $82 resistance from Aug 26; HCH short position is now severely underwater — no resolution signal yet.
-- **BTC ETF institutional bid** — phase: peak (first crack). Evidence: Aug total $3.52B (2026-high); Sep 3 $730.8M inflows; but Sep 1 saw $236.46M outflows — first daily outflow since July; total AUM $99.61B near $100B milestone.
-- **Micro-cap meme rotation** — phase: emerging. Evidence: SHRUB +77.6% 24h, MARSCOIN +62.3%, USELESS +35.2% trending on CoinGecko; risk-off tape + meme spike = classic late-cycle liquidity chasing.
+- **September FOMC hike binary** — phase: peak. Evidence: hike 50.5% YES / no-change 48.5% YES on Polymarket ($727K/$1.25M 24h vol); NFP resolved without breaking the 50/50 split; Sep 16 is the hard date — hike = BTC $73-76K zone, no-change = $83K+ gate opens.
+- **Privacy coin broadening (ZEC + XMR + DASH)** — phase: rising. Evidence: ZEC $1,005 (+3.85% 24h, +25.9% 7d) broke $1K milestone; XMR $528 (+13.8% 7d); DASH $67.40 (+32.66% 24h) newly trending — sector broadened to three large-cap names.
+- **BNB / China-linked altcoin rotation** — phase: emerging. Evidence: BNB +4.12% 24h, +7.5% 7d; HCH added 2% spot long 07:47Z with SL moved to BE within 38min; thesis "Chinese tickers structural bullish + CZ positioning = never-short BNB."
+- **BTC ETF institutional bid** — phase: peak (continuation watch). Evidence: Sep 3 $731M inflow (IBIT $454M, 62% share); AUM $103.34B = 6.32% of BTC mcap; Sep 5 Farside data pending — second consecutive large inflow day would confirm momentum.
+- **Micro-cap meme rotation** — phase: peak. Evidence: SHRUB +171.95% 24h, "4" +74.17%, MARSCOIN +69.55% all trending; AMC -70.6% in same cycle confirms rapid lifecycle. Classic late-cycle chasing in risk-off backdrop.
 
 ## Top DeFi Protocols (TVL, 7d change)
 - Lido: $23.76B (+30.33% 7d, carry-forward from Aug 26)
@@ -35,48 +35,49 @@
 *(DeFiLlama /protocols not re-fetched this run — values carry forward. Chain-level TVL is fresh.)*
 
 ## Chain Flow (top 5 by TVL, live)
-- Ethereum: $49.90B (was $49.06B — +0.9%)
-- Solana: $5.89B (was $5.59B — +5.4%, tracking SOL price recovery)
-- BSC: $5.62B (was $5.56B — +1.1%)
-- Base: $5.61B (was $5.49B — +2.2%)
-- Tron: $5.42B (was $5.14B — +5.4%)
+- Ethereum: $49.14B (was $49.90B — -1.5%)
+- Solana: $5.86B (was $5.89B — -0.5%)
+- BSC: $5.68B (was $5.62B — +1.1%)
+- Base: $5.64B (was $5.61B — +0.5%)
+- Tron: $5.42B (flat)
 
 ## Stablecoins
-Total: ~$272B (carry-forward; no fresh /stablecoins fetch this run). USDT $183.17B · USDC $73.69B · USDS $6.62B · DAI $4.77B · USDe ~$4.1B. No new flight-to-fiat signal visible in chain data.
+Total: ~$272B (carry-forward). USDT $183.40B · USDC $74.60B · USDS $6.62B · DAI $4.77B · USDe ~$4.1B. No flight-to-fiat signal in chain data.
 
-## Trending (CoinGecko)
-- ZEC — $977, +12.90% 24h [privacy bid continuing; was "fading" — now clearly RISING]
-- HYPE — $84.06, +0.37% 24h [sole large-cap outperformer; cleared $82 resistance]
-- LIT (Lighter) — +14.44% 24h [DeFi, rising]
-- PONS — +30.14% 24h [micro-cap, PUMP-RISK day-4+]
-- USELESS — +35.20% 24h [micro-cap meme, no structural thesis]
-- SHRUB (Lil' Shrub) — +77.60% 24h [micro-cap meme, extreme PUMP-RISK]
-- MARSCOIN — +62.29% 24h [micro-cap meme, PUMP-RISK]
-- XMR — $517.93, +0.43% 24h [privacy, 10.5% 7d — quiet bid]
-- UNI — $6.23, +0.86% 24h [DeFi, mild]
+## Trending (CoinGecko, as of 08:32 UTC)
+- SHRUB — $0.069, +171.95% 24h [micro-cap meme, PUMP-RISK, peak cycle]
+- 4 — $0.028, +74.17% 24h [micro-cap, PUMP-RISK]
+- MARSCOIN — $0.188, +69.55% 24h [micro-cap meme, PUMP-RISK]
+- DASH — $67.40, +32.66% 24h [privacy sector expanding — new entrant]
+- PONS — $0.798, +18.89% 24h [micro-cap, PUMP-RISK day 5+]
+- NEAR — $2.22, +12.58% 24h [L1 catching bid, emerging]
+- ZEC — $1,004.78, +3.74% 24h [privacy narrative continuing, $1K broken]
+- TAO (Bittensor) — $234.98, +2.24% 24h [AI/ML layer, quiet bid]
+- SUI — $0.785, +1.80% 24h [L1, mild]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Fed No Change at Sep 2026 FOMC? | 46.5% | $1.54M | $349K |
-| Clarity Act (H.R.3633) signed in 2026? | 15.5% | $1.33M | $722K |
-| Fed raise rates 25bps at Sep 2026? | 50.5% | $712K | $381K |
+| Clarity Act (H.R.3633) signed in 2026? | 14.5% | $1.46M | $830K |
+| Fed No Change at Sep 2026 FOMC? | 48.5% | $1.25M | $598K |
+| Fed raise rates 25bps at Sep 2026? | 50.5% | $727K | $507K |
+| Israel closes airspace by Sep 30? | 66.0% | $483K | $75K |
 
-*(Sep FOMC is the dominant market: hike (50.5%) vs no-change (46.5%) — near coin-flip. Clarity Act remains low at 15.5%. Hormuz market not in top-3 by volume — likely resolved or volume drained.)*
+*(Sep FOMC near coin-flip: hike 50.5% vs no-change 48.5%. Clarity Act slides to 14.5% — effectively dead for 2026.)*
 
 ## Macro Catalysts (next 48h)
-- **Nonfarm Payrolls (tonight, Sep 4):** Strongest near-term binary. Strong = confirms hawkish case → hike probability moves above 60%, BTC tests $75-76K; weak = hike narrative deflates, $83K gate opens (KillaXBT framework still active).
-- **September FOMC (upcoming):** 50/50 hike/no-change split makes this the highest-uncertainty Fed meeting in months. Both sides have credible evidence — BTC cannot price this cleanly until NFP resolves.
-- **Clarity Act (15.5% YES):** Effectively dead for 2026. No positioning implication.
+- **Sep 16 FOMC (primary binary):** NFP resolved without breaking the 50/50 stalemate. Next decisive input is Sep 16 itself. 10yr Treasury yield ~4.8%, real yield ~2.5% (historical risk-asset danger threshold). Hike = dollar up, real yields up, BTC $73-76K zone. No-change = path to $83K+ opens.
+- **Brent crude near $100:** Active headwind alongside elevated yields — compresses risk appetite even if FOMC resolves benignly.
+- **BTC ETF Sep 5 Farside flows (today):** Sep 3 $731M inflow was the largest since January. Sep 1 had $200M+ outflow. Consecutive large inflow today = institutional momentum confirmed; reversal = one-day spike, not trend.
 
 ## Implications for Downstream Skills
-- **token-pick:** Avoid directional BTC/ETH longs ahead of NFP tonight — 50/50 FOMC binary = gap risk. ZEC and XMR are the only assets with confirmed uptrend in this tape; privacy sector is the cleanest long. HYPE cleared $82 and is the only large-cap trending positive. Micro-cap meme wave (SHRUB/USELESS/MARSCOIN) is PUMP-RISK — avoid.
-- **narrative-tracker:** Sep FOMC hike is at peak attention — monitor NFP tonight for phase-transition signal. Privacy coin narrative (ZEC/XMR) should be added as rising; remove ZEC "fading" tag from prior. Meme rotation emerging — watch for cross-trader mentions before upgrading to tracked narrative.
+- **token-pick:** ZEC/XMR/DASH are the cleanest longs in this tape — privacy narrative has breadth and rising momentum with no clear peak signal yet. BNB confirmed by HCH spot entry + Chinese ticker thesis — valid setup but size small vs Sep 16 binary gap risk. Avoid micro-cap memes (SHRUB/4/MARSCOIN) — PUMP-RISK at peak phase. BTC directional longs only after Sep 16 resolves.
+- **narrative-tracker:** Privacy sector upgraded to 3-name (ZEC/XMR/DASH) — rising phase confirmed. HCH tactical alt long rotation (8-9% deployed this morning vs net-short macro stance) is an actionable near-term divergence signal — monitor for escalation or reversal. FOMC binary at peak attention through Sep 16 — no phase transition expected until then.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 |------|-------|-------|--------|
 
 ---
-*Sources — btc/eth/sol: CoinGecko /simple/price + /coins/markets · global: CoinGecko /global · trending: CoinGecko /search/trending · defi chains: DeFiLlama /v2/chains (live) · defi protocols: carry-forward from Aug 26 · dex vol: DeFiLlama /overview/dexs ($10.37B) · sentiment: alternative.me (F&G 74, up 9pts) · markets: Polymarket (Sep FOMC hike 50.5%; no-change 46.5%; Clarity Act 15.5%) · macro: WebSearch (NFP tonight; Waller dovish comment; BTC $81K intraday test; ETF Aug record $3.52B; Sep 3 inflows $730.8M)*
+*Sources — btc/eth/sol: CoinGecko /simple/price + /coins/markets (08:32 UTC) · global: CoinGecko /global · trending: CoinGecko /search/trending · defi chains: DeFiLlama /v2/chains (live) · defi protocols: carry-forward from Aug 26 · dex vol: DeFiLlama /overview/dexs ($10.15B 24h, $62.59B 7d) · sentiment: alternative.me (F&G 73, down 1pt) · markets: Polymarket (Sep FOMC hike 50.5%; no-change 48.5%; Clarity Act 14.5%; Israel airspace 66.0%) · macro: WebSearch (Sep 4 NFP inconclusive; real yield 2.5%; Brent ~$100; BTC ETF $731M inflow Sep 3, AUM $103.34B)*
 *Source status: coingecko=ok defillama=ok(chains live; protocols carry-forward) fng=ok polymarket=ok websearch=ok stablecoins=carry-forward*
