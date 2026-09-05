@@ -1,0 +1,141 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "✅ Success"
+      },
+      "children": [
+        "result-stack"
+      ]
+    },
+    "result-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-section",
+        "separator-1",
+        "logging-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-heading",
+        "user-info",
+        "classification-row",
+        "alert-status-row"
+      ]
+    },
+    "tweet-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Evaluation",
+        "level": "h3"
+      }
+    },
+    "user-info": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe (@2096294279224189232)"
+      }
+    },
+    "classification-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "class-label",
+        "class-badge"
+      ]
+    },
+    "class-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:",
+        "variant": "muted"
+      }
+    },
+    "class-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "non-financial personal banter",
+        "variant": "secondary"
+      }
+    },
+    "alert-status-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "alert-label",
+        "alert-badge"
+      ]
+    },
+    "alert-label": {
+      "type": "Text",
+      "props": {
+        "text": "Alert sent:",
+        "variant": "muted"
+      }
+    },
+    "alert-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "logging-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "logging-heading",
+        "log-item-1",
+        "log-item-2"
+      ]
+    },
+    "logging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event Logged",
+        "level": "h3"
+      }
+    },
+    "log-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Event logged to memory/logs/2026-09-05.md"
+      }
+    },
+    "log-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet ID added to dedup tracking"
+      }
+    }
+  }
+}
