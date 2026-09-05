@@ -1,0 +1,448 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-09-05",
+        "description": "Mixed tape with modest alt rotation — 54% of top-100 alts green, median +0.52%; BTC and ETH both red while mid-caps and trending names lead."
+      },
+      "children": [
+        "h_winners",
+        "table_winners",
+        "sep_1",
+        "h_losers",
+        "table_losers",
+        "sep_2",
+        "h_trending",
+        "table_trending",
+        "sep_3",
+        "h_notable",
+        "stack_notable"
+      ]
+    },
+    "h_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Name",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "DASH",
+            "Dash",
+            "$67.28",
+            "+32.8%",
+            "+72.6%",
+            "−7.2%",
+            "$611.8M",
+            "#79",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "PONS",
+            "Pons",
+            "$0.7981",
+            "+25.8%",
+            "+392.6%",
+            "+3.2%",
+            "$191.6M",
+            "#97",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "NEAR",
+            "NEAR Protocol",
+            "$2.215",
+            "+12.8%",
+            "+23.9%",
+            "−2.3%",
+            "$598.0M",
+            "#34",
+            "TRENDING+UP"
+          ],
+          [
+            "CAKE",
+            "PancakeSwap",
+            "$2.070",
+            "+4.4%",
+            "+19.5%",
+            "+2.2%",
+            "$87.3M",
+            "#92",
+            ""
+          ],
+          [
+            "GRAM",
+            "Gram",
+            "$1.420",
+            "+4.1%",
+            "+4.5%",
+            "+0.4%",
+            "$56.7M",
+            "#27",
+            ""
+          ],
+          [
+            "BNB",
+            "BNB",
+            "$747.11",
+            "+4.1%",
+            "+7.5%",
+            "+1.6%",
+            "$1.224B",
+            "#4",
+            "MAJOR"
+          ],
+          [
+            "ZEC",
+            "Zcash",
+            "$1,005",
+            "+3.8%",
+            "+25.9%",
+            "−1.5%",
+            "$1.273B",
+            "#11",
+            "TRENDING+UP"
+          ],
+          [
+            "ICP",
+            "Internet Computer",
+            "$2.630",
+            "+3.5%",
+            "+7.8%",
+            "−2.5%",
+            "$73.2M",
+            "#59",
+            ""
+          ],
+          [
+            "TAO",
+            "Bittensor",
+            "$236.28",
+            "+3.3%",
+            "0.0%",
+            "−0.5%",
+            "$181.5M",
+            "#43",
+            ""
+          ],
+          [
+            "LIT",
+            "Lighter",
+            "$4.604",
+            "+2.4%",
+            "+35.9%",
+            "−0.2%",
+            "$177.3M",
+            "#69",
+            "TRENDING"
+          ]
+        ]
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Name",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "CRV",
+            "Curve DAO",
+            "$0.3560",
+            "−5.1%",
+            "+16.3%",
+            "−0.3%",
+            "$60.4M",
+            "#100",
+            ""
+          ],
+          [
+            "ARB",
+            "Arbitrum",
+            "$0.1320",
+            "−4.3%",
+            "+51.6%",
+            "−0.5%",
+            "$228.0M",
+            "#77",
+            ""
+          ],
+          [
+            "PEPE",
+            "PEPE",
+            "$0.000004",
+            "−3.8%",
+            "−3.1%",
+            "+0.1%",
+            "$303.1M",
+            "#58",
+            ""
+          ],
+          [
+            "ADA",
+            "Cardano",
+            "$0.2130",
+            "−3.4%",
+            "+6.6%",
+            "+0.2%",
+            "$531.5M",
+            "#19",
+            "MAJOR"
+          ],
+          [
+            "PUMP",
+            "Pump.fun",
+            "$0.004000",
+            "−3.4%",
+            "−8.8%",
+            "+0.7%",
+            "$151.3M",
+            "#52",
+            ""
+          ],
+          [
+            "WLFI",
+            "World Liberty",
+            "$0.05650",
+            "−2.9%",
+            "−2.3%",
+            "−0.3%",
+            "$36.2M",
+            "#49",
+            ""
+          ],
+          [
+            "XMR",
+            "Monero",
+            "$528.53",
+            "−2.6%",
+            "+13.8%",
+            "−0.2%",
+            "$159.7M",
+            "#14",
+            "MAJOR"
+          ],
+          [
+            "ETH",
+            "Ethereum",
+            "$2,454",
+            "−2.5%",
+            "+0.9%",
+            "+0.1%",
+            "$13.88B",
+            "#2",
+            "MAJOR"
+          ],
+          [
+            "BCH",
+            "Bitcoin Cash",
+            "$251.12",
+            "−2.5%",
+            "+2.8%",
+            "+0.5%",
+            "$154.9M",
+            "#21",
+            "MAJOR"
+          ],
+          [
+            "BTC",
+            "Bitcoin",
+            "$79,607",
+            "−1.8%",
+            "+2.9%",
+            "0.0%",
+            "$30.97B vol",
+            "#1",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Name",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PONS",
+            "Pons",
+            "#97",
+            "$0.7981",
+            "+18.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "SHRUB",
+            "Lil' Shrub",
+            "#353",
+            "$0.06895",
+            "+172.0%",
+            "PUMP-RISK"
+          ],
+          [
+            "PENGU",
+            "Pudgy Penguins",
+            "#103",
+            "$0.008599",
+            "+0.1%",
+            ""
+          ],
+          [
+            "DASH",
+            "Dash",
+            "#79",
+            "$67.40",
+            "+32.7%",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "MARSCOIN",
+            "MARSCOIN",
+            "#180",
+            "$0.1882",
+            "+69.5%",
+            "PUMP-RISK"
+          ],
+          [
+            "ZEC",
+            "Zcash",
+            "#11",
+            "$1,005",
+            "+3.7%",
+            "TRENDING+UP"
+          ],
+          [
+            "LIT",
+            "Lighter",
+            "#69",
+            "$4.604",
+            "+2.3%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_notable_1",
+        "text_notable_2",
+        "text_notable_3",
+        "text_notable_4",
+        "text_notable_5"
+      ]
+    },
+    "text_notable_1": {
+      "type": "Text",
+      "props": {
+        "text": "• DASH: trending #4 + 32.8% 24h / 7d +72.6% — sustained breakout across both timeframes, strong signal",
+        "variant": "body"
+      }
+    },
+    "text_notable_2": {
+      "type": "Text",
+      "props": {
+        "text": "• PONS: trending #1 + 25.8% 24h / 7d +393% — RH ecosystem coin; bull_genius mentioned Sep 4; unusual 7d magnitude warrants monitoring",
+        "variant": "body"
+      }
+    },
+    "text_notable_3": {
+      "type": "Text",
+      "props": {
+        "text": "• SHRUB (#353): trending #2 + 172% 24h — [PUMP-RISK]; outside top 250, extreme low-cap spike, likely manipulation",
+        "variant": "body"
+      }
+    },
+    "text_notable_4": {
+      "type": "Text",
+      "props": {
+        "text": "• MARSCOIN (#180): trending #5 + 69.5% 24h — [PUMP-RISK]; low-cap pump, no volume confirmation available",
+        "variant": "body"
+      }
+    },
+    "text_notable_5": {
+      "type": "Text",
+      "props": {
+        "text": "• ZEC: $1,005 today vs $850 [CAPITULATION] Aug 26 — confirmed reversal (+18% from low); now trending with 7d +25.9%",
+        "variant": "body"
+      }
+    }
+  }
+}

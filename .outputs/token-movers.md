@@ -1,1 +1,43 @@
---file
+*Token Movers — 2026-09-05*
+
+_Mixed tape with modest alt rotation — 54% of top-100 alts green, median +0.52%; BTC and ETH both red while mid-caps and trending names lead._
+
+*Top Winners (24h)*
+1. DASH (Dash) — $67.28  +32.8% / 7d +72.6% / 1h −7.2%  •  $611.8M / #79  [TRENDING+UP][BREAKOUT]
+2. PONS (Pons) — $0.7981  +25.8% / 7d +392.6% / 1h +3.2%  •  $191.6M / #97  [TRENDING+UP][BREAKOUT]
+3. NEAR (NEAR Protocol) — $2.215  +12.8% / 7d +23.9% / 1h −2.3%  •  $598.0M / #34  [TRENDING+UP]
+4. CAKE (PancakeSwap) — $2.070  +4.4% / 7d +19.5% / 1h +2.2%  •  $87.3M / #92
+5. GRAM (Gram) — $1.420  +4.1% / 7d +4.5% / 1h +0.4%  •  $56.7M / #27
+6. BNB — $747.11  +4.1% / 7d +7.5% / 1h +1.6%  •  $1.224B / #4  [MAJOR]
+7. ZEC (Zcash) — $1,005  +3.8% / 7d +25.9% / 1h −1.5%  •  $1.273B / #11  [TRENDING+UP]
+8. ICP (Internet Computer) — $2.630  +3.5% / 7d +7.8% / 1h −2.5%  •  $73.2M / #59
+9. TAO (Bittensor) — $236.28  +3.3% / 7d 0.0% / 1h −0.5%  •  $181.5M / #43
+10. LIT (Lighter) — $4.604  +2.4% / 7d +35.9% / 1h −0.2%  •  $177.3M / #69  [TRENDING]
+
+*Top Losers (24h)*
+1. CRV (Curve DAO) — $0.3560  −5.1% / 7d +16.3% / 1h −0.3%  •  $60.4M / #100
+2. ARB (Arbitrum) — $0.1320  −4.3% / 7d +51.6% / 1h −0.5%  •  $228.0M / #77
+3. PEPE — $0.000004  −3.8% / 7d −3.1% / 1h +0.1%  •  $303.1M / #58
+4. ADA (Cardano) — $0.2130  −3.4% / 7d +6.6% / 1h +0.2%  •  $531.5M / #19  [MAJOR]
+5. PUMP (Pump.fun) — $0.004000  −3.4% / 7d −8.8% / 1h +0.7%  •  $151.3M / #52
+6. WLFI (World Liberty) — $0.05650  −2.9% / 7d −2.3% / 1h −0.3%  •  $36.2M / #49
+7. XMR (Monero) — $528.53  −2.6% / 7d +13.8% / 1h −0.2%  •  $159.7M / #14  [MAJOR]
+8. ETH (Ethereum) — $2,454  −2.5% / 7d +0.9% / 1h +0.1%  •  $13.88B / #2  [MAJOR]
+9. BCH (Bitcoin Cash) — $251.12  −2.5% / 7d +2.8% / 1h +0.5%  •  $154.9M / #21  [MAJOR]
+10. BTC (Bitcoin) — $79,607  −1.8% / 7d +2.9% / 1h 0.0%  •  $30.97B vol / #1  [MAJOR]
+
+*Trending*
+1. PONS — #97, $0.7981, +18.9% 24h  [TRENDING+UP]
+2. SHRUB (Lil' Shrub) — #353, $0.06895, +172.0% 24h  [PUMP-RISK]
+3. PENGU (Pudgy Penguins) — #103, $0.008599, +0.1% 24h
+4. DASH — #79, $67.40, +32.7% 24h  [TRENDING+UP][BREAKOUT]
+5. MARSCOIN — #180, $0.1882, +69.5% 24h  [PUMP-RISK]
+6. ZEC (Zcash) — #11, $1,005, +3.7% 24h  [TRENDING+UP]
+7. LIT (Lighter) — #69, $4.604, +2.3% 24h
+
+*Notable*
+• DASH: trending #4 + 32.8% 24h / 7d +72.6% — sustained breakout across both timeframes, strong signal
+• PONS: trending #1 + 25.8% 24h / 7d +393% — RH ecosystem coin; bull_genius mentioned Sep 4; unusual 7d magnitude warrants monitoring
+• SHRUB (#353): trending #2 + 172% 24h — [PUMP-RISK]; outside top 250, extreme low-cap spike, likely manipulation
+• MARSCOIN (#180): trending #5 + 69.5% 24h — [PUMP-RISK]; low-cap pump, no volume confirmation available
+• ZEC: $1,005 today vs $850 [CAPITULATION] Aug 26 — confirmed reversal (+18% from low); now trending with 7d +25.9%
