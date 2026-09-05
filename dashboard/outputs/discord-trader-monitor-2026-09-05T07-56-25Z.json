@@ -1,0 +1,133 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Message classification uncertainty"
+      },
+      "children": [
+        "heading_context",
+        "separator1",
+        "stack_metadata",
+        "text_message",
+        "separator2",
+        "stack_analysis"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_context"
+      ]
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "HCH just posted in supporting channel (premium member chat) at 2026-09-05 07:51:20Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"Breakout zone\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_uncertainty",
+        "heading_interpretation",
+        "text_q1",
+        "text_q2",
+        "text_q3",
+        "text_q_conclusion"
+      ]
+    },
+    "alert_uncertainty": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No asset/ticker mentioned, no execution language, no personal action signal.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "heading_interpretation": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations:",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_q1": {
+      "type": "Text",
+      "props": {
+        "text": "Reference to ongoing BNB/BCH entries from 7 min earlier?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_q2": {
+      "type": "Text",
+      "props": {
+        "text": "Technical level comment?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_q3": {
+      "type": "Text",
+      "props": {
+        "text": "Something else?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_q_conclusion": {
+      "type": "Text",
+      "props": {
+        "text": "What's the read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
