@@ -1,0 +1,88 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1",
+        "link-to-post",
+        "separator-1",
+        "signals-section"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "complete coal like chill guy and peanut the squirrel went to 2 billion in last cycle\n\nnow you have at $220 million (10% of pnut ath), a coin that opened up the tokenized equity pairs meta on the biggest retail trading app in the world\n\na coin that makes you automatically an $NVDA shareholder and collectively owns a higher % share of the biggest chipmaker in the world the higher it goes\n\nmy price prediction for AI is it breaks $1B market cap in a matter of few weeks and over the whole cycle it probably tops somewhere between $20-50 billion\n\nthis is the leading coin for the leading megatrend of the 2026-2028 bull market\n\none absolute monster of a token"
+      },
+      "children": []
+    },
+    "link-to-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2096223878108344634"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "signals-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "signals-label",
+        "tags-row"
+      ]
+    },
+    "signals-label": {
+      "type": "Text",
+      "props": {
+        "text": "Signals",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tags-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-nvda",
+        "badge-equity-pairs"
+      ]
+    },
+    "badge-nvda": {
+      "type": "Badge",
+      "props": {
+        "text": "$NVDA reference on your watch list",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-equity-pairs": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging tokenized equity pairs narrative",
+        "variant": "outline"
+      },
+      "children": []
+    }
+  }
+}
