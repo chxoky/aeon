@@ -1,0 +1,55 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-header",
+        "event-info",
+        "tweet-card",
+        "classify-prompt",
+        "link-element"
+      ]
+    },
+    "calibration-header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @maxjschiller on X (Twitter) — context unavailable",
+        "variant": "body"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "@maxjschiller send it sky high"
+      }
+    },
+    "classify-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "link-element": {
+      "type": "Link",
+      "props": {
+        "label": "Link",
+        "href": "https://x.com/bull_genius/status/2096367797420843412"
+      }
+    }
+  }
+}
