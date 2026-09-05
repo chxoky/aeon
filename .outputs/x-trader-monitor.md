@@ -1,12 +1,1 @@
-🔍 *Calibration — @trading_axe*
-
-Event: Reply to @OG_MoleKeeper about capital allocation strategy
-
-@trading_axe: "I put the whole thing back into memes so realistically it benefits the trenches."
-
-Unable to classify — this contains execution language ("I put") but lacks specifics (no ticker, price, or clear context). Is this:
-1. A specific executed trade into meme tokens?
-2. A general conviction/allocation statement?
-3. Community philosophy commentary?
-
-What's your read? (Trader pattern: cryptic motivation posts; current position DOPAMEME +3850%)
+📊 Position Update — @bull_genius | Sep 05 19:05Z | Tactical weekend hedge positioning (shorts BTC/alts) + AI/XPL conviction add planning + September caution. Hedging existing spot longs into macro volatility (CPI 9/11, FOMC 9/16). | https://x.com/bull_genius/status/2096313899599450410

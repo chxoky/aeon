@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "📊 Position Update — x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Sep 05 19:05Z | Tactical weekend hedge positioning (shorts BTC/alts) + AI/XPL conviction add planning + September caution. Hedging existing spot longs into macro volatility (CPI 9/11, FOMC 9/16)."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet",
+        "href": "https://x.com/bull_genius/status/2096313899599450410"
+      }
+    }
+  }
+}
