@@ -1,22 +1,21 @@
-Heartbeat complete. Here's the summary:
-
 ## Summary
 
-**Overall status: 🔴 DEGRADED** (same as yesterday's 20:44 UTC run)
+**Heartbeat complete — 2026-09-05 15:00 UTC**
 
-**P0 checks:**
-- `token-alert` — 🕸 stuck (dispatched 2026-09-03 13:46 UTC, ~44h ago, never completed)
-- `token-movers` — 🕸 stuck (same dispatch, same situation)
-- X webhook `WATCHED_TRADERS` — ✅ healthy (x-trader-monitor succeeded at 08:31 UTC today, confirming webhook is live)
-- Heartbeat self-check — ✅ last success 20:47 UTC yesterday (~11h ago)
+**Overall: 🔴 DEGRADED** (one stuck skill remaining)
 
-**P1/P2/P3:**
-- No open PRs, no urgent issues
-- `morning-brief` / `morning-pipeline` — last success 2026-08-26, 10 days stale for a daily schedule (P3)
-- All other enabled skills running normally
+**Checks run:**
 
-**Notification:** Skipped — all flagged items were already reported in yesterday's 20:44 UTC heartbeat (within the 48h dedup window).
+| Check | Result |
+|-------|--------|
+| P0 — Failed/stuck skills | token-alert still stuck (dispatched Sep 03 13:46 UTC, ~49h, no completion) |
+| P0 — Recoveries since 08:00 run | token-movers ✅, morning-pipeline ✅, morning-brief ✅ (all resolved via morning-pipeline chain) |
+| P0 — X webhook WATCHED_TRADERS | ✅ healthy — x-trader-monitor succeeding through 14:20 UTC |
+| Heartbeat self-check | ✅ last_success 08:38 UTC (~6h ago) |
+| P1 — Open PRs / urgent issues | 0 open PRs; 0 open issues |
+| P2 — Flagged memory items | None |
+| P3 — Schedule gaps | token-alert already flagged as P0 |
 
-**Actions taken:** Rewrote `docs/status.md` with current fleet state; appended log entry to `memory/logs/2026-09-05.md`.
+**Notification:** Suppressed (dedup — token-alert stuck already reported Sep 04 20:44 UTC and Sep 05 08:05 UTC, both within the 48h window).
 
-`STATUS_PAGE=DEGRADED — wrote docs/status.md`
+**Actions taken:** `docs/status.md` regenerated with updated timestamps and recoveries noted; log entry appended to `memory/logs/2026-09-05.md`.
