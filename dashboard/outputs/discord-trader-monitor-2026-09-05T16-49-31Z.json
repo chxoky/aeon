@@ -1,0 +1,198 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — DC: HCH — Chat",
+        "description": "Discord Trader Monitor - Message Classification"
+      },
+      "children": [
+        "heading-message",
+        "stack-main"
+      ]
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "\"Top 4 bnb coins\"",
+        "level": "h2"
+      }
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-details",
+        "sep-1",
+        "section-classification",
+        "sep-2",
+        "section-context",
+        "sep-3",
+        "text-question"
+      ]
+    },
+    "section-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-details",
+        "badge-channel",
+        "badge-message-id",
+        "badge-timestamp"
+      ]
+    },
+    "heading-details": {
+      "type": "Heading",
+      "props": {
+        "text": "Message Details",
+        "level": "h3"
+      }
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting channel message (member chat)",
+        "variant": "secondary"
+      }
+    },
+    "badge-message-id": {
+      "type": "Badge",
+      "props": {
+        "text": "Message ID: 1545837633123389542",
+        "variant": "outline"
+      }
+    },
+    "badge-timestamp": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-09-05 16:46:52Z",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-class",
+        "text-class-intro",
+        "stack-options"
+      ]
+    },
+    "heading-class": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "text-class-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "variant": "body"
+      }
+    },
+    "stack-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt-a",
+        "opt-b",
+        "opt-c",
+        "opt-d"
+      ]
+    },
+    "opt-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) market sentiment on top BNB-ecosystem performers?",
+        "variant": "body"
+      }
+    },
+    "opt-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) trade plan to long/short BNB coins?",
+        "variant": "body"
+      }
+    },
+    "opt-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) reference to major market-cap coins?",
+        "variant": "body"
+      }
+    },
+    "opt-d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) something else?",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-context",
+        "text-context"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "HCH recently entered BNB long (Sep 05 07:47Z: 2% spot long with 4% SL, later shifted to BE)",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
