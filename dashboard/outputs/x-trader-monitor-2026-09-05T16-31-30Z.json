@@ -1,0 +1,72 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack",
+        "separator-1",
+        "chart-description"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "RH (renewable hydrogen projects) market structure observation: consolidation phase after recent wave, identifying buy opportunities in accumulation zones."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2096274399645090220"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-description": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-label",
+        "chart-phases"
+      ]
+    },
+    "chart-label": {
+      "type": "Text",
+      "props": {
+        "text": "OnChainStoic chart shared showing market cycle phases:"
+      }
+    },
+    "chart-phases": {
+      "type": "Text",
+      "props": {
+        "text": "early rally → overheating → consolidation (current phase) → breakout potential"
+      }
+    }
+  }
+}
