@@ -1,0 +1,71 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges-stack",
+        "tweet",
+        "link"
+      ]
+    },
+    "badges-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ticker",
+        "badge-sentiment"
+      ]
+    },
+    "badge-ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "SKHX",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Contrarian",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "SKHX — Bearish contrarian view on SK Hynix. Chart overlays Andrew Curran's Jun 30 bullish call (memory efficiency breakthrough) against current 1D structure showing rally peak 3M → current consolidation 2M range.\n\n\"This but in reverse\" = expects downside vs Curran's continuation thesis.\n\nContext: 3-trader tracked ticker (HCH structure Jul 15-17, WR wick-fill Jul 29, ryzzqq LONG pending approval). This adds bearish sentiment divergence vs ryzzqq positioning."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2096078471407493415"
+      },
+      "children": []
+    }
+  }
+}
