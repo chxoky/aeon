@@ -1,0 +1,156 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "Discord message analysis and classification"
+      },
+      "children": [
+        "badge_calibration",
+        "stack_content"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "outline"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp_section",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "context_section",
+        "separator_3",
+        "alert_classification"
+      ]
+    },
+    "timestamp_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_timestamp_label",
+        "text_timestamp_value"
+      ]
+    },
+    "text_timestamp_label": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp:",
+        "variant": "muted"
+      }
+    },
+    "text_timestamp_value": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 05 16:03:40Z"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_discord_label",
+        "text_discord_id",
+        "text_message_heading",
+        "text_message_content"
+      ]
+    },
+    "text_discord_label": {
+      "type": "Text",
+      "props": {
+        "text": "Discord",
+        "variant": "muted"
+      }
+    },
+    "text_discord_id": {
+      "type": "Text",
+      "props": {
+        "text": "ID: 1545826763383242794",
+        "variant": "caption"
+      }
+    },
+    "text_message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "text_message_content": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"Yes\"",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_context_heading",
+        "text_context_note"
+      ]
+    },
+    "text_context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text_context_note": {
+      "type": "Text",
+      "props": {
+        "text": "Reply with null referenced_message — unable to see what it was replying to.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
