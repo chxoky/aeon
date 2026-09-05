@@ -1,0 +1,155 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-header",
+        "sep-1",
+        "event-heading",
+        "event-text",
+        "sep-2",
+        "tweet-card",
+        "sep-3",
+        "context-heading",
+        "positions-stack",
+        "date-note",
+        "sentiment-text",
+        "interpretation-text",
+        "sep-4",
+        "classification-alert"
+      ]
+    },
+    "calibration-header": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @0xSisyphus (external context unavailable)",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "fat stays on"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "pump-stat",
+        "zec-stat"
+      ]
+    },
+    "pump-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP 10x long",
+        "value": "+29.81%",
+        "delta": "+29.81%",
+        "trend": "up"
+      }
+    },
+    "zec-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC 10x long",
+        "value": "+25.27%",
+        "delta": "+25.27%",
+        "trend": "up"
+      }
+    },
+    "date-note": {
+      "type": "Text",
+      "props": {
+        "text": "Positions as of Aug 28 (unrealized gains)",
+        "variant": "muted"
+      }
+    },
+    "sentiment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent sentiment bullish on bear-market recovery",
+        "variant": "body"
+      }
+    },
+    "interpretation-text": {
+      "type": "Text",
+      "props": {
+        "text": "This brief reply could refer to maintaining leverage positions, broader market sentiment, or context specific to their conversation with Sisyphus.",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
