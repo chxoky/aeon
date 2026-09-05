@@ -1,0 +1,308 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-09-05"
+      },
+      "children": [
+        "take_section",
+        "prices_section",
+        "breadth_section",
+        "tvl_section",
+        "narrative_section",
+        "hot_market_section"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take_text",
+        "conviction_badge"
+      ]
+    },
+    "take_text": {
+      "type": "Text",
+      "props": {
+        "text": "Take: rotation",
+        "variant": "lead"
+      }
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep1",
+        "prices_label",
+        "prices_grid"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      }
+    },
+    "prices_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc_stat",
+        "eth_stat",
+        "fear_greed_stat"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$79,736",
+        "delta": "+1.15%",
+        "trend": "up"
+      }
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,456",
+        "delta": "+0.72%",
+        "trend": "up"
+      }
+    },
+    "fear_greed_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "73",
+        "delta": "Greed"
+      }
+    },
+    "breadth_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep2",
+        "breadth_label",
+        "breadth_stat"
+      ]
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breadth_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Breadth",
+        "level": "h3"
+      }
+    },
+    "breadth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "17/20",
+        "delta": "from 4/17 yesterday",
+        "trend": "up"
+      }
+    },
+    "tvl_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep3",
+        "tvl_label",
+        "tvl_grid"
+      ]
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tvl_label": {
+      "type": "Heading",
+      "props": {
+        "text": "TVL",
+        "level": "h3"
+      }
+    },
+    "tvl_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "tvl_eth_stat",
+        "bsc_stat"
+      ]
+    },
+    "tvl_eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$49.1B"
+      }
+    },
+    "bsc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BSC",
+        "value": "+2.1%",
+        "trend": "up"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep4",
+        "narrative_label",
+        "narrative_text",
+        "coins_row"
+      ]
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h3"
+      }
+    },
+    "narrative_text": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy sector rising"
+      }
+    },
+    "coins_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_zec",
+        "badge_xmr",
+        "badge_firo",
+        "badge_bnb_breakout"
+      ]
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "outline"
+      }
+    },
+    "badge_xmr": {
+      "type": "Badge",
+      "props": {
+        "text": "XMR",
+        "variant": "outline"
+      }
+    },
+    "badge_firo": {
+      "type": "Badge",
+      "props": {
+        "text": "FIRO",
+        "variant": "outline"
+      }
+    },
+    "badge_bnb_breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BNB +8.3% breakout",
+        "variant": "default"
+      }
+    },
+    "hot_market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep5",
+        "hot_market_label",
+        "fomc_progress",
+        "clarity_progress"
+      ]
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hot_market_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Markets",
+        "level": "h3"
+      }
+    },
+    "fomc_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "FOMC Sep hike YES (Warsh JH hawkish)",
+        "value": 60,
+        "max": 100
+      }
+    },
+    "clarity_progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Clarity Act",
+        "value": 14.5,
+        "max": 100
+      }
+    }
+  }
+}
