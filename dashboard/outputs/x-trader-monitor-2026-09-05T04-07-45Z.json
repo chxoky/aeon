@@ -1,0 +1,217 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Market Structure Validation",
+        "description": "@Wild_Randomness analysis on bearish-equities thesis"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "metrics-section",
+        "sep2",
+        "analysis-section",
+        "sep3",
+        "quote-section",
+        "sep4",
+        "conviction-section",
+        "sep5",
+        "post-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Market structure validation on bearish-equities-into-Oct thesis.\n\n4-chart technical setup:\n1. Calls as % tape (low level) = elevated puts, bearish sentiment\n2. CBOE 1M Implied Vol = spiked to 70, crushed to 6.33 (vol reversal pattern)\n3. BofA FMS Equity Allocation = RECORD +40ppt jump May 2026 (peak FOMO fund manager buying into equities)\n4. S&P 500 daily = 20-day drawdown -550pts (-9.71%), now consolidating\n\nClassic bear-trap formation: maximum fund manager allocation immediately preceded market dump."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics-heading",
+        "stat-tape",
+        "stat-vol",
+        "stat-allocation",
+        "stat-sp500"
+      ]
+    },
+    "metrics-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup Details",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stat-tape": {
+      "type": "Text",
+      "props": {
+        "text": "1. Calls as % tape (low level): Elevated puts, bearish sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "2. CBOE 1M Implied Vol",
+        "value": "6.33",
+        "delta": "Down from spike of 70 (vol reversal pattern)"
+      },
+      "children": []
+    },
+    "stat-allocation": {
+      "type": "Stat",
+      "props": {
+        "label": "3. BofA FMS Equity Allocation",
+        "value": "+40ppt",
+        "delta": "RECORD jump May 2026 — peak FOMO fund manager buying"
+      },
+      "children": []
+    },
+    "stat-sp500": {
+      "type": "Stat",
+      "props": {
+        "label": "4. S&P 500 Daily 20-day Drawdown",
+        "value": "-550pts",
+        "delta": "-9.71%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Bear-Trap Formation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Maximum fund manager allocation immediately preceded market dump. S&P 500 now consolidating after -550pt drawdown.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-heading",
+        "quote-text"
+      ]
+    },
+    "quote-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Post-Diction Validation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Signed by the guy that told you exactly how it was going to play out\" — Validates his own bearish prediction with this market structure breakdown.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "conviction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conviction-heading",
+        "conviction-text"
+      ]
+    },
+    "conviction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction Alignment",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "conviction-text": {
+      "type": "Text",
+      "props": {
+        "text": "Analysis aligns with WR's documented equities/vol + September seasonality + fund-allocation dynamics conviction.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2096086953368092828"
+      },
+      "children": []
+    }
+  }
+}
