@@ -1,0 +1,147 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Cryptic X reply calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "tweet_trading_axe",
+        "separator_2",
+        "context_stack",
+        "separator_3",
+        "alert_ambiguous",
+        "separator_4",
+        "link_post",
+        "separator_5",
+        "text_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "tweet_trading_axe": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "@pepeXBT About time.\n\n~ Dr. Axius."
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_external_context",
+        "text_interpretation_1",
+        "text_interpretation_2",
+        "text_interpretation_3",
+        "text_interpretation_4"
+      ]
+    },
+    "text_external_context": {
+      "type": "Text",
+      "props": {
+        "text": "External context unavailable — unable to classify intent. Is this:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interpretation_1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) price-action reaction to @pepeXBT's signal?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interpretation_2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) market sentiment agreement?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interpretation_3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) personal banter?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interpretation_4": {
+      "type": "Text",
+      "props": {
+        "text": "(4) reference to market event?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "alert_ambiguous": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertain",
+        "message": "Unable to determine financial signal vs non-financial commentary.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2096253249435148675"
+      },
+      "children": []
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
