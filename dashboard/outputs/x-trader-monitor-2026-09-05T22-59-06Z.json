@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "NFT Market Analysis"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stack_metrics"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Argonaut NFT market analysis: Floor 0.385 ETH (+18.5%), 6.8% listed, 2x-6x premium on strong hands sales. Supply shock thesis ahead."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_floor",
+        "stat_listed",
+        "text_premium",
+        "link_tweet"
+      ]
+    },
+    "stat_floor": {
+      "type": "Stat",
+      "props": {
+        "label": "Floor",
+        "value": "0.385 ETH",
+        "delta": "+18.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_listed": {
+      "type": "Stat",
+      "props": {
+        "label": "Listed",
+        "value": "6.8%"
+      },
+      "children": []
+    },
+    "text_premium": {
+      "type": "Text",
+      "props": {
+        "text": "Premium on strong hands sales: 2x-6x",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2096371494406226056"
+      },
+      "children": []
+    }
+  }
+}
