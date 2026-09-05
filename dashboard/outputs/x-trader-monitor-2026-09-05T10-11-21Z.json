@@ -1,0 +1,170 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "technical-section",
+        "sep2",
+        "position-section",
+        "sep3",
+        "caution-alert",
+        "sep4",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "PUMP 1h chart: \"looks ready but sept looks scary for next 10 days\""
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "tech-details"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tech-details": {
+      "type": "Text",
+      "props": {
+        "text": "Liquidation levels (365D/7D/90D), consolidation/support testing into September. Caution sentiment on macro environment.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-heading",
+        "pos-stats"
+      ]
+    },
+    "pos-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-leverage",
+        "stat-entry",
+        "stat-gain"
+      ]
+    },
+    "stat-leverage": {
+      "type": "Stat",
+      "props": {
+        "label": "Type",
+        "value": "10x long"
+      },
+      "children": []
+    },
+    "stat-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "$0.00475"
+      },
+      "children": []
+    },
+    "stat-gain": {
+      "type": "Stat",
+      "props": {
+        "label": "Return",
+        "value": "+29.81%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "caution-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "September Caution",
+        "message": "Post signals caution on September outlook despite position gains.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "view-link"
+      ]
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2096178446338523446"
+      },
+      "children": []
+    }
+  }
+}
