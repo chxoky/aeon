@@ -1,0 +1,102 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading",
+        "event-text",
+        "separator1",
+        "quote-section",
+        "separator2",
+        "uncertainty"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Trades]",
+        "level": "h2"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HCH entered BNB 2% spot long with 4% SL at 07:47Z Sep 05 (message ID 1545701873992998913). 38 minutes later, posted reference to that trade."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-content-stack"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "lead"
+      }
+    },
+    "quote-content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-text1",
+        "quote-link",
+        "quote-text2"
+      ]
+    },
+    "quote-text1": {
+      "type": "Text",
+      "props": {
+        "text": "Fc bnb 1m"
+      }
+    },
+    "quote-link": {
+      "type": "Link",
+      "props": {
+        "label": "message",
+        "href": "https://discord.com/channels/1023571940922888272/1279738718680256553/1545701873992998913"
+      }
+    },
+    "quote-text2": {
+      "type": "Text",
+      "props": {
+        "text": "%"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "uncertainty": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to Classify",
+        "message": "What's your read? (\"Fc\" = false-close chart check notation? \"1m\" timeframe check? What does \"%\" mean?)"
+      }
+    }
+  }
+}

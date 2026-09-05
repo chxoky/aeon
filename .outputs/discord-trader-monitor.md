@@ -23,3 +23,10 @@ Perfect! I've completed the Discord trader monitor skill execution. Here's what 
 - **Verbatim rule applied**: Exact message text preserved per channel requirements
 
 **No follow-up actions** — event processed and logged. Position is now breakeven-protected with profit-taking ready if BNB rallies from entry point.
+🔍 *Calibration — [DC: HCH — Trades]*
+
+Event: HCH entered BNB 2% spot long with 4% SL at 07:47Z Sep 05 (message ID 1545701873992998913). 38 minutes later, posted reference to that trade.
+
+HCH: "Fc bnb 1m https://discord.com/channels/1023571940922888272/1279738718680256553/1545701873992998913 %"
+
+Unable to classify — what's your read? ("Fc" = false-close chart check notation? "1m" timeframe check? What does "%" mean?)
