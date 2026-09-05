@@ -1,0 +1,85 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_channel",
+        "text_event_meta",
+        "separator_1",
+        "tweetcard_message",
+        "separator_2",
+        "alert_classification",
+        "text_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — DC: HCH — Chat",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badge_channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Support Channel",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_event_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Support channel message at 2026-09-05T06:54:06Z (message_id: 1545688460604612678)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweetcard_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Yes. A lot of bullishness around it"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "No context on what asset \"it\" refers to."
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a response to a member question or standalone conviction? What's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

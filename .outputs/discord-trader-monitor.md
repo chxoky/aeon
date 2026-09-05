@@ -1,8 +1,7 @@
-🔍 *Calibration — [DC: Chase — Chase]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Message: "some recents sent out"
-Attachment: 1 image (sandbox-inaccessible)
-Channel: Primary (Chase — Chase)
-Timestamp: 2026-09-04T19:59:50Z
+Event: Support channel message at 2026-09-05T06:54:06Z (message_id: 1545688460604612678)
 
-Unable to classify without seeing image — what's your read?
+HeartCanHodl: "Yes. A lot of bullishness around it"
+
+Unable to classify — no context on what asset "it" refers to. Is this a response to a member question or standalone conviction? What's your read?
