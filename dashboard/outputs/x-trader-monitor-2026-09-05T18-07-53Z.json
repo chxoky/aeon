@@ -1,0 +1,162 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator1",
+        "event_section",
+        "tweet_section",
+        "separator2",
+        "analysis_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @OG_MoleKeeper about capital allocation strategy",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "I put the whole thing back into memes so realistically it benefits the trenches."
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_classify",
+        "text_question_intro",
+        "options_stack",
+        "question_read",
+        "context_stack"
+      ]
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "This contains execution language (\"I put\") but lacks specifics (no ticker, price, or clear context).",
+        "type": "info"
+      },
+      "children": []
+    },
+    "text_question_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "1. A specific executed trade into meme tokens?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "2. A general conviction/allocation statement?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Community philosophy commentary?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question_read": {
+      "type": "Heading",
+      "props": {
+        "text": "What's your read?",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_pattern",
+        "stat_dopameme"
+      ]
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Trader pattern: cryptic motivation posts",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stat_dopameme": {
+      "type": "Stat",
+      "props": {
+        "label": "DOPAMEME",
+        "value": "+3850%",
+        "trend": "up"
+      },
+      "children": []
+    }
+  }
+}
