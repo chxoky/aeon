@@ -1,0 +1,198 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — discord-trader-monitor",
+        "description": "Discord message classification analysis"
+      },
+      "children": [
+        "earlier-section",
+        "sep-1",
+        "followup-section",
+        "sep-2",
+        "needs-context-section",
+        "sep-3",
+        "metadata-section",
+        "sep-4",
+        "question-section"
+      ]
+    },
+    "earlier-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "earlier-label",
+        "earlier-text"
+      ]
+    },
+    "earlier-label": {
+      "type": "Text",
+      "props": {
+        "text": "Earlier ambiguous:",
+        "variant": "lead"
+      }
+    },
+    "earlier-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"$Ake is upto some crime 🫆\"",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "followup-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "followup-label",
+        "followup-text"
+      ]
+    },
+    "followup-label": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic follow-up:",
+        "variant": "lead"
+      }
+    },
+    "followup-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc ake 1hr\"",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "needs-context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "needs-label",
+        "needs-list"
+      ]
+    },
+    "needs-label": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — needs context:",
+        "variant": "lead"
+      }
+    },
+    "needs-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ]
+    },
+    "item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. What does \"Fc\" notation mean? (false-close check? from-chart? abbreviation?)",
+        "variant": "body"
+      }
+    },
+    "item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. What is \"$Ake\"? (ticker? codename? asset reference?)",
+        "variant": "body"
+      }
+    },
+    "item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Is this technical chart notation or a new trade setup?",
+        "variant": "body"
+      }
+    },
+    "item-4": {
+      "type": "Text",
+      "props": {
+        "text": "4. Earlier \"Fc bnb 1m\" posts (08:18Z, 08:25Z) — same pattern?",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-badge",
+        "msg-id",
+        "timestamp"
+      ]
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Channel: HCH — Chat (supporting)",
+        "variant": "outline"
+      }
+    },
+    "msg-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1545720315823525889",
+        "variant": "caption"
+      }
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "09:00:41 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Request",
+        "message": "Your read on \"Fc Ake 1hr\"?",
+        "type": "info"
+      }
+    }
+  }
+}
