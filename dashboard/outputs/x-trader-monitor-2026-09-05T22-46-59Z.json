@@ -1,0 +1,210 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Wild_Randomness SKHY informational alert"
+      },
+      "children": [
+        "execution_status",
+        "sep1",
+        "notification_info",
+        "sep2",
+        "event_details",
+        "sep3",
+        "sentiment_data",
+        "sep4",
+        "tweet_info",
+        "sep5",
+        "narrative_actions"
+      ]
+    },
+    "execution_status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Executed Successfully",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notification_info": {
+      "type": "Text",
+      "props": {
+        "text": "Sent via notification channels",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "pattern_type",
+        "recovery_details",
+        "markets"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Event",
+        "level": "h3"
+      }
+    },
+    "pattern_type": {
+      "type": "Text",
+      "props": {
+        "text": "Pattern: Technical reversal pattern",
+        "variant": "body"
+      }
+    },
+    "recovery_details": {
+      "type": "Text",
+      "props": {
+        "text": "Recovery: V-shaped recovery",
+        "variant": "body"
+      }
+    },
+    "markets": {
+      "type": "Text",
+      "props": {
+        "text": "Markets: NASDAQ ADR + KRX",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment_heading",
+        "alignment_status",
+        "ryzzqq_badge",
+        "wr_badge"
+      ]
+    },
+    "sentiment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Sentiment",
+        "level": "h3"
+      }
+    },
+    "alignment_status": {
+      "type": "Badge",
+      "props": {
+        "text": "Sentiment alignment confirmed",
+        "variant": "secondary"
+      }
+    },
+    "ryzzqq_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ryzzqq LONG pending",
+        "variant": "outline"
+      }
+    },
+    "wr_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WR dual observation",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_heading",
+        "tweet_link"
+      ]
+    },
+    "tweet_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet Logged",
+        "level": "h3"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet 2096368582372307303",
+        "href": "https://twitter.com/i/web/status/2096368582372307303"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative_heading",
+        "catalyst_badge",
+        "dedup_status"
+      ]
+    },
+    "narrative_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Narrative & Actions",
+        "level": "h3"
+      }
+    },
+    "catalyst_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Narrative catalyst validated",
+        "variant": "default"
+      }
+    },
+    "dedup_status": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet logged and deduped",
+        "variant": "caption"
+      }
+    }
+  }
+}
