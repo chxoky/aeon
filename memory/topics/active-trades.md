@@ -1,5 +1,20 @@
 # Active Trades
 
+## bull_genius
+
+### PUMP (Pump.fun) — LONG SPOT (CONVICTION ADD — 2026-09-05)
+- **Entry date**: Prior (existing position; conviction add announced Sep 05)
+- **Entry message**: "i expect a red week in markets but will keep adding to my spot position. might get absolute fire sale prices, currently already below ICO which is insane"
+- **Entry type**: Spot conviction scaling (ongoing commitment to add on weakness)
+- **Action commitment**: Future scaling/adding ("will keep adding")
+- **Technical thesis**: 30d+365d rVWAP+ATH aVWAP cluster at 0.00393–0.003933; first pullback wick at 0.003862; H4 bull div forming; current price 0.00430 (7d rVWAP)
+- **Fundamental thesis**: Alon (CEO Pump.fun) cooking big announcement; likely leaves Solana/creates own chain; still market leader + huge warchest + revenues despite recent weakness; "when did you ever see a jewish company voluntarily give up a monopoly without a fight"
+- **Risk posture**: Expects red week in markets; willing to scale into weakness; target prices = fire sale (below ICO ~$0.0023 implied lower target)
+- **Status**: ACTIVE — conviction add commitment (scaling plan, not one-time entry)
+- **Trade alert format**: Step 5d (conviction add — asking if Kyle wants to add too)
+- **Alerted**: YES (2026-09-05T20:48:06Z, x-trader-monitor real-time, conviction-add alert sent via ./notify)
+- **Last update**: 2026-09-05T20:48:06Z (message_id=2096339611354083712, x-trader-monitor real-time, conviction-add announcement)
+
 ## ryzzyqq
 
 ### ETH (Ethereum) — SHORT (PENDING APPROVAL)

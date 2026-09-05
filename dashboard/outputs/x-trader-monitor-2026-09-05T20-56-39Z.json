@@ -1,0 +1,109 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @bull_genius"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-pump",
+        "text-action",
+        "heading-quote",
+        "text-quote",
+        "heading-technical",
+        "text-technical",
+        "heading-thesis",
+        "text-thesis",
+        "link-post",
+        "text-question"
+      ]
+    },
+    "badge-pump": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP"
+      },
+      "children": []
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Adding to spot position on technical + macro setup."
+      },
+      "children": []
+    },
+    "heading-quote": {
+      "type": "Heading",
+      "props": {
+        "text": "Quote",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"still one of the most bullish coins for the cycle...i expect a red week in markets but will keep adding to my spot position. might get absolute fire sale prices, currently already below ICO which is insane\""
+      },
+      "children": []
+    },
+    "heading-technical": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-technical": {
+      "type": "Text",
+      "props": {
+        "text": "30d+365d rVWAP+ATH aVWAP cluster at 0.00393–0.003933, first pullback wick support at 0.003862. H4 consolidation validating bull div setup."
+      },
+      "children": []
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Alon (CEO) cooking big announcement → leaves Solana/own chain. Pump still huge warchest + market leader + revenues despite recent weakness."
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2096339611354083712"
+      },
+      "children": []
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to PUMP spot position too?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
