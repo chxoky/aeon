@@ -477,7 +477,7 @@
 - Recent thesis: Structural BTC bull — bear cycle ~80% complete. 2.5yr target: dump at 126K+. Bottom confirmed Aug 21. Re-accumulation range expected (76-84K chop then push to 90K+). **CONVICTION DOWNGRADE Aug 28**: "absolutely 0% chance we see $100K this year" — target pushed to late Q2 2027 (from Nov 2026). HTF structure: $83K acceptance needed to confirm trend shift on weekly. Sweep-wick-expansion macro: sweep 86.5K highs → quick wick to 82.2K → expansion. Monthly pivots Sept 1st + 5th as catalyst dates.
 - Conviction notes: HTF bullish structural bias. "Shorts are scalps. Remember that." Tactical scalp shorts + structural long = hedge ethos. Relocated country Aug 28 (tax optimization at BTC 150K ATH potential). Kalshi partnership announced. BTC still 65% below ATH = "everything below is a dip." Conditional retest entry: if BTC dips 69-72K → long sub-accounts, HSL <59K.
 - Calibration: PENDING Aug 27 11:11Z ("Aged like fine wine. $SOL is up nearly 50%... Thanks for playing. $120 + waiting room"; open vs closed unclear)
-- Last seen: 2026-09-05T14:16:34Z
+- Last seen: 2026-09-05T19:58:17Z
 - **Events (rolling):**
   - Aug 25 21:12Z — informational: ZCASH ETF conversion saga; Greyscale ZCSH discount-to-NAV chart; ironic commentary [$ZCASH-ETF-SAGA] [2092359415911620684]
   - Aug 26 10:30Z — informational: BTC bottom fractal + disbelief phase validation [$BTC-BOTTOM-CONVICTION-REAFFIRM] [2092560184057229812]
@@ -513,6 +513,7 @@
   - Sep 04 13:53Z — trade-mirror-adjustment: BTC scalp stop/SL management; specific instructions: put stops at PWL @78.9, if reclaim 79.650 put SL BE; planned quick NY scalp targeting 79950 retest; reply to own 13:12Z long entry; fast-path alerted by Worker (no duplicate Telegram); classification: Step 6 trade-mirror-adjustment / trade-instruction [1545431504379846767]
   - Sep 04 13:55Z — trade-mirror-adjustment: "Making a quick adjustment an pushing stop to 78.4K" — tightening SL from 78.9K to 78.4K on BTC scalp long; reply providing updated stop placement; execution language clear ("pushing stop"); fast-path alerted by Worker (Telegram sent ~2-5s), memory-only per protocol; classification: Step 6 trade-mirror-adjustment [$BTC-SL-ADJUSTMENT] [1545432112113651742]
   - Sep 05 14:16Z — informational: BTC bottom formation complete; higher low awaiting; pending target hit; patience for final retest cycle; annotated fractal chart showing cycles (The Top → Complacency → Test Dump → Dead Cat → Bottom Formation → Final Retest → Higher Low → Pending); thesis reinforcement on macro conviction [$BTC/$CYCLE-ANALYSIS] [2096241082166026541]
+  - Sep 05 19:58Z — informational: BTC market structure Monday weakness pattern; 27% monthly pump despite Mondays historically weak; conditional scenarios if bearish structure holds vs dump; rare Monday sell-offs as pivot low markers; awaiting next week structure confirmation; flow-dependent setup [$BTC/$STRUCTURE/$MONDAY-PATTERN] [2096327076957585854]
 
 ## trading_axe
 
