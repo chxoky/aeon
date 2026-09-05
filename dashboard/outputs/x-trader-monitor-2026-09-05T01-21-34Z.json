@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "tweet_trading_axe",
+        "text_classification",
+        "link_view_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @SaurabhDhekale (original message unavailable)",
+        "variant": "body"
+      }
+    },
+    "tweet_trading_axe": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "Interesting?\n\n~ Dr. Axius."
+      }
+    },
+    "text_classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a financial signal, or personal banter?",
+        "variant": "body"
+      }
+    },
+    "link_view_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2096045103236145310"
+      }
+    }
+  }
+}
