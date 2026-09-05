@@ -1,0 +1,503 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-05",
+        "description": "(vs Aug 25 baseline — 11-day gap)"
+      },
+      "children": [
+        "transitions_section",
+        "sep_1",
+        "reflexivity_section",
+        "sep_2",
+        "positions_section",
+        "sep_3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_title",
+        "dead_block",
+        "new_block",
+        "promoted_block",
+        "demoted_block"
+      ]
+    },
+    "transitions_title": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "dead_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dead_badge",
+        "dead_1",
+        "dead_2",
+        "dead_3"
+      ]
+    },
+    "dead_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "dead_1": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole/Fed Binary — resolved; replaced by FOMC Sep 16 Rate Hike Binary"
+      }
+    },
+    "dead_2": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA Earnings Binary — resolved post-Aug 26 AH"
+      }
+    },
+    "dead_3": {
+      "type": "Text",
+      "props": {
+        "text": "STX/BTC L2 Breakout — gone silent since Aug 25"
+      }
+    },
+    "new_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "new_badge",
+        "new_1",
+        "new_2",
+        "new_3"
+      ]
+    },
+    "new_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "new_1": {
+      "type": "Text",
+      "props": {
+        "text": "RH Ecosystem/PONS — Robinhood chain alts; PONS +393% 7d [BREAKOUT]; bull_genius: \"bid PONS/CASHCAT on every major shakeout\""
+      }
+    },
+    "new_2": {
+      "type": "Text",
+      "props": {
+        "text": "September Bearish Seasonality — WR: BofA FMS +40ppt equity allocation spike (max FOMO → dump), VIX crush to 6.33, NQ 28K–30K consolidation; Israel airspace 66% YES Polymarket"
+      }
+    },
+    "new_3": {
+      "type": "Text",
+      "props": {
+        "text": "NFT Revival — bull_genius Skeletons floor call \"last chance sub 0.3 ETH\"; single-driver, low conviction"
+      }
+    },
+    "promoted_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "promoted_badge",
+        "promoted_1",
+        "promoted_2"
+      ]
+    },
+    "promoted_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "outline"
+      }
+    },
+    "promoted_1": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Sector (Emerging/WATCH → Rising/RIDE) — ZEC broke $1,000 + DASH [BREAKOUT] +72.6% 7d enters sector"
+      }
+    },
+    "promoted_2": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents/Infrastructure (Fading→Rising → Rising/RIDE) — Olas 19.1M on-chain tx; Kraken/Coinbase/OKX MCP launches; AI tokens 35.7% global interest Q1 2026"
+      }
+    },
+    "demoted_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "demoted_badge",
+        "demoted_1"
+      ]
+    },
+    "demoted_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "demoted_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Structural Bull (Peak/RIDE → Peak→Fading/FADE) — 365D RVWAP rejection 80.7K; RSI lower highs; bull trap; KillaXBT \"still in bear range despite 40% rally\""
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_title",
+        "reflexivity_1",
+        "reflexivity_2"
+      ]
+    },
+    "reflexivity_title": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_1": {
+      "type": "Alert",
+      "props": {
+        "title": "RH Ecosystem/PONS",
+        "message": "bull_genius holds PONS + publicly \"bid on every shakeout\" → direct narrative-to-price loop; PONS +393% 7d before wide pickup",
+        "type": "warning"
+      }
+    },
+    "reflexivity_2": {
+      "type": "Alert",
+      "props": {
+        "title": "Privacy Sector",
+        "message": "ZEC $1K break self-reinforcing: media → new buyers → confirms thesis; DASH entering adds second velocity engine",
+        "type": "warning"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_title",
+        "positions_table"
+      ]
+    },
+    "positions_title": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Narrative",
+          "Category",
+          "Conviction",
+          "Stance",
+          "Thesis",
+          "Bear Case"
+        ],
+        "rows": [
+          [
+            "RH Ecosystem/PONS",
+            "FRONT-RUN",
+            "2 ↑↑",
+            "Bull/Reflexive",
+            "@bull_genius",
+            "90% meme pump, no L1 substance, exit liquidity"
+          ],
+          [
+            "Sep Bearish Seasonality",
+            "FRONT-RUN",
+            "3 ↑↑",
+            "Bear",
+            "@Wild_Randomness, BofA FMS",
+            "midterm years historically best Septembers (Carson Research)"
+          ],
+          [
+            "Privacy Sector",
+            "RIDE",
+            "3 ↑↑",
+            "Bull",
+            "@trading_axe, @bull_genius",
+            "ZEC delistings latent; DASH momentum technical not fundamental"
+          ],
+          [
+            "AI Agents/Infrastructure",
+            "RIDE",
+            "4 ↑",
+            "Bull",
+            "Olas/Kraken/Coinbase/OKX MCP launches; AI tokens 35.7% global interest Q1 2026",
+            "$73M settlement tiny vs hype; infra-before-product trap"
+          ],
+          [
+            "BTC Structural Bull",
+            "FADE",
+            "5 ↓",
+            "Cope",
+            "365D RVWAP rejection; bull_genius: \"washout before ultimate long at 99.5% hike odds\"",
+            ""
+          ],
+          [
+            "FOMC Rate Hike Binary",
+            "WATCH",
+            "5 →",
+            "Mixed",
+            "CPI Sep 11 gates FOMC Sep 16; 50/50; bull_genius 70–72K target if hike; KillaXBT \"bottom formation complete, 1 week left\"",
+            ""
+          ],
+          [
+            "ETH Cycle Conviction",
+            "WATCH",
+            "3 →",
+            "Bull",
+            "not separating from BTC yet; needs Sep 16 binary resolved",
+            ""
+          ],
+          [
+            "Altcoin Rotation",
+            "WATCH",
+            "3 ↑",
+            "Bull",
+            "HCH Sep 05: BCH/BNB/STRK 3 positions in 50-min window; Chinese tickers BNB structural thesis",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_title",
+        "map_grid"
+      ]
+    },
+    "map_title": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "emerging_stage",
+        "rising_stage",
+        "peak_stage",
+        "fading_stage"
+      ]
+    },
+    "emerging_stage": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging_label",
+        "emerging_1",
+        "emerging_2",
+        "emerging_3",
+        "emerging_4"
+      ]
+    },
+    "emerging_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "emerging_1": {
+      "type": "Text",
+      "props": {
+        "text": "RH Ecosystem/PONS",
+        "variant": "caption"
+      }
+    },
+    "emerging_2": {
+      "type": "Text",
+      "props": {
+        "text": "Sep Bearish Seasonality",
+        "variant": "caption"
+      }
+    },
+    "emerging_3": {
+      "type": "Text",
+      "props": {
+        "text": "NFT Revival",
+        "variant": "caption"
+      }
+    },
+    "emerging_4": {
+      "type": "Text",
+      "props": {
+        "text": "ETH Cycle Conviction",
+        "variant": "caption"
+      }
+    },
+    "rising_stage": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising_label",
+        "rising_1",
+        "rising_2",
+        "rising_3"
+      ]
+    },
+    "rising_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "rising_1": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Sector",
+        "variant": "caption"
+      }
+    },
+    "rising_2": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents/Infrastructure",
+        "variant": "caption"
+      }
+    },
+    "rising_3": {
+      "type": "Text",
+      "props": {
+        "text": "Altcoin Rotation",
+        "variant": "caption"
+      }
+    },
+    "peak_stage": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "peak_label",
+        "peak_1",
+        "peak_2"
+      ]
+    },
+    "peak_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "outline"
+      }
+    },
+    "peak_1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Rate Hike Binary",
+        "variant": "caption"
+      }
+    },
+    "peak_2": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Payments",
+        "variant": "caption"
+      }
+    },
+    "fading_stage": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fading_label",
+        "fading_1"
+      ]
+    },
+    "fading_label": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "fading_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Structural Bull",
+        "variant": "caption"
+      }
+    }
+  }
+}
