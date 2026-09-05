@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Market structure analysis: Bull cycle philosophy + BTC retest scenarios.\n\nChart shows 3 levels:\n• 76,333 — Steep retest (relatively likely)\n• 73,876 — Psychological (would not surprise me)\n• 67,267 — Rational retest (surprisingly steep)\n\nPhilosophy: Bull cycles have shallow retests. Rather than shorting to your ideal level, gradually scale in with low leverage and DCA.\n\nReinforces HTF long thesis + range conviction. Hedge SL (76.1K) aligns with steep-retest level.\n\nhttps://x.com/KillaXBT/status/2096280649246151093"
+      }
+    }
+  }
+}
