@@ -1,0 +1,127 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Election-year seasonality analysis from @Wild_Randomness"
+      },
+      "children": [
+        "main-tweet",
+        "separator",
+        "breakdown"
+      ]
+    },
+    "main-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "September/October in election years typically trades poorly — historical SPX composite shows Sep weakness (-1.48% avg) with Oct recovery (+2.40%). Current situation: Wall of Worry built up, VIX surprisingly low (mismatch). Data suggests taking 5 weeks off is wise, but upside surprise possible before consensus October bottom.\n\nReply to @50ptMAE; charts validate seasonality pattern (ES pullback zones, historical correction magnitudes shown).\n\nValidates broader bearish-equities-into-Oct thesis + macro Septembear conviction framework you've been tracking."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "seasonality-section",
+        "conditions-section",
+        "link"
+      ]
+    },
+    "seasonality-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "season-heading",
+        "sep-stat",
+        "oct-stat"
+      ]
+    },
+    "season-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Historical SPX Seasonality (Election Years)",
+        "level": "h3"
+      }
+    },
+    "sep-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "September",
+        "value": "-1.48%",
+        "trend": "down"
+      }
+    },
+    "oct-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "October",
+        "value": "+2.40%",
+        "trend": "up"
+      }
+    },
+    "conditions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cond-heading",
+        "wall-badge",
+        "vix-badge",
+        "strategy-text"
+      ]
+    },
+    "cond-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Market Setup",
+        "level": "h3"
+      }
+    },
+    "wall-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Wall of Worry: Built up",
+        "variant": "secondary"
+      }
+    },
+    "vix-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VIX: Surprisingly low (mismatch)",
+        "variant": "warning"
+      }
+    },
+    "strategy-text": {
+      "type": "Text",
+      "props": {
+        "text": "Data suggests taking 5 weeks off is wise, but upside surprise possible before consensus October bottom. Charts validate seasonality pattern with ES pullback zones and historical correction magnitudes. Aligns with bearish-equities-into-Oct thesis and macro Septembear conviction framework.",
+        "variant": "body"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2096267138424049705"
+      }
+    }
+  }
+}
