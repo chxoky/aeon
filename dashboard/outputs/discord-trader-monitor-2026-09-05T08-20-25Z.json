@@ -1,0 +1,139 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "channel_ref",
+        "message_block",
+        "sep2",
+        "analysis_block"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Comments]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "channel_ref": {
+      "type": "Text",
+      "props": {
+        "text": "Referenced message from HCH — Trades channel:",
+        "variant": "caption"
+      }
+    },
+    "message_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author",
+        "msg_content"
+      ]
+    },
+    "author": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl:",
+        "variant": "lead"
+      }
+    },
+    "msg_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_text1",
+        "msg_link",
+        "msg_text2"
+      ]
+    },
+    "msg_text1": {
+      "type": "Text",
+      "props": {
+        "text": "fc bnb 1m",
+        "variant": "body"
+      }
+    },
+    "msg_link": {
+      "type": "Link",
+      "props": {
+        "label": "https://discord.com/channels/1023571940922888272/1279738718680256553/1545701873992998913",
+        "href": "https://discord.com/channels/1023571940922888272/1279738718680256553/1545701873992998913"
+      }
+    },
+    "msg_text2": {
+      "type": "Text",
+      "props": {
+        "text": "%",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_title",
+        "meaning",
+        "possible_read",
+        "alert"
+      ]
+    },
+    "analysis_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "meaning": {
+      "type": "Text",
+      "props": {
+        "text": "Message references prior Discord post but meaning is unclear.",
+        "variant": "body"
+      }
+    },
+    "possible_read": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretation: \"fc bnb 1m\" — possibly \"from chart BNB 1 minute\"?",
+        "variant": "muted"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this message?",
+        "type": "info"
+      }
+    }
+  }
+}
