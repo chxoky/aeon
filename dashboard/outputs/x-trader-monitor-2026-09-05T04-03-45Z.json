@@ -1,0 +1,194 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness",
+        "description": "X-Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_event",
+        "sep_1",
+        "section_quote",
+        "sep_2",
+        "section_analysis",
+        "sep_3",
+        "section_context",
+        "sep_4",
+        "section_link"
+      ]
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_event",
+        "text_event"
+      ]
+    },
+    "label_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic IPO announcement/discussion (external context not visible; implied reference to IPO being announced or discussed)"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_user",
+        "text_quote"
+      ]
+    },
+    "badge_user": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Yes, the Anthropic IPO will go the exact same way as the SpaceX IPO\"",
+        "variant": "lead"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_analysis",
+        "text_analysis"
+      ]
+    },
+    "label_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h4"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_context",
+        "text_context_1",
+        "text_context_2",
+        "text_context_3",
+        "text_context_4"
+      ]
+    },
+    "label_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic text + skeptical/sarcastic reaction meme (GIF). Ambiguous interpretation — could mean:"
+      }
+    },
+    "text_context_2": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Underperformance thesis, (2) pump-and-dump pattern, (3) market hype cycle, (4) banter/sarcasm with no actionable signal"
+      }
+    },
+    "text_context_3": {
+      "type": "Text",
+      "props": {
+        "text": "No personal execution language."
+      }
+    },
+    "text_context_4": {
+      "type": "Text",
+      "props": {
+        "text": "Follows Sep 05 03:52Z pending calibration pattern (context-dependent, philosophy-heavy post). URL-only media = matches documented WR noise pattern (per conviction notes)."
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_link": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_post"
+      ]
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2096086001215033678",
+        "source": "X"
+      }
+    }
+  }
+}
