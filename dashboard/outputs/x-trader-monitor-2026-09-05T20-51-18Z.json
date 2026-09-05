@@ -1,0 +1,123 @@
+{
+  "root": "card-conviction",
+  "state": {},
+  "elements": {
+    "card-conviction": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @bull_genius"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-add",
+        "badge-pump",
+        "text-action",
+        "tweet-card",
+        "sep-1",
+        "heading-chart",
+        "text-timeframe",
+        "stat-support",
+        "text-confluence",
+        "text-signal",
+        "sep-2",
+        "link-post",
+        "text-cta"
+      ]
+    },
+    "badge-add": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction Add",
+        "variant": "secondary"
+      }
+    },
+    "badge-pump": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP",
+        "variant": "default"
+      }
+    },
+    "text-action": {
+      "type": "Text",
+      "props": {
+        "text": "Spot position add on pullback to support cluster",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "i expect a red week in markets but will keep adding to my spot position"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "text-timeframe": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP/USDT 4h consolidating at first pullback support (~0.00386) within larger uptrend"
+      }
+    },
+    "stat-support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Level",
+        "value": "0.00386"
+      }
+    },
+    "text-confluence": {
+      "type": "Text",
+      "props": {
+        "text": "Confluence zones marked: 30d/365d rVWAP, ATH aVWAP, POC levels"
+      }
+    },
+    "text-signal": {
+      "type": "Text",
+      "props": {
+        "text": "Tiny bullish divergence forming on 4h"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2096339393258647603"
+      }
+    },
+    "text-cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your PUMP position too?"
+      }
+    }
+  }
+}
