@@ -1,0 +1,315 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-05"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_content"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH 4-position spot accumulation (BCH/BNB/STRK + 1 unspec) — BNB SL already at BE; more entries likely",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "CPI Sep 11 is the FOMC gate — 6 days to position; 50/50 hike still live; NFP didn't resolve it",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_text",
+        "focus_3_badges"
+      ]
+    },
+    "focus_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC broke $1,000 — first time in years; privacy sector only confirmed uptrend; DASH +32.9%",
+        "variant": "body"
+      }
+    },
+    "focus_3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_breakout",
+        "badge_new"
+      ]
+    },
+    "badge_breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "new",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_heading",
+        "yesterday_content"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4",
+        "yesterday_5"
+      ]
+    },
+    "yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: BCH 4% + BNB 2% (SL→BE in 38min) + STRK 2% + 1% unspec in 50-min Asian window (07:08–07:58Z)",
+        "variant": "body"
+      }
+    },
+    "yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "NFP missed (~38K ADP vs 47K expected); Sep FOMC split unchanged: hike 50.5% / no-change 48.5%",
+        "variant": "body"
+      }
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_3_text",
+        "yesterday_3_badges"
+      ]
+    },
+    "yesterday_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC $977 → $1,005 (+2.9%), broke $1K; DASH emerged (+72.6% 7d, #4 trending)",
+        "variant": "body"
+      }
+    },
+    "yesterday_3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_breakout2"
+      ]
+    },
+    "badge_breakout2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline resumes after 10-day stale gap (last success 2026-08-26)",
+        "variant": "body"
+      }
+    },
+    "yesterday_5": {
+      "type": "Text",
+      "props": {
+        "text": "New geopolitical: Israel airspace closure 66% YES on Polymarket — energy/safe-haven spill risk",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_content"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Clarity Act 14.5% YES at $1.46M 24h vol (highest Polymarket market today) — Senate vote Sep 15 approaching",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_table"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Schedule"
+        ],
+        "rows": [
+          [
+            "discord-trader-monitor",
+            "continuous"
+          ],
+          [
+            "x-trader-monitor",
+            "continuous"
+          ],
+          [
+            "market-context-refresh",
+            "10:00 UTC"
+          ],
+          [
+            "skill-health",
+            "18:00 UTC"
+          ],
+          [
+            "heartbeat",
+            "20:42 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}

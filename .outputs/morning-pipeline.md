@@ -1,24 +1,23 @@
-*Morning Brief — 2026-08-26*
+*Morning Brief — 2026-09-05*
 
 *Focus today*
-1. NVDA earnings + PCE today — why now: both resolve the NVDA/rate-cut binary before Jackson Hole begins tomorrow
-2. Jackson Hole T-1 (Warsh Aug 28) — why now: zero prior guidance, Fed hike 33.5% tail; BTC rejected $80K again
-3. Strait of Hormuz / Iranian blockade — why now: #1 Polymarket market by volume ($890K 24h); new geopolitical risk not priced in
+1. HCH 4-position spot accumulation (BCH/BNB/STRK + 1 unspec) — BNB SL already at BE; more entries likely
+2. CPI Sep 11 is the FOMC gate — 6 days to position; 50/50 hike still live; NFP didn't resolve it
+3. ZEC broke $1,000 — first time in years; privacy sector only confirmed uptrend; DASH +32.9% [BREAKOUT] new
 
 *Since yesterday*
-- BTC: $80K rejection holds → $78,983 (-2.1%); KillaXBT short #2 live ($80.5K filled), next limit 83.3K
-- SOL broke $97: -4.4% (was sole top-cap green yesterday); $95 next level to watch
-- ZEC [CAPITULATION]: -7.5% at $850 resistance WR flagged; privacy arc fading→dead
-- HYPE: +0.89% near ATH ($82.35 vs $83.27 ATH); HCH short grinding deeper underwater
-- F&G: 74 → 65 (-9pts); bull_genius took partial TP on BTC/ETH at open
-- Strait of Hormuz: new geopolitical wildcard topping Polymarket — not in any prior model
+- HCH: BCH 4% + BNB 2% (SL→BE in 38min) + STRK 2% + 1% unspec in 50-min Asian window (07:08–07:58Z)
+- NFP missed (~38K ADP vs 47K expected); Sep FOMC split unchanged: hike 50.5% / no-change 48.5%
+- ZEC $977 → $1,005 (+2.9%), broke $1K; DASH emerged [BREAKOUT] (+72.6% 7d, #4 trending)
+- morning-pipeline resumes after 10-day stale gap (last success 2026-08-26)
+- New geopolitical: Israel airspace closure 66% YES on Polymarket — energy/safe-haven spill risk
 
 *Watch*
-- NVDA AH tonight: beat → AI agents/compute tokens risk-on; miss → deleveraging into Jackson Hole T-0 (Stoiiic $68K scenario activated)
-- PCE (today): below-consensus = rate-cut support = BTC relief bid; above = confirms hawkish JH
+- Clarity Act 14.5% YES at $1.46M 24h vol (highest Polymarket market today) — Senate vote Sep 15 approaching
 
 *Running today*
-- narrative-tracker @ 14:00 UTC
+- discord-trader-monitor @ continuous
+- x-trader-monitor @ continuous
+- market-context-refresh @ 10:00 UTC
 - skill-health @ 18:00 UTC
-- heartbeat @ 20:30 UTC
-- x-trader-monitor + discord-trader-monitor: continuous
+- heartbeat @ 20:42 UTC
