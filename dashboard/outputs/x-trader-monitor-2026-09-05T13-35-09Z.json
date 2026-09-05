@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Classification Calibration"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_header",
+        "separator_1",
+        "heading_event",
+        "stack_event_details",
+        "separator_2",
+        "alert_classify"
+      ]
+    },
+    "badge_header": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_reply_type",
+        "text_recipient",
+        "text_message"
+      ]
+    },
+    "text_reply_type": {
+      "type": "Text",
+      "props": {
+        "text": "Reply",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_recipient": {
+      "type": "Text",
+      "props": {
+        "text": "To: @yellowbrah69",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"we dont maek the rules\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
