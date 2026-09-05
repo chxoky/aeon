@@ -310,6 +310,21 @@
 - **Alerted**: YES (2026-09-05T07:08:31Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; duplicate Telegram suppressed per protocol)
 - **Last update**: 2026-09-05T07:08:31Z (message_id=1545692088211873793, discord-trader-monitor real-time, trade-new-entry)
 
+### BNB (Binance Coin) — LONG (NEW ENTRY — 2026-09-05)
+- **Entry date**: 2026-09-05T07:47:24Z
+- **Entry message**: "2% pf long bnb with 4% SL"
+- **Entry type**: Market order (execution at current market price, 07:47:24 UTC)
+- **Entry level**: Market price at time of execution (Sep 05 07:47:24Z UTC, BNB spot/perp market)
+- **Entry size**: 2% portfolio allocation
+- **Stop loss**: 4% below entry (hard stop loss set)
+- **Entry context**: Primary Trades channel (★most important), highest-conviction tier. HCH continuing tactical long accumulation pattern (Sep 05 07:08 BCH +4%, 07:47 BNB +2% within 39-minute window). Pattern suggests morning-session (Asian hours, ~08:00 UTC ≈ 16:00 Singapore) portfolio scaling strategy.
+- **Position thesis**: BNB spot conviction long; disciplined 2% size allocation with 4% risk management. Aligns with HCH's systematic accumulation approach (small incremental positions, tight SL discipline).
+- **Status**: ACTIVE — market-order execution completed, 2% BNB long position established with 4% SL
+- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
+- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "2% pf long bnb with 4% SL"
+- **Alerted**: YES (2026-09-05T07:47:24Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, duplicate suppressed per protocol)
+- **Last update**: 2026-09-05T07:47:24Z (message_id=1545701873992998913, discord-trader-monitor real-time, trade-new-entry)
+
 ### SNDK (SanDisk) — LONG (FRESH DCA PLAN 2026-07-29, FULLY CLOSED 2026-08-17)
 - **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
 - **Entry message**: "Starting $SNDK here at 980~, leaving room to add towards high 800's. I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
