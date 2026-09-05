@@ -34,3 +34,10 @@ Kyle response needed to interpret:
 1. What does "Double Whammy" reference in this context?
 2. Is this financial signal or personal/meme content?
 3. What's the @agnostoxxxx connection?
+🐦 *[X] @Wild_Randomness*
+
+Now that he's retiring we can only hope his call for a 13.5% 10YR does too
+
+Chart context: CNBC analyst with bullish 10-year yield target chart (marked 'ALL IN?' suggesting skepticism on sustainability).
+
+[View tweet](https://x.com/Wild_Randomness/status/2096233304726855886)

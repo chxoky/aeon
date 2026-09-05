@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_platform",
+        "tweet_card",
+        "text_context",
+        "link_view"
+      ]
+    },
+    "badge_platform": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "default"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Now that he's retiring we can only hope his call for a 13.5% 10YR does too"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Chart context: CNBC analyst with bullish 10-year yield target chart (marked 'ALL IN?' suggesting skepticism on sustainability).",
+        "variant": "caption"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2096233304726855886"
+      }
+    }
+  }
+}
