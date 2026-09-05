@@ -4894,4 +4894,5 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-05,discord-trader-monitor,claude-haiku-4-5-20251001,137,10190,1113555,99701
 2026-09-05,discord-trader-monitor,claude-haiku-4-5-20251001,177,7759,836963,40178
 2026-09-05,discord-trader-monitor,claude-haiku-4-5-20251001,129,7456,1266495,97306
-2026-09-05,discord-trader-monitor,claude-haiku-4-5-20251001,105,7797,1224953,113779
+2026-09-05,discord-trader-monitor,claude-haiku-4-5-20251001,129,7391,1008569,92853
+2026-09-05,discord-trader-monitor,claude-haiku-4-5-20251001,153,9862,935858,74824

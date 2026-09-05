@@ -20,3 +20,6 @@ HCH: "Yes"
 Context: Reply with null referenced_message — unable to see what it was replying to.
 
 Unable to classify — what's your read?
+💬 *[DC: HCH — Chat]*
+
+It could give quick gains but seems like too much chasing here around so will stay away
