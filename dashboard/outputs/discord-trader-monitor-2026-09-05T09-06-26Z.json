@@ -1,0 +1,153 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "event-info",
+        "sep1",
+        "message-section",
+        "sep2",
+        "classification-section",
+        "sep3",
+        "interpretations-section",
+        "sep4",
+        "question"
+      ]
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: member chat message (supporting channel)",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "username",
+        "message-text"
+      ]
+    },
+    "username": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl",
+        "variant": "lead"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc bch 5m",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Abbreviations unclear",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp-intro",
+        "interp-list"
+      ]
+    },
+    "interp-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "body"
+      }
+    },
+    "interp-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp1",
+        "interp2",
+        "interp3",
+        "interp-other"
+      ]
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Force close BCH position on 5m?",
+        "variant": "caption"
+      }
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) False-close chart check?",
+        "variant": "caption"
+      }
+    },
+    "interp3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) From-chart BCH reference?",
+        "variant": "caption"
+      }
+    },
+    "interp-other": {
+      "type": "Text",
+      "props": {
+        "text": "Other?",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

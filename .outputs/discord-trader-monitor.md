@@ -15,3 +15,12 @@ Message ID: 1545720315823525889 | 09:00:41 UTC
 
 Your read on "Fc Ake 1hr"?
 
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Event: member chat message (supporting channel)
+
+heartcanhodl: "Fc bch 5m"
+
+Unable to classify — abbreviations unclear. Possible interpretations: (1) Force close BCH position on 5m? (2) False-close chart check? (3) From-chart BCH reference? Other?
+
+What's your read?
