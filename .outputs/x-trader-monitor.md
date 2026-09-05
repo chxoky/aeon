@@ -1,12 +1,12 @@
-🐦 *[X] @bull_genius*
+🔍 *Calibration — @bull_genius*
 
-complete coal like chill guy and peanut the squirrel went to 2 billion in last cycle
+Event: Cryptic AI/NVDA ratio comparison to @manyfacedchud @longdotxyz (original posts unavailable)
 
-now you have at $220 million (10% of pnut ath), a coin that opened up the tokenized equity pairs meta on the biggest retail trading app in the world
+bull_genius: "1 AI = 1/10 NVDA
 
-a coin that makes you automatically an $NVDA shareholder and collectively owns a higher % share of the biggest chipmaker in the world the higher it goes
+if that makes sense"
 
-my price prediction for AI is it breaks $1B market cap in a matter of few weeks and over the whole cycle it probably tops somewhere between $20-50 billion
+Unable to classify — what's your read? Trade idea, price observation, or market sentiment?
 
 this is the leading coin for the leading megatrend of the 2026-2028 bull market
 
@@ -24,3 +24,4 @@ bull_genius: "fat stays on"
 Context: bull_genius has PUMP 10x long (+29.81% unrealized as of Aug 28) and ZEC 10x long (+25.27% unrealized). Recent sentiment bullish on bear-market recovery. This brief reply could refer to maintaining leverage positions, broader market sentiment, or context specific to their conversation with Sisyphus.
 
 Unable to classify — what's your read?
+[View post](https://x.com/bull_genius/status/2096225006145409166)

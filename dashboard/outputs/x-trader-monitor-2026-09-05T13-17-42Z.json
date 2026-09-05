@@ -1,0 +1,62 @@
+{
+  "root": "card1",
+  "state": {},
+  "elements": {
+    "card1": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "sep1",
+        "tweet1",
+        "text2",
+        "link1"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic AI/NVDA ratio comparison to @manyfacedchud @longdotxyz (original posts unavailable)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "1 AI = 1/10 NVDA\n\nif that makes sense"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Trade idea, price observation, or market sentiment?"
+      }
+    },
+    "link1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2096225006145409166"
+      }
+    }
+  }
+}
