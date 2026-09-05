@@ -1,11 +1,15 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @trading_axe*
 
-$BTC bottom formation is complete.
+Event: Screenshot of @0xNetanyahu comment on thesis rejection
 
-Next step is a higher low. 
+@0xNetanyahu: "Bro you had a thesis on it rejected man..."
 
-The pending target has already been hit. All that's left is patience for one last week down. It'll come, just in due time.
+trading_axe: "Just saw a comment with this profile picture…
 
-[View tweet](https://x.com/KillaXBT/status/2096241082166026541)
+Amazing things happening on PF.
 
-↳ _Aligns with documented HTF bullish structural bias; cycle phases shown in attached charts (bottom → retest → higher low → pending consolidation)._
+~ Dr. Axius."
+
+Unable to classify — what does "PF" refer to, and is this a financial signal?
+
+[View post](https://x.com/trading_axe/status/2096251535185326190)

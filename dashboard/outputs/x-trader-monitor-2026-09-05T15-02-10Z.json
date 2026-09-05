@@ -1,0 +1,82 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @trading_axe"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "separator1",
+        "tweet_netanyahu",
+        "tweet_trading_axe",
+        "separator2",
+        "alert_classification",
+        "link_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Screenshot of @0xNetanyahu comment on thesis rejection",
+        "level": "h3"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_netanyahu": {
+      "type": "TweetCard",
+      "props": {
+        "author": "0xNetanyahu",
+        "handle": "@0xNetanyahu",
+        "text": "Bro you had a thesis on it rejected man..."
+      }
+    },
+    "tweet_trading_axe": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Just saw a comment with this profile picture…\n\nAmazing things happening on PF.\n\n~ Dr. Axius."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What does \"PF\" refer to, and is this a financial signal?",
+        "type": "warning"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2096251535185326190"
+      }
+    }
+  }
+}
