@@ -297,6 +297,19 @@
 - **Alerted**: YES (2026-07-29T21:06:29Z entry via x-trader-monitor; 2026-08-13T14:56:08Z 80% TP via discord-trader-monitor, fast-path-alerted=true; 2026-08-17T13:39:43Z final close via discord-trader-monitor, fast-path-alerted=true)
 - **Last update**: 2026-08-17T13:39:43Z (final position closed, Discord message_id=1538905166634553395, discord-trader-monitor real-time, fast-path alerted)
 
+### BCH (Bitcoin Cash) — LONG (NEW ENTRY — 2026-09-05)
+- **Entry date**: 2026-09-05T07:08:31Z
+- **Entry message**: "Add 4% spot bch here"
+- **Entry type**: Market order (spot execution completed)
+- **Entry level**: Market price at time of execution (Sep 05 07:08:31Z UTC, BCH spot market)
+- **Entry size**: 4% portfolio allocation
+- **Entry context**: Primary Trades channel highest-conviction tier. HCH maintains net-short regime (Aug 07+) but taking selective long spot positions. Pattern: Sep 04 CHIP 4% spot, Sep 04 BITLIGHT with SL, Sep 05 BCH 4% spot = tactical long accumulation within broader short-conviction framework.
+- **Position thesis**: Spot BCH conviction add; likely tactical entry into support level or breakout setup. Aligns with HCH's disciplined portfolio architect approach (scaled entries, no all-in moves).
+- **Status**: ACTIVE — market-order execution completed, 4% position established
+- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
+- **Alerted**: YES (2026-09-05T07:08:31Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; duplicate Telegram suppressed per protocol)
+- **Last update**: 2026-09-05T07:08:31Z (message_id=1545692088211873793, discord-trader-monitor real-time, trade-new-entry)
+
 ### SNDK (SanDisk) — LONG (FRESH DCA PLAN 2026-07-29, FULLY CLOSED 2026-08-17)
 - **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
 - **Entry message**: "Starting $SNDK here at 980~, leaving room to add towards high 800's. I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
