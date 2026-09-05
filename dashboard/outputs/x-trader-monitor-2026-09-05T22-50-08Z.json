@@ -1,0 +1,81 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "post-section",
+        "context-section",
+        "classification-section"
+      ]
+    },
+    "post-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-post",
+        "tweet-card"
+      ]
+    },
+    "heading-post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Second highest close ever for all they care"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-context",
+        "context-text"
+      ]
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "No media, no ticker ID'd, no external event visible. Cryptic reference to a price 'close' (likely technical level) but intent unclear — bullish? bearish? Just commentary?"
+      },
+      "children": []
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset/close is this referring to, and what's your read?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
