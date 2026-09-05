@@ -1,0 +1,106 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @trading_axe"
+      },
+      "children": [
+        "context-text",
+        "sep-1",
+        "tweet-card",
+        "sep-2",
+        "question-text",
+        "options-stack",
+        "sep-3",
+        "link-element"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @ExponentLabs_ context unclear",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "@ExponentLabs_ 100M to start.\n\n~ Dr. Axius. 📊"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opt-1",
+        "opt-2",
+        "opt-3",
+        "opt-4"
+      ]
+    },
+    "opt-1": {
+      "type": "Badge",
+      "props": {
+        "text": "(1) market narrative"
+      }
+    },
+    "opt-2": {
+      "type": "Badge",
+      "props": {
+        "text": "(2) trade signal"
+      }
+    },
+    "opt-3": {
+      "type": "Badge",
+      "props": {
+        "text": "(3) price target/level"
+      }
+    },
+    "opt-4": {
+      "type": "Badge",
+      "props": {
+        "text": "(4) banter/skip"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-element": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2096380740384559228"
+      }
+    }
+  }
+}

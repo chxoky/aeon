@@ -1,1 +1,11 @@
-Argonaut NFT market analysis from @bull_genius: Floor 0.385 ETH (+18.5%), 6.8% listed, 2x-6x premium on strong hands sales. Supply shock thesis ahead. https://x.com/bull_genius/status/2096371494406226056
+🔍 *Calibration — @trading_axe*
+
+Event: @ExponentLabs_ context unclear
+
+trading_axe: "@ExponentLabs_ 100M to start.
+
+~ Dr. Axius. 📊"
+
+Unable to classify — what's your read? Is this (1) market narrative, (2) trade signal, (3) price target/level, (4) banter/skip?
+
+[View post](https://x.com/trading_axe/status/2096380740384559228)
