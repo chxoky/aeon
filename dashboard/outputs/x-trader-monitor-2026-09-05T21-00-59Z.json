@@ -1,0 +1,329 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "PUMP technical conviction update",
+        "description": "Bullish longer-term thesis on pump.fun despite near-term weakness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "section_analysis",
+        "sep_2",
+        "section_conviction",
+        "sep_3",
+        "section_chart",
+        "sep_4",
+        "section_traders",
+        "sep_5",
+        "section_classification",
+        "sep_6",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "PUMP technical conviction update — Bullish longer-term thesis on pump.fun despite near-term weakness\n\nDeepest correction of favorite coins in big zone cluster. 30d+365d rVWAP+ATH aVWAP with first pullback wick right below, tiny bull div forming on H4. PUMP/PONS ratio at ATL but fundamentals strong (warchest, market leader, revenues, shrewd ops). Prediction: pump.fun leaves Solana & makes own chain."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "text_analysis_body"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "text_analysis_body": {
+      "type": "Text",
+      "props": {
+        "text": "30d+365d rVWAP+ATH aVWAP with first pullback wick right below, tiny bull div forming on H4. PUMP/PONS ratio at ATL. Fundamentals strong: warchest, market leader, revenues, shrewd ops. Prediction: pump.fun leaves Solana & makes own chain.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_conviction",
+        "text_conviction_body",
+        "grid_conviction_stats"
+      ]
+    },
+    "heading_conviction": {
+      "type": "Heading",
+      "props": {
+        "text": "Forward-Looking Conviction",
+        "level": "h3"
+      }
+    },
+    "text_conviction_body": {
+      "type": "Text",
+      "props": {
+        "text": "Will keep adding to spot position despite expecting red week in markets. Currently at multi-VWAP support confluence zones.",
+        "variant": "body"
+      }
+    },
+    "grid_conviction_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "md"
+      },
+      "children": [
+        "stat_rsi_oversold"
+      ]
+    },
+    "stat_rsi_oversold": {
+      "type": "Stat",
+      "props": {
+        "label": "RSI (H4) — Oversold",
+        "value": "32.91",
+        "trend": "down"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_chart": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_chart",
+        "text_chart_desc",
+        "grid_vwap_levels"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart: PUMPUSDT 4h (Bitget)",
+        "level": "h3"
+      }
+    },
+    "text_chart_desc": {
+      "type": "Text",
+      "props": {
+        "text": "PUMPUSDT 4h chart on Bitget with labeled VWAP/POC levels.",
+        "variant": "caption"
+      }
+    },
+    "grid_vwap_levels": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_7d_rvwap",
+        "stat_pullback_wick",
+        "stat_ath_avwap"
+      ]
+    },
+    "stat_7d_rvwap": {
+      "type": "Stat",
+      "props": {
+        "label": "7d rVWAP",
+        "value": "0.00430"
+      }
+    },
+    "stat_pullback_wick": {
+      "type": "Stat",
+      "props": {
+        "label": "First pullback support",
+        "value": "0.003862"
+      }
+    },
+    "stat_ath_avwap": {
+      "type": "Stat",
+      "props": {
+        "label": "ATH aVWAP",
+        "value": "0.00933"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_traders": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_traders",
+        "text_traders_desc",
+        "grid_trader_positions",
+        "alert_divergence"
+      ]
+    },
+    "heading_traders": {
+      "type": "Heading",
+      "props": {
+        "text": "Cross-Trader Context",
+        "level": "h3"
+      }
+    },
+    "text_traders_desc": {
+      "type": "Text",
+      "props": {
+        "text": "3-trader PUMP convergence tracking:",
+        "variant": "caption"
+      }
+    },
+    "grid_trader_positions": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_trading_axe",
+        "stat_hch_short",
+        "stat_bull_genius_long",
+        "stat_bull_genius_conviction"
+      ]
+    },
+    "stat_trading_axe": {
+      "type": "Stat",
+      "props": {
+        "label": "trading_axe sentiment (Aug 19)",
+        "value": "+13%",
+        "trend": "up"
+      }
+    },
+    "stat_hch_short": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH position (Aug 21)",
+        "value": "2% short",
+        "trend": "down"
+      }
+    },
+    "stat_bull_genius_long": {
+      "type": "Stat",
+      "props": {
+        "label": "bull_genius 10x long (Aug 26)",
+        "value": "+29.81%",
+        "trend": "up"
+      }
+    },
+    "stat_bull_genius_conviction": {
+      "type": "Stat",
+      "props": {
+        "label": "bull_genius conviction-add plan",
+        "value": "Sep 05"
+      }
+    },
+    "alert_divergence": {
+      "type": "Alert",
+      "props": {
+        "title": "HIGH DIVERGENCE",
+        "message": "HCH short vs bull_genius long x2. Monitor for HCH TP/close signal.",
+        "type": "warning"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_classification",
+        "badge_informational",
+        "text_note"
+      ]
+    },
+    "heading_classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "badge_informational": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "secondary"
+      }
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "No approval required. Future conviction-add is stated intent, not immediate order.",
+        "variant": "caption"
+      }
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/bull_genius/status/2096340802561536019"
+      }
+    }
+  }
+}

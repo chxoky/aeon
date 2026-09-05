@@ -1,12 +1,19 @@
-➕ *Conviction Add — @bull_genius*
 
-PUMP spot position add on pullback to support cluster.
+🐦 *[X] @bull_genius*
 
-"i expect a red week in markets but will keep adding to my spot position"
+**PUMP technical conviction update** — Bullish longer-term thesis on pump.fun despite near-term weakness
 
-Chart: PUMP/USDT 4h consolidating at first pullback support (~0.00386) within larger uptrend. Multiple confluence zones marked (30d/365d rVWAP, ATH aVWAP, POC levels). Tiny bullish divergence forming on 4h.
+Text: deepest correction of favorite coins in big zone cluster. 30d+365d rVWAP+ATH aVWAP with first pullback wick right below, tiny bull div forming on H4. PUMP/PONS ratio at ATL but fundamentals strong (warchest, market leader, revenues, shrewd ops). Prediction: pump.fun leaves Solana & makes own chain.
 
-[View post](https://x.com/bull_genius/status/2096339393258647603)
+**Forward-looking conviction:** Will keep adding to spot position despite expecting red week in markets. Currently at multi-VWAP support confluence zones with RSI oversold (32.91).
+
+📊 Chart: PUMPUSDT 4h Bitget with labeled VWAP/POC levels (7d rVWAP 0.00430, first pullback support 0.003862, ATH aVWAP 0.00933)
+
+**Cross-trader context:** 3-trader PUMP convergence now (trading_axe +13% sentiment Aug 19, HCH 2% short Aug 21, bull_genius 10x long Aug 26 +29.81%, bull_genius conviction-add plan Sep 05). HIGH DIVERGENCE: HCH short vs bull_genius long x2. Monitor for HCH TP/close signal.
+
+**Classification:** Informational. No approval required (future conviction-add is stated intent, not immediate order).
+
+[View post](https://x.com/bull_genius/status/2096340802561536019)
 
 Want to add to your PUMP position too?
 PUMP: Adding to spot position on technical + macro setup.
