@@ -1,0 +1,142 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "stack_content"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "question_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_stack"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @trendflipper on X",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_author",
+        "text_reply"
+      ]
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "@swarmister",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_reply": {
+      "type": "Text",
+      "props": {
+        "text": "\"WOW\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister has high banter-to-signal ratio but this is a direct reply to another trader. Cannot determine financial intent without seeing @trendflipper's original post.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_section": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Awaiting Calibration",
+        "message": "Unable to classify — what's your read?"
+      },
+      "children": []
+    }
+  }
+}
