@@ -5,11 +5,11 @@ HeartCanHodl: "Fc dash ema50 15m wide"
 
 Unable to classify — what's your read?
 
-**Event Details:**
-- **Trader:** HeartCanHodl (heartcanhodl)
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting channel)
-- **Message:** Reply to selvagsz's question about DASH & ZEN weekend pop potential
-- **Content:** Technical beta-correlation analysis — "both are betas but dash is usually the ideal beta expression to zec as main runner. As in past many a times"
+🔍 *Calibration — [DC: HCH — Chat]*
+
+heartcanhodl: "fc ake 1hr"
+
+Unable to classify — what's your read? (Context: HCH had $AKE short entry plan Aug 14; 'fc' could mean forced close, fake, or other; 1hr = timeframe ref)
 
 **Processing:**
 1. ✅ Event decoded successfully
