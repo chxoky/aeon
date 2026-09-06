@@ -1,0 +1,163 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_chart",
+        "text_drawdown",
+        "grid_stats",
+        "sep1",
+        "text_observation",
+        "sep2",
+        "heading_analysis",
+        "stack_questions",
+        "sep3",
+        "link_source"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart: SoftBank Group Corp. (TSE) 1d — May-Sep 2026",
+        "level": "h2"
+      }
+    },
+    "text_drawdown": {
+      "type": "Text",
+      "props": {
+        "text": "50% drawdown, consolidating",
+        "variant": "muted"
+      }
+    },
+    "grid_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_peak",
+        "stat_low",
+        "stat_current"
+      ]
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak (Jun)",
+        "value": "9,074"
+      }
+    },
+    "stat_low": {
+      "type": "Stat",
+      "props": {
+        "label": "Low (Aug)",
+        "value": "4,500"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "5,001"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_observation": {
+      "type": "Text",
+      "props": {
+        "text": "Text: \"Next Man Up\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify intent. What's your read?",
+        "level": "h3"
+      }
+    },
+    "stack_questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Bullish bounce or bearish continuation?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Personal trade action or observation?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Why SoftBank (outside US/crypto focus)?",
+        "variant": "body"
+      }
+    },
+    "q4": {
+      "type": "Text",
+      "props": {
+        "text": "4. What does \"Next Man Up\" signal here?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_source": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@Wild_Randomness Tweet",
+        "href": "https://x.com/Wild_Randomness/status/2096465319782944975",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
