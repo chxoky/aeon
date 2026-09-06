@@ -476,6 +476,21 @@
 - **Alerted**: YES (2026-08-01T14:54:40Z, x-trader-monitor real-time, trade-new-entry; tweet_id=2083567091823603993; 2026-08-02T15:27:32Z, discord-trader-monitor real-time, trade-new-entry detail confirmation, message_id=1533496481393410078)
 - **Last update**: 2026-08-02T15:27:32Z (discord-trader-monitor real-time, detailed DCA/SL/re-entry structure clarification)
 
+### ASTER — LONG (NEW ENTRY — SWING LONG 2026-09-06)
+- **Status**: PENDING APPROVAL — awaiting Kyle `approve ASTER` signal to mirror on Kraken spot
+- **Entry**: 2026-09-06T19:52:17Z (X post with chart image)
+- **Entry message**: "I am swing long on $ASTER. I see $1.20 as the minimum target, with potential extensions toward $1.40. We're coming out of nearly 200 days of range compression, so I expect this move to take time to fully develop. Invalidation remains below the range lows. For now, I'm simply letting the position play out."
+- **Entry level**: $0.773 (market order, execution completed; chart entry confirmation at 0.773)
+- **Entry type**: Market order (execution completed; position active)
+- **Portfolio allocation**: UNKNOWN (size not specified; awaiting Kyle approval decision)
+- **Chart context**: Entry at 0.773 after 200+ day range compression breakout. Three price targets: TARGET 1 $1.087 (+40.6%), TARGET 2 $1.206 (+56.0%), TARGET 3 $1.407 (+82.1%). Invalidation: below range lows (~$0.60, -22% max loss). Risk-reward favorable on multi-month breakout setup.
+- **Technical thesis**: Swing long breakout from consolidation exhaustion. Entry at support/breakout point; targets escalate with breakout confirmation.
+- **Conviction**: MEDIUM-HIGH (explicit "I am swing long" personal execution language; multi-target structure with patience narrative)
+- **Time horizon**: Multi-day/week swing (KillaXBT expects "move to take time to fully develop")
+- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Telegram notification 2026-09-06T19:52:17Z requesting Kyle `approve ASTER` to mirror on Kraken spot.
+- **Alerted**: YES (2026-09-06T19:52:17Z, x-trader-monitor real-time, trade-new-entry, tweet_id=2096687952181035458)
+- **Last update**: 2026-09-06T19:52:17Z (x-trader-monitor real-time, trade-new-entry)
+
 ## HeartCanHodl
 
 ### BTC/ETH/SOL — SHORTS (ACTIVE — PARTIAL PROFIT-TAKING 2026-07-08)

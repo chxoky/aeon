@@ -1,0 +1,156 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — @KillaXBT"
+      },
+      "children": [
+        "stack_signal_info",
+        "stack_entry_details",
+        "separator_1",
+        "heading_targets",
+        "table_targets",
+        "separator_2",
+        "text_context",
+        "separator_3",
+        "heading_thesis",
+        "text_thesis",
+        "separator_4",
+        "link_post",
+        "alert_action"
+      ]
+    },
+    "stack_signal_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_asset",
+        "badge_direction",
+        "badge_order_type"
+      ]
+    },
+    "badge_asset": {
+      "type": "Badge",
+      "props": {
+        "text": "$ASTER",
+        "variant": "default"
+      }
+    },
+    "badge_direction": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "badge_order_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Market order",
+        "variant": "secondary"
+      }
+    },
+    "stack_entry_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_entry_price"
+      ]
+    },
+    "stat_entry_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Swing long entry",
+        "value": "$0.773"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_targets": {
+      "type": "Heading",
+      "props": {
+        "text": "Targets",
+        "level": "h3"
+      }
+    },
+    "table_targets": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Type",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Minimum target",
+            "$1.20"
+          ],
+          [
+            "Potential extension",
+            "$1.40"
+          ]
+        ]
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Entry after 200 days of range compression; invalidation below range lows.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Trade Thesis",
+        "level": "h3"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "I am swing long on $ASTER. I see $1.20 as the minimum target, with potential extensions toward $1.40. We're coming out of nearly 200 days of range compression, so I expect this move to take time to fully develop. Invalidation remains below the range lows. For now, I'm simply letting the position play out.",
+        "variant": "lead"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/KillaXBT/status/2096687952181035458",
+        "source": "X"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve ASTER` to mirror this swing long, or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}
