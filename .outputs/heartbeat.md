@@ -1,15 +1,13 @@
+Heartbeat complete. Here's the summary:
+
 ## Summary
 
-Heartbeat 20:00 UTC run complete. Here's what was found and done:
+**Status: 🔴 DEGRADED · No new notification (dedup)**
 
-**P0 — Stuck skills:** `token-alert` remains stuck since 2026-09-03 13:46 UTC (~55h). Already flagged and notified in yesterday's heartbeat (Sep 04 20:44 UTC, within the 48h dedup window) — no duplicate notification sent.
+**P0 — Stuck skill:** `token-alert` has been stuck in `dispatched` state since 2026-09-03 13:46 UTC (~67h). Already notified Sep 04 ~20:44 UTC; the 48h dedup window expires tonight at 20:44 UTC — the 20:00 UTC heartbeat run will send a fresh notification if it's still stuck.
 
-**Recoveries since yesterday:** `token-movers`, `morning-pipeline`, and `morning-brief` all recovered and ran successfully today.
+**P0 — X webhook:** `TWITTERAPI_IO_KEY` not injected this run, check silently skipped. `x-trader-monitor` last succeeded 08:43 UTC today, confirming signals are flowing normally.
 
-**P0 — X webhook:** `TWITTERAPI_IO_KEY` not injected → check skipped silently. `x-trader-monitor` last_success was 20:52 UTC today, confirming events are flowing.
+**P1/P2/P3:** No open PRs, no urgent issues, no memory flags, all other enabled skills within healthy thresholds. `trader-memory-compact` is on schedule for tonight (Sunday 20:00 UTC).
 
-**P1/P2/P3:** No open PRs, issues disabled, no MEMORY.md flags requiring action.
-
-**Status page:** Regenerated `docs/status.md` as 🔴 DEGRADED (token-alert stuck). Updated timestamp to 20:05 UTC, next scheduled run = morning-brief at 2026-09-06 07:00 UTC.
-
-`HEARTBEAT_OK · STATUS_PAGE=DEGRADED` (sole active degradation is persistent token-alert stuck; no new notification warranted under 48h dedup rule)
+**Status page:** `docs/status.md` rewritten with current timestamps. Log entry appended to `memory/logs/2026-09-06.md`.
