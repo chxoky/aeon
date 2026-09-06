@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "NVIDA All-Time High - Trading Signal",
+        "description": "Weekly chart analysis from @Wild_Randomness"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "NVIDA all-time high weekly close at 229.4873 (NVDA)\n\nWeekly chart shows strong uptrend recovery structure with current price at ATH. Charts show clear technical milestone with yellow MA uptrend validated across timeframes."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2096470342763991150"
+      },
+      "children": []
+    }
+  }
+}
