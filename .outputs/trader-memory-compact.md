@@ -1,7 +1,11 @@
 ## Summary
 
-**traders.md**: 224,739 → 53,592 bytes (76% reduction). Merged all duplicate sections: bull_genius ×4, swarmister ×2, t_in_crypto ×2, Crypto_Chase ×2, Stoiiic ×2. Trimmed Wild_Randomness, KillaXBT, and HeartCanHodl to 25-event rolling windows. All PENDING calibration lines preserved. 12 canonical trader sections.
+**traders.md:** 213,354 → 54,482 bytes (74% reduction)
 
-**trader-baseline-10d.md**: Regenerated (was Aug 23 window → now Aug 30; window Aug 21–Aug 30). All 12 traders updated with current open positions, pending approvals, conviction downgrades (KillaXBT 100K→Q2 2027), and active PENDING counts.
-
-**Commits**: `ad6b638` (compact), `bca4043` (log).
+**What was done:**
+- Merged 3 duplicate sections: KillaXBT, bull_genius, trading_axe (newest state won for all position/thesis fields)
+- Collapsed Wild_Randomness and HeartCanHodl's fragmented multi-block layout (multiple "Last seen:" lines) into single canonical sections
+- Trimmed all 12 traders to max 25 rolling events, newest last; dropped per-run machinery, skip events, and redundant informational noise
+- Regenerated `trader-baseline-10d.md` — window Aug 27–Sep 06, all 12 traders, ≤1KB each
+- Marked ISS-004 (traders.md oversize standing issue) resolved in `issues/INDEX.md` and `ISS-004.md`
+- Committed: `ce6e743`
