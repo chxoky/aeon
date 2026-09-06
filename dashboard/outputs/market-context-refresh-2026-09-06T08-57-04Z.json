@@ -1,0 +1,285 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-09-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take_section",
+        "sep_1",
+        "prices_section",
+        "sep_2",
+        "metrics_section",
+        "sep_3",
+        "narrative_section",
+        "sep_4",
+        "emerging_section",
+        "sep_5",
+        "macro_section"
+      ]
+    },
+    "take_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_rotation",
+        "badge_conviction"
+      ]
+    },
+    "badge_rotation": {
+      "type": "Badge",
+      "props": {
+        "text": "rotation",
+        "variant": "default"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction medium",
+        "variant": "secondary"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_fg"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$79,761",
+        "delta": "+0.19%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,492",
+        "delta": "+1.53%",
+        "trend": "up"
+      }
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "73",
+        "delta": "Greed (flat)"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_breadth",
+        "stat_dominance",
+        "stat_dex_vol"
+      ]
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "19/20"
+      }
+    },
+    "stat_dominance": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Dominance",
+        "value": "59.22%",
+        "delta": "+0.28pp"
+      }
+    },
+    "stat_dex_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$8.29B",
+        "delta": "-18.6%",
+        "trend": "down"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_narrative_title",
+        "stat_zec",
+        "badge_phase"
+      ]
+    },
+    "text_narrative_title": {
+      "type": "Text",
+      "props": {
+        "text": "Top narrative: privacy sector",
+        "variant": "lead"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "$1,164",
+        "delta": "+16% 24h, +38.5% 7d"
+      }
+    },
+    "badge_phase": {
+      "type": "Badge",
+      "props": {
+        "text": "peak phase",
+        "variant": "destructive"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "emerging_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_emerging",
+        "stat_arb",
+        "stat_stonk",
+        "stat_shrub"
+      ]
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging trends",
+        "variant": "lead"
+      }
+    },
+    "stat_arb": {
+      "type": "Stat",
+      "props": {
+        "label": "ARB",
+        "value": "+46.78%",
+        "delta": "trending"
+      }
+    },
+    "stat_stonk": {
+      "type": "Stat",
+      "props": {
+        "label": "STONK",
+        "value": "+256%",
+        "delta": "new meme lead"
+      }
+    },
+    "stat_shrub": {
+      "type": "Stat",
+      "props": {
+        "label": "SHRUB",
+        "value": "-63%",
+        "delta": "post-STONK"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_macro",
+        "stat_fomc",
+        "stat_cpi",
+        "stat_clarity"
+      ]
+    },
+    "text_macro": {
+      "type": "Text",
+      "props": {
+        "text": "Hot macro",
+        "variant": "lead"
+      }
+    },
+    "stat_fomc": {
+      "type": "Stat",
+      "props": {
+        "label": "FOMC hike odds",
+        "value": "66.4%"
+      }
+    },
+    "stat_cpi": {
+      "type": "Stat",
+      "props": {
+        "label": "CPI",
+        "value": "Sep 11",
+        "delta": "next gate"
+      }
+    },
+    "stat_clarity": {
+      "type": "Stat",
+      "props": {
+        "label": "Clarity Act",
+        "value": "dead",
+        "delta": "14.5%"
+      }
+    }
+  }
+}
