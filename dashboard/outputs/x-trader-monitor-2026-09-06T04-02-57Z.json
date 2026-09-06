@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "🐦 $LIT technical consolidation 4.22-4.92 range at support 4.7000 (30m Binance chart). Funding rates EXTREME: predicted -2.39% shorts overextended, squeeze risk. Discord context: 'printing 4s tomorrow / 5s this weekend'. Validates Sep 04 LIT funding squeeze thesis on 50:50 conviction position. https://x.com/Wild_Randomness/status/2096447459052388438"
+      }
+    }
+  }
+}
