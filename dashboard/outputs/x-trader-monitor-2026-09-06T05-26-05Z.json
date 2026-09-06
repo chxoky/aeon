@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "stat_price_drop",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ZEC/USDT 1D chart: downtrend 500→259.16 USDT (-48%) with multiple sell-off phases, currently consolidating at support with oscillator oversold."
+      }
+    },
+    "stat_price_drop": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC/USDT",
+        "value": "259.16",
+        "delta": "-48%",
+        "trend": "down"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2096469070929391970"
+      }
+    }
+  }
+}
