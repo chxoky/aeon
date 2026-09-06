@@ -1,0 +1,188 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-06"
+      },
+      "children": [
+        "stack-sections"
+      ]
+    },
+    "stack-sections": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "separator1",
+        "section-since"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius PUMP entry (00:33Z) — approve/skip pending 9h, price has moved"
+      }
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-alert stuck 3 days — dedup expires 20:44Z tonight; monitoring gap active"
+      }
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "WR 40-50% mystery load (01:51Z) — ticker unresolved, calibration still pending"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-since",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-closed",
+        "text-since-1"
+      ]
+    },
+    "badge-closed": {
+      "type": "Badge",
+      "props": {
+        "text": "closed",
+        "variant": "secondary"
+      }
+    },
+    "text-since-1": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT BTC tactical scalp closed 1.2R (Sep 05 16:37Z)"
+      }
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-flipped",
+        "text-since-2"
+      ]
+    },
+    "badge-flipped": {
+      "type": "Badge",
+      "props": {
+        "text": "flipped",
+        "variant": "outline"
+      }
+    },
+    "text-since-2": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius hedge posture → PUMP spot long at ATH aVWAP; fading own macro view"
+      }
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-escalated",
+        "text-since-3"
+      ]
+    },
+    "badge-escalated": {
+      "type": "Badge",
+      "props": {
+        "text": "escalated",
+        "variant": "destructive"
+      }
+    },
+    "text-since-3": {
+      "type": "Text",
+      "props": {
+        "text": "HCH XMR 1x short 2% added 05:46Z — basket now 13+ tickers"
+      }
+    },
+    "since-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-breakout",
+        "text-since-4"
+      ]
+    },
+    "badge-breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "breakout",
+        "variant": "default"
+      }
+    },
+    "text-since-4": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC $1,164 +16% — WR confirmed second"
+      }
+    }
+  }
+}
