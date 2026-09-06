@@ -1,0 +1,169 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Message Classification"
+      },
+      "children": [
+        "calibration-header",
+        "divider1",
+        "message-card",
+        "divider2",
+        "unable-to-classify",
+        "analysis-heading",
+        "analysis-stack",
+        "divider3",
+        "questions-heading",
+        "questions-stack"
+      ]
+    },
+    "calibration-header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "divider1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Fc xmr 5m"
+      }
+    },
+    "divider2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unable-to-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No execution language detected. No related primary-channel context.",
+        "type": "warning"
+      }
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-1",
+        "analysis-2",
+        "analysis-3",
+        "analysis-4",
+        "analysis-5"
+      ]
+    },
+    "analysis-1": {
+      "type": "Text",
+      "props": {
+        "text": "Fc = unclear (Force close? Full close? Fast chart?)",
+        "variant": "body"
+      }
+    },
+    "analysis-2": {
+      "type": "Text",
+      "props": {
+        "text": "xmr = Monero (privacy coin ticker)",
+        "variant": "body"
+      }
+    },
+    "analysis-3": {
+      "type": "Text",
+      "props": {
+        "text": "5m = 5-minute timeframe?",
+        "variant": "body"
+      }
+    },
+    "analysis-4": {
+      "type": "Text",
+      "props": {
+        "text": "No execution language detected",
+        "variant": "body"
+      }
+    },
+    "analysis-5": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel context suggests market observation/conviction shift, but too cryptic",
+        "variant": "body"
+      }
+    },
+    "divider3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "questions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Questions for clarification",
+        "level": "h3"
+      }
+    },
+    "questions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "1. What does 'Fc' abbreviate/mean?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Is this an XMR/Monero-related signal?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Trade action, technical observation, or banter?",
+        "variant": "body"
+      }
+    },
+    "q4": {
+      "type": "Text",
+      "props": {
+        "text": "4. Intended context/action?",
+        "variant": "body"
+      }
+    }
+  }
+}
