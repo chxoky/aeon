@@ -1277,6 +1277,26 @@
 - **Conviction**: MEDIUM (new ticker with 1% allocation sizing; parallel entry with TAO/STABLE suggests pre-planned list accumulation rather than reactive single-ticker conviction)
 - **Last update**: 2026-08-03T02:02:46Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1533656343196598373)
 
+### $FORM (Breakout + Retest Entry) — LONG (NEW ENTRY — 2026-09-06, TRADE-NEW-ENTRY + DCA-PLAN, FAST-PATH ALERTED, VERBATIM REQUIRED)
+- **Status**: ACTIVE — market-order execution completed, DCA plan pending limit order at $0.2355
+- **Entry**: 2026-09-06T19:17:44.471000+00:00 (Discord Trades primary channel, message_id=1546237989758181418, fast-path alerted by Cloudflare Worker)
+- **Channel**: 1279738718680256553 (HCH — Trades ★most important)
+- **Entry message (VERBATIM REQUIRED)**: "2 part entries \n\nAdding 2% spot to the $FORM bag here\n\nWill add another 2% if $0.2355 is given\n\nBreakout + retest setup on an underrated launchpad. Potential CZ crime 🫆\n\nNot treating the first target as mediocre either : ~$0.55. Means +100%"
+- **Entry type**: Market order (spot execution at market price, Sep 06 19:17:44 UTC) + Limit order (contingent DCA at $0.2355)
+- **Portfolio allocation**: 
+  - **Tier 1 (executed)**: 2% spot $FORM at market price (Sep 06 19:17:44Z)
+  - **Tier 2 (pending)**: 2% spot $FORM if price reaches $0.2355 (limit order, contingent fill)
+- **Entry level**: Market price at execution time (unknown exact price, typical for market order); second tranche limit order at $0.2355 support
+- **Entry context**: Primary channel highest-conviction entry. HCH's 2-part entry structure matches documented multi-phase DCA approach (similar to BTC/MU/SNDK patterns from prior months). Entry timing: Asian morning session (19:17 UTC ≈ 03:17 UTC+8), aligns with HCH's systematic trading rhythm.
+- **Technical setup**: "Breakout + retest setup on an underrated launchpad" — technical confluence entry pattern (suggests chart analysis validated entry on consolidation breakout or retest of key level)
+- **Target**: "~$0.55. Means +100%" — first profit target $0.55 = 100% return (2x from implied entry zone mid-$0.27-$0.28)
+- **Conviction**: HIGH — dual-tranche sizing (2% + 2% contingent = potential 4% total if both fill), +100% target indicates strong bullish conviction, meme language "Potential CZ crime" expresses bullish expectation (playful but genuine confidence)
+- **New ticker**: $FORM first-mention across all 12 tracked traders (Sep 06 19:17Z UTC). Single-trader conviction emerging. Quiet-ticker tracking initiated pending cross-trader convergence.
+- **Fast-path protocol**: Cloudflare Worker detected message and sent Telegram alert within ~2-5s of message creation (fast_path_alerted=true per event payload). Skill suppresses duplicate Telegram per Step 1 protocol; processes classification + memory updates only. No Kyle action alert required (fast-path already notified), but position documented for tracking.
+- **Mirror instructions**: Original entry did not require Kyle approval (fast-path protocol skips approval requests for memory-only processing). If Kyle wishes to mirror FORM position on Kraken spot, spot allocation: 2% initial (market) + 2% contingent (if $0.2355 fills).
+- **Alerted**: YES (fast-path alerted by Cloudflare Worker ~2-5s post; Telegram already sent; duplicate suppressed by skill)
+- **Last update**: 2026-09-06T19:17:44.471000+00:00 (discord-trader-monitor real-time, fast-path-alerted, trade-new-entry + dca-plan)
+
 ## Wild_Randomness
 
 ### HYPE (HYPE) — LONG (NEW ENTRY — PENDING APPROVAL 2026-08-06T14:22Z)
