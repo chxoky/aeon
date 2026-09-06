@@ -1,0 +1,38 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Market feels very complacent; another big profit day on RH/BNB chains. BTC rejected major breakout — people trapped above 365d RVWAP per Saylor context. PONS hit dollar 0.96 w/ frontrunning, nasty rejections on AI coins where breakout got rejected.\n\nMacro: CPI 9/11 (expect derisk after hot jobs), clarity vote + FOMC week after. Rate hike scare into mid-September marking last major bottom before bear destruction. Hedging to secure profits, aiming low.\n\nBearish macro sentiment, contrasts group's mixed BTC outlook; aligns with HCH net-short conviction since Aug 07."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2096393789887639683"
+      }
+    }
+  }
+}
