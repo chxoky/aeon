@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "event_info",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "classification_question",
+        "view_link"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h2"
+      }
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @LaticHunt on market structure (Sep 06 16:32Z)",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "@LaticHunt Every movement. Every aspect. You have 10 major planets and when you pair s:100 different pairs. Market reaks to different planets and pairs, that's why we have turning points on the 1min chart, 1h,1d, 1w etc.. Different planets=different turning points. Otherwise market would be flat line"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?\n\nIs this: (1) Astrological market analysis (philosophy/entertainment), (2) Technical structure commentary using planetary metaphor (actionable structure insight), or (3) Banter with @LaticHunt?",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2096637646890057767",
+        "source": "X"
+      }
+    }
+  }
+}
