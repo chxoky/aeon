@@ -1,0 +1,24 @@
+{
+  "root": "card-health",
+  "state": {},
+  "elements": {
+    "card-health": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-09-06"
+      },
+      "children": [
+        "alert-status"
+      ]
+    },
+    "alert-status": {
+      "type": "Alert",
+      "props": {
+        "title": "HEALTH: OK",
+        "message": "8 skills healthy",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
