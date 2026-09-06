@@ -1,0 +1,204 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @Wild_Randomness",
+        "description": "Position load execution (40-50% desired size)"
+      },
+      "children": [
+        "timestamp-row",
+        "separator-1",
+        "execution-heading",
+        "quote-text",
+        "separator-2",
+        "context-section",
+        "open-positions-section",
+        "separator-3",
+        "ticker-warning",
+        "separator-4",
+        "source-link",
+        "cta-text"
+      ]
+    },
+    "timestamp-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp-badge",
+        "classification-badge"
+      ]
+    },
+    "timestamp-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Sep 06 01:51Z",
+        "variant": "outline"
+      }
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Step 5a/5d: New Entry or Conviction Add",
+        "variant": "default"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "execution-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "EXECUTION: Position load (40-50% desired size, forcing entry now)",
+        "level": "h3"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Honestly I wanted to load up all month, only about 40-50% of desired position size, but let's go\"",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Evan_ss6/@zeroxkyle. 4 technical charts. WR equities/vol specialist.",
+        "variant": "body"
+      }
+    },
+    "open-positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "positions-heading",
+        "positions-badges"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Open Positions",
+        "level": "h4"
+      }
+    },
+    "positions-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hype",
+        "badge-lit",
+        "badge-pepe",
+        "badge-ena",
+        "badge-zec"
+      ]
+    },
+    "badge-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "secondary"
+      }
+    },
+    "badge-lit": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT",
+        "variant": "secondary"
+      }
+    },
+    "badge-pepe": {
+      "type": "Badge",
+      "props": {
+        "text": "PEPE",
+        "variant": "secondary"
+      }
+    },
+    "badge-ena": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA",
+        "variant": "secondary"
+      }
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "secondary"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ticker-warning": {
+      "type": "Alert",
+      "props": {
+        "title": "Ticker Unclear",
+        "message": "Ticker cannot be identified from text alone. Charts needed for identification.",
+        "type": "warning"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "source-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X (Twitter)",
+        "href": "https://x.com/Wild_Randomness/status/2096415909921337796"
+      }
+    },
+    "cta-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply 'approve <TICKER>' to mirror or ignore to skip.",
+        "variant": "muted"
+      }
+    }
+  }
+}
