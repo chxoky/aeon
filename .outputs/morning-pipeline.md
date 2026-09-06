@@ -1,23 +1,20 @@
-*Morning Brief — 2026-09-05*
+*Morning Brief — 2026-09-06*
 
 *Focus today*
-1. HCH 4-position spot accumulation (BCH/BNB/STRK + 1 unspec) — BNB SL already at BE; more entries likely
-2. CPI Sep 11 is the FOMC gate — 6 days to position; 50/50 hike still live; NFP didn't resolve it
-3. ZEC broke $1,000 — first time in years; privacy sector only confirmed uptrend; DASH +32.9% [BREAKOUT] new
+1. ARB +47.5% unlock active — $820M token release today; retracement window open now
+2. bull_genius PUMP entry pending your response — at 0.618 Fib / ATH aVWAP; WR also watching same level
+3. ZEC $1,164 vs HCH XMR short — privacy sector at peak? cross-trader divergence emerging
 
 *Since yesterday*
-- HCH: BCH 4% + BNB 2% (SL→BE in 38min) + STRK 2% + 1% unspec in 50-min Asian window (07:08–07:58Z)
-- NFP missed (~38K ADP vs 47K expected); Sep FOMC split unchanged: hike 50.5% / no-change 48.5%
-- ZEC $977 → $1,005 (+2.9%), broke $1K; DASH emerged [BREAKOUT] (+72.6% 7d, #4 trending)
-- morning-pipeline resumes after 10-day stale gap (last success 2026-08-26)
-- New geopolitical: Israel airspace closure 66% YES on Polymarket — energy/safe-haven spill risk
+- NVDA: ATH weekly close (WR confirmed 05:27Z) — semis dispersion thesis validating
+- HCH: XMR 2% 1x short added 05:46Z, expanding short basket
+- WR: loaded HYPE/LIT/ZEC/small PUMP to 40-50% desired size; SMTC/SNDK/NVDA semis thesis
+- token-alert: still stuck (dispatched Sep 3, ~66h ago, no completion)
 
 *Watch*
-- Clarity Act 14.5% YES at $1.46M 24h vol (highest Polymarket market today) — Senate vote Sep 15 approaching
+- ADP 38K jobs miss — slightly dovish; FOMC hike odds ~55-60%; CPI Sep 11 is the next gate
+- BTC ETF cooling: $174M Sep 5 vs $730M Sep 4 — three-week streak slowing
 
 *Running today*
-- discord-trader-monitor @ continuous
-- x-trader-monitor @ continuous
-- market-context-refresh @ 10:00 UTC
-- skill-health @ 18:00 UTC
-- heartbeat @ 20:42 UTC
+- x-trader-monitor (continuous)
+- discord-trader-monitor (continuous)

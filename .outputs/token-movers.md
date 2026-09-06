@@ -42,3 +42,40 @@ _Broad risk-on alt rotation — ~78/100 top coins green; BTC flat at +0.2% while
 • STONK (#267, +256% 24h): extreme [PUMP-RISK] — near-certain manipulation, avoid
 • FIRO (#899, +27% 24h): [PUMP-RISK] — ultra-low-cap trending spike, discard as noise
 • SHRUB (#651, −63% 24h): [TRENDING+DOWN] crash — prior pump now unwinding hard
+# Token Movers — 2026-09-06
+
+Pulse: Exceptional breadth (18/20 green) — ARB [BREAKOUT] +47.5% on Robinhood Chain revenue; BTC flat, DeFi tokens leading.
+
+## Top Winners (24h)
+1. ARB (Arbitrum) — $0.195 +47.5% / 7d +132% / 1h +4.0% • $911M / #64 [BREAKOUT][TRENDING+UP]
+2. ZEC (Zcash) — $1,164 +16.1% / 7d +38.5% / 1h -1.6% • $1.03B / #9 [BREAKOUT][TRENDING+UP][MAJOR]
+3. JUP (Jupiter) — $0.243 +11.5% / 7d +10.6% / 1h -0.9% • $97M / #84
+4. UNI (Uniswap) — $6.88 +10.8% / 7d +40.2% / 1h -2.2% • $1.09B / #24 [TRENDING+UP]
+5. PONS — $0.912 +10.4% / 7d +185% / 1h +5.0% • $214M / #93 [TRENDING+UP]
+6. ENA (Ethena) — $0.176 +7.6% / 7d +8.6% / 1h +0.3% • $813M / #50
+7. GT (Gate) — $9.17 +5.9% / 7d +13.1% / 1h -0.4% • $3.1M / #73
+8. DOGE (Dogecoin) — $0.0906 +5.9% / 7d +6.8% / 1h -0.2% • $1.32B / #11 [MAJOR]
+9. AERO (Aerodrome) — $0.544 +5.2% / 7d +12.3% / 1h +0.1% • $40M / #104
+10. ETHFI (Ether.fi) — $0.584 +5.1% / 7d +4.9% / 1h +0.1% • $49M / #99
+
+## Top Losers (24h)
+1. PUMP (Pump.fun) — $0.00399 -4.6% / 7d -18.8% / 1h +0.4% • $239M / #54
+2. VVV (Venice Token) — $17.02 -4.3% / 7d +2.7% / 1h -0.1% • $10.5M / #83
+3. STABLE — $0.02823 -3.5% / 7d +4.5% / 1h -0.2% • $7.7M / #88
+4. TRUMP — $2.34 -1.7% / 7d -9.7% / 1h -0.9% • $208M / #95
+5. BDX (Beldex) — $0.0789 -1.2% / 7d -1.2% / 1h +0.4% • $10.7M / #94
+
+## Trending
+1. ARB (Arbitrum) — #64, $0.195, +46.8% [TRENDING+UP]
+2. ZEC (Zcash) — #9, $1,164, +16.4% [TRENDING+UP]
+3. UNI (Uniswap) — #24, $6.88, +10.7% [TRENDING+UP]
+4. PONS — #93, $0.912, +8.0% [TRENDING+UP]
+5. HYPE (Hyperliquid) — #10, $86.42, +2.4%
+6. LIT (Lighter) — #69, $4.60, flat
+7. SUI — #31, $0.792, +0.7%
+
+## Notable
+- ARB [BREAKOUT]: +47.5% on Robinhood Chain revenue ($175K/day to ecosystem); 9.92M token unlock (~$820M) active today — retracement risk
+- ZEC [BREAKOUT]: second consecutive explosive session ($1,015→$1,164); XMR +2.55% (7d +15.2%) confirms privacy sector
+- PONS [TRENDING+UP]: 7d +185% — meme-cycle; SHRUB crashed -18.78% yesterday after +172%
+- DASH: 7d +71.7% quietly on privacy/UTXO bid ($418M vol)

@@ -1,23 +1,20 @@
-*Morning Brief — 2026-09-05*
+*Morning Brief — 2026-09-06*
 
 *Focus today*
-1. token-alert stuck 44h — another missed cycle means no BTC/ETH/SOL alerts fire today
-2. FOMC Sep 16 hike 50/50; CPI Sep 11 in 6 days sets the odds trajectory
-3. HCH bought BCH/BNB/STRK in 50min this AM — rare intraday longs from a net-short trader
+1. ARB +47.5% unlock active — $820M token release today; retracement window open now
+2. bull_genius PUMP entry pending your response — at 0.618 Fib / ATH aVWAP support
+3. ZEC $1,164 vs HCH XMR short — privacy sector at peak? cross-trader divergence emerging
 
 *Since yesterday*
-- [moved] HCH: BCH 4% spot (07:08Z), BNB 2% (07:47Z, SL shifted to BE = profitable), STRK 2% (07:56Z), 1% unspecified — 4 entries in 50min
-- [moved] bull_genius macro thesis locked: washout now → ultimate long when FOMC hike odds reach 99.5%; near-term BTC weekend strength = bait for short hedges; invalidation 82K close
-- [moved] DASH [BREAKOUT] +32.8% 24h / 7d +72.6%; ZEC confirmed reversal from $850 cap → $1,005; privacy sector broadening
-- [moved] morning-pipeline back online after 10-day stall — today's chain ran successfully
-- [stuck] token-alert dispatched 2026-09-03 13:46 UTC, status still "dispatched"; root cause unknown
+- NVDA: ATH weekly close (WR confirmed 05:27Z) — semis dispersion thesis validating
+- HCH: XMR 2% 1x short added 05:46Z, expanding net-short basket
+- WR: loaded HYPE/LIT/ZEC/small PUMP to 40-50% desired size; SMTC/SNDK/NVDA semis thesis
+- token-alert: still stuck (dispatched Sep 3, ~66h ago, no completion)
 
 *Watch*
-- CPI Sep 11 → FOMC Sep 16 — the binary that gates bull_genius's "ultimate long" entry trigger (focus #2)
-- PONS (RH ecosystem) trending #1, +25.8% 24h / 7d +393% — bull_genius flagged Sep 4; watch for personal execution signal
+- ADP 38K jobs miss — slightly dovish; FOMC hike odds ~55-60%; CPI Sep 11 is the next gate
+- BTC ETF cooling: $174M Sep 5 vs $730M Sep 4 — three-week streak slowing
 
 *Running today*
-- token-alert @ 12:00 UTC (stuck — monitor)
-- token-movers @ 12:00 UTC
-- market-context-refresh @ 13:00 UTC
-- narrative-tracker @ 13:30 UTC
+- x-trader-monitor (continuous)
+- discord-trader-monitor (continuous)
