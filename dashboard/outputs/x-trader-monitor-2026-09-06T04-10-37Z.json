@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "stat_price",
+        "stat_level",
+        "text_charts",
+        "sep2",
+        "badge_class",
+        "text_class_explanation",
+        "sep3",
+        "text_context",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$PUMP — The people like the fib\n\nTesting 0.618 Fibonacci retracement at 0.003716. Current price 0.003908. 5m/4H/1D charts show consolidation at critical support confluence. Follow-up to 02:00Z post; market structure observation on retail/institutional interest in Fib level."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$0.003908"
+      }
+    },
+    "stat_level": {
+      "type": "Stat",
+      "props": {
+        "label": "0.618 Fibonacci Level",
+        "value": "$0.003716"
+      }
+    },
+    "text_charts": {
+      "type": "Text",
+      "props": {
+        "text": "5m/4H/1D charts show consolidation at critical support confluence",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge_class": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL",
+        "variant": "secondary"
+      }
+    },
+    "text_class_explanation": {
+      "type": "Text",
+      "props": {
+        "text": "Technical commentary, no execution signal",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-ticker context: PUMP active (bull_genius long +52%, HCH short 2%, WR tracking 0.618 confluence)",
+        "variant": "body"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2096449788141056103"
+      }
+    }
+  }
+}
