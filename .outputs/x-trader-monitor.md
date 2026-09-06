@@ -1,18 +1,13 @@
-🐦 *[X] @bull_genius* - Macro bearish: BTC breakout longs trapped above 365d RVWAP; PONS $0.96 rejection flag; CPI 9/11 derisk expected; rate hike scare into mid-Sept marks final bottom; personal hedging posture. https://x.com/bull_genius/status/2096394136731500576
-Perfect! I've completed the skill execution for the x-trader-monitor real-time event.
+🚨 *Trade Signal — @bull_genius*
 
-## Summary
+$PUMP — LONG — *MARKET order*
+ATH aVWAP confluence zone (~0.003855)
 
-**Event processed:** bull_genius tweet 2026-09-06T00:27:13Z (ID: 2096394754439197134)
+"im long pump because of the chart, fading my macro view for next week on this one. i think rotation coming and its a good spot here at ATH aVWAP i want to try it"
 
-**Classification:** Step 6 — **INFORMATIONAL** (no trade alert)
+Charts show: PUMP 1D multi-VWAP support (7D/30D/365D confluence), BTC macro context (bearish structure but value zone confirmed).
 
-**Content analysis:**
-- Market sentiment: complacency masking underlying bearish structure  
-- BTC technical: 365d RVWAP rejection with trapped longs (chart provided with labeled support zones, RSI spike confirmation)
-- PONS flag: rejected $0.96 frontran rejections on AI and other coins
-- Macro outlook: CPI 9/11 derisk catalyst, rate hike scare into mid-September marking last major bottom before "complete bear destruction"
-- Personal positioning: hedging to secure profits, aiming low, will sell into Sunday spikes
+[View post](https://x.com/bull_genius/status/2096396351131041874)
 
 **Actions taken:**
 - ✅ Updated `memory/topics/traders.md` with event entry and revised "Last seen" timestamp
@@ -35,3 +30,4 @@ The post aligns with bull_genius's Sep 05 hedge-setup conviction and provides te
 https://x.com/bull_genius/status/2096395616515436984
 
 ↳ *This cuts against the group's more bullish near-term lean (62k TP target) — bull_genius flagging September macro risk despite current complacency.*
+Reply `approve PUMP` to mirror this on Kraken (spot), or ignore to skip.

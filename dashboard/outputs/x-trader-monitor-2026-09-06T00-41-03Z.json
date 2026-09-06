@@ -1,0 +1,149 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — @bull_genius"
+      },
+      "children": [
+        "header_stack",
+        "entry_zone",
+        "reason_section",
+        "separator_1",
+        "technical_section",
+        "separator_2",
+        "action_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_symbol",
+        "badge_side",
+        "badge_order"
+      ]
+    },
+    "badge_symbol": {
+      "type": "Badge",
+      "props": {
+        "text": "$PUMP",
+        "variant": "default"
+      }
+    },
+    "badge_side": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "badge_order": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET order",
+        "variant": "outline"
+      }
+    },
+    "entry_zone": {
+      "type": "Text",
+      "props": {
+        "text": "Entry: ATH aVWAP confluence zone (~0.003855)",
+        "variant": "lead"
+      }
+    },
+    "reason_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reason_label",
+        "reason_quote"
+      ]
+    },
+    "reason_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader's Reasoning",
+        "level": "h4"
+      }
+    },
+    "reason_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"im long pump because of the chart, fading my macro view for next week on this one. i think rotation coming and its a good spot here at ATH aVWAP i want to try it\"",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "technical_heading",
+        "technical_details"
+      ]
+    },
+    "technical_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h4"
+      }
+    },
+    "technical_details": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show: PUMP 1D multi-VWAP support (7D/30D/365D confluence), BTC macro context (bearish structure but value zone confirmed).",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post_link",
+        "call_to_action"
+      ]
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post on X",
+        "href": "https://x.com/bull_genius/status/2096396351131041874",
+        "source": "@bull_genius"
+      }
+    },
+    "call_to_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Reply `approve PUMP` to mirror this on Kraken (spot), or ignore to skip."
+      }
+    }
+  }
+}

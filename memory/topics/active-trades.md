@@ -2,18 +2,19 @@
 
 ## bull_genius
 
-### PUMP (Pump.fun) — LONG SPOT (CONVICTION ADD — 2026-09-05)
-- **Entry date**: Prior (existing position; conviction add announced Sep 05)
-- **Entry message**: "i expect a red week in markets but will keep adding to my spot position. might get absolute fire sale prices, currently already below ICO which is insane"
-- **Entry type**: Spot conviction scaling (ongoing commitment to add on weakness)
-- **Action commitment**: Future scaling/adding ("will keep adding")
-- **Technical thesis**: 30d+365d rVWAP+ATH aVWAP cluster at 0.00393–0.003933; first pullback wick at 0.003862; H4 bull div forming; current price 0.00430 (7d rVWAP)
+### PUMP (Pump.fun) — LONG SPOT/PERP (MULTI-ENTRY ESCALATION — Sep 05-06)
+- **Entry history**:
+  - **Sep 05 20:47Z** (Conviction add): Spot position add on pullback to first-pullback support. "i expect a red week in markets but will keep adding to my spot position. might get absolute fire sale prices, currently already below ICO which is insane"
+  - **Sep 06 00:33Z** (New market entry): PUMP long at ATH aVWAP confluence (0.003855 zone). "im long pump because of the chart, fading my macro view for next week on this one / i think rotation coming and its a good spot here at ATH aVWAP i want to try it"
+- **Entry type**: Spot conviction scaling + new perp/spot market entry at technical level
+- **Action commitment**: Multi-tranche: Sep 05 future scaling plan ("will keep adding") + Sep 06 immediate market execution ("i want to try it")
+- **Technical thesis**: 30d+365d rVWAP+ATH aVWAP cluster at 0.00393–0.003933; first pullback wick at 0.003862; H4 bull div forming; ATH aVWAP confluence support at 0.003855; current Sep 06 price 0.004235 (7d rVWAP); Sep 06 entry executing within confluence zone
 - **Fundamental thesis**: Alon (CEO Pump.fun) cooking big announcement; likely leaves Solana/creates own chain; still market leader + huge warchest + revenues despite recent weakness; "when did you ever see a jewish company voluntarily give up a monopoly without a fight"
-- **Risk posture**: Expects red week in markets; willing to scale into weakness; target prices = fire sale (below ICO ~$0.0023 implied lower target)
-- **Status**: ACTIVE — conviction add commitment (scaling plan, not one-time entry)
-- **Trade alert format**: Step 5d (conviction add — asking if Kyle wants to add too)
-- **Alerted**: YES (2026-09-05T20:48:06Z, x-trader-monitor real-time, conviction-add alert sent via ./notify)
-- **Last update**: 2026-09-05T20:48:06Z (message_id=2096339611354083712, x-trader-monitor real-time, conviction-add announcement)
+- **Risk posture**: Expects red week in markets but maintains bullish PUMP tactical conviction; willing to scale into weakness; target prices = fire sale (below ICO ~$0.0023 implied lower target); macro bearish backdrop (BTC trapped longs, PONS rejection flag, CPI catalyst 9/11) but "fading macro view for next week on this one"
+- **Status**: ACTIVE — double-entry escalation: Sep 05 conviction-add commitment + Sep 06 new market entry = HIGH conviction on PUMP despite macro caution
+- **Trade alert format**: Sep 05 Step 5d (conviction add); Sep 06 Step 5a (new entry, awaiting Kyle approval)
+- **Alerted**: YES (2026-09-05T20:48:06Z Sep 05 conviction-add alert; 2026-09-06T00:33:33Z Sep 06 new-entry trade signal sent via ./notify, awaiting approve/skip)
+- **Last update**: 2026-09-06T00:33:33Z (message_id=2096396351131041874, x-trader-monitor real-time, trade-new-entry, technical confluence execution)
 
 ## ryzzyqq
 
