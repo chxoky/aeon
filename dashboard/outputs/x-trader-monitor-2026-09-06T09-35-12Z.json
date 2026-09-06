@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_line",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "alert_classify"
+      ]
+    },
+    "event_line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @JETSKIHH on X",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "maybe. whats your plan if this gets frontran"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "External thread with @JETSKIHH unavailable. What trade/asset does 'this' refer to? What's the market scenario being discussed?",
+        "type": "warning"
+      }
+    }
+  }
+}
