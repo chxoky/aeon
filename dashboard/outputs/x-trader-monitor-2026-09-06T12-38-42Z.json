@@ -1,0 +1,86 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_dca",
+        "stack_content"
+      ]
+    },
+    "heading_dca": {
+      "type": "Heading",
+      "props": {
+        "text": "📐 DCA Plan — @KillaXBT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_strategy",
+        "separator_1",
+        "text_quote",
+        "separator_2",
+        "link_post",
+        "text_cta"
+      ]
+    },
+    "text_strategy": {
+      "type": "Text",
+      "props": {
+        "text": "BTC: Adjusting continuation swing long with planned entries at 73.8K and 69K zone on retest. Currently swing long from 62.6K with spot holdings at notional average of 65.8K.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"I will be moving my entry to 73.8K, with another add around 69K if given. I'm already swing long from 62.6K and holding spot with a notional average of 65.8K. But if the market gives this retest, I'll be looking to increase my $BTC exposure and build further into the position.\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/KillaXBT/status/2096577977471398364",
+        "source": "X"
+      },
+      "children": []
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own DCA on this, or skip?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
