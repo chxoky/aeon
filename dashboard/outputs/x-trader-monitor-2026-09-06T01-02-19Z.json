@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "context",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "All current \"top blasts\" will be seen as bottom buys in the coming days and weeks."
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Broader bullish sentiment on market cycle opportunity. Philosophical commentary on Solana/Robinhood. Dr. Axius persona.",
+        "variant": "caption"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2096402198888415369"
+      }
+    }
+  }
+}
