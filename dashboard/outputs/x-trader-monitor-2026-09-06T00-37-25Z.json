@@ -1,0 +1,80 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Market Complacency Peak Masks Major Bearish Flags"
+      },
+      "children": [
+        "tweet",
+        "tweet-link",
+        "separator-1",
+        "chart-section",
+        "separator-2",
+        "context-alert"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Market Complacency Peak Masks Major Bearish Flags:\n\n• BTC: Rejected major breakout → trapped longs above 365d rVWAP (Saylor bought local top)\n• PONS: Hit $0.96 major milestone → breakout rejection on other popular coins (AI) → natural profit-taking will hurt RH ecosystem by association\n• Macro: CPI 9/11 expected derisk after hot jobs; clarity vote + FOMC following week\n• Conviction: Rate hike scare into mid-September will mark the last major bottom before complete bear destruction"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2096395616515436984"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "chart-details"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Annotation",
+        "level": "h4"
+      }
+    },
+    "chart-details": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 8h — trapped breakout longs, structure breakdown, support confluence 30d rVWAP/2024 VAH, capitulation zone 2026 aVWAP",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Trading Context",
+        "message": "This cuts against the group's more bullish near-term lean (62k TP target) — bull_genius flagging September macro risk despite current complacency.",
+        "type": "info"
+      }
+    }
+  }
+}

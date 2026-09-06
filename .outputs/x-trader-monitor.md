@@ -21,3 +21,17 @@ Perfect! I've completed the skill execution for the x-trader-monitor real-time e
 - ✅ No Kyle notification (informational-only, no trade signal or calibration required)
 
 The post aligns with bull_genius's Sep 05 hedge-setup conviction and provides technical chart confirmation of the bearish BTC structure commentary.
+🐦 *[X] @bull_genius*
+
+**Market Complacency Peak Masks Major Bearish Flags:**
+
+• **BTC**: Rejected major breakout → trapped longs above 365d rVWAP (Saylor bought local top)
+• **PONS**: Hit $0.96 major milestone → breakout rejection on other popular coins (AI) → natural profit-taking will hurt RH ecosystem by association
+• **Macro**: CPI 9/11 expected derisk after hot jobs; clarity vote + FOMC following week
+• **Conviction**: Rate hike scare into mid-September will mark the last major bottom before complete bear destruction
+
+[Chart annotated: BTC 8h — trapped breakout longs, structure breakdown, support confluence 30d rVWAP/2024 VAH, capitulation zone 2026 aVWAP]
+
+https://x.com/bull_genius/status/2096395616515436984
+
+↳ *This cuts against the group's more bullish near-term lean (62k TP target) — bull_genius flagging September macro risk despite current complacency.*
