@@ -1,0 +1,24 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Macro bearish: BTC breakout longs trapped above 365d RVWAP; PONS $0.96 rejection flag; CPI 9/11 derisk expected; rate hike scare into mid-Sept marks final bottom; personal hedging posture. https://x.com/bull_genius/status/2096394136731500576"
+      },
+      "children": []
+    }
+  }
+}
