@@ -1,0 +1,172 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "event",
+        "sep1",
+        "message_section",
+        "sep2",
+        "classification_section",
+        "sep3",
+        "context_section",
+        "sep4",
+        "question_section"
+      ]
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Mortid_X regarding market opportunity",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "msg_label",
+        "tweet"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@bull_genius",
+        "handle": "bull_genius",
+        "text": "@Mortid_X stonk for example pulled good numbers. pump i think is good to buy. ansem"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_alert",
+        "ambiguities_stack"
+      ]
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Several ambiguities identified",
+        "type": "warning"
+      }
+    },
+    "ambiguities_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "amb1",
+        "amb2",
+        "amb3",
+        "amb4"
+      ]
+    },
+    "amb1": {
+      "type": "Text",
+      "props": {
+        "text": "1. \"stonk\" — which asset? (PUMP token? another stock?)",
+        "variant": "body"
+      }
+    },
+    "amb2": {
+      "type": "Text",
+      "props": {
+        "text": "2. \"ansem\" — undefined reference/typo",
+        "variant": "body"
+      }
+    },
+    "amb3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Reply format — external @Mortid_X context not visible",
+        "variant": "body"
+      }
+    },
+    "amb4": {
+      "type": "Text",
+      "props": {
+        "text": "4. Execution intent — \"i think is good to buy\" ≠ personal trade action",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ctx_label",
+        "ctx_text"
+      ]
+    },
+    "ctx_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "ctx_text": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius entered PUMP long ~8 hours ago (Sep 06 00:33Z). Currently active in PUMP space. Message likely refers to PUMP but clarification needed.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_section": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Trade idea suggestion, conviction update, or something else?",
+        "variant": "lead"
+      }
+    }
+  }
+}
