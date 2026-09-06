@@ -1,0 +1,219 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — DC: K"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author_info",
+        "sep1",
+        "signal_section",
+        "sep2",
+        "dca_section",
+        "sep3",
+        "thesis_section",
+        "sep4",
+        "hold_section",
+        "sep5",
+        "action_alert"
+      ]
+    },
+    "author_info": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT (Discord primary, 17:48 UTC)",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signal_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "asset_heading",
+        "entry_details"
+      ]
+    },
+    "asset_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ASTER",
+        "level": "h3"
+      }
+    },
+    "entry_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "entry_stat",
+        "leverage_badge",
+        "direction_badge"
+      ]
+    },
+    "entry_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "$0.7593"
+      }
+    },
+    "leverage_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Very low leverage",
+        "variant": "secondary"
+      }
+    },
+    "direction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Long",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "dca_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dca_heading",
+        "dca_item1",
+        "dca_item2"
+      ]
+    },
+    "dca_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DCA Levels",
+        "level": "h4"
+      }
+    },
+    "dca_item1": {
+      "type": "Text",
+      "props": {
+        "text": "$0.71"
+      }
+    },
+    "dca_item2": {
+      "type": "Text",
+      "props": {
+        "text": "$0.65 (if given)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_framework",
+        "thesis_quote"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "thesis_framework": {
+      "type": "Text",
+      "props": {
+        "text": "Feb 2026 range compression breakout — sell-side liquidity depletion framework."
+      }
+    },
+    "thesis_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Every test chips away at the sell side liquidity sitting above.\"",
+        "variant": "lead"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "hold_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "hold_label",
+        "hold_badge"
+      ]
+    },
+    "hold_label": {
+      "type": "Text",
+      "props": {
+        "text": "Hold:",
+        "variant": "muted"
+      }
+    },
+    "hold_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Long-term",
+        "variant": "default"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Mirror",
+        "message": "Entry already fast-path alerted. Approve or skip?",
+        "type": "info"
+      }
+    }
+  }
+}
