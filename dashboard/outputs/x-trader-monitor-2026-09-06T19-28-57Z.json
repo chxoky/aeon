@@ -1,0 +1,130 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "Classification calibration request"
+      },
+      "children": [
+        "calibration_meta",
+        "sep1",
+        "problem_section",
+        "sep2",
+        "context_section",
+        "sep3",
+        "action_section"
+      ]
+    },
+    "calibration_meta": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "problem_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "problem_heading",
+        "tweet_card",
+        "url_link"
+      ]
+    },
+    "problem_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify minimal reply",
+        "level": "h3"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@fejau_inc yep"
+      }
+    },
+    "url_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2096681325604561350"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context needed",
+        "level": "h3"
+      }
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "1. What is @fejau_inc's prior message that this affirms?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Is this affirming a price level, market thesis, or personal banter?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Financial signal or noise?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Reply with context",
+        "message": "Reply with context so we don't ask again.",
+        "type": "info"
+      }
+    }
+  }
+}
