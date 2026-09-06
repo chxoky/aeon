@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_1",
+        "separator_1",
+        "stack_event",
+        "separator_2",
+        "alert_unable",
+        "text_context",
+        "separator_3",
+        "link_view"
+      ]
+    },
+    "heading_1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event_label",
+        "tweet_card"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0x_Leo_ and @notthreadguy",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Dancing with the devil https://t.co/hoNuAF5zh1"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply-format mention to two traders, cryptic phrase, media image failed to fetch (0-byte). No execution language detected. External thread unavailable.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2096494901806456861"
+      },
+      "children": []
+    }
+  }
+}
