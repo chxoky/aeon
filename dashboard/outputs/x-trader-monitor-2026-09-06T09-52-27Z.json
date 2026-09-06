@@ -1,0 +1,73 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @bull_genius"
+      },
+      "children": [
+        "event-badge",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "analysis-stack"
+      ]
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @johnjjj1997",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "its rejected at 300m and is heavy as pons hit local top with nance futs listing. im excited to accumulate lower my targets from last posts still stand"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-to-classify-alert",
+        "clarification-text"
+      ]
+    },
+    "unable-to-classify-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Unclear what asset is being discussed (no ticker named explicitly), what 'pons' refers to in context (PONS token or comparison?), and what 'nance futs listing' means. External context missing.",
+        "type": "warning"
+      }
+    },
+    "clarification-text": {
+      "type": "Text",
+      "props": {
+        "text": "Can you clarify whether this is a trade entry signal, market commentary on specific ticker, or technical observation?",
+        "variant": "lead"
+      }
+    }
+  }
+}
