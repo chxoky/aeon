@@ -634,3 +634,14 @@
   - Sep 06 00:33Z — trade-new-entry: PUMP spot/perp long at ATH aVWAP technical confluence. Text: "im long pump because of the chart, fading my macro view for next week on this one / i think rotation coming and its a good spot here at ATH aVWAP i want to try it". Step 5a market-order entry ("i want to try it" = execution intention). Step 7 charts: (1) PUMP 1D spot shows current 0.004235 price with 7D/30D/365D/90D rVWAP confluence levels labeled (ATH aVWAP ~0.003855 support zone, 30D 0.003961, green uptrend structure visible, volume profile on left, RSI neutral-bullish); (2) BTC 8h perpetual macro context (breakout longs trapped above 365d rVWAP annotation, ATH aVWAP labeled "looks obviously bad below" validating support confluence concept, multi-level VWAP zones marked, RSI spike on trapped longs). Technical setup: PUMP testing ATH aVWAP support with 7D/30D/365D confluence; macro backdrop bearish but trader fading conviction for this specific entry. Alerted Kyle (Step 5a trade signal). [$PUMP/$NEW-ENTRY/$ATH-AVWAP] [2096396351131041874]
   - Sep 06 00:24Z — informational: Macro bearish: BTC breakout longs trapped above 365d RVWAP; PONS $0.96 rejection flag hurting RH coins; CPI 9/11 derisk expected; rate hike scare into mid-Sep marks final bottom. Sentiment: caution/hedging. [$BTC/$PONS/$AI/$MACRO] [2096394136731500576]
   - Sep 05 20:47Z — conviction-add: PUMP spot position add on pullback to first-pullback support cluster. "i expect a red week in markets but will keep adding to my spot position". Chart shows H4 testing 0.00386 support (first pullback level), multiple VWAP confluence zones (7d/30d/365d/ATH), POC levels marked, tiny H4 bull div forming. Market context: deepest correction within larger uptrend from Jul lows; PUMP/PONS ratio at ATL suggests competitive pressure from alternative Solana apps (Phantom/aVWAP ecosystem); prediction: Alon will fork Solana chain. [$PUMP/$CONVICTION-ADD] [2096339393258647603]
+
+## trading_axe
+
+- Platforms: X (Twitter)
+- Current open positions: None documented
+- Recent thesis: Not yet established
+- Conviction notes: First tracked Sep 06
+- Calibration: None
+- Last seen: 2026-09-06T01:25:10Z
+- **Events (rolling):**
+  - Sep 06 01:25Z — skip: Cryptic personal banter. Text: "@BrightAvian ??҃ real.\n\n~ Dr. Axius. 💤"; garbled characters, no financial content, personal mention, no ticker/price/market structure. Non-financial banter. [2096409339175022671]
