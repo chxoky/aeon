@@ -1,0 +1,51 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "warning",
+        "view_link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Chart looking like a vertical cup and handle my guy\nhttps://t.co/mrD5Qtta71"
+      }
+    },
+    "warning": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart image inaccessible",
+        "message": "CDN fetch failed. Asset unknown — \"cup and handle\" is typically a bullish continuation pattern, but cannot verify without the chart.",
+        "type": "warning"
+      }
+    },
+    "view_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2096470595676352973",
+        "source": "X"
+      }
+    }
+  }
+}
