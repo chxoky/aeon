@@ -34,3 +34,10 @@ Adding to traders.md under HeartCanHodl:
 ```
 
 **Summary**: Ambiguous event from HeartCanHodl — appears to share a profitable USELESSUSDT short (+38.22%) but text instruction to @crime_xbt is cryptic. Awaiting Kyle's calibration response to determine if this should be treated as informational position-sharing or a trade-recommendation signal.
+🔍 *Calibration — @HeartCanHodl*
+
+Context: Cryptic X post with mention
+
+@mk4_lul 😂😂
+
+Unable to classify — what's your read? Financial signal or banter?

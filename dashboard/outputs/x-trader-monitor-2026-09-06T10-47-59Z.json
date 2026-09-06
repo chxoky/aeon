@@ -1,0 +1,51 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "context-text",
+        "separator1",
+        "tweet-card",
+        "separator2",
+        "question-text"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Cryptic X post with mention"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Unknown",
+        "text": "@mk4_lul 😂😂"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Financial signal or banter?",
+        "variant": "lead"
+      }
+    }
+  }
+}
