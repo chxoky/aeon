@@ -1,0 +1,435 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-09-06",
+        "description": "Broad risk-on alt rotation — ~78/100 top coins green; BTC flat at +0.2% while alts lead; ARB dominates on sustained 7d breakout, ZEC extends multi-week run, median top-50 move ~+2.5%."
+      },
+      "children": [
+        "sep1",
+        "winners_section",
+        "sep2",
+        "losers_section",
+        "sep3",
+        "trending_section",
+        "sep4",
+        "notable_section"
+      ]
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "winners_table"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "ARB (Arbitrum)",
+            "$0.1945",
+            "+47.2%",
+            "+132%",
+            "+4.0%",
+            "$960M / #64",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$1,164",
+            "+16.4%",
+            "+38.5%",
+            "−1.6%",
+            "$1.03B / #9",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "JUP (Jupiter)",
+            "$0.2434",
+            "+11.7%",
+            "+10.6%",
+            "−0.9%",
+            "$100M / #84",
+            ""
+          ],
+          [
+            "UNI (Uniswap)",
+            "$6.89",
+            "+10.9%",
+            "+40.2%",
+            "−2.2%",
+            "$1.09B / #24",
+            ""
+          ],
+          [
+            "PONS (Pons)",
+            "$0.9083",
+            "+10.2%",
+            "+185%",
+            "+5.0%",
+            "$213M / #93",
+            "TRENDING+UP"
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.1759",
+            "+7.5%",
+            "+8.6%",
+            "+0.3%",
+            "$814M / #50",
+            ""
+          ],
+          [
+            "GT (Gate)",
+            "$9.21",
+            "+6.8%",
+            "+13.1%",
+            "−0.4%",
+            "$4.2M / #72",
+            ""
+          ],
+          [
+            "DOGE (Dogecoin)",
+            "$0.09061",
+            "+5.9%",
+            "+6.8%",
+            "−0.2%",
+            "$1.32B / #11",
+            "MAJOR"
+          ],
+          [
+            "ETHFI (Ether.fi)",
+            "$0.5844",
+            "+5.2%",
+            "+4.9%",
+            "+0.1%",
+            "$49M / #99",
+            ""
+          ],
+          [
+            "POL (ex-MATIC)",
+            "$0.09943",
+            "+4.9%",
+            "−4.2%",
+            "+0.9%",
+            "$75M / #70",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "losers_table"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PUMP (Pump.fun)",
+            "$0.003990",
+            "−4.5%",
+            "−18.8%",
+            "+0.4%",
+            "$236M / #54",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$17.02",
+            "−4.4%",
+            "+2.7%",
+            "−0.1%",
+            "$10.5M / #83",
+            ""
+          ],
+          [
+            "STABLE",
+            "$0.02823",
+            "−3.4%",
+            "+4.5%",
+            "−0.2%",
+            "$7.7M / #88",
+            ""
+          ],
+          [
+            "TRUMP",
+            "$2.34",
+            "−1.8%",
+            "−9.7%",
+            "−0.9%",
+            "$212M / #95",
+            ""
+          ],
+          [
+            "BDX (Beldex)",
+            "$0.07887",
+            "−1.3%",
+            "−1.2%",
+            "+0.4%",
+            "$10.7M / #94",
+            ""
+          ],
+          [
+            "FLR (Flare)",
+            "$0.006615",
+            "−1.2%",
+            "+4.3%",
+            "+0.1%",
+            "$3.1M / #98",
+            ""
+          ],
+          [
+            "GRAM (Toncoin prev.)",
+            "$1.41",
+            "−1.1%",
+            "+4.0%",
+            "+0.1%",
+            "$31.7M / #27",
+            ""
+          ],
+          [
+            "NEXO",
+            "$0.8325",
+            "−0.8%",
+            "−2.3%",
+            "+0.2%",
+            "$2.6M / #82",
+            ""
+          ],
+          [
+            "TAO (Bittensor)",
+            "$234.4",
+            "−0.7%",
+            "−0.8%",
+            "0.0%",
+            "$140M / #42",
+            ""
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.03020",
+            "−0.5%",
+            "+8.7%",
+            "+0.1%",
+            "$9.1M / #81",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "trending_table"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "24h%",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "FIRO (Firo)",
+            "#899",
+            "$0.9507",
+            "+27.3%",
+            "PUMP-RISK"
+          ],
+          [
+            "ARB (Arbitrum)",
+            "#64",
+            "$0.1945",
+            "+46.8%",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "PONS (Pons)",
+            "#93",
+            "$0.9153",
+            "+8.0%",
+            "TRENDING+UP"
+          ],
+          [
+            "ZEC (Zcash)",
+            "#9",
+            "$1,164",
+            "+16.4%",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "SHRUB (Lil' Shrub)",
+            "#651",
+            "$0.02828",
+            "−63.2%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "STONK",
+            "#267",
+            "$0.1196",
+            "+256%",
+            "PUMP-RISK"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#103",
+            "$0.008716",
+            "+1.5%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_arb",
+        "notable_zec",
+        "notable_pons",
+        "notable_stonk",
+        "notable_firo",
+        "notable_shrub"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_arb": {
+      "type": "Alert",
+      "props": {
+        "title": "ARB: Strongest Signal",
+        "message": "Trending + up 47% on 7d +132% sustained breakout — strongest signal of the day; volume $960M confirms real",
+        "type": "success"
+      }
+    },
+    "notable_zec": {
+      "type": "Alert",
+      "props": {
+        "title": "ZEC: Ongoing Breakout",
+        "message": "Trending + up 16%, 7d +39% — [BREAKOUT] ongoing; now $1,164 (materially higher than Aug 22 $808 / Aug 26 $850 entries)",
+        "type": "success"
+      }
+    },
+    "notable_pons": {
+      "type": "Alert",
+      "props": {
+        "title": "PONS: Sustained Bull Run",
+        "message": "Trending, +10% 24h on 7d +185% — bull_genius conviction ticker (Sep 4–5); sustained run, not a flash",
+        "type": "success"
+      }
+    },
+    "notable_stonk": {
+      "type": "Alert",
+      "props": {
+        "title": "STONK: Extreme Risk",
+        "message": "STONK (#267, +256% 24h): extreme [PUMP-RISK] — near-certain manipulation, avoid",
+        "type": "error"
+      }
+    },
+    "notable_firo": {
+      "type": "Alert",
+      "props": {
+        "title": "FIRO: Ultra-Low-Cap Spike",
+        "message": "FIRO (#899, +27% 24h): [PUMP-RISK] — ultra-low-cap trending spike, discard as noise",
+        "type": "warning"
+      }
+    },
+    "notable_shrub": {
+      "type": "Alert",
+      "props": {
+        "title": "SHRUB: Crash Unwinding",
+        "message": "SHRUB (#651, −63% 24h): [TRENDING+DOWN] crash — prior pump now unwinding hard",
+        "type": "error"
+      }
+    }
+  }
+}
