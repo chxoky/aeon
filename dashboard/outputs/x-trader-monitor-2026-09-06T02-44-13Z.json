@@ -1,0 +1,178 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "@Wild_Randomness - Semiconductor sector analysis"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "charts-section",
+        "sep2",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Semiconductor sector thesis: SMTC → SNDK → NVDA hierarchy. NVDA should be a core holding 2-month horizon; outperforming Mag7 despite bearish sentiment."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "charts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "charts-heading",
+        "charts-items"
+      ]
+    },
+    "charts-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Charts (Step 7)",
+        "level": "h3"
+      }
+    },
+    "charts-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart-item-1",
+        "chart-item-2",
+        "chart-item-3"
+      ]
+    },
+    "chart-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "chart1-info",
+        "chart1-badge"
+      ]
+    },
+    "chart1-info": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA/SMH 1W (0.4063)",
+        "variant": "body"
+      }
+    },
+    "chart1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "UNDERPERFORMING semis weekly ⚠️",
+        "variant": "destructive"
+      }
+    },
+    "chart-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "chart2-info",
+        "chart2-badge"
+      ]
+    },
+    "chart2-info": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA/MAGS 1M (3.26)",
+        "variant": "body"
+      }
+    },
+    "chart2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "OUTPERFORMING Mag7 monthly ✓",
+        "variant": "default"
+      }
+    },
+    "chart-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "chart3-info",
+        "chart3-badge"
+      ]
+    },
+    "chart3-info": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA/QQQ 1M (0.3164)",
+        "variant": "body"
+      }
+    },
+    "chart3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "STRONG vs tech index ✓",
+        "variant": "default"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "analysis-text",
+        "tweet-link"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed signals on semis leadership claim, but monthly confirms NVDA strength vs indices. Aligns with documented dispersion-trade framework (sector outperformers).",
+        "variant": "body"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2096427531700199754"
+      }
+    }
+  }
+}
