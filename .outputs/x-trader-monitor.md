@@ -1,9 +1,13 @@
-📐 *DCA Plan — @KillaXBT*
+🐦 *[X] @KillaXBT*
 
-BTC: Adjusting continuation swing long with planned entries at 73.8K and 69K zone on retest
+After every major impulse/correction, $BTC tends to chop.
 
-"I will be moving my entry to 73.8K, with another add around 69K if given. I'm already swing long from 62.6K and holding spot with a notional average of 65.8K. But if the market gives this retest, I'll be looking to increase my $BTC exposure and build further into the position."
+It's a simple dynamic when you detach emotion & trade the structure.
 
-[View post](https://x.com/KillaXBT/status/2096577977471398364)
+We've already had a strong impulse higher, so naturally I expect some range/chop to follow.
 
-Want to set up your own DCA on this, or skip?
+With the trend now bullish, I'll favor longs on retests. That doesn't mean you can't short the range highs, just understand you're trading counter-trend, so size accordingly.
+
+[View tweet](https://x.com/KillaXBT/status/2096602682597289992)
+
+↳ Structure validation post — reinforces HTF bullish conviction + tactical range consolidation framework.

@@ -1,0 +1,46 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "After every major impulse/correction, $BTC tends to chop.\n\nIt's a simple dynamic when you detach emotion & trade the structure.\n\nWe've already had a strong impulse higher, so naturally I expect some range/chop to follow.\n\nWith the trend now bullish, I'll favor longs on retests. That doesn't mean you can't short the range highs, just understand you're trading counter-trend, so size accordingly."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2096602682597289992"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Structure validation post — reinforces HTF bullish conviction + tactical range consolidation framework.",
+        "variant": "muted"
+      }
+    }
+  }
+}
