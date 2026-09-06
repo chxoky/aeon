@@ -1,0 +1,133 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "event_info",
+        "sep2",
+        "tweet_card",
+        "sep3",
+        "alert_classification",
+        "sep4",
+        "context_section",
+        "sep5",
+        "view_link"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: LIT 15m Binance chart showing consolidation ~4.6873",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@SuperSteveFarms Get a move on"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "context_q1",
+        "context_q2",
+        "context_q3"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "context_q1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Who is @SuperSteveFarms?",
+        "variant": "body"
+      }
+    },
+    "context_q2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Is this a buy signal on LIT or just technical observation?",
+        "variant": "body"
+      }
+    },
+    "context_q3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Prior discussion context?",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2096446742363304333"
+      }
+    }
+  }
+}
