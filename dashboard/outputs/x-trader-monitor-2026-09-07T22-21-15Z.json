@@ -1,0 +1,23 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "ARTIFICIAL-INU consolidation update with market profile analysis.\n\nCurrently back above sept POC (~$0.227) & 7d RVWAP, defending sept VAL ($0.18M). Looking strong vs market; one of 2-3 conviction coins alongside $PUMP where willing to \"submit against market bias.\"\n\nTechnical levels:\n• ATH: $0.340\n• sept VAH: $0.300\n• sept POC: $0.244\n• 7d RVWAP: $0.227\n• sept VAL: $0.180\n• Current: ~$0.228\n\nBullish continuation if holds above POC. \"Rejection means plan from below is back on\" — conditional entries on weakness to VAL.\n\nhttps://x.com/bull_genius/status/2097086231720919091"
+      }
+    }
+  }
+}
