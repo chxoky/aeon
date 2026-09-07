@@ -252,6 +252,7 @@
   - Sep 07 04:21Z — informational: ARGONAUT NFT long conviction; holding all (not sold single one); bought more yesterday 0.38; $50K floor target [$ARGONAUT] [2096816126080500077]
   - Sep 07 06:50Z — ambiguous: @kitsunedevs @pixelmfer "puts floor higher; 4269 best radioactive; priced alien" [$ARGONAUT-OPTIONS] [2096853694251729244]
   - Sep 07 07:30Z — ambiguous: @jw46629721 reply "i wish"; no context; HR-2 calibration sent [$UNKNOWN] [2096863722375434665]
+  - Sep 07 16:59Z — informational: ARTIFICIAL-INU consolidation update; buyers defended sept VAL, price back above $200M; chart in correction below POC/7d rVWAP; targets 140M/120M on weakness, ATH on VAH break; patience test conviction [$ARTIFICIAL-INU] [2097006775526392318]
 
 ## t_in_crypto
 
