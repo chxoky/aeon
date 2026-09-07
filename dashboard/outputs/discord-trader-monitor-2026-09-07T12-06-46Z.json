@@ -1,0 +1,47 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-badge",
+        "message-text",
+        "image-link"
+      ]
+    },
+    "header-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Comments",
+        "variant": "secondary"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "One minute chart lol"
+      }
+    },
+    "image-link": {
+      "type": "Link",
+      "props": {
+        "label": "Screenshot",
+        "href": "https://cdn.discordapp.com/attachments/1393137051108507728/1546491332409688234/Screenshot_2026-09-07-17-34-05-12_ac4103d19cbc712d2cf5158f8829dfd5.jpg"
+      }
+    }
+  }
+}

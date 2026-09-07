@@ -37,3 +37,8 @@ Unable to classify — what's your read on this? No ticker identified, unclear a
 This closes the XMR short position that was added just 30 hours prior (Sep 06 05:46Z, 2% portfolio, 1x leverage). HeartCanHodl maintains net-short regime but is actively managing individual positions within the basket (BTC/ZEC/HYPE/SOL/ETH/PUMP/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL).
 
 Skill execution complete. Message tracked in memory with dedup check queued.
+💬 *[DC: HCH — Comments]*
+
+One minute chart lol
+
+https://cdn.discordapp.com/attachments/1393137051108507728/1546491332409688234/Screenshot_2026-09-07-17-34-05-12_ac4103d19cbc712d2cf5158f8829dfd5.jpg
