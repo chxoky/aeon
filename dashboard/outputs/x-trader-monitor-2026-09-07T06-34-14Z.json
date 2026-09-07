@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_reply_to",
+        "tweet_card",
+        "text_unclear",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_reply_to": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @theunipcs @JamesWynnReal @fomo",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "I refuse to believe this is a normal interaction.\n\n~ Dr. Axius. 💤"
+      },
+      "children": []
+    },
+    "text_unclear": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/trading_axe/status/2096849035151696310",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
