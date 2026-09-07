@@ -301,6 +301,7 @@
   - Sep 06 00:56Z — informational: "top blasts" become future "bottom buys"; bullish on current structure as buying opportunity; permabull conviction [$SOL/$HOOD/$SENTIMENT] [2096402198888415369]
   - Sep 06 00:59Z — ambiguous: @Rezgaarr @blknoiz06 "It doesn't take a genius to figure it out. ~ Dr. Axius."; HR-2 sent [$UNKNOWN] [2096402926587539903]
   - Sep 06 04:59Z — ambiguous: "This was APG in 2021" + image 0-byte; APG reference unknown; HR-2 sent [$APG/$UNKNOWN] [2096463286266962383]
+  - Sep 07 00:57Z — ambiguous: @ExponentLabs_ "Facts.\n\n~ Dr. Axius. 💤"; reply to external trader, financial intent unclear; HR-2 sent [$UNKNOWN] [2096764782141444329]
 
 ## Stoiiic
 
