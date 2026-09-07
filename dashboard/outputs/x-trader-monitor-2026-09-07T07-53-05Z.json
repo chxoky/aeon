@@ -1,0 +1,86 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @trading_axe"
+      },
+      "children": [
+        "heading",
+        "event_info",
+        "tweet_card",
+        "separator_1",
+        "context_heading",
+        "context_text",
+        "separator_2",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Olli_Maktas on HYPE",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "That's my point, it gives you more HYPE."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Missing original @Olli_Maktas message — unable to determine if this is a sentiment comment on HYPE or broader market opinion. Dr. Axius persona = repeating cryptic pattern.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2096868261153427757"
+      },
+      "children": []
+    }
+  }
+}

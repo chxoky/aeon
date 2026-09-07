@@ -1,6 +1,7 @@
-🐦 *[X] @Stoiiic*
+🔍 *Calibration — @trading_axe*
 
-BTC CVD (cumulative volume delta) just collapsed after spiking to 40M — sharp volume-weighted selling over past ~2h (now at 21.27M). Divergence signal: price structure holding but volume rolling over.
+Event: Reply to @Olli_Maktas on HYPE
+trading_axe: "That's my point, it gives you more HYPE."
 
 [View tweet](https://x.com/Stoiiic/status/2096866727426396539)
 🐦 *[X] @trading_axe*
@@ -33,3 +34,6 @@ Or maybe I'm just retarded, hard to know.
 
 ---
 *Classification: INFORMATIONAL — Market commentary on alt-cult beta-play dynamics. Overlap tickers HYPE/ZEC both on Kyle's watch list. Trading_axe bullish positioning aligns with broader permabull thesis. No personal trade execution detected.*
+Context: Missing original @Olli_Maktas message — unable to determine if this is a sentiment comment on HYPE or broader market opinion. Dr. Axius persona = repeating cryptic pattern.
+
+[View post](https://x.com/trading_axe/status/2096868261153427757)
