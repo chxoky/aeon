@@ -188,6 +188,7 @@
   - Sep 06 10:42Z — ambiguous: X post reply to @mk4_lul "😂😂"; HR-2 sent [$UNKNOWN] [2096549691723043228]
   - Sep 06 18:57Z — ambiguous: Chat single-word "Yes"; no reply context; HR-2 sent [$UNKNOWN] [1546232798371647581]
   - Sep 07 06:04Z — ambiguous: "Aster is a complicated play. A lot of manipulation" (Chat supporting); no personal position articulated; cryptic commentary on token structure; HR-2 calibration sent [$ASTER] [1546400785678737408]
+  - Sep 07 09:12Z — trade-conviction-add: "Adding 1% small test size zec short 1235" (Trades primary ★); ZEC short escalation; 1% portfolio tactical entry at 1235 level; fast-path alert sent by Cloudflare Worker; HR-1 "test size" = position-sizing term, NOT a test message [$ZEC-SHORT] [1546447957270724709]
 
 ## bull_genius
 
