@@ -1,0 +1,160 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - SPX Seasonal Analysis",
+        "description": "Market seasonality insights and trading thesis by @Wild_Randomness"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "keyMetrics",
+        "sep2",
+        "thesis",
+        "sep3",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "SPX seasonal composite chart showing September as historically weakest month in midterm years. Three images showing ES1 technical pullback zones marked across 2016-2026. Post references seasonality pattern with @lord_fed. Validates documented 'Septembear' conviction and aligns with bull_genius macro thesis (BTC shorts into Sep catalysts)."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "keyMetrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metricsHeading",
+        "metricsGrid"
+      ]
+    },
+    "metricsHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Metrics",
+        "level": "h3"
+      }
+    },
+    "metricsGrid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat1",
+        "stat2",
+        "stat3"
+      ]
+    },
+    "stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "September Avg Return (Midterm Years)",
+        "value": "-1.48%",
+        "trend": "down"
+      }
+    },
+    "stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Historical ES1 Decline Range (2016-2026)",
+        "value": "-3.76% to -13.89%",
+        "trend": "down"
+      }
+    },
+    "stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "6-Month Forward Return (Post-Trough)",
+        "value": "+9.43%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesisHeading",
+        "badges",
+        "thesisText"
+      ]
+    },
+    "thesisHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading Thesis",
+        "level": "h3"
+      }
+    },
+    "badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Septembear",
+        "variant": "default"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius macro",
+        "variant": "default"
+      }
+    },
+    "thesisText": {
+      "type": "Text",
+      "props": {
+        "text": "Validates documented conviction and aligns with bull_genius macro thesis involving BTC shorts into September catalysts.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2097043637528051945"
+      }
+    }
+  }
+}
