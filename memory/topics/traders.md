@@ -306,6 +306,7 @@
   - Sep 04 13:27Z — mirror-partial-tp: BTC half TP hit; TP2 ~81.5K (25%), TP3 ~82.8K (25%), SL set; "reminder how quickly euphoria can reverse" [$BTC] [1545425050331516928]
   - Sep 04 14:11Z — informational: supporting-channel "But luckily we all TP'd 75% of the position and no one got greedy, right?" — sentiment on disciplined profit-taking [$BTC] [1545436124544110664]
   - Sep 07 14:49Z — informational: Discord supporting channel (Chase — Crypto); technical analysis reply to member Q about coin; FVG/demand-box analysis; chart attached [$TECHNICAL] [1546532953029611530]
+  - Sep 07 15:05Z — informational: Discord supporting channel Q&A; FVG retest after strong moves; "good on left, bad on right" chart annotation; educational reply [$FVG/$TECHNICAL] [1546536969041875044]
 
 ## trading_axe
 
