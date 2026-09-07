@@ -1,0 +1,221 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "PUMP Technical Update - @bull_genius"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "technical_section",
+        "sep_2",
+        "position_section",
+        "sep_3",
+        "quote_section",
+        "sep_4",
+        "conviction_section",
+        "sep_5",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "PUMP technical update: bottom held, bounced off 7d rVWAP (0.004191), support base strong at 30d/365d confluence. Existing 10x long: +79.91% unrealized (entry 0.0039, mark 0.0043)."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tech_heading",
+        "tech_details"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "tech_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tech_status",
+        "stat_rvwap"
+      ]
+    },
+    "tech_status": {
+      "type": "Text",
+      "props": {
+        "text": "Bottom held, support base strong at 30d/365d confluence"
+      }
+    },
+    "stat_rvwap": {
+      "type": "Stat",
+      "props": {
+        "label": "7d rVWAP Bounce",
+        "value": "0.004191"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_heading",
+        "pos_badge",
+        "pos_pnl",
+        "pos_entry",
+        "pos_mark"
+      ]
+    },
+    "pos_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position",
+        "level": "h3"
+      }
+    },
+    "pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "10x Long",
+        "variant": "secondary"
+      }
+    },
+    "pos_pnl": {
+      "type": "Stat",
+      "props": {
+        "label": "Unrealized PnL",
+        "value": "+79.91%",
+        "trend": "up"
+      }
+    },
+    "pos_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "0.0039"
+      }
+    },
+    "pos_mark": {
+      "type": "Stat",
+      "props": {
+        "label": "Mark Price",
+        "value": "0.0043"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_heading",
+        "quote_text"
+      ]
+    },
+    "quote_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Quote",
+        "level": "h3"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"im a buyer on every dip... this is the coin im going to keep longing on every dip i think its looks really good\"",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conviction_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "conv_heading",
+        "conv_text"
+      ]
+    },
+    "conv_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Conviction",
+        "level": "h3"
+      }
+    },
+    "conv_text": {
+      "type": "Text",
+      "props": {
+        "text": "Expecting bad market week but PUMP to show relative strength vs broader alts/BTC"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2097020277024608276"
+      }
+    }
+  }
+}
