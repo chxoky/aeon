@@ -1,0 +1,142 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - @KillaXBT"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "holdings_section",
+        "sep2",
+        "thesis_section",
+        "sep3",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Early-cycle altcoin conviction reaffirmation\n\nI'm not a particularly big fan of altcoins, or, in other words, shitcoins. I despise 99.9% of them…\n\nBut when there's money to be made, there's money to be made. Historically, one of the best periods to gain exposure to alts is when $BTC establishes a bottom and slowly trends higher."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "holdings_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "holdings_title",
+        "holdings_stack",
+        "holdings_note"
+      ]
+    },
+    "holdings_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Holdings",
+        "level": "h3"
+      }
+    },
+    "holdings_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_sol",
+        "stat_hype",
+        "stat_aster"
+      ]
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$76",
+        "delta": "+50%",
+        "trend": "up"
+      }
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$51.55",
+        "delta": "+70%",
+        "trend": "up"
+      }
+    },
+    "stat_aster": {
+      "type": "Stat",
+      "props": {
+        "label": "ASTER",
+        "value": "$1.20–$1.40",
+        "delta": "Swing long"
+      }
+    },
+    "holdings_note": {
+      "type": "Text",
+      "props": {
+        "text": "Looking to load a few more coins.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis_title",
+        "thesis_text"
+      ]
+    },
+    "thesis_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Early positioning before expansion phase crushes alts. This cycle follows prior pattern: last cycle saw 30–50% alt rallies (16K→74K) before dominance push (74K→126K) destroyed them."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2097006078676312227"
+      }
+    }
+  }
+}
