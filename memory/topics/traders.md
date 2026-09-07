@@ -285,7 +285,7 @@
 - Recent thesis: Technical entry trader; breakaway gap thesis; HYPE/ETH/GOLD confluence setups. No shorts unless "super clean" setup. Order layering: 3-5 tranches at demand zones. Optimal BTC bid zone 74.5K–76.2K. Gold: 0.5–618 fib + MA retest + consolidation. Copy-trading difficulty escalating ("PvE phase peaked"). BTC: "reminder how quickly euphoria can reverse — why we take partial TPs."
 - Conviction notes: Known for ~20-min pre-BTC-breakout call Aug 20. Formations = "bait for newbies." "Levels are just areas I'm willing to buy." HTF sweeps not a factor. Conditional macro short Aug 20 superseded by current bullish stance.
 - Calibration: PENDING Sep 04 00:47Z (Discord "diaperterliquid" cryptic message), PENDING Aug 28 03:08Z (@CanixXS URL t.co link), PENDING Aug 27 20:34Z ("I don't use H12"), PENDING Aug 26 20:02Z (hmmmmm + chart), PENDING Aug 25 14:53Z ("but yes after real pullback, long dip")
-- Last seen: 2026-09-04T14:11:24Z
+- Last seen: 2026-09-07T14:49:49Z
 - **Events (rolling):**
   - Aug 26 16:30Z — informational: "borderline 0% chance full retracement if healthy breakout" [$BTC] [1542209632456675400]
   - Aug 27 17:05Z — informational: BTC 76.2K + HYPE 76.6 pullback dip-buy levels (JH retest thesis) [$BTC/$HYPE] [2093074271895494816]
@@ -304,6 +304,7 @@
   - Sep 04 00:47Z — informational: "HYPE is worst PA out of the majors rn"; supporting-channel PA concern on 2/3 HYPE long [$HYPE] [1545233921539702915]
   - Sep 04 13:27Z — mirror-partial-tp: BTC half TP hit; TP2 ~81.5K (25%), TP3 ~82.8K (25%), SL set; "reminder how quickly euphoria can reverse" [$BTC] [1545425050331516928]
   - Sep 04 14:11Z — informational: supporting-channel "But luckily we all TP'd 75% of the position and no one got greedy, right?" — sentiment on disciplined profit-taking [$BTC] [1545436124544110664]
+  - Sep 07 14:49Z — informational: Discord supporting channel (Chase — Crypto); technical analysis reply to member Q about coin; FVG/demand-box analysis; chart attached [$TECHNICAL] [1546532953029611530]
 
 ## trading_axe
 
