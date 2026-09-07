@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "badge_status",
+        "separator1",
+        "stack_details"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "success",
+        "variant": "default"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_signal",
+        "text_timestamp",
+        "text_logging"
+      ]
+    },
+    "text_signal": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius ARGONAUT conviction",
+        "variant": "body"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 07 20:43Z",
+        "variant": "caption"
+      }
+    },
+    "text_logging": {
+      "type": "Text",
+      "props": {
+        "text": "informational, logged silently",
+        "variant": "muted"
+      }
+    }
+  }
+}
