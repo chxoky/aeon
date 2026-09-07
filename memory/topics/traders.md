@@ -67,6 +67,16 @@
   - Sep 06 17:57Z — ambiguous: "@Evan_ss6 Would Moisturized Ken lie?"; no ticker/chart; HR-2 calibration sent [$UNKNOWN] [2096658961827078149]
   - Sep 06 19:45Z — informational: GOLD weekly fractal + consolidation 4,400–4,550 with long wick support; "Grind up into FOMC?"; pending GOLD long thesis reinforced [$GOLD/$GC/$FOMC] [2096686323373629512]
 
+## Stoiiic
+
+- Platforms: X (Twitter)
+- Current open positions: Unknown (privacy narrative trader, technical analyst)
+- Recent thesis: Privacy-narrative bull (NEAR protocol alpha thesis); technical structure analyst (365d VWAP, yearly std dev bands, consolidation breakouts). Concern: BTC stability contingency for alt continuation.
+- Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view).
+- Last seen: 2026-09-07T06:45:39Z
+- **Events (rolling):**
+  - Sep 07 06:45Z — informational: NEAR & PENDLE yearly breakouts; NEAR mispriced re: privacy narrative (ZEC attention); PENDLE at 365d vwap; contingent on BTC holding [$NEAR/$PENDLE] [2096852378578285017]
+
 ## swarmister
 
 - Platforms: X (Twitter)

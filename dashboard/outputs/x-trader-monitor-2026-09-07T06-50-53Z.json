@@ -1,0 +1,75 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "NEAR & PENDLE Market Analysis"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator",
+        "convergence_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "NEAR & PENDLE breaking out of developing yearly.\n\nNEAR seems mispriced considering the privacy narrative & ZEC getting all the ballistic attention.\n\nPENDLE trading right above 365d rolling vwap.\n\nBoth contingent on BTC not deciding to sh*t the bed + not accepting back below yearly std. dev. band for continuation."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2096852378578285017"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "convergence_title",
+        "convergence_text"
+      ]
+    },
+    "convergence_title": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Trader NEAR Convergence",
+        "level": "h3"
+      }
+    },
+    "convergence_text": {
+      "type": "Text",
+      "props": {
+        "text": "3-trader NEAR convergence emerging: swarmister technical exit (Jul 28) + Wild_Randomness privacy-narrative thesis (Sep 06) + Stoiiic breakout validation (Sep 07 — live chart shows yearly 2.2 resistance breakout attempt). Privacy-narrative positioning gaining cross-trader attention.",
+        "variant": "body"
+      }
+    }
+  }
+}

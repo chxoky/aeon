@@ -1,10 +1,13 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @Stoiiic*
 
-Reply to @theunipcs @JamesWynnReal @fomo
-trading_axe: "I refuse to believe this is a normal interaction.
+NEAR & PENDLE breaking out of developing yearly.
 
-~ Dr. Axius. 💤"
+NEAR seems mispriced considering the privacy narrative & ZEC getting all the ballistic attention.
 
-Unable to classify — what's your read?
+PENDLE trading right above 365d rolling vwap.
 
-[View post](https://x.com/trading_axe/status/2096849035151696310)
+Both contingent on BTC not deciding to sh*t the bed + not accepting back below yearly std. dev. band for continuation.
+
+[View tweet](https://x.com/Stoiiic/status/2096852378578285017)
+
+↳ _3-trader NEAR convergence emerging: swarmister technical exit (Jul 28) + Wild_Randomness privacy-narrative thesis (Sep 06) + Stoiiic breakout validation (Sep 07 — live chart shows yearly 2.2 resistance breakout attempt). Privacy-narrative positioning gaining cross-trader attention._
