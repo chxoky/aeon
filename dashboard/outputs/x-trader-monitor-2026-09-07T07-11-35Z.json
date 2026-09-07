@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Fractal pattern analysis — comparing two unnamed altcoins with similar 1h consolidation structures post-breakout.\n\n\"Eerily similar... generating holders free tokens of the two best performing coins of this cycle. Will delete, just wanted to be a lil fractal guy. ~ Dr. Axius\"\n\nTechnical pattern observation, not personal trade action."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2096857936144240679"
+      }
+    }
+  }
+}

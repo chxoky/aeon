@@ -1,9 +1,9 @@
-🐦 *[X] @Stoiiic*
+🐦 *[X] @trading_axe*
 
-if BTC does end up pulling back, making a list and these two are def. on there.
+Fractal pattern analysis — comparing two unnamed altcoins with similar 1h consolidation structures post-breakout.
 
-I'm particularly interested in NEAR because I believe it's mispriced and hasn't picked up momentum like it should.
+"Eerily similar... generating holders free tokens of the two best performing coins of this cycle. Will delete, just wanted to be a lil fractal guy. ~ Dr. Axius"
 
-[View tweet](https://x.com/Stoiiic/status/2096855843195027552)
+Technical pattern observation, not personal trade action.
 
-↳ _Converges with Wild_Randomness + swarmister on NEAR privacy-narrative thesis (3-trader emerging momentum)._
+[View post](https://x.com/trading_axe/status/2096857936144240679)
