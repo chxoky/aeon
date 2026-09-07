@@ -1,0 +1,73 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "event-text",
+        "separator",
+        "actions"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Success",
+        "variant": "default"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius tweet classified as non-financial (skip)",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action-1",
+        "action-2"
+      ]
+    },
+    "action-1": {
+      "type": "Text",
+      "props": {
+        "text": "No alert sent",
+        "variant": "body"
+      }
+    },
+    "action-2": {
+      "type": "Text",
+      "props": {
+        "text": "Event logged to memory",
+        "variant": "body"
+      }
+    }
+  }
+}
