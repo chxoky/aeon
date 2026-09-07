@@ -1,8 +1,5 @@
-🔍 *Calibration — @bull_genius*
+🐦 *[X] @Stoiiic*
 
-Event: Reply to @jw46629721
-bull_genius: "i wish"
+BTC CVD (cumulative volume delta) just collapsed after spiking to 40M — sharp volume-weighted selling over past ~2h (now at 21.27M). Divergence signal: price structure holding but volume rolling over.
 
-Unable to classify — what's your read?
-
-[View post](https://x.com/bull_genius/status/2096863722375434665)
+[View tweet](https://x.com/Stoiiic/status/2096866727426396539)

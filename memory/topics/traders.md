@@ -73,12 +73,13 @@
 - Current open positions: Unknown (privacy narrative trader, technical analyst)
 - Recent thesis: Privacy-narrative bull (NEAR protocol alpha thesis); technical structure analyst (365d VWAP, yearly std dev bands, consolidation breakouts). Concern: BTC stability contingency for alt continuation. Conditional DCA plan: if BTC pulls back, NEAR on top of buy list (mispriced, lacks momentum relative to narrative).
 - Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view). High conviction on NEAR mispricing relative to AI×Privacy narrative emerging thesis.
-- Last seen: 2026-09-07T07:28:42Z
+- Last seen: 2026-09-07T07:42:40Z
 - **Events (rolling):**
   - Sep 07 06:45Z — informational: NEAR & PENDLE yearly breakouts; NEAR mispriced re: privacy narrative (ZEC attention); PENDLE at 365d vwap; contingent on BTC holding [$NEAR/$PENDLE] [2096852378578285017]
   - Sep 07 06:59Z — informational: conditional DCA plan if BTC pullback; NEAR top focus, mispriced/no momentum pickup thesis [$BTC/$NEAR] [2096855843195027552]
   - Sep 07 07:11Z — informational: BTC consolidation range 76-81+; supply at 81+, demand ~76; 365d VWAP reference, conditional scenarios [$BTC] [2096858984388919496]
   - Sep 07 07:28Z — skip: meta-commentary on trader copiers; "unload on binance spot"; no financial signal [$UNKNOWN] [2096863212738089268]
+  - Sep 07 07:42Z — informational: BTC CVD bearish divergence spike→collapse (40M→21M); volume-weighted selling after breakout attempt [$BTC] [2096866727426396539]
 
 ## swarmister
 
