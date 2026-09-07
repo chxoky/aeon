@@ -1,0 +1,99 @@
+{
+  "root": "card_calibration",
+  "state": {},
+  "elements": {
+    "card_calibration": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "tweet_section",
+        "sep2",
+        "classification_question"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_label",
+        "text_details"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Just prior Argonaut #4269 NFT market data share"
+      }
+    },
+    "text_details": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 07 05:43Z, 14.269 ETH sale",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweetcard_bull",
+        "link_tweet"
+      ]
+    },
+    "tweetcard_bull": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "yes def puts floor higher but 4269 is the best radioactive one, it should be priced like an alien imo"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2096853694251729244"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Request",
+        "message": "Unable to classify — what's your read? Is this an options entry signal on an Argonaut-related derivative, or market commentary?",
+        "type": "info"
+      }
+    }
+  }
+}
