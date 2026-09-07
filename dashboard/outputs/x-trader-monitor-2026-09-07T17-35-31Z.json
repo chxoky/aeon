@@ -1,0 +1,91 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "➕ Conviction Add — @bull_genius"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_intro",
+        "heading_technical",
+        "text_technical",
+        "separator_1",
+        "text_quote_label",
+        "text_quote",
+        "separator_2",
+        "link_post",
+        "text_cta"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius just added to their BTC short position on bounces toward 365d VWAP resistance."
+      }
+    },
+    "heading_technical": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical context",
+        "level": "h3"
+      }
+    },
+    "text_technical": {
+      "type": "Text",
+      "props": {
+        "text": "365d VWAP confirmed resistance (4 rejections + failed breakout on volume); daily painted lower price high; 7d VWAP could become resistance. Expects liquidation cascade to liquidity cluster 2 around 72k before bull run resumes."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote:",
+        "variant": "lead"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "im adding to my shorts on every bounce as long as the dynamic of lower highs and going down the ladder of lines where support turns resistance and finally goes on a liquidation cascade is a serious risk... hence 72k sounds like a pretty good place for a full reset before the bull run",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2097014152417927539"
+      }
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to your short too?"
+      }
+    }
+  }
+}

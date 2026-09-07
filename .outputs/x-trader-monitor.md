@@ -1,13 +1,14 @@
-Perfect! I've processed the event. Here's the summary:
-🐦 *[X] @bull_genius* — BTC correction thesis
+➕ *Conviction Add — @bull_genius*
 
-After 365d rVWAP confirmed resistance (4 rejections + failed breakout on volume), daily painted lower price high. 7d rVWAP could become resistance next.
+@bull_genius just added to their BTC short position on bounces toward 365d VWAP resistance.
 
-Expects full reset into mid-September with bad CPI/rate hike narrative. 72k (liquidity cluster 2) is solid floor before bull run. Large volume gap from August pump → fast liquidation cascade likely.
+Technical context: 365d VWAP confirmed resistance (4 rejections + failed breakout on volume); daily painted lower price high; 7d VWAP could become resistance. Expects liquidation cascade to liquidity cluster 2 around 72k before bull run resumes.
 
-Adding to shorts on every bounce as long as lower highs + support-becomes-resistance ladder holds.
+```
+im adding to my shorts on every bounce as long as the dynamic of lower highs and going down the ladder of lines where support turns resistance and finally goes on a liquidation cascade is a serious risk... hence 72k sounds like a pretty good place for a full reset before the bull run
+```
 
-Charts show: 365d rVWAP ~80.3K resistance | 7d rVWAP ~79.1K | Bearish RSI divergence | Liquidity clusters 72K/70K
+[View post](https://x.com/bull_genius/status/2097014152417927539)
 
 **Alert decision:** None (informational only, aligns with documented 365d VWAP thesis, non-actionable).
 ## x-trader-monitor Execution Summary
@@ -49,3 +50,4 @@ Dip buyers just exhaust at some point and start shorting too
 [View tweet](https://x.com/bull_genius/status/2097012187441103114)
 
 ↳ _Aligns with bull_genius's bearish BTC conviction: 365d VWAP resistance confirmed (4+ rejections), rate hike scare into mid-Sept, lower highs after prior higher highs. Buyer→shorting rotation thesis._
+Want to add to your short too?

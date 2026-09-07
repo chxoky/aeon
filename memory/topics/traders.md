@@ -261,6 +261,7 @@
   - Sep 07 16:59Z — informational: ARTIFICIAL-INU consolidation update; buyers defended sept VAL, price back above $200M; chart in correction below POC/7d rVWAP; targets 140M/120M on weakness, ATH on VAH break; patience test conviction [$ARTIFICIAL-INU] [2097006775526392318]
   - Sep 07 17:14Z — conviction-add: BTC short scaling "on every bounce"; 365d VWAP confirmed resistance (4 rejections), lower high after higher highs, RSI bearish div, rate hike scare into mid-Sep [$BTC] [2097010649242951910]
   - Sep 07 17:20Z — informational: market psychology; "dip buyers exhaust, start shorting"; buyer→seller rotation thesis aligns with bearish stance [$MACRO] [2097012187441103114]
+  - Sep 07 17:28Z — conviction-add: BTC short adds on bounces; 365d VWAP confirmed resistance (4 rejections + failed breakout on volume), daily lower price high, 7d VWAP becoming resistance; expects full reset to 72k (liq cluster 2) before bull run; liquidation cascade risk analysis [$BTC] [2097014152417927539]
 
 ## t_in_crypto
 
