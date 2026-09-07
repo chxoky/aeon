@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "event_heading",
+        "quote_section",
+        "context_section",
+        "separator_1",
+        "analysis_section"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @crypto_linn about PENDLE",
+        "level": "h3"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic:",
+        "variant": "caption"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"@crypto_linn pendle\"",
+        "variant": "lead"
+      }
+    },
+    "context_section": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic recently tracked PENDLE yearly breakouts (Sep 07 06:45Z) with technical confluence.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_note",
+        "classification_note",
+        "question_note"
+      ]
+    },
+    "analysis_note": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification unclear",
+        "message": "This bare mention lacks execution language or new context.",
+        "type": "info"
+      }
+    },
+    "classification_note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify.",
+        "variant": "muted"
+      }
+    },
+    "question_note": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

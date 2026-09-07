@@ -92,6 +92,7 @@
   - Sep 07 13:43Z — skip: @Trader_XO reply with emojis (💯🤝); generic banter, non-financial [2096957651510763657]
   - Sep 07 17:04Z — skip: market psychology philosophy; "shiny narratives + risk appetite drive price"; generic market commentary, no ticker/position [$UNKNOWN] [2097008113912102944]
   - Sep 07 17:17Z — informational: technical methodology; 365d VWAP pivot framework education; reply to @RumboTecnico [2097011334185402708]
+  - Sep 07 17:59Z — ambiguous: "@crypto_linn pendle"; bare mention, no context; HR-2 calibration sent [2097021933338456465]
 
 ## swarmister
 

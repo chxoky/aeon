@@ -1,9 +1,7 @@
-🐦 *[X] @bull_genius*
+🔍 *Calibration — @Stoiiic*
 
-PUMP technical update: bottom held, bounced off 7d rVWAP (0.004191), support base strong at 30d/365d confluence. Existing 10x long: +79.91% unrealized (entry 0.0039, mark 0.0043).
+Event: Reply to @crypto_linn about PENDLE
 
-"im a buyer on every dip... this is the coin im going to keep longing on every dip i think its looks really good"
+Stoiiic: "@crypto_linn pendle"
 
-Conviction: expecting bad market week but PUMP to show relative strength vs broader alts/BTC.
-
-[View post](https://x.com/bull_genius/status/2097020277024608276)
+Stoiiic recently tracked PENDLE yearly breakouts (Sep 07 06:45Z) with technical confluence. This bare mention lacks execution language or new context. Unable to classify — what's your read?
