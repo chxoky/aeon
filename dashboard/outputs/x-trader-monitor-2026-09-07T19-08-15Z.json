@@ -1,0 +1,135 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calib",
+        "separator-1",
+        "event-section",
+        "separator-2",
+        "tweet-section",
+        "separator-3",
+        "alerts-section",
+        "separator-4",
+        "question-section",
+        "separator-5",
+        "link-section"
+      ]
+    },
+    "heading-calib": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-details"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "event-details": {
+      "type": "Text",
+      "props": {
+        "text": "ARGONAUT NFT market structure (tracker shows sustained $50K floor conviction since Sep 07 04:21Z)"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "masterpiece\n\ni might have to raise my targets again\n\nhe argonauts aren't JPEGs\n\nthey are GIFs\n\nTHEY E@E IGIFS\nARE\nGIFs\n\n[Attached pixelated image - unreadable]"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alerts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-image",
+        "alert-encoding"
+      ]
+    },
+    "alert-image": {
+      "type": "Alert",
+      "props": {
+        "title": "Image Quality",
+        "message": "Image heavily pixelated/unclear",
+        "type": "warning"
+      }
+    },
+    "alert-encoding": {
+      "type": "Alert",
+      "props": {
+        "title": "Encoding Error",
+        "message": "Text contains encoding errors (\"THEY E@E IGIFS\" corrupted)",
+        "type": "warning"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-section": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2097037899006915022"
+      }
+    }
+  }
+}
