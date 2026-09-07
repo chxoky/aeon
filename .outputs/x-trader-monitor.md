@@ -1,7 +1,11 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @KillaXBT*
 
-PUMP technical setup — multiple VWAP levels (30D, 365D, ATH, 90D) in tight consolidation; RSI fully reset at 40.23. "oh? yeah this is looking super solid lads. send it to ATH"
+$BTC mid-range analysis: Weekly open 80.3K with two scenarios:
 
-[View tweet](https://x.com/bull_genius/status/2096913954194755779)
+**Bearish scenario**: Fails to reclaim 80.3K → retest 78.1K, potential 76.6K sweep, then 73K+ region continuation longs.
 
-↳ _Reaffirming conviction on existing PUMP long (Sep 06 entry 0.003855); chart shows deep-value consolidation with support/resistance confluences marked._
+**Bullish scenario**: Reclaim & hold 80.3K → next target 82.8K with potential larger mid-80Ks deviation.
+
+Key levels: 80.3K weekly open (pivot), 81.4K weekly high (swept), 82.8K upside target, 76.6K–73K downside structure.
+
+[View post](https://x.com/KillaXBT/status/2096940137640784244)

@@ -1,0 +1,42 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: KillaXBT BTC Analysis",
+        "description": "Technical analysis and key price levels"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "$BTC mid-range analysis: Weekly open 80.3K with two scenarios:\n\nBearish scenario: Fails to reclaim 80.3K → retest 78.1K, potential 76.6K sweep, then 73K+ region continuation longs.\n\nBullish scenario: Reclaim & hold 80.3K → next target 82.8K with potential larger mid-80Ks deviation.\n\nKey levels: 80.3K weekly open (pivot), 81.4K weekly high (swept), 82.8K upside target, 76.6K–73K downside structure."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/KillaXBT/status/2096940137640784244"
+      },
+      "children": []
+    }
+  }
+}

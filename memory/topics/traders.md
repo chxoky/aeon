@@ -32,6 +32,7 @@
   - Sep 06 15:58Z — informational: liquidity cluster 75.5–76.5K below current 76.7K; range building before eventual sweep [$BTC] [2096629148735164728]
   - Sep 06 17:50Z — informational: SOL spot holding confirmation; "holding all the SOL bought at 76. Nothing changed in regards to targets." [$SOL] [1546215976197034145]
   - Sep 06 19:52Z — trade-new-entry: $ASTER swing long; entry 0.773; target 1.20 min / 1.40 extension; 200d range compression; invalidation below range lows [2096687952181035458]
+  - Sep 07 12:34Z — informational: BTC range structure + scenarios; failure to reclaim 80.3K → 78.1K/76.6K/73K longs; hold 80.3K → 82.8K target [$BTC] [2096940137640784244]
 
 ## Wild_Randomness
 
