@@ -1,1 +1,6 @@
-✅ x-trader-monitor success: @bull_genius ARGONAUT conviction (Sep 07 20:43Z) — informational, logged silently
+🔍 *Calibration — @abetrade*
+
+Event: Engagement with @tradesonpoint, sharing a link
+abetrade: "@tradesonpoint https://t.co/LDsjBvb8mu"
+
+Unable to classify — what's your read? (Pattern: abetrade frequently shares engagement/links with other traders; last tracked activity was market structure commentary on Sep 04)
