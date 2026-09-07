@@ -150,6 +150,7 @@
 - Recent thesis: Regime shifted net-short Aug 07 on BTC structure rejection. "Blow off top forming like a shitcoin scam pump." Expects "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." COCOA bearish macro conviction (Aug 29). Sep 04–05: brief tactical long accumulation (BCH 4%/BNB 2%/STRK 2%/BITLIGHT) closed Sep 05 on BTC.D signal. XMR new short add Sep 06.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in. Partial TPs do not end regime. Multi-account structure.
 - Last seen: 2026-09-07T06:04:38Z
+- Last seen: 2026-09-07T06:05:40Z
 - **Events (rolling):**
   - Aug 21 07:22Z — conviction-add: "Add 5% btc short" (Trades primary); scaled entry [$BTC-SHORT] [1540259770999644221]
   - Aug 21 07:25Z — trade-new-entry: "2% pump short" (Trades primary); 14th ticker in basket [$PUMP-SHORT] [1540260423800983622]
