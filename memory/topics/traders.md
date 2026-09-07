@@ -215,6 +215,7 @@
   - Sep 07 15:58Z — informational-reiteration: X post reiterates Discord 14:22Z with conviction escalation ("waterfall price action" + "ascending range breaks" trigger); cross-platform dedup—silent (no standalone alert); conviction weight +1 on net-short BTC thesis [$BTC] [2096991576409178436]
   - Sep 07 16:05Z — informational: BTCDOM 4h technical chart (labeled levels: 5445.1/5418.3/5286.3/5212.9; current support 5258); no execution language; technical structure confirmation aligns with net-short regime conviction [2096993174262857935]
   - Sep 07 17:21Z — informational-macro: Discord supporting channel (HCH — Chat); reply to member tkglitch369; bearish macro sentiment "Technically it's a bad thing and triggers self-reinforcing loop so definitely not a bullish time for risky assets"; conviction reinforcement on net-short regime [$MACRO] [1546571005496008797]
+  - Sep 07 17:21Z — conviction-shift: "Topping this on recent market run and timeline euphoria" (Discord Chat supporting, real-time update); closing/reducing positions due to euphoria concerns on recent market run; supporting-channel de-risking signal; aligns with ongoing net-short regime shift conviction [1546571172240560269]
 
 ## bull_genius
 

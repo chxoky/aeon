@@ -14,3 +14,8 @@ Skill execution complete.
   - ✓ Updated traders.md with single-line event entry
 
 **Rationale**: Supporting channel informational message expressing bearish macro sentiment aligned with HCH's net-short regime (Aug 07+). No execution language, no new ticker conviction, no personal trade action—informational commentary only. Fast-path alert already handled by Worker; memory/logging now complete.
+💬 *[DC: HCH — Chat]*
+
+Topping this on recent market run and timeline euphoria
+
+_via Discord (supporting channel) — Sep 07 17:21Z_

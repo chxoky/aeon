@@ -1,0 +1,51 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source",
+        "tweet",
+        "metadata"
+      ]
+    },
+    "source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "Topping this on recent market run and timeline euphoria"
+      },
+      "children": []
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord (supporting channel) — Sep 07 17:21Z",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
