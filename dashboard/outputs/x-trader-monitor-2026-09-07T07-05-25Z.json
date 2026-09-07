@@ -1,0 +1,63 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "link-tweet",
+        "sep-2",
+        "convergence-note"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "if BTC does end up pulling back, making a list and these two are def. on there.\n\nI'm particularly interested in NEAR because I believe it's mispriced and hasn't picked up momentum like it should."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2096855843195027552"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence-note": {
+      "type": "Text",
+      "props": {
+        "text": "Converges with Wild_Randomness + swarmister on NEAR privacy-narrative thesis (3-trader emerging momentum).",
+        "variant": "caption"
+      }
+    }
+  }
+}

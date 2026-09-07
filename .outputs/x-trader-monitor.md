@@ -1,9 +1,9 @@
-🔍 *Calibration — @bull_genius*
+🐦 *[X] @Stoiiic*
 
-Event: Just prior Argonaut #4269 NFT market data share (Sep 07 05:43Z, 14.269 ETH sale)
+if BTC does end up pulling back, making a list and these two are def. on there.
 
-bull_genius: "yes def puts floor higher but 4269 is the best radioactive one, it should be priced like an alien imo"
+I'm particularly interested in NEAR because I believe it's mispriced and hasn't picked up momentum like it should.
 
-Unable to classify — what's your read? Is this an options entry signal on an Argonaut-related derivative, or market commentary?
+[View tweet](https://x.com/Stoiiic/status/2096855843195027552)
 
-https://x.com/bull_genius/status/2096853694251729244
+↳ _Converges with Wild_Randomness + swarmister on NEAR privacy-narrative thesis (3-trader emerging momentum)._
