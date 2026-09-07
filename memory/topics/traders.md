@@ -149,7 +149,7 @@
 - Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: BTC (conviction adds Aug 20-21 +5%+5%), ZEC, HYPE, SOL (re-added Aug 27), ETH (re-added Aug 27), PUMP, UNI, ADA, KAITO, SPCX, TSLA, PLTR, DOGE, CL + others. XMR short added Sep 06 05:46Z (2% pf, 1x lev). Tactical long spots FULLY CLOSED Sep 05 15:47Z (BCH/BNB/BITLIGHT via BTC.D signal). Stocks FULLY CLOSED Aug 20. Partial TPs Aug 21: SOL 7.5%, ETH 7.5%, HYPE 2.5%.
 - Recent thesis: Regime shifted net-short Aug 07 on BTC structure rejection. "Blow off top forming like a shitcoin scam pump." Expects "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." COCOA bearish macro conviction (Aug 29). Sep 04–05: brief tactical long accumulation (BCH 4%/BNB 2%/STRK 2%/BITLIGHT) closed Sep 05 on BTC.D signal. XMR new short add Sep 06.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in. Partial TPs do not end regime. Multi-account structure.
-- Last seen: 2026-09-06T18:57:06Z
+- Last seen: 2026-09-07T06:04:38Z
 - **Events (rolling):**
   - Aug 21 07:22Z — conviction-add: "Add 5% btc short" (Trades primary); scaled entry [$BTC-SHORT] [1540259770999644221]
   - Aug 21 07:25Z — trade-new-entry: "2% pump short" (Trades primary); 14th ticker in basket [$PUMP-SHORT] [1540260423800983622]
@@ -172,6 +172,7 @@
   - Sep 06 09:46Z — ambiguous: "Likely a slowdown" (Chat); no ticker; possibly BTC.D slowdown commentary; HR-2 sent [$UNKNOWN] [1546094121704357959]
   - Sep 06 10:42Z — ambiguous: X post reply to @mk4_lul "😂😂"; HR-2 sent [$UNKNOWN] [2096549691723043228]
   - Sep 06 18:57Z — ambiguous: Chat single-word "Yes"; no reply context; HR-2 sent [$UNKNOWN] [1546232798371647581]
+  - Sep 07 06:04Z — ambiguous: "Aster is a complicated play. A lot of manipulation" (Chat supporting); no personal position articulated; cryptic commentary on token structure; HR-2 calibration sent [$ASTER] [1546400785678737408]
 
 ## bull_genius
 

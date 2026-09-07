@@ -1,0 +1,139 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — ASTER Calibration",
+        "description": "Ambiguous commentary requiring classification"
+      },
+      "children": [
+        "heading-calibration",
+        "heading-subtext",
+        "stack-quote",
+        "separator-1",
+        "stack-context",
+        "separator-2",
+        "stack-activity",
+        "separator-3",
+        "alert-unresolved"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "heading-subtext": {
+      "type": "Heading",
+      "props": {
+        "text": "Ambiguous ASTER commentary",
+        "level": "h3"
+      }
+    },
+    "stack-quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hch",
+        "text-quote"
+      ]
+    },
+    "badge-hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "secondary"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "Aster is a complicated play. A lot of manipulation",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-context-label",
+        "text-context"
+      ]
+    },
+    "text-context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel remark (no personal position articulated). HCH's \"complicated play\" + \"manipulation\" comment unclear — cautionary sentiment? technical risk observation? or bearish lean?",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-activity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-activity-label",
+        "text-activity"
+      ]
+    },
+    "text-activity-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Recent Related Activity",
+        "level": "h4"
+      }
+    },
+    "text-activity": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT swing-long ASTER $0.773 (Sep 06, targets $1.20–$1.40)",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-unresolved": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
