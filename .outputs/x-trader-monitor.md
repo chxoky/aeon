@@ -42,3 +42,10 @@ bull_genius is **scaling into BTC shorts on every bounce** based on technical re
 ↳ Group convergence: HCH net-short, KillaXBT 35% hedge — macro bearish tightening into CPI 9/11 + FOMC 9/16.
 
 https://x.com/bull_genius/status/2097011865461109049
+🐦 *[X] @bull_genius*
+
+Dip buyers just exhaust at some point and start shorting too
+
+[View tweet](https://x.com/bull_genius/status/2097012187441103114)
+
+↳ _Aligns with bull_genius's bearish BTC conviction: 365d VWAP resistance confirmed (4+ rejections), rate hike scare into mid-Sept, lower highs after prior higher highs. Buyer→shorting rotation thesis._

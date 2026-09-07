@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Dip buyers just exhaust at some point and start shorting too"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with bull_genius's bearish BTC conviction: 365d VWAP resistance confirmed (4+ rejections), rate hike scare into mid-Sept, lower highs after prior higher highs. Buyer→shorting rotation thesis.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
