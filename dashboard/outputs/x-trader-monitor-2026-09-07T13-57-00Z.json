@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "metadata_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "In 1 year from now, $BTC will be at new ATHs.\n\nAnd I can assure you of one thing,\n\nAbsolutely nobody will give a shit whether you bought at 79K, 90K, or even 100K.\n\nBecause when you zoom out, the difference becomes irrelevant.\n\nPrice. Go. Up."
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2096959354503098507"
+      },
+      "children": []
+    },
+    "metadata_text": {
+      "type": "Text",
+      "props": {
+        "text": "Affirms structural bullish bias; sentiment escalation post recent caution on Sep 07 13:33Z.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

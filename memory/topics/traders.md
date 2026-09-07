@@ -5,7 +5,7 @@
 - Recent thesis: Structural BTC bull — bear cycle ~80% complete, 2.5yr target 126K+. CONVICTION DOWNGRADE Aug 28: "0% chance $100K this year" → Q2 2027 target. $83K acceptance needed for weekly trend shift. Near-term: range consolidation 76–84K; liquidity cluster 75.5–76.5K below current; next planned long 74–75K area. Sweep-wick-expansion macro: 86.5K sweep → 82.2K wick → expansion thesis. Monthly pivots Sep 1/5. ASTER: swing long out of 200d range compression.
 - Conviction notes: HTF bullish structural bias. "Shorts are scalps. Remember that." Tactical scalp shorts + structural long = hedge ethos. Relocated country Aug 28 (tax optimization). Kalshi partnership announced. Game of probabilities on LTF; detach emotion, trade structure.
 - Calibration: CONVICTION DOWNGRADE SIGNAL — questioning Q4 bottom-buy thesis after 42% BTC drop (Sep 04 19:41Z). PENDING Aug 27 11:11Z ("Aged like fine wine. $SOL is up nearly 50%... Thanks for playing. $120+ waiting room"; open vs closed unclear)
-- Last seen: 2026-09-06T19:52:17Z
+- Last seen: 2026-09-07T13:50:44Z
 - **Events (rolling):**
   - Aug 28 15:27Z — **CONVICTION DOWNGRADE**: "0% chance $100K this year"; target pushed to late Q2 2027 (was Nov 2026) [$BTC] [2093359749442031891]
   - Aug 30 17:21Z — informational: sweep-wick-expansion macro; 86.5K sweep → quick wick 82.2K → expansion thesis [$BTC] [2094113412917641589]
@@ -34,6 +34,7 @@
   - Sep 06 19:52Z — trade-new-entry: $ASTER swing long; entry 0.773; target 1.20 min / 1.40 extension; 200d range compression; invalidation below range lows [2096687952181035458]
   - Sep 07 12:34Z — informational: BTC range structure + scenarios; failure to reclaim 80.3K → 78.1K/76.6K/73K longs; hold 80.3K → 82.8K target [$BTC] [2096940137640784244]
   - Sep 07 13:33Z — informational: market outlook post; POC retest scenarios 365d rVWAP resistance + "may have set monthly high early"; macro uncertainty (CPI Sep 11, FOMC Sep 16, Clarity Act); Robinhood rotation + Solana action signal; hedged shorts from 365d rVWAP, fishing PUMP dips; cautious outlook week ahead [$BTC/$PUMP/$MACRO] [2096954892799631866]
+  - Sep 07 13:50Z — informational: BTC macro bullish; 1yr ATH conviction, dismisses entry-price anxiety ("nobody will care—79K/90K/100K diff irrelevant"); "Price. Go. Up." sentiment escalation post [$BTC] [2096959354503098507]
 
 ## Wild_Randomness
 
