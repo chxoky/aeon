@@ -2,8 +2,9 @@
 
 Event: ARGONAUT NFT market structure (tracker shows sustained $50K floor conviction since Sep 07 04:21Z)
 bull_genius: "masterpiece
+Event: Previous bull_genius market structure analysis (19:00Z: 'masterpiece' + raising targets on market profile chart)
 
-i might have to raise my targets again
+bull_genius: "@slimNFT theyre gonna flip absolutely everything"
 
 he argonauts aren't JPEGs
 
@@ -18,3 +19,4 @@ Text contains encoding errors ("THEY E@E IGIFS" corrupted). Image heavily pixela
 Unable to classify — what's your read?
 
 [View post](https://x.com/bull_genius/status/2097037899006915022)
+Unable to classify — what's your read? Specific ticker/position in mind? Market-wide reversal sentiment? Trade execution planned?
