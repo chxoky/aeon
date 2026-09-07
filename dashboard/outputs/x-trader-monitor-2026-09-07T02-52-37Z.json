@@ -1,0 +1,32 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "X/Twitter Trader Analysis"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "BTC perpetual: detailed setup showing breakout vs rejection zones. Longs trapped above 365d rVWAP (~80,366); support layers at ATH aVWAP, 2026 VAH triple-tap (~78,273–76,000), and 30d rVWAP (~73,965). Fire sale territory at 2026 aVWAP (~71,571).\n\nRSI spike on breakout structure indicates momentum. Trader bullish longer-term but caution on near-term rejection risk."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2096792501013098659"
+      }
+    }
+  }
+}
