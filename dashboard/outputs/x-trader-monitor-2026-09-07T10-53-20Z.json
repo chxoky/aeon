@@ -1,0 +1,98 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "author-badge",
+        "technical-section",
+        "tweet-section",
+        "position-section"
+      ]
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 @bull_genius",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tech-title",
+        "tech-text"
+      ]
+    },
+    "tech-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tech-text": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP technical setup — multiple VWAP levels (30D, 365D, ATH, 90D) in tight consolidation; RSI fully reset at 40.23",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "oh? yeah this is looking super solid lads. send it to ATH"
+      },
+      "children": []
+    },
+    "position-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-title",
+        "pos-text",
+        "tweet-link"
+      ]
+    },
+    "pos-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reaffirming conviction on existing PUMP long (Sep 06 entry 0.003855); chart shows deep-value consolidation with support/resistance confluences marked.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2096913954194755779"
+      },
+      "children": []
+    }
+  }
+}
