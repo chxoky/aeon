@@ -77,6 +77,7 @@
 - **Events (rolling):**
   - Sep 07 06:45Z — informational: NEAR & PENDLE yearly breakouts; NEAR mispriced re: privacy narrative (ZEC attention); PENDLE at 365d vwap; contingent on BTC holding [$NEAR/$PENDLE] [2096852378578285017]
   - Sep 07 06:59Z — informational: conditional DCA plan if BTC pullback; NEAR top focus, mispriced/no momentum pickup thesis [$BTC/$NEAR] [2096855843195027552]
+  - Sep 07 07:11Z — informational: BTC consolidation range 76-81+; supply at 81+, demand ~76; 365d VWAP reference, conditional scenarios [$BTC] [2096858984388919496]
 
 ## swarmister
 

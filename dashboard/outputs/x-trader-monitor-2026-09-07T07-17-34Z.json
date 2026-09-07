@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "post-link",
+        "separator-1",
+        "commentary-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "BTC is pretty straight forward here imo. Has been consolidating since August 20th.\n\nSupply steps in 81+ and demand ~76.\n\nIf acceptance below 76: 30d rvwap in the 74s, imbalance left behind. Can wash out positioning, wait for bid to prevent deeper retracement.\n\nBreak above: observe spot aggressiveness, look for quick reprice and acceptance above 365d rvwap."
+      },
+      "children": []
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2096858984388919496"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group consolidation thesis (76-81K range); Stoiiic's 365d VWAP adds confluence to HCH/KillaXBT structure.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
