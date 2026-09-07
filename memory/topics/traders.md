@@ -180,7 +180,7 @@
 - Recent thesis: BTC "bear market end" structural conviction (HTF bottom in) but Sep 06 caution: 365d VWAP rejection, longs trapped above, PONS/AI rejections as warning flags. Rate hike scare Sep–mid-Sep = last major bottom before "complete bear destruction." CPI 9/11 + FOMC 9/16 = derisk window. ETH $3K target; 2850 multi-VWAP confluence. PUMP: deepest correction but deep-value area (ATH aVWAP→ICO price cluster); "when did you ever see a jewish company voluntarily give up a monopoly without a fight." Macro hedge: sell into Sunday spikes, aim low.
 - Conviction notes: Technical analyst/educator. Mixed bearish-technical BTC (Sep 06 365d VWAP analysis) with bullish longer-term "bear market end" theme. Hedging to manage risk into Sep 11/16 catalysts. Primarily informational; personal positions documented Aug 28+ (PUMP/ZEC 10x longs, Sep 05+ hedges).
 - Calibration: PENDING Sep 06 09:46Z (@johnjjj1997 "its rejected at 300m... excited to accumulate lower"; asset unclear), PENDING Sep 06 09:30Z (@JETSKIHH "maybe. whats your plan if this gets frontran"), PENDING Sep 06 08:33Z (@Mortid_X "stonk/ansem" refs; intent unclear), PENDING Sep 05 13:12Z (AI/NVDA ratio to @manyfacedchud; intent unclear), PENDING Sep 05 13:11Z (@0xSisyphus "fat stays on"), PENDING Sep 04 22:33Z (@manyfacedchud "and nothing less"), PENDING Sep 04 22:13Z (@getderb "how could i forget i will edit this in"), PENDING Aug 30 01:46Z (@0xtygra "hip-5 options" thesis), PENDING Aug 30 01:34Z (@0xDawny DefiLlama data; image 404), PENDING Aug 28 13:54Z (CASHCAT "longing some" order-type ambiguity)
-- Last seen: 2026-09-07T02:47:43Z
+- Last seen: 2026-09-07T03:10:14Z
 - **Events (rolling):**
   - Aug 30 23:38Z — informational: patience conviction; BTC/PUMP/ETH/HYPE multi-VWAP confluence holding; no execution [$BTC/$PUMP/$ETH/$HYPE] [2094208220323586208]
   - Sep 04 12:50Z — informational: ZEC spot long confirmation; Fed hike pricing (Kalshi 56%); risk management philosophy; no leverage [$ZEC/$FED] [2095856966773928195]
@@ -207,6 +207,7 @@
   - Sep 06 21:17Z — informational: SOL rotation shaping up; -30% correction done; "wonky week ahead"; STONK move; holding spot for meta fit [$SOL/$ALTS/$STONK] [2096709274328072214]
   - Sep 06 23:20Z — ambiguous: "@Argstrategy @phaCentauriKid holy"; cryptic mention reply; HR-2 calibration sent [$UNKNOWN] [2096740245551099934]
   - Sep 07 02:47Z — informational: BTC breakout/rejection setup; 365d VWAP longs trapped ~80,366; support layers: ATH aVWAP, 2026 VAH (~78–76K), 30d rVWAP (~73.9K); fire-sale ~71.6K; RSI spike structure [$BTC] [2096792501013098659]
+  - Sep 07 03:10Z — informational: insurance hedge posture; portfolio long-bias; 81-82 sweep zone; needs break above highs to close hedge [$BTC/$HEDGE] [2096798166980939983]
 
 ## t_in_crypto
 
