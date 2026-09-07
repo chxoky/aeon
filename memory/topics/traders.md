@@ -424,7 +424,7 @@
 - Recent thesis: BTC IV at historic lows; Sep historically vol bottom (2023+2025 precedents); straddle/strangle setups direction-neutral. SPCX calendar spread (sell Sep straddle, buy Oct; IV 110% vs RV 50%). ETH call skew z-score spikes correlate with consolidation; rich OTM calls post-rally = good selling candidates. Market psychology: CT bottom-buyers were watching Rainbet sponsorship videos last week, not calling longs.
 - Conviction notes: Educational framework only; no personal execution language. Options volatility specialist. First tracked Aug 21 13:49Z.
 - Calibration: PENDING Sep 07 20:59Z (@tradesonpoint engagement; link content unavailable — worth tracking?), PENDING Sep 04 18:32Z (on-chain vs ES market structure; retail-driven pools — educational or signal?), PENDING Aug 26 08:37Z (@btc_charlie @tradingriot "yes"), PENDING Aug 23 10:34Z (@MajesticQuant "no this only includes crypto markets")
-- Last seen: 2026-09-07T20:59:06Z
+- Last seen: 2026-09-07T21:02:38Z
 - **Events (rolling):**
   - Aug 21 13:49Z — ambiguous: @BTC_yytho @deltaxbt "yea looks pretty good"; context unknown; HR-2 sent [$UNKNOWN] [2090798498316714353]
   - Aug 22 23:47Z — informational: trader credibility + market psychology; CT bottom-callers were watching sponsorship content last week [$TRADER-PSYCHOLOGY] [2091311362227978289]
@@ -433,3 +433,4 @@
   - Aug 26 08:37Z — ambiguous: @btc_charlie @tradingriot "yes"; bare reply; HR-2 sent [$UNKNOWN] [2092531882017636449]
   - Sep 04 18:32Z — informational: on-chain vs ES market structure; retail-driven pools commentary [$MARKET-STRUCTURE] [2095943038153465906]
   - Sep 07 20:59Z — ambiguous: @tradesonpoint engagement with link; insufficient context for classification [$UNKNOWN] [2097067155954991423]
+  - Sep 07 21:02Z — informational: options expiration availability; @LSDinmycoffee engagement; dropdown shows chain expirations 28d-833d [$OPTIONS/$VOL] [2097068047634772258]
