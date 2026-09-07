@@ -1,0 +1,48 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event",
+        "tweet",
+        "status",
+        "link"
+      ]
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @BasedMoneyLich post (Sep 07 16:21:38Z)",
+        "variant": "caption"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@BasedMoneyLich Wow…"
+      }
+    },
+    "status": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2096997332021854530"
+      }
+    }
+  }
+}
