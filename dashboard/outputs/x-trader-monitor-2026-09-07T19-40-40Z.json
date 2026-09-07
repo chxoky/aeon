@@ -1,0 +1,66 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "details_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$LIT — Testing 8EMA confluence on 1D + 4H charts (4.648 USDT, +2.88%)\n\nCharts show consolidation structure post-uptrend from late Aug → early Sep. Multiple support levels visible (3.5-4.0 zone established). Funding rates oscillating (recent avg slightly negative -0.0025).\n\nExisting LIT long conviction (50:50 w/ HYPE)."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "badge_conviction",
+        "link_post"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "$LIT",
+        "value": "4.648 USDT",
+        "delta": "+2.88%",
+        "trend": "up"
+      }
+    },
+    "badge_conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Conviction: 50:50 w/ HYPE",
+        "variant": "outline"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2097045977253445730"
+      }
+    }
+  }
+}
