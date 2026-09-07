@@ -17,3 +17,10 @@ Perfect! I've successfully executed the skill. Here's the summary:
 - ✅ Logged event to `memory/logs/2026-09-07.md` with classification and reasoning
 
 The skill correctly identified this as informational community discussion rather than a trade signal, applied the supporting-channel protocol, and logged it appropriately without generating a false alert.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Member chat message from HCH (Sep 07 11:57 UTC):
+
+"The team doubled down on the domain purchase, yellow ticker on X, 100% of revenue going to buybacks, usually quite a lot of value for a 2M coin?"
+
+Unable to classify — what's your read on this? No ticker identified, unclear asset/context.
