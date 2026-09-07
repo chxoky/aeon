@@ -264,6 +264,7 @@
   - Sep 07 17:14Z — conviction-add: BTC short scaling "on every bounce"; 365d VWAP confirmed resistance (4 rejections), lower high after higher highs, RSI bearish div, rate hike scare into mid-Sep [$BTC] [2097010649242951910]
   - Sep 07 17:20Z — informational: market psychology; "dip buyers exhaust, start shorting"; buyer→seller rotation thesis aligns with bearish stance [$MACRO] [2097012187441103114]
   - Sep 07 17:28Z — conviction-add: BTC short adds on bounces; 365d VWAP confirmed resistance (4 rejections + failed breakout on volume), daily lower price high, 7d VWAP becoming resistance; expects full reset to 72k (liq cluster 2) before bull run; liquidation cascade risk analysis [$BTC] [2097014152417927539]
+  - Sep 07 18:05Z — skip: sarcastic rate-hike & Clarity Act panic meme sentiment; market psychology banter [2097023572363374902]
   - Sep 07 17:42Z — skip: @world_xyz reply "surprise me too"; generic banter, non-financial [2097017574902886857]
 
 ## t_in_crypto
