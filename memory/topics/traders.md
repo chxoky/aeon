@@ -198,6 +198,7 @@
   - Sep 07 11:59Z — trade-full-tp: "Covering xmr shorts" (Trades primary ★); XMR short position closed; fast-path alert sent by Cloudflare Worker; 2% pf position exit [$XMR-SHORT-CLOSE] [1546490023917133854]
   - Sep 07 12:04Z — informational: Discord primary channel (HCH — Comments); "One minute chart lol"; chart share without execution language [$TECHNICAL] [1546491332950757488]
   - Sep 07 12:56Z — informational: X post LUNA 4h chart share; "among top 10 coin by market cap"; technical levels marked; no personal action [$LUNA] [2096945611350409219]
+  - Sep 07 13:45Z — trade-conviction-add: "Add 2% pf spot hold on aster here" (Discord Trades primary); conviction add to existing ASTER swing long (entry 0.773, pending approval); adding spot hold; fast-path alert sent [$ASTER] [1546516655155314758]
 
 ## bull_genius
 
