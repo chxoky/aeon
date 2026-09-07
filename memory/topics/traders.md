@@ -208,6 +208,7 @@
 - Last seen: 2026-09-07T10:50:20Z
 - **Events (rolling):**
   - Sep 07 10:50Z — informational: PUMP chart analysis + conviction reaffirm; multiple VWAP confluences + RSI reset; "send it to ATH" [$PUMP] [2096913954194755779]
+  - Sep 07 13:31Z — informational: BTC POC retest + 365d VWAP resistance; hedging stance into CPI/FOMC; fishing PUMP dips [$BTC/$PUMP] [2096954437134606509]
   - Sep 04 22:13Z — informational: continuation; weekend breakout attempts = "obvious bait"; alts/onchain dangerous; invalidation >82K [$BTC/$MACRO] [2095998759838666835]
   - Sep 04 22:13Z — ambiguous: @getderb "how could i forget i will edit this in"; HR-2 sent [$UNKNOWN] [2095998694847897696]
   - Sep 04 22:33Z — ambiguous: @manyfacedchud "and nothing less"; HR-2 sent [$UNKNOWN] [2096003824037036376]
