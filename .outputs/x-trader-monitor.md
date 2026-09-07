@@ -1,7 +1,7 @@
-🐦 *[X] @bull_genius*
+🐦 [X] @Stoiiic
 
-BTC perpetual: detailed setup showing breakout vs rejection zones. Longs trapped above 365d rVWAP (~80,366); support layers at ATH aVWAP, 2026 VAH triple-tap (~78,273–76,000), and 30d rVWAP (~73,965). Fire sale territory at 2026 aVWAP (~71,571).
+"Use 365d rolling VWAP on your alts — some coins attempting to flip while BTC still trading right under. This remains line in the sand, BTC needs to accept above for party to continue."
 
-RSI spike on breakout structure indicates momentum. Trader bullish longer-term but caution on near-term rejection risk.
+https://x.com/Stoiiic/status/2096794361690247421
 
-[View tweet](https://x.com/bull_genius/status/2096792501013098659)
+↳ Aligns with prior 365d VWAP pivot (82.4K) — structural BTC level confirmation.

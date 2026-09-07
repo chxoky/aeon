@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "url",
+        "followup"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Use 365d rolling VWAP on your alts — some coins attempting to flip while BTC still trading right under. This remains line in the sand, BTC needs to accept above for party to continue."
+      }
+    },
+    "url": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/Stoiiic/status/2096794361690247421",
+        "href": "https://x.com/Stoiiic/status/2096794361690247421"
+      }
+    },
+    "followup": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with prior 365d VWAP pivot (82.4K) — structural BTC level confirmation.",
+        "variant": "muted"
+      }
+    }
+  }
+}
