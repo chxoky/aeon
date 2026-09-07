@@ -208,6 +208,7 @@
   - Sep 06 23:20Z — ambiguous: "@Argstrategy @phaCentauriKid holy"; cryptic mention reply; HR-2 calibration sent [$UNKNOWN] [2096740245551099934]
   - Sep 07 02:47Z — informational: BTC breakout/rejection setup; 365d VWAP longs trapped ~80,366; support layers: ATH aVWAP, 2026 VAH (~78–76K), 30d rVWAP (~73.9K); fire-sale ~71.6K; RSI spike structure [$BTC] [2096792501013098659]
   - Sep 07 03:10Z — informational: insurance hedge posture; portfolio long-bias; 81-82 sweep zone; needs break above highs to close hedge [$BTC/$HEDGE] [2096798166980939983]
+  - Sep 07 04:21Z — informational: ARGONAUT NFT long conviction; holding all (not sold single one); bought more yesterday 0.38; $50K floor target [$ARGONAUT] [2096816126080500077]
 
 ## t_in_crypto
 
