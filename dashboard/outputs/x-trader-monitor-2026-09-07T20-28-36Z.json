@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-tweet"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "The math checks out.\n\nEach cycle, $BTC has been taking less time to create a new ATH.\n\nIf we simply follow the 2022 cycle, a new ATH should be established no later than February 2028.\n\nBut this cycle appears to be moving faster. We bottomed roughly 3-4 months earlier, which naturally brings the timeline forward.\n\nBased on the cycles shortening, I believe $BTC creates a new ATH in late Q4 next year.\n\nIn other words, I expect us to be trading above 126K by November 2027."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2097058703904034845"
+      }
+    }
+  }
+}
