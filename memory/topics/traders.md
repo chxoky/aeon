@@ -160,7 +160,7 @@
 ## HeartCanHodl
 
 - Platforms: Discord (★Trades: 1279738718680256553, Comments, Chat, Free) + X
-- Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: BTC (conviction adds Aug 20-21 +5%+5%), ZEC, HYPE, SOL (re-added Aug 27), ETH (re-added Aug 27), PUMP, UNI, ADA, KAITO, SPCX, TSLA, PLTR, DOGE, CL + others. XMR short added Sep 06 05:46Z (2% pf, 1x lev). Tactical long spots FULLY CLOSED Sep 05 15:47Z (BCH/BNB/BITLIGHT via BTC.D signal). Stocks FULLY CLOSED Aug 20. Partial TPs Aug 21: SOL 7.5%, ETH 7.5%, HYPE 2.5%.
+- Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: BTC (conviction adds Aug 20-21 +5%+5%), ZEC, HYPE, SOL (re-added Aug 27), ETH (re-added Aug 27), PUMP, UNI, ADA, KAITO, SPCX, TSLA, PLTR, DOGE, CL + others. XMR short CLOSED Sep 07 11:59Z (2% pf, 1x lev, full cover). Tactical long spots FULLY CLOSED Sep 05 15:47Z (BCH/BNB/BITLIGHT via BTC.D signal). Stocks FULLY CLOSED Aug 20. Partial TPs Aug 21: SOL 7.5%, ETH 7.5%, HYPE 2.5%.
 - Recent thesis: Regime shifted net-short Aug 07 on BTC structure rejection. "Blow off top forming like a shitcoin scam pump." Expects "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." COCOA bearish macro conviction (Aug 29). Sep 04–05: brief tactical long accumulation (BCH 4%/BNB 2%/STRK 2%/BITLIGHT) closed Sep 05 on BTC.D signal. XMR new short add Sep 06.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in. Partial TPs do not end regime. Multi-account structure.
 - Last seen: 2026-09-07T06:04:38Z
@@ -193,6 +193,7 @@
   - Sep 07 09:17Z — informational: macro commentary on technology narratives (privacy, ZEC); philosophical observation that long-term thesis can be right while short-term price reaction is overheated; speculation that "ZEC pump is getting close to that point"; contextualizes prior ZEC short entry [$ZEC/$NARRATIVE/$MACRO] [1546449238462824448]
   - Sep 07 09:19Z — ambiguous: X post; philosophical reflection on thesis conviction vs overvaluation & when belief becomes counterproductive (7min after ZEC short add); intent unclear (doubt vs reinforcement); HR-2 calibration sent [$THESIS-PHILOSOPHY] [2096891209386209447]
   - Sep 07 11:57Z — ambiguous: Discord supporting channel (HCH — Chat); "The team doubled down on the domain purchase, yellow ticker on X, 100% of revenue going to buybacks, usually quite a lot of value for a 2M coin?"; extremely cryptic (no ticker identified, unclear asset/project context, no execution language); HR-2 calibration sent awaiting Kyle interpretation [$UNKNOWN-TICKER] [1546489551562866698]
+  - Sep 07 11:59Z — trade-full-tp: "Covering xmr shorts" (Trades primary ★); XMR short position closed; fast-path alert sent by Cloudflare Worker; 2% pf position exit [$XMR-SHORT-CLOSE] [1546490023917133854]
 
 ## bull_genius
 

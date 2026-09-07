@@ -1,20 +1,20 @@
-Perfect! I've successfully executed the skill. Here's the summary:
+Perfect! I've successfully executed the Discord Trader Monitor skill for the HeartCanHodl message. Here's a summary of what was processed:
 
-## Execution Complete
+## Event Summary
 
-**Event:** Discord message from HeartCanHodl (Sep 07 11:55:52 UTC)  
-**Channel:** 1023638573313966212 (HCH — Chat, supporting channel)  
-**Content:** Community discussion question seeking on-chain expert analysis on a Robinhood chain token
+**Message:** "Covering xmr shorts"
+- **Trader:** HeartCanHodl
+- **Channel:** 1279738718680256553 (HCH — Trades ★ most important)
+- **Event Type:** Trade Close (XMR short position fully covered)
+- **Classification:** `trade-full-tp`
+- **Timestamp:** 2026-09-07T11:59:14Z
 
-**Classification:** SKIP (supporting channel, informational, no personal action)
-- This is a community discussion question ("Any on-chain expert is interested in looking at this?"), not a personal trade signal
-- Supporting channel context (premium member chat) with no primary-channel reference
-- No execution language detected
-- No alert sent per Step 7 protocol
+## Processing Result
 
-**Memory Updates:**
-- ✅ Added message ID (1546489180178088046) to `discord-trader-seen.txt` for dedup tracking
-- ✅ Logged event to `memory/logs/2026-09-07.md` with classification and reasoning
+✅ **Fast-path Protocol Applied**
+- Cloudflare Worker already sent Telegram alert (~2-5s latency)
+- Skipped duplicate Telegram send per fast-path rules
+- Proceeded with classification and memory updates
 
 The skill correctly identified this as informational community discussion rather than a trade signal, applied the supporting-channel protocol, and logged it appropriately without generating a false alert.
 🔍 *Calibration — [DC: HCH — Chat]*
@@ -24,3 +24,16 @@ Member chat message from HCH (Sep 07 11:57 UTC):
 "The team doubled down on the domain purchase, yellow ticker on X, 100% of revenue going to buybacks, usually quite a lot of value for a 2M coin?"
 
 Unable to classify — what's your read on this? No ticker identified, unclear asset/context.
+✅ **Memory Updates Made**
+- **traders.md:** Updated HeartCanHodl's current open positions (XMR short now marked CLOSED Sep 07 11:59Z)
+- **traders.md:** Added event entry: "Sep 07 11:59Z — trade-full-tp: Covering xmr shorts (Trades primary ★); 2% pf position exit"
+- **Daily Log (2026-09-07.md):** Added full event documentation with classification, ticker, and context notes
+
+✅ **Verbatim Format Rule Applied**
+- Channel 1279738718680256553 (HCH — Trades) has strict verbatim requirement
+- Original message text "Covering xmr shorts" preserved in memory exactly as posted
+
+## Context
+This closes the XMR short position that was added just 30 hours prior (Sep 06 05:46Z, 2% portfolio, 1x leverage). HeartCanHodl maintains net-short regime but is actively managing individual positions within the basket (BTC/ZEC/HYPE/SOL/ETH/PUMP/UNI/ADA/KAITO/SPCX/TSLA/PLTR/DOGE/CL).
+
+Skill execution complete. Message tracked in memory with dedup check queued.
