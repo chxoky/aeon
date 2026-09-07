@@ -310,6 +310,7 @@
   - Sep 07 14:49Z — informational: Discord supporting channel (Chase — Crypto); technical analysis reply to member Q about coin; FVG/demand-box analysis; chart attached [$TECHNICAL] [1546532953029611530]
   - Sep 07 15:05Z — informational: Discord supporting channel Q&A; FVG retest after strong moves; "good on left, bad on right" chart annotation; educational reply [$FVG/$TECHNICAL] [1546536969041875044]
   - Sep 07 15:20Z — skip: Discord supporting channel (Chase — Crypto) reply to member Q&A; market context only "labor day weekend, market resumes tom"; non-financial observation [MARKET-CONTEXT] [1546540762630455306]
+  - Sep 07 15:24Z — ambiguous: Discord supporting channel (Chase — Crypto); "wtf are those daily candles"; standalone cryptic observation without chart context; HR-2 calibration sent [$UNKNOWN] [1546541681837605005]
 
 ## trading_axe
 

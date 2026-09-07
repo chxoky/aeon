@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading_event",
+        "stack_context",
+        "separator1",
+        "tweet_message",
+        "separator2",
+        "alert_classify"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Standalone message in supporting channel",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dc",
+        "badge_chase",
+        "badge_crypto"
+      ]
+    },
+    "badge_dc": {
+      "type": "Badge",
+      "props": {
+        "text": "Discord",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_chase": {
+      "type": "Badge",
+      "props": {
+        "text": "Chase",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_crypto": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "wtf are those daily candles"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this message?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

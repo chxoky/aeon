@@ -1,10 +1,7 @@
-Skill execution complete. **Discord Trader Monitor** processed real-time event:
+🔍 *Calibration — [DC: Chase — Crypto]*
 
-**Event Summary:**
-- **Trader:** Crypto_Chase (verified Discord username)
-- **Channel:** 1247927786681794601 (Chase — Crypto, supporting Q&A)
-- **Time:** Sep 07 15:20:51Z
-- **Message:** "nothing, labor day weekend, market resumes tom" (reply to member asking about BTC read)
+Event: Standalone message in supporting channel
+Crypto_Chase: "wtf are those daily candles"
 
 **Classification:** Skip / Non-financial
 - No trade signal detected
@@ -47,3 +44,4 @@ I've executed the **discord-trader-monitor** skill with the provided event. Here
 - ✓ **No alert sent to Kyle** (skip classification per Step 7 protocol)
 
 **Rationale**: The message is too vague and context-free to constitute an actionable signal. It's likely a casual response to a member question or generic market commentary that doesn't warrant Kyle's attention per the skill's HR-1/HR-2 calibration rules.
+Unable to classify — what's your read?
