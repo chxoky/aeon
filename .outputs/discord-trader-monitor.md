@@ -28,3 +28,10 @@ Perfect! Skill execution complete. Here's what was processed:
 - `memory/topics/traders.md` — HeartCanHodl events updated with new ZEC conviction-add entry
 
 Task complete. No Telegram alert sent (fast-path handled it). Memory and audit trail fully updated.
+🔍 *Calibration — [DC: HCH — Trades]*
+
+Event: No context in message thread (is_reply: false)
+
+HCH: "Will give rough invalidation & take profit targets if it gets filled"
+
+Unable to classify — what's your read? What does 'it' refer to?
