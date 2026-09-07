@@ -7,3 +7,10 @@ Fractal pattern analysis — comparing two unnamed altcoins with similar 1h cons
 Technical pattern observation, not personal trade action.
 
 [View post](https://x.com/trading_axe/status/2096857936144240679)
+🔍 *Calibration — @trading_axe*
+
+Event: Directed message to @coldestwigga via X link
+
+trading_axe: "@coldestwigga https://t.co/0wAJd866Q8"
+
+Unable to access the link (X login gated) or identify financial relevance — what's your read?

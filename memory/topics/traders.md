@@ -292,6 +292,7 @@
 - Conviction notes: Builder/commentator identity transitioning to documented executor. First personal trade: DOPAMEME Aug 24 (+3850%). Pattern: "Patience young padawan" + "Naysayers will be silenced" = repeating cryptic motivation. LIT = CONTESTED ticker — flag to Kyle when trading_axe bullish and HCH short. "Dr. Axius" persona.
 - Calibration: PENDING Sep 06 04:59Z ("This was APG in 2021" + image 0-byte; APG unknown), PENDING Sep 06 00:59Z (@Rezgaarr @blknoiz06 "It doesn't take a genius to figure it out"), PENDING Sep 06 00:49Z (@loraclexyz bagwork tactics; asset unclear), PENDING Sep 05 18:03Z ("I put the whole thing back into memes"; no ticker specifics), PENDING Sep 05 14:58Z (Dr. Axius + @0xNetanyahu screenshot; "PF" unclear), PENDING Sep 05 02:41Z (@karhen_barbiie "Gud tek always brings back the oldheads"), PENDING Aug 30 20:41Z ("Perhapsingly it is time. ~ Dr. Axius."), PENDING Aug 30 18:08Z (@buyeropponzi + t.co; media 404), PENDING Aug 30 17:48Z (@blknoiz06 "Nigga?"), PENDING Aug 29 13:38Z (@Home_of_Fight "Behind the ear, all equilibrium gone"), PENDING Aug 29 03:30Z (@moonbaggies TRUMP "might just gamble"), PENDING Aug 27 01:00Z (@0X_JEFFE "Patience / Naysayers will be silenced")
 - Last seen: 2026-09-07T07:07:44Z
+- Last seen: 2026-09-07T07:11:08Z
 - **Events (rolling):**
   - Aug 24 16:42Z — informational: DOPAMEME onchain long $20K→$830K (+3850% unrealized); first personal execution documented [$DOPAMEME] [2091929247572971706]
   - Aug 25 10:27Z — informational: market psychology/trader behavior cycles [$TRADER-PSYCHOLOGY] [2092197241616281831]
@@ -318,6 +319,7 @@
   - Sep 07 00:57Z — ambiguous: @ExponentLabs_ "Facts.\n\n~ Dr. Axius. 💤"; reply to external trader, financial intent unclear; HR-2 sent [$UNKNOWN] [2096764782141444329]
   - Sep 07 06:32Z — ambiguous: @theunipcs @JamesWynnReal @fomo "I refuse to believe this is a normal interaction."; cryptic reply, financial intent unknown; HR-2 sent [$UNKNOWN] [2096849035151696310]
   - Sep 07 07:07Z — informational: fractal-pattern comparison; two unnamed alts with similar 1h consolidation structures post-breakout [$CHART-ANALYSIS] [2096857936144240679]
+  - Sep 07 07:11Z — ambiguous: @coldestwigga X link (t.co/0wAJd866Q8); media empty, link login-gated; intent unclear; HR-2 sent [$UNKNOWN] [2096858794219249997]
 
 ## Stoiiic
 
