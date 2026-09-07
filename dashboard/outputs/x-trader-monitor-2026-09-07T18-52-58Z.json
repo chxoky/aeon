@@ -1,0 +1,162 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section",
+        "levels_section",
+        "disclaimer_alert",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$WGMI (Bitcoin Mining ETF) Technical Analysis - Consolidating after June-Aug downtrend. \"Productive end to week right off that warning...\""
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_price",
+        "price_grid",
+        "chart_text"
+      ]
+    },
+    "heading_price": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Action",
+        "level": "h3"
+      }
+    },
+    "price_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_peak",
+        "stat_current",
+        "stat_change"
+      ]
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "~70"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "41.75"
+      }
+    },
+    "stat_change": {
+      "type": "Stat",
+      "props": {
+        "label": "Downtrend",
+        "value": "June-Aug",
+        "trend": "down"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-timeframe charts: 1W/1D consolidation structure with volume profile analysis",
+        "variant": "caption"
+      }
+    },
+    "levels_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_levels",
+        "levels_badges"
+      ]
+    },
+    "heading_levels": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Levels",
+        "level": "h3"
+      }
+    },
+    "levels_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_support",
+        "badge_resistance"
+      ]
+    },
+    "badge_support": {
+      "type": "Badge",
+      "props": {
+        "text": "Support: 40-42",
+        "variant": "secondary"
+      }
+    },
+    "badge_resistance": {
+      "type": "Badge",
+      "props": {
+        "text": "Resistance: 49",
+        "variant": "secondary"
+      }
+    },
+    "disclaimer_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Educational Commentary",
+        "message": "No personal trade action detected. Commentary focused on consolidation structure analysis."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097034525452951881"
+      }
+    }
+  }
+}
