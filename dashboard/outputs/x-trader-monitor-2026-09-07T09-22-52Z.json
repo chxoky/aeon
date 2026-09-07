@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-text",
+        "separator-1",
+        "tweet-card",
+        "interpretation-text",
+        "separator-2",
+        "view-link"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HCH just added 1% ZEC short (1235) 7min ago; regime remains net-short since Aug 07",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "What if something can be massively important in the long run…\n\nyet still be massively overvalued in the short run?\n\nAt what point does believing in the thesis become the very reason the trade stops making sense? 👀"
+      }
+    },
+    "interpretation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this expressing doubt about short conviction, or reaffirming that holding shorts despite near-term pain is necessary? Your read?",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2096891209386209447"
+      }
+    }
+  }
+}
