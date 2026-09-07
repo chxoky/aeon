@@ -1,13 +1,13 @@
-🔍 *Calibration — @HeartCanHodl*
+🔍 *Calibration — @trading_axe*
 
-Event: HCH just added 1% ZEC short (1235) 7min ago; regime remains net-short since Aug 07
+Event: $ZZI breaking ATH
 
-HCH: "What if something can be massively important in the long run…
+@trading_axe: "Aight I'll buy if you buy $ZZI.
 
-yet still be massively overvalued in the short run?
+It's breaking ATH as I send this.
 
-At what point does believing in the thesis become the very reason the trade stops making sense? 👀"
+We do a little bit of Buy-for-Buy."
 
-Unable to classify — is this expressing doubt about short conviction, or reaffirming that holding shorts despite near-term pain is necessary? Your read?
+Unable to classify — is this a personal trade execution, or a conditional trade idea? The "if you buy" language is conditional, but "breaking ATH as I send this" could suggest present-tense action.
 
-[View post](https://x.com/HeartCanHodl/status/2096891209386209447)
+https://x.com/trading_axe/status/2096901891502243910

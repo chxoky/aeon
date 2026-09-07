@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calib",
+        "badge_handle",
+        "sep1",
+        "text_event",
+        "tweet_card",
+        "sep2",
+        "text_classify",
+        "link_post"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge_handle": {
+      "type": "Badge",
+      "props": {
+        "text": "@trading_axe",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: $ZZI breaking ATH",
+        "variant": "lead"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Aight I'll buy if you buy $ZZI.\n\nIt's breaking ATH as I send this.\n\nWe do a little bit of Buy-for-Buy."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this a personal trade execution, or a conditional trade idea? The \"if you buy\" language is conditional, but \"breaking ATH as I send this\" could suggest present-tense action.",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/trading_axe/status/2096901891502243910"
+      }
+    }
+  }
+}
