@@ -196,6 +196,7 @@
   - Sep 07 11:57Z — ambiguous: Discord supporting channel (HCH — Chat); "The team doubled down on the domain purchase, yellow ticker on X, 100% of revenue going to buybacks, usually quite a lot of value for a 2M coin?"; extremely cryptic (no ticker identified, unclear asset/project context, no execution language); HR-2 calibration sent awaiting Kyle interpretation [$UNKNOWN-TICKER] [1546489551562866698]
   - Sep 07 11:59Z — trade-full-tp: "Covering xmr shorts" (Trades primary ★); XMR short position closed; fast-path alert sent by Cloudflare Worker; 2% pf position exit [$XMR-SHORT-CLOSE] [1546490023917133854]
   - Sep 07 12:04Z — informational: Discord primary channel (HCH — Comments); "One minute chart lol"; chart share without execution language [$TECHNICAL] [1546491332950757488]
+  - Sep 07 12:56Z — informational: X post LUNA 4h chart share; "among top 10 coin by market cap"; technical levels marked; no personal action [$LUNA] [2096945611350409219]
 
 ## bull_genius
 
