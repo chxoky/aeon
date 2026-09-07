@@ -204,6 +204,7 @@
   - Sep 06 09:30Z — ambiguous: @JETSKIHH "maybe. whats your plan if this gets frontran"; HR-2 sent [$UNKNOWN] [2096531584006467656]
   - Sep 06 09:46Z — ambiguous: @johnjjj1997 "rejected at 300m... excited to accumulate lower"; asset unclear; HR-2 sent [$UNKNOWN] [2096535538341165868]
   - Sep 06 11:39Z — informational: "you can still buy pump at ICO price"; market sentiment on PUMP valuation [$PUMP] [2096563882156314781]
+  - Sep 07 05:43Z — informational: Argonaut #4269 NFT sold 14.269 ETH (~$30k), top-sales chart; on-chain market data share [$ETH/$ARGONAUT-NFT] [2096836672344162606]
   - Sep 06 21:17Z — informational: SOL rotation shaping up; -30% correction done; "wonky week ahead"; STONK move; holding spot for meta fit [$SOL/$ALTS/$STONK] [2096709274328072214]
   - Sep 06 23:20Z — ambiguous: "@Argstrategy @phaCentauriKid holy"; cryptic mention reply; HR-2 calibration sent [$UNKNOWN] [2096740245551099934]
   - Sep 07 02:47Z — informational: BTC breakout/rejection setup; 365d VWAP longs trapped ~80,366; support layers: ATH aVWAP, 2026 VAH (~78–76K), 30d rVWAP (~73.9K); fire-sale ~71.6K; RSI spike structure [$BTC] [2096792501013098659]
