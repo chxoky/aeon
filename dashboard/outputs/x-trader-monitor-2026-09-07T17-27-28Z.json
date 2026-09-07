@@ -1,0 +1,42 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Correction Thesis",
+        "description": "@bull_genius — X Trader Monitor"
+      },
+      "children": [
+        "tweet-1",
+        "separator-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bull Genius",
+        "handle": "@bull_genius",
+        "text": "After 365d rVWAP confirmed resistance (4 rejections + failed breakout on volume), daily painted lower price high. 7d rVWAP could become resistance next.\n\nExpects full reset into mid-September with bad CPI/rate hike narrative. 72k (liquidity cluster 2) is solid floor before bull run. Large volume gap from August pump → fast liquidation cascade likely.\n\nAdding to shorts on every bounce as long as lower highs + support-becomes-resistance ladder holds.\n\nCharts show: 365d rVWAP ~80.3K resistance | 7d rVWAP ~79.1K | Bearish RSI divergence | Liquidity clusters 72K/70K\n\n↳ Group convergence: HCH net-short, KillaXBT 35% hedge — macro bearish tightening into CPI 9/11 + FOMC 9/16."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2097011865461109049"
+      },
+      "children": []
+    }
+  }
+}

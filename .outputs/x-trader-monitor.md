@@ -1,16 +1,13 @@
 Perfect! I've processed the event. Here's the summary:
+🐦 *[X] @bull_genius* — BTC correction thesis
 
-Successfully processed the real-time trader event from @Stoiiic.
+After 365d rVWAP confirmed resistance (4 rejections + failed breakout on volume), daily painted lower price high. 7d rVWAP could become resistance next.
 
-**Classification: INFORMATIONAL (silent)**
+Expects full reset into mid-September with bad CPI/rate hike narrative. 72k (liquidity cluster 2) is solid floor before bull run. Large volume gap from August pump → fast liquidation cascade likely.
 
-The tweet is a Spanish-language reply to @RumboTecnico explaining their technical methodology regarding the 365-day rolling VWAP. This is educational/framework sharing, not a personal trade action. No execution language detected.
+Adding to shorts on every bounce as long as lower highs + support-becomes-resistance ladder holds.
 
-**Memory updates:**
-- Added event line to `traders.md` (Stoiiic section)
-- Updated last seen timestamp to 2026-09-07T17:17:17Z
-- Added tweet ID (2097011334185402708) to x-trader-seen.txt for dedup tracking
-- Logged event to 2026-09-07 activity log
+Charts show: 365d rVWAP ~80.3K resistance | 7d rVWAP ~79.1K | Bearish RSI divergence | Liquidity clusters 72K/70K
 
 **Alert decision:** None (informational only, aligns with documented 365d VWAP thesis, non-actionable).
 ## x-trader-monitor Execution Summary
@@ -42,3 +39,6 @@ bull_genius is **scaling into BTC shorts on every bounce** based on technical re
 📊 **Chart Analysis Complete**: Both images analyzed showing technical confluence (VWAP levels, divergence, trapped liquidations)
 
 💬 **Next Step**: bull_genius is adding to existing BTC shorts on conviction. Would you like to mirror this conviction add to your BTC position? (`approve BTC-CONVICTION-ADD` or skip)
+↳ Group convergence: HCH net-short, KillaXBT 35% hedge — macro bearish tightening into CPI 9/11 + FOMC 9/16.
+
+https://x.com/bull_genius/status/2097011865461109049
