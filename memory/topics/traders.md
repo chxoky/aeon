@@ -100,9 +100,9 @@
 
 - Platforms: X (Twitter)
 - Current open positions: Unknown (privacy narrative trader, technical analyst)
-- Recent thesis: Privacy-narrative bull (NEAR protocol alpha thesis); technical structure analyst (365d VWAP, yearly std dev bands, consolidation breakouts). Concern: BTC stability contingency for alt continuation. Conditional DCA plan: if BTC pulls back, NEAR on top of buy list (mispriced, lacks momentum relative to narrative).
-- Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view). High conviction on NEAR mispricing relative to AI×Privacy narrative emerging thesis. Banter ratio: ~15-20%.
-- Last seen: 2026-09-07T19:33:23Z
+- Recent thesis: Privacy-narrative bull (NEAR protocol alpha thesis); technical structure analyst (365d VWAP, yearly std dev bands, consolidation breakouts). Concern: BTC stability contingency for alt continuation. Conditional DCA plan: if BTC pulls back, NEAR on top of buy list (mispriced, lacks momentum relative to narrative). Strategy: mapping out areas that offer high probability reaction setups.
+- Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view). High conviction on NEAR mispricing relative to AI×Privacy narrative emerging thesis. PENDLE strength recognition on shorter timeframes (H1/H4) + yearly VWAP structure. Banter ratio: ~15-20%.
+- Last seen: 2026-09-08T15:51:22Z
 - **Events (rolling):**
   - Sep 07 06:45Z — informational: NEAR & PENDLE yearly breakouts; NEAR mispriced re: privacy narrative (ZEC attention); PENDLE at 365d vwap; contingent on BTC holding [$NEAR/$PENDLE] [2096852378578285017]
   - Sep 07 06:59Z — informational: conditional DCA plan if BTC pullback; NEAR top focus, mispriced/no momentum pickup thesis [$BTC/$NEAR] [2096855843195027552]
@@ -113,6 +113,7 @@
   - Sep 07 17:04Z — skip: market psychology philosophy; "shiny narratives + risk appetite drive price"; generic market commentary, no ticker/position [$UNKNOWN] [2097008113912102944]
   - Sep 07 17:17Z — informational: technical methodology; 365d VWAP pivot framework education; reply to @RumboTecnico [2097011334185402708]
   - Sep 07 17:59Z — ambiguous: "@crypto_linn pendle"; bare mention, no context; HR-2 calibration sent [2097021933338456465]
+  - Sep 08 15:51Z — informational: NEAR pullback into yearly VWAP consolidation; PENDLE H1/H4 strength, key area ~2 confluence [$NEAR/$PENDLE] [2097352100749451684]
 
 ## swarmister
 
