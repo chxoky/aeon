@@ -1,0 +1,124 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat",
+        "description": "🟡 WATCH"
+      },
+      "children": [
+        "sep1",
+        "alert_section",
+        "sep2",
+        "pattern_note",
+        "sep3",
+        "summary_section"
+      ]
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "alert_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_p3",
+        "stale_skills_table"
+      ]
+    },
+    "alert_p3": {
+      "type": "Alert",
+      "props": {
+        "title": "🔵 P3 — Stale scheduled skills",
+        "message": "Sep 7 scheduler gap suspected",
+        "type": "warning"
+      }
+    },
+    "stale_skills_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Last Success",
+          "Time Ago"
+        ],
+        "rows": [
+          [
+            "narrative-tracker",
+            "Sep 5 15:01 UTC",
+            "~66h ago (2.75× daily interval)"
+          ],
+          [
+            "morning-pipeline / morning-brief",
+            "Sep 6 09:05 UTC",
+            "~48.5h ago (~2× daily interval)"
+          ],
+          [
+            "market-context-refresh",
+            "Sep 6 08:58 UTC",
+            "~48.5h ago (~2× daily interval)"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "pattern_note": {
+      "type": "Text",
+      "props": {
+        "text": "Note: Sep 7 daytime cron runs (morning-pipeline 07:00, token-alert/movers 12:00, market-context 13:00, narrative-tracker 13:30, heartbeat 08:00/14:00) all unrecorded. skill-health at 18:00 UTC did run successfully. Pattern suggests a partial Sep 7 scheduler outage.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "summary_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "summary_item1",
+        "summary_item2",
+        "summary_item3",
+        "summary_item4"
+      ]
+    },
+    "summary_item1": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ No failed/stuck skills",
+        "variant": "default"
+      }
+    },
+    "summary_item2": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ No open PRs",
+        "variant": "default"
+      }
+    },
+    "summary_item3": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ No open issues",
+        "variant": "default"
+      }
+    },
+    "summary_item4": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ X webhook healthy (x-trader-monitor last ran 09:24 UTC today)",
+        "variant": "default"
+      }
+    }
+  }
+}

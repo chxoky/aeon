@@ -1,11 +1,10 @@
-HEARTBEAT_OK · STATUS_PAGE=OK
+🟡 WATCH
 
-All checks passed for the 20:00 UTC heartbeat:
+🔵 P3 — Stale scheduled skills (Sep 7 scheduler gap suspected):
+• narrative-tracker: last success Sep 5 15:01 UTC (~66h ago, 2.75× daily interval)
+• morning-pipeline / morning-brief: last success Sep 6 09:05 UTC (~48.5h, ~2× daily interval)
+• market-context-refresh: last success Sep 6 08:58 UTC (~48.5h, ~2× daily interval)
 
-- **P0:** No failed, stuck, or degraded skills. All consecutive_failures = 0. Heartbeat self-check: last_success 15:38 UTC (well within 36h).
-- **P0 X webhook:** TWITTERAPI_IO_KEY not injected in interactive mode — skipped silently. x-trader-monitor last_success 21:23 UTC confirms X signals are flowing. ISS-002 remains resolved.
-- **P1:** No open PRs, no urgent issues.
-- **P2:** No flagged items in MEMORY.md.
-- **P3:** All enabled skills within 2× schedule interval. narrative-tracker ~30h since last success (threshold 48h); trader-memory-compact 7 days (threshold 14 days for weekly skill).
+Note: Sep 7 daytime cron runs (morning-pipeline 07:00, token-alert/movers 12:00, market-context 13:00, narrative-tracker 13:30, heartbeat 08:00/14:00) all unrecorded. skill-health at 18:00 UTC did run successfully. Pattern suggests a partial Sep 7 scheduler outage.
 
-Status page updated at `docs/status.md` and log entry appended to `memory/logs/2026-09-06.md`.
+✅ No failed/stuck skills. No open PRs. No open issues. X webhook healthy (x-trader-monitor last ran 09:24 UTC today).
