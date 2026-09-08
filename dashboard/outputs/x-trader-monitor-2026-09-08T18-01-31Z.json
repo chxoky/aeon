@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "methodology",
+        "tweet_link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Developing yearly VWAP with 1 standard dev band\nw/ examples\n\nCan it be this simple? Yes. Observe behavior at 1 std. dev. band. Good contextual area as shown."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "methodology": {
+      "type": "Text",
+      "props": {
+        "text": "Technical methodology: Chart shows 365d VWAP framework with ±1σ bands across 8 cryptocurrencies, demonstrating price reaction zones at standard deviation levels. Educational framework continuation from prior post.",
+        "variant": "caption"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2097383243418894458"
+      }
+    }
+  }
+}

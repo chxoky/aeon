@@ -117,6 +117,7 @@
   - Sep 08 15:51Z — informational: NEAR pullback into yearly VWAP consolidation; PENDLE H1/H4 strength, key area ~2 confluence [$NEAR/$PENDLE] [2097352100749451684]
   - Sep 08 16:02Z — informational: BTC consolidation structure 4h chart; range 76-80K supply/demand, 82K resistance rejections, 70-71K downside target if breakdown; aligns w/ KillaXBT range thesis [$BTC] [2097354974267134107]
   - Sep 08 16:32Z — informational: technical methodology; yearly VWAP with 1 standard deviation framework; reply to @NicolasPhy [2097362327167262861]
+  - Sep 08 17:55Z — informational: technical methodology; yearly VWAP with ±1σ bands education; 8-asset example chart [$FRAMEWORK] [2097383243418894458]
 
 ## swarmister
 
