@@ -98,6 +98,7 @@
   - Sep 08 15:02Z — informational: $NBIS strong uptrend breakout; daily/weekly bullish structure; volume confirmed [$NBIS] [2097339871828553933]
   - Sep 08 15:33Z — informational: WGMI crypto mining sentiment peak-call victory lap; 4 images (sink meme pun + WGMI charts $75→$41.75 crash -44%); "everyone max engaging with fatcoin posts" = mining euphoria top perfectly caught [$WGMI/$MACRO/$SENTIMENT] [2097347508427182352]
   - Sep 08 15:41Z — ambiguous: "@KaneCapz Very"; bare cryptic reply, no context; HR-2 calibration sent [$UNKNOWN] [2097349492718858262]
+  - Sep 08 22:04Z — informational: LIT 4H technical chart; price consolidated 4.76→5.00 range from previous 3.80 support; sarcastic "4.80 is the new 3.80?" comment re: MM activity [$LIT] [2097445880769212773]
   - Sep 08 17:24Z — informational: $LIT price-target vision; 1D chart 4.802 spot showing multi-month uptrend support/resistance structure targeting $5.0 inflection; bullish technical affirmation [$LIT] [2097375536029045119]
   - Sep 08 17:59Z — conviction-add: HYPE spot add at 80-84 consolidation zone (current 82.913); following @docXBT trade; expressed uncertainty on timing ("Jury will be out for a bit whether that was smart or not") [$HYPE] [2097384267437502768]
   - Sep 08 19:08Z — informational: ZEC technical level update; 1190 stated as clear invalidation; wants to re-buy lower, will chase above; conviction on "relative motion hype" [$ZEC] [2097401621148000596]

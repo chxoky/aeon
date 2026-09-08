@@ -1,0 +1,47 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "symbol",
+        "tweet-card",
+        "analysis",
+        "link"
+      ]
+    },
+    "symbol": {
+      "type": "Badge",
+      "props": {
+        "text": "$LIT",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "4.80 is the new 3.80?\n\nHow original, Mr. MM"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "LIT consolidated at 5.00 level (4H chart); previous support 3.80. Sarcastic commentary on MM-driven move higher. No execution language — technical price-action observation on existing long position.",
+        "variant": "caption"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097445880769212773"
+      }
+    }
+  }
+}
