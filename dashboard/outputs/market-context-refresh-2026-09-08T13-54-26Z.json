@@ -1,0 +1,211 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "market-context-refresh",
+        "description": "2026-09-08"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "take-line",
+        "prices-fg-line",
+        "onchain-line",
+        "narrative-line",
+        "privacy-line",
+        "hotmarket-line"
+      ]
+    },
+    "take-line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "take-label",
+        "risk-badge",
+        "conviction-text"
+      ]
+    },
+    "take-label": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "muted"
+      }
+    },
+    "risk-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off",
+        "variant": "destructive"
+      }
+    },
+    "conviction-text": {
+      "type": "Text",
+      "props": {
+        "text": "(conviction medium)",
+        "variant": "caption"
+      }
+    },
+    "prices-fg-line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat",
+        "fg-group"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77,761",
+        "delta": "-1.98%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,447",
+        "delta": "-2.01%",
+        "trend": "down"
+      }
+    },
+    "fg-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fg-stat",
+        "fg-sentiment-info"
+      ]
+    },
+    "fg-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G",
+        "value": "69"
+      }
+    },
+    "fg-sentiment-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "greed-badge",
+        "fg-delta"
+      ]
+    },
+    "greed-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Greed",
+        "variant": "secondary"
+      }
+    },
+    "fg-delta": {
+      "type": "Text",
+      "props": {
+        "text": "↓2",
+        "variant": "muted"
+      }
+    },
+    "onchain-line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "breadth-text",
+        "tvl-text",
+        "dex-vol-stat"
+      ]
+    },
+    "breadth-text": {
+      "type": "Text",
+      "props": {
+        "text": "breadth 4/20 (was 19/20 Sep 6)",
+        "variant": "body"
+      }
+    },
+    "tvl-text": {
+      "type": "Text",
+      "props": {
+        "text": "TVL all chains ↓",
+        "variant": "body"
+      }
+    },
+    "dex-vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$10.29B",
+        "delta": "+24%",
+        "trend": "up"
+      }
+    },
+    "narrative-line": {
+      "type": "Text",
+      "props": {
+        "text": "top narrative: FOMC hike binary (peak) — CPI Sep 10 is the gate",
+        "variant": "lead"
+      }
+    },
+    "privacy-line": {
+      "type": "Text",
+      "props": {
+        "text": "privacy sector (ZEC/XMR) fading — HCH shorts confirmed",
+        "variant": "body"
+      }
+    },
+    "hotmarket-line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "hotmarket-label",
+        "fed-badge"
+      ]
+    },
+    "hotmarket-label": {
+      "type": "Text",
+      "props": {
+        "text": "hot market:",
+        "variant": "muted"
+      }
+    },
+    "fed-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed",
+        "variant": "outline"
+      }
+    }
+  }
+}
