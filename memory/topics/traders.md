@@ -306,6 +306,7 @@
   - Sep 08 10:24Z — informational: ZEC NFT collection sentiment + price-level questioning; marketplace image showing 3,333 ZEC NFTs priced ~0.44-0.47 ZEC floor; asking peers re: potential 10-20 ZEC floor target (comparing to Nodemonkes prior 1 BTC floor); "appealing" sentiment; no personal execution language [$ZEC-NFT/$SENTIMENT] [2097269928181092615]
   - Sep 08 10:37Z — ambiguous: @XpiredPineapple3 "revenue meta?" reference unclear; HR-2 calibration sent [$UNKNOWN] [2097273037867327588]
   - Sep 08 12:00Z — ambiguous: @shockermandan "no it wouldnt"; cryptic 3-word reply, external context missing; HR-2 calibration sent [$UNKNOWN] [2097294013153816979]
+  - Sep 08 13:40Z — informational: BTC 1D technical breakdown; 2.5wk distribution above 78k, decreasing buyer strength, lower-high pattern, bearish RSI divergence; laggard longs flushed; conviction test before next leg [$BTC] [2097319289258754322]
 
 ## t_in_crypto
 
