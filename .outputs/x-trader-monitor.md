@@ -4,14 +4,18 @@ Developing yearly VWAP with 1 standard dev band
 w/ examples
 
 Can it be this simple? Yes. Observe behavior at 1 std. dev. band. Good contextual area as shown.
+➕ *Conviction Add — @Wild_Randomness*
 
-[View post](https://x.com/Bitcoin_Astro/status/2097381864751128971)
-🔍 *Calibration — @Bitcoin_Astro*
+HYPE entry at 80-84 consolidation zone (current 82.913)
 
-Event: Reply to @ADRIAN2021RO regarding time-cycle calculations (prior Sep 06 21:18Z: 'First I need the bottom so I can do calculations for the top')
-Bitcoin_Astro: "28/29"
+"I did the same but with hype cause 80-84 is a good pocket to try it"
+
+Jury will be out for a bit whether that was smart or not.
+
+[View post](https://x.com/Wild_Randomness/status/2097384267437502768)
 
 This appears to be a continuation of their conversation on timing/price cycles. Unable to classify — what's your read? (Price level, date reference, geometric point, or something else?)
 [View tweet](https://x.com/Stoiiic/status/2097383243418894458)
 
 _Technical methodology: Chart shows 365d VWAP framework with ±1σ bands across 8 cryptocurrencies, demonstrating price reaction zones at standard deviation levels. Educational framework continuation from prior post._
+Want to add to yours too?

@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_hype",
+        "stat_position",
+        "text_quote",
+        "alert_jury",
+        "separator_1",
+        "link_post",
+        "text_cta"
+      ]
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE"
+      }
+    },
+    "stat_position": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry (80-84 consolidation zone)",
+        "value": "82.913"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"I did the same but with hype cause 80-84 is a good pocket to try it\"",
+        "variant": "body"
+      }
+    },
+    "alert_jury": {
+      "type": "Alert",
+      "props": {
+        "message": "Jury will be out for a bit whether that was smart or not.",
+        "type": "info"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2097384267437502768"
+      }
+    },
+    "text_cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to yours too?",
+        "variant": "body"
+      }
+    }
+  }
+}

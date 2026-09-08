@@ -96,6 +96,7 @@
   - Sep 08 15:33Z — informational: WGMI crypto mining sentiment peak-call victory lap; 4 images (sink meme pun + WGMI charts $75→$41.75 crash -44%); "everyone max engaging with fatcoin posts" = mining euphoria top perfectly caught [$WGMI/$MACRO/$SENTIMENT] [2097347508427182352]
   - Sep 08 15:41Z — ambiguous: "@KaneCapz Very"; bare cryptic reply, no context; HR-2 calibration sent [$UNKNOWN] [2097349492718858262]
   - Sep 08 17:24Z — informational: $LIT price-target vision; 1D chart 4.802 spot showing multi-month uptrend support/resistance structure targeting $5.0 inflection; bullish technical affirmation [$LIT] [2097375536029045119]
+  - Sep 08 17:59Z — conviction-add: HYPE spot add at 80-84 consolidation zone (current 82.913); following @docXBT trade; expressed uncertainty on timing ("Jury will be out for a bit whether that was smart or not") [$HYPE] [2097384267437502768]
 
 ## Stoiiic
 
