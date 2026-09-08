@@ -1,0 +1,43 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "AI consolidation — technical rejection pattern: price rejected twice below key support line; testing lower-high possibility. Chart shows buyers defended VAL support, but structure remains cautious into fresh-hyped coin environment. Risk: bot/MEV frontrunning on illiquid alts.\n\nOngoing conviction: holding spot, ready to add lower per Sep 08 07:19Z thesis."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2097224806970102157"
+      },
+      "children": []
+    }
+  }
+}
