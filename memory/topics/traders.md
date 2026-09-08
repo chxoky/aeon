@@ -206,8 +206,7 @@
 - Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: BTC (conviction adds Aug 20-21 +5%+5%), ZEC, HYPE, SOL (re-added Aug 27), ETH (re-added Aug 27), PUMP, UNI, ADA, KAITO, SPCX, TSLA, PLTR, DOGE, CL + others. XMR short CLOSED Sep 07 11:59Z (2% pf, 1x lev, full cover). Tactical long spots FULLY CLOSED Sep 05 15:47Z (BCH/BNB/BITLIGHT via BTC.D signal). Stocks FULLY CLOSED Aug 20. Partial TPs Aug 21: SOL 7.5%, ETH 7.5%, HYPE 2.5%.
 - Recent thesis: Regime shifted net-short Aug 07 on BTC structure rejection. "Blow off top forming like a shitcoin scam pump." Expects "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." COCOA bearish macro conviction (Aug 29). Sep 04–05: brief tactical long accumulation (BCH 4%/BNB 2%/STRK 2%/BITLIGHT) closed Sep 05 on BTC.D signal. XMR new short add Sep 06.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in. Partial TPs do not end regime. Multi-account structure.
-- Last seen: 2026-09-07T06:04:38Z
-- Last seen: 2026-09-07T06:05:40Z
+- Last seen: 2026-09-08T18:09:07Z
 - **Events (rolling):**
   - Aug 21 07:22Z — conviction-add: "Add 5% btc short" (Trades primary); scaled entry [$BTC-SHORT] [1540259770999644221]
   - Aug 21 07:25Z — trade-new-entry: "2% pump short" (Trades primary); 14th ticker in basket [$PUMP-SHORT] [1540260423800983622]
@@ -248,6 +247,7 @@
   - Sep 07 17:21Z — conviction-shift: "Topping this on recent market run and timeline euphoria" (Discord Chat supporting, real-time update); closing/reducing positions due to euphoria concerns on recent market run; supporting-channel de-risking signal; aligns with ongoing net-short regime shift conviction [1546571172240560269]
   - Sep 08 04:42Z — ambiguous: Discord supporting channel (HCH — Chat); "Yes. But it received the advantage of that listing. Loh!"; cryptic response, no ticker/context (likely reply to member); HR-2 calibration sent [$UNKNOWN] [1546742480404348958]
   - Sep 08 04:43Z — informational: "Fc zec 15m" (Discord Free primary); false-close chart check notation on ZEC; no execution language; technical structure check [$ZEC] [1546742763574403183]
+  - Sep 08 18:09Z — ambiguous: Discord supporting channel (HCH — Chat); "Zero this" (2-word cryptic directive, no ticker/context); HR-2 calibration alert sent [$UNKNOWN] [1546945498600968264]
 
 ## bull_genius
 
