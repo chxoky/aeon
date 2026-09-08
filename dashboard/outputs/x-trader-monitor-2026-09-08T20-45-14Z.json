@@ -1,0 +1,110 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "description",
+        "tickers_group",
+        "quote",
+        "link",
+        "cta"
+      ]
+    },
+    "description": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness is buying December calls on multiple positions after paring gains in the afternoon, taking the pullback as a re-entry opportunity on conviction.",
+        "variant": "body"
+      }
+    },
+    "tickers_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tickers_label",
+        "badge_wgmi",
+        "badge_hype",
+        "badge_lit",
+        "badge_intc",
+        "badge_zec"
+      ]
+    },
+    "tickers_label": {
+      "type": "Text",
+      "props": {
+        "text": "Positions:",
+        "variant": "lead"
+      }
+    },
+    "badge_wgmi": {
+      "type": "Badge",
+      "props": {
+        "text": "$WGMI"
+      }
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "$HYPE"
+      }
+    },
+    "badge_lit": {
+      "type": "Badge",
+      "props": {
+        "text": "$LIT"
+      }
+    },
+    "badge_intc": {
+      "type": "Badge",
+      "props": {
+        "text": "$INTC"
+      }
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "$ZEC"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"I did start buying December calls for a few of these names as we pared some gains in the afternoon\"",
+        "variant": "caption"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2097424843969110389"
+      }
+    },
+    "cta": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Want to set up Dec calls on any of these, or skip?",
+        "type": "info"
+      }
+    }
+  }
+}
