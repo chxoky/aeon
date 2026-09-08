@@ -1,0 +1,41 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Nasdaq composite comparison: ChatGPT rally (Nov 2022) tracking Netscape bubble (Dec 1994) over same 944-day period. ChatGPT: +141.14%, Netscape peaked at +128.47% before crash to -50%. Chart implies bubble/crash scenario for current Nasdaq."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097404139303321856"
+      }
+    }
+  }
+}

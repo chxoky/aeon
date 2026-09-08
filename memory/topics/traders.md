@@ -100,6 +100,7 @@
   - Sep 08 17:59Z — conviction-add: HYPE spot add at 80-84 consolidation zone (current 82.913); following @docXBT trade; expressed uncertainty on timing ("Jury will be out for a bit whether that was smart or not") [$HYPE] [2097384267437502768]
   - Sep 08 19:08Z — informational: ZEC technical level update; 1190 stated as clear invalidation; wants to re-buy lower, will chase above; conviction on "relative motion hype" [$ZEC] [2097401621148000596]
   - Sep 08 18:47Z — informational: $CORZ historical cycle pattern; 5 runs 60-70d each, 50-270% returns (avg 135%); no execution [$CORZ] [2097396386774040777]
+  - Sep 08 19:18Z — informational: Nasdaq bubble comparison (Netscape 1994 vs ChatGPT 2022 over 944-day tracking); bearish macro sentiment on potential crash scenario [$NDX/$MACRO] [2097404139303321856]
 
 ## Stoiiic
 
