@@ -1,0 +1,54 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "stat-1",
+        "link-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$NBIS — Strong uptrend breakout structure\n\nDaily and weekly charts show clear uptrend from May lows (~100) to current 226.47 (+7.52%). Multiple resistance levels breaking with volume confirmation. Technical setup: clean moving average structure, RSI momentum, consolidation breakdown.\n\n\"Firing on all cylinders\" = strong performance momentum in uptrend."
+      },
+      "children": []
+    },
+    "stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "$NBIS Current Price",
+        "value": "226.47",
+        "delta": "+7.52%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2097339871828553933"
+      },
+      "children": []
+    }
+  }
+}

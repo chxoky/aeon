@@ -91,6 +91,7 @@
   - Sep 08 14:41Z — informational: victory lap sentiment; two Fidelity account YTD screenshots (+16-33% gains); bullish market confidence [$MACRO/$SENTIMENT] [2097334549982355655]
   - Sep 08 14:46Z — informational: portfolio performance snapshot; SOXX +1.87%, WGMI +3.45% vs SPY/QQQ slight down; semis/mining outperformance [$QQQ/$SPY/$SOXX/$WGMI/$SENTIMENT] [2097335892939776172]
   - Sep 08 14:53Z — informational: WTI crude oil breakout long idea; contrarian macro vs bullish technical setup [$USOIL/$CL/$MACRO] [2097337602710114529]
+  - Sep 08 15:02Z — informational: $NBIS strong uptrend breakout; daily/weekly bullish structure; volume confirmed [$NBIS] [2097339871828553933]
 
 ## Stoiiic
 
