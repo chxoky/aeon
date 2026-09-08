@@ -1,10 +1,10 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @bull_genius*
 
-The bottom always forms after 2 red 6 month candles.
+Update on PUMP 7d rVWAP retest — holding well. General direction is up.
 
-As stated, $BTC is HTF bullish & the bottom is in.
+Bullish on: PUMP, XPL, ZEC, AI coins
 
-Chart: 2-red-6-month pattern labeled with historical cycle repetition, current bottom-in marker after latest red pair.
+Relative short on BTC against these positions (reasonable setup per trader).
 
 [View post](https://x.com/KillaXBT/status/2097263334722535604)
 🐦 x-trader-monitor — @bull_genius
@@ -16,3 +16,6 @@ Chart: 15m/1h Bitget PUMPUSDT showing VWAP confluence + support levels (7d, 30d,
 Classification: **INFORMATIONAL** (Step 6 — technical market observation, no new execution)
 
 Memory updated: traders.md event appended | x-trader-seen.txt recorded | daily log created
+Waiting to see how US trading validates the structure.
+
+[View tweet](https://x.com/bull_genius/status/2097264476969930861)
