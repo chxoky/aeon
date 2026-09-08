@@ -1,11 +1,9 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @bull_genius*
 
-Nearly every pump heading into Monday has ended up being retraced.
+Event: Following 07:46Z positive @fun_nft sentiment post
 
-By no surprise, $BTC saw a 2.5% pullback from the established highs on Monday.
+@bull_genius: "@fun_nft @Argstrategy all part of the art performance"
 
-Standard ✅
+Unable to classify — what's your read? (Sarcastic critique of NFT hype, neutral narrative observation, or bullish on artistry?)
 
-[View post](https://x.com/KillaXBT/status/2097239684908777697)
-
-↳ _Historical Monday-weakness pattern validation. Aligns with documented HTF bullish bias (targets 126K Nov 2027) but highlights LTF mean-reversion risk into weekly closes._
+[View tweet](https://x.com/bull_genius/status/2097251386400407561)
