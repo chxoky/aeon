@@ -1,0 +1,127 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Tweet from @bull_genius on macro BTC outlook"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "tech-context-heading",
+        "tech-context-stack",
+        "sep2",
+        "tweet-link",
+        "sep3",
+        "class-heading",
+        "class-badge",
+        "class-description"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "**ATH aVWAP — Technical Analysis**\n\nExpecting some bounce here but overall I think the larger move down is setting in motion.\n\nHedges working\n\nCPI clarity and FOMC are nearing so ppl de-risk and take profits on the bounces."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tech-context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Context",
+        "level": "h3"
+      }
+    },
+    "tech-context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "bullet1",
+        "bullet2",
+        "bullet3",
+        "bullet4"
+      ]
+    },
+    "bullet1": {
+      "type": "Text",
+      "props": {
+        "text": "2.5 weeks distribution above 78k with decreasing buyer strength",
+        "variant": "body"
+      }
+    },
+    "bullet2": {
+      "type": "Text",
+      "props": {
+        "text": "Sellers appearing, longs not getting follow-through, shorts opening",
+        "variant": "body"
+      }
+    },
+    "bullet3": {
+      "type": "Text",
+      "props": {
+        "text": "Laggard longs flushed out; major conviction test before next leg up",
+        "variant": "body"
+      }
+    },
+    "bullet4": {
+      "type": "Text",
+      "props": {
+        "text": "RSI bearish divergence: lower lows on RSI vs higher highs on price",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2097220569775116681"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "class-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "class-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "default"
+      }
+    },
+    "class-description": {
+      "type": "Text",
+      "props": {
+        "text": "Macro sentiment + technical analysis, no execution signal. Complements Sep 07 bearish BTC conviction posts (ATH aVWAP resistance, trapped longs, CPI/FOMC catalyst concerns).",
+        "variant": "caption"
+      }
+    }
+  }
+}
