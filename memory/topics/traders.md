@@ -105,6 +105,7 @@
   - Sep 08 19:18Z — informational: Nasdaq bubble comparison (Netscape 1994 vs ChatGPT 2022 over 944-day tracking); bearish macro sentiment on potential crash scenario [$NDX/$MACRO] [2097404139303321856]
   - Sep 08 19:53Z — informational: BTC chop-pattern observation; 4H consolidation 78-82K; "3-10 day mark up and repeat"; wants trend test+continuation; technical commentary only [$BTC] [2097413040161624263]
   - Sep 08 20:40Z — mirror-full-tp+conviction-add: WGMI + basket TP'd 130-270% returns; buying Dec calls on pullback averaging strategy [$WGMI/$CALLS] [2097424843969110389]
+  - Sep 08 20:42Z — informational: CORZ options extension strategy; historical pattern of catching "pico lows" of impulses with short-dated OTM calls that turn ITM on 50-124% rips over ~2-3 month duration; current short-dated calls turned ITM; planning to roll/extend duration on green day to longer expiries [$CORZ/$OPTIONS] [2097425413513650466]
 
 ## Stoiiic
 

@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "CORZ options extension strategy: Historical pattern of catching \"pico lows\" of impulses with short-dated OTM calls that turn ITM on 50-124% rips over ~2-3 month cycles. Current short-dated calls turned ITM today. Planning to roll/extend to longer-dated expiries on strength.\n\nChart shows 5 historical cycles (60-70d each, avg 135% returns) validating pattern thesis."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097425413513650466"
+      },
+      "children": []
+    }
+  }
+}
