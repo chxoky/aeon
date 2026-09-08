@@ -97,6 +97,7 @@
   - Sep 08 15:41Z — ambiguous: "@KaneCapz Very"; bare cryptic reply, no context; HR-2 calibration sent [$UNKNOWN] [2097349492718858262]
   - Sep 08 17:24Z — informational: $LIT price-target vision; 1D chart 4.802 spot showing multi-month uptrend support/resistance structure targeting $5.0 inflection; bullish technical affirmation [$LIT] [2097375536029045119]
   - Sep 08 17:59Z — conviction-add: HYPE spot add at 80-84 consolidation zone (current 82.913); following @docXBT trade; expressed uncertainty on timing ("Jury will be out for a bit whether that was smart or not") [$HYPE] [2097384267437502768]
+  - Sep 08 18:47Z — informational: $CORZ historical cycle pattern; 5 runs 60-70d each, 50-270% returns (avg 135%); no execution [$CORZ] [2097396386774040777]
 
 ## Stoiiic
 
