@@ -1,0 +1,133 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Technical market analysis update"
+      },
+      "children": [
+        "tweet_main",
+        "sep1",
+        "chart_section",
+        "sep2",
+        "classification_section",
+        "sep3",
+        "memory_section"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "PUMP retest of 7d rVWAP; technical update with support analysis. Bullish direction bias. Shorts BTC against alts as hedge."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_heading",
+        "chart_text"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "15m/1h Bitget PUMPUSDT showing VWAP confluence + support levels (7d, 30d, 365d)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_info",
+        "classification_text"
+      ]
+    },
+    "badge_info": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL",
+        "variant": "secondary"
+      }
+    },
+    "classification_text": {
+      "type": "Text",
+      "props": {
+        "text": "Step 6 — technical market observation, no new execution",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "memory_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "memory_heading",
+        "mem_item1",
+        "mem_item2",
+        "mem_item3"
+      ]
+    },
+    "memory_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Memory Updated",
+        "level": "h3"
+      }
+    },
+    "mem_item1": {
+      "type": "Text",
+      "props": {
+        "text": "traders.md event appended",
+        "variant": "body"
+      }
+    },
+    "mem_item2": {
+      "type": "Text",
+      "props": {
+        "text": "x-trader-seen.txt recorded",
+        "variant": "body"
+      }
+    },
+    "mem_item3": {
+      "type": "Text",
+      "props": {
+        "text": "daily log created",
+        "variant": "body"
+      }
+    }
+  }
+}
