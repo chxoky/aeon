@@ -1,0 +1,102 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "stack_event",
+        "sep2",
+        "stack_quote",
+        "sep3",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_header",
+        "text_event_detail"
+      ]
+    },
+    "text_event_header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @ADRIAN2021RO regarding time-cycle calculations"
+      }
+    },
+    "text_event_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Prior (Sep 06 21:18Z): 'First I need the bottom so I can do calculations for the top'",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_quote_author",
+        "text_quote_content"
+      ]
+    },
+    "text_quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin_Astro:"
+      }
+    },
+    "text_quote_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"28/29\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "This appears to be a continuation of their conversation on timing/price cycles. What's your read? (Price level, date reference, geometric point, or something else?)",
+        "type": "info"
+      }
+    }
+  }
+}
