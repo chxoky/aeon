@@ -1,0 +1,173 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "status-stack",
+        "pipeline-section",
+        "separator-1",
+        "missed-section",
+        "separator-2",
+        "alert-section"
+      ]
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "status-badge",
+        "priority-badge"
+      ]
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Warning",
+        "variant": "destructive"
+      }
+    },
+    "priority-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "P3",
+        "variant": "secondary"
+      }
+    },
+    "pipeline-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pipeline-heading",
+        "pipeline-details"
+      ]
+    },
+    "pipeline-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "morning-brief / morning-pipeline",
+        "level": "h2"
+      }
+    },
+    "pipeline-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "last-success-text",
+        "schedule-text",
+        "threshold-text"
+      ]
+    },
+    "last-success-text": {
+      "type": "Text",
+      "props": {
+        "text": "Last success: 2026-09-06 09:05 UTC (~59h ago)",
+        "variant": "body"
+      }
+    },
+    "schedule-text": {
+      "type": "Text",
+      "props": {
+        "text": "Daily schedule",
+        "variant": "body"
+      }
+    },
+    "threshold-text": {
+      "type": "Text",
+      "props": {
+        "text": "48h threshold exceeded",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "missed-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "missed-heading",
+        "missed-list"
+      ]
+    },
+    "missed-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Missed runs:",
+        "variant": "lead"
+      }
+    },
+    "missed-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "missed-item-1",
+        "missed-item-2"
+      ]
+    },
+    "missed-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 07 07:00 UTC",
+        "variant": "body"
+      }
+    },
+    "missed-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 08 07:00 UTC",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-box",
+        "action-text"
+      ]
+    },
+    "alert-box": {
+      "type": "Alert",
+      "props": {
+        "title": "Issue Detected",
+        "message": "No dispatch entries in cron-state",
+        "type": "warning"
+      }
+    },
+    "action-text": {
+      "type": "Text",
+      "props": {
+        "text": "Check GitHub Actions for dispatch failures on the morning-pipeline chain.",
+        "variant": "body"
+      }
+    }
+  }
+}
