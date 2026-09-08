@@ -1,0 +1,97 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @bull_genius"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "stack-catalysts",
+        "tweetcard-question",
+        "alert-unclear",
+        "text-context",
+        "link-tweet"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Question posed to @XpiredPineapple3 during market consolidation (BTC 76.7K, Sep 11 CPI / Sep 16 FOMC catalysts)",
+        "variant": "body"
+      }
+    },
+    "stack-catalysts": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-btc",
+        "badge-cpi",
+        "badge-fomc"
+      ]
+    },
+    "badge-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC 76.7K"
+      }
+    },
+    "badge-cpi": {
+      "type": "Badge",
+      "props": {
+        "text": "Sep 11 CPI"
+      }
+    },
+    "badge-fomc": {
+      "type": "Badge",
+      "props": {
+        "text": "Sep 16 FOMC"
+      }
+    },
+    "tweetcard-question": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "@XpiredPineapple3 but are we in a revenue meta?"
+      }
+    },
+    "alert-unclear": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read? \"Revenue meta\" reference unclear (could be project tokenomics, narrative shift, or specific ticker)."
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: bull_genius hedging into macro risk (short adds on bounces), currently long PUMP/ZEC/AI spot.",
+        "variant": "body"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2097273037867327588"
+      }
+    }
+  }
+}

@@ -303,6 +303,7 @@
   - Sep 08 10:03Z — informational: PUMP 7d rVWAP retest technical update; "so far good"; general direction UP; bullish conviction on PUMP/XPL/ZEC/AI coins; relative short BTC against these ("reasonable setup"); awaiting US trading session validation [$PUMP/$XPL/$ZEC/$AI/$BTC-RELATIVE-SHORT] [2097264476969930861]
   - Sep 08 10:23Z — skip: casual research interest on @pepeXBT; conversational reply no thesis/execution [$PEPE] [2097269558268588489]
   - Sep 08 10:24Z — informational: ZEC NFT collection sentiment + price-level questioning; marketplace image showing 3,333 ZEC NFTs priced ~0.44-0.47 ZEC floor; asking peers re: potential 10-20 ZEC floor target (comparing to Nodemonkes prior 1 BTC floor); "appealing" sentiment; no personal execution language [$ZEC-NFT/$SENTIMENT] [2097269928181092615]
+  - Sep 08 10:37Z — ambiguous: @XpiredPineapple3 "revenue meta?" reference unclear; HR-2 calibration sent [$UNKNOWN] [2097273037867327588]
 
 ## t_in_crypto
 
