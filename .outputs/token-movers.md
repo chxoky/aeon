@@ -1,42 +1,43 @@
-*Token Movers — 2026-09-06*
+*Token Movers — 2026-09-08*
 
-_Broad risk-on — 72/100 top-cap alts green, median top-50 +2.8%; DeFi breakout led by ARB and JUP while losers are shallow across the board._
+_Mixed tape — 43/100 top-cap coins green, median top-50 −1.3%; large-cap selling offsets mid-cap alt rotation._
 
 *Top Winners (24h)*
-1. ARB (Arbitrum) — $0.1963  +47.4% / 7d +121.1% / 1h -0.8%  •  $971M /#64  [TRENDING+UP][BREAKOUT]
-2. JUP (Jupiter) — $0.2747  +22.4% / 7d +26.9% / 1h +2.6%  •  $160M /#77  [TRENDING+UP][BREAKOUT]
-3. ZEC (Zcash) — $1,175  +16.1% / 7d +40.8% / 1h -0.4%  •  $1.3B /#9  [TRENDING+UP][BREAKOUT]
-4. UNI (Uniswap) — $7.06  +12.9% / 7d +42.7% / 1h +1.2%  •  $1.1B /#22
-5. DOT (Polkadot) — $0.9862  +8.3% / 7d +15.9% / 1h +1.3%  •  $151M /#53
-6. SKY (Sky) — $0.07196  +7.2% / 7d +2.7% / 1h -0.1%  •  $8.2M /#52
-7. NEAR (NEAR Protocol) — $2.38  +6.7% / 7d +27.0% / 1h -0.8%  •  $506M /#33
-8. AERO (Aerodrome Finance) — $0.5547  +6.7% / 7d +14.3% / 1h +0.2%  •  $44M /#103
-9. ENA (Ethena) — $0.1735  +6.3% / 7d +10.4% / 1h -0.5%  •  $841M /#51
-10. ETHFI (Ether.fi) — $0.5911  +5.8% / 7d +8.2% / 1h -0.3%  •  $51M /#99
+1. STONK — $– +40.9% / 7d –% / 1h –%  •  $– / #228  [PUMP-RISK][TRENDING+UP]
+2. USELESS — $– +17.1% / 7d –% / 1h –%  •  $– / #147  [TRENDING+UP]
+3. AERO — $0.6240 +16.1% / 7d +30.5% / 1h −0.8%  •  $176M / #95  [BREAKOUT][TRENDING+UP]
+4. INJ — $6.25 +9.4% / 7d +29.1% / 1h +0.2%  •  $248M / #94
+5. VVV — $18.96 +8.3% / 7d +13.6% / 1h +4.3%  •  $35.6M / #79  [TRENDING+UP]
+6. VET — $0.007700 +8.0% / 7d +16.3% / 1h −1.4%  •  $20.7M / #93
+7. WBT — $79.04 +8.0% / 7d +10.6% / 1h +1.6%  •  $111M / #15  [MAJOR]
+8. LIT — $4.78 +5.5% / 7d +27.2% / 1h +2.3%  •  $137M / #68  [TRENDING+UP]
+9. ETC — $8.18 +3.6% / 7d +12.6% / 1h +2.4%  •  $66M / #64
+10. ATOM — $1.73 +3.6% / 7d +17.4% / 1h +3.3%  •  $52.7M / #78
 
 *Top Losers (24h)*
-1. VVV (Venice Token) — $17.06  -3.8% / 7d +2.4% / 1h -0.4%  •  $9.6M /#84
-2. PUMP (Pump.fun) — $0.004012  -3.7% / 7d -17.6% / 1h -1.9%  •  $256M /#54
-3. ASTER (Aster) — $0.7873  -2.8% / 7d +12.7% / 1h +0.4%  •  $371M /#44
-4. STABLE — $0.02820  -2.7% / 7d +5.6% / 1h -0.1%  •  $7.7M /#88
-5. SPX (SPX6900) — $0.5744  -2.5% / 7d +4.5% / 1h -4.8%  •  $10.1M /#104
-6. ALGO (Algorand) — $0.09502  -1.8% / 7d +9.7% / 1h -0.1%  •  $36M /#80
-7. CC (Canton) — $0.1104  -1.5% / 7d -6.8% / 1h -0.9%  •  $8.2M /#23
-8. BDX (Beldex) — $0.07885  -1.3% / 7d -1.0% / 1h -0.2%  •  $10.8M /#94
-9. LIT (Lighter) — $4.63  -0.9% / 7d +32.7% / 1h -0.9%  •  $66M /#69
-10. NEXO — $0.8328  -0.4% / 7d -3.1% / 1h -0.7%  •  $2.8M /#83
+1. JUP — $0.2360 −8.3% / 7d +10.8% / 1h −0.2%  •  $68.3M / #85
+2. PONS — $0.7390 −7.9% / 7d +81.9% / 1h +2.7%  •  $166M / #104  [TRENDING+DOWN]
+3. ENA — $0.1576 −7.0% / 7d −3.5% / 1h −0.5%  •  $424M / #55
+4. DASH — $63.15 −6.9% / 7d +38.1% / 1h +0.4%  •  $176M / #83
+5. MORPHO — $2.39 −6.4% / 7d −5.6% / 1h −0.5%  •  $36.6M / #54
+6. HYPE — $82.31 −6.2% / 7d −0.8% / 1h +0.1%  •  $1.02B / #10  [MAJOR]
+7. LINK — $12.36 −6.1% / 7d +9.2% / 1h +0.2%  •  $1.02B / #16  [MAJOR]
+8. XMR — $501.15 −6.0% / 7d −4.1% / 1h −0.4%  •  $123M / #14  [MAJOR]
+9. KAS — $0.03480 −5.4% / 7d +25.8% / 1h +0.4%  •  $33.9M / #75
+10. CC — $0.1027 −5.3% / 7d −12.2% / 1h 0.0%  •  $11.7M / #26
 
 *Trending*
-1. Lil' Shrub (SHRUB) — #692, $0.02790, -67.3%  [TRENDING+DOWN]
-2. Firo (FIRO) — #885, $0.9846, +16.6%
-3. Pons (PONS) — #93, $0.9153, +2.8%  [TRENDING+UP]
-4. Cluster Protocol (CP) — #554, $0.02829, -10.1%  [TRENDING+DOWN]
-5. Arbitrum (ARB) — #64, $0.1951, +47.0%  [TRENDING+UP]
-6. Zcash (ZEC) — #9, $1,175, +16.0%  [TRENDING+UP]
-7. Jupiter (JUP) — #77, $0.2755, +22.6%  [TRENDING+UP]
+1. PONS (#104) — $0.739, −7.9%  [TRENDING+DOWN]
+2. STONK (#228) — $–, +40.9%  [PUMP-RISK][TRENDING+UP]
+3. AERO (#95) — $0.624, +16.4%  [BREAKOUT][TRENDING+UP]
+4. ZEC (#9) — $1,146, −3.0%
+5. USELESS (#147) — $–, +17.1%  [TRENDING+UP]
+6. PUMP (#52) — $0.004328, −2.2%
+7. LIT (#68) — $4.78, +5.6%  [TRENDING+UP]
 
 *Notable*
-• ARB: trending + 47% on $971M vol, 7d +121% — DeFi breakout with strong volume confirmation
-• ZEC: $1,175 now (was $850 Aug 26) — sustained +38% since last log; +41% 7d still extending
-• SHRUB: #692 trending but -67% — micro-cap dump in real time [TRENDING+DOWN]
-• PONS: #93 trending, 7d +193% but flat today (+1.3%) — momentum outlier, potential exhaustion
+• STONK: #228 micro-cap +40.9% trending — [PUMP-RISK]; disregard as signal
+• AERO: strongest signal today — [BREAKOUT][TRENDING+UP], 24h+16%, 7d+30.5%, $176M vol
+• ZEC: $1,146, ranked #9 by market cap; 7d+35.2%; digesting at −3% today
+• JUP: reversed from yesterday +22.4% winner → −8.3%; DeFi selling
+• HYPE [MAJOR] #10: −6.2% today; HCH short live
