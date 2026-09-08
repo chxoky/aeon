@@ -81,6 +81,7 @@
   - Sep 07 19:34Z — informational: $LIT 8EMA technical level test; sarcastic tone "nice of them"; existing LIT long position setup [$LIT] [2097045977253445730]
   - Sep 07 22:33Z — informational: US100 1m market sentiment; sharp decline 29,582.5→29,526.6 late session; "guaranteed red Tuesday?" [$US100/$SPX/$MACRO] [2097090812207370684]
   - Sep 08 01:14Z — ambiguous: "Guaranteed" + XYZ100/US100 intraday charts (sharp selloff); follow-up to Sep 07 22:33Z prediction; no execution language; HR-2 calibration sent [$US100/$XYZ100/$MACRO] [2097131415741898879]
+  - Sep 08 02:37Z — informational: SOXX/IGV ratio technical analysis; 1d chart shows 7.50→4.68 breakdown (June peak to current); 15m divergence chart (SOXX +0.7% vs IGV -3.2%); semis underperformance signal [$SOXX/$IGV/$SEMIS] [2097152425790738711]
 
 ## Stoiiic
 
