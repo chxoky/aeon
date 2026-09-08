@@ -1,0 +1,154 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_stack",
+        "event_stat",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "analysis_stack",
+        "separator3",
+        "question_alert"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "title_heading",
+        "author_badge"
+      ]
+    },
+    "title_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "author_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "event_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE intraday pullback ($84.78 → $82.91)",
+        "value": "$82.91",
+        "delta": "-2.67%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Close it green just this one time"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text",
+        "position_text",
+        "context_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show 1D consolidation with bullish structure. Skeptical meme + intraday market-commentary.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "position_text": {
+      "type": "Text",
+      "props": {
+        "text": "Position: WR holds 50:50 HYPE long",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Not a new trade action.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Interpretation",
+        "message": "How to read sentiment-only posts on existing positions?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

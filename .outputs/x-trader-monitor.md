@@ -1,11 +1,8 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-$LIT
+Event: HYPE intraday pullback ($84.78→$82.91, -2.67%)
+Wild_Randomness: "Close it green just this one time"
 
-4.80 is the new 3.80?
+Charts show 1D consolidation with bullish structure. WR holds 50:50 HYPE long. Skeptical meme + intraday market-commentary. Not a new trade action.
 
-How original, Mr. MM
-
-_LIT consolidated at 5.00 level (4H chart); previous support 3.80. Sarcastic commentary on MM-driven move higher. No execution language — technical price-action observation on existing long position._
-
-[View tweet](https://x.com/Wild_Randomness/status/2097445880769212773)
+How to read sentiment-only posts on existing positions?
