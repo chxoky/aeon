@@ -226,6 +226,7 @@
   - Sep 07 16:05Z — informational: BTCDOM 4h technical chart (labeled levels: 5445.1/5418.3/5286.3/5212.9; current support 5258); no execution language; technical structure confirmation aligns with net-short regime conviction [2096993174262857935]
   - Sep 07 17:21Z — informational-macro: Discord supporting channel (HCH — Chat); reply to member tkglitch369; bearish macro sentiment "Technically it's a bad thing and triggers self-reinforcing loop so definitely not a bullish time for risky assets"; conviction reinforcement on net-short regime [$MACRO] [1546571005496008797]
   - Sep 07 17:21Z — conviction-shift: "Topping this on recent market run and timeline euphoria" (Discord Chat supporting, real-time update); closing/reducing positions due to euphoria concerns on recent market run; supporting-channel de-risking signal; aligns with ongoing net-short regime shift conviction [1546571172240560269]
+  - Sep 08 04:42Z — ambiguous: Discord supporting channel (HCH — Chat); "Yes. But it received the advantage of that listing. Loh!"; cryptic response, no ticker/context (likely reply to member); HR-2 calibration sent [$UNKNOWN] [1546742480404348958]
 
 ## bull_genius
 
