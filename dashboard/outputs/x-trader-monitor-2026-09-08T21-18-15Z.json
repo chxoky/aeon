@@ -1,0 +1,102 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - BTC Technical Update"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "tech_section",
+        "sep2",
+        "commentary_section",
+        "sep3",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "bitcoin in the middle of its correction move. went below ATH aVWAP on US open then a lot of shorts closed... and a dip buyer bid came in. the wick looks pretty good but also we didnt bounce as far as 7d rVWAP goes. will it be enough to paint a bullish higher low here? on paper looks like a very logical zone, however... since its still just tuesday and cpi is on friday i really doubt it. i think we can get a short squeeze to 7d rVWAP / Sept POC, if that happens i would start fading it again. i dont think september lets bulls go this lightly. in my view the correction isnt done and is still going to turn into a full scare and RSI 4H hasnt tapped truly oversold zones yet. so im waiting and enjoying longing my strong alts AI PUMP and XPL"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tech_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_text"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis (4H)",
+        "level": "h3"
+      }
+    },
+    "tech_text": {
+      "type": "Text",
+      "props": {
+        "text": "365d rVWAP 80,277K resistance + trapped longs • 7d rVWAP 79,271K bounce target • ATH aVWAP 78,474K support • Deeper support 74,400K (30d rVWAP) → 73,600K (2024 VAH)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "commentary_heading",
+        "commentary_text"
+      ]
+    },
+    "commentary_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "commentary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with Sep 07 conviction. Reiterates 365d VWAP resistance signal + bearish RSI divergence; expects full reset into mid-Sep CPI/FOMC catalysts before bull run. Hedged stance into Sep 11/16 unchanged."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/bull_genius/status/2097433299232981405"
+      }
+    }
+  }
+}
