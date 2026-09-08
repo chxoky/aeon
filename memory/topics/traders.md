@@ -43,6 +43,7 @@
   - Sep 08 10:12Z — informational: post-trade reflection; "Played out perfectly" on recent trades, tactical regret on not shorting Monday; personal update (relocated country ~2w ago) explains inactivity; promises return to active trading soon [1546825428210286662]
   - Sep 08 15:11Z — informational: macro sentiment critique; LTH supply-in-loss on-chain data refutes "everyone is bullish" narrative; advocates data-driven analysis over social-media sentiment [$BTC] [2097341963913592948]
   - Sep 08 19:18Z — informational: BTC 2022 fractal pattern; 0.5 Fib retest setup + chart; targeting 70K higher low, 73-74K longs; invalidation <57K [$BTC] [2097404257377087939]
+  - Sep 08 20:34Z — informational: technical methodology affirmation; "trade was built around the daily and weekly chart" (supporting TradFi channel, reinforces HTF chart-driven framework) [$METHODOLOGY] [1546982062429306941]
 
 ## Wild_Randomness
 
