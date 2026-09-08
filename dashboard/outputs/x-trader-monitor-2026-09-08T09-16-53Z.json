@@ -1,0 +1,112 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-heading",
+        "event-block",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "classification-status",
+        "questions"
+      ]
+    },
+    "main-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h3"
+      }
+    },
+    "event-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-description"
+      ]
+    },
+    "event-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Event",
+        "variant": "secondary"
+      }
+    },
+    "event-description": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @0xtygra on unknown topic/question"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "both. i can hook u up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question1",
+        "question2",
+        "tweet-url"
+      ]
+    },
+    "question1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this trading-related?"
+      }
+    },
+    "question2": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic intent unclear.",
+        "variant": "muted"
+      }
+    },
+    "tweet-url": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2097251586871304209"
+      }
+    }
+  }
+}
