@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@KillaXBT",
+        "handle": "KillaXBT",
+        "text": "The bottom always forms after 2 red 6 month candles.\n\nAs stated, $BTC is HTF bullish & the bottom is in.\n\nChart: 2-red-6-month pattern labeled with historical cycle repetition, current bottom-in marker after latest red pair."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2097263334722535604"
+      },
+      "children": []
+    }
+  }
+}
