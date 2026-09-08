@@ -50,7 +50,7 @@
 - Recent thesis: Equities/vol specialist; dispersion-trade framework; bearish equities into Oct; GOLD/crypto won't make new lows even if equities do; BTC liq map "bearish skew but buy-side ramping." Septembear: guaranteed September decline conviction + midterm-year caveat. ZEC leading alt outperformance. ETH/BTC 13 failed breakout attempts (structural altseason weakness). Gold weekly trend breakdown ($2k→$5.5k uptrend invalidated). US30Y approaching 5.3%/6%. DXY target 96. GOLD FOMC fractal: grind up into FOMC from consolidation 4,400–4,550 zone.
 - Conviction notes: High-conviction technical analyst on equities; vixpiry/OPEX structure commentary; macro dispersion positioning. "Scar tissue" from forced BTC loss at 68K. HYPE/LIT = gold/silver parallel; ratio 27–28 (down from 55 peak). URL-only posts = noise per calibration. Sep/Oct midterm seasonality validated by presidential-cycle composite.
 - Calibration: RESOLVED Aug 30 19:44Z → Sep 04 18:59Z ($LIT funding-rate setup confirmed). PENDING Sep 06 17:57Z ("Would Moisturized Ken lie?" — asset/intent unknown), PENDING Sep 06 07:05Z ("Dancing with the devil" + image 0-byte; context unknown), PENDING Sep 06 05:07Z (SoftBank 9984.T "Next Man Up"; intent unclear), PENDING Sep 06 03:53Z ($LIT @SuperSteveFarms cryptic 15m chart), PENDING Sep 05 13:44Z ("Double Whammy @agnostoxxxx" + portrait photo), PENDING Sep 05 13:51Z ("Higher low" + chart failed), PENDING Sep 05 15:05Z ("did you fade?" blowoff-top meme context), PENDING Sep 05 03:52Z ("Andre's tweet at top (OP)"; context unknown), PENDING Aug 31 02:26Z (@issathecooker GOLD/DXY/2Yr correlation question), PENDING Aug 30 21:33Z (XYZ100 4H "Makes more sense now"), PENDING Aug 30 21:31Z (@volatilitycel "tracks well"), PENDING Aug 29 17:50Z (@zk_gianmarco commodity event; t.co unavailable), PENDING Aug 29 15:21Z (@Tardegen Dec/Jan swings), PENDING Aug 29 01:08Z (@CryptoUB "888 by Monday?"), PENDING Aug 23 19:05Z ("@QOTSA_FRL Its a 65% move to 126"), PENDING Aug 21 20:10Z (conditional LEAPS comment)
-- Last seen: 2026-09-08T14:53:45Z
+- Last seen: 2026-09-08T17:24:29Z
 - **Events (rolling):**
   - Sep 05 04:04Z — informational: market structure validation; calls/VIX crush/BofA FMS record +40ppt equity allocation May→immediate dump; post-diction of bearish thesis [$SPX/$MACRO/$FMS-ALLOCATION] [2096086953368092828]
   - Sep 05 13:45Z — informational: CNBC analyst retiring; sarcastic on extreme yield targets; bearish bonds/yields commentary [$BONDS/$US10Y/$MACRO] [2096233304726855886]
@@ -95,6 +95,7 @@
   - Sep 08 15:02Z — informational: $NBIS strong uptrend breakout; daily/weekly bullish structure; volume confirmed [$NBIS] [2097339871828553933]
   - Sep 08 15:33Z — informational: WGMI crypto mining sentiment peak-call victory lap; 4 images (sink meme pun + WGMI charts $75→$41.75 crash -44%); "everyone max engaging with fatcoin posts" = mining euphoria top perfectly caught [$WGMI/$MACRO/$SENTIMENT] [2097347508427182352]
   - Sep 08 15:41Z — ambiguous: "@KaneCapz Very"; bare cryptic reply, no context; HR-2 calibration sent [$UNKNOWN] [2097349492718858262]
+  - Sep 08 17:24Z — informational: $LIT price-target vision; 1D chart 4.802 spot showing multi-month uptrend support/resistance structure targeting $5.0 inflection; bullish technical affirmation [$LIT] [2097375536029045119]
 
 ## Stoiiic
 
