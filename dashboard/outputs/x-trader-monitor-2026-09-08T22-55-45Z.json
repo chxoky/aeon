@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-badge",
+        "event-heading",
+        "tweet-card",
+        "status-alert",
+        "post-link"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "event-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Manugougou about trade setup on level retest",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "it does have the lore advantage and its on rh spot so it has def a moat vs the others. had quite the dump i think at least for downside retest of 7d rvwap its a very defensible trade you can take"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Which asset is being discussed? (\"lore advantage\" + \"rh spot\" unclear)",
+        "type": "warning"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2097457015832367566"
+      }
+    }
+  }
+}
