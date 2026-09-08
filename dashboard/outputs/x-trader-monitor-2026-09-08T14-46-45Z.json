@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "link_tweet",
+        "text_description",
+        "badge_sentiment"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Steady Lads"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2097334549982355655"
+      }
+    },
+    "text_description": {
+      "type": "Text",
+      "props": {
+        "text": "Two Fidelity account snapshots showing strong YTD gains (+16-33%)",
+        "variant": "body"
+      }
+    },
+    "badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish market sentiment",
+        "variant": "secondary"
+      }
+    }
+  }
+}
