@@ -359,8 +359,9 @@
 - Recent thesis: Technical entry trader; breakaway gap thesis; HYPE/ETH/GOLD confluence setups. No shorts unless "super clean" setup. Order layering: 3-5 tranches at demand zones. Optimal BTC bid zone 74.5K–76.2K. Gold: 0.5–618 fib + MA retest + consolidation. Copy-trading difficulty escalating ("PvE phase peaked"). BTC: "reminder how quickly euphoria can reverse — why we take partial TPs."
 - Conviction notes: Known for ~20-min pre-BTC-breakout call Aug 20. Formations = "bait for newbies." "Levels are just areas I'm willing to buy." HTF sweeps not a factor. Conditional macro short Aug 20 superseded by current bullish stance.
 - Calibration: PENDING Sep 04 00:47Z (Discord "diaperterliquid" cryptic message), PENDING Aug 28 03:08Z (@CanixXS URL t.co link), PENDING Aug 27 20:34Z ("I don't use H12"), PENDING Aug 26 20:02Z (hmmmmm + chart), PENDING Aug 25 14:53Z ("but yes after real pullback, long dip")
-- Last seen: 2026-09-07T14:49:49Z
+- Last seen: 2026-09-08T15:50:27Z
 - **Events (rolling):**
+  - Sep 08 15:50Z — informational: position update + technical caution; 25% BTC long from 76.5K remains open, 75% TP'd. Key support "box" ~76,600K; warns liquidation cascade risk if breaks below [$BTC] [2097351872453439604]
   - Aug 26 16:30Z — informational: "borderline 0% chance full retracement if healthy breakout" [$BTC] [1542209632456675400]
   - Aug 27 17:05Z — informational: BTC 76.2K + HYPE 76.6 pullback dip-buy levels (JH retest thesis) [$BTC/$HYPE] [2093074271895494816]
   - Aug 27 21:45Z — informational: 76.2–74.3 bid range; "below high 72K's its over" (invalidation) [$BTC] [1542651328050757693]
