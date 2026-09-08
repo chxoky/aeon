@@ -1,0 +1,84 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-section",
+        "separator",
+        "chart-context"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet",
+        "tweet-link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "I don't think any of you understand how good of a call this was (is)\n\nEveryone is (was) max engaging with fatcoin posts…\n\nLet that sink in."
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097347508427182352"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "wgmi-stat",
+        "context-text"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "wgmi-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "WGMI (Bitcoin Mining ETF)",
+        "value": "$41.75",
+        "delta": "-44%",
+        "trend": "down"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Peaked ~$75 in Jun, crashed by Sep. Sentiment top on crypto mining euphoria perfectly called.",
+        "variant": "body"
+      }
+    }
+  }
+}
