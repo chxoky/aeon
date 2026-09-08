@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "stats_section",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$INTC — ~50% spot allocated (wants more), October calls bullish hedge; annoyed market dropped moment after sharing plan.\n\nTechnical: 1D at $90.04 support (chart analysis shows 37% decline from $142 July peak, consolidation building near support).\n\nUnderlying conviction: contrarian long into oversold levels with leveraged call hedge; position sizing discipline (50% of desired = risk management)"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stats_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_allocation",
+        "stat_support",
+        "stat_decline"
+      ]
+    },
+    "stat_allocation": {
+      "type": "Stat",
+      "props": {
+        "label": "Spot Allocated",
+        "value": "50%"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Level",
+        "value": "$90.04"
+      }
+    },
+    "stat_decline": {
+      "type": "Stat",
+      "props": {
+        "label": "Decline from Peak",
+        "value": "37%",
+        "trend": "down"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097151834469372322"
+      }
+    }
+  }
+}
