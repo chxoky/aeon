@@ -1,0 +1,140 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "message_section",
+        "sep2",
+        "analysis_alert",
+        "context_text",
+        "badges_stack",
+        "sep3",
+        "metadata"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_label",
+        "msg_text"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "msg_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc hood 15m"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Appears to be HCH's documented false-close chart check notation, but ticker \"hood\" is unclear (HOOD/Robinhood, or typo for another ticker?).",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel context.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badges_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "No execution language",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart/intent unclear",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1546959569035722835",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
