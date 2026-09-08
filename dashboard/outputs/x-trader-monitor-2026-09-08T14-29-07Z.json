@@ -1,0 +1,58 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @trading_axe"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event",
+        "quote",
+        "status",
+        "link"
+      ]
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Robinhood $HOOD to take minority stake in Crypto.com"
+      },
+      "children": []
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "@trading_axe: \"Just two back to back random guesses. ~ Dr. Axius.\""
+      },
+      "children": []
+    },
+    "status": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2097330343472750837"
+      },
+      "children": []
+    }
+  }
+}
