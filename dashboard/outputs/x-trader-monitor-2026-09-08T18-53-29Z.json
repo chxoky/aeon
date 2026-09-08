@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Informational commentary on equity + options idea"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-ticker",
+        "text-commentary"
+      ]
+    },
+    "badge-ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "CORZ",
+        "variant": "default"
+      }
+    },
+    "text-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Already in from 16 but Dec 20s are decent punt on red day",
+        "variant": "body"
+      }
+    }
+  }
+}

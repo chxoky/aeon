@@ -34,3 +34,4 @@ This is **not a trade signal** because:
 ✅ Logged event details to `memory/logs/2026-09-08.md`  
 
 No notification was sent—the observation was filed silently to memory as it doesn't meet alert criteria for Kyle's focus areas.
+CORZ — Already in from 16 but Dec 20s are decent punt on red day — Informational commentary on equity + options idea
