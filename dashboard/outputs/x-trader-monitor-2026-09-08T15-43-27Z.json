@@ -1,0 +1,131 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-section",
+        "separator1",
+        "classification-section",
+        "post-link"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-text",
+        "response-text"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @KaneCapz post (content unknown)"
+      }
+    },
+    "response-text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: \"Very\""
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-question",
+        "is-this-text",
+        "options-stack"
+      ]
+    },
+    "classification-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "is-this-text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this:"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ]
+    },
+    "option1": {
+      "type": "Badge",
+      "props": {
+        "text": "Agreement/confirmation?",
+        "variant": "outline"
+      }
+    },
+    "option2": {
+      "type": "Badge",
+      "props": {
+        "text": "Sarcasm?",
+        "variant": "outline"
+      }
+    },
+    "option3": {
+      "type": "Badge",
+      "props": {
+        "text": "Dismissal?",
+        "variant": "outline"
+      }
+    },
+    "option4": {
+      "type": "Badge",
+      "props": {
+        "text": "Something else?",
+        "variant": "outline"
+      }
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2097349492718858262",
+        "source": "X"
+      }
+    }
+  }
+}
