@@ -1,0 +1,82 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator",
+        "prices_section",
+        "analysis_text"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$HYPE I've seen the future"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097455818237198401"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prices_section": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "hype_stat",
+        "lit_stat"
+      ]
+    },
+    "hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE Recovery",
+        "value": "$55→$84.86",
+        "delta": "+54%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "lit_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "LIT Uptrend",
+        "value": "$1.77→$4.785",
+        "delta": "+170%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish technical reaffirmation on your watch-list ticker: HYPE charts show $55→$84.86 recovery + LIT uptrend $1.77→$4.785 with continued bullish directional bias marked by upward arrows. Meme-supported sentiment. Context: WR already holds HYPE long as of Sep 08 17:59Z conviction add at 80-84 zone.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
