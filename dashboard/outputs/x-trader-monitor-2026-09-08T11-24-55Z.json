@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_text",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Why I believe the $BTC bottom is in.\n\nIts been a while..."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical 6-month cycle pattern analysis: current drawdown (-42.30%) mirrors prior historical bottoms; structure validates HTF bullish thesis. (Chart shows recurring V-shaped formations with identical structure to market lows.)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2097283660814713105"
+      },
+      "children": []
+    }
+  }
+}
