@@ -1,0 +1,1082 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker"
+      },
+      "children": [
+        "date-text",
+        "sep-1",
+        "transitions-section",
+        "sep-2",
+        "reflexivity-section",
+        "sep-3",
+        "positions-section",
+        "sep-4",
+        "map-section"
+      ]
+    },
+    "date-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-08",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge",
+        "t1-title",
+        "t1-text"
+      ]
+    },
+    "t1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "t1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC / Privacy",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Grayscale ZCSH spot ETF hits $34M+ net inflows, institutionalizing \"financial privacy in AI era\"; contested: HCH short vs bull_genius/trading_axe longs"
+      },
+      "children": []
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge",
+        "t2-title",
+        "t2-text"
+      ]
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "t2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Cycle Bottom Thesis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t2-text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT returned from hiatus with 2-red-6M-candle structural chart (\"bottom is in\"); bull_genius: HTF bullish but expects 72K flush first (RSI div, 2.5wk distribution above $78K)"
+      },
+      "children": []
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge",
+        "t3-title",
+        "t3-stats",
+        "t3-text"
+      ]
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "t3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "September Macro Catalysts",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t3-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t3-stat-1",
+        "t3-stat-2",
+        "t3-stat-3"
+      ]
+    },
+    "t3-stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap Growth",
+        "value": "+17.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "t3-stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$2.70T"
+      },
+      "children": []
+    },
+    "t3-stat-3": {
+      "type": "Stat",
+      "props": {
+        "label": "Rate Hike Probability",
+        "value": "58%"
+      },
+      "children": []
+    },
+    "t3-text": {
+      "type": "Text",
+      "props": {
+        "text": "CPI Sep 11 + FOMC Sep 16; hawkish rally lifted market cap +17.6% to $2.70T"
+      },
+      "children": []
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-badge",
+        "t4-title",
+        "t4-stat",
+        "t4-text"
+      ]
+    },
+    "t4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "t4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Semi Sector Dislocation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t4-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOXX/IGV Ratio",
+        "value": "-40%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "t4-text": {
+      "type": "Text",
+      "props": {
+        "text": "SOXX/IGV ratio -40% from June peak; Wild_Randomness entered INTC spot at $90; Chase conditional long validated; SK Hynix 2nd Sep mention"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-alert-1",
+        "reflexivity-alert-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "reflexivity-alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "ZEC",
+        "message": "Grayscale ZCSH ETF $34M+ inflows funding narrative directly; price moving on ETF flow, not protocol fundamentals",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "reflexivity-alert-2": {
+      "type": "Alert",
+      "props": {
+        "title": "AI Agent Infrastructure",
+        "message": "OKX + Coinbase + a16z endorsing \"next wave\" = institutional stack manufacturing legitimacy; Keyrock: $73M settled / 176M txs (real but 0.003% of $2.7T market)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "position-1",
+        "position-2",
+        "position-3",
+        "position-4",
+        "position-5",
+        "position-6",
+        "position-7",
+        "position-8"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "position-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-badge",
+        "p1-title",
+        "p1-stats",
+        "p1-text",
+        "p1-bear"
+      ]
+    },
+    "p1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "primary"
+      },
+      "children": []
+    },
+    "p1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Semi Sector Dislocation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p1-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p1-stat-mindshare",
+        "p1-stat-direction"
+      ]
+    },
+    "p1-stat-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "2",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "p1-stat-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear→Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p1-text": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness + @Crypto_Chase convergent on INTC $90 support; SK Hynix catalyst emerging"
+      },
+      "children": []
+    },
+    "p1-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: SOXX/IGV -40% structural damage, AI capex may not offset hardware demand contraction",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "position-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-badge",
+        "p2-title",
+        "p2-stats",
+        "p2-text",
+        "p2-bear"
+      ]
+    },
+    "p2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Infrastructure",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p2-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p2-stat-mindshare",
+        "p2-stat-direction"
+      ]
+    },
+    "p2-stat-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "5"
+      },
+      "children": []
+    },
+    "p2-stat-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase, OKX MCP, a16zcrypto; SOL/ETH primary"
+      },
+      "children": []
+    },
+    "p2-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: exploit risk, immaterial settlement vol",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "position-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-badge",
+        "p3-title",
+        "p3-stats",
+        "p3-text",
+        "p3-bear"
+      ]
+    },
+    "p3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Markets",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p3-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p3-stat-mindshare",
+        "p3-stat-direction"
+      ]
+    },
+    "p3-stat-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "p3-stat-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket Hormuz + FOMC Sep 16 binaries at peak"
+      },
+      "children": []
+    },
+    "p3-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: thin liquidity on hot binaries",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "position-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-badge",
+        "p4-title",
+        "p4-stats",
+        "p4-text",
+        "p4-bear"
+      ]
+    },
+    "p4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Solana Meme Alt Rotation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p4-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p4-stat-mindshare",
+        "p4-stat-direction"
+      ]
+    },
+    "p4-stat-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3"
+      },
+      "children": []
+    },
+    "p4-stat-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p4-text": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius PUMP 10x +52%, ZEC/AI/XPL spot; short BTC/long winner alts"
+      },
+      "children": []
+    },
+    "p4-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: MEV/frontrun risk flagged by bull_genius himself",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "position-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5-badge",
+        "p5-title",
+        "p5-stats",
+        "p5-text",
+        "p5-note"
+      ]
+    },
+    "p5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p5-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p5-stat-mindshare",
+        "p5-stat-direction"
+      ]
+    },
+    "p5-stat-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4"
+      },
+      "children": []
+    },
+    "p5-stat-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p5-text": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional consensus; Clarity Act delayed Sep 14"
+      },
+      "children": []
+    },
+    "p5-note": {
+      "type": "Text",
+      "props": {
+        "text": "No near-term catalyst spike",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "position-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p6-badge",
+        "p6-title",
+        "p6-stats",
+        "p6-text"
+      ]
+    },
+    "p6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "p6-title": {
+      "type": "Heading",
+      "props": {
+        "text": "InfoFi / Kaito Yapper Meta",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p6-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p6-stat-mindshare",
+        "p6-stat-direction"
+      ]
+    },
+    "p6-stat-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "p6-stat-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p6-text": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito shut Yaps Jan 15; gamified reflexivity loop broken; core mindshare signal survives, meta is dead"
+      },
+      "children": []
+    },
+    "position-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p7-badge",
+        "p7-title",
+        "p7-stats",
+        "p7-text"
+      ]
+    },
+    "p7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "p7-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p7-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p7-stat-mindshare",
+        "p7-stat-direction"
+      ]
+    },
+    "p7-stat-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "p7-stat-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p7-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETF institutional vs HCH short; contested"
+      },
+      "children": []
+    },
+    "position-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p8-badge",
+        "p8-title",
+        "p8-stats",
+        "p8-text"
+      ]
+    },
+    "p8-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "p8-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Cycle Bottom",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p8-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p8-stat-mindshare",
+        "p8-stat-direction"
+      ]
+    },
+    "p8-stat-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "p8-stat-direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p8-text": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT HTF bull vs bull_genius STF bear; FOMC Sep 16 resolves"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-emerging-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-1",
+        "map-emerging-2"
+      ]
+    },
+    "map-emerging-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Semi Sector Dislocation",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-emerging-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DePIN x AI",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-rising-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-1",
+        "map-rising-2",
+        "map-rising-3",
+        "map-rising-4",
+        "map-rising-5"
+      ]
+    },
+    "map-rising-1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Infrastructure",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-rising-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-rising-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Solana Meme Alt Rotation",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-rising-4": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC/Privacy",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-rising-5": {
+      "type": "Badge",
+      "props": {
+        "text": "September Macro Catalysts",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-item"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-peak-item": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-item"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-fading-item": {
+      "type": "Badge",
+      "props": {
+        "text": "InfoFi/Kaito Yapper Meta",
+        "variant": "destructive"
+      },
+      "children": []
+    }
+  }
+}
