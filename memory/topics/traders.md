@@ -41,6 +41,7 @@
   - Sep 08 08:24Z — informational: Monday retracement pattern analysis; historical chart overlay showing pump-into-Monday then retrace pattern; -2.5% pullback this Monday from highs [$BTC] [2097239684908777697]
   - Sep 08 09:58Z — informational: 2-red-6-month-candle bottom pattern thesis; labeled chart showing recurring cycle; reaffirms HTF bullish conviction with current bottom-in signal [$BTC] [2097263334722535604]
   - Sep 08 10:12Z — informational: post-trade reflection; "Played out perfectly" on recent trades, tactical regret on not shorting Monday; personal update (relocated country ~2w ago) explains inactivity; promises return to active trading soon [1546825428210286662]
+  - Sep 08 15:11Z — informational: macro sentiment critique; LTH supply-in-loss on-chain data refutes "everyone is bullish" narrative; advocates data-driven analysis over social-media sentiment [$BTC] [2097341963913592948]
 
 ## Wild_Randomness
 
