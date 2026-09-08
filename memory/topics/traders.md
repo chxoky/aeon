@@ -335,6 +335,7 @@
   - Sep 08 13:40Z — informational: BTC 1D technical breakdown; 2.5wk distribution above 78k, decreasing buyer strength, lower-high pattern, bearish RSI divergence; laggard longs flushed; conviction test before next leg [$BTC] [2097319289258754322]
   - Sep 08 18:51Z — informational: ARTIFICIAL-INU 1h market-profile strength; consolidation structure (0.24–0.26 zone); PLASMA + Solana alt strength thesis; bearish BTC sentiment ("despite bitcoin not behaving") [$ARTIFICIAL-INU/$PLASMA/$SOL] [2097397434334749148]
   - Sep 08 21:14Z — informational: BTC correction analysis; 4h chart with VWAP levels (365d/7d/30d rVWAP, ATH aVWAP support); reiterates Sep 07 bearish conviction: trapped longs above 365d rVWAP, RSI divergence, expects reset to 72K before bull; hedged into CPI/FOMC catalysts [$BTC] [2097433299232981405]
+  - Sep 08 21:17Z — informational: BTC technical structure "doodle"; 4h perpetual chart annotated with trapped longs/shorts, 365d/7d/30d/ATH/2026 VWAP confluences, support zones; educational response to @0xApheli0n [$BTC] [2097434287746249190]
 
 ## t_in_crypto
 
