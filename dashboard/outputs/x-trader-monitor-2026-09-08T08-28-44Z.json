@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "stats_stack",
+        "sep2",
+        "analysis",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Nearly every pump heading into Monday has ended up being retraced.\n\nBy no surprise, $BTC saw a 2.5% pullback from the established highs on Monday.\n\nStandard ✅"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc_pullback",
+        "stat_btc_target"
+      ]
+    },
+    "stat_btc_pullback": {
+      "type": "Stat",
+      "props": {
+        "label": "$BTC Pullback",
+        "value": "-2.5%",
+        "trend": "down"
+      }
+    },
+    "stat_btc_target": {
+      "type": "Stat",
+      "props": {
+        "label": "Bullish Target (Nov 2027)",
+        "value": "126K"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Pattern Analysis",
+        "message": "Historical Monday-weakness pattern validation. Aligns with documented HTF bullish bias (targets 126K Nov 2027) but highlights LTF mean-reversion risk into weekly closes.",
+        "type": "info"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2097239684908777697"
+      }
+    }
+  }
+}
