@@ -1,0 +1,81 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel_indicator",
+        "sep1",
+        "conversation_stack"
+      ]
+    },
+    "channel_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Discord Channel: Chase — TradFi",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conversation_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "member_message_stack",
+        "response_text"
+      ]
+    },
+    "member_message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "member_indicator",
+        "member_question_text"
+      ]
+    },
+    "member_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member",
+        "variant": "muted"
+      }
+    },
+    "member_question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Can you share what made you hypothesize initially that gold would be a ~two week trade? How did you assess that time horizon?"
+      }
+    },
+    "response_text": {
+      "type": "Text",
+      "props": {
+        "text": "It took 47 days to create the structure and provide the entry. You can entertain the possibility that it could take a couple of weeks to provide the proper bounce."
+      }
+    }
+  }
+}
