@@ -295,6 +295,7 @@
   - Sep 08 07:46Z — informational: @fun_nft sentiment; "closest thing to punks / worthy successor" [$NFT] [2097230168506986699]
   - Sep 08 09:11Z — ambiguous: "@fun_nft @Argstrategy all part of the art performance"; cryptic philosophical commentary (HR-2 calibration) [2097251386400407561]
   - Sep 08 09:16Z — ambiguous: "@huskyXBT most likely broski"; cryptic reply, no context; HR-2 calibration sent [$UNKNOWN] [2097252622340116907]
+  - Sep 08 09:18Z — informational: @chrisgrix_ reply on hedge strategy; "yeah just short majors and bet on winner coins to balance it out / good take i fully agree"; portfolio hedge philosophy (short BTC/ETH + long winner alts) — aligns with Sep 05-06 conviction (PUMP longs, alt bullishness); no execution language; pure commentary affirmation [$BTC/$ETH/$WINNERS] [2097253141796331525]
 
 ## t_in_crypto
 
