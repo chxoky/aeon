@@ -1,0 +1,73 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_calibration",
+        "text_event",
+        "tweet_card",
+        "text_status",
+        "separator_1",
+        "link_view"
+      ]
+    },
+    "text_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @shockermandan on X",
+        "variant": "body"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "no it wouldnt"
+      }
+    },
+    "text_status": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2097294013153816979"
+      }
+    }
+  }
+}
