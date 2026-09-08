@@ -1,0 +1,43 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Little pattern I have spotted.\n\nBack in 2022, after $BTC broke out of its range, price came back down to test the 0.5 level between the range high & range low before continuing higher.\n\nIf we happen to follow a similar pattern, it would put a potential higher low around 70K.\n\nOf course, as I have already mentioned, I will be looking for continuation longs around 73-74K, with my invalidation remaining below the 57K low.\n\nJust thought I would showcase this fractal, as it is definitely something I wouldn't be surprised to see play out."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2097404257377087939"
+      },
+      "children": []
+    }
+  }
+}
