@@ -301,6 +301,7 @@
   - Sep 08 09:18Z — informational: @chrisgrix_ reply on hedge strategy; "yeah just short majors and bet on winner coins to balance it out / good take i fully agree"; portfolio hedge philosophy (short BTC/ETH + long winner alts) — aligns with Sep 05-06 conviction (PUMP longs, alt bullishness); no execution language; pure commentary affirmation [$BTC/$ETH/$WINNERS] [2097253141796331525]
   - Sep 08 10:02Z — informational: PUMP solana token technical update; 7d rVWAP retest + support levels below; bullish directional bias; likes PUMP/XPL/ZEC coins; shorts BTC against alts (hedge); chart shows VWAP confluences + support zones [$PUMP/$BTC-HEDGE] [2097264245058527621]
   - Sep 08 10:03Z — informational: PUMP 7d rVWAP retest technical update; "so far good"; general direction UP; bullish conviction on PUMP/XPL/ZEC/AI coins; relative short BTC against these ("reasonable setup"); awaiting US trading session validation [$PUMP/$XPL/$ZEC/$AI/$BTC-RELATIVE-SHORT] [2097264476969930861]
+  - Sep 08 10:23Z — skip: casual research interest on @pepeXBT; conversational reply no thesis/execution [$PEPE] [2097269558268588489]
 
 ## t_in_crypto
 
