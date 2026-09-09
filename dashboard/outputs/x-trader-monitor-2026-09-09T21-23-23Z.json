@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ANSEM — Support breakdown prediction\n\nCurrent: 0.1585 USDT (-19.59%)\nKey levels: 0.1585 → 0.1500 (critical support)\n\n\"Lose this level and its lights out\"\n\nExtends prior bearish thesis (Jul 15 fractal, Aug 18 pump-dump pattern). Charts show consolidation structure with increasing selling pressure (red-dominated volume, declining RSI)."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097796662735650998"
+      }
+    }
+  }
+}
