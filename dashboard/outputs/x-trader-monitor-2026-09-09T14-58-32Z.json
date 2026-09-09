@@ -1,0 +1,111 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor: GOLD Technical Analysis",
+        "description": "Multi-timeframe technical reinforcement"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "context_heading",
+        "context_stack",
+        "sep2",
+        "interp_heading",
+        "interp_text",
+        "sep3",
+        "status_alert",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "GOLD — Multi-timeframe technical reinforcement. Posted 4 charts (1W/mid-term/long-term) validating GOLD consolidation structure around 4,400–4,500 with recent recovery (+67 to +24 bps this session). \"Starting to see it now?\" — cryptic caption with meme suggests confirmation of consolidation setup."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "weekly_text",
+        "may_nov_text",
+        "long_term_text"
+      ]
+    },
+    "weekly_text": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly: V-shaped recovery off lows, consolidation zone 4,400–4,500"
+      }
+    },
+    "may_nov_text": {
+      "type": "Text",
+      "props": {
+        "text": "May–Nov timeframe: Box consolidation entry zone marked with downward arrow"
+      }
+    },
+    "long_term_text": {
+      "type": "Text",
+      "props": {
+        "text": "Long-term (Jul 2026–Mar 2027): Full uptrend recovery 3,000→5,000+ peak, now consolidating at 4,379–4,493 box"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "interp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "interp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates earlier Aug 28 pending GOLD long signal. Technical multi-timeframe confluence = buy-side setup ready."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Status",
+        "message": "Informational reinforcement of pending GOLD long thesis - awaiting approve GOLD",
+        "type": "info"
+      }
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2097700065817334046",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
