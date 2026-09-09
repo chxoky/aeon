@@ -228,7 +228,7 @@
 - Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: BTC (conviction adds Aug 20-21 +5%+5%), ZEC, HYPE, SOL (re-added Aug 27), ETH (re-added Aug 27), PUMP, UNI, ADA, KAITO, SPCX, TSLA, PLTR, DOGE, CL + others. XMR short CLOSED Sep 07 11:59Z (2% pf, 1x lev, full cover). Tactical long spots FULLY CLOSED Sep 05 15:47Z (BCH/BNB/BITLIGHT via BTC.D signal). Stocks FULLY CLOSED Aug 20. Partial TPs Aug 21: SOL 7.5%, ETH 7.5%, HYPE 2.5%.
 - Recent thesis: Regime shifted net-short Aug 07 on BTC structure rejection. "Blow off top forming like a shitcoin scam pump." Expects "full mega retrace." Fake-bottom thesis: "target the other side, hit real bottom in October." COCOA bearish macro conviction (Aug 29). Sep 04–05: brief tactical long accumulation (BCH 4%/BNB 2%/STRK 2%/BITLIGHT) closed Sep 05 on BTC.D signal. XMR new short add Sep 06.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (not execution). "Always high-leverage & all-in folks get hurt." Scaled entries NOT all-in. Partial TPs do not end regime. Multi-account structure.
-- Last seen: 2026-09-09T05:53:43Z
+- Last seen: 2026-09-09T09:59:56Z
 - **Events (rolling):**
   - Aug 21 07:22Z — conviction-add: "Add 5% btc short" (Trades primary); scaled entry [$BTC-SHORT] [1540259770999644221]
   - Aug 21 07:25Z — trade-new-entry: "2% pump short" (Trades primary); 14th ticker in basket [$PUMP-SHORT] [1540260423800983622]
@@ -276,6 +276,7 @@
   - Sep 09 04:40Z — informational: "fc zec 1hr" (Trades primary ★); false-close chart check on ZEC 1hr timeframe; technical structure validation on existing short (1235 entry, 1% size, Sep 07); contextualizes ongoing ZEC short thesis [$ZEC] [1547104508579156080]
   - Sep 09 05:53Z — informational: market regime + bottom-finding skepticism (Chat supporting); reply on trader performance (past bear market vs bull market capability) + requirement for HH/HL structure on HTF to confirm bottom finding; supports net-short regime conviction timing [$MACRO] [1547122815679987722]
   - Sep 09 09:07Z — informational: DXY daily HTF structure 98.77 confluence zone; 18-year uptrend 2012→2026; macro risk-off tape [$DXY/$MACRO] [2097612797463150801]
+  - Sep 09 09:59Z — ambiguous: X post "There's a reason the london session is trading like this"; cryptic with chart ref (image fetch failed); HR-2 calibration sent [$UNKNOWN] [2097626046073848011]
 
 ## bull_genius
 

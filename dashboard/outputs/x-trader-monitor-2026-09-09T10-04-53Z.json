@@ -1,0 +1,131 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "tweet_card",
+        "alert_chart",
+        "separator_1",
+        "stack_context",
+        "separator_2",
+        "alert_classification"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Real-time London trading session commentary",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "There's a reason the london session is trading like this"
+      },
+      "children": []
+    },
+    "alert_chart": {
+      "type": "Alert",
+      "props": {
+        "title": "Chart Image",
+        "message": "Attached to tweet but failed to fetch",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "text_context_1",
+        "text_context_2",
+        "text_context_3"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH currently in net-short regime (since Aug 07)"
+      },
+      "children": []
+    },
+    "text_context_2": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts focused on macro/technical structure and short positions"
+      },
+      "children": []
+    },
+    "text_context_3": {
+      "type": "Text",
+      "props": {
+        "text": "This cryptic reference could be informational technical observation or conviction setup — unable to classify without seeing the chart"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertain",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
