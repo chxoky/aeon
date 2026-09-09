@@ -1,8 +1,5 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: Cryptic message with unreadable image
-Wild_Randomness: "Liquidate Good Alexander https://t.co/Ypc5YBLUuP"
+AAPL chart snapshot + bearish sentiment: Apple events "always suck" narrative playing out (down 6% post-event). Validates your Oct $300 put short thesis.
 
-Image fetch failed (0-byte CDN). Unable to classify — what's your read?
-
-[View post](https://x.com/Wild_Randomness/status/2097759436676935783)
+[View tweet](https://x.com/Wild_Randomness/status/2097759974214844600)

@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_main",
+        "separator_1",
+        "details_stack"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "AAPL chart snapshot + bearish sentiment: Apple events \"always suck\" narrative playing out (down 6% post-event). Validates your Oct $300 put short thesis."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stock_stat",
+        "badges_row",
+        "tweet_link"
+      ]
+    },
+    "stock_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AAPL Post-Event",
+        "value": "-6%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "badges_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_bearish",
+        "badge_narrative",
+        "badge_thesis"
+      ]
+    },
+    "badge_bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Sentiment",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "Apple events always suck",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "Oct $300 put short",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097759974214844600"
+      },
+      "children": []
+    }
+  }
+}
