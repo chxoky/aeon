@@ -1,11 +1,11 @@
-Perfect. Event processed successfully:
+🐦 *[X] @bull_genius*
 
-## Summary
+key spot into US open in 45 minutes
 
-**Event:** @bull_genius reply "@idrawfrogs that was the tweet" (Sep 09 12:13:42Z)
-- **Tweet ID:** 2097659713043284282
-- **Classification:** SKIP (non-financial personal banter)
-- **Action:** No alert sent, no event line added to traders.md
-- **Logging:** Added to daily log (event #29) and dedup list (x-trader-seen.txt)
+considering my hedges invalidated above here and above 365d rVWAP
 
-Per Step 4A classification rules, this personal meta-commentary tweet contains no market signal, ticker, or execution language. It was skipped entirely as per HR-1 protocol (non-financial events are logged only, no traders.md event line, no notification).
+up would be the best case scenario but the resistance needs to fall
+
+this is where you turn on the prayers
+
+[View tweet](https://x.com/bull_genius/status/2097667801141899472)
