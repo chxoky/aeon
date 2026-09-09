@@ -1,0 +1,50 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "view_link",
+        "commentary"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "consolidation\n\n0.5 eth double bottom, ATH test and breakout next https://t.co/BZai6MnI5r"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genis/status/2097658226980393418"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Bull-side technical push conflicts with 3-trader bearish convergence (HCH/ryzzqq/Crypto_Chase); consolidation contested. Chart supports setup visually.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
