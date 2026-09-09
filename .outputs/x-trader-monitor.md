@@ -1,1 +1,13 @@
-🔍 *Calibration — @trading_axe*\n\nEvent: Reply to @cryptoklotz on unclear topic\ntrading_axe: "I think you got it a bit misconstrued bro, I'm on about zzz-2:native. ~ Dr. Axius."\n\nUnable to classify — what's your read?\n\n[View tweet](https://x.com/trading_axe/status/2097560453975052316)
+🔍 *Calibration — @trading_axe*
+
+Event: brief market message with low confidence
+
+trading_axe: "Close your CASHCAT and PONS shorts my nigga Loracle.
+
+Ion know too much but #JustSayin.
+
+~ Dr. Axius. 💤"
+
+Unable to classify — addressed at Loracle but unclear if this is the trader's own action (mirrors the position) or advice/suggestion to others. What's your read?
+
+[View post](https://x.com/trading_axe/status/2097570190946971689)
