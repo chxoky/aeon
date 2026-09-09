@@ -1,0 +1,46 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-view-tweet",
+        "separator-1",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "@docXBT yeah low 70s would be nice but maybe 74s or high 60s lol\n\ngotta keep an eye on perp mfs trying to preemptively blast longs on any dip all the way down"
+      }
+    },
+    "link-view-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2097769601421504589"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market structure insight on perpetual futures liquidation dynamics — aligns with BTC consolidation range thesis (70s-74s-60s as key dip-buy zones per broader trader convergence on structural recovery setup).",
+        "variant": "muted"
+      }
+    }
+  }
+}
