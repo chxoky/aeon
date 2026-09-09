@@ -1,0 +1,95 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-1",
+        "text-event",
+        "separator-1",
+        "text-quote-header",
+        "stack-quote",
+        "separator-2",
+        "alert-classify"
+      ]
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @AlexCorrino with contemplation meme",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-quote-header": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack-quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-quote",
+        "link-tweet"
+      ]
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "Indeed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "https://t.co/pyy7UwupZr",
+        "href": "https://t.co/pyy7UwupZr"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Need to see linked content or context",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
