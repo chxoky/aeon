@@ -273,6 +273,7 @@
   - Sep 09 04:23Z — ambiguous: Discord supporting channel (HCH — Chat); "Enas is back and he is long 🗿📉"; comment on another trader's position with skeptical emojis; chart screenshot attached; context/significance unclear; HR-2 calibration alert sent [$UNKNOWN-TRADER] [1547100121626320947]
   - Sep 09 04:29Z — informational: "fc aster ema50 4hr" (Discord Chat supporting); false-close chart check notation on ASTER; 4hr timeframe technical structure check; no execution language; aligns with existing ASTER swing long (entry 0.773 Sep 06) [$ASTER] [1547101508774928404]
   - Sep 09 04:37Z — informational: Bitcoin performance chart (2025 bear vs 2017/18 & 2021/22 cycles); comparison showing 2025 tracking stronger; hourglass emoji implies patience/waiting; supports net-short conviction on timing to October bottom [$BTC/$MACRO] [2097544784932159662]
+  - Sep 09 04:40Z — informational: "fc zec 1hr" (Trades primary ★); false-close chart check on ZEC 1hr timeframe; technical structure validation on existing short (1235 entry, 1% size, Sep 07); contextualizes ongoing ZEC short thesis [$ZEC] [1547104508579156080]
 
 ## bull_genius
 
