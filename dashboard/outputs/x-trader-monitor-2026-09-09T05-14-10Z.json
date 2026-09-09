@@ -1,0 +1,96 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "text-event",
+        "separator-2",
+        "stack-quote",
+        "separator-3",
+        "alert-classification"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Exited position (\"bounced\") with unclear reference; supporting another trader (@tsorfF7) from sidelines.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-quote-label",
+        "text-quote-content"
+      ]
+    },
+    "text-quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "trading_axe:",
+        "variant": "caption"
+      }
+    },
+    "text-quote-content": {
+      "type": "Text",
+      "props": {
+        "text": "\"The vamp shit has given me PTSD ngl, I bounced but I'm still supporting you niggaz from the sidelines.\"",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What security did they exit from, and is this trade relevant to copy?",
+        "type": "warning"
+      }
+    }
+  }
+}
