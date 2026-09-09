@@ -1,0 +1,134 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — DC: HCH — Chat",
+        "description": "Discord message classification request"
+      },
+      "children": [
+        "heading_context",
+        "separator_1",
+        "text_user",
+        "text_message",
+        "text_timestamp",
+        "separator_2",
+        "heading_challenge",
+        "text_unable_classify",
+        "badge_uncertain",
+        "stack_options",
+        "separator_3",
+        "text_question"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Event Context",
+        "level": "h3"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_user": {
+      "type": "Text",
+      "props": {
+        "text": "User: HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Message: \"Patience ⏳\"",
+        "variant": "body"
+      }
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Posted: 2026-09-09T14:26:28Z (34 min after BTC technical update at Sep 09 13:52Z)",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_challenge": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Challenge",
+        "level": "h3"
+      }
+    },
+    "text_unable_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "variant": "body"
+      }
+    },
+    "badge_uncertain": {
+      "type": "Badge",
+      "props": {
+        "text": "Classification Uncertain",
+        "variant": "secondary"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Market timing sentiment — \"be patient for structure\"?",
+        "variant": "body"
+      }
+    },
+    "option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Banter/motivational?",
+        "variant": "body"
+      }
+    },
+    "option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Context missing?",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
