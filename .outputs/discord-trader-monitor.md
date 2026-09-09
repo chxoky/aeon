@@ -1,24 +1,20 @@
 ## Summary
 
-I've executed the discord-trader-monitor skill with the provided Discord event. Here's what was processed:
+**Skill execution: `discord-trader-monitor`** for HeartCanHodl message at **2026-09-09T16:08:41Z UTC**
 
-**Event Details:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1279738718680256553 (HCH — Trades, primary ★)
-- **Message:** "2% pf 20x lev. long btc with invalidate 77,999 (-0.6%)"
-- **Timestamp:** 2026-09-09T15:49:53Z
-- **Classification:** trade-new-entry (BTC tactical long)
+✅ **Event decoded** — base64 JSON decoded successfully  
+✅ **Channel resolved** — 1023638573313966212 = "HCH — Chat" (supporting channel)  
+✅ **Trader verified** — "heartcanhodl" matches HeartCanHodl Discord username  
+✅ **Classification** — INFORMATIONAL (technical commentary) but **SKIP standalone alert**  
 
-**Workflow Steps Completed:**
-1. ✅ Event decoded from base64 JSON successfully
-2. ✅ Channel verified as HCH — Trades (primary, verbatim rule applies)
-3. ✅ Fast-path check: `true` — Cloudflare Worker already sent Telegram alert ~2-5s after message posted
-4. ✅ Suppressed duplicate Telegram per protocol (Worker handled alert; AEON processes memory only)
-5. ✅ Message ID added to discord-trader-seen.txt (now 36 entries)
-6. ✅ traders.md updated with new HCH event at Sep 09 15:49Z
-7. ✅ Logged to memory/logs/2026-09-09.md
+**Reason for skip:** This is a supporting-channel message that merely links to and references a prior primary-channel BTC chart already alert and logged:
+- Sep 09 13:50Z: "BTC downside chart share" (HCH — Comments, fast-path alerted)
+- Sep 09 13:52Z: "important htf re-test is at 74k $BTC" (HCH — Comments, fast-path alerted)
 
-**Context:**
-HeartCanHodl has maintained a **net-short regime** since Aug 07. This BTC long is **tactical** (2% portfolio sizing, same as recent short entries) and does NOT signal a regime shift—rather, a tactical trading opportunity within the broader short conviction structure. The stop-loss at 77,999 (-0.6% invalidation) is tight, consistent with short-term tactical positioning.
+The current message (16:08Z) is a reiteration/reference to the same 13:50Z chart. Per skill Step 7: supporting-channel messages should not generate standalone alerts if related primary-channel content already exists. This qualifies as a reiteration without new information.
 
-**Kyle's Notification:** Already delivered via Telegram by Cloudflare Worker at ~2-5s latency (before this processing).
+✅ **Memory updated**:
+- `discord-trader-seen.txt`: message_id 1547277579130634241 added (dedup protection)
+- `memory/logs/2026-09-09.md`: detailed processing log created
+
+✅ **No Telegram alert sent** (supporting channel reiteration of already-alerted primary)
