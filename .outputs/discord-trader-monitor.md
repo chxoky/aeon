@@ -1,23 +1,22 @@
 ## Summary
 
-**Discord Trader Monitor — Execution Complete**
+**Discord Trader Monitor Execution**
 
-Processed real-time Discord message from HCH in primary Trades channel:
+Processed one real-time Discord message event from HeartCanHodl in the supporting channel "HCH — Chat" (1023638573313966212), timestamped 2026-09-09T05:53:43Z.
 
-**Event Details:**
-- **Message ID**: 1547104508579156080
-- **Channel**: HCH — Trades (1279738718680256553)
-- **Content**: `fc zec 1hr` (false-close check on ZEC 1hr timeframe)
-- **Context**: Reply to own ZEC short entry "Adding 1% small test size zec short 1235" (Sep 07 09:12Z)
+**Classification:** Informational (no alert)
+- Message is a reply discussing trader performance comparison (past bear market vs current bull market capability) and skepticism about finding the bottom without HH/HL structure formation
+- Supporting channel member-chat level discussion, not a personal trade action or position update
+- Per skill Step 7: supporting channels default to silent unless containing a genuine conviction shift or new standalone insight
+- This qualifies as chatter/context building, not alert-worthy
 
-**Processing:**
-1. ✓ Decoded base64 event
-2. ✓ Verified not duplicate (new message ID)
-3. ✓ **Fast-path alerted: true** → Cloudflare Worker already sent Telegram (~2-5s latency) — skipped redundant alert
-4. ✓ Classified: **informational** (technical structure validation on net-short conviction)
-5. ✓ Updated memory:
-   - Added message ID to `discord-trader-seen.txt`
-   - Added event to `traders.md` (HCH section, Sep 09 04:40Z)
-   - Added log entry to `memory/logs/2026-09-09.md`
+**Actions completed:**
+- ✅ Decoded base64 event JSON  
+- ✅ Verified channel & trader identity  
+- ✅ Checked for cross-platform duplication (none found)
+- ✅ Added message ID to seen-list (discord-trader-seen.txt)  
+- ✅ Logged to daily activity (memory/logs/2026-09-09.md)  
+- ✅ Added event note to HeartCanHodl's traders.md with macro/regime context
+- ✅ Updated last-seen timestamp (2026-09-09T05:53:43Z)
 
-No additional alert sent (fast-path coverage active). Memory updated for audit trail.
+**No Telegram notification sent** — supporting channel chatter handled as memory-only event per skill rules.
