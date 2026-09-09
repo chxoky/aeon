@@ -1,0 +1,83 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "quote_section",
+        "separator1",
+        "alert_classify",
+        "link_post"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: unknown token/asset with failed image",
+        "level": "h2"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_author",
+        "text_quote"
+      ]
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius:",
+        "variant": "lead"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"chad founder knows reprice skrumpeys 10x because of this\"",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Issue",
+        "message": "Unable to classify — what's your read? Unknown ticker \"skrumpeys\" — is this a token/security, a meme, or a reference to something in your watch list? Image CDN failed (0B fetch).",
+        "type": "warning"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2097624191092597024"
+      }
+    }
+  }
+}
