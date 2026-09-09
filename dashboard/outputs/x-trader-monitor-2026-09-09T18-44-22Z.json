@@ -1,0 +1,43 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "CPI outlook + vol hedge\n\nCPI Friday (9/13): Still think it works out; past two Fridays terrible but different this time\n\nVol concern: Worried about CPI vol crush\n\nSeasonality: September typically shows mid-month rallies from today\n\nTactical plan: Will play 09/18 expiration options (extend duration to hedge vol crush) and hope cool CPI incites a week of animal spirits\n\n↳ Reinforces existing Sep 11 2DTE puts positioning; secondary hedge layer on vol risk"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097756851509363135"
+      },
+      "children": []
+    }
+  }
+}
