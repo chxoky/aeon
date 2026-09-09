@@ -1,0 +1,31 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "**Macro sentiment on FUD vs expected value:**\n\nTimeline worried = contrarian signal. If we stay in macro FUD quagmire, positions chop/bleed. But if incrementally positive news hits, market won't be ready for it.\n\n**Bottom line:** Odds skewed negative, but EV (expected value) skewed positive."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097763110543294902"
+      }
+    }
+  }
+}

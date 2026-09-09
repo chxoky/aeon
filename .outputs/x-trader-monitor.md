@@ -19,3 +19,10 @@
 - ✅ Per size discipline: no event line added (skip posts excluded from rolling event list)
 
 **No notification sent** — aligns with HR-1 protocol for non-financial content.
+**Macro sentiment on FUD vs expected value:**
+
+Timeline worried = contrarian signal. If we stay in macro FUD quagmire, positions chop/bleed. But if incrementally positive news hits, market won't be ready for it.
+
+**Bottom line:** Odds skewed negative, but EV (expected value) skewed positive.
+
+[View tweet](https://x.com/Wild_Randomness/status/2097763110543294902)
