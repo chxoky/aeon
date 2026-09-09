@@ -1,0 +1,115 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "message_section",
+        "analysis_section",
+        "classification_alert"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp_text",
+        "separator_1",
+        "message_content"
+      ]
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Discord chat supporting channel message received at 14:41:24 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "sender_badge",
+        "message_text"
+      ]
+    },
+    "sender_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "default"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"GarrettBullish\"",
+        "variant": "lead"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator_2",
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic single-phrase response in supporting channel (real-time conviction shifts). No ticker, no execution language, no clear context. Appears to reference a trader named Garrett + bullish sentiment, but intent unclear.",
+        "variant": "body"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — what's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
