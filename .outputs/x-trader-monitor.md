@@ -1,11 +1,9 @@
-🐦 *[X] @bull_genius*
+🔍 *Calibration — @trading_axe*
 
-**BTC 4h — testing 365D VWAP resistance**
+Event: recent bullish sentiment on $ZZZ token (Robinhood AI launch, Sep 08)
 
-Chart shows price teasing ~79,645 with yellow circle highlighting rejection at 365D VWAP overhead (~80,200). 30D VWAP stepping up from support below. Consolidation structure with bullish underpinning but facing major resistance.
+trading_axe: "Sky is Zzz limit."
 
-"tease / looking great but resistance / we watch"
+Unable to classify — play on the $ZZZ token, or generic motivational banter? What's your read?
 
-[View tweet](https://x.com/bull_genius/status/2097599681928773974)
-
-↳ _Validates Sep 07-08 BTC short conviction: trapped longs above 365D, expecting reset to 72K before bull run._
+[View tweet](https://x.com/trading_axe/status/2097606387308065151)
