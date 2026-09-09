@@ -1,0 +1,126 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_message",
+        "stack_message_details",
+        "heading_context",
+        "stack_context_details",
+        "alert_classification"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "stack_message_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_author",
+        "text_content"
+      ]
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "Author: heartcanhodl",
+        "variant": "muted"
+      }
+    },
+    "text_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Yes\"",
+        "variant": "lead"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "stack_context_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_type",
+        "text_channel",
+        "text_reply_context",
+        "text_timing",
+        "text_previous_message"
+      ]
+    },
+    "badge_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Single-word affirmation",
+        "variant": "outline"
+      }
+    },
+    "text_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: member-chat",
+        "variant": "body"
+      }
+    },
+    "text_reply_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply context: None (referenced_message null)",
+        "variant": "caption"
+      }
+    },
+    "text_timing": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 17 minutes after previous message at 14:26Z",
+        "variant": "caption"
+      }
+    },
+    "text_previous_message": {
+      "type": "Text",
+      "props": {
+        "text": "Previous message: \"Patience ⏳\"",
+        "variant": "caption"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the context here?",
+        "type": "warning"
+      }
+    }
+  }
+}
