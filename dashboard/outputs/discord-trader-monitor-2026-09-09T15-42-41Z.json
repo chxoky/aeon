@@ -1,0 +1,105 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — Discord Chat (HCH)"
+      },
+      "children": [
+        "trader-message",
+        "separator-1",
+        "classification-section",
+        "separator-2",
+        "context-section"
+      ]
+    },
+    "trader-message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "15:40 UTC Sep 09",
+        "text": "Send it back down mr. trump"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-classify",
+        "interpretation-q"
+      ]
+    },
+    "unable-classify": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "warning"
+      }
+    },
+    "interpretation-q": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "regime-item",
+        "activity-item",
+        "analysis-item"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "regime-item": {
+      "type": "Text",
+      "props": {
+        "text": "HCH net-short regime Aug 07+",
+        "variant": "body"
+      }
+    },
+    "activity-item": {
+      "type": "Text",
+      "props": {
+        "text": "Latest activity: ZEC short scale-in Sep 09 15:35Z",
+        "variant": "body"
+      }
+    },
+    "analysis-item": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic message could reference Trump market sentiment or banter.",
+        "variant": "muted"
+      }
+    }
+  }
+}
