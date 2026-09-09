@@ -1,17 +1,11 @@
-🐦 *[X] @Stoiiic*
+🔍 *Calibration — @Wild_Randomness*
 
-@docXBT yeah low 70s would be nice but maybe 74s or high 60s lol
+Event: 29 minutes after bullish HYPE Dalai pattern ($HYPE testing 87.000 resistance) and LIT 4.80 breakout posts; chart images unreadable (0-byte CDN)
 
-gotta keep an eye on perp mfs trying to preemptively blast longs on any dip all the way down
+Wild_Randomness: "$HYPE $LIT
 
-[View tweet](https://x.com/Stoiiic/status/2097769601421504589)
+Time to revert? https://t.co/8AHFh8kSzW"
 
-↳ _Market structure insight on perpetual futures liquidation dynamics — aligns with BTC consolidation range thesis (70s-74s-60s as key dip-buy zones per broader trader convergence on structural recovery setup)._
-🔍 *Calibration — @Stoiiic*
+Unable to classify — "Time to revert?" could mean reversion after recent bullish technical setup (exit longs?), continuation of retracement pattern (stay long?), or something else shown in inaccessible chart. What's your read?
 
-Event: Reply to @docXBT; prior conversation/context not visible
-Stoiiic: "u know the drill"
-
-Unable to classify — what's your read? Is this: (a) confirmation of a known trade setup, (b) technical methodology reference, (c) personal banter, or (d) something else?
-
-[View post](https://x.com/Stoiiic/status/2097770313970848119)
+[View post](https://x.com/Wild_Randomness/status/2097772618665562296)
