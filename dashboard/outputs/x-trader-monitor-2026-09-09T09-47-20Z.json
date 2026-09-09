@@ -1,0 +1,49 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "yeah it would be just a 20-25 eth floor at $4000-5000 eth"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genios/status/2097621853569274219"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Lines up with multi-trader bearish ETH thesis (3-trader short convergence: HCH/ryzzqq short @2095, Crypto_Chase $2000 target). Bull_genius discussing technical floor levels supporting consolidation structure.",
+        "variant": "caption"
+      }
+    }
+  }
+}

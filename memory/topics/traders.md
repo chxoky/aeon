@@ -359,6 +359,7 @@
   - Sep 08 21:14Z — informational: BTC correction analysis; 4h chart with VWAP levels (365d/7d/30d rVWAP, ATH aVWAP support); reiterates Sep 07 bearish conviction: trapped longs above 365d rVWAP, RSI divergence, expects reset to 72K before bull; hedged into CPI/FOMC catalysts [$BTC] [2097433299232981405]
   - Sep 08 21:17Z — informational: BTC technical structure "doodle"; 4h perpetual chart annotated with trapped longs/shorts, 365d/7d/30d/ATH/2026 VWAP confluences, support zones; educational response to @0xApheli0n [$BTC] [2097434287746249190]
   - Sep 08 22:34Z — informational: altcoin dip/pullback analysis; chart ETH-denominated shows ~0.6→0.45 pullback; 1.2B conservative cycle target (ticker unavailable from shortened URL) [$ALT/$UNKNOWN] [2097453625408712783]
+  - Sep 09 09:43Z — informational: ETH price-floor level discussion; "20-25 eth floor at $4000-5000 eth"; reply to @MindBags consolidation context [$ETH] [2097621853569274219]
 
 ## t_in_crypto
 
