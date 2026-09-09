@@ -1,0 +1,169 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading analysis update from @bull_genius"
+      },
+      "children": [
+        "tweet-card",
+        "separator1",
+        "monitoring-section",
+        "separator2",
+        "levels-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "PUMP structure update — rejection at POC + bounce scalp play. Trailing stop hit, now looking at 10-15% bounce (toward 0.0045). Chart shows rejection at 0.0048, pulled back to 30d rvwap. Also watching ZEC/AI/XPL/VVV/NEAR. https://x.com/bull_genius/status/2097823416485065027"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "monitoring-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitoring-heading",
+        "tokens-stack"
+      ]
+    },
+    "monitoring-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tokens Monitored",
+        "level": "h3"
+      }
+    },
+    "tokens-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-zec",
+        "badge-ai",
+        "badge-xpl",
+        "badge-vvv",
+        "badge-near"
+      ]
+    },
+    "badge-zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "secondary"
+      }
+    },
+    "badge-ai": {
+      "type": "Badge",
+      "props": {
+        "text": "AI",
+        "variant": "secondary"
+      }
+    },
+    "badge-xpl": {
+      "type": "Badge",
+      "props": {
+        "text": "XPL",
+        "variant": "secondary"
+      }
+    },
+    "badge-vvv": {
+      "type": "Badge",
+      "props": {
+        "text": "VVV",
+        "variant": "secondary"
+      }
+    },
+    "badge-near": {
+      "type": "Badge",
+      "props": {
+        "text": "NEAR",
+        "variant": "secondary"
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "levels-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "levels-heading",
+        "resistance-level",
+        "target-level",
+        "details-stack"
+      ]
+    },
+    "levels-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "resistance-level": {
+      "type": "Stat",
+      "props": {
+        "label": "Rejection Level",
+        "value": "0.0048"
+      }
+    },
+    "target-level": {
+      "type": "Stat",
+      "props": {
+        "label": "Bounce Target",
+        "value": "0.0045",
+        "delta": "10-15%"
+      }
+    },
+    "details-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-poc",
+        "detail-stop",
+        "detail-rvwap"
+      ]
+    },
+    "detail-poc": {
+      "type": "Text",
+      "props": {
+        "text": "Structure: Rejection at POC + bounce scalp play",
+        "variant": "body"
+      }
+    },
+    "detail-stop": {
+      "type": "Text",
+      "props": {
+        "text": "Trailing stop: Hit",
+        "variant": "body"
+      }
+    },
+    "detail-rvwap": {
+      "type": "Text",
+      "props": {
+        "text": "Reference: 30-day RVWAP (Volume-Weighted Average Price)",
+        "variant": "body"
+      }
+    }
+  }
+}
