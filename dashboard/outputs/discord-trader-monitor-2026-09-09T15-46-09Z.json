@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "calibration",
+        "separator1",
+        "message_section",
+        "separator2",
+        "alert"
+      ]
+    },
+    "calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Free]",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Text",
+      "props": {
+        "text": "Message: \"Wick is filled 👀\""
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Ambiguous ticker/intent, no execution language",
+        "type": "warning"
+      }
+    }
+  }
+}
