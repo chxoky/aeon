@@ -297,7 +297,9 @@
   - Sep 09 15:40Z — ambiguous: "Send it back down mr. trump" (Chat supporting); cryptic sentiment/market reference without clear execution language; HR-2 calibration alert sent [$UNKNOWN] [1547270381684138055]
 - Last seen: 2026-09-09T15:40:05Z
   - Sep 09 15:43Z — ambiguous: "Wick is filled 👀" (Free primary); cryptic technical observation, no ticker specified; 👀 emoji suggests observation/watching; no execution language; HR-2 calibration alert sent [$UNKNOWN-WICK] [1547271141091975240]
-- Last seen: 2026-09-09T15:43:06Z
+- Last seen: 2026-09-09T15:49:53Z
+  - Sep 09 15:49Z — trade-new-entry: "2% pf 20x lev. long btc with invalidate 77,999 (-0.6%)" (Discord Trades primary ★); BTC tactical long entry; 2% portfolio, 20x leverage, SL 77,999; contrasts ongoing net-short regime but sized as tactical trade; fast-path alerted by Cloudflare Worker [$BTC-LONG] [1547272847725166733]
+- Last seen: 2026-09-09T15:49:53Z
 
 ## bull_genius
 
