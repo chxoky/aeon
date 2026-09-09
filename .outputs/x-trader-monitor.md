@@ -1,17 +1,14 @@
-🐦 *[X] @Wild_Randomness* | SPX Box Consolidation Being Tested
+🚨 *Trade Signal — @Wild_Randomness*
 
-"Alright the box is being tasked again— little unsettling…"
+IWM / SPY — PUTS — *2DTE options (Sep 11 expiration)*
+Gap structure: IWM 291.24 (-3.43, -1.16%) | SPY 762.26 (-3.71, -0.48%)
 
-Price testing 7,620 support zone with consolidation range ~7,620-7,727 on 1D Perpetual (Sep 09 15:40Z). Trader's read: breakdown becomes "more substantive" for downside, but philosophical consideration "what if it all works out?" suggests balanced risk-on scenario planning into any breakout structure. Aligns with Sep 07 ATH-retest technical analysis and broader Wild_Randomness macro framework (Septembear thesis contested by rally resilience).
+"Took some 2DTEs. They aren't gonna film this gap by 9/11? Would be very unamerican"
 
-[View tweet](https://x.com/HeartCanHodl/status/2097710518496850156)
-🔍 *Calibration — @Stoiiic*
+**Chart analysis:**
+- **IWM 4H**: Sharp downtrend 305→291 with visible unfilled gap. Oversold RSI, moving averages bearish.
+- **SPY 4H**: Similar structure 776→762. Oversold technical setup matching IWM weakness.
 
-Event: ~13 hours after educational post on yearly VWAP framework + ±1σ bands (Sep 08 16:32Z)
+Betting gap won't fill (prices continue down) by Sep 11 expiration. Aligns with existing Nov IWM/SPY puts thesis (bearish equities into Oct).
 
-Stoiiic: 🫡
-
-Unable to classify — what's your read?
-
-[View post](https://x.com/Stoiiic/status/2097709910909739115)
-[View tweet](https://x.com/Wild_Randomness/status/2097711875354235031)
+[View post](https://x.com/Wild_Randomness/status/2097714424585048328)
