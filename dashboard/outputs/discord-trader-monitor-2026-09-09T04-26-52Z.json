@@ -1,0 +1,70 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-heading",
+        "separator-1",
+        "comment-section",
+        "chart-note",
+        "separator-2",
+        "question"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "comment-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Enas is back and he is long 🗿📉"
+      }
+    },
+    "chart-note": {
+      "type": "Text",
+      "props": {
+        "text": "[Chart screenshot attached]",
+        "variant": "muted"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

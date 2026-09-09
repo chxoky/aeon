@@ -270,6 +270,7 @@
   - Sep 08 04:42Z — ambiguous: Discord supporting channel (HCH — Chat); "Yes. But it received the advantage of that listing. Loh!"; cryptic response, no ticker/context (likely reply to member); HR-2 calibration sent [$UNKNOWN] [1546742480404348958]
   - Sep 08 04:43Z — informational: "Fc zec 15m" (Discord Free primary); false-close chart check notation on ZEC; no execution language; technical structure check [$ZEC] [1546742763574403183]
   - Sep 08 18:09Z — ambiguous: Discord supporting channel (HCH — Chat); "Zero this" (2-word cryptic directive, no ticker/context); HR-2 calibration alert sent [$UNKNOWN] [1546945498600968264]
+  - Sep 09 04:23Z — ambiguous: Discord supporting channel (HCH — Chat); "Enas is back and he is long 🗿📉"; comment on another trader's position with skeptical emojis; chart screenshot attached; context/significance unclear; HR-2 calibration alert sent [$UNKNOWN-TRADER] [1547100121626320947]
 
 ## bull_genius
 
