@@ -1,9 +1,7 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @HeartCanHodl*
 
-Event: recent bullish sentiment on $ZZZ token (Robinhood AI launch, Sep 08)
+Important HTF chart — U.S. Dollar Index daily structure. 2012-2013 historical support to current 98.77 resistance zone (18-year confluence arc). Long-term uptrend showing dollar strength.
 
-trading_axe: "Sky is Zzz limit."
+[View tweet](https://x.com/HeartCanHodl/status/2097612797463150801)
 
-Unable to classify — play on the $ZZZ token, or generic motivational banter? What's your read?
-
-[View tweet](https://x.com/trading_axe/status/2097606387308065151)
+↳ _Reinforces net-short regime thesis: DXY strength = risk-off tape, crypto/commodities weakness expected._

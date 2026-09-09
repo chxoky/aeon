@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "text_interpretation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Important HTF chart — U.S. Dollar Index daily structure. 2012-2013 historical support to current 98.77 resistance zone (18-year confluence arc). Long-term uptrend showing dollar strength."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2097612797463150801"
+      },
+      "children": []
+    },
+    "text_interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces net-short regime thesis: DXY strength = risk-off tape, crypto/commodities weakness expected.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

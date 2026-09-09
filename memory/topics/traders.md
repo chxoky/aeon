@@ -275,6 +275,7 @@
   - Sep 09 04:37Z — informational: Bitcoin performance chart (2025 bear vs 2017/18 & 2021/22 cycles); comparison showing 2025 tracking stronger; hourglass emoji implies patience/waiting; supports net-short conviction on timing to October bottom [$BTC/$MACRO] [2097544784932159662]
   - Sep 09 04:40Z — informational: "fc zec 1hr" (Trades primary ★); false-close chart check on ZEC 1hr timeframe; technical structure validation on existing short (1235 entry, 1% size, Sep 07); contextualizes ongoing ZEC short thesis [$ZEC] [1547104508579156080]
   - Sep 09 05:53Z — informational: market regime + bottom-finding skepticism (Chat supporting); reply on trader performance (past bear market vs bull market capability) + requirement for HH/HL structure on HTF to confirm bottom finding; supports net-short regime conviction timing [$MACRO] [1547122815679987722]
+  - Sep 09 09:07Z — informational: DXY daily HTF structure 98.77 confluence zone; 18-year uptrend 2012→2026; macro risk-off tape [$DXY/$MACRO] [2097612797463150801]
 
 ## bull_genius
 
