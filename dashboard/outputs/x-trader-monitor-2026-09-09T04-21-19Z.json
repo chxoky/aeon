@@ -1,0 +1,103 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "@Wild_Randomness technical observation on LIT recovery"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "price-movement",
+        "price-stat",
+        "tech-detail",
+        "position-stack",
+        "context-alert",
+        "post-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness7",
+        "text": "LIT technical observation: $LIT recovering from $4.76→$5.05 (+4.58%). Sharing 4H uptrend charts + 'Observing…' meme on existing 50:50 conviction long position."
+      }
+    },
+    "price-movement": {
+      "type": "Text",
+      "props": {
+        "text": "Price movement: $4.76 → $5.05",
+        "variant": "lead"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "LIT",
+        "value": "$5.05",
+        "delta": "+4.58%",
+        "trend": "up"
+      }
+    },
+    "tech-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Technical: 4H uptrend with charts shared",
+        "variant": "body"
+      }
+    },
+    "position-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-long",
+        "badge-conviction"
+      ]
+    },
+    "badge-long": {
+      "type": "Badge",
+      "props": {
+        "text": "Long",
+        "variant": "default"
+      }
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "50:50 Conviction",
+        "variant": "outline"
+      }
+    },
+    "context-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Market Context",
+        "message": "LIT is contested: HCH holds strong SHORT conviction vs Wild_Randomness and trading_axe bullish themes",
+        "type": "warning"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness7/status/2097530734235230686"
+      }
+    }
+  }
+}
