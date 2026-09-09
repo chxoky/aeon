@@ -1,13 +1,12 @@
 ## Summary
 
-✅ **Discord Trader Monitor Skill Executed Successfully**
+**Discord event processed: HeartCanHodl 📉 emoji (HCH — Chat)**
 
-**Event Details:**
-- **Trader:** HeartCanHodl (@heartcanhodl)
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting channel)
-- **Message:** "fc btc ema50 4hr wide"
-- **Time:** 2026-09-09T15:07:52Z
-- **Classification:** INFORMATIONAL (technical structure check)
+- **Message:** Single down-chart emoji in supporting channel
+- **Classification:** Non-financial (Step 4A) → **SKIP** per HR-1 protocol
+- **Rationale:** No execution language, no trade detail, no ticker, pure sentiment reaction
+- **Action taken:** Silent skip + log only (no Telegram alert)
+- **Memory updated:** discord-trader-seen.txt + logs/2026-09-09.md
 
 **Execution:**
 1. Decoded base64 event ✅
@@ -32,3 +31,4 @@ No alert sent. Routine technical monitoring logged for audit trail.
 Message: "That looks ugly.."
 
 Unable to classify — what's your read?
+The message ID (1547263183373213697) has been added to the seen file to prevent reprocessing.
