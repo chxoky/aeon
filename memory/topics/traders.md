@@ -294,6 +294,7 @@
 - Last seen: 2026-09-09T12:50:43Z
 - Last seen: 2026-09-09T12:54:59Z
 - **Events (rolling):**
+  - Sep 09 14:16Z — informational: BTC rejection at september poc + 7d rvwap hard ceiling; 3rd attempt anticipated but skeptical on breakout before cpi; 1h/15m rejection pattern; macro awareness [$BTC] [2097690490292343208]
   - Sep 09 12:55Z — ambiguous: @0xApheli0n technical chart comparison; image empty; "lines here" cryptic; HR-2 calibration sent [2097670100392325573]
   - Sep 09 12:45Z — informational: BTC key spot at 365d VWAP resistance + 7D support confluence; hedges tracking correctly into US open; no execution language [$BTC] [2097667801141899472]
   - Sep 09 11:53Z — skip: personal banter "everyone loves a giant pair of tits"; non-financial commentary [$NONE] [2097654652397371667]

@@ -1,0 +1,144 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Real-time trader sentiment and technical analysis from X"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "chart_section",
+        "sep2",
+        "macro_section",
+        "sep3",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Another rejection at september poc + 7d rvwap hard ceiling. 3rd attempt likely but skeptical on breakout before CPI."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_head",
+        "chart_text",
+        "price_grid"
+      ]
+    },
+    "chart_head": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "1h + 15m BTCUSDT showing repeated rejection at 7D rVWAP + 365D resistance. Market structure consolidation with trapped longs above."
+      }
+    },
+    "price_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_rvwap",
+        "stat_resistance"
+      ]
+    },
+    "stat_rvwap": {
+      "type": "Stat",
+      "props": {
+        "label": "7D rVWAP Hard Ceiling",
+        "value": "79,600 USDT"
+      }
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "365D Resistance",
+        "value": "80,200 USDT"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "macro_head",
+        "macro_events",
+        "macro_outlook",
+        "stat_reset"
+      ]
+    },
+    "macro_head": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Backdrop",
+        "level": "h3"
+      }
+    },
+    "macro_events": {
+      "type": "Text",
+      "props": {
+        "text": "CPI Sep 11 / FOMC Sep 16 = de-risking window expected"
+      }
+    },
+    "macro_outlook": {
+      "type": "Text",
+      "props": {
+        "text": "Expects full reset before sustained bull continuation"
+      }
+    },
+    "stat_reset": {
+      "type": "Stat",
+      "props": {
+        "label": "Expected Reset Zone",
+        "value": "~72,000 USDT"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/bull_genius/status/2097690490292343208"
+      }
+    }
+  }
+}
