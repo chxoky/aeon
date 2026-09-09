@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "ok wicked and got back up. a v shape here would be incredibly bullish, so im just keeping my BTC hedges up and stay bullish on AI PUMP XPL ZEC meanwhile\n\ntheyd have to stop me out and if that happens i flip mega long"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2097725268974596227"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "1h BTC chart confirms V-shaped recovery from ~76.7K lows back to ~79.6K highs; maintains existing alt longs (PUMP +79.91%, ZEC +25.27%) with tactical BTC hedges into Sep 11 CPI / Sep 16 FOMC catalysts.",
+        "variant": "body"
+      }
+    }
+  }
+}

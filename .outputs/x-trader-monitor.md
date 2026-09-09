@@ -1,11 +1,11 @@
-🔍 *Calibration — @Wild_Randomness*
 
-Event: Apple event context, sidelined posture
+🐦 *[X] @bull_genius*
 
-Wild_Randomness: "Currently sidelined on them
+ok wicked and got back up. a v shape here would be incredibly bullish, so im just keeping my BTC hedges up and stay bullish on AI PUMP XPL ZEC meanwhile
 
-Will see how things trade in the afternoon 
+theyd have to stop me out and if that happens i flip mega long
 
-Apple event today"
+[View tweet](https://x.com/bull_genius/status/2097725268974596227)
 
-Unable to classify — what's your read? (Likely AAPL-related given recent short conviction + Apple event mention on Sep 09 16:17Z)
+↳ _1h BTC chart confirms V-shaped recovery from ~76.7K lows back to ~79.6K highs; maintains existing alt longs (PUMP +79.91%, ZEC +25.27%) with tactical BTC hedges into Sep 11 CPI / Sep 16 FOMC catalysts._
+
