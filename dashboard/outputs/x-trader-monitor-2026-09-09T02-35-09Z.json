@@ -1,0 +1,44 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading thesis from @trading_axe"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "@trading_axe",
+        "text": "🐦 The zzz-2:native 🚀 thesis.\n\nI know a lot of you youngina ain't really been around THE BLOCK like that.\n\nSo let an OG like me tell you why this is a GENERATIONAL TRADE.\n\nFirstly, congratulations for surviving the bear market...\n\nKey thesis points:\n- GMX founder: built company in MOST VICIOUS BEAR MARKET, now back in GREAT MARKET CONDITIONS\n- Vlad (Robinhood founder): HUNGRY for legitimate founders to honor his chain with fundamentals\n- Vlad + GMX/ZZZ founder + Kris (Cryptodotcom CEO) = ALIGNED INTERESTS\n- FIRST REAL AI PRODUCT on Robinhood platform\n- Stealth launch + fair launch strategy\n\nYou are missing The Greatest AI Trade in Crypto History by fading this.\n\n~ Dr. Axius. 🚀"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2097512288513061363"
+      },
+      "children": []
+    }
+  }
+}
