@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "grid-metrics",
+        "separator-2",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$PUMP — 0.618 Fib retracement + 3-Drives pattern consolidation.\n\nPrice 0.004092 USDT (+6.53%), playing out well so far (17%). Big volume zone to clear between 0.0046 and 0.005 resistance levels."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "grid-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "badge-pump",
+        "stat-price",
+        "stat-change",
+        "stat-pattern"
+      ]
+    },
+    "badge-pump": {
+      "type": "Badge",
+      "props": {
+        "text": "$PUMP"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "0.004092 USDT"
+      }
+    },
+    "stat-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Change",
+        "value": "+6.53%",
+        "trend": "up"
+      }
+    },
+    "stat-pattern": {
+      "type": "Stat",
+      "props": {
+        "label": "Pattern Progress",
+        "value": "17%"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097683584924704996"
+      }
+    }
+  }
+}
