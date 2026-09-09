@@ -1,0 +1,48 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-label",
+        "tweet-card",
+        "error-alert",
+        "view-link"
+      ]
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic message with unreadable image",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Liquidate Good Alexander https://t.co/Ypc5YBLUuP"
+      }
+    },
+    "error-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Image fetch failed (0-byte CDN)",
+        "message": "Unable to classify — what's your read?",
+        "type": "warning"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2097759436676935783"
+      }
+    }
+  }
+}
