@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Stoiiic"
+      },
+      "children": [
+        "event_context",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "classification_question",
+        "separator_3",
+        "view_link"
+      ]
+    },
+    "event_context": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @docXBT; prior conversation/context not visible",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "u know the drill"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:\n(a) confirmation of a known trade setup\n(b) technical methodology reference\n(c) personal banter\n(d) something else?",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2097770313970848119"
+      }
+    }
+  }
+}
