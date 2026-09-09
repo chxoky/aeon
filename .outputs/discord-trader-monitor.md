@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Chat]*
 
 **Skill execution: `discord-trader-monitor`** for HeartCanHodl message at **2026-09-09T16:08:41Z UTC**
 
@@ -18,3 +18,12 @@ The current message (16:08Z) is a reiteration/reference to the same 13:50Z chart
 - `memory/logs/2026-09-09.md`: detailed processing log created
 
 ✅ **No Telegram alert sent** (supporting channel reiteration of already-alerted primary)
+Technical pattern: `fc hoodusdt 4hr ema50 wide`
+— Ticker ambiguity: "hoodusdt" unclear (HOOD tracked as equity; -USDT suggests crypto pair)
+
+Possible interpretations:
+1. Typo for `HOOD` equity chart check (Robinhood, rare for HCH)
+2. Unknown crypto pair or contract `HOOD-USDT`  
+3. Technical false-close structure check at key level
+
+Unable to classify — what's your read?

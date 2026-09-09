@@ -1,0 +1,136 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration Request"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "pattern_section",
+        "sep_2",
+        "ambiguity_alert",
+        "sep_3",
+        "interpretations_section",
+        "sep_4",
+        "closing_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pattern_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pattern_label",
+        "pattern_value"
+      ]
+    },
+    "pattern_label": {
+      "type": "Text",
+      "props": {
+        "text": "Technical pattern:",
+        "variant": "lead"
+      }
+    },
+    "pattern_value": {
+      "type": "Text",
+      "props": {
+        "text": "fc hoodusdt 4hr ema50 wide",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ambiguity_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Ticker Ambiguity",
+        "message": "\"hoodusdt\" unclear (HOOD tracked as equity; -USDT suggests crypto pair)",
+        "type": "warning"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretations_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp_heading",
+        "interp_1",
+        "interp_2",
+        "interp_3"
+      ]
+    },
+    "interp_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "interp_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Typo for `HOOD` equity chart check (Robinhood, rare for HCH)",
+        "variant": "body"
+      }
+    },
+    "interp_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Unknown crypto pair or contract `HOOD-USDT`",
+        "variant": "body"
+      }
+    },
+    "interp_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Technical false-close structure check at key level",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "closing_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
