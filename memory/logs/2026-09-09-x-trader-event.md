@@ -11,3 +11,15 @@
 - **alignment_notes**: Consistent with bull_genius's Sep 05+ hedging posture (shorts protecting spot exposure); validates Sep 07-09 technical conviction (trapped longs above 365d VWAP, RSI divergence, reset to 72K expected). Text matches established persona: mixed bearish-technical (near-term) + bullish-structural (long-term).
 - **media**: 3 images (chart URLs); CDN links malformed, images not fetched
 - **next_action**: No approval flow; informational only. Monitor for any follow-up clarifications or price action responses on BTC around key technical levels.
+
+### trading_axe — Sep 09 23:51Z
+
+- **tweet_id**: 2097835441823129681
+- **classification**: skip (non-financial)
+- **ticker(s)**: [none]
+- **alerted**: no
+- **summary**: Personal banter about trader performance; no financial signal
+- **context**: Post mentions @AltOnChain and @loraclexyz, complaining that some people ("GCR") can't provide good trades ("no edge in the hunting positions game") and they need another person ("Vlad") to help. Includes profanity. No tickers mentioned, no positions, no market analysis, no price levels. Pure trader-performance commentary.
+- **alignment_notes**: New trader (trading_axe) not yet tracked in traders.md. Post does not warrant memory update per HR guidelines (skip/non-financial events skip the event line in traders.md). No calibration needed.
+- **media**: none (media array empty)
+- **next_action**: Logged only; no alert sent; tweet ID recorded in memory/x-trader-seen.txt to prevent reprocessing.
