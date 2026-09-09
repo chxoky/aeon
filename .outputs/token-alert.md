@@ -1,9 +1,13 @@
-All three tracked tokens are within their thresholds — no alerts fired.
-
 ## Summary
 
-- **BTC** $77,767 (-1.96% 24h) — below 5% threshold
-- **ETH** $2,447.39 (-1.98% 24h) — below 8% threshold
-- **SOL** $101.98 (-2.88% 24h) — below 10% threshold
+**token-alert — 2026-09-09 — TOKEN_ALERT_OK**
 
-No volume spikes or threshold crossings detected. `TOKEN_ALERT_OK` logged to `memory/logs/2026-09-08.md`. No notification sent.
+Checked all 3 tracked tokens against CoinGecko live data:
+
+| Token | Price | 24h Change | Threshold | Alert? |
+|-------|-------|-----------|-----------|--------|
+| BTC | $79,340 | +1.98% | 5% | No |
+| ETH | $2,510.84 | +2.48% | 8% | No |
+| SOL | $104.05 | +1.73% | 10% | No |
+
+No thresholds breached, no volume spikes. Current prices logged to `memory/logs/2026-09-09.md`. No notification sent.
