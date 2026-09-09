@@ -1,1 +1,6 @@
-🟡 P3: morning-brief / morning-pipeline — last success 2026-09-06 09:05 UTC (~59h ago). Daily schedule, 48h threshold exceeded. Missed runs: Sep 07 07:00 UTC + Sep 08 07:00 UTC (no dispatch entries in cron-state). Check GitHub Actions for dispatch failures on the morning-pipeline chain.
+🟡 WATCH
+
+🔵 SCHEDULE: morning-pipeline chain (daily 07:00 UTC) last succeeded 2026-09-06 — 3 missed runs (Sep 07, Sep 08, Sep 09 07:00 UTC). Standalone skills (token-movers, market-context-refresh) are healthy at their own midday schedules. morning-brief has also not succeeded since Sep 06 via the chain. Recommend checking the chain-runner workflow logs for Sep 07–09.
+
+✅ X webhook: WATCHED_TRADERS rule is_effect=1, ON_AIR — X signals flowing.
+✅ Skill fleet: all other enabled skills healthy, no consecutive failures.

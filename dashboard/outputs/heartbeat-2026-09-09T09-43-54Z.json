@@ -1,0 +1,167 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat Status"
+      },
+      "children": [
+        "alert_watch",
+        "sep1",
+        "section_schedule",
+        "sep2",
+        "section_webhook",
+        "sep3",
+        "section_skills"
+      ]
+    },
+    "alert_watch": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🟡 WATCH"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_schedule": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_schedule",
+        "text_pipeline_chain",
+        "text_standalone_skills",
+        "text_morning_brief",
+        "text_recommendation"
+      ]
+    },
+    "heading_schedule": {
+      "type": "Heading",
+      "props": {
+        "text": "🔵 SCHEDULE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_pipeline_chain": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline chain (daily 07:00 UTC) last succeeded 2026-09-06 — 3 missed runs (Sep 07, Sep 08, Sep 09 07:00 UTC).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_standalone_skills": {
+      "type": "Text",
+      "props": {
+        "text": "Standalone skills (token-movers, market-context-refresh) are healthy at their own midday schedules.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_morning_brief": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief has also not succeeded since Sep 06 via the chain.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "Recommend checking the chain-runner workflow logs for Sep 07–09.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_webhook": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_webhook",
+        "text_webhook_rule",
+        "text_webhook_signals"
+      ]
+    },
+    "heading_webhook": {
+      "type": "Heading",
+      "props": {
+        "text": "✅ X webhook",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_webhook_rule": {
+      "type": "Text",
+      "props": {
+        "text": "WATCHED_TRADERS rule is_effect=1, ON_AIR",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_webhook_signals": {
+      "type": "Text",
+      "props": {
+        "text": "X signals flowing.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_skills",
+        "text_fleet_status"
+      ]
+    },
+    "heading_skills": {
+      "type": "Heading",
+      "props": {
+        "text": "✅ Skill fleet",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_fleet_status": {
+      "type": "Text",
+      "props": {
+        "text": "all other enabled skills healthy, no consecutive failures.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
