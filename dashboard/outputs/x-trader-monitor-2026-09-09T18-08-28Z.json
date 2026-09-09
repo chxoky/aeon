@@ -1,0 +1,80 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "heading-event",
+        "event-time",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "analysis-section"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Intraday market timing",
+        "level": "h2"
+      }
+    },
+    "event-time": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 09 18:03Z, mid-session volatility",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "AYO https://t.co/GuykTsqUhq + 5 images (404)"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text",
+        "view-link"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — referenced images unavailable. Based on timing (intraday precision trader, likely entry/level confirmation). What's your read?",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2097747719842410822"
+      }
+    }
+  }
+}

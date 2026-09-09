@@ -1,10 +1,8 @@
+🔍 *Calibration — @swarmister*
 
-🐦 *[X] @Wild_Randomness*
+Event: Intraday market timing (Sep 09 18:03Z, mid-session volatility)
+swarmister: "AYO https://t.co/GuykTsqUhq" + 5 images (404)
 
-$PUMP — Technical consolidation update at POC (Point of Control) level. Two timeframe charts (1D & 4H) show consolidation with marked entry zones. Invalidation level: POC. Recommendation: add on consolidation holds.
+Unable to classify — referenced images unavailable. Based on timing (intraday precision trader, likely entry/level confirmation). What's your read?
 
-Current: 0.004703 (+8.90%)
-Setup: 0.618 Fib + 3-Drives pattern at confluence (per prior Sep 09 13:48Z post)
-
-[View tweet](https://x.com/Wild_Randomness/status/2097744453268299944)
-
+[View post](https://x.com/swarmister/status/2097747719842410822)

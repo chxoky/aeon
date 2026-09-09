@@ -163,8 +163,9 @@
 - Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis/tech (SNDK multibagger). Intraday scalp trader (5M/15M/1H liquidity zones). ETH bearish order block daily setup. BTC false-breakout + reversal conditions — 83–84K required for full reversal confirmation. Portfolio profitable overall (semis >> BTC underwater).
 - Conviction notes: Precision intraday execution with disciplined TP (4RR Aug 28). High cryptic-reply ratio (banter baseline — most not financial). DIVERGES from group BTC bullish lean. ETH short from 2,540 with multi-target downside plan.
 - Calibration: PENDING Aug 31 03:52Z (@based16z "That's how it is"), PENDING Aug 30 10:38Z (@Bermyden "2551. Tiny Sl"), PENDING Aug 30 10:29Z (@bull_genius "Pump ur pump"), PENDING Aug 29 08:10Z (@Baskitchbrah @CredibleCrypto "What a cute"), PENDING Aug 29 04:35Z (@tienluncon610 "Well, for now, it literally works"), PENDING Aug 28 19:48Z (@bull_genius "Yep"), PENDING Aug 28 09:00Z (@bull_genius daily chart ref), PENDING Aug 28 07:52Z (@OnlyZen_PK @0xjune_ "Yep 👍"), PENDING Aug 26 07:11Z (@BittexXBT "Calling top"), PENDING Aug 25 17:35Z (@flexing_red @Ehn_7H "100-300k is ok"), PENDING Aug 25 10:39Z ("I meant this (read)" + 4 images Discord)
-- Last seen: 2026-09-05T15:34:29Z
+- Last seen: 2026-09-09T18:03:25Z
 - **Events (rolling):**
+  - Sep 09 18:03Z — ambiguous: "AYO" + 5 images (404); cryptic; HR-2 sent [$UNKNOWN] [2097747719842410822]
   - Aug 28 06:00Z — trade-mirror-partial-tp: BTC long partial TP; 4RR on 5M intraday structure [$BTC] [2093217164325007616]
   - Aug 28 07:52Z — ambiguous: @OnlyZen_PK @0xjune_ "Yep 👍"; HR-2 sent [$UNKNOWN] [2093245251129417910]
   - Aug 28 09:00Z — ambiguous: @bull_genius "take a look at the post I'm linking"; media empty; HR-2 sent [$UNKNOWN] [2093262340363800724]
