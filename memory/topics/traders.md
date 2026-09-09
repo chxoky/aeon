@@ -127,6 +127,7 @@
   - Sep 09 15:51Z — trade-new-entry: 2DTE puts on IWM/SPY; short-dated expiration Sep 11; technical gap structure betting gap doesn't fill (bearish); 4H charts show downtrend 305→291 (IWM) & 776→762 (SPY) with oversold RSI; sarcastic "would be very unamerican" = gap-fill is expected/american move, betting against it [$IWM/$SPY/$OPTIONS/$SEPTEMBEAR] [2097714424585048328]
   - Sep 09 16:17Z — ambiguous: reply to @_tolks on Apple event; "Currently sidelined on them / Will see how things trade in the afternoon" — cryptic missing context; HR-2 calibration sent [$AAPL-context] [2097720983696388127]
   - Sep 09 16:36Z — informational: $IWM 30m chart showing breakdown 296→290.79 (-1.32%); validates earlier Sep 09 15:51Z 2DTE put entry; consolidation zone 294.70 broken, support cluster 290.79/289.50; "gotta be on high alert" — confirms bearish equities stance heading into CPI binary [$IWM/$SPY/$MACRO] [2097725819871527259]
+  - Sep 09 17:07Z — informational: $AMD price target $777 Q1 2027; 1W chart shows 184.12→584.73 peak recovery structure with 523.68 current consolidation + 272/185 key support levels; bullish longer-term technical thesis [$AMD] [2097733658937643311]
 
 ## Stoiiic
 
