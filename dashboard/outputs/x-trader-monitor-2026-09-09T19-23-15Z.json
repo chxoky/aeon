@@ -1,0 +1,72 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-title",
+        "text-event",
+        "quote-stack",
+        "text-classification",
+        "link-post"
+      ]
+    },
+    "heading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "level": "h3"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Bullish thesis on NEAR consolidation breakout; PENDLE strength on shorter timeframes; mapping high-probability reaction setups",
+        "variant": "body"
+      }
+    },
+    "quote-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-quote-attr",
+        "text-quote-text"
+      ]
+    },
+    "text-quote-attr": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic:",
+        "variant": "lead"
+      }
+    },
+    "text-quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"who is prepped for the next leg up?\"",
+        "variant": "body"
+      }
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2097766602112414020"
+      }
+    }
+  }
+}
