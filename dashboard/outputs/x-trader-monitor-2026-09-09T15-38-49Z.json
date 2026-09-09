@@ -1,0 +1,25 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "ZEC to zero (NFA, obviously)\n\nFeels good to be back in sync, our entry also got hit today on zec limit short — the 1% additional order at 1295 filled as planned, confirming the scaling structure. Aligns with net-short conviction.",
+        "href": "https://x.com/HeartCanHodl/status/2097710518496850156"
+      },
+      "children": []
+    }
+  }
+}
