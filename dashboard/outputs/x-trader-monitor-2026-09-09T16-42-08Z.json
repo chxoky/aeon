@@ -1,0 +1,114 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "stats-container",
+        "separator-2",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "IWM 30m chart breakdown 296→290.79 (-1.32%). Consolidation zone 294.70 broken; support cluster at 290.79/289.50. Validates earlier Sep 09 15:51Z 2DTE put entry. \"Gotta be on high alert\" — confirms bearish equities thesis into CPI binary."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-container": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-price-movement",
+        "stat-change",
+        "stat-consolidation",
+        "stat-support",
+        "stat-entry-time",
+        "badge-sentiment"
+      ]
+    },
+    "stat-price-movement": {
+      "type": "Stat",
+      "props": {
+        "label": "IWM Movement",
+        "value": "296 → 290.79"
+      }
+    },
+    "stat-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Change",
+        "value": "-1.32%",
+        "trend": "down"
+      }
+    },
+    "stat-consolidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Zone",
+        "value": "294.70 (broken)"
+      }
+    },
+    "stat-support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Cluster",
+        "value": "290.79 / 289.50"
+      }
+    },
+    "stat-entry-time": {
+      "type": "Stat",
+      "props": {
+        "label": "2DTE Put Entry",
+        "value": "Sep 09 15:51Z"
+      }
+    },
+    "badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish CPI thesis",
+        "variant": "destructive"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2097725819871527259"
+      }
+    }
+  }
+}
