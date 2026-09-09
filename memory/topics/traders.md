@@ -271,6 +271,7 @@
   - Sep 08 04:43Z — informational: "Fc zec 15m" (Discord Free primary); false-close chart check notation on ZEC; no execution language; technical structure check [$ZEC] [1546742763574403183]
   - Sep 08 18:09Z — ambiguous: Discord supporting channel (HCH — Chat); "Zero this" (2-word cryptic directive, no ticker/context); HR-2 calibration alert sent [$UNKNOWN] [1546945498600968264]
   - Sep 09 04:23Z — ambiguous: Discord supporting channel (HCH — Chat); "Enas is back and he is long 🗿📉"; comment on another trader's position with skeptical emojis; chart screenshot attached; context/significance unclear; HR-2 calibration alert sent [$UNKNOWN-TRADER] [1547100121626320947]
+  - Sep 09 04:29Z — informational: "fc aster ema50 4hr" (Discord Chat supporting); false-close chart check notation on ASTER; 4hr timeframe technical structure check; no execution language; aligns with existing ASTER swing long (entry 0.773 Sep 06) [$ASTER] [1547101508774928404]
 
 ## bull_genius
 
