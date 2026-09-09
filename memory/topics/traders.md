@@ -47,6 +47,7 @@
   - Sep 09 11:32Z — informational: BTC 2022 fractal pattern comparison; higher low ~77.6K would inherit similar 2022 PA characteristics; hedge short thesis above range highs; reaffirms 2x HTF long + actively watching for hedge short; "staying patient, no reason to force" [$BTC/$FRACTAL/$PATTERN] [2097649291992969607]
   - Sep 09 13:06Z — skip: trading philosophy/methodology; no market action or ticker [2097672968637714460]
   - Sep 09 17:34Z — informational: market psychology on HTF sweep opportunities + chart; personal conviction on waiting for sweep-of-highs setup for hedge short; "less is more" methodology affirmation [$BTC] [2097740529215701287]
+  - Sep 09 19:17Z — informational: sideliner pattern psychology; 240m chart showing pump-consolidation-dump-recovery cycle; retail indecision + squeeze pattern [$BTC] [2097766297077465294]
 
 ## Wild_Randomness
 
