@@ -286,7 +286,7 @@
 - Recent thesis: BTC "bear market end" structural conviction (HTF bottom in) but Sep 06 caution: 365d VWAP rejection, longs trapped above, PONS/AI rejections as warning flags. Rate hike scare Sep–mid-Sep = last major bottom before "complete bear destruction." CPI 9/11 + FOMC 9/16 = derisk window. ETH $3K target; 2850 multi-VWAP confluence. PUMP: deepest correction but deep-value area (ATH aVWAP→ICO price cluster); "when did you ever see a jewish company voluntarily give up a monopoly without a fight." Macro hedge: sell into Sunday spikes, aim low. ARTIFICIAL-INU: consolidation analysis (Sep 07); identified as potential generational entry on weakness to VAL support.
 - Conviction notes: Technical analyst/educator. Mixed bearish-technical BTC (Sep 06 365d VWAP analysis) with bullish longer-term "bear market end" theme. Hedging to manage risk into Sep 11/16 catalysts. Primarily informational; personal positions documented Aug 28+ (PUMP/ZEC 10x longs, Sep 05+ hedges). Market structure analyst on emerging alts (ARTIFICIAL-INU consolidation thesis Sep 07).
 - Calibration: PENDING Sep 08 22:48Z (@Manugougou "lore advantage" / "rh spot" — asset identifier?), PENDING Sep 08 09:16Z (@huskyXBT "most likely broski"; intent unclear), PENDING Sep 07 06:50Z (Argonaut #4269 options "puts floor higher"; pricing/asset intent), PENDING Sep 06 09:46Z (@johnjjj1997 "its rejected at 300m... excited to accumulate lower"; asset unclear), PENDING Sep 06 09:30Z (@JETSKIHH "maybe. whats your plan if this gets frontran"), PENDING Sep 06 08:33Z (@Mortid_X "stonk/ansem" refs; intent unclear), PENDING Sep 05 13:12Z (AI/NVDA ratio to @manyfacedchud; intent unclear), PENDING Sep 05 13:11Z (@0xSisyphus "fat stays on"), PENDING Sep 04 22:33Z (@manyfacedchud "and nothing less"), PENDING Sep 04 22:13Z (@getderb "how could i forget i will edit this in"), PENDING Aug 30 01:46Z (@0xtygra "hip-5 options" thesis), PENDING Aug 30 01:34Z (@0xDawny DefiLlama data; image 404)
-- Last seen: 2026-09-09T12:45:51Z
+- Last seen: 2026-09-09T12:50:16Z
 - **Events (rolling):**
   - Sep 09 12:45Z — informational: BTC key spot at 365d VWAP resistance + 7D support confluence; hedges tracking correctly into US open; no execution language [$BTC] [2097667801141899472]
   - Sep 09 11:53Z — skip: personal banter "everyone loves a giant pair of tits"; non-financial commentary [$NONE] [2097654652397371667]
@@ -368,6 +368,7 @@
   - Sep 09 09:52Z — ambiguous: "reprice skrumpeys 10x because of this"; unknown token; image CDN failed (0B); HR-2 calibration sent [$UNKNOWN] [2097624191092597024]
   - Sep 09 10:25Z — informational: ARGONAUTS portfolio value chart; 97 NFTs held 44.62 WETH; conviction reaffirmation [$ARGONAUTS] [2097632385722454155]
   - Sep 09 12:07Z — informational: ETH technical analysis; consolidation double-bottom + ATH test + breakout target; validates ETH $3K thesis; chart 2-month structure Aug consolidation→Sep rally→recent pullback [$ETH] [2097658226980393418]
+  - Sep 09 12:50Z — informational: AI/PUMP/XPL bullish sentiment; "look super ready" + generic DCA on weakness; no personal execution language [$AI/$PUMP/$XPL] [20976689126033152550]
 
 ## t_in_crypto
 

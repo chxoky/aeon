@@ -1,0 +1,88 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "view_link",
+        "separator",
+        "context"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "AI and PUMP and XPL look super ready. love these tokens. resistance yada yada\n\nif go lower you get to buy cheaper"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/20976689126033152550"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_title",
+        "sentiment",
+        "positions",
+        "language",
+        "discussion"
+      ]
+    },
+    "context_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish sentiment on three tokens (AI, PUMP, XPL).",
+        "variant": "body"
+      }
+    },
+    "positions": {
+      "type": "Text",
+      "props": {
+        "text": "Matches bull_genius's existing positions (AI/XPL spot held; PUMP 10x long active).",
+        "variant": "body"
+      }
+    },
+    "language": {
+      "type": "Text",
+      "props": {
+        "text": "No personal execution language — commentary/sentiment rather than fresh trade action.",
+        "variant": "body"
+      }
+    },
+    "discussion": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP is heavily discussed across multiple traders; this post affirms existing bullish conviction vs mixed group sentiment.",
+        "variant": "body"
+      }
+    }
+  }
+}

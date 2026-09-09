@@ -1,11 +1,9 @@
 🐦 *[X] @bull_genius*
 
-key spot into US open in 45 minutes
+AI and PUMP and XPL look super ready. love these tokens. resistance yada yada
 
-considering my hedges invalidated above here and above 365d rVWAP
+if go lower you get to buy cheaper
 
-up would be the best case scenario but the resistance needs to fall
+[View tweet](https://x.com/bull_genius/status/20976689126033152550)
 
-this is where you turn on the prayers
-
-[View tweet](https://x.com/bull_genius/status/2097667801141899472)
+**Context:** Bullish sentiment on three tokens (AI, PUMP, XPL). Matches bull_genius's existing positions (AI/XPL spot held; PUMP 10x long active). No personal execution language — commentary/sentiment rather than fresh trade action. PUMP is heavily discussed across multiple traders; this post affirms existing bullish conviction vs mixed group sentiment.
