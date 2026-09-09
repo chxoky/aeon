@@ -2,19 +2,22 @@
 
 ## bull_genius
 
-### PUMP (Pump.fun) — LONG SPOT/PERP (MULTI-ENTRY ESCALATION — Sep 05-06)
+### PUMP (Pump.fun) — LONG SPOT/PERP (MULTI-ENTRY ESCALATION — Sep 05-09)
 - **Entry history**:
   - **Sep 05 20:47Z** (Conviction add): Spot position add on pullback to first-pullback support. "i expect a red week in markets but will keep adding to my spot position. might get absolute fire sale prices, currently already below ICO which is insane"
   - **Sep 06 00:33Z** (New market entry): PUMP long at ATH aVWAP confluence (0.003855 zone). "im long pump because of the chart, fading my macro view for next week on this one / i think rotation coming and its a good spot here at ATH aVWAP i want to try it"
-- **Entry type**: Spot conviction scaling + new perp/spot market entry at technical level
-- **Action commitment**: Multi-tranche: Sep 05 future scaling plan ("will keep adding") + Sep 06 immediate market execution ("i want to try it")
-- **Technical thesis**: 30d+365d rVWAP+ATH aVWAP cluster at 0.00393–0.003933; first pullback wick at 0.003862; H4 bull div forming; ATH aVWAP confluence support at 0.003855; current Sep 06 price 0.004235 (7d rVWAP); Sep 06 entry executing within confluence zone
-- **Fundamental thesis**: Alon (CEO Pump.fun) cooking big announcement; likely leaves Solana/creates own chain; still market leader + huge warchest + revenues despite recent weakness; "when did you ever see a jewish company voluntarily give up a monopoly without a fight"
-- **Risk posture**: Expects red week in markets but maintains bullish PUMP tactical conviction; willing to scale into weakness; target prices = fire sale (below ICO ~$0.0023 implied lower target); macro bearish backdrop (BTC trapped longs, PONS rejection flag, CPI catalyst 9/11) but "fading macro view for next week on this one"
-- **Status**: ACTIVE — double-entry escalation: Sep 05 conviction-add commitment + Sep 06 new market entry = HIGH conviction on PUMP despite macro caution
-- **Trade alert format**: Sep 05 Step 5d (conviction add); Sep 06 Step 5a (new entry, awaiting Kyle approval)
-- **Alerted**: YES (2026-09-05T20:48:06Z Sep 05 conviction-add alert; 2026-09-06T00:33:33Z Sep 06 new-entry trade signal sent via ./notify, awaiting approve/skip)
-- **Last update**: 2026-09-06T00:33:33Z (message_id=2096396351131041874, x-trader-monitor real-time, trade-new-entry, technical confluence execution)
+  - **Sep 09 23:00Z** (Market entry): PUMP long at ~0.00421 (7d rVWAP support); consolidation base above ICO/Sept POC at 0.004063; chart shows -30.79% dump consolidation with volume recovery; "longed pump"
+- **Entry type**: Spot conviction scaling + new perp/spot market entries at technical levels
+- **Action commitment**: Multi-tranche across 4-day window: Sep 05 future scaling plan ("will keep adding") + Sep 06 immediate market execution + Sep 09 market entry at higher support
+- **Technical thesis**: 
+  - Sep 06 entry: 30d+365d rVWAP+ATH aVWAP cluster at 0.00393–0.003933; first pullback wick at 0.003862; H4 bull div forming
+  - Sep 09 entry: 1h consolidation at 7d rVWAP (0.004214); support structure ICO/Sept POC (0.004063), 30d rVWAP (0.004114), 365d rVWAP (0.003853); volume recovery post -30.79% dump
+- **Fundamental thesis**: Alon (CEO Pump.fun) cooking big announcement; likely leaves Solana/creates own chain; market leader + warchest + revenues; "when did you ever see a jewish company voluntarily give up a monopoly without a fight"
+- **Risk posture**: Expects red week in markets but maintains bullish PUMP conviction; willing to scale into weakness at multiple levels; macro bearish backdrop (BTC trapped longs, PONS rejection, CPI 9/11) but "fading macro view for next week"
+- **Status**: ACTIVE — three-entry escalation (Sep 05 conviction-add + Sep 06 market entry + Sep 09 market entry) = VERY HIGH conviction despite macro caution
+- **Trade alert format**: Sep 05 Step 5d (conviction add); Sep 06 Step 5a (new entry); Sep 09 Step 5a (new entry, awaiting Kyle approval)
+- **Alerted**: YES (2026-09-05T20:48Z; 2026-09-06T00:33Z; 2026-09-09T23:00Z alerts sent via ./notify)
+- **Last update**: 2026-09-09T23:00:36Z (tweet_id=2097822511073202399, x-trader-monitor real-time, market entry with chart)
 
 ## ryzzyqq
 

@@ -1,0 +1,123 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — @bull_genius"
+      },
+      "children": [
+        "trade_badges",
+        "price_stat",
+        "support_stack",
+        "market_context",
+        "chart_info",
+        "quote_text",
+        "post_link",
+        "approval_alert"
+      ]
+    },
+    "trade_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_pump",
+        "badge_long",
+        "badge_market"
+      ]
+    },
+    "badge_pump": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP",
+        "variant": "destructive"
+      }
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG"
+      }
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "MARKET order"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current (7d rVWAP)",
+        "value": "0.00421"
+      }
+    },
+    "support_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "support_heading",
+        "support1",
+        "support2"
+      ]
+    },
+    "support_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Support: 0.004063 (ICO/Sept POC), 0.004114 (30d rVWAP)"
+      }
+    },
+    "support1": {
+      "type": "Text",
+      "props": {
+        "text": "0.004063 (ICO/Sept POC)"
+      }
+    },
+    "support2": {
+      "type": "Text",
+      "props": {
+        "text": "0.004114 (30d rVWAP)"
+      }
+    },
+    "market_context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent -30.79% dump, consolidation forming"
+      }
+    },
+    "chart_info": {
+      "type": "Text",
+      "props": {
+        "text": "1h chart: volume recovery into support"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"longed pump\"",
+        "variant": "lead"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2097822511073202399"
+      }
+    },
+    "approval_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Approve PUMP to mirror on Kraken spot",
+        "type": "warning"
+      }
+    }
+  }
+}
