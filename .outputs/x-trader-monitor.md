@@ -1,9 +1,13 @@
-🔍 *Calibration — @Stoiiic*
+🐦 *[X] @Wild_Randomness*
 
-Event: Market sentiment on exits; post follows earlier BTC perpetual futures market-structure commentary (19:30Z)
+Crude oil breaking out, meanwhile tech indices look absolutely coiled
 
-Stoiiic: "one door to exit and a lot of people antsy to get out."
+Choose your fighter…
 
-Unable to classify — This could refer to BTC consolidation structure (limited exit liquidity), general market sentiment on crowded exits, or specific position setup. What's your read?
+One cooperative data point and we may see mags break out.
 
-[View post](https://x.com/Stoiiic/status/2097784709686198746)
+(The question really is if you need to choose in the 1st place— can AI still win even in the face of sustained higher energy?)
+
+[View tweet](https://x.com/Wild_Randomness/status/2097786657722495309)
+
+**Chart context:** Mag 7 (1W) consolidation retest 60.72-71.16 with breakout potential above 71.16. Semis (1D) coiled 530-540 zone; resistance 566. Macro tension: Oil bullish breakout vs AI narrative sustainability under sustained higher energy costs.

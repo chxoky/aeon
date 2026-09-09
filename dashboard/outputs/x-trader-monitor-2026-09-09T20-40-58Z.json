@@ -1,0 +1,179 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Mag 7 & Semis Setup",
+        "description": "Oil breakout vs. AI narrative sustainability under higher energy"
+      },
+      "children": [
+        "tweet-section",
+        "sep-1",
+        "chart-context"
+      ]
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Crude oil breaking out, meanwhile tech indices look absolutely coiled\n\nChoose your fighter…\n\nOne cooperative data point and we may see mags break out.\n\n(The question really is if you need to choose in the 1st place— can AI still win even in the face of sustained higher energy?)"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "mag7-block",
+        "semis-block",
+        "macro-block"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "mag7-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mag7-title",
+        "mag7-grid",
+        "mag7-note"
+      ]
+    },
+    "mag7-title": {
+      "type": "Badge",
+      "props": {
+        "text": "Mag 7 (1W)",
+        "variant": "secondary"
+      }
+    },
+    "mag7-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mag7-consolidation",
+        "mag7-breakout"
+      ]
+    },
+    "mag7-consolidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Retest",
+        "value": "60.72–71.16"
+      }
+    },
+    "mag7-breakout": {
+      "type": "Stat",
+      "props": {
+        "label": "Breakout Potential",
+        "value": "Above 71.16"
+      }
+    },
+    "mag7-note": {
+      "type": "Text",
+      "props": {
+        "text": "Setup primed for directional move",
+        "variant": "caption"
+      }
+    },
+    "semis-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "semis-title",
+        "semis-grid",
+        "semis-note"
+      ]
+    },
+    "semis-title": {
+      "type": "Badge",
+      "props": {
+        "text": "Semis (1D)",
+        "variant": "secondary"
+      }
+    },
+    "semis-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "semis-coiled",
+        "semis-resistance"
+      ]
+    },
+    "semis-coiled": {
+      "type": "Stat",
+      "props": {
+        "label": "Coiled Zone",
+        "value": "530–540"
+      }
+    },
+    "semis-resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Level",
+        "value": "566"
+      }
+    },
+    "semis-note": {
+      "type": "Text",
+      "props": {
+        "text": "Tight consolidation, breakout confirmation needed",
+        "variant": "caption"
+      }
+    },
+    "macro-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "macro-title",
+        "macro-tension"
+      ]
+    },
+    "macro-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Tension",
+        "level": "h4"
+      }
+    },
+    "macro-tension": {
+      "type": "Alert",
+      "props": {
+        "message": "Oil bullish breakout vs. AI narrative sustainability under sustained higher energy costs",
+        "type": "info"
+      }
+    }
+  }
+}
