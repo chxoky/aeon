@@ -302,6 +302,8 @@
 - Last seen: 2026-09-09T15:49:53Z
   - Sep 09 15:49Z — trade-new-entry: "2% pf 20x lev. long btc with invalidate 77,999 (-0.6%)" (Discord Trades primary ★); BTC tactical long entry; 2% portfolio, 20x leverage, SL 77,999; contrasts ongoing net-short regime but sized as tactical trade; fast-path alerted by Cloudflare Worker [$BTC-LONG] [1547272847725166733]
 - Last seen: 2026-09-09T15:49:53Z
+  - Sep 09 16:04Z — informational: "@solana <0.15 & <0.10" X post with USELESS (SOL ecosystem token) 4h chart; price prediction on Solana-ecosystem token downside; technical chart shows pump 0.074→0.337 → current 0.277; bearish conviction on further downside; aligns with ongoing net-short regime [$SOL/$USELESS] [2097717760587661722]
+- Last seen: 2026-09-09T16:04:22Z
 
 ## bull_genius
 

@@ -1,0 +1,207 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "asset-section",
+        "tweet-card",
+        "price-section",
+        "targets-section",
+        "sentiment-section",
+        "link-section"
+      ]
+    },
+    "asset-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-token",
+        "badge-network"
+      ]
+    },
+    "badge-token": {
+      "type": "Badge",
+      "props": {
+        "text": "USELESS",
+        "variant": "outline"
+      }
+    },
+    "badge-network": {
+      "type": "Badge",
+      "props": {
+        "text": "@solana",
+        "variant": "outline"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "USELESS 4h chart shows pump 0.07394→0.337 (peak), currently 0.277. HCH calling for downside continuation to <0.15 and <0.10 targets — sharp bearish conviction on Solana ecosystem token, aligns with ongoing net-short regime."
+      }
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-header",
+        "price-row"
+      ]
+    },
+    "price-header": {
+      "type": "Text",
+      "props": {
+        "text": "Price Movement (4h chart)",
+        "variant": "lead"
+      }
+    },
+    "price-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-entry",
+        "stat-peak",
+        "stat-current"
+      ]
+    },
+    "stat-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "0.07394"
+      }
+    },
+    "stat-peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "0.337"
+      }
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "0.277"
+      }
+    },
+    "targets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "targets-label",
+        "target-badges"
+      ]
+    },
+    "targets-label": {
+      "type": "Text",
+      "props": {
+        "text": "Downside Targets",
+        "variant": "lead"
+      }
+    },
+    "target-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-target1",
+        "badge-target2"
+      ]
+    },
+    "badge-target1": {
+      "type": "Badge",
+      "props": {
+        "text": "<0.15",
+        "variant": "destructive"
+      }
+    },
+    "badge-target2": {
+      "type": "Badge",
+      "props": {
+        "text": "<0.10",
+        "variant": "destructive"
+      }
+    },
+    "sentiment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sentiment-header",
+        "sentiment-badges"
+      ]
+    },
+    "sentiment-header": {
+      "type": "Text",
+      "props": {
+        "text": "Outlook",
+        "variant": "lead"
+      }
+    },
+    "sentiment-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-bearish",
+        "badge-regime"
+      ]
+    },
+    "badge-bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish",
+        "variant": "destructive"
+      }
+    },
+    "badge-regime": {
+      "type": "Badge",
+      "props": {
+        "text": "Net-Short Regime",
+        "variant": "outline"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2097717760587661722"
+      }
+    }
+  }
+}
