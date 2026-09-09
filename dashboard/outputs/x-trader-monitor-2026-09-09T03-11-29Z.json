@@ -1,0 +1,61 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "contested"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$GOLD — Still tracking the 8EMA test. Last week we saw the pattern tested and closed green; let's see if we repeat this time. CPI Friday should decide the direction — Iran/treasury shenanigans will play as noise in the meantime."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097522063154303471"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "contested": {
+      "type": "Alert",
+      "props": {
+        "title": "Contested positioning",
+        "message": "KillaXBT active short (Aug 09) vs. WR long pending approval",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
