@@ -1,0 +1,92 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert",
+        "separator",
+        "event_details"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "X_TRADER_BAD_EVENT",
+        "message": "Base64 payload corrupted in transmission—unable to decode event JSON. Event logged for dedup. No alert sent.",
+        "type": "error"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "detail_1",
+        "detail_2"
+      ]
+    },
+    "detail_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "label_tweet",
+        "value_tweet"
+      ]
+    },
+    "label_tweet": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet ID:",
+        "variant": "caption"
+      }
+    },
+    "value_tweet": {
+      "type": "Text",
+      "props": {
+        "text": "2097531166144270371",
+        "variant": "body"
+      }
+    },
+    "detail_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "label_trader",
+        "value_trader"
+      ]
+    },
+    "label_trader": {
+      "type": "Text",
+      "props": {
+        "text": "Trader:",
+        "variant": "caption"
+      }
+    },
+    "value_trader": {
+      "type": "Text",
+      "props": {
+        "text": "@trading_axe",
+        "variant": "body"
+      }
+    }
+  }
+}
