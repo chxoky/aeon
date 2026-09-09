@@ -58,6 +58,7 @@
 - **Events (rolling):**
   - Sep 09 04:16Z — informational: $LIT technical chart observation "Observing…"; 4H charts showing LIT $4.76→$5.05 recovery (+4.58%); meme affirmation on existing 50:50 long conviction [$LIT] [2097539734235230686]
 - **Events (rolling):**
+  - Sep 09 14:46Z — informational: $WGMI trade victory lap; TP'd Oct calls at highs (successful close), planning DCA into Dec calls; confirmed new spot longs CORZ/CIFR/CLSK, holding NBIS/HUT/CORY; WGMI chart shows bullish reversal setup at support ~44 after downtrend 76→44 [$WGMI/$CORZ/$CIFR/$CLSK] [2097698037980422628]
   - Sep 09 13:48Z — informational: $PUMP technical chart; 0.618 Fib retracement + 3-Drives pattern at confluence; "playing out well so far (17%)" = existing position tracking. Volume consolidation 0.0046–0.005 resistance zone. [$PUMP] [2097683584924704996]
   - Sep 09 04:19Z — informational: LIT $5 target implied via chart + HODL sentiment meme; reinforces existing 50:50 long conviction, support 2.0→5.0 structure [$LIT] [2097540400433213841]
   - Sep 09 03:06Z — informational: $GOLD still tracking 8EMA test, weekly close pattern, CPI Friday decision [$GOLD] [2097522063154303471]
