@@ -1,0 +1,73 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-symbol",
+        "tweet-card",
+        "separator-1",
+        "stat-current",
+        "separator-2",
+        "link-tweet"
+      ]
+    },
+    "badge-symbol": {
+      "type": "Badge",
+      "props": {
+        "text": "$PUMP",
+        "variant": "default"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Technical consolidation update at POC (Point of Control) level. Two timeframe charts (1D & 4H) show consolidation with marked entry zones. Invalidation level: POC. Recommendation: add on consolidation holds.\n\nSetup: 0.618 Fib + 3-Drives pattern at confluence (per prior Sep 09 13:48Z post)"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "0.004703",
+        "delta": "+8.90%",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097744453268299944"
+      }
+    }
+  }
+}
