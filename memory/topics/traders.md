@@ -282,6 +282,7 @@
   - Sep 09 09:59Z — ambiguous: X post "There's a reason the london session is trading like this"; cryptic with chart ref (image fetch failed); HR-2 calibration sent [$UNKNOWN] [2097626046073848011]
   - Sep 09 13:50Z — informational: BTC downside chart share (Discord Comments — image-only reply); visual confirmation of Sep 07 14:22Z "reaching middle range, downside to 76k" thesis; fast-path alerted; supports net-short regime [$BTC] [1547242841632153681]
   - Sep 09 13:52Z — informational: "important htf re-test is at 74k $BTC" + chart attachment; technical level identification on higher timeframe structure; supports net-short regime conviction on BTC; fast-path alerted (no Telegram duplicate) [$BTC] [1547243344328003655]
+  - Sep 09 14:21Z — informational: "fc zec 15m" (Trades primary ★); false-close chart check on ZEC 15m; reply to "1% more size at 1295"; technical structure validation on existing ZEC short (1235 entry, 1% size, Sep 07); fast-path alerted (no Telegram duplicate) [$ZEC] [1547250664940507347]
 
 ## bull_genius
 
