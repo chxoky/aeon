@@ -1,0 +1,139 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market calibration and sentiment analysis"
+      },
+      "children": [
+        "calibration",
+        "sep1",
+        "event",
+        "sep2",
+        "quote",
+        "sep3",
+        "analysis"
+      ]
+    },
+    "calibration": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calib-heading",
+        "calib-meta"
+      ]
+    },
+    "calib-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "calib-meta": {
+      "type": "Text",
+      "props": {
+        "text": "@trading_axe",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-desc",
+        "event-timestamp",
+        "event-context"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Commentary on Loracle's market activity"
+      }
+    },
+    "event-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: Sep 09 06:17Z",
+        "variant": "caption"
+      }
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: trading_axe advised closing CASHCAT/PONS shorts",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-heading",
+        "quote-card"
+      ]
+    },
+    "quote-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Commentary",
+        "level": "h3"
+      }
+    },
+    "quote-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "We're just letting Loracle rape and pillage us all? One man wreaking havoc across an entire village? ~ Dr. Axius."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — is this market sentiment (bearish on Loracle's impact), personal action (something trading_axe is doing to counter it), or banter? What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
