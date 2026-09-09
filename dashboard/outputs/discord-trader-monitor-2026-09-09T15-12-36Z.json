@@ -1,0 +1,74 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep-1",
+        "message-section",
+        "sep-2",
+        "alert-classify"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-message",
+        "text-message"
+      ]
+    },
+    "label-message": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "muted"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "That looks ugly..",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — what's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}

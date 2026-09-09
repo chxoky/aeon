@@ -27,3 +27,8 @@
 - ✅ Logged to `memory/logs/2026-09-09.md`
 
 No alert sent. Routine technical monitoring logged for audit trail.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Message: "That looks ugly.."
+
+Unable to classify — what's your read?
