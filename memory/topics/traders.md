@@ -374,6 +374,7 @@
   - Sep 09 10:25Z — informational: ARGONAUTS portfolio value chart; 97 NFTs held 44.62 WETH; conviction reaffirmation [$ARGONAUTS] [2097632385722454155]
   - Sep 09 12:07Z — informational: ETH technical analysis; consolidation double-bottom + ATH test + breakout target; validates ETH $3K thesis; chart 2-month structure Aug consolidation→Sep rally→recent pullback [$ETH] [2097658226980393418]
   - Sep 09 12:50Z — informational: AI/PUMP/XPL bullish sentiment; "look super ready" + generic DCA on weakness; no personal execution language [$AI/$PUMP/$XPL] [20976689126033152550]
+  - Sep 09 13:21Z — skip: personal banter "@XpiredPineapple3 but i like tits not bonk"; non-financial reply [$NONE] [2097676697852137887]
 
 ## t_in_crypto
 
