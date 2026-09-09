@@ -1,0 +1,57 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @trading_axe"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweet_card",
+        "text_unclear",
+        "link_view"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @cryptoklotz on unclear topic",
+        "variant": "muted"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "I think you got it a bit misconstrued bro, I'm on about zzz-2:native."
+      }
+    },
+    "text_unclear": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/trading_axe/status/2097560453975052316"
+      }
+    }
+  }
+}

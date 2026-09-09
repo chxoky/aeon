@@ -537,3 +537,14 @@
 - Last seen: 2026-09-08T21:32:23Z
 - **Events (rolling):**
   - Sep 08 21:32Z — informational: altcoin sentiment + consolidation opportunity; $CASHCAT revisit + $PONS mention; bullish on "interesting one" but prefers other runners [$CASHCAT/$PONS] [2097437919816610243]
+
+## trading_axe
+
+- Platforms: X (Twitter)
+- Current open positions: Unknown (narrative analyst, market structure commentary)
+- Recent thesis: Market narrative analyst; commentary on "World Tokenization Supercycle", ETH-beta repricing cycles, reflexive meme-token dynamics. Persona: "Dr. Axius" (signed posts with this pseudonym).
+- Conviction notes: First tracked 2026-08-04. Provides macro narrative commentary without clear personal execution signals. Prior mentions focus on sentiment analysis and market structure observation.
+- Calibration: PENDING Sep 09 05:39Z ("zzz-2:native" clarification — unclear if financial asset/protocol or casual banter)
+- Last seen: 2026-09-09T05:39:17Z
+- **Events (rolling):**
+  - Sep 09 05:39Z — ambiguous: reply to @cryptoklotz "I think you got it a bit misconstrued bro, I'm on about zzz-2:native. ~ Dr. Axius."; HR-2 calibration sent [$UNKNOWN] [2097560453975052316]

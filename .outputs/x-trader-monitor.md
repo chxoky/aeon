@@ -1,7 +1,1 @@
-🔍 *Calibration — @trading_axe*
-
-Event: Exited position ("bounced") with unclear reference; supporting another trader (@tsorfF7) from sidelines.
-
-trading_axe: "The vamp shit has given me PTSD ngl, I bounced but I'm still supporting you niggaz from the sidelines."
-
-Unable to classify — what security did they exit from, and is this trade relevant to copy?
+🔍 *Calibration — @trading_axe*\n\nEvent: Reply to @cryptoklotz on unclear topic\ntrading_axe: "I think you got it a bit misconstrued bro, I'm on about zzz-2:native. ~ Dr. Axius."\n\nUnable to classify — what's your read?\n\n[View tweet](https://x.com/trading_axe/status/2097560453975052316)
