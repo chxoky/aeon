@@ -1,0 +1,40 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "$HYPE — Textbook Dalai"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "5m HYPE chart on Hyperliquid: strong V-shaped recovery from 83.773 low to 86.838 current, testing 87.000 resistance. Dalai pattern = bullish reversal structure confirmation. Validates existing 50:50 conviction long thesis."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097739319024959505"
+      }
+    }
+  }
+}
