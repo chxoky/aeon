@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_post",
+        "link_view"
+      ]
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Market psychology on sweep opportunities: when significant highs/lows swept, emotions peak, sentiment becomes one-sided, targets raised/lowered. That's where opportunity lives.\n\nI am patiently waiting for a significant sweep of the highs for my $BTC hedge short.\n\nReinforces structural HTF sweep-of-highs thesis for existing hedge short (73.6–74.9K entry Aug 21). Chart shows recurring sweep pattern validation across multiple cycles."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2097740529215701287"
+      }
+    }
+  }
+}
