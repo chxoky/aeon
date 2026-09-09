@@ -31,3 +31,17 @@ No Telegram alert sent yet. Classification requires image fetch/analysis to dete
 - Non-financial banter (skip, no alert)
 
 The event is held pending Kyle's review or image context availability.
+🐦 *[X] @bull_genius*
+
+ARTIFICIAL-INU consolidation structure breakdown:
+- Sept VAH (resistance): ~0.26
+- Sept POC (key level): ~0.2213
+- Sept VAL (support): ~0.20
+- 7d rVWAP (rolling support): ~current price
+- Technical status: In consolidation mode within range; correction setup if falls below Sept POC
+- Risk thesis: If BTC continues down → panic in AI could create "absolutely crazy opportunities to buy a bag for the cycle → 140M and below"
+- Current conviction: "one of my top favorite coins"
+
+Chart shows market profile with volume accumulation structure and key technical support levels marked.
+
+[View post](https://x.com/bull_genius/status/2097824709157015585)

@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "ARTIFICIAL-INU Technical Analysis"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "tech_levels_heading",
+        "tech_table",
+        "sep2",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "ARTIFICIAL-INU consolidation structure breakdown:\n- Sept VAH (resistance): ~0.26\n- Sept POC (key level): ~0.2213\n- Sept VAL (support): ~0.20\n- 7d rVWAP (rolling support): ~current price\n\nTechnical status: In consolidation mode within range; correction setup if falls below Sept POC\n\nRisk thesis: If BTC continues down → panic in AI could create \"absolutely crazy opportunities to buy a bag for the cycle → 140M and below\"\n\nCurrent conviction: \"one of my top favorite coins\"\n\nChart shows market profile with volume accumulation structure and key technical support levels marked."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tech_levels_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Levels",
+        "level": "h3"
+      }
+    },
+    "tech_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Level",
+          "Value",
+          "Role"
+        ],
+        "rows": [
+          [
+            "Sept VAH",
+            "~0.26",
+            "Resistance"
+          ],
+          [
+            "Sept POC",
+            "~0.2213",
+            "Key Level"
+          ],
+          [
+            "Sept VAL",
+            "~0.20",
+            "Support"
+          ],
+          [
+            "7d rVWAP",
+            "~current price",
+            "Rolling Support"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/bull_genius/status/2097824709157015585"
+      }
+    }
+  }
+}
