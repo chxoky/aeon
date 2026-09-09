@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_badges",
+        "separator_1",
+        "quote_card",
+        "separator_2",
+        "alert_unclassified"
+      ]
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_context",
+        "badge_posture"
+      ]
+    },
+    "badge_context": {
+      "type": "Badge",
+      "props": {
+        "text": "Apple event context",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_posture": {
+      "type": "Badge",
+      "props": {
+        "text": "sidelined posture",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Currently sidelined on them\n\nWill see how things trade in the afternoon\n\nApple event today"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_unclassified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Likely AAPL-related given recent short conviction + Apple event mention on Sep 09 16:17Z",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
