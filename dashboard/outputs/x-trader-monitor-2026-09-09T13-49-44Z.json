@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "text_analysis",
+        "separator_2",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Reply to @BangXBT: \"Oh good\""
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to determine context of original BangXBT post or what market signal this affirms. t_in_crypto has consistent pattern of cryptic replies (16+ pending items). What's your read on this?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2097683102432714788"
+      },
+      "children": []
+    }
+  }
+}

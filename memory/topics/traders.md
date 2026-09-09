@@ -383,8 +383,9 @@
 - Recent thesis: Contrarian BTC trader. Range structure 62.1K–87.2K key levels; September/October = "VERY IMPORTANT" per MRK analyst. "Several levels between 46K and 42K" if macro deteriorates. Bearish at BTC 90K+: "not 90 or 90+ imo." Top of range not in yet. Near-term: uptrend resumed from Aug 14 bottom; "Haha 100% YES! They laughed at me for almost two months...market quickly put them in their place." Rejects 90K+ "not 90 or 90+."
 - Conviction notes: Contrarian exit discipline. Skeptical of trend-followers. NOT confirmed ironic (apply HR-2 for ambiguous posts). Pattern of cryptic replies requires consistent calibration.
 - Calibration: PENDING Aug 30 15:27Z (@exitpumpBTC "Yep soon"), PENDING Aug 30 12:43Z (@MylesGinvest 🧐), PENDING Aug 30 12:16Z ("90? Not sure dear... not 90 or 90+"), PENDING Aug 30 05:04Z (@dabaylove @exitpumpBTC "Near"), PENDING Aug 30 04:35Z ($btc "You don't understand what awaits you"), PENDING Aug 29 12:44Z (@DieguitoCharts "Yeah, soon"), PENDING Aug 29 10:10Z (@MylesGinvest "not the peak yet"), PENDING Aug 29 10:07Z (@MintBlock @Lambada @Alulim "Near"), PENDING Aug 27 17:43Z (@Alulim "reach my target, strong reversal"), PENDING Aug 27 17:16Z (refs Aug 14 bottom + X target on pivot day), PENDING Aug 27 10:41Z (@Alulim "not that simple, my target different")
-- Last seen: 2026-08-30T15:27:22Z
+- Last seen: 2026-09-09T13:46:39Z
 - **Events (rolling):**
+  - Sep 09 13:46Z — ambiguous: @BangXBT "Oh good"; reply context unclear; HR-2 sent [$UNKNOWN] [2097683102432714788]
   - Aug 27 07:10Z — informational: "Top of range isn't in / Don't catch knives on shorts" [$BTC] [2092872387037385099]
   - Aug 27 10:41Z — ambiguous: @Alulim "not that simple, my target different"; HR-2 sent [$UNKNOWN] [2092925374061564361]
   - Aug 27 17:16Z — ambiguous: refs Aug 14 bottom + "breakout above 78 to X target on X pivot day"; HR-2 sent [$BTC] [2093024771617304932]
