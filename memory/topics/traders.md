@@ -386,6 +386,9 @@
 - Last seen: 2026-09-09T13:46:39Z
 - **Events (rolling):**
   - Sep 09 13:46Z — ambiguous: @BangXBT "Oh good"; reply context unclear; HR-2 sent [$UNKNOWN] [2097683102432714788]
+- Last seen: 2026-09-09T13:45:46Z
+- **Events (rolling):**
+  - Sep 09 13:45Z — informational: bearish macro outlook; "market will whipsaw everyone...before finally starting its decline"; reply to @MylesGinvest [$BTC] [2097682879828349410]
   - Aug 27 07:10Z — informational: "Top of range isn't in / Don't catch knives on shorts" [$BTC] [2092872387037385099]
   - Aug 27 10:41Z — ambiguous: @Alulim "not that simple, my target different"; HR-2 sent [$UNKNOWN] [2092925374061564361]
   - Aug 27 17:16Z — ambiguous: refs Aug 14 bottom + "breakout above 78 to X target on X pivot day"; HR-2 sent [$BTC] [2093024771617304932]
