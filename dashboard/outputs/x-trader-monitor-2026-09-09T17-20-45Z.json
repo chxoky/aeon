@@ -1,0 +1,78 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "market-stats",
+        "sep-2",
+        "interpretation",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Look no further than metals (or crypto) for the true interpretation\n\nUS 10Y consolidating 4.837 after 4.812→4.857 move; Silver (SLV) recovering from 59.62 low, current 61.39."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "market-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-10y",
+        "stat-slv"
+      ]
+    },
+    "stat-10y": {
+      "type": "Stat",
+      "props": {
+        "label": "US 10Y Yield",
+        "value": "4.837",
+        "delta": "4.812–4.857 (consolidating)"
+      }
+    },
+    "stat-slv": {
+      "type": "Stat",
+      "props": {
+        "label": "Silver (SLV)",
+        "value": "61.39",
+        "delta": "+1.77 from 59.62",
+        "trend": "up"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "interpretation": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Reinforces existing commodity bullish thesis (GOLD/metals won't make new lows even if equities do)."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097735695557398736"
+      }
+    }
+  }
+}
