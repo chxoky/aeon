@@ -1,0 +1,43 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Bitcoin performance chart — 2025 bear cycle vs historical (2017/18, 2021/22). Current cycle tracking stronger than prior bear bottoms. ⏳ (patience/waiting implied)\n\nSupports ongoing net-short conviction; context for timing to October bottom target."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2097544784932159662"
+      },
+      "children": []
+    }
+  }
+}

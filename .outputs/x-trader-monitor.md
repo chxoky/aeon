@@ -1,12 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @HeartCanHodl*
 
-LIT technical observation: $LIT recovering from $4.76→$5.05 (+4.58%). Wild_Randomness shares 4H uptrend charts + 'Observing…' meme on existing 50:50 conviction long position.
+Bitcoin performance chart — 2025 bear cycle vs historical (2017/18, 2021/22). Current cycle tracking stronger than prior bear bottoms. ⏳ (patience/waiting implied)
 
-Context: LIT is contested (HCH strong SHORT conviction vs WR/trading_axe bullish themes).
+Supports ongoing net-short conviction; context for timing to October bottom target.
 
-[View post](https://x.com/Wild_Randomness7/status/2097530734235230686)
-$LIT chart + "$5" target implied; sarcastic HODL conviction on existing LIT long (50:50 conviction). Support structure 2.0→5.0 validates technical progression.
-
-[View tweet](https://x.com/Wild_Randomness/status/2097540400433213841)
-
-↳ Reinforces WR bullish LIT thesis; contested vs HCH strong short conviction.
+[View post](https://x.com/HeartCanHodl/status/2097544784932159662)
