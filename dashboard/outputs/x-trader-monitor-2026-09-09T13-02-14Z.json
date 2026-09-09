@@ -1,0 +1,108 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration Review"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "event_description",
+        "sep_1",
+        "tweet_card",
+        "sep_2",
+        "analysis_stack"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h3"
+      }
+    },
+    "event_description": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @0xApheli0n on technical chart comparison",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "i feel like mine fits much better lol\n\nnot gonna question the lines here"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_image",
+        "note_text",
+        "alert_classification",
+        "question_prompt"
+      ]
+    },
+    "alert_image": {
+      "type": "Alert",
+      "props": {
+        "title": "Image Unavailable",
+        "message": "0-byte CDN — attached image failed to load",
+        "type": "warning"
+      }
+    },
+    "note_text": {
+      "type": "Text",
+      "props": {
+        "text": "Text cryptic — compares two setups but asset unclear. No execution language.",
+        "variant": "caption"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Classification pending — requires manual interpretation",
+        "type": "info"
+      }
+    },
+    "question_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}
