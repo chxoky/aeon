@@ -1,0 +1,87 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "body",
+        "sep2",
+        "action"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author_text",
+        "options_text",
+        "chart_text",
+        "reply_text"
+      ]
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "Author: @Wild_Randomness",
+        "variant": "body"
+      }
+    },
+    "options_text": {
+      "type": "Text",
+      "props": {
+        "text": "SPY 09/18 777 calls",
+        "variant": "body"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart support: consolidation 762-776 range",
+        "variant": "body"
+      }
+    },
+    "reply_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic reply to @chumbawamba22 — unclear if personal execution or suggestion",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action": {
+      "type": "Alert",
+      "props": {
+        "title": "Review Required",
+        "message": "Kyle read: Is this a personal trade or commentary?",
+        "type": "info"
+      }
+    }
+  }
+}
