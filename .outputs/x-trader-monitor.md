@@ -1,7 +1,7 @@
-🔍 *Calibration — @trading_axe*
+🐦 *[X] @Wild_Randomness*
 
-Event: Commentary on Loracle's market activity (likely ref. Sep 09 06:17Z interaction where trading_axe advised closing CASHCAT/PONS shorts)
+SPX / IWM seasonality strongly positive over the next 10 days — but technical concerns on existing positions: loss of 8EMA on $LIT, loss of 21EMA on $HYPE. 
 
-trading_axe: "We're just letting Loracle rape and pillage us all? One man wreaking havoc across an entire village? ~ Dr. Axius."
+[View tweet](https://x.com/Wild_Randomness/status/2097804473058070656)
 
-Unable to classify — is this market sentiment (bearish on Loracle's impact), personal action (something trading_axe is doing to counter it), or banter? What's your read?
+↳ _Converges with your longer macro bullish view, but watch EMA breaks on your open positions._

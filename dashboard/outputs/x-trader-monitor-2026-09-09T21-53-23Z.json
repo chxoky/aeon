@@ -1,0 +1,66 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "commentary-section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "SPX / IWM seasonality strongly positive over the next 10 days — but technical concerns on existing positions: loss of 8EMA on $LIT, loss of 21EMA on $HYPE."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-link",
+        "commentary-text"
+      ]
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097804473058070656"
+      }
+    },
+    "commentary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Converges with your longer macro bullish view, but watch EMA breaks on your open positions.",
+        "variant": "caption"
+      }
+    }
+  }
+}
