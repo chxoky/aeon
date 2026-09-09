@@ -287,7 +287,8 @@
   - Sep 09 14:41Z — ambiguous: "GarrettBullish" (Chat supporting); single-phrase cryptic; appears to reference trader "Garrett" + bullish sentiment but no ticker/context; HR-2 calibration alert sent [$UNKNOWN-TRADER] [1547255613120315522]
 - Last seen: 2026-09-09T14:41:24Z
   - Sep 09 14:43Z — ambiguous: "Yes" (Chat supporting); single-word cryptic with no visible reply context (is_reply: false, referenced_message: null); possible member-Q&A response or affirmation without context relay; HR-2 calibration alert sent [$UNKNOWN] [1547256129669693470]
-- Last seen: 2026-09-09T14:43:27Z
+  - Sep 09 15:07Z — informational: "fc btc ema50 4hr wide" (Chat supporting); false-close chart check on BTC 4hr EMA50 structure; technical validation within net-short regime conviction; no execution language; routine technical monitoring [$BTC] [1547257313699111530]
+- Last seen: 2026-09-09T15:07:52Z
 
 ## bull_genius
 
