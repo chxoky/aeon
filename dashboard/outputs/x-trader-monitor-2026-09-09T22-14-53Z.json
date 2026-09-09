@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market analysis from @Wild_Randomness"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_main",
+        "link_post"
+      ]
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "🐦 [X] Tech has been resilient despite all the macro FUD (midterms, oil/iran, yields, Anthropic IPO liquidity vacuum, debt-fuelled capex/ROIc). Theme: FUDs are well-known, positioning reflects that — market needs a *shock* to reprice downward/vol upward.\n\nPotential shocks: (1) CPI hot Friday 9/11; (2) Warsh rate hike Wed (shock if print in-line/cool = Fed independence flag).\n\nCharts show: hedge fund leverage cycle NOT elevated vs history; tech momentum at -57% 60D DD (deepest on chart) — suggests resilience is positioning/structure, not price strength."
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2097809867289579619"
+      }
+    }
+  }
+}
