@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator_1",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$LIT chart + \"$5\" target implied; sarcastic HODL conviction on existing LIT long (50:50 conviction). Support structure 2.0→5.0 validates technical progression."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097540400433213841"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_lit",
+        "text_context"
+      ]
+    },
+    "badge_lit": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT",
+        "variant": "outline"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces WR bullish LIT thesis; contested vs HCH strong short conviction.",
+        "variant": "body"
+      }
+    }
+  }
+}
