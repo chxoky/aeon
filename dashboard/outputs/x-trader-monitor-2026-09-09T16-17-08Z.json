@@ -1,0 +1,102 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_1",
+        "badge_date",
+        "separator_1",
+        "text_question",
+        "separator_2",
+        "text_context",
+        "stack_trades",
+        "separator_3",
+        "storylink_post"
+      ]
+    },
+    "heading_1": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "badge_date": {
+      "type": "Badge",
+      "props": {
+        "text": "9/3",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "HCH net-short regime since Aug 07",
+        "variant": "body"
+      }
+    },
+    "stack_trades": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_zec",
+        "badge_btc"
+      ]
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC short scale-in (15:35Z)",
+        "variant": "outline"
+      }
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC 20x tactical long (15:49Z)",
+        "variant": "outline"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "storylink_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post on X",
+        "href": "https://x.com/HeartCanHodl/status/2097718160137052361",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
