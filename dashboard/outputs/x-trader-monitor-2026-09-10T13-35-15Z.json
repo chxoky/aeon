@@ -1,0 +1,153 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "stack-tickers",
+        "sep1",
+        "section-technical",
+        "section-macro",
+        "section-read",
+        "sep2",
+        "link-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Close below the box and macro people are allowed to clown on me all they want"
+      }
+    },
+    "stack-tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-spx",
+        "badge-spy"
+      ]
+    },
+    "badge-spx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPX"
+      }
+    },
+    "badge-spy": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPY"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-technical": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-technical",
+        "text-technical"
+      ]
+    },
+    "heading-technical": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup",
+        "level": "h3"
+      }
+    },
+    "text-technical": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation BOX between ~7,600-7,700 on SPX daily. Current price 7,590-7,630 at lower edge of box. Support below box: 7,500-7,550. Invalidation: close below box. Moving averages + RSI show consolidation structure.",
+        "variant": "body"
+      }
+    },
+    "section-macro": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-macro",
+        "text-macro"
+      ]
+    },
+    "heading-macro": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Context",
+        "level": "h3"
+      }
+    },
+    "text-macro": {
+      "type": "Text",
+      "props": {
+        "text": "CPI catalyst on 9/11 (Rosh Hashanah seasonal pattern — \"Sell Rosh Hashanah, Buy Yom Kippur\" per trader thesis). Bulls hoping for PPI miss → CPI miss sequence to rally.",
+        "variant": "body"
+      }
+    },
+    "section-read": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-read",
+        "text-read"
+      ]
+    },
+    "heading-read": {
+      "type": "Heading",
+      "props": {
+        "text": "Read",
+        "level": "h3"
+      }
+    },
+    "text-read": {
+      "type": "Text",
+      "props": {
+        "text": "Technically, invalidation is clear (box break below). Macro-wise, setup validates bullish seasonality thesis if CPI comes in lighter than expected.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2098041714250543243"
+      }
+    }
+  }
+}
