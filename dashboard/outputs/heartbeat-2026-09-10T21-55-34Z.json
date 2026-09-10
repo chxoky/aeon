@@ -1,0 +1,50 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat",
+        "description": "2026-09-10 20:00 UTC — 🟡 WATCH"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "alert_p3",
+        "separator1",
+        "alert_p0"
+      ]
+    },
+    "alert_p3": {
+      "type": "Alert",
+      "props": {
+        "title": "🔵 P3 — STALE: morning-pipeline chain",
+        "message": "Last succeeded 4 days ago (2026-09-06 09:05 UTC), exceeding the 2×daily interval threshold. morning-brief is downstream and also stale since Sep 6. Individual chain steps (token-movers, market-context-refresh) are running healthy on their own 12:00 UTC schedule — only the 07:00 UTC chain dispatch is missing. Check chain-runner.yml / GitHub Actions cron scheduling.",
+        "type": "warning"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_p0": {
+      "type": "Alert",
+      "props": {
+        "title": "✅ P0",
+        "message": "No failed or stuck skills. No API degradation. X webhook inferred active (x-trader-monitor last success 21:39 UTC today).",
+        "type": "success"
+      }
+    }
+  }
+}
