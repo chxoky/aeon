@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - BTC Analysis"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-stoiiic",
+        "link-post"
+      ]
+    },
+    "tweet-stoiiic": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "BTC consolidation structure — interim pivot at 76-80K range since Aug 20.\n\nSpot/Perp divergence:\n• Spot shows passive bid-side skew (demand)\n• Perps continue selling aggressively\n• Perps traders \"antsy to get in on dips\"\n\n4 technical charts analyze: 8h/4h consolidation, volume profile/POC levels, CVD depth divergence, 70K support reference.\n\nAt interim pivot now: rotational (higher) vs breakdown decision point."
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2098079103400210451"
+      },
+      "children": []
+    }
+  }
+}
