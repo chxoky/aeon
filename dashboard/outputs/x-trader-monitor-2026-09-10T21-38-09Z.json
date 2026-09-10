@@ -1,0 +1,161 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "tickers-stack",
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tickers-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ticker-spx",
+        "ticker-spy"
+      ]
+    },
+    "ticker-spx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPX",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "ticker-spy": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPY",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Box is holding today…\n\n(Un)fortunately we have to lean on tomorrow's CPI print to save this… which falls on…\n\nFull Moon, 9/11, and the beginning of sell Rosh Hashanah (Jewish holiday)…"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2098163215314342050",
+        "source": "X"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-title",
+        "analysis-content"
+      ]
+    },
+    "analysis-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "spx-stat",
+        "price-stat",
+        "rsi-stat",
+        "catalyst-details"
+      ]
+    },
+    "spx-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SPX Box Consolidation (1D)",
+        "value": "7,550 – 7,650"
+      },
+      "children": []
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "7,599.70"
+      },
+      "children": []
+    },
+    "rsi-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "RSI (Oversold)",
+        "value": "35 – 40"
+      },
+      "children": []
+    },
+    "catalyst-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-text",
+        "seasonality-text",
+        "alignment-text"
+      ]
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "CPI 9/11 is critical catalyst",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "seasonality-text": {
+      "type": "Text",
+      "props": {
+        "text": "Rosh Hashanah seasonality (\"Sell Rosh Hashanah, Buy Yom Kippur\") adds volatility context"
+      },
+      "children": []
+    },
+    "alignment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with earlier 02:59Z/03:51Z posts on same seasonal thesis"
+      },
+      "children": []
+    }
+  }
+}

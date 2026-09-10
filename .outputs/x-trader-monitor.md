@@ -1,9 +1,15 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Wild_Randomness*
 
-Every time $BTC has seen the Blue & Green EMA cross and flip with force, it has marked a major shift in trend.
+$SPX $SPY
 
-I wonder if this time will be "different."
+Box is holding today…
 
-[View tweet](https://x.com/KillaXBT/status/2098160569178058861)
+(Un)fortunately we have to lean on tomorrow's CPI print to save this… which falls on…
 
-↳ _Chart shows recurring EMA confluence points marking prior structural shifts; current price above both moving averages aligns with existing HTF long thesis._
+Full Moon, 9/11, and the beginning of sell Rosh Hashanah (Jewish holiday)…
+
+[View tweet](https://x.com/Wild_Randomness/status/2098163215314342050)
+
+---
+
+**Analysis**: SPX box consolidation 7,550–7,650 (1D chart). Price at 7,599.70. RSI oversold ~35–40. CPI 9/11 is critical catalyst; Rosh Hashanah seasonality ("Sell Rosh Hashanah, Buy Yom Kippur") adds volatility context. Aligns with WR's earlier 02:59Z/03:51Z posts on same seasonal thesis.
