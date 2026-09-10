@@ -477,6 +477,7 @@
   - Sep 10 00:42Z — skip: crypto token whitelist/mint announcement; personal excitement non-financial; images show wallet genesis-charter list + batch whitelisting UI; "marmot in" = selected for mint, "lets fkn go" = sentiment only [2097848183632109919]
   - Sep 10 18:06Z — informational-market-observation: Argonauts NFT collection sales data screenshot; social commentary on seller activity (imartard/badtrador wallet addresses highlighted with multiple sales); "the sellers got good humour" = trader humor/username observation; aligns with existing ARGONAUT long conviction (Sep 07 04:21Z first hold, Sep 10 08:12Z market buy, Sep 10 sustained holding); no new personal action signal [$ARGONAUTS-NFT] [2098110776737247497]
   - Sep 10 21:13Z — informational: BTC technical analysis + bottom formation thesis; textbook selloff→capitulation→shorts piling; short squeeze expected to test ATH aVWAP from below (expect fail); Friday risk-off/rate-hike panic→30d rVWAP retest→new low Mon/Tue; RSI bull div signals finish; much lower unlikely ST unless macro shock; 2 charts show 365d/7d/30d rVWAP + RSI div structure [$BTC] [2098157925839626601]
+  - Sep 10 22:05Z — informational: MARSCOIN 125M consolidation; 100M rock solid bottom; Substack channel strategy [$MARSCOIN] [2098171133165969600]
 
 ## t_in_crypto
 
