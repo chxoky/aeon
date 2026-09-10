@@ -1,0 +1,94 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "source_text",
+        "referenced_stack",
+        "message_stack",
+        "analysis_alert"
+      ]
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message from HeartCanHodl in member chat (06:38Z)",
+        "variant": "lead"
+      }
+    },
+    "referenced_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ref_heading",
+        "ref_text"
+      ]
+    },
+    "ref_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Referenced context",
+        "level": "h4"
+      }
+    },
+    "ref_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH earlier noted: \"Yeah. He was a OG trader. Just out of sync for the last few months\"",
+        "variant": "body"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_heading",
+        "msg_text"
+      ]
+    },
+    "msg_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "msg_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH: \"enas and laptop followed by dip. What is the takeaway\"",
+        "variant": "body"
+      }
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "References to \"enas\" and \"laptop\" (trader names?) followed by market structure (\"dip\"). No execution language. What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
