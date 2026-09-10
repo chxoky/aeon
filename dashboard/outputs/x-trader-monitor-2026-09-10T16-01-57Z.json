@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_stack",
+        "separator_1",
+        "validation_stack"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "We already slowly down from high pivot 4 sept"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2098078597277769862"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "validation_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "validation_text",
+        "btc_metrics"
+      ]
+    },
+    "validation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates prior Sep 10 15:24Z Elliott Wave setup (peak marked). Aligns with BTC range thesis (62.1K–87.2K, Sept critical). Price declining from Sep 4 pivot as thesis predicts.",
+        "variant": "body"
+      }
+    },
+    "btc_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_range_low",
+        "badge_range_high",
+        "badge_critical"
+      ]
+    },
+    "badge_range_low": {
+      "type": "Badge",
+      "props": {
+        "text": "Range Low: 62.1K",
+        "variant": "outline"
+      }
+    },
+    "badge_range_high": {
+      "type": "Badge",
+      "props": {
+        "text": "Range High: 87.2K",
+        "variant": "outline"
+      }
+    },
+    "badge_critical": {
+      "type": "Badge",
+      "props": {
+        "text": "Sept Critical",
+        "variant": "secondary"
+      }
+    }
+  }
+}
