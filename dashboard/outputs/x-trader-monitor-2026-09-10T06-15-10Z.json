@@ -1,0 +1,168 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "DCA Plan — @Wild_Randomness"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_info",
+        "thesis_section",
+        "entry_section",
+        "quote_section",
+        "post_link",
+        "separator",
+        "cta_text"
+      ]
+    },
+    "ticker_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "rkt_badge",
+        "call_badge",
+        "date_badge"
+      ]
+    },
+    "rkt_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$RKT",
+        "variant": "default"
+      }
+    },
+    "call_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "March 2027 Calls",
+        "variant": "default"
+      }
+    },
+    "date_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Accumulating Sep-Oct 2026",
+        "variant": "secondary"
+      }
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_text",
+        "pattern_text",
+        "timeframe_text"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Historical pattern: when 30-year bonds get smacked off ~5%, RKT doubles 3 times over 2-4 months.",
+        "variant": "body"
+      }
+    },
+    "pattern_text": {
+      "type": "Text",
+      "props": {
+        "text": "Accumulating over Sep-Oct 2026 if 30Y bonds hold breakout above stifling levels.",
+        "variant": "body"
+      }
+    },
+    "timeframe_text": {
+      "type": "Text",
+      "props": {
+        "text": "Not short-term (bond seasonality weak 2 more months), but March calls are the play into next cycle.",
+        "variant": "caption"
+      }
+    },
+    "entry_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "entry_stat"
+      ]
+    },
+    "entry_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Entry",
+        "value": "$13.45"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_heading",
+        "quote_text"
+      ]
+    },
+    "quote_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader's View",
+        "level": "h3"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"If they are successful in fending stifling this breakout attempt on the 30yr I would expect this to be a winner — perhaps the better play over $TLT?\"",
+        "variant": "lead"
+      }
+    },
+    "post_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2097930876462219432",
+        "source": "@Wild_Randomness"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cta_text": {
+      "type": "Text",
+      "props": {
+        "text": "Want to set up your own DCA on this, or skip?",
+        "variant": "lead"
+      }
+    }
+  }
+}
