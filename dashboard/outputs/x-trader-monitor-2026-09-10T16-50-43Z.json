@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "source_badge",
+        "tweet_card",
+        "separator_1",
+        "technical_stack"
+      ]
+    },
+    "source_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius on X",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Incredible tech indeed. People just now start pooping their pants while the time to do that was a few days ago when the fed calendar + simple technical stuff on the chart that everyone can pull up in 5 minutes was signaling risk off. Good news tho — bottom within the next 4–8 days before yom kippur. Wait for bull div on 4h RSI (we are not there yet). 30d rVWAP touch i think almost inevitable at this point. We might go lower who knows. Buy the blood."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_chart",
+        "view_tweet_link",
+        "rsi_stat",
+        "rsi_status",
+        "vwap_text",
+        "support_levels_text",
+        "signal_text"
+      ]
+    },
+    "heading_chart": {
+      "type": "Heading",
+      "props": {
+        "text": "4h Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098090842103935001"
+      }
+    },
+    "rsi_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "4h RSI",
+        "value": "29.87",
+        "trend": "down"
+      }
+    },
+    "rsi_status": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Deeply oversold"
+      }
+    },
+    "vwap_text": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple VWAP confluences: 365D, 30D, 7D structure"
+      }
+    },
+    "support_levels_text": {
+      "type": "Text",
+      "props": {
+        "text": "Support levels: 76.8K → 75.2K → 73.6K"
+      }
+    },
+    "signal_text": {
+      "type": "Text",
+      "props": {
+        "text": "Awaiting RSI mean-reversion signal"
+      }
+    }
+  }
+}
