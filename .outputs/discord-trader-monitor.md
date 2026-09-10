@@ -1,29 +1,18 @@
 ## Summary
 
-I've successfully executed the **Discord Trader Monitor** skill for the event received at 2026-09-10T04:56:32Z. Here's what was processed:
+**Event processed successfully — no alert sent**
 
-**Event Details:**
-- **Trader:** HeartCanHodl (username: heartcanhodl)
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting channel)
-- **Message:** "What's your target for hype & zec?"
-- **Message ID:** 1547470812167274506
-- **Fast-path alerted:** false (full processing required)
+**Message:** HeartCanHodl, 2026-09-10T05:32:53Z, Discord Chat (supporting channel)
+- **Content:** `fc cl 1hr` (false-close chart check on Crude Oil 1-hour)
+- **Classification:** Informational-technical (Step 7)
+- **Action:** Silent — routine technical monitoring of existing 2% CL short position
 
-**Classification:** **SKIP** — Non-financial banter
-- This is casual member chitchat in a supporting channel, not a trade signal, execution, or actionable market insight
-- Mentions HYPE and ZEC but in a conversational question context, not a personal position or conviction statement
-- Supporting channel guidelines: no standalone alert unless it directly references/updates primary channel trades
+**Rationale:**
+- No execution language or trade signal
+- Supporting-channel technical maintenance message
+- Aligns with documented "fc" (false-close) pattern in traders.md
+- Per Step 7 protocol: supporting-channel informational-only → no standalone alert
 
-**Actions Completed:**
-1. ✅ Added message ID to `memory/discord-trader-seen.txt` for dedup tracking
-2. ✅ Logged event classification to `memory/logs/2026-09-10.md` 
-3. ✅ No alert sent (non-financial)
-4. ✅ No memory updates needed (no actionable trader activity)
-
-The skill completed cleanly with no notification triggered, as this message fell outside alerting criteria.
-🔍 *Calibration — [DC: HCH — Chat]*
-
-No clear prior context in channel
-heartcanhodl: "1-2 months & >1 year from here"
-
-Unable to classify — what's your read?
+**Memory updated:**
+- Message ID added to discord-trader-seen.txt ✓
+- Log entry added to memory/logs/2026-09-10.md ✓
