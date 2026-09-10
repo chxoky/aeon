@@ -1,0 +1,53 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_cal",
+        "text_event",
+        "tweet_wild",
+        "text_question",
+        "link_source"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Unclear (reply to @based16z, external post not visible)"
+      }
+    },
+    "tweet_wild": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@based16z Good timing"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "link_source": {
+      "type": "Link",
+      "props": {
+        "label": "Tweet: https://x.com/Wild_Randomness/status/2097885154094219379",
+        "href": "https://x.com/Wild_Randomness/status/2097885154094219379"
+      }
+    }
+  }
+}
