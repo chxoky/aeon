@@ -47,8 +47,8 @@
     "last_quality_score": 4
   },
   "market-context-refresh": {
-    "last_dispatch": "2026-09-09T13:54:01Z",
-    "last_status": "success",
+    "last_dispatch": "2026-09-10T13:31:24Z",
+    "last_status": "dispatched",
     "last_success": "2026-09-09T14:04:20Z",
     "total_runs": 87,
     "total_successes": 85,
@@ -60,8 +60,8 @@
     "last_error": "awned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"subtype\":\"success\",\"api_error_statu"
   },
   "narrative-tracker": {
-    "last_dispatch": "2026-09-09T13:54:01Z",
-    "last_status": "success",
+    "last_dispatch": "2026-09-10T13:31:24Z",
+    "last_status": "dispatched",
     "last_success": "2026-09-09T14:02:33Z",
     "total_runs": 45,
     "total_successes": 45,
@@ -99,8 +99,8 @@
     "last_dispatch": "2026-07-14T04:51:21Z"
   },
   "token-alert": {
-    "last_dispatch": "2026-09-09T13:54:01Z",
-    "last_status": "success",
+    "last_dispatch": "2026-09-10T13:31:24Z",
+    "last_status": "dispatched",
     "last_success": "2026-09-09T13:56:44Z",
     "total_runs": 48,
     "total_successes": 48,
@@ -109,8 +109,8 @@
     "success_rate": 1
   },
   "token-movers": {
-    "last_dispatch": "2026-09-09T13:54:01Z",
-    "last_status": "success",
+    "last_dispatch": "2026-09-10T13:31:24Z",
+    "last_status": "dispatched",
     "last_success": "2026-09-09T14:04:52Z",
     "total_runs": 92,
     "total_successes": 91,
