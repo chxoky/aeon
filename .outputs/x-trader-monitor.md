@@ -1,7 +1,9 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @HeartCanHodl*
 
-Dropping Substack thesis: "The NFT Market Bottom Is In. Argonauts Are The Spark."
+@XXAntiWar is on the same trade. LFG! 😃
 
-Article focus: NFT market positioning (2026 bear close + Robinhood onramp) + first 10k collection catalyst. Directly supports existing ARGONAUTS conviction (97+ NFTs held, 100x asymmetric thesis, 0.5 ETH floor buying Sep 10).
+💹 ZEC SHORT setup — technical charts show resistance 1,295.20 (SS mark), support zone 1,176–1,244 area. 15m consolidation + spot structure aligned.
 
-[View post](https://x.com/bull_genius/status/2098066082577707255)
+[View tweet](https://x.com/HeartCanHodl/status/2098067097276559575)
+
+↳ _Aligns with HCH's documented ZEC short positioning (Aug 11+); group lean contested (HCH short vs. WR technical monitoring vs. trading_axe bullish risk-on)._
