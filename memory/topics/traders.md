@@ -405,6 +405,7 @@
   - Sep 09 12:50Z — informational: AI/PUMP/XPL bullish sentiment; "look super ready" + generic DCA on weakness; no personal execution language [$AI/$PUMP/$XPL] [20976689126033152550]
   - Sep 09 13:21Z — skip: personal banter "@XpiredPineapple3 but i like tits not bonk"; non-financial reply [$NONE] [2097676697852137887]
   - Sep 09 22:47Z — informational: macro caution into CPI/FOMC; technical breakdown (365d RVWAP rejection, trapped longs, lower highs); bearish near-term vs bullish LTM; hedging stance [$BTC/$MACRO/$FOMC/$CPI] [2097819183610253405]
+  - Sep 10 00:42Z — skip: crypto token whitelist/mint announcement; personal excitement non-financial; images show wallet genesis-charter list + batch whitelisting UI; "marmot in" = selected for mint, "lets fkn go" = sentiment only [2097848183632109919]
 
 ## t_in_crypto
 
