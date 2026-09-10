@@ -1,13 +1,13 @@
 ## Summary
 
-**token-alert — 2026-09-09 — TOKEN_ALERT_OK**
+**token-alert completed — no anomalies.**
 
-Checked all 3 tracked tokens against CoinGecko live data:
+Checked all 3 tracked tokens against MEMORY.md thresholds:
 
-| Token | Price | 24h Change | Threshold | Alert? |
-|-------|-------|-----------|-----------|--------|
-| BTC | $79,340 | +1.98% | 5% | No |
-| ETH | $2,510.84 | +2.48% | 8% | No |
-| SOL | $104.05 | +1.73% | 10% | No |
+| Token | Price | 24h Δ | Threshold |
+|-------|-------|--------|-----------|
+| BTC | $76,916 | -3.29% | 5% |
+| ETH | $2,419 | -3.70% | 8% |
+| SOL | $99.47 | -4.70% | 10% |
 
-No thresholds breached, no volume spikes. Current prices logged to `memory/logs/2026-09-09.md`. No notification sent.
+None of the price-change thresholds were breached. No volume spikes detected. No notifications sent. Prices logged to `memory/logs/2026-09-10.md` as `TOKEN_ALERT_OK`.
