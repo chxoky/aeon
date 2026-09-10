@@ -1,0 +1,44 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "text_source",
+        "table_prices"
+      ]
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Chat]"
+      }
+    },
+    "table_prices": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Price",
+          "Market Data"
+        ],
+        "rows": [
+          [
+            "HYPE",
+            "$350",
+            "~$80B+ circ / $350B FDV"
+          ],
+          [
+            "ZEC",
+            "$10k",
+            "~$169B circ"
+          ]
+        ]
+      }
+    }
+  }
+}
