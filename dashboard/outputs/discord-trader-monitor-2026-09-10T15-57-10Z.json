@@ -1,0 +1,164 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "sep1",
+        "section-message",
+        "sep2",
+        "section-context",
+        "sep3",
+        "section-interpretations",
+        "sep4",
+        "closing"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-message",
+        "text-message"
+      ]
+    },
+    "label-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Cryptic message (Sep 10 15:54Z)",
+        "level": "h3"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "'Getting real' + Discord link pointing to another message"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-context",
+        "text-context1",
+        "text-context2"
+      ]
+    },
+    "label-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text-context1": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel (not primary Trades)."
+      }
+    },
+    "text-context2": {
+      "type": "Text",
+      "props": {
+        "text": "Cannot access linked message context."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label-interp",
+        "interp-list"
+      ]
+    },
+    "label-interp": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations",
+        "level": "h3"
+      }
+    },
+    "interp-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp1",
+        "interp2",
+        "interp3",
+        "interp4"
+      ]
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Market sentiment/price action observation"
+      }
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Agreement with another trader's analysis"
+      }
+    },
+    "interp3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Casual banter"
+      }
+    },
+    "interp4": {
+      "type": "Text",
+      "props": {
+        "text": "4. Link requires external context"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "closing": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
