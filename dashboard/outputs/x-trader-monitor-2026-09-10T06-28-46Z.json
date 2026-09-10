@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "separator_1",
+        "tweet_card",
+        "text_unable",
+        "link_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @cz_binance (external context invisible)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@cz_binance Wow\nReally????"
+      },
+      "children": []
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/t_in_crypto/status/2097934102343172377"
+      },
+      "children": []
+    }
+  }
+}
