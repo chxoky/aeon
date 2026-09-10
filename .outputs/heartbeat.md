@@ -1,6 +1,8 @@
-🟡 WATCH
+🟡 *WATCH — Heartbeat 2026-09-10 ~09:00 UTC*
 
-🔵 SCHEDULE: morning-pipeline chain (daily 07:00 UTC) last succeeded 2026-09-06 — 3 missed runs (Sep 07, Sep 08, Sep 09 07:00 UTC). Standalone skills (token-movers, market-context-refresh) are healthy at their own midday schedules. morning-brief has also not succeeded since Sep 06 via the chain. Recommend checking the chain-runner workflow logs for Sep 07–09.
+🟡 P3 STALE: `morning-pipeline` chain hasn't run since 2026-09-06 (4 days; daily schedule `0 7 * * *` = 48h 2× threshold). `morning-brief` shares the same stale last_success (2026-09-06 09:05 UTC). Subsequent chain runs on Sep 07–09 are absent from cron-state.json — chain scheduler may have skipped these days.
 
-✅ X webhook: WATCHED_TRADERS rule is_effect=1, ON_AIR — X signals flowing.
-✅ Skill fleet: all other enabled skills healthy, no consecutive failures.
+✅ X webhook: WATCHED\_TRADERS rule active (is\_effect: 1, all 12 traders).
+✅ No failed/stuck/degraded skills.
+✅ No open PRs or urgent issues.
+✅ All real-time monitors healthy (x-trader last 08:50 UTC, discord-trader last 06:45 UTC).

@@ -1,0 +1,83 @@
+{
+  "root": "card-heartbeat",
+  "state": {},
+  "elements": {
+    "card-heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "🟡 Heartbeat 2026-09-10 ~09:00 UTC",
+        "description": "System health status"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-p3-stale",
+        "sep-1",
+        "success-stack"
+      ]
+    },
+    "alert-p3-stale": {
+      "type": "Alert",
+      "props": {
+        "title": "P3 STALE: morning-pipeline",
+        "message": "`morning-pipeline` chain hasn't run since 2026-09-06 (4 days; daily schedule `0 7 * * *` = 48h 2× threshold). `morning-brief` shares the same stale last_success (2026-09-06 09:05 UTC). Subsequent chain runs on Sep 07–09 are absent from cron-state.json — chain scheduler may have skipped these days.",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "success-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-webhook",
+        "text-no-failed",
+        "text-no-issues",
+        "text-monitors"
+      ]
+    },
+    "text-webhook": {
+      "type": "Text",
+      "props": {
+        "text": "✅ X webhook: WATCHED_TRADERS rule active (is_effect: 1, all 12 traders).",
+        "variant": "body"
+      }
+    },
+    "text-no-failed": {
+      "type": "Text",
+      "props": {
+        "text": "✅ No failed/stuck/degraded skills.",
+        "variant": "body"
+      }
+    },
+    "text-no-issues": {
+      "type": "Text",
+      "props": {
+        "text": "✅ No open PRs or urgent issues.",
+        "variant": "body"
+      }
+    },
+    "text-monitors": {
+      "type": "Text",
+      "props": {
+        "text": "✅ All real-time monitors healthy (x-trader last 08:50 UTC, discord-trader last 06:45 UTC).",
+        "variant": "body"
+      }
+    }
+  }
+}
