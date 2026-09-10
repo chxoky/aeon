@@ -1,9 +1,7 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @t_in_crypto*
 
-@XXAntiWar is on the same trade. LFG! 😃
+Get your bids ready again soon $btc #btc
 
-💹 ZEC SHORT setup — technical charts show resistance 1,295.20 (SS mark), support zone 1,176–1,244 area. 15m consolidation + spot structure aligned.
+**Technical Setup:** Elliott Wave analysis marked for September/October. Wave structure with peak marked. Aligns with contrarian BTC positioning (entry 58.4K, target top-of-range exit into short).
 
-[View tweet](https://x.com/HeartCanHodl/status/2098067097276559575)
-
-↳ _Aligns with HCH's documented ZEC short positioning (Aug 11+); group lean contested (HCH short vs. WR technical monitoring vs. trading_axe bullish risk-on)._
+[View post](https://x.com/t_in_crypto/status/2098070189447303337)

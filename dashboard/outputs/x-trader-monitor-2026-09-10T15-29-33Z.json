@@ -1,0 +1,73 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "BTC trading signal and technical analysis"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "technical-stack"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Get your bids ready again soon $btc #btc"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "technical-heading",
+        "wave-analysis",
+        "positioning-details",
+        "link"
+      ]
+    },
+    "technical-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Setup",
+        "level": "h3"
+      }
+    },
+    "wave-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Elliott Wave analysis marked for September/October. Wave structure with peak marked. Aligns with contrarian BTC positioning.",
+        "variant": "body"
+      }
+    },
+    "positioning-details": {
+      "type": "Text",
+      "props": {
+        "text": "Entry: 58.4K | Target: top-of-range exit into short",
+        "variant": "caption"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2098070189447303337"
+      }
+    }
+  }
+}
