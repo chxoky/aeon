@@ -310,7 +310,8 @@
 - Last seen: 2026-09-09T16:05:57Z
   - Sep 09 16:42Z — informational: VLTF structure + wick fill rationale for 15:49Z tactical long (2% 20x BTC); hedge position explanation: overall PA bearish below 79.4K mid-range; pure structure-based trade not full conviction flip; fast-path alerted (no Telegram) [$BTC-LONG] [1547286135829565552]
   - Sep 10 05:36Z — informational: "fc zec 15m ema50" (Chat supporting); false-close chart check on ZEC 15m; routine technical monitoring within existing ZEC short (1235 entry Sep 07, 1295 scale-in Sep 09, 2% total); no execution language [$ZEC] [1547480763358904382]
-- Last seen: 2026-09-10T05:36:04Z
+  - Sep 10 06:39Z — informational-sentiment: "and pre news week de-risk" (Chat supporting, reply to tkglitch369 "they always skew these prints man"); market conviction on de-risking positioning into news week (CPI Sep 11, FOMC Sep 16 catalysts); supports ongoing net-short regime conviction with selective tactical long hedges [1547496666497348442]
+- Last seen: 2026-09-10T06:39:16Z
 
 ## bull_genius
 

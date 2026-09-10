@@ -7,3 +7,8 @@ Referenced context: HCH earlier noted: "Yeah. He was a OG trader. Just out of sy
 HCH: "enas and laptop followed by dip. What is the takeaway"
 
 Unable to classify — references to "enas" and "laptop" (trader names?) followed by market structure ("dip"). No execution language. What's your read?
+💬 *[DC: HCH — Chat]*
+
+↩️ _Member: "they always skew these prints man"_
+
+and pre news week de-risk

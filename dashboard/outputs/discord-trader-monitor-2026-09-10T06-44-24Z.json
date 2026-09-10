@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_messages"
+      ]
+    },
+    "stack_messages": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_header",
+        "text_member",
+        "text_context"
+      ]
+    },
+    "text_header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Chat]",
+        "variant": "caption"
+      }
+    },
+    "text_member": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Member: \"they always skew these prints man\"",
+        "variant": "lead"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "and pre news week de-risk",
+        "variant": "body"
+      }
+    }
+  }
+}
