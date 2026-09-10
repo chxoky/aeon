@@ -1,0 +1,33 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "i think it depends on CPI tomorrow but i personally prepare for bad outcome and bottom in coming week\n\nmy funds are safely in spot and argonauts rn, no perps in this period"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/209816988338924755"
+      },
+      "children": []
+    }
+  }
+}
