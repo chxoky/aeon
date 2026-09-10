@@ -17,3 +17,16 @@ invocation_logs = true
 
 [observability.traces]
 enabled = true
+
+# ── TradingView execution (src/tv/) ───────────────────────────────────────────
+# RuleState serialises each rule's fire-slot. KV cannot do this: it has no
+# compare-and-set, so two concurrent webhook deliveries would both see the rule
+# armed and both trade. TradingView webhook delivery is at-least-once, so that
+# is a real double-sell, not a theoretical one.
+[[durable_objects.bindings]]
+name = "RULE_STATE"
+class_name = "RuleState"
+
+[[migrations]]
+tag = "v1-rule-state"
+new_sqlite_classes = ["RuleState"]
