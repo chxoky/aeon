@@ -116,6 +116,7 @@
   - Sep 05 16:34Z — informational: SPX/SPY intraday tracking; 7,620/7,540 consolidation; RSI neutral; no execution language [$SPX/$MACRO] [2096275853659230466]
   - Sep 05 17:36Z — informational: QQQ Jan/Mar calls + dispersion thesis (semis outperform flat indices); affirms equities/vol specialist framework [$QQQ/$SPX/$SEMIS] [2096291431379796134]
   - Sep 05 19:32Z — informational: NQ technical chart agreement "bingo" with @50ptMAE consolidation structure [$NQ/$NASDAQ] [2096320537483952174]
+  - Sep 10 20:37Z — informational: US10Y Treasury yield spike to 4.963% (+2.44%); macro volatility; bond market stress [$UST/$BONDS/$MACRO] [2098148847315013787]
 ## Stoiiic
 
 - Platforms: X (Twitter)

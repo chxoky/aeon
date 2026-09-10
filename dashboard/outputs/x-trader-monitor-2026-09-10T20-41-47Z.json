@@ -1,0 +1,146 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Treasury Market Alert"
+      },
+      "children": [
+        "tweet_section",
+        "separator_1",
+        "metrics_section",
+        "separator_2",
+        "context_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "US10Y Treasury yields spiked to 4.963% (+2.44%), breaking key resistance. Sharp move suggests market stress on bond volatility.\n\nCharts show: daily consolidation 4.2-4.7% → Sept spike with volume spike indicator activation"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2098148847315013787"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yield_stat",
+        "move_details_text"
+      ]
+    },
+    "yield_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "US10Y Treasury Yield",
+        "value": "4.963%",
+        "delta": "+2.44%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "move_details_text": {
+      "type": "Text",
+      "props": {
+        "text": "Breaking key resistance with sharp move indicating market stress on bond volatility. Daily consolidation 4.2-4.7% followed by September spike with volume spike indicator activation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_items"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_text",
+        "targets_text",
+        "catalysts_text"
+      ]
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with documented bond thesis (Sep 10 06:11Z RKT/30Y breakout call).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "targets_text": {
+      "type": "Text",
+      "props": {
+        "text": "US30Y targeting 5.3%/6% per macro framework.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "catalysts_text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Sep 16 + CPI Sep 11 catalysts ahead.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
