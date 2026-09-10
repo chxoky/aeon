@@ -1,0 +1,275 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-09-10"
+      },
+      "children": [
+        "section_take",
+        "sep_1",
+        "section_prices",
+        "sep_2",
+        "section_breadth",
+        "sep_3",
+        "section_fomc",
+        "sep_4",
+        "section_narrative",
+        "sep_5",
+        "section_hot_market",
+        "sep_6",
+        "section_traders"
+      ]
+    },
+    "section_take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "label_take",
+        "badge_risk_off"
+      ]
+    },
+    "label_take": {
+      "type": "Text",
+      "props": {
+        "text": "take:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_risk_off": {
+      "type": "Badge",
+      "props": {
+        "text": "risk-off (conviction high)",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "text_fear_greed"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$76,914",
+        "delta": "-3.32%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,419",
+        "delta": "-3.74%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text_fear_greed": {
+      "type": "Text",
+      "props": {
+        "text": "F&G 69 Greed (lagging divergence)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_breadth",
+        "stat_dex_vol"
+      ]
+    },
+    "text_breadth": {
+      "type": "Text",
+      "props": {
+        "text": "breadth 1/20",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat_dex_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX vol",
+        "value": "$12.40B",
+        "delta": "+6.8% (on red tape)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_fomc_hike",
+        "text_cpi_gate"
+      ]
+    },
+    "stat_fomc_hike": {
+      "type": "Stat",
+      "props": {
+        "label": "FOMC hike odds",
+        "value": "63.5%",
+        "delta": "+10pp",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text_cpi_gate": {
+      "type": "Text",
+      "props": {
+        "text": "CPI Sep 11 tomorrow is the gate",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "label_narrative",
+        "badge_narrative"
+      ]
+    },
+    "label_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "top narrative:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badge_narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "CPI/FOMC hike binary (peak)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_hot_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_hot",
+        "text_fed_bet"
+      ]
+    },
+    "label_hot": {
+      "type": "Text",
+      "props": {
+        "text": "hot market:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_fed_bet": {
+      "type": "Text",
+      "props": {
+        "text": "Fed +25bps Sep 2026 YES 63.5% ($1.55M vol)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_traders": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_killaxbt",
+        "text_bull_genius"
+      ]
+    },
+    "text_killaxbt": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT buying BTC 76.7→74s",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_bull_genius": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius closed short",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

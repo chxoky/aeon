@@ -15,7 +15,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 ## Active Topics
 - [Trader State](topics/traders.md) — live per-trader positions, last-seen. (Rebuilt 2026-07-14 by trader-bootstrap; entries since flow via monitors + traders_update.txt.)
 - [Ticker Focus](topics/ticker-focus.md) — overlap/contested tickers, Kyle's watch list. Rebuilt 2026-07-14.
-- [Market Context](topics/market-context.md) — latest regime snapshot (Aug 26 07:00 UTC: BTC $78,983 (-2.1%), risk-off (conviction medium), F&G 65 (-9pts Greed); breadth 4/20; SOL $96.95 (-4.4%); ZEC CAPITULATION at $850; HYPE $82.35 near ATH; Strait of Hormuz new geopolitical risk; NVDA earnings + PCE + JH T-1 triple catalyst window).
+- [Market Context](topics/market-context.md) — latest regime snapshot (Sep 10 10:00 UTC: BTC $76,914 (-3.32%), risk-off (conviction high), F&G 69 Greed (lagging divergence); breadth 1/20; FOMC hike odds 63.5% (+10pp); CPI Sep 11 gate; KillaXBT buying 76.7→74s; ZEC +40.9% 7d; crude Brent $102+).
 - [Active Trades](topics/active-trades.md) — Kyle's mirror decisions. As of Jul 22: NO open Kraken mirrors; Chase SNDK/MU approvals never given (Chase has since TP'd most).
 
 ## Live Stack (verified 2026-07-21)
@@ -33,6 +33,7 @@ Autonomous trading-signal agent running on GitHub Actions via Claude Code. Monit
 | SOL   | solana      | 10%             |
 
 ## Recent Log Highlights
+- [2026-09-10](logs/2026-09-10.md) — RISK-OFF; BTC $76,914 (-3.32%), breadth 1/20, F&G 69 (Greed, lagging divergence); FOMC hike odds 63.5% (+10pp); CPI Sep 11 gate; KillaXBT building BTC long 76.7→74s; bull_genius closed BTC short; WR crude/bonds hawkish; ZEC $1,172 (+40.9% 7d); LAPTOP -70.66% collapse
 - [2026-08-26](logs/2026-08-26.md) — RISK-OFF; BTC $78,983 (-2.1%), breadth 4/20, F&G 65 (-9pts); SOL broke $97; ZEC [CAPITULATION] at $850; HYPE +0.89% near ATH divergence; NEW: Strait of Hormuz/Iran blockade (#1 Polymarket by vol); NVDA earnings tonight AH + PCE today + JH T-1 = triple catalyst window; bull_genius partial TP; morning-pipeline complete
 - [2026-08-22](logs/2026-08-22.md) — ALT ROTATION; BTC $77,347 (+2.8%), dominance fell 0.68pp; HYPE ATH $76.87 breached → $79.76 (HCH short >33% underwater); ZEC $808 (+33.4% 24h, trending #2, Stoiiic/trading_axe catalyst); XRP +19.7% 24h (+56.3% 7d, peak zone); F&G 71 Greed; DEX vol $13.9B (+32%); Stoiiic added to tracking; Jackson Hole T-5
 - [2026-08-21](logs/2026-08-21.md) — RISK-ON CONTINUED; BTC $76,300 (+9.77%, cleared $75K resistance); ETH $2,373 (+5.77%); F&G 72 Greed (+10 pts); ENA +41.5% (DeFi yield, WR long validating); XRP +17.7% L1 breakout; KillaXBT hedge 35% activated 73.6–74.9K (SL 76.1K — now breached); HCH added 5% BTC short + PUMP short; bull_genius "bear market end" call; Jackson Hole 6d

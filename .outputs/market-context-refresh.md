@@ -1,19 +1,9 @@
-Pushed successfully. The skill run is complete.
+market context — 2026-09-10
 
-## Summary
-
-**market-context-refresh 2026-09-09 — done**
-
-**Regime: rotation (conviction medium)**
-
-Key findings vs Sep 8:
-- **Regime flipped risk-off → rotation**: breadth recovered from 4/20 to 17/20 green in 24h; BTC bounced to $79,322 (+2.13%)
-- **ZEC reversed from fading to rising**: $1,142 → $1,277 (+11.75% 24h, +58.6% 7d) — prior "fading" classification invalidated
-- **FOMC hike odds softened**: Polymarket Fed +25bps YES at 53.5% (was ~58% Sep 8) — softening into CPI Sep 10 tomorrow
-- **DEX vol up**: $10.29B → $11.62B (+12.9%) — accumulation character vs yesterday's liquidation
-- **New names**: VVV (Venice Token) +32.34%, ZCAT (Anonymous Cat) +50.25% Day 1, NEAR +13.98% (L1 rotation), TAO +5.76%
-
-**Files updated:**
-- `memory/topics/market-context.md` — full overwrite with new regime snapshot
-- `memory/logs/2026-09-09.md` — Market Context Refresh section appended
-- `.pending-notify/market-context-2026-09-09.md` — notification queued for post-run delivery (sandbox blocked direct send)
+take: risk-off (conviction high)
+BTC $76,914 (-3.32%) / ETH $2,419 (-3.74%) · F&G 69 Greed (lagging divergence)
+breadth 1/20 · DEX vol $12.40B (+6.8% on red tape)
+FOMC hike odds: 63.5% (+10pp) — CPI Sep 11 tomorrow is the gate
+top narrative: CPI/FOMC hike binary (peak)
+hot market: Fed +25bps Sep 2026 YES 63.5% ($1.55M vol)
+KillaXBT buying BTC 76.7->74s · bull_genius closed short
