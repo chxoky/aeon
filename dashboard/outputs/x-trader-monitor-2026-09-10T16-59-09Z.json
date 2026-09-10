@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "tweet",
+        "classification",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "Thread reply to @mphase361 @Mrlegend2949: \"For sept? No\""
+      },
+      "children": []
+    },
+    "classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this about a planned trade entry, position management, or something else?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2098092620165578948"
+      },
+      "children": []
+    }
+  }
+}
