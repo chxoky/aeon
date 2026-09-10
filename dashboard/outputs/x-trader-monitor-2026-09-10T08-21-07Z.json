@@ -1,0 +1,81 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "trader_badge",
+        "separator1",
+        "metrics_stack",
+        "separator2",
+        "source_link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ARGONAUTS NFT buy signal",
+        "level": "h2"
+      }
+    },
+    "trader_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metric_floor",
+        "metric_portfolio",
+        "metric_conviction"
+      ]
+    },
+    "metric_floor": {
+      "type": "Stat",
+      "props": {
+        "label": "Scaling Floor",
+        "value": "0.5 ETH"
+      }
+    },
+    "metric_portfolio": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio",
+        "value": "17 @ 7.75 WETH"
+      }
+    },
+    "metric_conviction": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction Floor",
+        "value": "50K"
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "source_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/bull_genius/status/2097961426925031805",
+        "source": "bull_genius on X"
+      }
+    }
+  }
+}

@@ -325,6 +325,9 @@
 - Last seen: 2026-09-10T08:13:53Z
 - **Events (rolling):**
   - Sep 10 08:13Z — ambiguous-pending: reply to @soldatxbt @huskyXBT "here is a few examples. whats funny about it? they performed extremely well" + 2 t.co links; media array empty (images not extracted); cryptic caption w/o visible context; HR-2 calibration sent [$UNKNOWN] [2097961749378957533]
+- Last seen: 2026-09-10T08:12:37Z
+- **Events (rolling):**
+  - Sep 10 08:12Z — trade-new-entry: ARGONAUTS NFT scaling into buy at 0.5 ETH floor; "we are buying them, right now"; chart shows portfolio: 17 Argonauts held, 7.75 WETH value; execution against 2fe409 seller; reinforces Sep 07 $50K floor conviction [$ARGONAUTS-NFT] [2097961426925031805]
   - Sep 10 08:07Z — informational: @huskyXBT reply ARGONAUTS opportunity thesis escalation; contrasts Argonauts vs other NFT collections (StonkBrokers/Quotrons/neo v4 defi NFTs); 2020 experience parallel + asymmetric 100x risk framework; reinforces Sep 07 holding conviction with narrative differentiation [$ARGONAUTS] [2097960245297398117]
   - Sep 10 07:49Z — informational: @OnlyZen_PK reply BNB bottoming conviction; "buy extremely low and hold"; personal conviction on BNB long thesis (⚠️ note: original tweet contains offensive language, filed silently to ticker-focus without alert) [$BNB] [2097955633177805010]
   - Sep 10 07:39Z — informational: @huskyXBT reply ARGONAUT valuation thesis; modeled 1B cap→100x return on conservative baseline vs BAYC's 10B+ prior cycle; asymmetric 10% EV framework [$ARGONAUT] [2097953031245467847]
