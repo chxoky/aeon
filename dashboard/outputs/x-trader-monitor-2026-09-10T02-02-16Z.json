@@ -1,0 +1,194 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "heading_event",
+        "text_event_intro",
+        "table_prices",
+        "text_caption",
+        "text_user_quote",
+        "sep2",
+        "heading_context",
+        "text_holdings",
+        "text_sentiment",
+        "text_images",
+        "text_no_acquisition",
+        "sep3",
+        "heading_classification",
+        "stack_options",
+        "alert_question",
+        "sep4",
+        "storylink_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Posts 3 NFT collection floor prices with caption \"8 argonauts\""
+      }
+    },
+    "table_prices": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Collection",
+          "Change"
+        ],
+        "rows": [
+          [
+            "StonkBrokers",
+            "-16.6%"
+          ],
+          [
+            "Quotrons",
+            "+19.9%"
+          ],
+          [
+            "Pudgy Penguins",
+            "+0.1%"
+          ]
+        ]
+      }
+    },
+    "text_caption": {
+      "type": "Text",
+      "props": {
+        "text": "Post caption: \"8 argonauts\""
+      }
+    },
+    "text_user_quote": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius: \"8 argonauts\"",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_holdings": {
+      "type": "Text",
+      "props": {
+        "text": "Holds 97 Argonauts NFTs with $50K floor conviction (Sep 07)"
+      }
+    },
+    "text_sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Recent posts show very bullish ARGONAUTS sentiment (\"most bullish nft i have ever seen\")"
+      }
+    },
+    "text_images": {
+      "type": "Text",
+      "props": {
+        "text": "Images show floor prices for OTHER NFT collections, not Argonauts"
+      }
+    },
+    "text_no_acquisition": {
+      "type": "Text",
+      "props": {
+        "text": "No explicit acquisition language (no \"just bought\", \"filled\", \"added\")"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "heading_classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Problem",
+        "level": "h3"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_option_a",
+        "text_option_b",
+        "text_option_c"
+      ]
+    },
+    "text_option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Announcing 8 more Argonauts acquired"
+      }
+    },
+    "text_option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Showing broader NFT market context while holding conviction"
+      }
+    },
+    "text_option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Cryptic meme reference"
+      }
+    },
+    "alert_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "storylink_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post on X",
+        "href": "https://x.com/bull_genius/status/2097867124324684182"
+      }
+    }
+  }
+}
