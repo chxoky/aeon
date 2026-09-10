@@ -1,0 +1,121 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "content-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Dropping Substack thesis: \"The NFT Market Bottom Is In. Argonauts Are The Spark.\""
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis-link",
+        "article-focus",
+        "sep2",
+        "conviction-section"
+      ]
+    },
+    "thesis-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "The NFT Market Bottom Is In. Argonauts Are The Spark.",
+        "href": "https://x.com/bull_genius/status/2098066082577707255",
+        "source": "Substack"
+      },
+      "children": []
+    },
+    "article-focus": {
+      "type": "Text",
+      "props": {
+        "text": "Article focus: NFT market positioning (2026 bear close + Robinhood onramp) + first 10k collection catalyst. Directly supports existing ARGONAUTS conviction.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "conviction-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conviction-heading",
+        "conviction-details"
+      ]
+    },
+    "conviction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ARGONAUTS Conviction",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "conviction-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail-nfts",
+        "detail-thesis",
+        "detail-buying"
+      ]
+    },
+    "detail-nfts": {
+      "type": "Stat",
+      "props": {
+        "label": "NFTs Held",
+        "value": "97+"
+      },
+      "children": []
+    },
+    "detail-thesis": {
+      "type": "Badge",
+      "props": {
+        "text": "100x asymmetric thesis",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "detail-buying": {
+      "type": "Stat",
+      "props": {
+        "label": "Floor Buying (Sep 10)",
+        "value": "0.5 ETH"
+      },
+      "children": []
+    }
+  }
+}
