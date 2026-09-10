@@ -1,0 +1,65 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "separator",
+        "content_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reply_text",
+        "alert",
+        "story_link"
+      ]
+    },
+    "reply_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @Bin_superapp: \"this is the easy entry\"",
+        "variant": "body"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Issue",
+        "message": "Unable to classify — what asset/entry are you referring to?",
+        "type": "warning"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@bull_genius Tweet",
+        "href": "https://x.com/bull_genius/status/2097954258997973195",
+        "source": "X"
+      }
+    }
+  }
+}
