@@ -330,7 +330,8 @@
   - Sep 10 08:31Z — informational: ERC-404 vs ERC-721 token standards & NFT mechanics explanation; Substack article planned [$TOKENS/$ERC-404] [2097966186419888564]
   - Sep 10 08:20Z — informational: reply to @soldatxbt @huskyXBT explaining stonkbrokers NFT mechanics in anvil amm protocol [$STONKBROKERS/$ANVIL] [2097963440140640589]
   - Sep 10 08:13Z — ambiguous-pending: reply to @soldatxbt @huskyXBT "here is a few examples. whats funny about it? they performed extremely well" + 2 t.co links; media array empty (images not extracted); cryptic caption w/o visible context; HR-2 calibration sent [$UNKNOWN] [2097961749378957533]
-- Last seen: 2026-09-10T08:12:37Z
+  - Sep 10 11:02Z — informational: "bottom tier" market commentary on low-tier token trading; image shows DipWheeler $1.9K sell at $191.3K MC (13s ago); sentiment critique on poor-quality pumps [$MARKET-SENTIMENT/$QUALITY-CRITIQUE] [2098004132955058342]
+- Last seen: 2026-09-10T11:02:18Z
 - **Events (rolling):**
   - Sep 10 08:12Z — trade-new-entry: ARGONAUTS NFT scaling into buy at 0.5 ETH floor; "we are buying them, right now"; chart shows portfolio: 17 Argonauts held, 7.75 WETH value; execution against 2fe409 seller; reinforces Sep 07 $50K floor conviction [$ARGONAUTS-NFT] [2097961426925031805]
   - Sep 10 08:07Z — informational: @huskyXBT reply ARGONAUTS opportunity thesis escalation; contrasts Argonauts vs other NFT collections (StonkBrokers/Quotrons/neo v4 defi NFTs); 2020 experience parallel + asymmetric 100x risk framework; reinforces Sep 07 holding conviction with narrative differentiation [$ARGONAUTS] [2097960245297398117]
