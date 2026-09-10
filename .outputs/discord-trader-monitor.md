@@ -21,3 +21,9 @@ I've successfully executed the **Discord Trader Monitor** skill for the event re
 4. ✅ No memory updates needed (no actionable trader activity)
 
 The skill completed cleanly with no notification triggered, as this message fell outside alerting criteria.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+No clear prior context in channel
+heartcanhodl: "1-2 months & >1 year from here"
+
+Unable to classify — what's your read?

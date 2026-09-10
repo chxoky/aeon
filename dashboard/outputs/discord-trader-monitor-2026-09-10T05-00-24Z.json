@@ -1,0 +1,88 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "context_alert",
+        "separator1",
+        "message_block",
+        "separator2",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "context_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "No clear prior context in channel"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "user_label",
+        "quoted_text"
+      ]
+    },
+    "user_label": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl:",
+        "variant": "lead"
+      }
+    },
+    "quoted_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"1-2 months & >1 year from here\"",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    }
+  }
+}
