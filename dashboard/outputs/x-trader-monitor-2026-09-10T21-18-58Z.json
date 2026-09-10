@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "btc update:\n\ni think this is roughly how i see a potential bottom forming\n\nvery orderly textbook selloff, then capitulation and bottom forming with shorts piling in there for the breakdown that doesnt come\n\nwe should get a short squeeze and test the ATH aVWAP from below and i expect it to fail. friday risk off / rate hike panic, we go to 30d rVWAP, then stabilize there, make new low on monday/tuesday, but RSI paints a bull div and that should be it."
+      },
+      "children": []
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098157925839626601"
+      },
+      "children": []
+    }
+  }
+}
