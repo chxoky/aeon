@@ -18,3 +18,8 @@
 - ✅ Event logged to daily log with classification + notes
 
 No action required.
+@50ptMAE Don't forget to sell Rosh Hashanah
+
+[View tweet](https://x.com/Wild_Randomness/status/2097895788500353197)
+
+↳ _Reiteration of the "Sell Rosh Hashanah, Buy Yom Kippur" seasonal pattern posted 52min earlier (02:59Z). 3 SPX daily technical charts showing consolidation structure supporting the setup._

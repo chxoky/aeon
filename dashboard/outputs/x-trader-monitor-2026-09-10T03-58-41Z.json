@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_section",
+        "separator1",
+        "context_stack"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@50ptMAE Don't forget to sell Rosh Hashanah"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097895788500353197"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern_badge",
+        "context_text"
+      ]
+    },
+    "pattern_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Seasonal Pattern: Sell Rosh Hashanah, Buy Yom Kippur",
+        "variant": "default"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reiteration posted 52min earlier (02:59Z). 3 SPX daily technical charts showing consolidation structure supporting the setup.",
+        "variant": "caption"
+      }
+    }
+  }
+}
