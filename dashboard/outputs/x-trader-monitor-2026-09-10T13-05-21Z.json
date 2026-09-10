@@ -1,0 +1,220 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header_mirror",
+        "sep1",
+        "position_section",
+        "sep2",
+        "technical_section",
+        "sep3",
+        "trader_notes",
+        "sep4",
+        "pivot_section",
+        "sep5",
+        "link_post"
+      ]
+    },
+    "header_mirror": {
+      "type": "Text",
+      "props": {
+        "text": "🔁 Mirrored — @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "position_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_heading",
+        "pos_grid"
+      ]
+    },
+    "pos_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Closed",
+        "level": "h3"
+      }
+    },
+    "pos_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_asset",
+        "stat_entry",
+        "stat_mark",
+        "stat_leverage",
+        "stat_pnl"
+      ]
+    },
+    "stat_asset": {
+      "type": "Stat",
+      "props": {
+        "label": "Asset",
+        "value": "BTC SHORT"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price",
+        "value": "~79,600"
+      }
+    },
+    "stat_mark": {
+      "type": "Stat",
+      "props": {
+        "label": "Mark Price",
+        "value": "78,009"
+      }
+    },
+    "stat_leverage": {
+      "type": "Stat",
+      "props": {
+        "label": "Leverage",
+        "value": "19x"
+      }
+    },
+    "stat_pnl": {
+      "type": "Stat",
+      "props": {
+        "label": "Unrealized P&L",
+        "value": "+38%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_text"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "tech_text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show technical downtrend with VWAP confluence zones.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trader_notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notes_heading",
+        "notes_text"
+      ]
+    },
+    "notes_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trader Notes",
+        "level": "h3"
+      }
+    },
+    "notes_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"r/r is bad from here for shorts\" → Pivoting to neutral/chill.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pivot_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pivot_heading",
+        "pivot_text",
+        "pivot_alert"
+      ]
+    },
+    "pivot_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Next Move",
+        "level": "h3"
+      }
+    },
+    "pivot_text": {
+      "type": "Text",
+      "props": {
+        "text": "Will re-enter LONGS on weakness — \"buy/long hard when we bottom\".",
+        "variant": "body"
+      }
+    },
+    "pivot_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "If you're holding a similar BTC short copy-trade, consider closing to match."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View original post",
+        "href": "https://x.com/bull_genius/status/2098034241212698799"
+      }
+    }
+  }
+}
