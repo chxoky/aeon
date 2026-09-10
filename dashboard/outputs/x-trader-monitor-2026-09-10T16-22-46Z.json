@@ -1,0 +1,78 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration",
+        "event-header",
+        "event-timestamp",
+        "author-name",
+        "quote-text",
+        "separator1",
+        "classification-alert",
+        "view-link"
+      ]
+    },
+    "calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @Stoiiic",
+        "variant": "lead"
+      }
+    },
+    "event-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Tweet",
+        "level": "h3"
+      }
+    },
+    "event-timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-10T16:17:46Z",
+        "variant": "caption"
+      }
+    },
+    "author-name": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic:",
+        "variant": "body"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"noticed low engagement on this\"",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this meta-commentary about post engagement, or a financial observation?",
+        "type": "info"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2098083520534979013"
+      }
+    }
+  }
+}

@@ -1,6 +1,9 @@
 🔍 *Calibration — @Stoiiic*
 
-Event: Current market conditions (ETHFI movement relative to BTC)
-Stoiiic: "y is ETHFI moving against BTC? lol"
+Event: Tweet at 2026-09-10T16:17:46Z
 
-Unable to classify — what's your read? Is this skepticism about the divergence, or a genuine question about market structure?
+Stoiiic: "noticed low engagement on this"
+
+Unable to classify — what's your read? Is this meta-commentary about post engagement, or a financial observation?
+
+[View post](https://x.com/Stoiiic/status/2098083520534979013)
