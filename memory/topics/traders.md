@@ -527,7 +527,7 @@
 - Recent thesis: Technical entry trader; breakaway gap thesis; HYPE/ETH/GOLD confluence setups. No shorts unless "super clean" setup. Order layering: 3-5 tranches at demand zones. Optimal BTC bid zone 74.5K–76.2K. Gold: 0.5–618 fib + MA retest + consolidation. Copy-trading difficulty escalating ("PvE phase peaked"). BTC: "reminder how quickly euphoria can reverse — why we take partial TPs."
 - Conviction notes: Known for ~20-min pre-BTC-breakout call Aug 20. Formations = "bait for newbies." "Levels are just areas I'm willing to buy." HTF sweeps not a factor. Conditional macro short Aug 20 superseded by current bullish stance.
 - Calibration: PENDING Sep 04 00:47Z (Discord "diaperterliquid" cryptic message), PENDING Aug 28 03:08Z (@CanixXS URL t.co link), PENDING Aug 27 20:34Z ("I don't use H12"), PENDING Aug 26 20:02Z (hmmmmm + chart), PENDING Aug 25 14:53Z ("but yes after real pullback, long dip")
-- Last seen: 2026-09-08T16:00:26Z
+- Last seen: 2026-09-10T23:04:08Z
 - **Events (rolling):**
   - Sep 08 16:00Z — informational: Discord supporting channel (Chase — Crypto); reply to member Q on "nasty front run of demand"; conviction on support/retest: "good entry already given, shouldn't be clean retests, hopefully low is in" [$BTC/$SUPPORT] [1546913114333909123]
   - Sep 08 15:50Z — informational: position update + technical caution; 25% BTC long from 76.5K remains open, 75% TP'd. Key support "box" ~76,600K; warns liquidation cascade risk if breaks below [$BTC] [2097351872453439604]
@@ -555,6 +555,7 @@
   - Sep 08 14:12Z — informational: Discord supporting channel (Chase — Crypto); "that's why the PA was actually good last week. liq to liq trade. those dont come when he's bidding."; analysis of liquidity dynamics and price action patterns; no execution language; market structure commentary [$PA/$LIQUIDITY] [1546886020484702328]
   - Sep 08 20:34Z — informational: Discord supporting channel (Chase — TradFi); reply to member Q on gold trade timeframe; explains 47-day structure setup + 2-week bounce expectation; methodological education on hypothesis validation [$GOLD/$TIMEFRAME] [1546982004850032681]
   - Sep 08 23:24Z — informational: Discord supporting channel (Chase — TradFi) member Q&A; gold position update — no adds planned atm, week is fresh post-long-weekend, awaiting market response; conviction hold/patience [$GOLD] [1547024829889380383]
+  - Sep 10 23:04Z — informational: $BTC update with technical chart structure analysis; consolidation ~75-76K after recent move 48-50K→94-96K highs; trade idea sharing (not personal action); aligns with multi-trader market monitoring ahead of CPI Sep 11 catalyst [$BTC] [2098185786961150151]
 
 ## trading_axe
 
