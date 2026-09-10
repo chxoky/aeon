@@ -313,7 +313,8 @@
   - Sep 10 06:39Z — informational-sentiment: "and pre news week de-risk" (Chat supporting, reply to tkglitch369 "they always skew these prints man"); market conviction on de-risking positioning into news week (CPI Sep 11, FOMC Sep 16 catalysts); supports ongoing net-short regime conviction with selective tactical long hedges [1547496666497348442]
 - Last seen: 2026-09-10T06:39:16Z
   - Sep 10 06:42Z — informational-reiteration: X post "@CactusUncapped last hour liquidation feed"; liquidation heatmap chart shows $574K BTC + $687K ZEC + $230K SOL buy-side liq vs minimal sell-side (bearish pressure on longs). Clarifies Discord 06:38Z ambiguous "dip" question with concrete market-structure explanation. X post raises conviction weight on net-short regime thesis vs Discord-only signal; cross-platform dedup silent (no standalone alert, appended to context for next trade alert) [$BTC/$ZEC/$SOL/$MARKET-STRUCTURE] [2097938798902645139]
-- Last seen: 2026-09-10T06:42:42Z
+  - Sep 10 10:23Z — informational-victory-lap: X reply "@megastuffs LFG!" + BloFin perp PON/USDT short 3x; entry 0.9154 → mark 0.6391 = +90.53% unrealized gain; celebratory confirmation of profitable short thesis [$PON-SHORT] [2097994400412668073]
+- Last seen: 2026-09-10T10:23:38Z
 
 ## bull_genius
 

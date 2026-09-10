@@ -1,0 +1,72 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_trader",
+        "heading_position",
+        "stat_gain",
+        "stat_entry",
+        "stat_mark",
+        "link_tweet"
+      ]
+    },
+    "badge_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 @HeartCanHodl"
+      }
+    },
+    "heading_position": {
+      "type": "Heading",
+      "props": {
+        "text": "PON/USDT short 3x",
+        "level": "h3"
+      }
+    },
+    "stat_gain": {
+      "type": "Stat",
+      "props": {
+        "label": "Unrealized gain",
+        "value": "90.53%",
+        "trend": "up"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "0.9154"
+      }
+    },
+    "stat_mark": {
+      "type": "Stat",
+      "props": {
+        "label": "Mark",
+        "value": "0.6391"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2097994400412668073"
+      }
+    }
+  }
+}
