@@ -1,0 +1,130 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Sep 10 11:47Z — informational"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "author-badge",
+        "topic-text",
+        "sep-1",
+        "thesis-section",
+        "sep-2",
+        "price-levels",
+        "sep-3",
+        "status-section"
+      ]
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@KillaXBT",
+        "variant": "secondary"
+      }
+    },
+    "topic-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC bottom-formation technical education",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis-section": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces existing 62.6K HTF 2x long thesis",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-thesis",
+        "stat-retest",
+        "stat-worst"
+      ]
+    },
+    "stat-thesis": {
+      "type": "Stat",
+      "props": {
+        "label": "HTF 2x Long Thesis",
+        "value": "62.6K"
+      }
+    },
+    "stat-retest": {
+      "type": "Stat",
+      "props": {
+        "label": "Retest Range",
+        "value": "73-75K"
+      }
+    },
+    "stat-worst": {
+      "type": "Stat",
+      "props": {
+        "label": "Worst-case",
+        "value": "69K"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-no-trade",
+        "badge-memory"
+      ]
+    },
+    "badge-no-trade": {
+      "type": "Badge",
+      "props": {
+        "text": "No trade action",
+        "variant": "outline"
+      }
+    },
+    "badge-memory": {
+      "type": "Badge",
+      "props": {
+        "text": "Memory updated",
+        "variant": "secondary"
+      }
+    }
+  }
+}

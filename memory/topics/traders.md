@@ -50,6 +50,7 @@
   - Sep 09 19:17Z — informational: sideliner pattern psychology; 240m chart showing pump-consolidation-dump-recovery cycle; retail indecision + squeeze pattern [$BTC] [2097766297077465294]
   - Sep 10 00:20Z — informational: bullish sentiment banter; mocking traders still waiting for lows; returns energy after bullish move; aligns w/ HTF structural long thesis [$BTC] [2097842629652168989]
   - Sep 10 10:59Z — informational (supporting channel): price context on HYPE (~$83, $18-21B mcap, $350 target = 4.2x) + ZEC (~$1,225, $18-21B mcap, $10k target = 8.2x); target-setting analysis [$HYPE/$ZEC] [1547562231401685082]
+  - Sep 10 11:47Z — informational: technical education on BTC bottom formation + imbalances; explains why major imbalances rarely fill during bull runs; reinforces HTF long thesis + 62.6K entry context; mentions possible retests at 73-75K range, worst-case 69K [$BTC] [2098015418795385110]
 
   - Sep 10 11:33Z — informational (supporting channel follow-up): cycle-peak context on HYPE/ZEC targets; reply to lucaskoa's "ambitious targets" observation; reaffirms $10k ZEC target feasibility at next cycle peak contingent on HYPE/ZEC relevance [$HYPE/$ZEC/$MACRO] [1547570708572283011]
 
