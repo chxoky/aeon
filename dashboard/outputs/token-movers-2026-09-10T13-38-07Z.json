@@ -1,0 +1,220 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers 2026-09-10",
+        "description": "Market analysis and price movements"
+      },
+      "children": [
+        "alert_market",
+        "stat_near",
+        "sep1",
+        "heading_winners",
+        "table_winners",
+        "sep2",
+        "heading_losers",
+        "table_losers",
+        "sep3",
+        "heading_trending",
+        "table_trending",
+        "sep4",
+        "alert_pump"
+      ]
+    },
+    "alert_market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk-off tape",
+        "message": "23/77 top-100 green, median -4.2%",
+        "type": "warning"
+      }
+    },
+    "stat_near": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR Breakout",
+        "value": "+26.6%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Winners",
+        "level": "h3"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Ticker",
+          "Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "NEAR",
+            "+26.6%",
+            "BREAKOUT"
+          ],
+          [
+            "KAS",
+            "+4.5%",
+            "TRENDING+UP"
+          ],
+          [
+            "BTW",
+            "+4.3%",
+            ""
+          ],
+          [
+            "VET",
+            "+1.8%",
+            ""
+          ],
+          [
+            "ETHFI",
+            "+1.7%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Losers",
+        "level": "h3"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Ticker",
+          "Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "PUMP",
+            "-15.6%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "TRUMP",
+            "-12.1%",
+            ""
+          ],
+          [
+            "DASH",
+            "-11.9%",
+            ""
+          ],
+          [
+            "BCH",
+            "-11.3%",
+            "MAJOR"
+          ],
+          [
+            "ARB",
+            "-10.8%",
+            ""
+          ],
+          [
+            "LIT",
+            "-10.8%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "WLD",
+            "-10.6%",
+            ""
+          ],
+          [
+            "ENA",
+            "-10.1%",
+            ""
+          ],
+          [
+            "JUP",
+            "-9.6%",
+            ""
+          ],
+          [
+            "TAO",
+            "-9.0%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Ticker",
+          "Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "LAPTOP",
+            "-70.7%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "PONS",
+            "-26.9%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "JUGGERNAUT",
+            "+378.8%",
+            "PUMP-RISK"
+          ],
+          [
+            "KAS",
+            "+5.2%",
+            "TRENDING+UP"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_pump": {
+      "type": "Alert",
+      "props": {
+        "title": "PUMP Alert",
+        "message": "bull_genius long entry 0.00421 now 0.00389 underwater",
+        "type": "error"
+      }
+    }
+  }
+}
