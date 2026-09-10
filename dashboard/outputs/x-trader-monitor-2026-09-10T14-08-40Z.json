@@ -1,0 +1,101 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "heading_event",
+        "sep1",
+        "tweet_reply",
+        "sep2",
+        "heading_context",
+        "text_context_article",
+        "text_context_question",
+        "text_context_classify",
+        "sep3",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @slimNFT on Substack article timing",
+        "level": "h3"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "@slimNFT yes\n\nsubstack today"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context_article": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius has a Substack article planned on ERC-404 vs ERC-721 NFT mechanics (Sep 10 08:31Z). This reply appears to confirm publishing today."
+      }
+    },
+    "text_context_question": {
+      "type": "Text",
+      "props": {
+        "text": "The original question from @slimNFT is not visible."
+      }
+    },
+    "text_context_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2098049794111418453"
+      }
+    }
+  }
+}
