@@ -1,0 +1,70 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — analyzing trader reply about examples"
+      },
+      "children": [
+        "badge-calibration",
+        "text-event",
+        "sep1",
+        "tweet",
+        "text-metadata",
+        "sep2",
+        "alert-classify"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "secondary"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to other traders about \"examples\" that performed well",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bull_genius",
+        "text": "@soldatxbt @huskyXBT here is a few examples. whats funny about it? they performed extremely well"
+      }
+    },
+    "text-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Two t.co shortened links included, but media array empty (Worker couldn't extract images).",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? What do the linked examples refer to?",
+        "type": "info"
+      }
+    }
+  }
+}
