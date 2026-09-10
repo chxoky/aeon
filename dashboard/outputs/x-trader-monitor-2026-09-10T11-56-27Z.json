@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "The 1x1 Gann angle remains critical: bulls above, caution below. BTC trading below this line for 3 weeks straight. If reclaimed and held, strong positive. If rejected, expect eventual lower retests. Simple but powerful framework."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_title",
+        "context_text",
+        "view_link"
+      ]
+    },
+    "context_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Gann Angle Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with KillaXBT's ongoing 76-84K consolidation thesis.",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Bitcoin_Astro/status/2098015560965439550"
+      }
+    }
+  }
+}
