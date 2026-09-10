@@ -1,8 +1,5 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: Unclear (reply to @based16z, external post not visible)
-Wild_Randomness: "@based16z Good timing"
+$ETH technical structure chart; support/resistance levels + trend lines
 
-Unable to classify — what's your read?
-
-Tweet: https://x.com/Wild_Randomness/status/2097885154094219379
+[View tweet](https://x.com/Wild_Randomness/status/2097890518432956851)
