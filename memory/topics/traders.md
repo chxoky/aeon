@@ -55,6 +55,7 @@
   - Sep 10 11:33Z — informational (supporting channel follow-up): cycle-peak context on HYPE/ZEC targets; reply to lucaskoa's "ambitious targets" observation; reaffirms $10k ZEC target feasibility at next cycle peak contingent on HYPE/ZEC relevance [$HYPE/$ZEC/$MACRO] [1547570708572283011]
   - Sep 10 12:47Z — dca-plan: building into BTC low-leverage continuation long gradually from 76.7 down to 74s; invalidation at 72.5K; scaling entry structure [1547589398609006663]
   - Sep 10 12:48Z — dca-plan: BTC low leverage continuation long; gradual entry 76.7 down to 74s; invalidation 72.5K; chart attachment clarification; fast-path alerted (no Telegram duplicate) [$BTC] [1547589659641512050]
+  - Sep 10 12:58Z — informational-methodology: detailed risk management education on DCA approach; 1D trendline + previous lows structure validation; sweep/deviation plan; burn-entries discipline ("Perfectly normal. So do not over-risk like a buffoon."); contingency re-entry at 57K with 2x long; chart attachment detailing structure; fast-path alerted (no Telegram duplicate); reiteration with meaningful methodology depth on existing Sep 10 12:48Z DCA plan [$BTC] [1547592173543755826]
 
 ## Wild_Randomness
 
