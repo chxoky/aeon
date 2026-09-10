@@ -1,0 +1,56 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_text",
+        "separator",
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Argonauts opportunity conviction: contrasts Argonauts as structurally unique vs other NFT collections (StonkBrokers/Quotrons/neo v4 defi NFTs). References 2020 experience + current market parallels. Escalates prior Sep 07 conviction holding ($50K floor thesis).",
+        "variant": "body"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "argonauts is *not* an nft collection like all the others, its special"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2097960245297398117"
+      }
+    }
+  }
+}
