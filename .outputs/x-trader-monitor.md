@@ -1,9 +1,11 @@
-🐦 *[X] @trading_axe*
+🐦 *[X] @Wild_Randomness*
 
-All of this will go to crypto / memecoins.
+*Sell Rosh Hashanah, Buy Yom Kippur…*
 
-We may experience the Greatest Bull Market in Financial History if Republicans sweep the Demented Democrats.
+How'd that work out the past two election years? All you really need is a cooperative CPI print on 9/11 and you can have perfect moral clarity.
 
-~ Dr. Axius. 💤
+(As an aside, you have to admire how similar the market set-up is to 2024 as we try and flip ATHs).
 
-[View tweet](https://x.com/trading_axe/status/2097876519804617043)
+[View tweet](https://x.com/Wild_Randomness/status/2097882741480304665)
+
+↳ _Election-year seasonality thesis with SPX/Mag7/Semiconductors/Oil technical charts showing 2024-parallel structure. CPI 9/11 is primary catalyst this week._

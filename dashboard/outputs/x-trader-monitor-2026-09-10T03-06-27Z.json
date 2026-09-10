@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "tweet_link",
+        "separator_1",
+        "analysis_note"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Sell Rosh Hashanah, Buy Yom Kippur…\n\nHow'd that work out the past two election years? All you really need is a cooperative CPI print on 9/11 and you can have perfect moral clarity.\n\n(As an aside, you have to admire how similar the market set-up is to 2024 as we try and flip ATHs)."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2097882741480304665"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_note": {
+      "type": "Text",
+      "props": {
+        "text": "Election-year seasonality thesis with SPX/Mag7/Semiconductors/Oil technical charts showing 2024-parallel structure. CPI 9/11 is primary catalyst this week.",
+        "variant": "lead"
+      }
+    }
+  }
+}
