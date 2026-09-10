@@ -1,0 +1,139 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event-section",
+        "sep2",
+        "tweet-section",
+        "sep3",
+        "classification-section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-heading",
+        "event-desc",
+        "context-heading",
+        "context-data"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @DaanCrypto (context unavailable; 4h earlier HCH posted liquidation heatmap)",
+        "variant": "body"
+      }
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Context",
+        "level": "h4"
+      }
+    },
+    "context-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc-stat",
+        "zec-stat",
+        "sol-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Buy-Side Liquidation",
+        "value": "$574K"
+      }
+    },
+    "zec-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC Buy-Side Liquidation",
+        "value": "$687K"
+      }
+    },
+    "sol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL Buy-Side Liquidation",
+        "value": "$230K"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "This was the biggest one so far & continuing*"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cryptic reply with asterisk and ambiguous 'biggest one' reference — what's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}

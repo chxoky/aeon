@@ -1,6 +1,7 @@
-🐦 *[X] @HeartCanHodl*
+🔍 *Calibration — @HeartCanHodl*
 
-PON/USDT short 3x: +90.53% unrealized gain
-Entry 0.9154 → Mark 0.6391
+Event: Reply to @DaanCrypto (context unavailable; 4h earlier HCH posted liquidation heatmap: $574K BTC + $687K ZEC + $230K SOL buy-side)
 
-[View tweet](https://x.com/HeartCanHodl/status/2097994400412668073)
+@HeartCanHodl: "This was the biggest one so far &amp; continuing*"
+
+Unable to classify — what's your read? (cryptic reply, asterisk, ambiguous "biggest one" reference)

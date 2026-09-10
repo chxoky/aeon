@@ -314,7 +314,8 @@
 - Last seen: 2026-09-10T06:39:16Z
   - Sep 10 06:42Z — informational-reiteration: X post "@CactusUncapped last hour liquidation feed"; liquidation heatmap chart shows $574K BTC + $687K ZEC + $230K SOL buy-side liq vs minimal sell-side (bearish pressure on longs). Clarifies Discord 06:38Z ambiguous "dip" question with concrete market-structure explanation. X post raises conviction weight on net-short regime thesis vs Discord-only signal; cross-platform dedup silent (no standalone alert, appended to context for next trade alert) [$BTC/$ZEC/$SOL/$MARKET-STRUCTURE] [2097938798902645139]
   - Sep 10 10:23Z — informational-victory-lap: X reply "@megastuffs LFG!" + BloFin perp PON/USDT short 3x; entry 0.9154 → mark 0.6391 = +90.53% unrealized gain; celebratory confirmation of profitable short thesis [$PON-SHORT] [2097994400412668073]
-- Last seen: 2026-09-10T10:23:38Z
+  - Sep 10 10:56Z — ambiguous: X reply to @DaanCrypto "This was the biggest one so far &amp; continuing*"; cryptic context needed, HR-2 calibration sent [$UNKNOWN] [2098002637690192372]
+- Last seen: 2026-09-10T10:56:22Z
 
 ## bull_genius
 
