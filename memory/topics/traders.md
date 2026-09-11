@@ -68,6 +68,16 @@
   - Sep 10 18:57Z — informational (supporting channel): potential crude oil (WTI) Sunday TACO market structure commentary; member-chat reaction to lucaskoa's "woke up to a 99 WTI haha"; observational on CL close positioning [$CL/$WTI] [1547682542621163631]
   - Sep 11 12:52Z — informational: position update—BTC 25% remainder hit SL breakeven (fully exited); GOLD long 50% still open; portfolio management rebalance; fast-path alerted (no Telegram duplicate) [$BTC/$GOLD] [1547953030211829793]
   - Sep 11 14:34Z — informational-methodology: position management clarification on DCA plan; SL placement at EP (entry price); swing vs scalp distinction ("If your scalping, do as you wish... this is a swing for me"); partial targets at 82-84s for scalps; re-entry contingency if breaks below 75K; "SL placed at EP" discipline; fast-path alerted (no Telegram duplicate); reiteration with meaningful methodology depth [$BTC] [1547978611582173285]
+
+## Crypto_Chase
+
+- Platforms: X (Twitter) + Discord (primary: 1336082716063694962 Chase — Chase, supporting: 1343971265962049597 Chase — TradFi, 1247927786681794601 Chase — Crypto)
+- Current open positions: Per Sep 11 14:34Z — scaling BTC DCA from 76.7→74s entry structure, "25% remainder" hit SL breakeven (fully exited on Sep 11 12:52Z entry); GOLD long 50% still open; SNDK 20% TP'd Jul 27 (@1533/$1480); DRAM/MU approvals never given (all TP'd); SPCX watching ("dogshit" bearish).
+- Recent thesis: Technical mean-reversion on BTC structure; respect liquidity clusters 75.5–76.5K below current; multi-timeframe chart-driven entry discipline; positions aligned with HTF support/resistance zones.
+- Conviction notes: TradFi equities skepticism (Tesla "ugly chart, no interest"); Crypto primary-channel trader (deliberate trade plans). Supporting channels = real-time conviction shifts, member Q&A context.
+- Last seen: 2026-09-11T15:55:53.698000+00:00
+- **Events (rolling):**
+  - Sep 11 15:55Z — informational (supporting channel): ETH/BTC correlation skepticism; market commentary on "random ETH pump to fill inefficiency without Bitcoin leading" = questionable move structurally; no personal action [$ETH/$BTC/$MACRO] [1547999132822806599]
   - Sep 11 00:35Z — ambiguous-cryptic: "Imagine this is the state in 2 daily green candles.." Discord primary channel (HCH — Free); hypothetical scenario/chart pattern reference, no ticker explicit, no personal action language; context: HCH building BTC DCA continuation long (Sep 10 76.7→74s entries). Cryptic phrasing requires Kyle calibration ask (HR-2). Could reference 2D recovery setup or pattern recognition teaching. [$UNKNOWN/IMPLIED-BTC] [15477667483400716369]
 
 ## Wild_Randomness

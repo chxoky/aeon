@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Message from Discord"
+      },
+      "children": [
+        "channel",
+        "message",
+        "source"
+      ]
+    },
+    "channel": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Crypto",
+        "variant": "default"
+      }
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "text": "I mean, random ETH pump to fill the inefficiency without Bitcoin leading is definitely questionable"
+      }
+    },
+    "source": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord",
+        "variant": "caption"
+      }
+    }
+  }
+}
