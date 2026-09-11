@@ -177,7 +177,7 @@
 - Recent thesis: Contrarian BTC short vs group bullish lean. Bullish semis/tech (SNDK multibagger). Intraday scalp trader (5M/15M/1H liquidity zones). ETH bearish order block daily setup. BTC false-breakout + reversal conditions — 83–84K required for full reversal confirmation. Portfolio profitable overall (semis >> BTC underwater).
 - Conviction notes: Precision intraday execution with disciplined TP (4RR Aug 28). High cryptic-reply ratio (banter baseline — most not financial). DIVERGES from group BTC bullish lean. ETH short from 2,540 with multi-target downside plan.
 - Calibration: PENDING Aug 31 03:52Z (@based16z "That's how it is"), PENDING Aug 30 10:38Z (@Bermyden "2551. Tiny Sl"), PENDING Aug 30 10:29Z (@bull_genius "Pump ur pump"), PENDING Aug 29 08:10Z (@Baskitchbrah @CredibleCrypto "What a cute"), PENDING Aug 29 04:35Z (@tienluncon610 "Well, for now, it literally works"), PENDING Aug 28 19:48Z (@bull_genius "Yep"), PENDING Aug 28 09:00Z (@bull_genius daily chart ref), PENDING Aug 28 07:52Z (@OnlyZen_PK @0xjune_ "Yep 👍"), PENDING Aug 26 07:11Z (@BittexXBT "Calling top"), PENDING Aug 25 17:35Z (@flexing_red @Ehn_7H "100-300k is ok"), PENDING Aug 25 10:39Z ("I meant this (read)" + 4 images Discord)
-- Last seen: 2026-09-11T04:44:44Z
+- Last seen: 2026-09-11T09:51:25Z
 - **Events (rolling):**
   - Sep 11 04:44Z — ambiguous: @garbycam reply with t.co link; image fetch failed [$UNKNOWN] [2098271501111681352]
   - Sep 09 18:03Z — ambiguous: "AYO" + 5 images (404); cryptic; HR-2 sent [$UNKNOWN] [2097747719842410822]
@@ -208,6 +208,7 @@
   - Sep 05 15:34Z — ambiguous: @trendflipper "WOW"; single-word; HR-2 sent [$UNKNOWN] [2096260688448524476]
   - Sep 07 14:56Z — ambiguous: @blancxbt "Investor?"; cryptic 1-word question; HR-2 sent [$UNKNOWN] [2096975815292379446]
   - Sep 08 07:18Z — ambiguous: @gainzy222 @Baskitchbrah "But looks Gud"; cryptic 2-word reply, no context; HR-2 sent [$UNKNOWN] [2097223133501538747]
+  - Sep 11 09:51Z — ambiguous: @yx3io "30% negga"; cryptic reply to unknown context; HR-2 sent [$UNKNOWN] [2098348681678246374]
 
 ## Bitcoin_Astro
 
