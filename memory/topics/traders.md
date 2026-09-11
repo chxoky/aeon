@@ -535,6 +535,8 @@
   - Sep 11 11:55Z — informational: CPI/FOMC macro caution ("nothingburger numbers", "decision unclear"); BTC level observation (75.5k holds/test); warns against CPI gambling; advises staying out + learning argonauts instead [$BTC/$CPI/$MACRO] [2098380008565756200]
   - Sep 11 13:20Z — informational: ARTIFICIAL-INU (AI) technical setup; monthly VAH support 0.2226 holding at current price; bullish conviction "looks amazing here if it can break and hold above monthly VAH"; market opinion/conviction share, not personal execution; single-trader quiet ticker [$AI] [2098401219555258391]
   - Sep 11 13:25Z — informational-reiteration: ARTIFICIAL-INU bullish conviction escalation; "looks amazing here if break and hold above monthly VAH"; suggests entry on Friday selloff; emphasizes if breakout, "jump on than fade imo this coin is a monster truck"; chart: 1h MEXC AI/USDT monthly VAH 0.2626 vs current 0.2281; conviction weight +1 on existing quiet-ticker positioning (no new execution language); cross-platform silent [$AI] [2098402506741055852]
+  - Sep 11 13:59Z — informational: ETH range breakout attempt + BTC at 7d VWAP confluence. Personal conviction: loaded ETH in spot. Charts show ETH 4h consolidation with 7D (blue)/30D (green)/90D (orange) VWAP levels ($2,485 current, recent range consolidation 2,400-2,500); BTC 15m testing breakout structure around 78,437 with 7D VWAP confluence + liquidity profile. Early US session framing as bullish inflection; conviction language "don't fade a breakout that holds especially on ethereum"; "if it goes it goes then you throw my warnings away"; technical setup: multi-VWAP confluence + consolidation breakout pattern. [$ETH/$BTC] [2098411069999825346]
+- Last seen: 2026-09-11T13:59:20Z
 
 ## t_in_crypto
 
