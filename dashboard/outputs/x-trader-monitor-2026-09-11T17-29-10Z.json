@@ -1,0 +1,119 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "SPX SPY Macro Setup Comparison (Jul 10 vs Sep 10)"
+      },
+      "children": [
+        "source-badge",
+        "data-section",
+        "separator",
+        "analysis",
+        "post-link"
+      ]
+    },
+    "source-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 X @Wild_Randomness",
+        "variant": "outline"
+      }
+    },
+    "data-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-title",
+        "stats-stack"
+      ]
+    },
+    "section-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Same price level, diverging macro:",
+        "level": "h3"
+      }
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "spx-stat",
+        "crude-stat",
+        "yield-stat",
+        "vix-stat",
+        "rate-odds-stat"
+      ]
+    },
+    "spx-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SPX",
+        "value": "7,600"
+      }
+    },
+    "crude-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Crude",
+        "value": "$104",
+        "delta": "+46%",
+        "trend": "up"
+      }
+    },
+    "yield-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "10YR",
+        "value": "4.96%",
+        "delta": "+41bp",
+        "trend": "up"
+      }
+    },
+    "vix-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "VIX",
+        "value": "18",
+        "delta": "+3",
+        "trend": "up"
+      }
+    },
+    "rate-odds-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Rate Hike Odds",
+        "value": "80%",
+        "delta": "+55pp",
+        "trend": "up"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Setup shows rates/commodities rallying while equities mark time = classic risk-off divergence into FOMC/Sep 16. Aligns with your bearish equities / October downside thesis.",
+        "variant": "body"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2098462129422786926"
+      }
+    }
+  }
+}
