@@ -20,3 +20,8 @@ The message explicitly contains the word "testing" which triggers **Hardcoded Ru
 4. ✅ No event line added to traders.md (test message = skip per Step 8 protocol)
 
 **Result:** Event fully processed and archived. Fast-path handled the real-time notification; AEON classified and logged for memory/audit purposes only.
+🔍 *Calibration — [DC: HCH — Comments]*
+
+"Doesn't look comfy at all 👀"
+
+No ticker/execution specified. What's the market condition HCH observes?
