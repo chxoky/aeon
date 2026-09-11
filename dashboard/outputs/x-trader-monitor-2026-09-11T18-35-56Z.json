@@ -1,0 +1,58 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-event",
+        "tweet-card",
+        "alert-classification",
+        "link-post"
+      ]
+    },
+    "badge-event": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply on market structure; contrarian trader commentary",
+        "variant": "secondary"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "I want the sky to be pink, but it's blue. It's the same with the market. You can want whatever you like, but the market structure is an organism of its own"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertain",
+        "message": "Unable to classify — is this bullish/bearish sentiment, or pure philosophy?",
+        "type": "info"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2098479796267209210"
+      }
+    }
+  }
+}
