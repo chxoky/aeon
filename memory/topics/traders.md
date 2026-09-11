@@ -342,7 +342,8 @@
   - Sep 10 15:24Z — ambiguous: Chat supporting reply to Tree Capital (referenced message content unavailable); HCH message "This looks interesting"; insufficient context to determine if trade endorse, chart comment, or casual chat; HR-2 calibration alert sent [$UNKNOWN] [1547628735572869181]
   - Sep 10 15:54Z — ambiguous: "Getting real" + Discord link to another message (https://discord.com/channels/1023571940922888272/1059701132429115463/1487473696158384199); supporting channel (Chat); sentiment/market observation unclear without linked context; HR-2 calibration sent [$UNKNOWN] [1547636424654721124]
   - Sep 10 18:56Z — informational-technical: "fc near ema50 1hr wide" (Chat supporting); false-close chart check on NEAR/price-near-level at EMA50 1hr timeframe; routine technical monitoring within existing net-short regime conviction; no execution language [$NEAR/$TECHNICAL] [1547682174587900015]
-- Last seen: 2026-09-10T18:56:24Z
+  - Sep 11 00:17Z — informational-technical: "Fc zec 5m" (Chat supporting); false-close chart check on ZEC 5-minute timeframe; routine technical validation within existing ZEC short (1235 entry Sep 07, 1295 scale-in Sep 09, 2% total); no execution language; no Telegram alert [$ZEC/$TECHNICAL] [1547762890763935797]
+- Last seen: 2026-09-11T00:17:09Z
 
 ## bull_genius
 
