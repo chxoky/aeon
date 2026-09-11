@@ -519,6 +519,7 @@
   - Sep 10 22:05Z — informational: MARSCOIN 125M consolidation; 100M rock solid bottom; Substack channel strategy [$MARSCOIN] [2098171133165969600]
   - Sep 11 08:21Z — ambiguous-cryptic: reply to @milly_rock7 "i argue they are coming back"; vague pronoun "they" with no asset specified; bullish sentiment but asset/market unclear (could reference BTC macro thesis or broader market recovery); HR-2 calibration sent [$UNKNOWN/IMPLIED-MARKET] [2098326138112098391]
   - Sep 11 09:57Z — informational: "yep and especially on ETH + NFT"; sentiment affirmation on existing ETH/NFT narrative conviction (ARGONAUT holdings Sep 10 08:12Z, stonkbrokers protocol discussion Sep 10 08:20Z, Sep 09 23:09Z ARTIFICIAL-INU); reinforcement of bullish positioning without new execution signal [$ETH/$NFT] [2098350167124562179]
+  - Sep 11 11:55Z — informational: CPI/FOMC macro caution ("nothingburger numbers", "decision unclear"); BTC level observation (75.5k holds/test); warns against CPI gambling; advises staying out + learning argonauts instead [$BTC/$CPI/$MACRO] [2098380008565756200]
 
 ## t_in_crypto
 
