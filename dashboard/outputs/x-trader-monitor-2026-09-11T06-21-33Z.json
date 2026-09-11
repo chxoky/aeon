@@ -1,0 +1,133 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading signal calibration"
+      },
+      "children": [
+        "heading-main",
+        "event-section",
+        "separator-1",
+        "post-section"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "text-event-intro",
+        "stats-stack"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Gold (XAUUSD) Perpetual",
+        "level": "h3"
+      }
+    },
+    "text-event-intro": {
+      "type": "Text",
+      "props": {
+        "text": "BloFin chart showing short-squeeze top (1,295.20 marked 'SS') with breakdown and current consolidation at 1,244.74 with support at 1,182.36",
+        "variant": "body"
+      }
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-squeeze",
+        "stat-consolidation",
+        "stat-support"
+      ]
+    },
+    "stat-squeeze": {
+      "type": "Stat",
+      "props": {
+        "label": "Short-squeeze top",
+        "value": "1,295.20"
+      }
+    },
+    "stat-consolidation": {
+      "type": "Stat",
+      "props": {
+        "label": "Current consolidation",
+        "value": "1,244.74"
+      }
+    },
+    "stat-support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "1,182.36"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-post",
+        "tweet-card",
+        "text-analysis",
+        "link-post"
+      ]
+    },
+    "heading-post": {
+      "type": "Heading",
+      "props": {
+        "text": "Post from @HeartCanHodl",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@5morewhooppers LGW"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows technical structure, but text is cryptic — what does 'LGW' mean in your read? (Long Gold Watch? Watch for a long setup after breakdown? Something else?)",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2098294254275821819"
+      }
+    }
+  }
+}
