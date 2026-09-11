@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-info",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "unable-classify",
+        "context-section"
+      ]
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Sep 11 14:59Z, ~90 min after CPI print (market weakness then reversal)",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Two horrible dailies in a row and now this thing may put in an ATH close?"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unable-classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text",
+        "link-post"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Likely refers to SPX/NDX reversal post-CPI (trader extensively tracked Sep 10 consolidation boxes with CPI 9/11 as breakout catalyst). Alternatively could reference specific holding (HYPE, LIT, commodities, BTC). Observation tone, no personal execution language. Ambiguous asset reference (\"this thing\" = vague).",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2098426295214641335",
+        "source": "X"
+      }
+    }
+  }
+}
