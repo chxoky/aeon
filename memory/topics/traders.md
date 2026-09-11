@@ -708,3 +708,14 @@
 - Last seen: 2026-09-09T05:39:17Z
 - **Events (rolling):**
   - Sep 09 05:39Z — ambiguous: reply to @cryptoklotz "I think you got it a bit misconstrued bro, I'm on about zzz-2:native. ~ Dr. Axius."; HR-2 calibration sent [$UNKNOWN] [2097560453975052316]
+
+## HeartCanHodl
+
+- Platforms: Discord (★primary: HCH — Trades 1279738718680256553, supporting: HCH — Chat 1023638573313966212)
+- Current open positions: CL short (2% Aug 18-19 entries, DCA conviction pattern). BTC/ETH/SOL net-long regime shift (post Aug 01 reversal from short basket). Multiple supporting positions tracked in ticker-focus.md.
+- Recent thesis: Crypto trader, commodity/energy macro specialist. Net-long regime Aug 01+ (closed major short basket Jul 31). CL (crude oil) bearish conviction emerging late Aug. Supporting-channel messages reflect real-time tactical conviction shifts.
+- Conviction notes: Systematic size discipline, multi-tranche DCA entries. Discord supporting-channel (premium member chat) contains real-time updates; verbatim rule applies to primary Trades channel (1279738718680256553). First Discord message tracked Sep 11.
+- Calibration: PENDING Sep 11 05:50:16Z ("Fc clusdt 5m" — cryptic, likely CL-related; supported by recent CL short conviction entries Aug 18-19; HR-2 calibration sent to Kyle)
+- Last seen: 2026-09-11T05:50:16Z
+- **Events (rolling):**
+  - Sep 11 05:50Z — ambiguous-cryptic: Discord supporting channel "Fc clusdt 5m" — cryptic abbreviation, likely CL (Crude Oil/CLUSDT) related given Aug 18-19 CL short conviction adds; possible force-close/false-close pattern reference on 5m timeframe; context: HCH 2% CL short Aug 18 entry + Aug 19 conviction add; HR-2 calibration sent [$CL/IMPLIED] [1547846722599002123]

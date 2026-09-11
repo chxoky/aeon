@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_context",
+        "section_message",
+        "section_analysis"
+      ]
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_context",
+        "text_context"
+      ]
+    },
+    "label_context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent context:",
+        "variant": "lead"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "HCH added 2% CL short (Aug 18-19 entries, conviction pattern documented)"
+      }
+    },
+    "section_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_author",
+        "text_message"
+      ]
+    },
+    "badge_author": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc clusdt 5m\""
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_analysis_status",
+        "text_analysis_note"
+      ]
+    },
+    "label_analysis_status": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "text_analysis_note": {
+      "type": "Text",
+      "props": {
+        "text": "Likely CL-related; possible position action or technical pattern reference on 5m timeframe",
+        "variant": "caption"
+      }
+    }
+  }
+}
