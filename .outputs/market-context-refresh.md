@@ -1,9 +1,7 @@
-market context — 2026-09-10
+market context — 2026-09-11
 
-take: risk-off (conviction high)
-BTC $76,914 (-3.32%) / ETH $2,419 (-3.74%) · F&G 69 Greed (lagging divergence)
-breadth 1/20 · DEX vol $12.40B (+6.8% on red tape)
-FOMC hike odds: 63.5% (+10pp) — CPI Sep 11 tomorrow is the gate
-top narrative: CPI/FOMC hike binary (peak)
-hot market: Fed +25bps Sep 2026 YES 63.5% ($1.55M vol)
-KillaXBT buying BTC 76.7->74s · bull_genius closed short
+take: rotation (conviction medium)
+BTC $78,793 (+1.87%) / ETH $2,604 (+6.62%) · F&G 56 (Greed, -13pts)
+breadth 14/20 · ETH/BTC +5.1% in 24h · TVL ~$74B (stable)
+top narrative: ETH/alt rotation (rising)
+hot market: "Fed +25bps Sep 2026" YES 79.5% (+16pp on hot CPI)

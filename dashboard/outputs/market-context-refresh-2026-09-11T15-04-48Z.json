@@ -1,0 +1,198 @@
+{
+  "root": "card_market",
+  "state": {},
+  "elements": {
+    "card_market": {
+      "type": "Card",
+      "props": {
+        "title": "market context — 2026-09-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_take",
+        "group_prices_fg",
+        "group_metrics",
+        "group_narrative",
+        "group_hotmarket"
+      ]
+    },
+    "text_take": {
+      "type": "Text",
+      "props": {
+        "text": "take: rotation (conviction medium)",
+        "variant": "lead"
+      }
+    },
+    "group_prices_fg": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "fg_block"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$78,793",
+        "delta": "+1.87%",
+        "trend": "up"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,604",
+        "delta": "+6.62%",
+        "trend": "up"
+      }
+    },
+    "fg_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_fg",
+        "badge_greed"
+      ]
+    },
+    "stat_fg": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G",
+        "value": "56",
+        "delta": "-13pts",
+        "trend": "down"
+      }
+    },
+    "badge_greed": {
+      "type": "Badge",
+      "props": {
+        "text": "Greed",
+        "variant": "default"
+      }
+    },
+    "group_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_breadth",
+        "stat_ethbtc",
+        "stat_tvl"
+      ]
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Breadth",
+        "value": "14/20"
+      }
+    },
+    "stat_ethbtc": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH/BTC",
+        "value": "+5.1%",
+        "delta": "24h",
+        "trend": "up"
+      }
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL",
+        "value": "~$74B",
+        "delta": "stable"
+      }
+    },
+    "group_narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "label_narrative",
+        "badge_narrative"
+      ]
+    },
+    "label_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "top narrative:",
+        "variant": "muted"
+      }
+    },
+    "badge_narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH/alt rotation (rising)",
+        "variant": "secondary"
+      }
+    },
+    "group_hotmarket": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hotmarket_header",
+        "stat_fed_odds"
+      ]
+    },
+    "hotmarket_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "label_hotmarket",
+        "badge_yes"
+      ]
+    },
+    "label_hotmarket": {
+      "type": "Text",
+      "props": {
+        "text": "hot market: \"Fed +25bps Sep 2026\"",
+        "variant": "muted"
+      }
+    },
+    "badge_yes": {
+      "type": "Badge",
+      "props": {
+        "text": "YES",
+        "variant": "secondary"
+      }
+    },
+    "stat_fed_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "Odds",
+        "value": "79.5%",
+        "delta": "+16pp on hot CPI"
+      }
+    }
+  }
+}
