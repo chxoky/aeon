@@ -1,0 +1,138 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration query — classification challenge"
+      },
+      "children": [
+        "calibration-header",
+        "sep-1",
+        "event-title",
+        "tweet-card",
+        "sep-2",
+        "unable-section",
+        "sep-3",
+        "signals-section",
+        "sep-4",
+        "questions-section",
+        "sep-5",
+        "link-tweet"
+      ]
+    },
+    "calibration-header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @cipher1knight about a mining-related asset",
+        "level": "h3"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "text": "maybe worth a revisit when things calm down and mining is over. otherwise just hard inflation\n\nabsolutely not buy these lol"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "unable-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cannot determine: (1) what specific asset/ticker this refers to (no explicit mention in tweet), (2) what 'these' are (requires reply context with @cipher1knight), (3) what 'mining is over' means (BTC mining cycle? token emissions? mining company stock?).",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "signals-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signals-title",
+        "signals-content"
+      ]
+    },
+    "signals-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Current signals",
+        "level": "h3"
+      }
+    },
+    "signals-content": {
+      "type": "Text",
+      "props": {
+        "text": "Conditional future bullish ('worth a revisit when...') vs current strong bearish ('absolutely not buy these lol')."
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "questions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "questions-title",
+        "q-1",
+        "q-2"
+      ]
+    },
+    "questions-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Questions",
+        "level": "h3"
+      }
+    },
+    "q-1": {
+      "type": "Text",
+      "props": {
+        "text": "• What asset/ticker is being discussed?"
+      }
+    },
+    "q-2": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this actionable for position mirrors or just market commentary?"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098535442727473307"
+      }
+    }
+  }
+}
