@@ -1,0 +1,102 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header_badges",
+        "tweet_card",
+        "separator1",
+        "chart_section",
+        "separator2",
+        "link_section"
+      ]
+    },
+    "header_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "bird_badge",
+        "x_badge",
+        "handle_badge"
+      ]
+    },
+    "bird_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦"
+      }
+    },
+    "x_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X"
+      }
+    },
+    "handle_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@trading_axe"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Dr. Axius",
+        "handle": "trading_axe",
+        "text": "Well well well…\n\n~ Dr. Axius. 💤"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chart_label",
+        "chart_desc"
+      ]
+    },
+    "chart_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart",
+        "level": "h4"
+      }
+    },
+    "chart_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ETH consolidation @ 2,519.95; key support/resistance levels 2,466.33–2,519; marked trend structure (red descending, orange ascending). Setup watch.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2098409492631196147"
+      }
+    }
+  }
+}

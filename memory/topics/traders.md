@@ -740,12 +740,13 @@
 ## trading_axe
 
 - Platforms: X (Twitter)
-- Current open positions: Unknown (narrative analyst, market structure commentary)
-- Recent thesis: Market narrative analyst; commentary on "World Tokenization Supercycle", ETH-beta repricing cycles, reflexive meme-token dynamics. Persona: "Dr. Axius" (signed posts with this pseudonym).
-- Conviction notes: First tracked 2026-08-04. Provides macro narrative commentary without clear personal execution signals. Prior mentions focus on sentiment analysis and market structure observation.
+- Current open positions: Unknown (technical analyst, chart-focused signals)
+- Recent thesis: Technical structure analyst + market narrative commentary. Macro themes: "World Tokenization Supercycle", ETH-beta repricing cycles, reflexive dynamics. Persona: "Dr. Axius" (signs posts). Signals via labeled charts with support/resistance levels + trend analysis.
+- Conviction notes: First tracked 2026-08-04. Technical chart posts (TradingView-style) without explicit execution language; signals appear to be price-level setup watches rather than active trade calls. Medium conviction on technical setup observation.
 - Calibration: PENDING Sep 09 05:39Z ("zzz-2:native" clarification — unclear if financial asset/protocol or casual banter)
-- Last seen: 2026-09-09T05:39:17Z
+- Last seen: 2026-09-11T13:53:04Z
 - **Events (rolling):**
+  - Sep 11 13:53Z — informational: ETH technical setup chart; marked support/resistance levels (2,466.33, 2,519.95 key levels); red descending trend line + orange ascending support; "Well well well…" cryptic caption w/ sleep emoji (💤); structure analysis with no execution language; chart shows consolidation/level test setup [$ETH] [2098409492631196147]
   - Sep 09 05:39Z — ambiguous: reply to @cryptoklotz "I think you got it a bit misconstrued bro, I'm on about zzz-2:native. ~ Dr. Axius."; HR-2 calibration sent [$UNKNOWN] [2097560453975052316]
 
 ## HeartCanHodl
