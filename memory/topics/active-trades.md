@@ -381,6 +381,21 @@
 - **Alerted**: YES (2026-07-29T21:06:29Z entry via x-trader-monitor; 2026-08-04T15:55:32Z 80% TP via discord-trader-monitor, fast-path-alerted=true; 2026-08-13T15:25:32Z 90% TP via x-trader-monitor, real-time event; 2026-08-17T13:39:43Z final close via discord-trader-monitor, fast-path-alerted=true)
 - **Last update**: 2026-08-17T13:39:43Z (final position closed, Discord message_id=1538905166634553395, discord-trader-monitor real-time, fast-path alerted)
 
+### MARSCOIN — LONG (NEW ENTRY — 2026-09-11)
+- **Entry date**: 2026-09-11T16:25:58Z
+- **Entry message**: "Add 2% spot marscoin"
+- **Entry type**: Market order (spot execution)
+- **Entry level**: Market price at time of execution (Sep 11 16:25:58Z UTC, MARSCOIN spot)
+- **Entry size**: 2% portfolio allocation
+- **Entry context**: Primary Trades channel (★most important), highest-conviction tier. HCH continuing tactical long accumulation pattern within ongoing net-short regime (Aug 07+). Pattern: Sep 04-05 CHIP/BITLIGHT/BCH/BNB/STRK entries; Sep 11 ENS entry (13:59Z); continued tactical spot long positioning on alt accumulation.
+- **Position thesis**: MARSCOIN spot conviction long; continued strategic tactical positioning on altcoin weakness. 2% disciplined sizing aligns with HCH's documented position management approach (small incremental positions, tactical entries, dynamic risk adjustment).
+- **Status**: ACTIVE — market-order execution completed, 2% MARSCOIN spot long position established; fast-path alerted by Cloudflare Worker (no Telegram duplicate sent per protocol)
+- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
+- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "Add 2% spot marscoin"
+- **Ticker note**: MARSCOIN first HCH mention; previous tracker only bull_genius (Sep 10 two mentions). Quiet tracking pending cross-trader convergence.
+- **Alerted**: YES (2026-09-11T16:25:58Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, no duplicate per protocol)
+- **Last update**: 2026-09-11T16:25:58Z (message_id=1548006701725388931, discord-trader-monitor real-time, trade-new-entry)
+
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed

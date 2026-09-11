@@ -408,7 +408,8 @@
   - Sep 11 13:06Z — informational-technical: "Fc cl 5m" (Trades primary ★); false-close chart check on CL (Crude Oil) 5-minute timeframe; routine technical monitoring within existing net-short regime conviction and CL short rebalance (Sep 11 03:12Z to 1x leverage); no execution language; no fast-path alert (false_path_alerted: false), memory-only classification [$CL] [1547956450301845525]
   - Sep 11 13:59Z — trade-new-entry-ambiguous: "2% pf ens long here.. catch up trade on eth strength. Let's see" (Discord Trades primary ★); 2% portfolio long entry on ENS (ambiguous: ENS domain vs ENA stablecoin protocol); catch-up trade capitalizing on ETH strength momentum; low conviction signal ("Let's see" — tentative, watch-and-see posture); ticker ambiguity noted for Kyle calibration; contrasts with ongoing net-short regime (Aug 07+) = potential divergence trade or tactical hedge; fast-path alerted by Cloudflare Worker (no Telegram duplicate) [$ENS-AMBIGUOUS/$ENA-AMBIGUOUS] [1547969936184320094]
   - Sep 11 14:47Z — informational: "The taco has been front-run, news line up indicating a likely continued decline" (Discord Comments primary); crude oil (CL/WTI "taco") market structure analysis; bearish continuation expected on front-run setup; continuation of Sep 10 18:57Z WTI structure commentary; fast-path alerted (no Telegram duplicate); memory-only classification per fast-path protocol [$CL/$WTI] [1547981842261614656]
-- Last seen: 2026-09-11T14:47:11Z
+  - Sep 11 16:25Z — trade-new-entry: "Add 2% spot marscoin" (Discord Trades primary ★); 2% portfolio long allocation on spot MARSCOIN; tactical accumulation pattern (Sep 04-05 CHIP/BITLIGHT/BCH/BNB/STRK entries continue); first HCH mention MARSCOIN; fast-path alerted by Cloudflare Worker (no Telegram duplicate); verbatim alert format applies [$MARSCOIN] [1548006701725388931]
+- Last seen: 2026-09-11T16:25:58Z
 
 ## bull_genius
 
