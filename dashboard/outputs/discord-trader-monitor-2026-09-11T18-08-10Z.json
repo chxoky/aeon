@@ -1,0 +1,55 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-status",
+        "sep1",
+        "text-comments",
+        "text-msg"
+      ]
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ We are testing here. All the initial alerts triggered so far",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-comments": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Comments]",
+        "variant": "body"
+      }
+    },
+    "text-msg": {
+      "type": "Text",
+      "props": {
+        "text": "We are chopping above the floor of the channel",
+        "variant": "body"
+      }
+    }
+  }
+}
