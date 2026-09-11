@@ -1,12 +1,12 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @KillaXBT*
 
-**CPI/FOMC Macro Caution**
+I will be fully exiting the crypto markets in 2.5 years from now & retiring at 150K per $BTC.
 
-if i had to guess nothingburger numbers and fomc decision stays unclear
+See you there.
 
-lets see if 75.5k holds pretty sure it gets tested
+Time flies. If you blink, you might just miss it.
 
-there is no rush to gamble on CPI trust me
+_Personal conviction statement on long-term exit timeline. Chart shows BTC trajectory supporting 150K target by late 2028._
 
 stay out and learn about argonauts instead
 
@@ -26,3 +26,4 @@ stay out and learn about argonauts instead
 [View tweet](https://x.com/bull_genius/status/2098380257929691246)
 
 ↳ BTC 75.5K support aligns with KillaXBT liquidity cluster; macro caution on CPI/FOMC catalysts through Sep 16.
+[View tweet](https://x.com/KillaXBT/status/2098381542485852370)

@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "description_text",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "I will be fully exiting the crypto markets in 2.5 years from now & retiring at 150K per $BTC.\n\nSee you there.\n\nTime flies. If you blink, you might just miss it."
+      }
+    },
+    "description_text": {
+      "type": "Text",
+      "props": {
+        "text": "Personal conviction statement on long-term exit timeline. Chart shows BTC trajectory supporting 150K target by late 2028.",
+        "variant": "muted"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2098381542485852370"
+      }
+    }
+  }
+}

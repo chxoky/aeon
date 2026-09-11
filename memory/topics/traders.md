@@ -7,6 +7,7 @@
 - Calibration: CONVICTION DOWNGRADE SIGNAL — questioning Q4 bottom-buy thesis after 42% BTC drop (Sep 04 19:41Z). PENDING Aug 27 11:11Z ("Aged like fine wine. $SOL is up nearly 50%... Thanks for playing. $120+ waiting room"; open vs closed unclear)
 - Last seen: 2026-09-11T10:00:01Z
 - **Events (rolling):**
+  - Sep 11 12:02Z — informational: Personal exit/retirement conviction statement; fully exiting crypto markets in 2.5y at 150K per $BTC target (late 2028). Chart projects $150K trajectory. Long-term thesis affirmation + personal timeline anchor. [$BTC/$RETIREMENT] [2098381542485852370]
   - Sep 11 10:00Z — informational: OIL-BTC macro correlation; every OIL nuke precedes BTC macro bottom; 40% BTC recovery + OIL rebound validates bottom-already-in thesis [$BTC/$OIL] [2098350845200838768]
   - Sep 11 00:39Z — informational: CPI correlation study; past 3 CPI prints → $BTC +5% within 8d; current setup validated (Asia sweep lows → recovery); bear trap thesis [$BTC] [2098209689041355223]
   - Sep 10 21:23Z — informational: Historical EMA cross pattern as major trend shift marker; questions pattern repetition amid current move [$BTC] [2098160569178058861]
