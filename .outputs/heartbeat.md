@@ -2,19 +2,16 @@ Heartbeat complete. Here's the summary:
 
 ## Summary
 
-**Overall:** 🟡 WATCH · STATUS_PAGE=WATCH
+**Overall: 🟡 WATCH** — no new flags, one persistent P3 carried from yesterday.
 
-**P0 checks — clean:**
-- No failed or stuck skills, no API degradation
-- X webhook `WATCHED_TRADERS` confirmed active (`is_effect: 1`) — ISS-002 remains resolved
-- Heartbeat self-check: ~16h since last success (well under 36h threshold)
+**Checks run:**
 
-**P1/P2 — clean:**
-- No open PRs, no open issues, no flagged memory items
+| Check | Result |
+|-------|--------|
+| P0 — Skill failures/stuck | ✅ Clear — all skills last_status=success, no consecutive failures |
+| P0 — X webhook (ISS-002 guard) | ✅ Healthy — `WATCHED_TRADERS` rule confirmed active (`is_effect: 1`) via secretcurl |
+| P1 — Stalled PRs / urgent issues | ✅ Clear — no open PRs, no open issues |
+| P2 — Flagged memory items | ✅ Clear |
+| P3 — Stale skills | ⚠ `morning-pipeline` still 5 days stale (last ran Sep 6) — **no notification** (dedup: already reported at Sep 10 20:00 UTC, within 48h window) |
 
-**P3 — still stale (deduped):**
-- `morning-pipeline` / `morning-brief` last ran Sep 6 (5 days on a daily schedule). Notified yesterday at 20:00 UTC — within the 48h dedup window, so no new notification sent today. Watch flag kept for the status page.
-
-**Actions taken:**
-- `docs/status.md` regenerated (🟡 WATCH, timestamp updated to Sep 11 14:00 UTC)
-- Log entry appended to `memory/logs/2026-09-11.md`
+**Actions taken:** `docs/status.md` updated → 🟡 WATCH. Log entry appended to `memory/logs/2026-09-11.md`.
