@@ -1,0 +1,79 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "analysis-section",
+        "sep2",
+        "context-note"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@Wild_Randomness",
+        "text": "$ZEC — Trading this at high frequency past 48 hours; \"battle at POC here, lean bullish as long as this holds.\""
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-text",
+        "view-post-link"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "4H chart shows consolidation at POC (1,179–1,186 zone) with volume profile structure. Price testing key support level."
+      }
+    },
+    "view-post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2098427134679433669"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-note": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with your ZEC re-entry thesis (853/845 tranches, partial TP 888 Aug 30). Contrasts HCH's active ZEC short basket conviction.",
+        "variant": "caption"
+      }
+    }
+  }
+}
