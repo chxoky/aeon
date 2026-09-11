@@ -315,12 +315,12 @@
   - Sep 09 14:43Z — ambiguous: "Yes" (Chat supporting); single-word cryptic with no visible reply context (is_reply: false, referenced_message: null); possible member-Q&A response or affirmation without context relay; HR-2 calibration alert sent [$UNKNOWN] [1547256129669693470]
   - Sep 09 15:07Z — informational: "fc btc ema50 4hr wide" (Chat supporting); false-close chart check on BTC 4hr EMA50 structure; technical validation within net-short regime conviction; no execution language; routine technical monitoring [$BTC] [1547257313699111530]
 - Last seen: 2026-09-09T15:07:52Z
-- Last seen: 2026-09-09T15:08:22Z
+- Last seen: 2026-09-11T01:04:52Z
   - Sep 09 15:08Z — ambiguous: "That looks ugly.." (Chat supporting); cryptic sentiment/reaction without context or ticker; no execution language; HR-2 calibration alert sent [$UNKNOWN] [1547262398325587978]
   - Sep 09 15:35Z — informational-reiteration: ZEC short scale-in confirmed (1% limit at 1295 filled); X post "$ZEC to zero...Feels good to be back in sync" confirms conviction and scaling plan execution [$ZEC-SHORT-SCALE] [2097710518496850156]
   - Sep 09 15:40Z — ambiguous: "Send it back down mr. trump" (Chat supporting); cryptic sentiment/market reference without clear execution language; HR-2 calibration alert sent [$UNKNOWN] [1547270381684138055]
-- Last seen: 2026-09-09T15:40:05Z
   - Sep 09 15:43Z — ambiguous: "Wick is filled 👀" (Free primary); cryptic technical observation, no ticker specified; 👀 emoji suggests observation/watching; no execution language; HR-2 calibration alert sent [$UNKNOWN-WICK] [1547271141091975240]
+  - Sep 11 01:04Z — informational-macro: X post reply on biggest hedge-fund blowout of history; reiteration of bearish macro thesis; no new trade action or execution language [$MACRO] [2098216169174098041]
 - Last seen: 2026-09-09T15:49:53Z
   - Sep 09 15:49Z — trade-new-entry: "2% pf 20x lev. long btc with invalidate 77,999 (-0.6%)" (Discord Trades primary ★); BTC tactical long entry; 2% portfolio, 20x leverage, SL 77,999; contrasts ongoing net-short regime but sized as tactical trade; fast-path alerted by Cloudflare Worker [$BTC-LONG] [1547272847725166733]
 - Last seen: 2026-09-09T15:49:53Z

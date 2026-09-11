@@ -1,9 +1,7 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @HeartCanHodl*
 
-the fact that this meme stops at 3 ETH is so telling
+We have already witnessed the biggest hedge-fund blowout of the history (in $ terms) and somehow, the year still has chapters left to write ;)
 
-people completely forgot how to dream
+[View tweet](https://x.com/HeartCanHodl/status/2098216169174098041)
 
-[View tweet](https://x.com/bull_genius/status/2098213224210383100)
-
-↳ _Reinforces Sep 09 ETH $3K+ technical target + $20-25K floor thesis. Bullish sentiment on ETH ceiling/valuation expansion aligned with group macro positioning._
+↳ _Reinforces net-short regime conviction (bearish macro sentiment on market stress)_
