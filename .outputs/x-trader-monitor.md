@@ -1,8 +1,8 @@
-🐦 *[X] @Stoiiic*
+🐦 *[X] @t_in_crypto*
 
-**BTC Consolidation Structure — 8H**
+Bottom isn't in imo
 
-Nice rotation from VAL sweep, now established compression zone (76-80K). Rotational setup for now.
+[View tweet](https://x.com/t_in_crypto/status/2098443821990244696)
 
 ✓ Break above 83K = acceptance (do not fade)
 ✗ Break below = requires finesse
@@ -15,3 +15,4 @@ Normal cooldown territory: low-to-mid 70s.
 
 [View post](https://x.com/Stoiiic/status/2098442671119335841)
 @
+↳ _Bearish macro outlook — aligns with their documented thesis on potential 46K/42K support levels if macro deteriorates._

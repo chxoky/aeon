@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "note"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "Bottom isn't in imo"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2098443821990244696"
+      }
+    },
+    "note": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish macro outlook — aligns with their documented thesis on potential 46K/42K support levels if macro deteriorates.",
+        "variant": "muted"
+      }
+    }
+  }
+}

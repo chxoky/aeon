@@ -605,6 +605,7 @@
   - Sep 11 07:01Z — ambiguous: @Web3Whizzu @guru2602 "+- and depend of time"; cryptic 8-word reply; HR-2 calibration sent [$UNKNOWN] [2098305792839479526]
   - Sep 11 11:12Z — ambiguous-cryptic: @CoinSignals_ "No no no"; reply to unknown signal/opinion, no context; HR-2 calibration sent [$UNKNOWN] [2098369117803688124]
   - Sep 11 16:07Z — informational: bearish sentiment on CPI pump bounce; sarcastic reply to @guru2602 "going to get swallowed up soon"; reaffirms bearish macro bias over near-term bullish moves [$BTC] [2098443240835858737]
+  - Sep 11 16:09Z — informational: bearish macro outlook; "Bottom isn't in imo" reply to @LP_NXT; aligns w/ 46K/42K support thesis [$BTC] [2098443821990244696]
 
 ## Crypto_Chase
 
