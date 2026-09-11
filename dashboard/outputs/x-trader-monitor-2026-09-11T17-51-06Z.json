@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — 🐦 [X]"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "url",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Macro Positioning Bonus: Hedge funds at lowest leverage since Liberation Day per GS. NASDAQ short positions near record $85B peak, CTA bond exposure -76.3%, tech momentum rolling 60D drawdown -57%."
+      },
+      "children": []
+    },
+    "url": {
+      "type": "Link",
+      "props": {
+        "label": "View thread",
+        "href": "https://x.com/Wild_Randomness/status/2098468392533717320"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Structural extremes persist across positioning metrics — aligned with your bearish-equities-into-Oct thesis and FOMC/Sep 16 catalysts.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

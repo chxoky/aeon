@@ -152,7 +152,8 @@
   - Sep 11 12:58Z — informational: SPX/SPY consolidation box breakdown validation (technical + macro); "vs. my box" post showing box breakdown charts (Image 1: consolidation 7,657.7, Image 3: breakdown below 7,599.7 support); references Rosh Hashanah "Sell" seasonal pattern + Full Moon/9-11/hot CPI/90% rate hike priced in as macro catalysts; "Absolute Cinema" meme sentiment (dramatic reaction); validates prior Sep 10 box thesis (21:34Z, 23:31Z) + seasonal framework (02:59Z, 03:51Z); Step 7 media: 3 SPX perp charts confirming technical breakdown + macro alignment [$SPX/$SPY/$SEASONALITY/$MACRO] [2098395663142981716]
   - Sep 11 17:22Z — informational: $SPX/$SPY macro setup comparison (Jul 10 vs Sep 10 2-month window); same price level (7,600), diverging macro (crude +46% $71→$104, 10YR +41bp 4.55→4.96%, VIX 15→18, rate hike odds 25→80%); risk-off macro divergence setup; 4 technical charts validating theme. Aligns with existing bearish-equities-into-October thesis + FOMC/Sep 16 catalysts. [$SPX/$SPY/$MACRO/$OIL/$UST] [2098462129422786926]
   - Sep 11 17:30Z — informational: $NQ Nasdaq-100 leveraged fund positioning macro (CFTC/GS chart); short positions $85B (near record), long positions near lows, net position -$55B deeply negative; "You wouldn't get it" meme; validates bearish-tech thesis into Oct [$NQ/$NASDAQ/$MACRO] [2098464187311960332]
-- Last seen: 2026-09-11T17:30:24Z
+  - Sep 11 17:47Z — informational: macro structural positioning bonus data; 4-chart composite showing hedge fund leverage (lowest since Liberation), NASDAQ-100 short positions at peak (~$85B), CTA bonds exposure -76.3% (deeply negative), tech momentum 60D drawdown -57%; reinforces bearish-equities-into-Oct thesis + extreme structural extremes [$MACRO/$LEVERAGE/$CTA/$TECH-MOMENTUM] [2098468392533717320]
+- Last seen: 2026-09-11T17:47:07Z
 ## Stoiiic
 
 - Platforms: X (Twitter)
