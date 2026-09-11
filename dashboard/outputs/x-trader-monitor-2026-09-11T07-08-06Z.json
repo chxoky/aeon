@@ -1,0 +1,132 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Elliott Wave Calibration"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "sep-1",
+        "event-section",
+        "sep-2",
+        "quotes-section",
+        "sep-3",
+        "question-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h3"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-title",
+        "event-details"
+      ]
+    },
+    "event-title": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Elliott Wave setup Sep/Oct timing",
+        "variant": "lead"
+      }
+    },
+    "event-details": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 10 15:24Z — Just replied \"Still a little bit early imo\" to @guru2602",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quotes-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-card"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "From conversation:",
+        "variant": "caption"
+      }
+    },
+    "quote-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@Web3Whizzu @guru2602 +- and depend of time"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-prompt",
+        "question-details"
+      ]
+    },
+    "question-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "question-details": {
+      "type": "Text",
+      "props": {
+        "text": "Market timing comment on +/- (up/down) dependencies?",
+        "variant": "body"
+      }
+    }
+  }
+}
