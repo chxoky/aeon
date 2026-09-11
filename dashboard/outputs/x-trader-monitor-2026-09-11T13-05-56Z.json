@@ -1,0 +1,88 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "context-section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$SPX $SPY\n\nFull Moon, 9/11, beginning of sell Rosh Hashanah (Jewish holiday), hot cpi, 90% priced in rate hike…\n\nvs.\n\nmy box — SPX perp charts show box breakdown below 7,600 support, validates prior Sep 10 Rosh Hashanah sell thesis + seasonal framework."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "view-link",
+        "context-heading",
+        "analysis-stack"
+      ]
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2098395663142981716"
+      },
+      "children": []
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "technical-point",
+        "sentiment-point"
+      ]
+    },
+    "technical-point": {
+      "type": "Text",
+      "props": {
+        "text": "Technical breakdown validates seasonal pattern (Full Moon + 9/11 + Rosh Hashanah sell-off + hot CPI + 90% rate hike priced = diminishing catalyst surprises).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sentiment-point": {
+      "type": "Text",
+      "props": {
+        "text": "Trader sentiment: 'Absolute Cinema' = dramatic anticipated move.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
