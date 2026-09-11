@@ -1,0 +1,154 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: 24hr Liquidation Feed"
+      },
+      "children": [
+        "tweet_card",
+        "source_text",
+        "separator1",
+        "stat_total",
+        "traders_text",
+        "sides_stack",
+        "separator2",
+        "breakdown_heading",
+        "breakdown_stack",
+        "separator3",
+        "commentary_text",
+        "link_post"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "24hr liquidation feed — CoinGlass data"
+      }
+    },
+    "source_text": {
+      "type": "Text",
+      "props": {
+        "text": "CoinGlass data",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stat_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Liquidations (24h)",
+        "value": "$456.99M"
+      }
+    },
+    "traders_text": {
+      "type": "Text",
+      "props": {
+        "text": "97,694 traders liquidated",
+        "variant": "caption"
+      }
+    },
+    "sides_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_long",
+        "stat_short"
+      ]
+    },
+    "stat_long": {
+      "type": "Stat",
+      "props": {
+        "label": "Long-side",
+        "value": "$363.15M"
+      }
+    },
+    "stat_short": {
+      "type": "Stat",
+      "props": {
+        "label": "Short-side",
+        "value": "$93.84M"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "breakdown_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "24h Breakdown by Asset",
+        "level": "h4"
+      }
+    },
+    "breakdown_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_zec",
+        "stat_sol"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$121.57M"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$90.48M"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "$27.59M"
+      }
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$11.5M+"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "commentary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates net-short regime thesis — massive long liquidation pressure.",
+        "variant": "body"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2098205130638413883"
+      }
+    }
+  }
+}
