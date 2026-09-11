@@ -586,8 +586,9 @@
 - **Events (rolling):**
   - Sep 09 13:46Z — ambiguous: @BangXBT "Oh good"; reply context unclear; HR-2 sent [$UNKNOWN] [2097683102432714788]
   - Sep 10 15:24Z — informational: Elliott Wave setup dates Sep/Oct, peak marked; "Get your bids ready again soon" [$BTC] [2098070189447303337]
-- Last seen: 2026-09-11T18:30:35Z
+- Last seen: 2026-09-11T18:43:06Z
 - **Events (rolling):**
+  - Sep 11 18:43Z — informational: BTC position discipline; patient limit-order holder, dismisses "manipulation"; waiting for time-based pivots [$BTC] [2098482484195324228]
   - Sep 09 13:45Z — informational: bearish macro outlook; "market will whipsaw everyone...before finally starting its decline"; reply to @MylesGinvest [$BTC] [2097682879828349410]
   - Aug 27 07:10Z — informational: "Top of range isn't in / Don't catch knives on shorts" [$BTC] [2092872387037385099]
   - Aug 27 10:41Z — ambiguous: @Alulim "not that simple, my target different"; HR-2 sent [$UNKNOWN] [2092925374061564361]

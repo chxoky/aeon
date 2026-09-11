@@ -21,3 +21,10 @@ Perfect! I've successfully executed the x-trader-monitor skill with the provided
 **Result:** Per skill Step 4A rules, this was classified as **non-financial social banter** (just a trader agreeing with another trader's technical analysis). No alert sent to Kyle. Event logged only (not added to traders.md per size-discipline rules).
 
 The skill completed successfully with no action required.
+🐦 *[X] @t_in_crypto*
+
+My limit orders $ btc are still active; I'm not falling for the manipulation and am simply waiting for my time-based pivots. Patience is what will allow you to survive in the markets
+
+[View tweet](https://x.com/t_in_crypto/status/2098482484195324228)
+
+↳ _Position discipline statement. BTC long holder (58.4K entry) waiting for top-of-range exit per documented thesis. Contrarian patience philosophy._

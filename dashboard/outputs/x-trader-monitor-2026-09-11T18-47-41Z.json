@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "link_view",
+        "sep2",
+        "text_interpretation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "My limit orders $ btc are still active; I'm not falling for the manipulation and am simply waiting for my time-based pivots. Patience is what will allow you to survive in the markets"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2098482484195324228"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Position discipline statement. BTC long holder (58.4K entry) waiting for top-of-range exit per documented thesis. Contrarian patience philosophy.",
+        "variant": "muted"
+      }
+    }
+  }
+}
