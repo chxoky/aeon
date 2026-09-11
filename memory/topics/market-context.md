@@ -1,83 +1,79 @@
-# Market Context (as of 2026-09-10)
+# Market Context (as of 2026-09-11)
 
-> **Take:** risk-off — BTC -3.32% 24h with 1/20 top-cap assets green as FOMC hike odds jump to 63.5% (+10pp) ahead of CPI tomorrow. Conviction: high.
+> **Take:** rotation — ETH +6.62% vs BTC +1.87% on CPI day; BTC dominance fell to 58.34% (-0.18pp) with 14/20 top-caps green. Conviction: medium.
 
 ## Signal Snapshot
-- BTC $76,914 (-3.32% 24h, -1.4% 7d) · dominance 58.52% (+0.05pp 24h)
-- ETH $2,419 (-3.74% 24h, +0.4% 7d) · ETH/BTC 0.03145
-- SOL $99.47 (-4.76% 24h, -1.7% 7d)
-- Total mcap $2.63T (-6.16% 24h) · DEX vol $12.40B 24h
-- Breadth: 1/20 green 24h (XMR only) · 8/20 green 7d
-- Fear & Greed: 69 (Greed) — yesterday 66 *(lagging divergence vs price action)*
+- BTC $78,793 (+1.87% 24h, -0.7% 7d) · dominance 58.34% (-0.18pp 24h)
+- ETH $2,604 (+6.62% 24h, +6.7% 7d) · ETH/BTC 0.03305 *(was 0.03145 yesterday, +5.1%)*
+- SOL $103.29 (+3.23% 24h, +2.7% 7d)
+- Total mcap $2.71T (+3.0% vs Sep 10) · DEX vol $11.09B 24h (-10.6% vs Sep 10)
+- Breadth: 14/20 green 24h · 10/20 green 7d
+- Fear & Greed: 56 (Greed) — yesterday 69 *(dropped 13 pts on CPI day)*
 
 ## What Changed Since Last Refresh
-- **Regime flip: rotation → risk-off** — breadth collapsed from 17/20 to 1/20 in 24h; BTC -$2,408 (-3.04%) from Sep 9 close to $76,914.
-- **FOMC hike odds surged: 53.5% → 63.5% (+10pp)** — today's PPI data + pre-CPI positioning; CPI Sep 11 tomorrow is the decisive gate.
-- **BTC ETF second consecutive outflow** — ARKB -$78M Sep 9; institutional demand signal cooling after $730.8M inflow Sep 3.
-- **KillaXBT building BTC long at 76.7→74s** (invalidation 72.5K) — key contra-signal; strongest tracked trader actively adding while market sells.
-- **bull_genius closed BTC short at $78K** — "r/r is bad from here for shorts"; pivoting neutral, plans to re-enter longs on weakness. Contra-indicator to continued downside.
-- **DEX vol elevated: $11.62B → $12.40B (+6.8%)** — volume spike on red tape = selling/liquidation character.
+- **Regime flip: risk-off → rotation** — breadth recovered 1/20 → 14/20; ETH +6.62% leads alt relief while BTC only +1.87%; ETH/BTC jumped from 0.03145 to 0.03305 (+5.1% in 24h).
+- **CPI hot — FOMC hike odds surged: 63.5% → 79.5% (+16pp)** — hike now near-certain for Sep 15-16; Polymarket no-change collapsed from 35.5% to 18.5% YES; largest single-day FOMC repricing this cycle.
+- **F&G dropped 13 pts: 69 → 56** — greed sentiment unwinding even as breadth improves; divergence between breadth (rising) and sentiment (falling) = rotation not risk-on.
+- **BTC ETF third consecutive outflow: ~$120M (Sep 10)** — institutional demand pulling back sequentially; Sep 3 +$730.9M inflow now offset by three straight outflow days.
 
 ## Active Narratives
-- **CPI/FOMC hike binary** — phase: peak. Evidence: Polymarket Fed +25bps YES 63.5% (+10pp in 24h), $1.55M 24h vol; FOMC Sep 15-16 hard resolution; crude Brent $102+ adds inflationary pressure. Primary driver of today's risk-off regime.
-- **ZEC resurgence** — phase: rising. Evidence: ZEC $1,172.92 (-7.17% 24h) but +40.9% 7d, #10 by mcap, trending CoinGecko; HCH cycle-peak target $10K; 7d arc intact despite market-wide -3% to -9% tape.
-- **Privacy sector relative strength** — phase: emerging. Evidence: XMR +0.68% (sole green top-20 asset, #15); ZANO +11.51% trending (#264); 2 of 13 CoinGecko trending assets are privacy coins on a 1/20-breadth red day.
-- **Crude oil / bonds macro overhang** — phase: rising. Evidence: WTI ~$97, Brent $102+; Wild_Randomness flagged hawkish Fed rhetoric + 30Y yield 5.286%; accumulating RKT March 2027 calls (mean-reversion bond trade). Reinforces FOMC hike narrative.
-- **NFT recovery (Argonauts)** — phase: emerging. Evidence: bull_genius personally bought Argonauts NFTs at 0.5 ETH floor (13:01Z execution); 100x EV valuation thesis; Substack article publishing today. Single-trader execution, no cross-trader confirmation yet.
+- **ETH/alt rotation** — phase: rising. Evidence: ETH +6.62% 24h vs BTC +1.87%; ETH/BTC +5.1% in 24h; BNB +3.26%, SOL +3.23%, XRP +2.58% all outperforming BTC; 14/20 breadth.
+- **FOMC hike binary** — phase: peak. Evidence: Polymarket Fed +25bps YES 79.5% ($3.77M 24h vol), up +16pp on CPI day; FOMC Sep 15-16 = final resolution in 4 days; market has priced hawkish path.
+- **Solana DeFi resurgence** — phase: emerging. Evidence: RAY trending #5, +26.03% 24h; Raydium $408.9M DEX 24h vol; Orca $201.4M; Solana TVL stable $5.83B while Tron/Base declined.
+- **ZEC/privacy persistence** — phase: rising. Evidence: ZEC $1,187.56, +21.6% 7d, holding #10 by mcap; XMR $517.71, +2.74% 24h, #15; both green on a macro-driven rotation tape.
 
 ## Top DeFi Protocols (TVL, 7d change)
-- Lido: $23.89B (+2.94%) [live]
-- Aave V3: $17.24B (+0.96%) [live]
-- SSV Network: $12.51B (carry-forward Sep 6)
-- Morpho Blue: $9.50B (carry-forward Sep 6)
-- Binance Staked ETH: ~$9.3B (carry-forward Sep 6)
+- Lido: $24.3B (-0.27%)
+- Aave V3: $17.5B (-1.56%)
+- SSV Network: $13.1B (-0.32%)
+- Morpho Blue: $9.6B (-2.23%)
+- Binance Staked ETH: $9.3B (-0.85%)
 
-## Chain Flow (top 6 by TVL, vs Sep 9)
-- Ethereum: $49.63B (-0.2% vs Sep 9)
-- Solana: $5.83B (-2.3%)
-- BSC: $5.62B (-2.6%)
-- Base: $5.61B (-1.7%)
-- Tron: $5.43B (-1.6%)
-- Bitcoin: $4.21B (new entry, no Sep 9 compare)
+## Chain Flow (top 6 by TVL, vs Sep 10)
+- Ethereum: $49.80B (~flat vs $49.63B)
+- Solana: $5.83B (flat)
+- BSC: $5.61B (flat)
+- Base: $5.54B (-1.2% vs $5.61B)
+- Tron: $5.08B (-6.4% vs $5.43B)
+- Monad: $1.03B (new top-6 entry)
 
-*(All major chains declining in parallel — broad capital contraction, not chain-specific rotation.)*
+*(Ethereum chain resilient; Tron notable outflow; Monad entered top 6 — watch for sustained capital flow.)*
 
 ## Stablecoins
-Total: $273.66B (~flat vs Sep 9 $274B). USDT $183.37B · USDC $74.29B · USDS $6.70B · DAI $4.80B · USDe $4.50B. No stablecoin expansion on a -6.16% tape = no flight-to-fiat accumulation; holders sitting, not rotating into stables.
+Total: $273.78B (~flat vs Sep 10 $273.66B). USDT $183.54B · USDC $74.22B · USDS $6.62B · DAI $4.80B · USDe $4.60B. No stablecoin expansion on rotation day = holders neither fleeing nor adding; capital rotating within crypto, not exiting.
 
 ## Trending (CoinGecko)
-- ZANO — #264, +11.51% 24h [privacy L1; rare green on risk-off day; emerging confirmation of privacy-sector narrative]
-- KAS (Kaspa) — #72, +5.21% 24h [sole non-privacy top-100 outperformer; no clear catalyst; watch for follow-through]
-- HYPE — #11, $81.14, -6.24% 24h [HCH target $350/$80B mcap; -1.9% 7d; short intact; pulling back with market]
-- ZEC — #10, $1,172.92, -7.17% 24h [+40.9% 7d; trending; privacy resurgence thesis holding on 7d arc]
-- TAO (Bittensor) — #42, -9.59% 24h [AI narrative; declining with market; monitor for cross-trader convergence]
-- VVV (Venice Token) — #69, -8.72% 24h [AI/privacy governance; was +32.34% Sep 9 emerging; pullback underway; unconfirmed]
-- STONK — #209, -12.05% 24h [meme Day 5; lifecycle fading as expected; peak call Sep 9 validated]
-- LAPTOP — #146, -70.66% 24h [total collapse; FDV >$1B Polymarket 18.5% YES; lifecycle over]
+- STONK (#149) — $0.31, +68.33% 24h [meme reversal from -12% Sep 10; probable dead-cat bounce after Sep 9 peak call; lifecycle watch]
+- PONS (#113) — $0.66, +15.62% 24h [new trending entry; no prior tracking; cross-trader check needed]
+- LAPTOP (#214) — $0.42, -30.27% 24h [post-collapse dead-cat bounce from -70.66% Sep 10; lifecycle over per prior call]
+- BTC (#1) — $78,783, +1.85% 24h [base asset trending on CPI day — news-driven attention]
+- RAY (#117) — $1.67, +26.03% 24h [Raydium governance token; Solana DEX volume spike; emerging narrative confirmation]
+- ETH (#2) — $2,600, +6.50% 24h [rotation leader; trending as ETH/BTC divergence draws attention]
+- PENGU (#112) — $0.01, +1.12% 24h [NFT/gaming; weak; no signal]
 
 ## Prediction Markets (Polymarket, top by 24h vol)
 | Market | YES% | 24h Vol | Liquidity |
 |--------|------|---------|-----------|
-| Fed no change Sep 2026 | 35.5% | $1.92M | $337K |
-| Fed +25bps Sep 2026 | 63.5% | $1.55M | $402K |
-| CS: 1WIN vs B8 (PGL Masters) | 45.5% | $692K | $78K |
+| Fed no change Sep 2026 | 18.5% | $4.39M | $809K |
+| Fed +25bps Sep 2026 | 79.5% | $3.77M | $1,060K |
+| Stade Rennais FC win Sep 11 | 47.5% | $0.66M | $387K |
 
-*(FOMC hike 63.5% YES — up 10pp from Sep 9's 53.5%; markets have repriced hawkish path into CPI Sep 11 and FOMC Sep 15-16.)*
+*(Fed hike now 79.5% — highest conviction of this FOMC cycle; no-change collapsed from 35.5% to 18.5% in 24h.)*
 
 ## Macro Catalysts (next 48h)
-- **CPI Sep 11 (tomorrow): primary decision gate** — hot print → hike odds 70%+, BTC likely tests $74-75K; in-line print → odds stabilize ~60%, relief rally possible toward $79-80K; market currently priced for hawkish.
-- **FOMC Sep 15-16 (5 days): hike odds 63.5%** — up sharply from Sep 9 (53.5%); above 65% through CPI print = risk-off regime holds through FOMC week. Crude oil $102+ and 30Y yield 5.286% reinforce hawkish case.
-- **BTC ETF consecutive outflows** — second straight day (ARKB -$78M Sep 9); after $730.8M Sep 3 inflow; monthly total $770.2M net positive but daily momentum has reversed. Three consecutive outflow days = structural signal.
-- **Wild_Randomness seasonality: "Sell Rosh Hashanah, Buy Yom Kippur"** — seasonal framework flagged by WR (multiple posts, 03:51Z/06:07Z); Rosh Hashanah Sep 22 = sell pressure window; Yom Kippur Oct 1 = buy signal. Aligns with macro de-risk thesis through FOMC.
+- **FOMC Sep 15-16 (4 days): hike 79.5%** — CPI print today confirmed hawkish path; a +25bps hike is the base case. Post-hike statement language on pause vs continued hiking = primary directional signal for crypto into Q4.
+- **Token unlocks Sep 13**: UP 16.7% of circulating supply (~$10.77M); ALLO 8.6% (~$4.16M); APT 0.94% (~$6.92M). UP unlock = potential local headwind.
+- **BTC ETF consecutive outflows (day 3)** — institutional demand signal; fourth consecutive outflow day would confirm structural reversal vs seasonal noise.
+- **Wild_Randomness seasonal framework: "Sell Rosh Hashanah (Sep 22), Buy Yom Kippur (Oct 1)"** — on track; current rotation pattern consistent with de-risking window ahead of Sep 22.
 
 ## Implications for Downstream Skills
-- **token-pick:** Risk-off — hold off on new entries before CPI Sep 11 + FOMC Sep 15-16. XMR (sole green top-20) and ZANO (+11.51%) show privacy-sector relative strength; ZEC +40.9% 7d arc intact for existing holders. KillaXBT buying 76.7→74s sets a structural floor reference; bull_genius closed short. Await CPI resolution before directional BTC sizing.
-- **narrative-tracker:** FOMC hike binary at peak (63.5%, +10pp) — CPI tomorrow is the decisive data point. STONK Day 5 fading validated. LAPTOP collapse confirmed. Privacy sector (XMR/ZANO green) emerging — 48h follow-through window open. VVV unconfirmed — needs volume recovery post-pullback.
+- **token-pick:** Rotation phase — ETH and SOL ecosystem (RAY) show clearest relative strength; ZEC arc intact for existing holders. FOMC hike 79.5% = BTC likely capped $79-81K until Sep 15 resolution. UP unlock Sep 13 = short-term risk. Await post-FOMC regime read before new directional BTC entries.
+- **narrative-tracker:** FOMC hike peak (79.5%) resolves Sep 15-16 — prepare post-hike regime pivot assessment. ETH rotation rising — track ETH/BTC sustain above 0.033 next 48h for confirmation. Solana DeFi/RAY emerging — 2nd day volume confirmation needed. STONK dead-cat likely (not new phase); LAPTOP lifecycle confirmed over.
 
 ## Token Picks Made
 | Date | Token | Price | Thesis |
 |------|-------|-------|--------|
 
 ---
-*Sources — btc/eth/sol: CoinGecko /simple/price + /coins/markets · global: CoinGecko /global · trending: CoinGecko /search/trending · defi chains: DeFiLlama /v2/chains (live) · defi protocols: DeFiLlama /protocols (Lido + Aave live; SSV/Morpho/BSH carry-forward Sep 6) · dex vol: DeFiLlama /overview/dexs ($12.40B 24h, $72.26B 7d) · sentiment: alternative.me (F&G 69 today, 66 yesterday) · markets: Polymarket (Fed no-change 35.5%; Fed hike 63.5%; CS 1WIN 45.5%) · macro: WebSearch (PPI Sep 10; CPI Sep 11; ETF consecutive outflows; crude Brent $102+; FOMC hike 63.5%)*
-*Source status: coingecko=ok defillama=ok(chains live; protocols partial-live) fng=ok polymarket=ok websearch=ok stablecoins=ok*
+*Sources — btc/eth/sol: CoinGecko /simple/price + /coins/markets · global: CoinGecko /global · trending: CoinGecko /search/trending · defi chains: DeFiLlama /v2/chains · defi protocols: DeFiLlama /protocols · dex vol: DeFiLlama /overview/dexs ($11.09B 24h, $72.97B 7d) · sentiment: alternative.me (F&G 56 today, 69 yesterday) · stablecoins: DeFiLlama stablecoins API ($273.78B total) · markets: Polymarket (Fed no-change 18.5%; Fed hike 79.5%; Rennais 47.5%) · macro: WebSearch (CPI Sep 11 hot; ETF ~$120M outflow day 3; UP/ALLO/APT unlocks; SEC records news)*
+*Source status: coingecko=ok defillama=ok fng=ok polymarket=ok websearch=ok stablecoins=ok*
