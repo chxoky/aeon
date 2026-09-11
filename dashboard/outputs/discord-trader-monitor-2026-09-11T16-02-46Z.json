@@ -1,0 +1,89 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration — [DC: Chase — Crypto]"
+      },
+      "children": [
+        "event_type",
+        "sep1",
+        "message_card",
+        "sep2",
+        "alert_classify",
+        "sep3",
+        "metadata"
+      ]
+    },
+    "event_type": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Discord supporting channel message (Chase — Crypto)",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Crypto_Chase",
+        "text": "Pretty sure I even said we would scam this morning in the video yesterday"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Message references external video context from yesterday. Could be sarcasm on market behavior or reference to something discussed off-platform.",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "meta_via",
+        "meta_time",
+        "meta_id"
+      ]
+    },
+    "meta_via": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord",
+        "variant": "caption"
+      }
+    },
+    "meta_time": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-11T15:57:59Z",
+        "variant": "caption"
+      }
+    },
+    "meta_id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1547999660055199835",
+        "variant": "caption"
+      }
+    }
+  }
+}
