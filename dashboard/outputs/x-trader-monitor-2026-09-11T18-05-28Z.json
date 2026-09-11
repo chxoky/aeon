@@ -1,0 +1,48 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Historical Death Cross → Golden Cross pattern on BTC: Every single Golden Cross following a Death Cross has marked the beginning of a new bull market.\n\nCurrent chart is at/near the Golden Cross inflection point. Sarcastic take on skeptics dismissing the pattern this cycle (\"just a deviation\").\n\nBullish technical sentiment. Aligns with your documented HTF long thesis (bear cycle ~80% complete)."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2098471642016186794"
+      }
+    }
+  }
+}
