@@ -5,8 +5,9 @@
 - Recent thesis: Structural BTC bull — bear cycle ~80% complete, 2.5yr target 126K+. CONVICTION DOWNGRADE Aug 28: "0% chance $100K this year" → Q2 2027 target. $83K acceptance needed for weekly trend shift. Near-term: range consolidation 76–84K; liquidity cluster 75.5–76.5K below current; next planned long 74–75K area. Sweep-wick-expansion macro: 86.5K sweep → 82.2K wick → expansion thesis. Monthly pivots Sep 1/5. ASTER: swing long out of 200d range compression.
 - Conviction notes: HTF bullish structural bias. "Shorts are scalps. Remember that." Tactical scalp shorts + structural long = hedge ethos. Relocated country Aug 28 (tax optimization). Kalshi partnership announced. Game of probabilities on LTF; detach emotion, trade structure.
 - Calibration: CONVICTION DOWNGRADE SIGNAL — questioning Q4 bottom-buy thesis after 42% BTC drop (Sep 04 19:41Z). PENDING Aug 27 11:11Z ("Aged like fine wine. $SOL is up nearly 50%... Thanks for playing. $120+ waiting room"; open vs closed unclear)
-- Last seen: 2026-09-11T10:00:01Z
+- Last seen: 2026-09-11T14:30:03Z
 - **Events (rolling):**
+  - Sep 11 14:30Z — informational: BTC price structure; clean bounce with CPI marking pivot low; textbook market behavior; affirmation of simple price-action trading thesis [$BTC/$MACRO] [2098418800299323636]
   - Sep 11 12:02Z — informational: Personal exit/retirement conviction statement; fully exiting crypto markets in 2.5y at 150K per $BTC target (late 2028). Chart projects $150K trajectory. Long-term thesis affirmation + personal timeline anchor. [$BTC/$RETIREMENT] [2098381542485852370]
   - Sep 11 10:00Z — informational: OIL-BTC macro correlation; every OIL nuke precedes BTC macro bottom; 40% BTC recovery + OIL rebound validates bottom-already-in thesis [$BTC/$OIL] [2098350845200838768]
   - Sep 11 00:39Z — informational: CPI correlation study; past 3 CPI prints → $BTC +5% within 8d; current setup validated (Asia sweep lows → recovery); bear trap thesis [$BTC] [2098209689041355223]

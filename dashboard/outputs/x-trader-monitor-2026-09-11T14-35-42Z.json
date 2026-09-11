@@ -1,0 +1,43 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "BTC Market Structure — Clean Bounce\n\nAnother clean bounce with CPI once again marking the pivot low. The market proves you don't need to overcomplicate simple things — textbook price action.\n\nCharts show BTC price cycles with support zones marked by major economic events (CPI); current bounce confirming expected consolidation structure within 76-84K range."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2098418800299323636"
+      },
+      "children": []
+    }
+  }
+}
