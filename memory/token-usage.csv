@@ -5393,4 +5393,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-11,x-trader-monitor,claude-haiku-4-5-20251001,129,11311,1212838,116925
 2026-09-11,x-trader-monitor,claude-haiku-4-5-20251001,97,12205,623583,68096
 2026-09-11,x-trader-monitor,claude-haiku-4-5-20251001,121,11465,1140259,109359
-2026-09-11,x-trader-monitor,claude-haiku-4-5-20251001,209,15250,1133001,62864
+2026-09-11,x-trader-monitor,claude-haiku-4-5-20251001,153,9588,706641,44205
