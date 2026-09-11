@@ -1,0 +1,102 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "calibration-meta",
+        "sep1",
+        "event-section",
+        "sep2",
+        "quote-section",
+        "sep3",
+        "classification-alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "calibration-meta": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-context"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "Standalone message, no reply context"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-author",
+        "quote-text"
+      ]
+    },
+    "quote-author": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "caption"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Imagine this is the state in 2 daily green candles..\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is this a pattern/setup reference or just market commentary?",
+        "type": "warning"
+      }
+    }
+  }
+}
