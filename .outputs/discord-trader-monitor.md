@@ -20,3 +20,8 @@
 **Pending:**
 - Kyle clarification on ticker (ENS domain service vs ENA stablecoin?)
 - Low-conviction posture ("Let's see") may not require approval depending on Kyle's framework
+🔍 *Calibration — [DC: HCH — Trades]*
+
+HCH: "6% sl"
+
+Unable to classify — what's your read? (Standalone message, no reply context; likely SL adjustment but position unspecified)
