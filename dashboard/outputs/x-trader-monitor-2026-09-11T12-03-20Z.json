@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "if i had to guess nothingburger numbers and fomc decision stays unclear\n\nlets see if 75.5k holds pretty sure it gets tested\n\nthere is no rush to gamble on CPI trust me\n\nonly fade the extremes spices short term\n\nstay out and learn about argonauts instead"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098380257929691246"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 75.5K support aligns with KillaXBT liquidity cluster; macro caution on CPI/FOMC catalysts through Sep 16.",
+        "variant": "body"
+      }
+    }
+  }
+}
