@@ -429,7 +429,8 @@
   - Sep 10 08:07Z — informational: @huskyXBT reply ARGONAUTS opportunity thesis escalation; contrasts Argonauts vs other NFT collections (StonkBrokers/Quotrons/neo v4 defi NFTs); 2020 experience parallel + asymmetric 100x risk framework; reinforces Sep 07 holding conviction with narrative differentiation [$ARGONAUTS] [2097960245297398117]
   - Sep 10 07:49Z — informational: @OnlyZen_PK reply BNB bottoming conviction; "buy extremely low and hold"; personal conviction on BNB long thesis (⚠️ note: original tweet contains offensive language, filed silently to ticker-focus without alert) [$BNB] [2097955633177805010]
   - Sep 10 07:39Z — informational: @huskyXBT reply ARGONAUT valuation thesis; modeled 1B cap→100x return on conservative baseline vs BAYC's 10B+ prior cycle; asymmetric 10% EV framework [$ARGONAUT] [2097953031245467847]
-- Last seen: 2026-09-10T07:44:08Z
+  - Sep 11 14:20Z — informational: portfolio restructuring intent announcement; "@faniplayer1 yeah spot. still very good coin fairly low risk / i want to restructure a bit tho and concentrate more on highest conviction plays. will update when its done!"; strategy shift toward higher-conviction positioning; no immediate action language; position management statement [PORTFOLIO-REBALANCE] [2098416457839235582]
+- Last seen: 2026-09-11T14:20:44Z
 - **Events (rolling):**
   - Sep 10 07:44Z — ambiguous-pending: reply to @Bin_superapp "this is the easy entry"; asset/ticker unclear; HR-2 calibration sent [$UNKNOWN] [2097954258997973195]
   - Sep 10 07:10Z — informational: MARSCOIN perp consolidation chart; recovery from $0.26 peak to $0.175 support; market opportunity view ("exceptional layup" at 100M cap); quiet ticker, filed silently [$MARSCOIN] [2097945683839811691]
