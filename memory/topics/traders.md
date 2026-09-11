@@ -346,7 +346,8 @@
   - Sep 11 00:17Z — informational-technical: "Fc zec 5m" (Chat supporting); false-close chart check on ZEC 5-minute timeframe; routine technical validation within existing ZEC short (1235 entry Sep 07, 1295 scale-in Sep 09, 2% total); no execution language; no Telegram alert [$ZEC/$TECHNICAL] [1547762890763935797]
   - Sep 11 00:21Z — informational: 24hr liquidation feed heatmap (CoinGlass); $456.99M total liquidations (97,694 traders), predominantly long-side pressure ($363.15M long vs $93.84M short); validates net-short regime conviction; 2 chart images showing detailed liquidation breakdown across BTC/ETH/ZEC/SOL/ALTs [2098205130638413883]
   - Sep 11 00:30Z — informational-conviction: ZEC short affirmation; philosophical reinforcement existing 1235/1295 position [$ZEC] [2098207527905464361]
-- Last seen: 2026-09-11T00:30:32Z
+  - Sep 11 00:36Z — informational-reiteration: Discord cross-platform amplification of preceding X post ZEC short conviction (00:30Z); "Zec was indeed close to cooldown" via HCH — Free (primary); reply context: HCH's own message on over/underestimating narrative impact; fast-path alerted (no Telegram duplicate) [$ZEC] [1547767709121511484]
+- Last seen: 2026-09-11T00:36:17Z
 
 ## bull_genius
 
