@@ -1,0 +1,182 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-11"
+      },
+      "children": [
+        "stack-transitions"
+      ]
+    },
+    "stack-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-transitions",
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4",
+        "item-5",
+        "item-6"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "text-1"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "outline"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole/Fed Binary → FOMC Sep 16 Binary (Warsh keynote concluded Aug 28; hike odds now 63.5%, live resolution Sep 16)"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2",
+        "text-2"
+      ]
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "outline"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA Earnings Binary — event passed Aug 26"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-3",
+        "text-3"
+      ]
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "outline"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "STX/BTC L2 Breakout — no sustained follow-through after initial move"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-4",
+        "text-4"
+      ]
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC-XMR Emerging→Rising — Grayscale ZCSH ETF launched Sep 1 (first-ever privacy ETF, $34M+ inflows); ZEC +40.9% 7d; XMR sole top-20 green on 1/20-breadth red day Sep 10"
+      }
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-5",
+        "text-5"
+      ]
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-5": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents/Identity Fading→Rising confirmed — Kraken/Coinbase/OKX MCP toolkits live; $73M settled across 176M blockchain txns; identity layer emerging as next infrastructure bottleneck"
+      }
+    },
+    "item-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-6",
+        "text-6"
+      ]
+    },
+    "badge-6": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text-6": {
+      "type": "Text",
+      "props": {
+        "text": "Crude Oil/Energy Macro — WR crude breakout (30Y yield 5.286%); HCH Sep 11 14:47Z: taco"
+      }
+    }
+  }
+}
