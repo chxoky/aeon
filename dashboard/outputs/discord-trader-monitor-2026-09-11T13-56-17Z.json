@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — DC: HCH — Chat",
+        "description": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_event",
+        "sep1",
+        "stack_event",
+        "sep2",
+        "heading_message",
+        "tweet_message",
+        "sep3",
+        "alert_classification"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event_main",
+        "text_context"
+      ]
+    },
+    "text_event_main": {
+      "type": "Text",
+      "props": {
+        "text": "HCH was monitoring CL (crude oil) false-close checks on 5m (Sep 11 05:55Z).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel follow-up on same monitoring session.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Follow-up",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "Fc near 15m"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What's your read? Checking false-close on CL? Another ticker? Support/resistance level context?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
