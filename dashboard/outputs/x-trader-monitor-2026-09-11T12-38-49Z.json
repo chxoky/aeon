@@ -1,0 +1,145 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration Required"
+      },
+      "children": [
+        "header",
+        "metadata",
+        "sep1",
+        "tweet",
+        "sep2",
+        "analysis",
+        "sep3",
+        "cta-section"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Sep 11 12:34:57Z market post",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Bottom?"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-title",
+        "unable-to-classify",
+        "possible-interpretations",
+        "interp-1",
+        "interp-2",
+        "interp-3"
+      ]
+    },
+    "analysis-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "unable-to-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — single-word cryptic question",
+        "type": "info"
+      }
+    },
+    "possible-interpretations": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) asking if current levels are market bottom (technical)",
+        "variant": "body"
+      }
+    },
+    "interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) rhetorical on market bottom-finding difficulty",
+        "variant": "body"
+      }
+    },
+    "interp-3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) sarcastic doubt on narrative",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cta-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cta-question",
+        "view-link"
+      ]
+    },
+    "cta-question": {
+      "type": "Heading",
+      "props": {
+        "text": "What's your read?",
+        "level": "h3"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2098389836965232734"
+      }
+    }
+  }
+}
