@@ -1,0 +1,281 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration event — discord monitoring"
+      },
+      "children": [
+        "header-stack",
+        "sep-1",
+        "question-section",
+        "sep-2",
+        "classification-section",
+        "sep-3",
+        "interpretations-section",
+        "sep-4",
+        "context-section"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-title",
+        "event-detail"
+      ]
+    },
+    "header-title": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration Event",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hch",
+        "badge-chat"
+      ]
+    },
+    "badge-hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-chat": {
+      "type": "Badge",
+      "props": {
+        "text": "supporting channel",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-label",
+        "question-text"
+      ]
+    },
+    "question-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"What do we think about the small near long leg here?\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "No member context available. Seeking interpretation.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp-label",
+        "interp-1",
+        "interp-2",
+        "interp-3"
+      ]
+    },
+    "interp-label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "interp-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-token",
+        "text-interp-1"
+      ]
+    },
+    "badge-token": {
+      "type": "Badge",
+      "props": {
+        "text": "Token",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "\"near long leg\" = NEAR token long position hint?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-technical",
+        "text-interp-2"
+      ]
+    },
+    "badge-technical": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "\"small near long leg\" = technical pattern (small pullback into larger uptrend)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-observation",
+        "text-interp-3"
+      ]
+    },
+    "badge-observation": {
+      "type": "Badge",
+      "props": {
+        "text": "Pedagogical",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-interp-3": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation/teaching moment?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-1",
+        "context-2",
+        "context-3"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Recent activity:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context-1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH took 1/4 profit off crypto shorts (Sep 11 03:10Z)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context-2": {
+      "type": "Text",
+      "props": {
+        "text": "Monitoring CL 5m structure (05:55Z)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context-3": {
+      "type": "Text",
+      "props": {
+        "text": "CPI today is main macro event",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
