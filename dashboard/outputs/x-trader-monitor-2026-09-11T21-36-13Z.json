@@ -1,0 +1,124 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-calibration",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "stack-metadata"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Because everyone else thinks its a top?"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-reply",
+        "text-context",
+        "stack-assets",
+        "alert-interpretation"
+      ]
+    },
+    "text-reply": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @DeepDishEnjoyer",
+        "variant": "body"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context unclear. Asset/ticker unknown. Activity dated Sep 11.",
+        "variant": "caption"
+      }
+    },
+    "stack-assets": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-possible",
+        "badge-eth",
+        "badge-spx"
+      ]
+    },
+    "text-possible": {
+      "type": "Text",
+      "props": {
+        "text": "Possible assets:",
+        "variant": "caption"
+      }
+    },
+    "badge-eth": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH",
+        "variant": "secondary"
+      }
+    },
+    "badge-spx": {
+      "type": "Badge",
+      "props": {
+        "text": "SPX",
+        "variant": "secondary"
+      }
+    },
+    "alert-interpretation": {
+      "type": "Alert",
+      "props": {
+        "title": "Requires Kyle Interpretation",
+        "message": "Additional context needed to determine asset/ticker and full implications.",
+        "type": "warning"
+      }
+    }
+  }
+}
