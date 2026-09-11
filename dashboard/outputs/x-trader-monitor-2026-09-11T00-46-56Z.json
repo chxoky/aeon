@@ -1,0 +1,97 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "BTC trading pattern analysis"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "platform-badge",
+        "tweet-card",
+        "sep-1",
+        "link-section",
+        "sep-2",
+        "analysis-section"
+      ]
+    },
+    "platform-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X Platform",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Study. The past 3 CPI prints have resulted in $BTC rallying 5%+ within 8 days. Asia just swept the lows. The bear trap is set. Let's see if we get a similar movement this time around. As always, news is priced in."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2098209689041355223"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis-header",
+        "analysis-text"
+      ]
+    },
+    "analysis-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows historical CPI → rally pattern (8d post-CPI) repeating today. Setup: Asia low sweep → sharp recovery validates bear-trap thesis. Aligns with group bullish BTC bias.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
