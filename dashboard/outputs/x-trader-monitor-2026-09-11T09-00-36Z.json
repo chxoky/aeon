@@ -1,0 +1,112 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-header",
+        "event-title",
+        "context-unavailable",
+        "quote-tweet",
+        "classify-prompt",
+        "separator-1",
+        "interpretation-section",
+        "separator-2",
+        "post-link"
+      ]
+    },
+    "calibration-header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "event-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply chain context unavailable",
+        "level": "h3"
+      }
+    },
+    "context-unavailable": {
+      "type": "Text",
+      "props": {
+        "text": "@chrisgrx_ @blancxbt conversation not visible",
+        "variant": "muted"
+      }
+    },
+    "quote-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "its not gambling at this stage thats for 2027"
+      }
+    },
+    "classify-prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "likely-context",
+        "framing-interpretation"
+      ]
+    },
+    "likely-context": {
+      "type": "Text",
+      "props": {
+        "text": "Likely context: ARGONAUTS conviction escalation (Sep 07-11 heavy focus) + \"astronomically early\" positioning, or general market sentiment on structural bottom."
+      }
+    },
+    "framing-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "\"not gambling at this stage\" = bullish framing on current opportunities vs. 2027 speculation risk."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/bull_genius/status/2098334596618146271",
+        "source": "X"
+      }
+    }
+  }
+}
