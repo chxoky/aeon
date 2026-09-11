@@ -14,3 +14,4 @@ Key dynamic: watch spot cushion vs perps behavior.
 Normal cooldown territory: low-to-mid 70s.
 
 [View post](https://x.com/Stoiiic/status/2098442671119335841)
+@

@@ -571,7 +571,7 @@
 - **Events (rolling):**
   - Sep 09 13:46Z — ambiguous: @BangXBT "Oh good"; reply context unclear; HR-2 sent [$UNKNOWN] [2097683102432714788]
   - Sep 10 15:24Z — informational: Elliott Wave setup dates Sep/Oct, peak marked; "Get your bids ready again soon" [$BTC] [2098070189447303337]
-- Last seen: 2026-09-10T15:24:48Z
+- Last seen: 2026-09-11T16:07:10Z
 - **Events (rolling):**
   - Sep 09 13:45Z — informational: bearish macro outlook; "market will whipsaw everyone...before finally starting its decline"; reply to @MylesGinvest [$BTC] [2097682879828349410]
   - Aug 27 07:10Z — informational: "Top of range isn't in / Don't catch knives on shorts" [$BTC] [2092872387037385099]
@@ -603,6 +603,7 @@
   - Sep 11 06:48Z — informational: market timing commentary; "Still a little bit early imo" reply to @guru2602; aligns w/ Sep 10 Elliott Wave setup bullish conviction [$BTC] [2098302599984304476]
   - Sep 11 07:01Z — ambiguous: @Web3Whizzu @guru2602 "+- and depend of time"; cryptic 8-word reply; HR-2 calibration sent [$UNKNOWN] [2098305792839479526]
   - Sep 11 11:12Z — ambiguous-cryptic: @CoinSignals_ "No no no"; reply to unknown signal/opinion, no context; HR-2 calibration sent [$UNKNOWN] [2098369117803688124]
+  - Sep 11 16:07Z — informational: bearish sentiment on CPI pump bounce; sarcastic reply to @guru2602 "going to get swallowed up soon"; reaffirms bearish macro bias over near-term bullish moves [$BTC] [2098443240835858737]
 
 ## Crypto_Chase
 
