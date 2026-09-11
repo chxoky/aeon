@@ -18,7 +18,19 @@
  *   ANTHROPIC_API_KEY
  *
  * KV namespace: BOT_STATE (stores Discord last-seen message IDs)
+ *
+ * TradingView execution (src/tv/) adds:
+ *   POST /tv-alert  — TradingView webhook → order on Kraken (crypto) / Alpaca (equities)
+ *   Telegram `go <ruleId>` / `deny <ruleId>` — confirm a pending entry
+ *   Durable Object RULE_STATE — one-shot / cooldown guard on every rule
+ *   Secrets: TV_WEBHOOK_SECRET, KRAKEN_API_KEY, KRAKEN_API_SECRET,
+ *            ALPACA_API_KEY_ID, ALPACA_API_SECRET_KEY, ALPACA_LIVE
  */
+
+import { handleTvAlert, handleTvRule, resolvePending } from './tv/index.js';
+
+// Durable Object class must be exported from the Worker entry point.
+export { RuleState } from './tv/rules.js';
 
 // ── Channel config ────────────────────────────────────────────────────────────
 
@@ -54,6 +66,12 @@ export default {
     if (request.method === 'POST' && url.pathname === '/twitter') {
       return handleTwitter(request, env, ctx);
     }
+    if (request.method === 'POST' && url.pathname === '/tv-alert') {
+      return handleTvAlert(request, env, ctx);
+    }
+    if (request.method === 'POST' && url.pathname === '/tv-rule') {
+      return handleTvRule(request, env);
+    }
 
     return new Response('Trading Bot — OK', { status: 200 });
   },
@@ -77,6 +95,19 @@ async function handleTelegram(request, env, ctx) {
   const chatId  = String(message?.chat?.id ?? env.TELEGRAM_CHAT_ID);
 
   if (!text) return new Response('OK');
+
+  // TradingView pending-entry confirmation. Deliberately checked ahead of the
+  // command chain but only claims the message when a matching pending rule
+  // actually exists — an earlier version matched on shape alone, which swallowed
+  // ordinary messages like "go check the charts" before they reached freeform.
+  const tvConfirm = rawText.trim().match(/^(go|deny)\s+([\w.:-]+)$/i);
+  if (tvConfirm) {
+    const reply = await resolvePending(env, ctx, tvConfirm[2], tvConfirm[1].toLowerCase() === 'go');
+    if (reply) {
+      await sendTelegram(env, chatId, reply);
+      return new Response('OK');
+    }
+  }
 
   // ── Command routing ────────────────────────────────────────────────────────
   if (text === 'brief') {
