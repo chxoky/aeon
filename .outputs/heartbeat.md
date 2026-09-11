@@ -1,5 +1,20 @@
-🟡 WATCH — Heartbeat 2026-09-10 20:00 UTC
+Heartbeat complete. Here's the summary:
 
-🔵 P3 — STALE: morning-pipeline chain last succeeded 4 days ago (2026-09-06 09:05 UTC), exceeding the 2×daily interval threshold. morning-brief is downstream and also stale since Sep 6. Individual chain steps (token-movers, market-context-refresh) are running healthy on their own 12:00 UTC schedule — only the 07:00 UTC chain dispatch is missing. Check chain-runner.yml / GitHub Actions cron scheduling.
+## Summary
 
-✅ P0: No failed or stuck skills. No API degradation. X webhook inferred active (x-trader-monitor last success 21:39 UTC today).
+**Overall:** 🟡 WATCH · STATUS_PAGE=WATCH
+
+**P0 checks — clean:**
+- No failed or stuck skills, no API degradation
+- X webhook `WATCHED_TRADERS` confirmed active (`is_effect: 1`) — ISS-002 remains resolved
+- Heartbeat self-check: ~16h since last success (well under 36h threshold)
+
+**P1/P2 — clean:**
+- No open PRs, no open issues, no flagged memory items
+
+**P3 — still stale (deduped):**
+- `morning-pipeline` / `morning-brief` last ran Sep 6 (5 days on a daily schedule). Notified yesterday at 20:00 UTC — within the 48h dedup window, so no new notification sent today. Watch flag kept for the status page.
+
+**Actions taken:**
+- `docs/status.md` regenerated (🟡 WATCH, timestamp updated to Sep 11 14:00 UTC)
+- Log entry appended to `memory/logs/2026-09-11.md`
