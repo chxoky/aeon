@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_block",
+        "sep1",
+        "message_block",
+        "sep2",
+        "query_block"
+      ]
+    },
+    "context_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH took off 1/4th partial TP on all crypto shorts at 03:10Z (Sep 11)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_meta",
+        "message_content"
+      ]
+    },
+    "message_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Message (05:04Z)",
+        "variant": "caption"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "Round 2",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "query_block": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Round 2 of take-profits, market phase, or something else?",
+        "type": "info"
+      }
+    }
+  }
+}

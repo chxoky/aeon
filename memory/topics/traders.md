@@ -334,6 +334,8 @@
   - Sep 09 16:04Z — informational: "@solana <0.15 & <0.10" X post with USELESS (SOL ecosystem token) 4h chart; price prediction on Solana-ecosystem token downside; technical chart shows pump 0.074→0.337 → current 0.277; bearish conviction on further downside; aligns with ongoing net-short regime [$SOL/$USELESS] [2097717760587661722]
 - Last seen: 2026-09-09T16:04:22Z
   - Sep 09 16:05Z — ambiguous: X post "9/3" (cryptic, no media); 2-char text, no clear financial signal; could reference ratio/level/time; HR-2 calibration sent [$UNKNOWN] [2097718160137052361]
+- Last seen: 2026-09-11T05:04:54Z
+  - Sep 11 05:04Z — ambiguous: Discord supporting channel (HCH — Chat); "Round 2" (cryptic, no ticker/context, no execution language); sent 2h after taking 1/4th partial TP on crypto shorts (Sep 11 03:10Z); could reference round 2 of take-profits, market structure move, or market sentiment; HR-2 calibration alert sent [$UNKNOWN] [1547835308375285833]
 - Last seen: 2026-09-09T16:05:57Z
   - Sep 09 16:42Z — informational: VLTF structure + wick fill rationale for 15:49Z tactical long (2% 20x BTC); hedge position explanation: overall PA bearish below 79.4K mid-range; pure structure-based trade not full conviction flip; fast-path alerted (no Telegram) [$BTC-LONG] [1547286135829565552]
   - Sep 10 05:36Z — informational: "fc zec 15m ema50" (Chat supporting); false-close chart check on ZEC 15m; routine technical monitoring within existing ZEC short (1235 entry Sep 07, 1295 scale-in Sep 09, 2% total); no execution language [$ZEC] [1547480763358904382]
