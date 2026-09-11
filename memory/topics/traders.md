@@ -68,6 +68,7 @@
   - Sep 10 18:57Z — informational (supporting channel): potential crude oil (WTI) Sunday TACO market structure commentary; member-chat reaction to lucaskoa's "woke up to a 99 WTI haha"; observational on CL close positioning [$CL/$WTI] [1547682542621163631]
   - Sep 11 12:52Z — informational: position update—BTC 25% remainder hit SL breakeven (fully exited); GOLD long 50% still open; portfolio management rebalance; fast-path alerted (no Telegram duplicate) [$BTC/$GOLD] [1547953030211829793]
   - Sep 11 14:34Z — informational-methodology: position management clarification on DCA plan; SL placement at EP (entry price); swing vs scalp distinction ("If your scalping, do as you wish... this is a swing for me"); partial targets at 82-84s for scalps; re-entry contingency if breaks below 75K; "SL placed at EP" discipline; fast-path alerted (no Telegram duplicate); reiteration with meaningful methodology depth [$BTC] [1547978611582173285]
+  - Sep 11 16:15Z — informational: BTC price structure; sweep-pump-retrace 60% cycle; late shorts creating liquidity above; 1.2% target fill; chart 50% wick fill 78.7K [$BTC] [2098445441239015519]
 
 ## Crypto_Chase
 

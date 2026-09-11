@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "technical_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Swept the lows > pumped into the highs > retraced 60% of the move after already wiping out longs.\n\nLate shorts start piling in, creating fresh liquidity above that can become the next target.\n\nA ~1.2% push from here would partially fill that liquidity above on $BTC. https://x.com/KillaXBT/status/2098445441239015519"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "wick_fill_stat",
+        "range_text"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "wick_fill_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "50% Wick Fill Level (chart-marked)",
+        "value": "78,742.54"
+      },
+      "children": []
+    },
+    "range_text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical structure affirmation of range consolidation 76–84K.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
