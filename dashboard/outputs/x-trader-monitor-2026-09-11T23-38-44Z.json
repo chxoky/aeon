@@ -1,0 +1,113 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "heading-interp",
+        "text-interp",
+        "stack-stats",
+        "sep-2",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Comfortable.\n\nJust make sure you remember those who are still aiming for new lows.\n\nThe inability to adapt. The inability to accept that maybe, just maybe, this time was different, and $BTC didn't need to bottom in Q4.\n\nIf I was part of the sideliner crew right now, I'd be shaking too."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-interp": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "text-interp": {
+      "type": "Text",
+      "props": {
+        "text": "BTC structural conviction statement. Charts show recovery 62.6K → 76K+ validates \"comfortable\" long positioning. Market psychology: sideline traders still positioned for lower lows (contrarian signal). Structure thesis: if retested to low-70s, that marks final bottom before 90s+ recovery. Aligns w/ HTF 2x long conviction (62.6K entry, bear cycle ~80% complete).",
+        "variant": "body"
+      }
+    },
+    "stack-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-entry",
+        "stat-current",
+        "stat-thesis-low",
+        "stat-thesis-high"
+      ]
+    },
+    "stat-entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "$62.6K"
+      }
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Recovery",
+        "value": "$76K+"
+      }
+    },
+    "stat-thesis-low": {
+      "type": "Stat",
+      "props": {
+        "label": "Retest Target",
+        "value": "$70K"
+      }
+    },
+    "stat-thesis-high": {
+      "type": "Stat",
+      "props": {
+        "label": "Recovery Target",
+        "value": "$90K+"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2098555421254439192"
+      }
+    }
+  }
+}
