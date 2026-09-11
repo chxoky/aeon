@@ -1,0 +1,42 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "commentary-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Every single time OIL nukes, $BTC ends up forming a macro bottom shortly after.\n\nThought it was relevant to bring this post back up, especially with OIL now skyrocketing. Since then, BTC is up 40% from the lows, while OIL has recovered exactly as anticipated. Just another subtle, yet strange confluence adding weight to the idea that the macro low for BTC is already in, with OIL recovering alongside it."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2098350845200838768"
+      },
+      "children": []
+    },
+    "commentary-text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Bullish macro sentiment aligns with group bottom-formation thesis; charts show historical OIL-BTC correlation pattern.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
