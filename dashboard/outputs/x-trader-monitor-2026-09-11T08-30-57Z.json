@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "text_event",
+        "text_quote",
+        "alert",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Possible reference to ARGONAUTS/NFT thesis (just posted Sep 11 05:57Z on shitcoin fatigue + JPEG conviction)"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius: \"@thetruth_lbs_ it's for the art\"",
+        "variant": "lead"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to classify without context — what's your read?"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2098326622105407922"
+      }
+    }
+  }
+}
