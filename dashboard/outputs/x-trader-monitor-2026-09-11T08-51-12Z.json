@@ -1,0 +1,123 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event_section",
+        "sep2",
+        "tweet_card",
+        "sep3",
+        "calibration_alert"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_title",
+        "event_meta"
+      ]
+    },
+    "event_title": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @blancxbt",
+        "variant": "body"
+      }
+    },
+    "event_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_note",
+        "tweet_id_line",
+        "timestamp_line"
+      ]
+    },
+    "context_note": {
+      "type": "Text",
+      "props": {
+        "text": "(full context unavailable)",
+        "variant": "caption"
+      }
+    },
+    "tweet_id_line": {
+      "type": "Text",
+      "props": {
+        "text": "tweet_id: 2098331893431140528",
+        "variant": "caption"
+      }
+    },
+    "timestamp_line": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 11 08:44:43 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "@blancxbt objectively false"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "calibration_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is @blancxbt discussing a specific trade, market thesis, or narrative?",
+        "type": "info"
+      }
+    }
+  }
+}
