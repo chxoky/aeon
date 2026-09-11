@@ -705,8 +705,8 @@
 - Current open positions: None confirmed (options vol analyst + market sentiment commentator)
 - Recent thesis: BTC IV at historic lows; Sep historically vol bottom (2023+2025 precedents); straddle/strangle setups direction-neutral. SPCX calendar spread (sell Sep straddle, buy Oct; IV 110% vs RV 50%). ETH call skew z-score spikes correlate with consolidation; rich OTM calls post-rally = good selling candidates. Market psychology: CT bottom-buyers were watching Rainbet sponsorship videos last week, not calling longs.
 - Conviction notes: Educational framework only; no personal execution language. Options volatility specialist. First tracked Aug 21 13:49Z.
-- Calibration: PENDING Sep 07 20:59Z (@tradesonpoint engagement; link content unavailable — worth tracking?), PENDING Sep 04 18:32Z (on-chain vs ES market structure; retail-driven pools — educational or signal?), PENDING Aug 26 08:37Z (@btc_charlie @tradingriot "yes"), PENDING Aug 23 10:34Z (@MajesticQuant "no this only includes crypto markets")
-- Last seen: 2026-09-07T21:14:07Z
+- Calibration: PENDING Sep 11 13:19Z (gold/fartcoin mention frequency reply; context unclear; HR-2 calibration sent), PENDING Sep 07 20:59Z (@tradesonpoint engagement; link content unavailable — worth tracking?), PENDING Sep 04 18:32Z (on-chain vs ES market structure; retail-driven pools — educational or signal?), PENDING Aug 26 08:37Z (@btc_charlie @tradingriot "yes"), PENDING Aug 23 10:34Z (@MajesticQuant "no this only includes crypto markets")
+- Last seen: 2026-09-11T13:19:26Z
 - **Events (rolling):**
   - Aug 21 13:49Z — ambiguous: @BTC_yytho @deltaxbt "yea looks pretty good"; context unknown; HR-2 sent [$UNKNOWN] [2090798498316714353]
   - Aug 22 23:47Z — informational: trader credibility + market psychology; CT bottom-callers were watching sponsorship content last week [$TRADER-PSYCHOLOGY] [2091311362227978289]
@@ -717,6 +717,7 @@
   - Sep 07 20:59Z — ambiguous: @tradesonpoint engagement with link; insufficient context for classification [$UNKNOWN] [2097067155954991423]
   - Sep 07 21:02Z — informational: options expiration availability; @LSDinmycoffee engagement; dropdown shows chain expirations 28d-833d [$OPTIONS/$VOL] [2097068047634772258]
   - Sep 07 21:14Z — informational: opinion on GLD ETF vs futures for long-term; single-trader mention on Kyle's watch list [$GLD] [2097070934905561473]
+  - Sep 11 13:19Z — ambiguous-cryptic: reply to @FoftyPawlow/@deltaxbt "gold is mentioned there almost as many times as fartcoin"; context unclear (original posts not visible); HR-2 calibration sent [$GOLD/$FARTCOIN] [2098401029586907208]
 
 ## bull_genius
 
