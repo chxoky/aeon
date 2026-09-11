@@ -1,0 +1,146 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section",
+        "separator_2",
+        "link_to_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "BTC Technical Setup — 4H\n\nMassive hammer candlestick with 30D/7D rVWAP frontrun + weekend frontrun pattern. Entry targets above 7D/ATH aVWAP level (~78.5K zone). Setup looks strong."
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "indicators_heading",
+        "indicators_stack",
+        "chart_heading",
+        "chart_description",
+        "levels_heading",
+        "entry_target_stat"
+      ]
+    },
+    "indicators_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Indicators",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "indicators_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_hammer",
+        "badge_30d_vwap",
+        "badge_7d_vwap",
+        "badge_weekend"
+      ]
+    },
+    "badge_hammer": {
+      "type": "Badge",
+      "props": {
+        "text": "Hammer Candlestick",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_30d_vwap": {
+      "type": "Badge",
+      "props": {
+        "text": "30D rVWAP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_7d_vwap": {
+      "type": "Badge",
+      "props": {
+        "text": "7D rVWAP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_weekend": {
+      "type": "Badge",
+      "props": {
+        "text": "Weekend Frontrun",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "chart_description": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 4H with multiple VWAP levels (30D, 7D, 365D); hammer formation at recent lows; price bouncing off 7D support with bullish structure.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "levels_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price Targets",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "entry_target_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Target Zone (7D/ATH aVWAP)",
+        "value": "~78.5K"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "link_to_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098412311807484382"
+      },
+      "children": []
+    }
+  }
+}
