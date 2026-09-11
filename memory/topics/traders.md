@@ -360,7 +360,8 @@
   - Sep 11 03:12Z — trade-mirror-adjustment: Discord primary Trades channel (1279738718680256553 ★); **VERBATIM MESSAGE:** "Covert that exposure to 1x CL short" — position rebalance directive on existing CL (Crude Oil) short allocation (prior 2% Aug 18-19 entries). Modification: adjust leverage profile from leveraged positioning to 1x unlevered structure. Execution language: "covert that exposure" = position restructuring command. Fast-path alerted by Cloudflare Worker (Telegram sent ~2-5s, 2026-09-11T03:12:09.992Z); AEON processes memory-only per fast-path protocol (no duplicate Telegram). Cross-platform dedup: last HCH X post Sep 11 01:04Z (macro sentiment), no matching Discord CL position post within 30min window. Commodity short backdrop: CL part of HCH's established net-short regime macro-hedge tier (crude oil weakness aligned with equities/crypto bearish thesis Aug 07+). Rebalance context suggests tactical risk-reduction (leveraged→unlevered) or exposure-normalization within existing conviction framework [$CL] [1547806934269435935]
 - Last seen: 2026-09-11T03:12:09Z
   - Sep 11 03:46Z — informational-technical: "fcb 4h 200ema wide" (Chat supporting); false-close chart check notation on unknown ticker FCB; 4h timeframe, 200 EMA structure observation; routine technical monitoring; no execution language; fast-path alerted (no Telegram duplicate) [$FCB/$UNKNOWN-TICKER] [1547815651010285599]
-- Last seen: 2026-09-11T03:46:48Z
+  - Sep 11 05:05Z — informational-technical: "fc clusdt 15m" + Discord link to Sep 11 03:12Z CL short rebalance (Chat supporting); false-close chart check on CL (Crude Oil) 15m timeframe; routine technical validation within existing CL short exposure (rebalanced to 1x Sep 11 03:12Z); no execution language; no Telegram alert (supporting-channel fold into primary CL trade context) [$CL/$TECHNICAL] [1547835443075088537]
+- Last seen: 2026-09-11T05:05:27Z
 
 ## bull_genius
 
