@@ -1,0 +1,66 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @bull_genius"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_header",
+        "text_event",
+        "tweet_bull",
+        "separator_1",
+        "alert_classify"
+      ]
+    },
+    "text_header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Market action/sentiment observation",
+        "variant": "caption"
+      }
+    },
+    "tweet_bull": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "yep was nothing burger and whipsaw.exe that liquidated the gamblers"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
