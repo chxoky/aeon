@@ -1,7 +1,18 @@
-🐦 *[X] @t_in_crypto*
+🐦 *[X] @bull_genius*
 
-@guru2602 Still a little bit early imo
+update bitcoin:native 
 
-[View tweet](https://x.com/t_in_crypto/status/2098302599984304476)
+looks good into CPI i think its gonna be nothing burger tbh
 
-Context: Aligns with @t_in_crypto's Sep 10 Elliott Wave setup (peak marked Sep/Oct). Bullish interim bias on BTC range 62.1K–87.2K, positioning for top-of-range exit then short at peak.
+we relief up a little fail bearish retest and do a last panic dive to 30d rVWAP start of next week or so after a grass touching weekend
+
+that forms a lower price low but higher rsi low on 4H and we got the bull div 
+
+spot safu
+lev not safu (yet)
+
+think bottom soon and then we go
+
+[View tweet](https://x.com/bull_genius/status/2098304770372952347)
+
+**Chart:** 4H BTC perpetual showing 80K+ resistance (365D rVWAP level), potential retest to 30D rVWAP ~75K-76K zone; RSI cooling at 38.23.

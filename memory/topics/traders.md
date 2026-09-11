@@ -696,11 +696,12 @@
 
 - Platforms: X (Twitter)
 - Current open positions: None stated in current activity; historical closed CASHCAT 15x long (profitable exit)
-- Recent thesis: Crypto/altcoin technical analyst. Interest in meme-coin consolidation patterns and sentiment-driven recovery setups. Recognition of undervalued projects dismissed by market ("written off completely").
-- Conviction notes: Prior technical analyst on CASHCAT profited 15x. Current activity suggests monitoring alternative narratives (PONS, Robinhood-listed tokens, "cats that cashed"). Medium conviction on emerging meme/sentiment tokens.
+- Recent thesis: BTC technical analyst. Structural analysis (price structure, RSI divergence, rVWAP levels). Interest in meme-coin consolidation patterns. Recognition of undervalued projects.
+- Conviction notes: Prior technical analyst on CASHCAT profited 15x. BTC analysis focus (4H perpetual charting). Medium conviction on emerging meme/sentiment tokens. Business model: bitcoin:native charting + research offering (free basics, paid subs get long-form research/Telegram).
 - Calibration: None yet
-- Last seen: 2026-09-10T08:25:42Z
+- Last seen: 2026-09-11T06:56:56Z
 - **Events (rolling):**
+  - Sep 11 06:56Z — informational: BTC 4H structure analysis; resistance 80K+ (365D level), retest to 30D rVWAP ~75K expected; RSI cooling at 38.23 (lower timeframe pivot pattern); bullish divergence setup; business announcement (bitcoin:native charting/research model launch) [$BTC] [2098304770372952347]
   - Sep 10 08:25Z — informational: NFT market recovery sentiment; art appreciation analysis; 1000s new users on OpenSea signal HTF reversal [$NFT] [2097964723245371452]
   - Sep 08 21:32Z — informational: altcoin sentiment + consolidation opportunity; $CASHCAT revisit + $PONS mention; bullish on "interesting one" but prefers other runners [$CASHCAT/$PONS] [2097437919816610243]
 

@@ -1,0 +1,186 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet-section",
+        "separator-1",
+        "chart-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "sentiment-badges"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "update bitcoin:native\n\nlooks good into CPI i think its gonna be nothing burger tbh\n\nwe relief up a little fail bearish retest and do a last panic dive to 30d rVWAP start of next week or so after a grass touching weekend\n\nthat forms a lower price low but higher rsi low on 4H and we got the bull div\n\nspot safu\nlev not safu (yet)\n\nthink bottom soon and then we go"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098304770372952347"
+      }
+    },
+    "sentiment-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-spot",
+        "badge-lev"
+      ]
+    },
+    "badge-spot": {
+      "type": "Badge",
+      "props": {
+        "text": "Spot: SAFU",
+        "variant": "default"
+      }
+    },
+    "badge-lev": {
+      "type": "Badge",
+      "props": {
+        "text": "Leverage: Not SAFU (yet)",
+        "variant": "outline"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-title",
+        "chart-desc",
+        "metrics-grid",
+        "technical-badges"
+      ]
+    },
+    "chart-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart-desc": {
+      "type": "Text",
+      "props": {
+        "text": "4H BTC perpetual showing 80K+ resistance (365D rVWAP level), potential retest to 30D rVWAP ~75K-76K zone; RSI cooling at 38.23",
+        "variant": "body"
+      }
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-resistance",
+        "stat-retest-zone",
+        "stat-rsi",
+        "stat-timeframe"
+      ]
+    },
+    "stat-resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance (365D rVWAP)",
+        "value": "80K+"
+      }
+    },
+    "stat-retest-zone": {
+      "type": "Stat",
+      "props": {
+        "label": "Retest Zone (30D rVWAP)",
+        "value": "75K–76K"
+      }
+    },
+    "stat-rsi": {
+      "type": "Stat",
+      "props": {
+        "label": "RSI (4H)",
+        "value": "38.23"
+      }
+    },
+    "stat-timeframe": {
+      "type": "Stat",
+      "props": {
+        "label": "Chart",
+        "value": "4H BTC"
+      }
+    },
+    "technical-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-bull-div",
+        "badge-lower-low",
+        "badge-higher-rsi-low"
+      ]
+    },
+    "badge-bull-div": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull Divergence",
+        "variant": "secondary"
+      }
+    },
+    "badge-lower-low": {
+      "type": "Badge",
+      "props": {
+        "text": "Lower Price Low (4H)",
+        "variant": "secondary"
+      }
+    },
+    "badge-higher-rsi-low": {
+      "type": "Badge",
+      "props": {
+        "text": "Higher RSI Low (4H)",
+        "variant": "secondary"
+      }
+    }
+  }
+}
