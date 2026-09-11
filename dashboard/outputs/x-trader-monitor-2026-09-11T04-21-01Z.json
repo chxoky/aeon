@@ -1,0 +1,128 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "header-section",
+        "tweet-card",
+        "separator1",
+        "technical-section",
+        "separator2",
+        "context-section",
+        "link-section"
+      ]
+    },
+    "header-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "symbol-badge",
+        "subject-text"
+      ]
+    },
+    "symbol-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "$ANSEM",
+        "variant": "default"
+      }
+    },
+    "subject-text": {
+      "type": "Text",
+      "props": {
+        "text": "Support breakdown validation"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Obviously the largest holder staring at the chart all night, waiting to put this out the momentum this breaks down will delay the inevitable…"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "support-stat",
+        "price-range",
+        "divergence",
+        "chart-note"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Status",
+        "level": "h3"
+      }
+    },
+    "support-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Key Support (1D Chart)",
+        "value": "0.1585",
+        "trend": "down"
+      }
+    },
+    "price-range": {
+      "type": "Text",
+      "props": {
+        "text": "Price tested: 0.1519–0.1500 range"
+      }
+    },
+    "divergence": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish momentum divergence: RSI + volume collapse"
+      }
+    },
+    "chart-note": {
+      "type": "Text",
+      "props": {
+        "text": "5 chart images show liquidation cascade",
+        "variant": "caption"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Validation",
+        "message": "Confirms Sep 09 prior prediction: 'lose this level and its lights out'. Bearish cascade now in motion.",
+        "type": "warning"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2098264195053822092"
+      }
+    }
+  }
+}
