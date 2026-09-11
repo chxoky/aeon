@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "ETH Technical Consolidation"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ETH Technical Consolidation\n\nETH/USDT 1D showing consolidation structure around $2,450–$2,500 with clearly marked support zones (2,200 / 2,000 / 1,750) and resistance (2,600 / 2,800 / 3,000+). Momentum indicator neutral-to-positive bias."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2098473898404925571"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "monitoring_pattern"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Technical chart observation. Aligns with documented monitoring pattern.",
+        "variant": "body"
+      }
+    },
+    "monitoring_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 10 03:30Z ETH chart share; Aug 17 20:43Z breakout prediction",
+        "variant": "muted"
+      }
+    }
+  }
+}
