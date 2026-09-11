@@ -1,0 +1,232 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "event_section",
+        "sep2",
+        "quote_section",
+        "sep3",
+        "analysis_section",
+        "sep4",
+        "interpretation_section",
+        "sep5",
+        "link_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "emoji_text",
+        "badge"
+      ]
+    },
+    "emoji_text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "lead"
+      }
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Post with death/reaper meme + NFT floor price context (Argonauts, Azuki)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_heading",
+        "quote_text"
+      ]
+    },
+    "quote_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "bull_genius",
+        "level": "h4"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"and that will be the drill for the foreseeable future\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "images_desc",
+        "nft_stack",
+        "analysis_interpretation"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Step 7 Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "images_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Three images show: (1) Death/destruction metaphor, (2) Argonauts NFT floor +41.7% 1D, (3) Azuki NFT floor -0.6% 1D"
+      }
+    },
+    "nft_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "argonauts_stat",
+        "azuki_stat"
+      ]
+    },
+    "argonauts_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Argonauts NFT Floor (1D)",
+        "value": "+41.7%",
+        "trend": "up"
+      }
+    },
+    "azuki_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Azuki NFT Floor (1D)",
+        "value": "-0.6%",
+        "trend": "down"
+      }
+    },
+    "analysis_interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Text \"the drill\" ambiguous — could reference repeating liquidation cycle (bearish interpretation) or philosophical market-structure commentary. Contradicts bull_genius's documented HTF bullish macro thesis."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_heading",
+        "interp_question"
+      ]
+    },
+    "interp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification Question",
+        "level": "h4"
+      }
+    },
+    "interp_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this bearish prediction or commentary on structural market patterns?",
+        "type": "info"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "view_link"
+      ]
+    },
+    "view_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Original Post",
+        "href": "https://x.com/bull_genius/status/2098530359751098447",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
