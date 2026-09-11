@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mention_user",
+        "event_heading",
+        "question_text",
+        "separator1",
+        "classification_alert"
+      ]
+    },
+    "mention_user": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Unclear reference to 'Citrini'",
+        "level": "h3"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness: \"Citrini sold?\""
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "Who is Citrini, and what position/topic is this referring to?"
+      }
+    }
+  }
+}
