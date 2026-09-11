@@ -586,7 +586,7 @@
 - **Events (rolling):**
   - Sep 09 13:46Z — ambiguous: @BangXBT "Oh good"; reply context unclear; HR-2 sent [$UNKNOWN] [2097683102432714788]
   - Sep 10 15:24Z — informational: Elliott Wave setup dates Sep/Oct, peak marked; "Get your bids ready again soon" [$BTC] [2098070189447303337]
-- Last seen: 2026-09-11T16:07:10Z
+- Last seen: 2026-09-11T18:30:35Z
 - **Events (rolling):**
   - Sep 09 13:45Z — informational: bearish macro outlook; "market will whipsaw everyone...before finally starting its decline"; reply to @MylesGinvest [$BTC] [2097682879828349410]
   - Aug 27 07:10Z — informational: "Top of range isn't in / Don't catch knives on shorts" [$BTC] [2092872387037385099]
@@ -621,6 +621,7 @@
   - Sep 11 16:07Z — informational: bearish sentiment on CPI pump bounce; sarcastic reply to @guru2602 "going to get swallowed up soon"; reaffirms bearish macro bias over near-term bullish moves [$BTC] [2098443240835858737]
   - Sep 11 16:09Z — informational: bearish macro outlook; "Bottom isn't in imo" reply to @LP_NXT; aligns w/ 46K/42K support thesis [$BTC] [2098443821990244696]
   - Sep 11 18:32Z — ambiguous-cryptic: market structure philosophy; "sky wants pink, market is organism"; intent/sentiment unclear [$BTC/$MACRO] [2098479796267209210]
+  - Sep 11 18:30Z — informational: BTC/ALT bearish range ceiling; "We aren't getting 90–100k and altseason" [$BTC/$ALT] [2098479332473655443]
 
 ## Crypto_Chase
 
