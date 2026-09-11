@@ -1,0 +1,31 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "BTC Consolidation Structure — 8H"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "Nice rotation from VAL sweep, now established compression zone (76-80K). Rotational setup for now.\n\n✓ Break above 83K = acceptance (do not fade)\n✗ Break below = requires finesse\n\nKey dynamic: watch spot cushion vs perps behavior.\n- Want to see: passive spot absorbing selling + aggressive spot buying out of pocket\n- Don't want to see: perps longing every dip without spot enthusiasm → positions get eaten\n\nNormal cooldown territory: low-to-mid 70s."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2098442671119335841"
+      }
+    }
+  }
+}
