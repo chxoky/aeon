@@ -1,0 +1,56 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "separator1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "the fact that this meme stops at 3 ETH is so telling\n\npeople completely forgot how to dream"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098213224210383100"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Reinforces Sep 09 ETH $3K+ technical target + $20-25K floor thesis. Bullish sentiment on ETH ceiling/valuation expansion aligned with group macro positioning.",
+        "variant": "muted"
+      }
+    }
+  }
+}
