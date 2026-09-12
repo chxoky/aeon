@@ -1,0 +1,124 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "PUMP Consolidation Thesis"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "analysis_section",
+        "sep2",
+        "classification_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "put the kippah on into yom kippur / goyim shakeout near/at climax / $PUMP"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP 1D consolidation at 365d rVWAP (0.003602), September POC/VAH confluence zones, volume profile structure showing technical support. Religious metaphor ('put the kippah on') = conviction wordplay. 'Goyim shakeout near/at climax' = liquidation panic approaching completion (bullish recovery setup).",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "class_heading",
+        "class_content"
+      ]
+    },
+    "class_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification & Context",
+        "level": "h3"
+      }
+    },
+    "class_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge",
+        "context_text",
+        "entries_text",
+        "link"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INFORMATIONAL",
+        "variant": "default"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis + market sentiment (Step 6)",
+        "variant": "body"
+      }
+    },
+    "entries_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces Sep 05-09 PUMP long entries: Sep 05 conviction add, Sep 06 ATH aVWAP entry, Sep 09 7d rVWAP entry",
+        "variant": "caption"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2098763443100701038"
+      }
+    }
+  }
+}
