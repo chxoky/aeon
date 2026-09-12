@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_tweet_link",
+        "separator",
+        "commentary_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Just give it a few months. \n\nWhen the stock market is crashing & $BTC has relative strength, retailers are gonna sit their an be like \n\n\"Why the f is it holding?\"\n\"Delayed correlation\"\n\"Macro looks bad\" \n\"Bitcoin will eventually follow legacy\" \n\"Crash is coming soon\"\n\nBTC was born in chaos. It was built for when the money printer and the banks look like shit. Don't you f*cking get it? Stop overanalyzing like fucking plebs and start understanding the origin of Bitcoin.\n\nThat's the whole point. When they're not flooding the system, the people who already have capital start buying the dip and they set the low way before the headlines turn green. Bad macro is usually always good for bitcoin. \n\nStop thinking like a retailer."
+      },
+      "children": []
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2098718763814093084"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "commentary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces Sep 11 bullish BTC conviction; aligns with bull_genius / Stoiiic bullish structural lean.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
