@@ -1,0 +1,53 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-context",
+        "sep1",
+        "tweetcard-hch",
+        "text-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Trades]",
+        "level": "h2"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent context: Sep 12 03:45Z neutral/breakdown bias; Sep 12 03:48Z added 5% gold spot",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard-hch": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "Fc clusdt 1hr"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

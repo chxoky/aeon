@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Trades]*
 
 **Skill: discord-trader-monitor** executed successfully for HeartCanHodl's real-time Discord message.
 
@@ -25,3 +25,8 @@
 - Fast-path pre-alerted by Cloudflare Worker
 - Skill skips Telegram per protocol (fast_path_alerted: true)
 - Memory + logging completed only
+Recent context: Sep 12 03:45Z neutral/breakdown bias; Sep 12 03:48Z added 5% gold spot
+
+HCH: "Fc clusdt 1hr"
+
+Unable to classify — what's your read?
