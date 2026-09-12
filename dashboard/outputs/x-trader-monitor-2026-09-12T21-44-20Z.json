@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @bull_genius"
+      },
+      "children": [
+        "event-text",
+        "sep1",
+        "tweet-content",
+        "sep2",
+        "classification-alert",
+        "sep3",
+        "tweet-link"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Response to @itskeylay @_sigmaX_ recommendation",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-content": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "you put me on it, legend\n\nlets fuckin row"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "What's your read? Is this financial (trade recommendation follow-up) or social banter? Asset reference unclear."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original tweet",
+        "href": "https://x.com/bull_genius/status/2098889239525982242",
+        "source": "X"
+      }
+    }
+  }
+}
