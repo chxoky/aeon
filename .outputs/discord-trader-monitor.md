@@ -1,18 +1,27 @@
 ## Summary
 
-I've successfully executed the Discord Trader Monitor skill for the message from HeartCanHodl posted at 2026-09-12T06:07:58Z.
+**Skill: discord-trader-monitor** executed successfully for HeartCanHodl's real-time Discord message.
 
-**Event processed:**
-- **Message**: "Reduce 1% size from yesterday's long/spot plays: ens,sol,link"
-- **Channel**: HCH — Trades (primary, most important)
-- **Classification**: trade-mirror-adjustment (position size reduction)
-- **Tickers**: ENS, SOL, LINK
+### Event Details
+- **Trader**: HeartCanHodl (@heartcanhodl)
+- **Channel**: 1279738718680256553 (HCH — Trades ★ primary)
+- **Message ID**: 1548229022800937191
+- **Timestamp**: 2026-09-12T07:09:23.740000Z
+- **Content**: "Add 1% xpl long"
+- **Fast-path status**: Alerted = true (Cloudflare Worker already sent Telegram ~2-5s after message; no duplicate alert sent)
 
-**Fast-path status**: The Cloudflare Worker already sent a Telegram alert ~2-5s after this message was posted, so I skipped all Telegram sends and processed this for memory/logging only per skill Step 1 fast-path protocol.
+### Classification
+- **Type**: Trade-new-entry (Step 5a)
+- **Action**: First-person execution language ("Add") with 1% portfolio allocation to XPL spot long
+- **Ticker**: XPL (emerging ticker, first mention across all 12 tracked traders)
+- **Context**: Continuation of tactical long accumulation within net-long regime (Aug 01+); Asian morning session execution timing consistent with HCH's documented systematic pattern
 
-**Actions taken:**
-1. Added message ID 1548213566677458985 to `memory/discord-trader-seen.txt` for duplicate prevention
-2. Updated `memory/topics/traders.md` with new event entry under HeartCanHodl's event log
-3. Updated `memory/logs/2026-09-12.md` with detailed event classification and context
+### Memory Updates Completed
+1. ✅ **traders.md** — Added Sep 12 07:09Z trade-new-entry event for XPL
+2. ✅ **active-trades.md** — Created new XPL position entry (1% spot long)
+3. ✅ **logs/2026-09-12.md** — Logged discord-trader-monitor event #5 with full classification and context
 
-The message describes HCH reducing 1% portfolio allocation across ENS (from Sep 11 13:59Z 2% entry), SOL, and LINK positions—a position management action within his ongoing net-short regime with tactical long diversification positions.
+### No Secondary Alerts
+- Fast-path pre-alerted by Cloudflare Worker
+- Skill skips Telegram per protocol (fast_path_alerted: true)
+- Memory + logging completed only

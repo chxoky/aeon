@@ -422,6 +422,21 @@
 - **Alerted**: YES (Sep 10 via step-6 informational; Sep 12 fast-path alert already sent ~2-5s post by Cloudflare Worker, no secondary Telegram per protocol)
 - **Last update**: 2026-09-12T03:48:35Z (message_id=1548178487821475851, discord-trader-monitor real-time, conviction-add execution, fast-path-alerted)
 
+### XPL (Explainer / Emerging Ticker) — LONG (NEW ENTRY — 2026-09-12)
+- **Entry date**: 2026-09-12T07:09:23Z
+- **Entry message**: "Add 1% xpl long"
+- **Entry type**: Market order (spot execution completed)
+- **Entry level**: Market price at time of execution (Sep 12 07:09:23Z UTC, XPL spot market)
+- **Entry size**: 1% portfolio allocation
+- **Entry context**: Primary Trades channel (★most important) highest-conviction tier. HCH continuing tactical long spot accumulation within established net-long regime (Aug 01+). Pattern: ongoing small-position tactical entries (Sep 04-05 CHIP/BITLIGHT/BCH/BNB/STRK/TAO/STABLE/ASTS; Sep 11 MARSCOIN/ENS; Sep 12 XPL) = systematic micro-position portfolio diversification strategy.
+- **Position thesis**: XPL spot conviction long; emerging ticker first sighting across tracked traders; likely new altcoin narrative or DeFi protocol play aligning with HCH's tactical long positioning strategy. 1% disciplined sizing consistent with position management approach.
+- **Status**: ACTIVE — market-order execution completed, 1% XPL spot long position established; fast-path alerted by Cloudflare Worker (no Telegram duplicate sent per protocol)
+- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
+- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "Add 1% xpl long"
+- **Ticker note**: XPL first mention across all 12 tracked traders (Sep 12 07:09Z). Emerging ticker tracking pending cross-trader convergence.
+- **Alerted**: YES (2026-09-12T07:09:23Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, duplicate suppressed per protocol)
+- **Last update**: 2026-09-12T07:09:23Z (message_id=1548229022800937191, discord-trader-monitor real-time, trade-new-entry)
+
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed
