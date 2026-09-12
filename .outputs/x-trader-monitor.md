@@ -1,7 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @trading_axe*
 
-Boomers watching college ball right now before SPY goes for -30 bps on Monday
+Event: Cryptic reference to 'the fight' (context unclear — reply to @aestcon not visible)
 
-https://x.com/Wild_Randomness/status/2098909597268693377
+trading_axe: "@aestcon I'll see how the fight goes.
 
-↳ *Sentiment read*: Bearish SPY prediction for Monday (-30 basis points); aligns with WR's bearish-equities-into-Oct thesis + Sep 11 seasonal Yom Kippur/Rosh Hashanah framework (Sell Sep 20–21 conviction)
+~ Dr. Axius."
+
+Unable to classify — what's your read? Financial or non-financial?
+
+[View post](https://x.com/trading_axe/status/2098916251401584818)
