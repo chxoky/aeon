@@ -1,0 +1,119 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "Classification request"
+      },
+      "children": [
+        "target",
+        "sep1",
+        "event",
+        "sep2",
+        "content",
+        "sep3",
+        "analysis",
+        "sep4",
+        "view-link"
+      ]
+    },
+    "target": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @itskeylay @_sigmaX_",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author-says",
+        "quote-text"
+      ]
+    },
+    "author-says": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius said:",
+        "variant": "caption"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"immaculate\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-classify",
+        "question",
+        "asset-unclear"
+      ]
+    },
+    "unable-classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this banter or does 'immaculate' reference a price action/setup?",
+        "variant": "body"
+      }
+    },
+    "asset-unclear": {
+      "type": "Text",
+      "props": {
+        "text": "Asset unclear.",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2098891670527811730"
+      }
+    }
+  }
+}
