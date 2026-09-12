@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "storylink"
+      ]
+    },
+    "storylink": {
+      "type": "StoryLink",
+      "props": {
+        "title": "💬 [DC: HCH — Free]",
+        "href": "https://x.com/HeartCanHodl/status/20988331896914m441247",
+        "source": "Discord — HCH — Free"
+      }
+    }
+  }
+}
