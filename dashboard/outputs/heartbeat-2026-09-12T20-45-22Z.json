@@ -1,0 +1,177 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert_main",
+        "sep1",
+        "timeline_section",
+        "sep2",
+        "analysis_section",
+        "sep3",
+        "recommendation_section"
+      ]
+    },
+    "alert_main": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 WATCH: P3 — STALE",
+        "message": "morning-pipeline chain (+ morning-brief) last succeeded 2026-09-06, 6 days ago. Scheduled daily at 07:00 UTC — ~6 consecutive missed dispatches.",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "timeline_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timeline_heading",
+        "last_success",
+        "schedule_info",
+        "missed_count"
+      ]
+    },
+    "timeline_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Timeline & Schedule",
+        "level": "h3"
+      }
+    },
+    "last_success": {
+      "type": "Text",
+      "props": {
+        "text": "Last succeeded: 2026-09-06 (6 days ago)"
+      }
+    },
+    "schedule_info": {
+      "type": "Text",
+      "props": {
+        "text": "Scheduled: daily at 07:00 UTC"
+      }
+    },
+    "missed_count": {
+      "type": "Text",
+      "props": {
+        "text": "Consecutive missed dispatches: ~6"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "root_cause_stack",
+        "impact_stack"
+      ]
+    },
+    "root_cause_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "root_cause_heading",
+        "root_cause_text"
+      ]
+    },
+    "root_cause_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Root Cause Analysis",
+        "level": "h4"
+      }
+    },
+    "root_cause_text": {
+      "type": "Text",
+      "props": {
+        "text": "Skills show status=success (not failed), so the chain dispatcher appears to have stopped firing."
+      }
+    },
+    "impact_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "impact_heading",
+        "badge_p0",
+        "badge_api"
+      ]
+    },
+    "impact_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Impact",
+        "level": "h4"
+      }
+    },
+    "badge_p0": {
+      "type": "Badge",
+      "props": {
+        "text": "No P0 failures",
+        "variant": "default"
+      }
+    },
+    "badge_api": {
+      "type": "Badge",
+      "props": {
+        "text": "No API degradation",
+        "variant": "default"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recommendation_heading",
+        "recommendation_text"
+      ]
+    },
+    "recommendation_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendation",
+        "level": "h3"
+      }
+    },
+    "recommendation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Check GitHub Actions scheduler / chain-runner.yml for why morning-pipeline has not dispatched since Sep 06."
+      }
+    }
+  }
+}

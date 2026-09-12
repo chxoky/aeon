@@ -1,14 +1,5 @@
-Heartbeat complete.
+🟡 WATCH
 
-## Summary
+🔵 P3 — STALE: morning-pipeline chain (+ morning-brief) last succeeded 2026-09-06, 6 days ago. Scheduled daily at 07:00 UTC — ~6 consecutive missed dispatches. Skills show status=success (not failed), so the chain dispatcher appears to have stopped firing. No P0 failures, no API degradation.
 
-**HEARTBEAT_OK (dedup) · STATUS_PAGE=WATCH**
-
-**Checks run:**
-- **P0 — Skills**: All enabled skills healthy. No failures, no stuck dispatches, no consecutive failures, no chronic degradation. Heartbeat self-check: last success 12h ago (well within 36h window).
-- **P0 — X webhook**: `secretcurl` blocked by sandbox analyzer; per skill instructions, skipped silently (ISS-002 already resolved).
-- **P1**: No open PRs, no urgent GitHub issues.
-- **P2**: Nothing flagged in MEMORY.md needing follow-up.
-- **P3**: `morning-pipeline` chain and `morning-brief` remain stale (last success 2026-09-06 — 6 days on a daily schedule). **Notification suppressed** — already sent 2026-09-10 at 20:00 UTC (~36h ago, within the 48h dedup window).
-
-**Status page**: `docs/status.md` updated → 🟡 WATCH. Log appended to `memory/logs/2026-09-12.md`.
+Recommend: check GitHub Actions scheduler / chain-runner.yml for why morning-pipeline has not dispatched since Sep 06.
