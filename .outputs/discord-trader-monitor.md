@@ -33,28 +33,33 @@ The event has been fully logged and classified. Kyle received the trade signal v
 
 **Discord Trader Monitor Skill Execution — 2026-09-12T07:37:41Z**
 
+Perfect! I've successfully executed the Discord trader monitor skill for this real-time event. Here's what was processed:
+
+## Summary
+
 **Event Processed:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting channel)
-- **Message ID:** 1548236144528064633
-- **Content:** "One that goes on the wall pasted sticky note <:Pepeokay:1537462913164378132>"
-- **Message Type:** Reply to tkglitch369's "As a frame of reference"
+- **Trader**: HeartCanHodl
+- **Channel**: HCH — Trades (primary, 1279738718680256553)
+- **Message**: `& 1% near long`
+- **Timestamp**: 2026-09-12T07:40:43Z
+- **Message ID**: 1548236905504706653
 
-**Classification:** **SKIP (non-financial banter)**
-- No ticker mentioned
-- No trade execution language
-- No market signal or conviction statement
-- Casual emoji reaction in premium member chat
-- Supporting channel context = member Q&A, not trade signal
+**Classification**: **Trade-new-entry** (1% NEAR spot long position)
 
-**Actions Taken:**
-1. ✅ Decoded base64 event JSON
-2. ✅ Verified channel mapping (HCH — Chat, supporting)
-3. ✅ Checked dedup list (message ID not previously seen)
-4. ✅ Classified as non-financial per HR-A (Step 5)
-5. ✅ **No Telegram alert sent** (skipped per protocol)
-6. ✅ Appended message ID to `memory/discord-trader-seen.txt`
-7. ✅ Logged event to `memory/logs/2026-09-12.md` as event #8
+**Key Actions Taken:**
 
 **Result:** Message logged and tracked without alerting — appropriate for non-actionable supporting-channel banter.
 **Outcome:** Silent skip with audit trail. No Kyle notification required.
+1. **Decoded event** ✅ — Base64 JSON successfully parsed
+2. **Fast-path check** ✅ — `fast_path_alerted: true` means Cloudflare Worker already sent Telegram alert ~2-5s ago; skipped secondary alerting, proceeded to classification & memory
+3. **Channel resolution** ✅ — Confirmed primary channel with verbatim rule applying (exact message text preserved)
+4. **Classification** ✅ — Trade execution detected: first-person allocation language ("1% near long") on new ticker
+5. **Cross-platform dedup** ✅ — NEAR not on X side; flagged "first seen Discord" for X monitor dedup
+6. **Memory updates** ✅:
+   - `traders.md`: Added Sep 12 07:40Z trade-new-entry event with privacy-narrative thesis (aligns with Stoiiic tracking)
+   - `discord-trader-seen.txt`: Appended message ID 1548236905504706653
+   - `memory/logs/2026-09-12.md`: Detailed event log with context, ticker escalation, and convergence note
+
+**Thesis Context**: NEAR emerging privacy-narrative play (Stoiiic flagged as mispriced Sep 07; HCH's add validates 2-trader cross-platform agreement). Execution timing matches HCH's Asian morning accumulation pattern (8 tickers added in 48h).
+
+The fast-path alert ensures Kyle sees this trade signal within seconds while AEON handles slower memory work in the background.
