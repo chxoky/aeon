@@ -1,11 +1,9 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @trading_axe*
 
-@chrisgrx_ yeah the pa is not looking good but the better the opportunity. i think i might just start charting eth only, i think btc just bad this cycle. eth main player
+VVV isn't a memecoin — it's a future billion-dollar coin. People are fucking themselves over by not buying it here.
 
-give -15% from here and its a full ride to ATH i think
+Look at VVV for instance. Follow @ExponentLabs for updates.
 
-bitcoin will stay heavy imo
+[View tweet](https://x.com/trading_axe/status/2098599950699446704)
 
-[View tweet](https://x.com/bull_genius/status/2098594734130262248)
-
-↳ *Sentiment shift vs Sep 11 23:32Z bullish BTC 'comfort' — now more cautious on BTC ('not looking good', 'bad this cycle') while reaffirming ETH as primary play. Aligns with emerging bullish ETH convergence vs HCH/ryzzqq bearish lean.* [$BTC/$ETH/$MACRO]
+↳ _Divergence alert: HeartCanHodl SHORT 2% VVV (Jul 19) vs trading_axe bullish conviction._
