@@ -427,6 +427,8 @@
 - Last seen: 2026-09-11T16:25:58Z
 - Last seen: 2026-09-11T16:28:10Z
   - Sep 11 16:28Z — trade-partial-close: "Close 1/4th more crypto short exposure" (Discord Trades primary ★); disciplined profit-taking on short basket; reducing overall net-short exposure by 25%; continuation of Sep 11 03:10Z partial-TP pattern (2-tranche de-risk within regime); conviction-hold on remaining 50% shorts; is_reply: true (reply to own earlier take-profit message); fast-path alerted (no Telegram duplicate) [$MULTI-BASKET-SHORT-CLOSE] [1548007256589606923]
+  - Sep 12 03:48Z — informational-technical: "Fc gold 4hr" (Discord Trades primary ★); false-close chart check on GOLD 4-hour timeframe; routine technical monitoring within existing GOLD long (50% open, Sep 10 15:41Z entry); no execution language; fast-path alerted by Cloudflare Worker (no Telegram duplicate); verbatim alert format (channel 1279738718680256553); memory-only classification [$GOLD] [1548178526203809825]
+- Last seen: 2026-09-12T03:48:44Z
 
 ## bull_genius
 
