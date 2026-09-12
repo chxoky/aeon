@@ -1,0 +1,111 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "event_section",
+        "post_section",
+        "classification_section"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_mentions"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply",
+        "variant": "body"
+      }
+    },
+    "event_mentions": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mention1",
+        "mention2"
+      ]
+    },
+    "mention1": {
+      "type": "Badge",
+      "props": {
+        "text": "@kryptRR5",
+        "variant": "outline"
+      }
+    },
+    "mention2": {
+      "type": "Badge",
+      "props": {
+        "text": "@heisenbzrg",
+        "variant": "outline"
+      }
+    },
+    "post_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_label",
+        "post_text"
+      ]
+    },
+    "post_label": {
+      "type": "Text",
+      "props": {
+        "text": "Post",
+        "variant": "muted"
+      }
+    },
+    "post_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"more kippah for us i guess\"",
+        "variant": "lead"
+      }
+    },
+    "classification_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification unclear",
+        "message": "Appears to be inside reference/banter without obvious financial signal. What's the read?",
+        "type": "info"
+      }
+    }
+  }
+}
