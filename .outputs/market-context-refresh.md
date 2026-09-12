@@ -1,7 +1,8 @@
-market context — 2026-09-11
+market context — 2026-09-12
 
-take: rotation (conviction medium)
-BTC $78,793 (+1.87%) / ETH $2,604 (+6.62%) · F&G 56 (Greed, -13pts)
-breadth 14/20 · ETH/BTC +5.1% in 24h · TVL ~$74B (stable)
-top narrative: ETH/alt rotation (rising)
-hot market: "Fed +25bps Sep 2026" YES 79.5% (+16pp on hot CPI)
+take: chop (conviction low)
+BTC $77,318 (-0.62%) / ETH $2,534 (+1.30%) · F&G 63 Greed (+7pts)
+breadth 12/20 · DEX vol $12.97B (+17% vs Sep 11)
+top narrative: FOMC hike binary (peak) — 78.5% YES, Sep 15-16
+hot market: "Fed +25bps Sep 2026" YES 78.5% ($4.28M vol)
+tron TVL recovery +8.7% $5.08B→$5.52B · ZEC +14.4% 7d

@@ -1,0 +1,191 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context — 2026-09-12"
+      },
+      "children": [
+        "stack-take",
+        "sep-1",
+        "stack-prices",
+        "sep-2",
+        "stack-breadth",
+        "sep-3",
+        "stack-narratives",
+        "sep-4",
+        "stack-altcoins"
+      ]
+    },
+    "stack-take": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-take",
+        "text-conviction"
+      ]
+    },
+    "badge-take": {
+      "type": "Badge",
+      "props": {
+        "text": "chop",
+        "variant": "secondary"
+      }
+    },
+    "text-conviction": {
+      "type": "Text",
+      "props": {
+        "text": "conviction low",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth",
+        "stat-fg"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77,318",
+        "delta": "-0.62%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,534",
+        "delta": "+1.30%",
+        "trend": "up"
+      }
+    },
+    "stat-fg": {
+      "type": "Stat",
+      "props": {
+        "label": "Fear & Greed",
+        "value": "63",
+        "delta": "+7pts",
+        "trend": "up"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-breadth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-breadth",
+        "stat-dex-vol"
+      ]
+    },
+    "text-breadth": {
+      "type": "Text",
+      "props": {
+        "text": "Breadth: 12/20"
+      }
+    },
+    "stat-dex-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$12.97B",
+        "delta": "+17%",
+        "trend": "up"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-fomc",
+        "stat-fed-market"
+      ]
+    },
+    "text-fomc": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC hike binary (peak) — 78.5% YES, Sep 15-16",
+        "variant": "lead"
+      }
+    },
+    "stat-fed-market": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed +25bps Sep 2026",
+        "value": "78.5%",
+        "delta": "$4.28M volume"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-altcoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-tron",
+        "stat-zec"
+      ]
+    },
+    "stat-tron": {
+      "type": "Stat",
+      "props": {
+        "label": "Tron TVL",
+        "value": "$5.52B",
+        "delta": "+8.7%",
+        "trend": "up"
+      }
+    },
+    "stat-zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC (7-day)",
+        "value": "+14.4%",
+        "trend": "up"
+      }
+    }
+  }
+}
