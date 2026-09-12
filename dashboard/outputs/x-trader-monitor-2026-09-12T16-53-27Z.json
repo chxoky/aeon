@@ -1,0 +1,46 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_text",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$SPX $SPY\n\nBuy Rosh Hashanah, Sell Yom Kippur\n\n(Imagine the smell)"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Seasonal pattern analysis — Rosh Hashanah Sep 11–13 (buy signal / ongoing), Yom Kippur Sep 20–21 (sell signal). 4-chart technical validation on SP500 consolidation structure; no personal execution stated.",
+        "variant": "muted"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2098816560895005018"
+      }
+    }
+  }
+}

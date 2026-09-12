@@ -1,13 +1,9 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Wild_Randomness*
 
-**USDT.D / BTC Correlation Analysis**
+$SPX $SPY
 
-"The moment this low on USDT.D snaps, $BTC breaks upwards
+Buy Rosh Hashanah, Sell Yom Kippur
 
-Patience."
+(Imagine the smell) https://x.com/Wild_Randomness/status/2098816560895005018
 
-_Chart analysis: USDT.D showing structural support formation at 6.3-6.5% (current low). When stablecoin dominance recovers from these lows, it signals liquidity flowing back into risk assets — bullish for BTC upside momentum. Pattern replicates prior mid-2024 low breakdown setup._
-
-[View post](https://x.com/KillaXBT/status/2098811292966384007)
-
-↳ Aligns with group bullish BTC structure thesis (KillaXBT HTF long 62.6K, Stoiiic consolidation conviction, bull_genius bottom confirmation Sep 12 15:30Z)
+_Seasonal pattern analysis — Rosh Hashanah Sep 11–13 (buy signal / ongoing), Yom Kippur Sep 20–21 (sell signal). 4-chart technical validation on SP500 consolidation structure; no personal execution stated._
