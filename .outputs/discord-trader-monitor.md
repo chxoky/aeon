@@ -17,3 +17,9 @@ I've executed the discord-trader-monitor skill on the Discord message from crypt
 3. Skipped Telegram alert (non-financial per HR-1 rules)
 
 No memory updates needed to traders.md (skip events log-only per protocol).
+🔍 *Calibration — [DC: Chase — Chase]*
+
+Event: (Standalone primary-channel message)
+Crypto_Chase: "guaranteed on this one for those taking the time out of their Saturday"
+
+Unable to classify — what's your read? What is "this one"? New ticker entry? Existing position context? Saturday-specific timing signal?

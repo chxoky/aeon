@@ -1,0 +1,168 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord trader signal monitoring and classification"
+      },
+      "children": [
+        "cal_section",
+        "sep1",
+        "evt_section"
+      ]
+    },
+    "cal_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cal_heading",
+        "cal_badge"
+      ]
+    },
+    "cal_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      }
+    },
+    "cal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: Chase — Chase",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "evt_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "evt_heading",
+        "evt_type_badge",
+        "msg_area",
+        "sep2",
+        "analysis"
+      ]
+    },
+    "evt_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "evt_type_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Standalone primary-channel message",
+        "variant": "outline"
+      }
+    },
+    "msg_area": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_text",
+        "message_quote"
+      ]
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "lead"
+      }
+    },
+    "message_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"guaranteed on this one for those taking the time out of their Saturday\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "warning_alert",
+        "question_list"
+      ]
+    },
+    "warning_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "question_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q_main",
+        "q_sub1",
+        "q_sub2",
+        "q_sub3"
+      ]
+    },
+    "q_main": {
+      "type": "Text",
+      "props": {
+        "text": "What is \"this one\"?",
+        "variant": "body"
+      }
+    },
+    "q_sub1": {
+      "type": "Text",
+      "props": {
+        "text": "New ticker entry?",
+        "variant": "caption"
+      }
+    },
+    "q_sub2": {
+      "type": "Text",
+      "props": {
+        "text": "Existing position context?",
+        "variant": "caption"
+      }
+    },
+    "q_sub3": {
+      "type": "Text",
+      "props": {
+        "text": "Saturday-specific timing signal?",
+        "variant": "caption"
+      }
+    }
+  }
+}
