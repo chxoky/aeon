@@ -123,10 +123,10 @@
   },
   "skill-health": {
     "last_dispatch": "2026-09-12T18:23:02Z",
-    "last_status": "dispatched",
-    "last_success": "2026-09-11T18:16:39Z",
-    "total_runs": 52,
-    "total_successes": 52,
+    "last_status": "success",
+    "last_success": "2026-09-12T18:25:23Z",
+    "total_runs": 53,
+    "total_successes": 53,
     "total_failures": 0,
     "consecutive_failures": 0,
     "success_rate": 1
