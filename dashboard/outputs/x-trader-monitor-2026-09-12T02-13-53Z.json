@@ -1,0 +1,117 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Tweet sentiment analysis and crypto market commentary"
+      },
+      "children": [
+        "tweet_section",
+        "separator",
+        "analysis_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "@chrisgrx_ yeah the pa is not looking good but the better the opportunity. i think i might just start charting eth only, i think btc just bad this cycle. eth main player\n\ngive -15% from here and its a full ride to ATH i think\n\nbitcoin will stay heavy imo"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098594734130262248"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_label",
+        "analysis_text",
+        "tags_stack"
+      ]
+    },
+    "analysis_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sentiment shift vs Sep 11 23:32Z bullish BTC 'comfort' — now more cautious on BTC ('not looking good', 'bad this cycle') while reaffirming ETH as primary play. Aligns with emerging bullish ETH convergence vs HCH/ryzzqq bearish lean.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tags_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_eth",
+        "badge_macro"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "$BTC",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "$ETH",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_macro": {
+      "type": "Badge",
+      "props": {
+        "text": "$MACRO",
+        "variant": "default"
+      },
+      "children": []
+    }
+  }
+}
