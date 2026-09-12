@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator",
+        "sentiment_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Boomers watching college ball right now before SPY goes for -30 bps on Monday"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2098909597268693377"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_heading",
+        "sentiment_content"
+      ]
+    },
+    "sentiment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sentiment read",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sentiment_content": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish SPY prediction for Monday (-30 basis points); aligns with WR's bearish-equities-into-Oct thesis + Sep 11 seasonal Yom Kippur/Rosh Hashanah framework (Sell Sep 20–21 conviction)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
