@@ -1,0 +1,77 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "context_heading",
+        "contestation_text",
+        "sep2",
+        "link_element"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ETH recovery + consolidation structure validation (1D). 60 hours post-CPI: crash recovery arc completed, consolidation forming at 2,476 zone with RSI reversal pattern. Sarcastic market sentiment on rapid momentum post-macro shock."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Trader Contestation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "contestation_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH short vs bull_genius bullish ETH structure vs WR technical recovery validation = near-term volatility risk. Monitor TP/close signals as consolidation resolves.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2098801086832480522"
+      },
+      "children": []
+    }
+  }
+}
