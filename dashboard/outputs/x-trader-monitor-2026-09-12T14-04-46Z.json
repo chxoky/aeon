@@ -1,0 +1,79 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration",
+        "description": "Event: Reply to @IvanMoskov3 on BTC price structure"
+      },
+      "children": [
+        "badge",
+        "sep1",
+        "tweet",
+        "analysis",
+        "sep2",
+        "callout",
+        "link"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bull Genius",
+        "handle": "@bull_genius",
+        "text": "acceptance inside the lower volume profile bell curve"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Very short technical phrase with no chart. Fits his volume-profile analysis pattern, but unclear if informational commentary or directional view.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "callout": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/bull_genius/status/2098774154925240583",
+        "source": "X"
+      },
+      "children": []
+    }
+  }
+}
