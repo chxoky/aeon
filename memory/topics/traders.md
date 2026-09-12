@@ -537,6 +537,7 @@
   - Sep 07 02:47Z — informational: BTC breakout/rejection setup; 365d VWAP longs trapped ~80,366; support layers: ATH aVWAP, 2026 VAH (~78–76K), 30d rVWAP (~73.9K); fire-sale ~71.6K; RSI spike structure [$BTC] [2096792501013098659]
   - Sep 07 03:10Z — informational: insurance hedge posture; portfolio long-bias; 81-82 sweep zone; needs break above highs to close hedge [$BTC/$HEDGE] [2096798166980939983]
   - Sep 07 04:21Z — informational: ARGONAUT NFT long conviction; holding all (not sold single one); bought more yesterday 0.38; $50K floor target [$ARGONAUT] [2096816126080500077]
+  - Sep 12 09:21Z — informational: ARGONAUT airdrop opportunity; free $100 token claim for on-chain wallets + Argonaut holders; Marmot Burrow subscription paid by airdrop; sharing opportunity for ecosystem participants; no personal execution language [$ARGONAUT/$AIRDROP] [2098703651149672809]
   - Sep 07 06:50Z — ambiguous: @kitsunedevs @pixelmfer "puts floor higher; 4269 best radioactive; priced alien" [$ARGONAUT-OPTIONS] [2096853694251729244]
   - Sep 07 07:30Z — ambiguous: @jw46629721 reply "i wish"; no context; HR-2 calibration sent [$UNKNOWN] [2096863722375434665]
   - Sep 07 16:59Z — informational: ARTIFICIAL-INU consolidation update; buyers defended sept VAL, price back above $200M; chart in correction below POC/7d rVWAP; targets 140M/120M on weakness, ATH on VAH break; patience test conviction [$ARTIFICIAL-INU] [2097006775526392318]
