@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "analysis_text",
+        "sep2",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "ebbs and flows. one can say pre-season or first inning is nearing end"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market cycle progression: conviction that current market phase is mid-way through early cycle, suggesting continued bullish structure validity ahead.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098726188365627721"
+      }
+    }
+  }
+}
