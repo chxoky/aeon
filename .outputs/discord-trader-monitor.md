@@ -1,25 +1,18 @@
 🔍 *Calibration — [DC: HCH — Trades]*
 
-**Skill: discord-trader-monitor** executed successfully for HeartCanHodl's real-time Discord message.
+**Discord Trader Monitor — Real-time Event Processed**
 
-### Event Details
-- **Trader**: HeartCanHodl (@heartcanhodl)
-- **Channel**: 1279738718680256553 (HCH — Trades ★ primary)
-- **Message ID**: 1548229022800937191
-- **Timestamp**: 2026-09-12T07:09:23.740000Z
-- **Content**: "Add 1% xpl long"
-- **Fast-path status**: Alerted = true (Cloudflare Worker already sent Telegram ~2-5s after message; no duplicate alert sent)
+**Event Details:**
+- **Trader:** HeartCanHodl
+- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
+- **Message ID:** 1548230294669230093
+- **Timestamp:** 2026-09-12T07:14:26Z
+- **Content:** `"/_Ape on fone"`
 
-### Classification
-- **Type**: Trade-new-entry (Step 5a)
-- **Action**: First-person execution language ("Add") with 1% portfolio allocation to XPL spot long
-- **Ticker**: XPL (emerging ticker, first mention across all 12 tracked traders)
-- **Context**: Continuation of tactical long accumulation within net-long regime (Aug 01+); Asian morning session execution timing consistent with HCH's documented systematic pattern
+**Classification:** **SKIP** (non-financial banter)
 
-### Memory Updates Completed
-1. ✅ **traders.md** — Added Sep 12 07:09Z trade-new-entry event for XPL
-2. ✅ **active-trades.md** — Created new XPL position entry (1% spot long)
-3. ✅ **logs/2026-09-12.md** — Logged discord-trader-monitor event #5 with full classification and context
+**Analysis:**
+The message is trader slang for "actively trading/monitoring on phone" — personal social commentary in the premium member chat, no financial signal, no ticker, no trade action. Per **Step 4A (Rule A)**: non-financial → skipped entirely, logged to daily event log only.
 
 ### No Secondary Alerts
 - Fast-path pre-alerted by Cloudflare Worker
@@ -30,3 +23,9 @@ Recent context: Sep 12 03:45Z neutral/breakdown bias; Sep 12 03:48Z added 5% gol
 HCH: "Fc clusdt 1hr"
 
 Unable to classify — what's your read?
+**Actions Taken:**
+- ✓ Message ID tracked in `memory/discord-trader-seen.txt`
+- ✓ Event logged to `memory/logs/2026-09-12.md` (#6)
+- ✓ No Telegram alert sent (non-actionable)
+
+**Status:** Complete
