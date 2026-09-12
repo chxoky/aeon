@@ -1,0 +1,164 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-container",
+        "separator-1",
+        "chart-analysis",
+        "separator-2",
+        "macro-framing",
+        "separator-3",
+        "thesis-analysis",
+        "separator-4",
+        "tweet-link"
+      ]
+    },
+    "tweet-container": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ETH sentiment + chart (1H crash-bounce). Shares @smileycapital macro framing: \"Lower now, before higher Q4\" / \"Higher\" with supporting price action."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "chart-description",
+        "price-row"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1H Chart: Crash-Bounce Pattern",
+        "level": "h3"
+      }
+    },
+    "chart-description": {
+      "type": "Text",
+      "props": {
+        "text": "Sharp decline (2,640 → 2,540) marked with down arrow, then recovery bounce.",
+        "variant": "body"
+      }
+    },
+    "price-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-current-price",
+        "stat-change"
+      ]
+    },
+    "stat-current-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current ETH",
+        "value": "2,542.37 USDT"
+      }
+    },
+    "stat-change": {
+      "type": "Stat",
+      "props": {
+        "value": "+1.03%",
+        "trend": "up"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "macro-framing": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "macro-heading",
+        "macro-text"
+      ]
+    },
+    "macro-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Framing (@smileycapital)",
+        "level": "h3"
+      }
+    },
+    "macro-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Lower now, before higher Q4\" / \"Higher\" with supporting price action.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "thesis-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Trader Bearish Thesis Alignment",
+        "level": "h3"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with HCH short + Crypto_Chase $2000 target pullback while validating near-term bounce opportunity.",
+        "variant": "body"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Original Tweet",
+        "href": "https://x.com/Wild_Randomness/status/2098796010621579715",
+        "source": "X"
+      }
+    }
+  }
+}
