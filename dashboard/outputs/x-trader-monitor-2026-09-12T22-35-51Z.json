@@ -1,0 +1,60 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "escalation-alert"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "dont people understand that everyone will be chasing eth beta the most in 2027-2028?\n\nnft has historically been one of the best during eth seasons 2017-2018, 2021-2022\n\nlast cycle we had no eth season hence no nft season\n\nthis cycle it will be big eth season\n\nand the cycle winner'nft already exists"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098901972384440622"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "escalation-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Escalates bull_genius's NFT conviction focus — 4th mention today (09:12) reinforcing Argonauts narrative + broader ETH-season thesis linking macro cycle timing to NFT recovery cycle."
+      },
+      "children": []
+    }
+  }
+}
