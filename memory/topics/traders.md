@@ -677,8 +677,9 @@
 - Recent thesis: "Permabull forever" philosophy. World Tokenization Supercycle. LIT bullish (Trump admin perps approval as pump catalyst) — CONTESTED ticker (trading_axe bullish vs HCH strong SHORT). ETH-beta repricing (ENA +70% exemplar). HYPE/LIT gold/silver parallel. CASHCAT "just buy." TRUMP token reconsidering ("might just gamble"). Bagwork tactic analysis (CZ/Aster vs HL precedent for competitor creation to steal mindshare).
 - Conviction notes: Builder/commentator identity transitioning to documented executor. First personal trade: DOPAMEME Aug 24 (+3850%). Pattern: "Patience young padawan" + "Naysayers will be silenced" = repeating cryptic motivation. LIT = CONTESTED ticker — flag to Kyle when trading_axe bullish and HCH short. "Dr. Axius" persona.
 - Calibration: PENDING Sep 06 04:59Z ("This was APG in 2021" + image 0-byte; APG unknown), PENDING Sep 06 00:59Z (@Rezgaarr @blknoiz06 "It doesn't take a genius to figure it out"), PENDING Sep 06 00:49Z (@loraclexyz bagwork tactics; asset unclear), PENDING Sep 05 18:03Z ("I put the whole thing back into memes"; no ticker specifics), PENDING Sep 05 14:58Z (Dr. Axius + @0xNetanyahu screenshot; "PF" unclear), PENDING Sep 05 02:41Z (@karhen_barbiie "Gud tek always brings back the oldheads"), PENDING Aug 30 20:41Z ("Perhapsingly it is time. ~ Dr. Axius."), PENDING Aug 30 18:08Z (@buyeropponzi + t.co; media 404), PENDING Aug 30 17:48Z (@blknoiz06 "Nigga?"), PENDING Aug 29 13:38Z (@Home_of_Fight "Behind the ear, all equilibrium gone"), PENDING Aug 29 03:30Z (@moonbaggies TRUMP "might just gamble"), PENDING Aug 27 01:00Z (@0X_JEFFE "Patience / Naysayers will be silenced")
-- Last seen: 2026-09-09T08:41:49Z
+- Last seen: 2026-09-11T13:53:04Z
 - **Events (rolling):**
+  - Sep 11 13:53Z — informational: ETH technical setup chart; marked support/resistance levels (2,466.33, 2,519.95 key levels); red descending trend line + orange ascending support; "Well well well…" cryptic caption w/ sleep emoji (💤); structure analysis with no execution language; chart shows consolidation/level test setup [$ETH] [2098409492631196147]
   - Aug 24 16:42Z — informational: DOPAMEME onchain long $20K→$830K (+3850% unrealized); first personal execution documented [$DOPAMEME] [2091929247572971706]
   - Aug 25 10:27Z — informational: market psychology/trader behavior cycles [$TRADER-PSYCHOLOGY] [2092197241616281831]
   - Aug 26 00:00Z — ambiguous: @LoFiAlon "Patience young padawan. Return in a week. ~ Dr. Axius." [$UNKNOWN] [2092401784488611990]
@@ -799,17 +800,6 @@
   - Sep 10 08:25Z — informational: NFT market recovery sentiment; art appreciation analysis; 1000s new users on OpenSea signal HTF reversal [$NFT] [2097964723245371452]
   - Sep 08 21:32Z — informational: altcoin sentiment + consolidation opportunity; $CASHCAT revisit + $PONS mention; bullish on "interesting one" but prefers other runners [$CASHCAT/$PONS] [2097437919816610243]
 
-## trading_axe
-
-- Platforms: X (Twitter)
-- Current open positions: Unknown (technical analyst, chart-focused signals)
-- Recent thesis: Technical structure analyst + market narrative commentary. Macro themes: "World Tokenization Supercycle", ETH-beta repricing cycles, reflexive dynamics. Persona: "Dr. Axius" (signs posts). Signals via labeled charts with support/resistance levels + trend analysis.
-- Conviction notes: First tracked 2026-08-04. Technical chart posts (TradingView-style) without explicit execution language; signals appear to be price-level setup watches rather than active trade calls. Medium conviction on technical setup observation.
-- Calibration: PENDING Sep 09 05:39Z ("zzz-2:native" clarification — unclear if financial asset/protocol or casual banter)
-- Last seen: 2026-09-11T13:53:04Z
-- **Events (rolling):**
-  - Sep 11 13:53Z — informational: ETH technical setup chart; marked support/resistance levels (2,466.33, 2,519.95 key levels); red descending trend line + orange ascending support; "Well well well…" cryptic caption w/ sleep emoji (💤); structure analysis with no execution language; chart shows consolidation/level test setup [$ETH] [2098409492631196147]
-  - Sep 09 05:39Z — ambiguous: reply to @cryptoklotz "I think you got it a bit misconstrued bro, I'm on about zzz-2:native. ~ Dr. Axius."; HR-2 calibration sent [$UNKNOWN] [2097560453975052316]
 
 ## HeartCanHodl
 

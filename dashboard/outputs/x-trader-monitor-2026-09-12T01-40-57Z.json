@@ -1,0 +1,62 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "@trading_axe (Sep 12 01:38Z)"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_badges",
+        "text_details"
+      ]
+    },
+    "stack_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_classification",
+        "badge_action"
+      ]
+    },
+    "badge_classification": {
+      "type": "Badge",
+      "props": {
+        "text": "classified as non-financial",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_action": {
+      "type": "Badge",
+      "props": {
+        "text": "Skipped silently",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_details": {
+      "type": "Text",
+      "props": {
+        "text": "duplicate trader section consolidated",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
