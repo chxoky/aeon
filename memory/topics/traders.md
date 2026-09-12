@@ -85,6 +85,7 @@
   - Sep 12 13:19Z — informational: PUMP consolidation/shakeout climax thesis; 1D chart shows technical confluence (365d VWAP 0.003602, September POC/VAH, volume profile structure); religious metaphor "put the kippah on" = conviction wordplay; "goyim shakeout near/at climax" = liquidation panic approaching completion (bullish recovery setup); reinforces Sep 05-09 PUMP longs (Sep 05 conviction add, Sep 06 ATH aVWAP entry, Sep 09 7d rVWAP entry) [$PUMP] [2098763443100701038]
   - Sep 12 14:02Z — ambiguous-cryptic: reply to @IvanMoskov3 on BTC price structure; "acceptance inside the lower volume profile bell curve" = very short technical phrase with no chart; fits bull_genius volume-profile analysis pattern but unclear if informational commentary or directional signal; HR-2 calibration alert sent to Kyle for interpretation [2098774154925240583]
   - Sep 12 15:30Z — informational: BTC bottom conviction; reply to @rottenAzoth333 "i think this is bottom i would just expect big volatility around fomc"; market sentiment on structural bottom detection + macro FOMC volatility expectation; aligns with HTF bullish conviction + group FOMC-week caution [$BTC/$FOMC] [2098796479796171194]
+  - Sep 12 16:29Z — informational: USDT.D / BTC macro correlation; stablecoin dominance low at 6.3-6.5% replicates mid-2024 pattern; thesis: when USDT.D low breaks, BTC breaks upward (liquidity flows to risk); "Patience" conviction affirmation on setup confirmation pending [$BTC/$USDT.D/$MACRO] [2098811292966384007]
 
 ## Crypto_Chase
 

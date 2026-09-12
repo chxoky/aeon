@@ -1,0 +1,149 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "USDT.D / BTC Correlation Analysis",
+        "description": "X Trader Monitor - Analysis from @KillaXBT"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "analysis_section",
+        "separator_2",
+        "link_section",
+        "separator_3",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "The moment this low on USDT.D snaps, $BTC breaks upwards\n\nPatience."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "USDT.D showing structural support formation at 6.3-6.5% (current low). When stablecoin dominance recovers from these lows, it signals liquidity flowing back into risk assets — bullish for BTC upside momentum. Pattern replicates prior mid-2024 low breakdown setup.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_link"
+      ]
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2098811292966384007"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alignment_heading",
+        "alignment_text",
+        "related_analysis"
+      ]
+    },
+    "alignment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Group Thesis Alignment",
+        "level": "h3"
+      }
+    },
+    "alignment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group bullish BTC structure thesis",
+        "variant": "body"
+      }
+    },
+    "related_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analyst_1",
+        "analyst_2",
+        "analyst_3"
+      ]
+    },
+    "analyst_1": {
+      "type": "Badge",
+      "props": {
+        "text": "KillaXBT HTF long 62.6K",
+        "variant": "default"
+      }
+    },
+    "analyst_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Stoiiic consolidation conviction",
+        "variant": "default"
+      }
+    },
+    "analyst_3": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius bottom confirmation Sep 12 15:30Z",
+        "variant": "default"
+      }
+    }
+  }
+}
