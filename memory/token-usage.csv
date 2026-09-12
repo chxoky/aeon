@@ -5479,4 +5479,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-12,x-trader-monitor,claude-haiku-4-5-20251001,153,11673,1414037,92776
 2026-09-12,x-trader-monitor,claude-haiku-4-5-20251001,177,8197,1549753,93050
 2026-09-12,heartbeat,claude-sonnet-4-6,11,12018,626436,75937
-2026-09-12,x-trader-monitor,claude-haiku-4-5-20251001,129,5641,676670,46709
+2026-09-12,x-trader-monitor,claude-haiku-4-5-20251001,97,7731,594567,56909
