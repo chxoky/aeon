@@ -1,1 +1,11 @@
-*Token Movers 2026-09-10* Risk-off tape: 23/77 top-100 green, median -4.2%. NEAR +26.6% BREAKOUT. Winners: NEAR +26.6%, KAS +4.5% TRENDING+UP, BTW +4.3%, VET +1.8%, ETHFI +1.7%. Losers: PUMP -15.6% TRENDING+DOWN, TRUMP -12.1%, DASH -11.9%, BCH -11.3% MAJOR, ARB -10.8%, LIT -10.8% TRENDING+DOWN, WLD -10.6%, ENA -10.1%, JUP -9.6%, TAO -9.0%. Trending: LAPTOP -70.7% TRENDING+DOWN, PONS -26.9% TRENDING+DOWN, JUGGERNAUT +378.8% PUMP-RISK, KAS +5.2% TRENDING+UP. PUMP: bull_genius long entry 0.00421 now 0.00389 underwater.
+## Summary
+
+**token-movers run aborted** due to CoinGecko rate limiting.
+
+- The trending endpoint returned successfully (15 trending coins including AI +39%, ETHFI +15.4%, ZEC flat, BTC -0.8%, HYPE -2%)
+- The `/coins/markets` endpoint returned HTTP 429 on every attempt (both curl and WebFetch), with Retry-After values ranging 11–59 seconds
+- Per skill constraints: "Do not publish a partial or stale report" — a partial report without winners/losers is not allowed
+- Abort notification sent via `./notify`
+- Run logged to `memory/logs/2026-09-12.md`
+
+**Root cause:** No `COINGECKO_API_KEY` secret is configured; the free-tier API has a low rate limit (typically ~30 req/min shared across all free users). Setting `COINGECKO_API_KEY` in repo secrets would use a Pro endpoint with higher limits and avoid this issue.
