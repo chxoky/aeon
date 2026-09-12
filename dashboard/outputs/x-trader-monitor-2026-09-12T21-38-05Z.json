@@ -1,0 +1,22 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "text": "BTC update: Gann angle framework chart showing current structure. View: https://x.com/Bitcoin_Astro/status/2098887854248108189"
+      }
+    }
+  }
+}

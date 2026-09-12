@@ -307,6 +307,7 @@
   - Sep 08 17:50Z — ambiguous: @ADRIAN2021RO "28/29"; cryptic number/date reference; HR-2 calibration sent [$UNKNOWN] [2097382164404789718]
   - Sep 09 23:20Z — skip: Patreon/Telegram self-promotion; non-financial [2097827502345326936]
   - Sep 10 11:47Z — informational: 1x1 Gann angle critical analysis; BTC below for ~3wk resistance; historical 2022 breakout precedent; key watch—reclaim & hold = bullish, rejection = lower retests [$BTC/$GANN-ANGLE] [2098015560965439550]
+  - Sep 12 21:33Z — informational: BTC Gann angle framework chart; fan lines from 2023 bear low; price structure relative to 1x1 angle positioning [$BTC/$GANN-ANGLE] [2098887854248108189]
 
 ## ryzzyqq
 
