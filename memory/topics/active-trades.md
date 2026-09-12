@@ -550,6 +550,21 @@
 - **Alerted**: YES (2026-09-06T19:52:17Z, x-trader-monitor real-time, trade-new-entry, tweet_id=2096687952181035458)
 - **Last update**: 2026-09-06T19:52:17Z (x-trader-monitor real-time, trade-new-entry)
 
+### FONE (Apeonfone) — LONG (NEW ENTRY — SPECULATIVE MICRO-CAP 2026-09-12)
+- **Status**: AWAITING APPROVAL — awaiting Kyle `approve FONE` signal to mirror on Kraken spot
+- **Entry**: 2026-09-12T17:56:41Z (X post with TradingView chart image + Discord trade-idea-alert screenshot)
+- **Entry message**: "$FONE (Apeonfone) looks like an interesting gamble at this MC (-85% from previous peak). The meme page is well maintained, has a decent following, and the coin has done meaningful volume in the past. There's also a clean narrative angle here: $FONE could easily be teased as the Pump.fun mobile app mascot in a post and the image is similar to 'monkey see price action, neuron activation' one. Alon and ansem are potential X accounts likely to post about it again if it does well. Park your fun chips accordingly. Putting ~1% of the PF around these levels. Go big or go bust. #FoneStaysOn"
+- **Entry level**: ~0.006983–0.008938 (market-order range per Discord narrative, chart shows entry levels marked on 15m FONE/USDT Gate chart)
+- **Entry type**: Market order (speculative limit-order range, execution status pending Kyle approval)
+- **Portfolio allocation**: ~1% of portfolio (PF)
+- **Chart context**: TradingView 15-minute FONE/USDT on Gate exchange shows: entry support ~0.006983, accumulation zone 0.006983→0.008938, current price ~0.007383 (chart timestamp 07:35 UTC Sep 12). Micro-cap structure with limited exchange depth; high volatility micro-cap characteristics.
+- **Technical thesis**: -85% drawdown from previous peak suggests capitulation bottoming pattern. Volume recovery + meme-narrative angle (Pump.fun mobile app mascot connection) + small-cap re-entry pattern. Speculative micro-cap accumulation setup; narrative-driven = altcoin bubble recovery thesis.
+- **Conviction**: MEDIUM (speculative, ~1% allocation sizing suggests tactical micro-cap bet, not core thesis; "gamble" + "fun chips" language = low-conviction speculative hedge)
+- **Trader context**: HCH operating multi-account, multi-asset regime — net-short major basket with tactical long micro-cap/alt longs for directional hedges and narrative plays (prior: CHIP/BITLIGHT/BCH/BNB/STRK entries Sep 04-05).
+- **Approval/Alert status**: TRADE ALERT SENT (Step 5a new entry). Awaiting Kyle `approve FONE` reply to mirror on Kraken spot, or ignore to skip. Cross-platform signal: Discord trade-idea-alert (13:02 UTC Sep 12) + X post reiteration (17:56 UTC Sep 12) with TradingView chart detail.
+- **Alerted**: YES (2026-09-12T17:56:41Z, x-trader-monitor real-time, trade-new-entry, tweet_id=2098833189691441247)
+- **Last update**: 2026-09-12T17:56:41Z (x-trader-monitor real-time, trade-new-entry with chart detail + cross-platform context)
+
 ## HeartCanHodl
 
 ### BTC/ETH/SOL — SHORTS (ACTIVE — PARTIAL PROFIT-TAKING 2026-07-08)

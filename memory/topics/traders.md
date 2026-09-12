@@ -450,7 +450,8 @@
   - Sep 11 16:28Z — trade-partial-close: "Close 1/4th more crypto short exposure" (Discord Trades primary ★); disciplined profit-taking on short basket; reducing overall net-short exposure by 25%; continuation of Sep 11 03:10Z partial-TP pattern (2-tranche de-risk within regime); conviction-hold on remaining 50% shorts; is_reply: true (reply to own earlier take-profit message); fast-path alerted (no Telegram duplicate) [$MULTI-BASKET-SHORT-CLOSE] [1548007256589606923]
   - Sep 12 03:48Z — informational-technical: "Fc gold 4hr" (Discord Trades primary ★); false-close chart check on GOLD 4-hour timeframe; routine technical monitoring within existing GOLD long (50% open, Sep 10 15:41Z entry); no execution language; fast-path alerted by Cloudflare Worker (no Telegram duplicate); verbatim alert format (channel 1279738718680256553); memory-only classification [$GOLD] [1548178526203809825]
   - Sep 12 06:07:58Z — trade-mirror-adjustment: "Reduce 1% size from yesterday's long/spot plays: ens,sol,link" (Discord Trades primary ★); position reduction on ENS 2% long (Sep 11 13:59Z), SOL holdings, LINK holdings; closing 1% total portfolio allocation; verbatim message text preserved per hardcoded channel rule 1279738718680256553; fast-path alerted by Cloudflare Worker (no Telegram duplicate) [$ENS/$SOL/$LINK] [1548213566677458985]
-- Last seen: 2026-09-12T06:07:58Z
+  - Sep 12 17:56Z — trade-new-entry: FONE/USDT long; speculative micro-cap entry 1% PF allocation; entry ~0.006983–0.008938 range (per Discord + TradingView chart detail); X post reiterates Discord 13:02Z trade-idea-alert, adds chart confirmation; cross-platform signal [$FONE-LONG] [2098833189691441247]
+- Last seen: 2026-09-12T17:56:41Z
 
 ## bull_genius
 

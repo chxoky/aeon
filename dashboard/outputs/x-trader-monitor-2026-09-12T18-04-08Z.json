@@ -1,0 +1,92 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal"
+      },
+      "children": [
+        "alert-box",
+        "content-stack"
+      ]
+    },
+    "alert-box": {
+      "type": "Alert",
+      "props": {
+        "title": "FONE LONG",
+        "message": "Signal from @HeartCanHodl — Approve FONE to mirror on Kraken",
+        "type": "info"
+      }
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badges-row",
+        "sep",
+        "stats-row"
+      ]
+    },
+    "badges-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fone",
+        "badge-long"
+      ]
+    },
+    "badge-fone": {
+      "type": "Badge",
+      "props": {
+        "text": "FONE",
+        "variant": "default"
+      }
+    },
+    "badge-long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "secondary"
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alloc-stat",
+        "entry-stat"
+      ]
+    },
+    "alloc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio Allocation",
+        "value": "1%"
+      }
+    },
+    "entry-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price Range",
+        "value": "0.006983 - 0.008938"
+      }
+    }
+  }
+}
