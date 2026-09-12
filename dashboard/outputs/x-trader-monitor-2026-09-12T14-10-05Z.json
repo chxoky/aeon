@@ -1,0 +1,66 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @bull_genius"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-event",
+        "quote-section",
+        "unable-to-classify",
+        "context-questions",
+        "pattern-note"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @IvanMoskov3 on technical analysis",
+        "level": "h3"
+      }
+    },
+    "quote-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "wick doesnt count and is possible on a rate hike"
+      }
+    },
+    "unable-to-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "@IvanMoskov3's original message not visible.",
+        "type": "warning"
+      }
+    },
+    "context-questions": {
+      "type": "Text",
+      "props": {
+        "text": "What wick/asset/timeframe was being discussed?",
+        "variant": "body"
+      }
+    },
+    "pattern-note": {
+      "type": "Text",
+      "props": {
+        "text": "Bull_genius is at 15+ pending calibration items; this adds to the pattern.",
+        "variant": "muted"
+      }
+    }
+  }
+}
