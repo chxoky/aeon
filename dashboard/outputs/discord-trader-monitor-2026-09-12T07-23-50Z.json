@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration Request — DC: HCH Chat"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cal",
+        "sep1",
+        "section_event",
+        "sep2",
+        "section_quote",
+        "sep3",
+        "section_question"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration Task",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_label",
+        "badge_fixtweet",
+        "text_event_source"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge_fixtweet": {
+      "type": "Badge",
+      "props": {
+        "text": "FixTweet Reply",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_event_source": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @imbilngineer X post",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "text": "All that exposure at this price point makes this interesting"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
