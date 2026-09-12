@@ -1,0 +1,139 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Tweet classification result"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "details_stack",
+        "action_alert",
+        "reason_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Personal/Substack content (Marmot's Burrow newsletter)"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "time_row",
+        "class_row"
+      ]
+    },
+    "time_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_label",
+        "time_value"
+      ]
+    },
+    "time_label": {
+      "type": "Text",
+      "props": {
+        "text": "Time:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "time_value": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 12 14:32 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "class_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "class_label",
+        "class_badge"
+      ]
+    },
+    "class_label": {
+      "type": "Text",
+      "props": {
+        "text": "Classification:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "class_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Skip (Step 4A)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "action_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Silent — logged only, no alert sent",
+        "type": "info"
+      },
+      "children": []
+    },
+    "reason_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reason_label",
+        "reason_text"
+      ]
+    },
+    "reason_label": {
+      "type": "Text",
+      "props": {
+        "text": "Reason:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "reason_text": {
+      "type": "Text",
+      "props": {
+        "text": "'no coin yet!' + content promo, no financial signal",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
