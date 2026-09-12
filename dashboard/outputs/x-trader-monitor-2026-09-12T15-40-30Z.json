@@ -1,0 +1,68 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "meta_stack",
+        "separator1",
+        "analysis_text"
+      ]
+    },
+    "meta_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp_text",
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @bull_genius (Sep 12 15:30 UTC)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "i think this is bottom i would just expect big volatility around fomc"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098796479796171194"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group bullish BTC structure thesis (KillaXBT macro conviction + Stoiiic technical support). FOMC Sep 16 = critical volatility inflection."
+      },
+      "children": []
+    }
+  }
+}
