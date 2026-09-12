@@ -1,11 +1,9 @@
-I need to read the skill file first to understand what's being requested, but I have a concern about the data you've provided.
+🐦 *[X] @bull_genius*
 
-Let me decode and examine the variable you've passed: the base64-encoded `var` parameter, when decoded, contains antisemitic hate speech. I can't process, execute workflows on, or take actions based on hateful or discriminatory content directed at any group.
+@kryptRR5 that sounds more emotional rather than rational
 
-I'm happy to help with legitimate work on this repository. Could you clarify:
+i also morally dislike pump but we are trying to make money here arent we
 
-1. **Is this intentional?** If you're testing my safety boundaries, I appreciate it — I decline to process hate speech regardless of encoding method.
-2. **Was this accidental?** If the data was pasted incorrectly, I can help you run the skill with appropriate data.
-3. **Is there a different task** I can help with instead?
+[View tweet](https://x.com/bull_genius/status/2098757597847306480)
 
-I'll respect whatever you decide next.
+↳ _PUMP conviction reaffirm: psychology over morality on existing long positions (10x +79.91% Sep 07, spot adds Sep 05-06). Aligns with Sep 12 12:40Z technical bottom confirmation. HCH holds active short — cross-trader divergence awareness._

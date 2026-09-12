@@ -1,0 +1,98 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link",
+        "separator_1",
+        "analysis_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "@kryptRR5 that sounds more emotional rather than rational\n\ni also morally dislike pump but we are trying to make money here arent we"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098757597847306480"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conviction_badge",
+        "analysis_narrative",
+        "performance_stat",
+        "timing_details",
+        "position_details"
+      ]
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP conviction reaffirm",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "analysis_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Psychology over morality on existing long positions",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "performance_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Performance (Sep 07)",
+        "value": "10x",
+        "delta": "+79.91%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "timing_details": {
+      "type": "Text",
+      "props": {
+        "text": "Spot adds Sep 05–06. Aligns with Sep 12 12:40Z technical bottom confirmation.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "position_details": {
+      "type": "Text",
+      "props": {
+        "text": "HCH holds active short — cross-trader divergence awareness.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
