@@ -1,0 +1,108 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-section",
+        "separator-1",
+        "followup-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "PUMP bottomed imo"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098753619092787269"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "followup-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "followup-context",
+        "positions-stack",
+        "unrealized-stat"
+      ]
+    },
+    "followup-context": {
+      "type": "Text",
+      "props": {
+        "text": "Follow-up to Sep 11 23:21Z technical analysis. Contested positioning:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "hch-badge",
+        "bull-genius-badge"
+      ]
+    },
+    "hch-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH SHORT 2%",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "bull-genius-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "bull_genius LONG 10x",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "unrealized-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Sep 26 Unrealized",
+        "value": "+52%",
+        "trend": "up"
+      },
+      "children": []
+    }
+  }
+}
