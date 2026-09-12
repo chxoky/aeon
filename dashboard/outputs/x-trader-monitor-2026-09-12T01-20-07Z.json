@@ -1,0 +1,91 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status",
+        "separator",
+        "details"
+      ]
+    },
+    "status": {
+      "type": "Text",
+      "props": {
+        "text": "✅ Skill completed successfully",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-line",
+        "classification-line",
+        "action-line"
+      ]
+    },
+    "tweet-line": {
+      "type": "Text",
+      "props": {
+        "text": "Tweet: @trading_axe (ID: 2098581081117147398)",
+        "variant": "body"
+      }
+    },
+    "classification-line": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "class-label",
+        "class-badge"
+      ]
+    },
+    "class-label": {
+      "type": "Text",
+      "props": {
+        "text": "Classified as:",
+        "variant": "caption"
+      }
+    },
+    "class-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NON-FINANCIAL",
+        "variant": "secondary"
+      }
+    },
+    "action-line": {
+      "type": "Text",
+      "props": {
+        "text": "Action: Skipped, no alert sent",
+        "variant": "body"
+      }
+    }
+  }
+}
