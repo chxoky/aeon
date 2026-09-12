@@ -1,4 +1,4 @@
-🔍 *Calibration — [DC: HCH — Trades]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
 **Discord Trader Monitor — Real-time Event Processed**
 
@@ -29,3 +29,8 @@ Unable to classify — what's your read?
 - ✓ No Telegram alert sent (non-actionable)
 
 **Status:** Complete
+Member (skellymode): "Also seeing some smart players accumulating here"
+
+HeartCanHodl: "Having CT players with a mass audience might be a better kickstart to it"
+
+Unable to classify — what asset is being discussed? What does 'it' refer to?

@@ -1,0 +1,108 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord chat analysis and classification"
+      },
+      "children": [
+        "heading-calibration",
+        "separator-1",
+        "message-group",
+        "separator-2",
+        "alert-classification"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message-1",
+        "message-2"
+      ]
+    },
+    "message-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author-1",
+        "content-1"
+      ]
+    },
+    "author-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Member (skellymode)",
+        "variant": "secondary"
+      }
+    },
+    "content-1": {
+      "type": "Text",
+      "props": {
+        "text": "Also seeing some smart players accumulating here",
+        "variant": "body"
+      }
+    },
+    "message-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author-2",
+        "content-2"
+      ]
+    },
+    "author-2": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "content-2": {
+      "type": "Text",
+      "props": {
+        "text": "Having CT players with a mass audience might be a better kickstart to it",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What asset is being discussed? What does 'it' refer to?",
+        "type": "warning"
+      }
+    }
+  }
+}
