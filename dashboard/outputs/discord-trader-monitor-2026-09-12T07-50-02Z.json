@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — Discord Trader Monitor"
+      },
+      "children": [
+        "context_label",
+        "separator_1",
+        "user_message_stack",
+        "separator_2",
+        "classification_alert"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 [DC: HCH — Trades]",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "user_message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "user_name",
+        "user_quote"
+      ]
+    },
+    "user_name": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "caption"
+      }
+    },
+    "user_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"& 1% cards spot\"",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Is this CARDS token long spot, or different interpretation?",
+        "type": "warning"
+      }
+    }
+  }
+}
