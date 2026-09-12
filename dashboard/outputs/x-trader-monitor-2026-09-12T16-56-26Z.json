@@ -1,0 +1,158 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "author-badge",
+        "sep1",
+        "heading-sentiment",
+        "tweet-card",
+        "sep2",
+        "analysis-heading",
+        "analysis-text",
+        "interpretations-stack",
+        "sep3",
+        "link-post",
+        "question-text"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-sentiment": {
+      "type": "Heading",
+      "props": {
+        "text": "Market sentiment on elevated FUD levels",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The growing list of FUD increases every single hour that passes by its unbelievable, and yet…"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic incomplete message — trailing \"and yet...\" unclear. Is this:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interpretations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp-a",
+        "interp-b",
+        "interp-c"
+      ]
+    },
+    "interp-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) bullish subtext (prices up despite FUD = strength signal)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) bearish setup (accumulation forming into weakness)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) sentiment-only market commentary",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2098816718546387410"
+      },
+      "children": []
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this post?",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
