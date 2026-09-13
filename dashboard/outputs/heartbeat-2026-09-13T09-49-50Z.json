@@ -1,0 +1,127 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "watch_badge",
+        "alert_p3",
+        "details_stack",
+        "action_stack"
+      ]
+    },
+    "watch_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🟡 WATCH",
+        "variant": "warning"
+      }
+    },
+    "alert_p3": {
+      "type": "Alert",
+      "props": {
+        "title": "P3: morning-brief + chain:morning-pipeline stalled",
+        "message": "Last success 2026-09-06 (7 days ago on a daily schedule)",
+        "type": "warning"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "details_heading",
+        "healthy_text",
+        "healthy_badges_stack",
+        "missing_text"
+      ]
+    },
+    "details_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Status Details",
+        "level": "h3"
+      }
+    },
+    "healthy_text": {
+      "type": "Text",
+      "props": {
+        "text": "Individual chain steps are healthy on their own schedules:",
+        "variant": "body"
+      }
+    },
+    "healthy_badges_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_movers_badge",
+        "market_context_badge"
+      ]
+    },
+    "token_movers_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "secondary"
+      }
+    },
+    "market_context_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "market-context-refresh",
+        "variant": "secondary"
+      }
+    },
+    "missing_text": {
+      "type": "Text",
+      "props": {
+        "text": "Missing: chain orchestration and morning-brief",
+        "variant": "body"
+      }
+    },
+    "action_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "action_heading",
+        "action_text"
+      ]
+    },
+    "action_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Action Required",
+        "level": "h3"
+      }
+    },
+    "action_text": {
+      "type": "Text",
+      "props": {
+        "text": "Check GitHub Actions for workflow errors since Sep 07",
+        "variant": "body"
+      }
+    }
+  }
+}
