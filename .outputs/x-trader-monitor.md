@@ -29,3 +29,8 @@ edit: as in: buy 7d rvwap/sept poc, watch if bounce breaks above sept vah and de
 7. ✅ Step 9 logged to `memory/logs/2026-09-13.md`
 
 **Alert Status:** NO alert sent (philosophy/opinion only, no trade signal requiring Kyle action)
+🐦 *[X] @t_in_crypto*
+
+ETH is looking quite strong, so this is more of a potential move for Bitcoin
+
+[View tweet](https://x.com/t_in_crypto/status/2099131981858504774)
