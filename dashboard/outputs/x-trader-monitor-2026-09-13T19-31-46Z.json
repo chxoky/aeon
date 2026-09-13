@@ -1,0 +1,167 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "@abetrade — Options trading education"
+      },
+      "children": [
+        "tweet-section",
+        "sep1",
+        "stats-section",
+        "sep2",
+        "analysis-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@abetrade",
+        "handle": "abetrade",
+        "text": "Short straddles: selling premium vs unlimited tail risk\n\nEducational framework on short straddle profitability: 60% win rate, median +20.10% monthly return (8,437 trades, 114 ETFs, Jan 2010–Aug 2026). BUT worst trade: -1,727.3%. COVID 2020 spike shows catastrophic risk."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/abetrade/status/2099217643433607446"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stats-grid",
+        "dataset-caption"
+      ]
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-winrate",
+        "stat-return",
+        "stat-worst",
+        "stat-5th-pct"
+      ]
+    },
+    "stat-winrate": {
+      "type": "Stat",
+      "props": {
+        "label": "Win Rate",
+        "value": "60%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-return": {
+      "type": "Stat",
+      "props": {
+        "label": "Median Monthly Return",
+        "value": "+20.10%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-worst": {
+      "type": "Stat",
+      "props": {
+        "label": "Worst Trade",
+        "value": "-1,727.3%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-5th-pct": {
+      "type": "Stat",
+      "props": {
+        "label": "5th Percentile Return",
+        "value": "-141.33%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "dataset-caption": {
+      "type": "Text",
+      "props": {
+        "text": "8,437 trades across 114 ETFs (Jan 2010–Aug 2026). Chart data: tradingplot.com",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text",
+        "caveat-alert"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Investment Thesis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Selling options = premium capture + risk compensation + WSB gambler demand",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "caveat-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unlimited Tail Risk",
+        "message": "Caveat: \"if you are not careful = unlimited losses.\" COVID 2020 spike demonstrates catastrophic loss potential.",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

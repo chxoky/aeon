@@ -947,3 +947,10 @@
 - Last seen: 2026-09-13T19:24:25Z
 - **Events (rolling):**
   - Sep 13 19:24Z — skip: Strategy guide share; external research paper links (t.co shortened); media unavailable (CDN 0-byte fetch); "All of this can then be combined into one systematic strategy that outperforms the benchmark consistently over the last 16 years of data"; no ticker explicit; no personal action/execution language; informational educational share with no market/sentiment teaching or trade signal; new untracked trader; low-signal noise → skipped with memory log only, no Kyle alert [SKIPPED] [2099217656624582694]
+- Current open positions: Unknown (educational content creator)
+- Recent thesis: Options selling strategies (short straddles) with risk education framework
+- Conviction notes: **NEW TRACKER (first mention Sep 13 19:24Z)**. Educational analyst focused on options trading theory + risk management. Strong emphasis on understanding premium dynamics vs tail-risk catastrophe. Data-driven analysis approach (uses historical performance metrics from tradingplot.com).
+- Calibration: None pending
+- Last seen: 2026-09-13T19:24:22Z
+- **Events (rolling):**
+  - Sep 13 19:24Z — informational: Options trading education; short straddles theoretical framework. Text: "selling option structures like straddles makes money" (premise) → explanation of premium drivers (overprotection, risk compensation, WSB gambler demand) → risk caveat ("unlimited losses if not careful"). Step 7: Chart analysis of 8,437 short-straddle trades (114 ETFs, Jan 2010–Aug 2026): median return +20.10% monthly, mean +1.79%, winners 60%, worst trade -1,727.3%, 5th percentile -141.33%. Chart shows 2010–2019 stable returns, 2020 COVID crash spike, 2021–2026 recovery. Illustrates educational thesis (straddle selling captures premium but catastrophic tail risk). No first-person execution language ("I sold", "I shorted"). Classification: informational-educational. [$OPTIONS/$STRADDLES/$RISK-EDUCATION] [2099217643433607446]
