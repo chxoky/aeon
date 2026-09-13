@@ -1,0 +1,111 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader Monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "sep-1",
+        "heading-chart",
+        "text-chart",
+        "sep-2",
+        "heading-message",
+        "text-message",
+        "sep-3",
+        "heading-analysis",
+        "text-analysis",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @PlutonicXBT on Sep 13 22:15Z",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-chart": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart",
+        "level": "h3"
+      }
+    },
+    "text-chart": {
+      "type": "Text",
+      "props": {
+        "text": "XYZ100 (Nasdaq-100) daily consolidation around 29,000 level (heavily tested May-Sep, current 29,042).",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "@PlutonicXBT Pretty much",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify full implication — is this bullish (above 30K break), bearish (below 29K break), or neutral consolidation confirmation? Need your read on what @PlutonicXBT likely said.",
+        "variant": "body"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099260594306404726"
+      }
+    }
+  }
+}
