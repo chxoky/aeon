@@ -225,6 +225,9 @@
 - Last seen: 2026-09-13T21:25:53Z
 - **Events (rolling):**
   - Sep 13 21:25Z — informational-methodology: statistical caveat post on hike data analysis (N=63 events, Dec 2018 & 2022-23 cycles, no cross-asset pooling); "take with grain of salt" data limitation disclaimer [$MACRO/$RESEARCH-CAVEAT] [2099248222711726589]
+- Last seen: 2026-09-13T21:25:50Z
+- **Events (rolling):**
+  - Sep 13 21:25Z — informational: Fed hike historical analysis table (14-day outcomes, worst dips, best peaks across 12 hikes 2018-2023). Tabular data: worst dips -0.5% to -33.7%, best peaks +0.2% to +20.1%. Educational research on post-hike price action patterns. Context: informs FOMC catalyst monitoring (Sep 16 upcoming). No personal execution language; pure technical/macro educational content. Step 7 chart analysis confirmed. [$MACRO/$FOMC] [2099248212770947234]
   - Sep 13 16:51Z — informational-methodology: reply to @MauritianMonsta on visual chart analysis approach (retracements, trend structure, BB levels); educational framework; no ticker/action [$FRAMEWORK] [2099179108785689030]
   - Sep 13 01:16Z — informational: technical methodology; TraderXO Macro Trend Scanner + yearly VWAP ±1σ framework [$FRAMEWORK] [2098943853600338012]
   - Sep 11 16:04Z — informational: BTC consolidation structure; rotation from VAL sweep low, cleaned up move, established compression zone 76-80K, break above 83K acceptance = no fade, break below requires finesse; spot vs perps dynamics analysis on cushion-buying vs persistent longing scenarios [$BTC] [2098442671119335841]
