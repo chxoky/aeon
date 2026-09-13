@@ -979,11 +979,14 @@
 - **Last update**: 2026-08-07T00:06:41Z (discord-trader-monitor real-time, fast-path-alerted, TRADE-NEW-ENTRY; message_id=1535076684615913594)
 
 ### CL (Crude Oil / CLUSDT) — SHORT (NEW ENTRY — 2026-08-18, CONVICTION ADD 2026-08-19)
-- **Status**: ACTIVE — conviction add 2026-08-19T05:53:05Z (position escalated from 1% to 2% total)
+- **Status**: ACTIVE — conviction-add reentry 2026-09-13T11:26:25Z (1/3rd of position re-entered after tactical partial cover)
 - **Initial Entry**: 2026-08-18T08:49:37Z (Discord Trades channel)
 - **Initial Entry message (Discord)**: "Add 1% CL short" (direct execution call, primary Trades channel)
 - **Conviction Add Entry**: 2026-08-19T05:53:05Z (Discord Trades channel)
 - **Conviction Add message (Discord)**: "Add 1% CL short" (identical format, different timestamp — 20.7 hour intraday escalation)
+- **Tactical Partial Cover**: Prior to Sep 13 11:26Z (context from referenced_message: HCH covered 1/3rd of CL short position)
+- **Conviction Reentry**: 2026-09-13T11:26:25Z (Discord Trades channel)
+- **Reentry message (Discord)**: "Add back cl 1/3rd short exposure" (is_reply to own prior "Cover 1/3rd of that CL short here")
 - **Entry type**: Market orders (both entries executed at current price per timing)
 - **Portfolio allocation**: 
   - Initial: 1% (Aug 18 08:49Z)
@@ -995,12 +998,14 @@
   - 2026-08-18T08:49:37Z: Initial 1% entry on primary Trades channel (message_id=1539194549203767408, fast-path alerted)
   - 2026-08-19T05:53:05.444Z: Conviction add 1% on primary Trades channel (message_id=1539512511261581444, fast-path alerted)
   - Total position: 2% CL short (tier-2 conviction sizing within broader short allocation)
+  - [Prior to 2026-09-13]: Tactical partial cover of ~1/3rd of short position (exact timing unknown)
+  - 2026-09-13T11:26:25Z: Conviction reentry — "Add back cl 1/3rd short exposure" (is_reply to own cover message, message_id=1548656094589485117, fast-path alerted). Reentry of 1/3rd short exposure just covered, indicating continued bearish CL macro conviction.
 - **Rationale**: CL short represents macro commodity bearish thesis expansion, distinct from cryptocurrency/equity focus. Entry aligns with: (1) extended HCH net-short regime (Aug 07-present), (2) technical validation from prior chart analysis (Jul 28 downtrend context + reversal markers), (3) macro energy thesis on energy/oil weakness during broader risk-off macro environment. Portfolio allocation context: HCH maintains ~45-55% total short-basket allocation across multi-ticker constellation (UNI 8%, ZEC 2-2.5%, HYPE 1%, KAITO 1.5%, other alts 1-2% each, equities TSLA/PLTR 1% each, commodities emerging with CL 2%). CL addition represents systematic sector diversification within short allocation (prior commodities: Gold/XAU emerging Aug 13-18, CL entry Aug 18 suggests commodities macro tier formation).
 - **Conviction**: HIGH — Dual entries same-day pattern (Aug 18 + Aug 19 within 21-hour window) with consistent 1% increments suggests deliberate systematic accumulation rather than reactive position add. Terse execution format + primary channel placement + prior technical context (Jul 28 chart setup) + multi-session reaffirmation across consecutive mornings indicates escalating conviction on CL short structure. Commodity-sector hedge adds orthogonal exposure to existing crypto/equity short baskets.
 - **Approval/Alert status**: FAST-PATH ALERTED (Cloudflare Worker sent Telegram ~2-5s post-message on Aug 18 08:49Z and Aug 19 05:53Z); no duplicate sends by skill. Skill processes classification + memory updates only per fast-path protocol. Await Kyle signal on mirror status: CL short may be monitored as memory-only entry or mirrored on Kraken spot depending on Kyle's commodity-exposure management decision (no prior CL position from Kyle on record).
 - **Cross-platform dedup**: First mention of CL short across all tracked platforms (X + Discord) at Aug 18 08:49Z. No concurrent X post identified at either timestamp. Discord messages are PRIMARY SIGHTINGS of Aug 18/19 CL short entries across all trader-monitor channels.
 - **Technical context** (from prior Jul 28 16:52Z post): CLUSDT 4h downtrend from 93.37 → 78.66 (-5.25% 24h observed on Jul 28), reversal markers identified on chart. Technical setup suggests HCH awaiting test of prior support levels or consolidation confirmation before conviction add — Aug 19 conviction add validates intraday price-action confirmation or scheduled multi-tranche accumulation plan execution.
-- **Last update**: 2026-08-19T05:53:05Z (discord-trader-monitor real-time event, fast-path-alerted, TRADE-CONVICTION-ADD; message_id=1539512511261581444, tier-2 position, 2% total allocation)
+- **Last update**: 2026-09-13T11:26:25Z (discord-trader-monitor real-time event, fast-path-alerted, TRADE-CONVICTION-REENTRY; message_id=1548656094589485117, conviction reentry of 1/3rd short exposure)
 
 ### XAU (Gold Spot) — SHORT (NEW ENTRY — 2026-08-13T15:34Z, CONVICTION ADD 2026-08-18T06:53:55Z)
 - **Status**: ACTIVE — conviction add 2026-08-18T06:53:55Z

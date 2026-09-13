@@ -1,33 +1,26 @@
 ## Summary
 
-**Discord Trader Monitor Event Processed — 2026-09-13T10:51:02Z**
+**Discord Trader Monitor Skill — Execution Complete**
 
-### Event Details
-- **Trader**: HeartCanHodl (heartcanhodl)
-- **Channel**: 1279738718680256553 (HCH — Trades, primary ★ most important)
-- **Message ID**: 1548647191357296812
-- **Content**: "To them and to others we entered 1% yesterday"
-- **Fast-path status**: `true` (Cloudflare Worker already alerted via Telegram ~2-5s post-message)
+Processed real-time Discord event from HeartCanHodl:
 
-### Classification: **AMBIGUOUS-CRYPTIC** (HR-2 Rule)
-The message lacks critical information for classification:
-1. **No explicit ticker** — doesn't specify which asset
-2. **Unclear reference** — "them" and "others" undefined (other traders? community members?)
-3. **Ambiguous temporal reference** — references entry "yesterday" (Sep 12), but three 1% entries exist that day: XPL (07:09Z), FONE (07:32Z), NEAR (07:40Z)
-4. **Unclear intent** — appears to be reiteration/confirmation, not new entry announcement
+**Event Details:**
+- **Channel**: 1279738718680256553 (HCH — Trades, primary ★)
+- **Message ID**: 1548656094589485117
+- **Timestamp**: 2026-09-13T11:26:25Z
+- **Content**: "Add back cl 1/3rd short exposure" (is_reply to own prior message: "Cover 1/3rd of that CL short here")
+- **Classification**: conviction-add (re-entry of short exposure just covered)
+- **Ticker**: [$CL] (Crude Oil)
 
-### Actions Taken
-✅ **Memory updates:**
-- Added message ID `1548647191357296812` to `/memory/discord-trader-seen.txt` (74 tracked messages)
-- Updated `/memory/topics/traders.md` with new event line
-- Updated HeartCanHodl "Last seen" timestamp to 2026-09-13T10:51:02Z
-- Added to Calibration section (PENDING)
+**Processing:**
+1. ✅ Message decoded & validated (first-time sighting, not previously processed)
+2. ✅ Channel & trader resolved (HCH — Trades primary, verbatim rule applies)
+3. ✅ Fast-path protocol honored (fast_path_alerted=true; Telegram suppressed, memory-only processing)
+4. ✅ Classification: conviction-add (clear first-person execution language "Add back", continuation of bearish CL macro thesis)
+5. ✅ Memory updates:
+   - **discord-trader-seen.txt**: Message ID appended (now 75 lines total)
+   - **traders.md**: New event logged (Sep 13 11:26Z conviction-add, CL ticker)
+   - **active-trades.md**: Position evolution updated with Sep 13 conviction reentry
+   - **memory/logs/2026-09-13.md**: Detailed execution log entry appended
 
-✅ **Logging:**
-- Appended full event record to `/memory/logs/2026-09-13.md` with calibration note
-
-✅ **Protocol compliance:**
-- Honored fast-path protocol (skipped Telegram duplicate, proceeded to classification + memory-only)
-- Per HR-2: No trade alert assumed; awaiting Kyle calibration on which position/traders referenced
-
-**Next step:** Kyle should clarify which Sep 12 entry (XPL/FONE/NEAR) HCH is referencing and what "them"/"others" means.
+**Position Context:** HCH maintains CL short from Aug 18-19 entries (2% allocation). Sep 13 message shows tactical re-entry of partial position previously covered, indicating sustained bearish crude oil conviction on macro energy thesis.
