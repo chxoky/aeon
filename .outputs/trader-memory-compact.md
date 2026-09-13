@@ -1,11 +1,8 @@
+Log entry written. Skill execution is fully complete.
+
 ## Summary
 
-**traders.md:** 213,354 → 54,482 bytes (74% reduction)
-
-**What was done:**
-- Merged 3 duplicate sections: KillaXBT, bull_genius, trading_axe (newest state won for all position/thesis fields)
-- Collapsed Wild_Randomness and HeartCanHodl's fragmented multi-block layout (multiple "Last seen:" lines) into single canonical sections
-- Trimmed all 12 traders to max 25 rolling events, newest last; dropped per-run machinery, skip events, and redundant informational noise
-- Regenerated `trader-baseline-10d.md` — window Aug 27–Sep 06, all 12 traders, ≤1KB each
-- Marked ISS-004 (traders.md oversize standing issue) resolved in `issues/INDEX.md` and `ISS-004.md`
-- Committed: `ce6e743`
+- **traders.md**: 215,994 → 39,637 bytes. 7 duplicate sections merged, all traders capped at 25 events, HCH events reassigned from KillaXBT's section.
+- **trader-baseline-10d.md**: Regenerated with Sep 03–13 window, all 12 traders current.
+- **Commit**: `77be927` on main.
+- **Log**: Entry appended to `memory/logs/2026-09-13.md`.
