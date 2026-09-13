@@ -637,7 +637,8 @@
   - Sep 12 21:49Z — ambiguous-cryptic: reply to @itskeylay @_sigmaX_ "immaculate"; one-word cryptic reply, no asset/context specified; unclear whether banter ("immaculate" = slang positive) or financial commentary on price action/setup; requires Kyle calibration to understand "immaculate" reference (HR-2 calibration alert sent) [$UNKNOWN] [2098891670527811730]
   - Sep 13 00:00Z — informational: NFT market sentiment; "NFT active addresses stable for past 2 years / time-based capitulation..." Market observation on NFT structure + capitulation thesis. Aligns with Sep 12 22:14Z ARGONAUTS bullish narrative + NFT recovery conviction. Cryptic ending ("..." suggests truncated tweet). Macro sentiment affirmation, not personal execution. [$NFT/$ARGONAUTS/$MACRO] [2098924597408313785]
   - Sep 13 07:43Z — informational: ETH-NFT market opportunity thesis; emerging NFT markets (Robinhood chain/mainnet) as cleanest opportunities post-4yr bear; ETH dominance conviction + market psychology (social proof waiting); bullish structural view [$ETH/$NFT] [2099041301115150732]
-- Last seen: 2026-09-13T07:43:39Z
+  - Sep 13 09:08Z — informational: NFT market sentiment on ARGONAUTS + Robinhood chain activity. Reply to @jimtalbot on emerging opportunities: "ogs bought argonauts on mainnet and degens experimenting with complex yield V4 nfts on robinhood chain...the space is surprisingly alive". Market observation on NFT space momentum + RH chain adoption; no personal execution. Continuation of Sep 07-12 ARGONAUTS bullish narrative escalation. [$ARGONAUTS/$NFT/$ROBINHOOD-CHAIN] [2099062682984821237]
+- Last seen: 2026-09-13T09:08:36Z
 
 ## t_in_crypto
 
