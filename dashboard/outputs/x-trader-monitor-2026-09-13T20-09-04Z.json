@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_killaXBT",
+        "link_post",
+        "separator_1",
+        "annotation"
+      ]
+    },
+    "tweet_killaXBT": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "If you're planning to trade against my HTF view, be my guest. Just don't act surprised when it ends the same way it always does.\n\n$BTC has officially bottomed. I'm up 30% from my entry, which translates to a 60% gain thanks to executing the 2x leverage strategy. With 2-3x leverage longs, you can pretty much coast through the rest of this entire cycle winning.\n\nDon't buy $10K spot. Leverage it on 2X. If I'm wrong, I will quite literally deactivate my account and vanish from X.\n\nThere is absolutely zero chance, in my view, that $BTC crashes another 50% from here. Correctly leveraging is far better than holding spot."
+      },
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2099227698916646992"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "annotation": {
+      "type": "Alert",
+      "props": {
+        "title": "Analysis",
+        "message": "Strong bullish conviction reaffirm on BTC bottom thesis + leverage strategy. Aligns with existing 2x HTF long positioning (62.6K entry).",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
