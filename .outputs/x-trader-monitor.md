@@ -1,10 +1,7 @@
-🐦 [X] @bull_genius
+🐦 *[X] @bull_genius*
 
-made my day!!
+maybe a top tier cryptopunks set can do that
 
-marmot's burrow is the #1 rising crypto substrate in the world! 
+top tier argo sets should land in the 7 figures imo
 
-[View tweet](https://x.com/bull_genius/status/2099156055515140494)
-
----
-*Note: Referenced image unavailable for analysis (sandbox CDN fetch blocked). Click link to view chart/details in browser.*
+[View tweet](https://x.com/bull_genius/status/2099160106474557607)
