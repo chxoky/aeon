@@ -936,3 +936,14 @@
 - Last seen: 2026-09-13T11:37:40Z
 - **Events (rolling):**
   - Sep 13 11:37Z — informational: BTC trading date calendar; cyclical/astrological framework marking key September dates: 2&4 (red), 6-8 window (red), 11±1D (red), 14 (blue), 29 (peak of wave). October dates teased for future share. Step 7 chart analysis: calendar image confirms clear date/zone predictions; no personal execution language. [$BTC] [2099100195967402037]
+
+## abetrade
+
+- Platforms: X (Twitter)
+- Current open positions: Unknown (new trader, research/strategy guide sharing only)
+- Recent thesis: Systematic strategy development; claims 16-year backtest outperformance vs benchmark
+- Conviction notes: Educational/research focus. Shares strategy guides with external links. No personal execution documentation.
+- Calibration: None (no ambiguous messages yet)
+- Last seen: 2026-09-13T19:24:25Z
+- **Events (rolling):**
+  - Sep 13 19:24Z — skip: Strategy guide share; external research paper links (t.co shortened); media unavailable (CDN 0-byte fetch); "All of this can then be combined into one systematic strategy that outperforms the benchmark consistently over the last 16 years of data"; no ticker explicit; no personal action/execution language; informational educational share with no market/sentiment teaching or trade signal; new untracked trader; low-signal noise → skipped with memory log only, no Kyle alert [SKIPPED] [2099217656624582694]
