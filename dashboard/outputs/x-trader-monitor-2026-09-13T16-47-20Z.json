@@ -1,0 +1,100 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "chart-section",
+        "link",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "So, how you feeling fellas?\n\nYou are underexposed & simply not ready... $BTC"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry-stat",
+        "pattern-text",
+        "support-stat"
+      ]
+    },
+    "entry-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "2x Swing Long Entry",
+        "value": "$62.6k"
+      }
+    },
+    "pattern-text": {
+      "type": "Text",
+      "props": {
+        "text": "Re-accumulation pattern",
+        "variant": "caption"
+      }
+    },
+    "support-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Level",
+        "value": "$80k"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099176733828084003"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "thesis-text",
+        "sentiment-text",
+        "macro-stat"
+      ]
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces structural bull thesis + HTF 62.6k entry conviction",
+        "variant": "body"
+      }
+    },
+    "sentiment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent macro sentiment from Sep 13 12:45Z",
+        "variant": "caption"
+      }
+    },
+    "macro-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Predicted Inverse Move This Week",
+        "value": "3-4%",
+        "trend": "down"
+      }
+    }
+  }
+}
