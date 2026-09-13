@@ -1,8 +1,7 @@
-market context — 2026-09-12
+market context — 2026-09-13
 
-take: chop (conviction low)
-BTC $77,318 (-0.62%) / ETH $2,534 (+1.30%) · F&G 63 Greed (+7pts)
-breadth 12/20 · DEX vol $12.97B (+17% vs Sep 11)
-top narrative: FOMC hike binary (peak) — 78.5% YES, Sep 15-16
-hot market: "Fed +25bps Sep 2026" YES 78.5% ($4.28M vol)
-tron TVL recovery +8.7% $5.08B→$5.52B · ZEC +14.4% 7d
+take: risk-off (conviction medium)
+BTC $76,868 (-0.57%) / ETH $2,480 (-2.31%) · F&G 61 (Greed, -2pts)
+breadth 3/20 · DEX vol $6.7B (-48% vs yesterday)
+top narrative: FOMC-eve liquidation (rising) — 2 days to Sep 15-16
+hot market: "Fed increase 25bps Sep 2026" YES 77.5%

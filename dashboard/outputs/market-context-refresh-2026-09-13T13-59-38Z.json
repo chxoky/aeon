@@ -1,0 +1,164 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Market Context",
+        "description": "2026-09-13"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_sentiment",
+        "separator_1",
+        "stack_prices",
+        "separator_2",
+        "stack_metrics",
+        "separator_3",
+        "stack_narratives"
+      ]
+    },
+    "badge_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Risk-Off (Medium Conviction)",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$76,868",
+        "delta": "-0.57%",
+        "trend": "down"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,480",
+        "delta": "-2.31%",
+        "trend": "down"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "progress_fear_greed",
+        "stat_breadth",
+        "stat_dex_vol"
+      ]
+    },
+    "progress_fear_greed": {
+      "type": "Progress",
+      "props": {
+        "label": "Fear & Greed Index",
+        "value": 61,
+        "max": 100
+      }
+    },
+    "stat_breadth": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Breadth",
+        "value": "3/20"
+      }
+    },
+    "stat_dex_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Volume",
+        "value": "$6.7B",
+        "delta": "-48% vs yesterday",
+        "trend": "down"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_narratives": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_narrative",
+        "text_narrative_content",
+        "heading_market",
+        "progress_fed_odds"
+      ]
+    },
+    "heading_narrative": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Narrative",
+        "level": "h4"
+      }
+    },
+    "text_narrative_content": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC-eve liquidation (rising) — 2 days to Sep 15-16",
+        "variant": "body"
+      }
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Hot Market",
+        "level": "h4"
+      }
+    },
+    "progress_fed_odds": {
+      "type": "Progress",
+      "props": {
+        "label": "Fed increase 25bps Sep 2026: YES",
+        "value": 77.5,
+        "max": 100
+      }
+    }
+  }
+}
