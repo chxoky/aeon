@@ -1,0 +1,57 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "HeartCanHodl just covered 50% of their crypto shorts."
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_mirrored",
+        "separator",
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "badge_mirrored": {
+      "type": "Badge",
+      "props": {
+        "text": "Mirrored — @HeartCanHodl",
+        "variant": "secondary"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Covered 50% crypto shorts so far.\n\nLast line of defence is 76k before 74k point of interest\n\nTonight can be exciting! Stay active."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2099069284097962010"
+      }
+    }
+  }
+}
