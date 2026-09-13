@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration event analysis"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_metadata",
+        "separator_1",
+        "tweet_card",
+        "separator_2",
+        "stack_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "stack_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event",
+        "text_datetime"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Shishir4206 @CikiTrades in trading context",
+        "variant": "body"
+      }
+    },
+    "text_datetime": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 13 17:56 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "Can u prove it ?"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_alert",
+        "text_classification_issue"
+      ]
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify without original context",
+        "message": "Appears to challenge/question a trade claim, but the subject is unknown."
+      }
+    },
+    "text_classification_issue": {
+      "type": "Text",
+      "props": {
+        "text": "Is this financial (asking trader to prove a trade claim) or personal banter?",
+        "variant": "muted"
+      }
+    }
+  }
+}
