@@ -21,3 +21,10 @@ I've successfully executed the x-trader-monitor skill for the tweet from **@bull
   - Updated `memory/topics/traders.md` bull_genius section with event (Last seen timestamp + new rolling event)
 
 **Result:** No notification sent. This sentiment reiteration on an existing single-trader conviction is filed to memory only.
+🐦 *[X] @bull_genius*
+
+NFT active addresses are stable for the past 2 years
+
+time-based capitulation...
+
+Aligns with Sep 12 ARGONAUTS bullish recovery thesis + NFT market sentiment shift.
