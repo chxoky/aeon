@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "event_line",
+        "context_note",
+        "sep1",
+        "author_label",
+        "reply_text",
+        "sep2",
+        "analysis_alert",
+        "view_link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @swarmister",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @jaybankoz tweet",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context_note": {
+      "type": "Text",
+      "props": {
+        "text": "(context unavailable)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "author_label": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "reply_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"@jaybankoz REAL\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? One-word affirmation; possibly banter or agreement. Is this financially related?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2099197460455227893"
+      },
+      "children": []
+    }
+  }
+}
