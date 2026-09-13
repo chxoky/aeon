@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "alert_main",
+        "link_details"
+      ]
+    },
+    "alert_main": {
+      "type": "Alert",
+      "props": {
+        "title": "X Trader Alert",
+        "message": "@bull_genius discussing FOMC caution and profit-taking discipline",
+        "type": "info"
+      }
+    },
+    "link_details": {
+      "type": "Link",
+      "props": {
+        "label": "See memory/logs/2026-09-13.md for details",
+        "href": "memory/logs/2026-09-13.md"
+      }
+    }
+  }
+}
