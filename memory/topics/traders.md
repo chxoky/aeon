@@ -635,7 +635,8 @@
   - Sep 12 13:48Z — informational: seasonal trading pattern observation; "sell into rosh hashanah, buy into yom kippur" with holiday date context (Sep 11-13 today / Sep 20-21 upcoming); parallels Wild_Randomness Sep 10 seasonal analysis on SPX/macro; no personal execution language; educational pattern share [$SEASONALITY/$MACRO] [2098770648734507501]
   - Sep 12 21:49Z — ambiguous-cryptic: reply to @itskeylay @_sigmaX_ "immaculate"; one-word cryptic reply, no asset/context specified; unclear whether banter ("immaculate" = slang positive) or financial commentary on price action/setup; requires Kyle calibration to understand "immaculate" reference (HR-2 calibration alert sent) [$UNKNOWN] [2098891670527811730]
   - Sep 13 00:00Z — informational: NFT market sentiment; "NFT active addresses stable for past 2 years / time-based capitulation..." Market observation on NFT structure + capitulation thesis. Aligns with Sep 12 22:14Z ARGONAUTS bullish narrative + NFT recovery conviction. Cryptic ending ("..." suggests truncated tweet). Macro sentiment affirmation, not personal execution. [$NFT/$ARGONAUTS/$MACRO] [2098924597408313785]
-- Last seen: 2026-09-13T00:00:00Z
+  - Sep 13 07:43Z — informational: ETH-NFT market opportunity thesis; emerging NFT markets (Robinhood chain/mainnet) as cleanest opportunities post-4yr bear; ETH dominance conviction + market psychology (social proof waiting); bullish structural view [$ETH/$NFT] [2099041301115150732]
+- Last seen: 2026-09-13T07:43:39Z
 
 ## t_in_crypto
 
