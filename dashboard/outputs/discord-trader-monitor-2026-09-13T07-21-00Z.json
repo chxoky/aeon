@@ -1,0 +1,156 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration review from premium member chat"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-header",
+        "sep1",
+        "source-info",
+        "quote-block",
+        "sep2",
+        "context-block",
+        "sep3",
+        "methodology-block",
+        "sep4",
+        "status-alert"
+      ]
+    },
+    "calibration-header": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "source-info": {
+      "type": "Text",
+      "props": {
+        "text": "Source: DC: HCH — Chat (supporting channel)",
+        "variant": "caption"
+      }
+    },
+    "quote-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-text"
+      ]
+    },
+    "quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "muted"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Thesis can be sound but looking at the ltf impact to gauge some psychology\"",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-text"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "muted"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Premium member chat; no ticker explicit. Methodology on evaluating thesis soundness via lower-timeframe psychology. Unclear which specific thesis.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "methodology-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "method-label",
+        "method-text"
+      ]
+    },
+    "method-label": {
+      "type": "Text",
+      "props": {
+        "text": "Evaluation Method:",
+        "variant": "muted"
+      }
+    },
+    "method-text": {
+      "type": "Text",
+      "props": {
+        "text": "Assessing thesis soundness via lower-timeframe psychology impact.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Pending",
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
