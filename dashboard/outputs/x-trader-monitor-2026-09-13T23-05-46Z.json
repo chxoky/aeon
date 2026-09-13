@@ -1,0 +1,114 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "support-heading",
+        "support-levels",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "BTC close to key supports on monday week open the fear is real. rate hikes, ai scare\n\nthink before fomc nothing breaks out anywhere and we just whipsaw in both directions\n\nuncertainty events need to pass first so its best to meditate and fade the extremes until wednesday evening\n\nnow seems overblown to me too but you cant exclude some liqueidations to downside first. not the time for max leverage knife catch. wait for reversals"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "support-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Support Structure",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "support-levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-365d",
+        "stat-7d",
+        "stat-sep-poc",
+        "stat-val",
+        "stat-30d",
+        "stat-2024-vah"
+      ]
+    },
+    "stat-365d": {
+      "type": "Stat",
+      "props": {
+        "label": "365d rVWAP",
+        "value": "79.9K"
+      },
+      "children": []
+    },
+    "stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d rVWAP",
+        "value": "78K"
+      },
+      "children": []
+    },
+    "stat-sep-poc": {
+      "type": "Stat",
+      "props": {
+        "label": "September POC",
+        "value": "77K"
+      },
+      "children": []
+    },
+    "stat-val": {
+      "type": "Stat",
+      "props": {
+        "label": "VAL",
+        "value": "76.8K"
+      },
+      "children": []
+    },
+    "stat-30d": {
+      "type": "Stat",
+      "props": {
+        "label": "30d rVWAP (Sept support cluster)",
+        "value": "76K"
+      },
+      "children": []
+    },
+    "stat-2024-vah": {
+      "type": "Stat",
+      "props": {
+        "label": "2024 VAH (downside gate)",
+        "value": "73.6K"
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099272574492360836"
+      },
+      "children": []
+    }
+  }
+}
