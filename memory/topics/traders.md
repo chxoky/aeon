@@ -222,8 +222,9 @@
 - Current open positions: Unknown (privacy narrative trader, technical analyst)
 - Recent thesis: Privacy-narrative bull (NEAR protocol alpha thesis); technical structure analyst (365d VWAP, yearly std dev bands, consolidation breakouts). Concern: BTC stability contingency for alt continuation. Conditional DCA plan: if BTC pulls back, NEAR on top of buy list (mispriced, lacks momentum relative to narrative). Strategy: mapping out areas that offer high probability reaction setups.
 - Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view). High conviction on NEAR mispricing relative to AI×Privacy narrative emerging thesis. PENDLE strength recognition on shorter timeframes (H1/H4) + yearly VWAP structure. Banter ratio: ~15-20%.
-- Last seen: 2026-09-13T21:25:53Z
+- Last seen: 2026-09-13T21:38:41Z
 - **Events (rolling):**
+  - Sep 13 21:38Z — informational-methodology: clarification on Fed hike data filtering; image excluded from webhook payload; only mapping BTC consolidation cases [$MACRO/$BTC/$RESEARCH] [2099251446973677576]
   - Sep 13 21:25Z — informational-methodology: statistical caveat post on hike data analysis (N=63 events, Dec 2018 & 2022-23 cycles, no cross-asset pooling); "take with grain of salt" data limitation disclaimer [$MACRO/$RESEARCH-CAVEAT] [2099248222711726589]
 - Last seen: 2026-09-13T21:25:50Z
 - **Events (rolling):**

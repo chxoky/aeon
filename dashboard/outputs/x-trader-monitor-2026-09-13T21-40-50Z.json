@@ -1,0 +1,120 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "context-stack",
+        "separator2",
+        "metadata-stack",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Follow-up clarification: I forgot to mention this image is an attempt at filtering to only map cases where BTC was consolidating into the event."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text1",
+        "context-text2",
+        "context-text3"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "context-text1": {
+      "type": "Text",
+      "props": {
+        "text": "Stoiiic is clarifying the data filtering approach on their Fed hike historical analysis."
+      },
+      "children": []
+    },
+    "context-text2": {
+      "type": "Text",
+      "props": {
+        "text": "They're narrowing the 63-event dataset to only hikes that occurred during BTC consolidation periods, not all cases."
+      },
+      "children": []
+    },
+    "context-text3": {
+      "type": "Text",
+      "props": {
+        "text": "Referenced chart unavailable in payload."
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp-text",
+        "classification-badge"
+      ]
+    },
+    "timestamp-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 13 21:25Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational — Methodology clarification",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2099251446973677576"
+      },
+      "children": []
+    }
+  }
+}
