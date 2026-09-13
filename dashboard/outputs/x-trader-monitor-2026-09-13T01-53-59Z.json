@@ -1,0 +1,138 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Market analysis and predictions"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "stats_stack",
+        "sep2",
+        "bull_section",
+        "sep3",
+        "prediction_section",
+        "sep4",
+        "follow_up_alert"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "BTC consolidation at monthly POC ahead of FOMC. Structure shows balanced resistance/support (~82K up vs ~73.6K down). \"Worst possible spot to open trade here\" — volatility expected."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_resistance",
+        "stat_support"
+      ]
+    },
+    "stat_resistance": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "$82K"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "$73.6K"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "bull_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "bull_heading",
+        "bull_thesis_text"
+      ]
+    },
+    "bull_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Bull Thesis",
+        "level": "h3"
+      }
+    },
+    "bull_thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "If shorts liquidate into FOMC announcement (25bps hike), the resulting candle marks the low; buying opportunity for ETH and PUMP to follow."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "prediction_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prediction_text",
+        "confidence_progress",
+        "view_post_link"
+      ]
+    },
+    "prediction_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sunday big move? Fade it with 90% confidence — breakouts unlikely until FOMC clarity."
+      }
+    },
+    "confidence_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 90,
+        "max": 100,
+        "label": "Fade Confidence"
+      }
+    },
+    "view_post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View full post",
+        "href": "https://x.com/bull_genius/status/2098951813764444642"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "follow_up_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Context Alignment",
+        "message": "Aligns with group caution on FOMC week volatility (CPI validated bottom, now macro tail-risk pricing into next week)",
+        "type": "info"
+      }
+    }
+  }
+}

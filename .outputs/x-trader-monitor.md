@@ -1,11 +1,11 @@
-🐦 *[X] @Stoiiic*
+🐦 *[X] @bull_genius*
 
-Here's a quick way to gauge strength on coins:
+BTC consolidation at monthly POC ahead of FOMC. Structure shows balanced resistance/support (~82K up vs ~73.6K down). "Worst possible spot to open trade here" — volatility expected.
 
-1. Go to TradingView
+Bull thesis: If shorts liquidate into FOMC announcement (25bps hike), the resulting candle marks the low; buying opportunity for ETH and PUMP to follow.
 
-2. search TraderXO Macro Trend Scanner - scan through H1, H4 and Daily (bonus: add 50 period EMA for slower trend)
+Sunday big move? Fade it with 90% confidence — breakouts unlikely until FOMC clarity.
 
-3. Add yearly VWAP with 1 sd. dev. band. - observe where coin is trading relative to 1 sd. dev. band.
+[View post](https://x.com/bull_genius/status/2098951813764444642)
 
-[View tweet](https://x.com/Stoiiic/status/2098943853600338012)
+↳ Aligns with group caution on FOMC week volatility (CPI validated bottom, now macro tail-risk pricing into next week)
