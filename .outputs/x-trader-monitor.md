@@ -1,13 +1,11 @@
-🔍 *Calibration — @bull_genius*
+🐦 *[X] @Stoiiic*
 
-Event: Reply to @algmgmi on X (Sep 13 01:12Z)
-@bull_genius: "@algmgmi if there is demand i will think of a way"
+Here's a quick way to gauge strength on coins:
 
-Unable to classify — context unknown. Is @algmgmi requesting:
-- A trade analysis/setup?
-- Charting/research service (which bull_genius offers)?
-- Personal advice on an unrelated matter?
+1. Go to TradingView
 
-Without the full thread context, I can't determine if this is financial. Your read?
+2. search TraderXO Macro Trend Scanner - scan through H1, H4 and Daily (bonus: add 50 period EMA for slower trend)
 
-Post: https://x.com/bull_genius/status/2098942851870601553
+3. Add yearly VWAP with 1 sd. dev. band. - observe where coin is trading relative to 1 sd. dev. band.
+
+[View tweet](https://x.com/Stoiiic/status/2098943853600338012)

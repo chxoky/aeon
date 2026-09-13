@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Here's a quick way to gauge strength on coins:\n\n1. Go to TradingView\n\n2. search TraderXO Macro Trend Scanner - scan through H1, H4 and Daily (bonus: add 50 period EMA for slower trend)\n\n3. Add yearly VWAP with 1 sd. dev. band. - observe where coin is trading relative to 1 sd. dev. band."
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2098943853600338012"
+      }
+    }
+  }
+}
