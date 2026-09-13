@@ -222,8 +222,9 @@
 - Current open positions: Unknown (privacy narrative trader, technical analyst)
 - Recent thesis: Privacy-narrative bull (NEAR protocol alpha thesis); technical structure analyst (365d VWAP, yearly std dev bands, consolidation breakouts). Concern: BTC stability contingency for alt continuation. Conditional DCA plan: if BTC pulls back, NEAR on top of buy list (mispriced, lacks momentum relative to narrative). Strategy: mapping out areas that offer high probability reaction setups.
 - Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view). High conviction on NEAR mispricing relative to AI×Privacy narrative emerging thesis. PENDLE strength recognition on shorter timeframes (H1/H4) + yearly VWAP structure. Banter ratio: ~15-20%.
-- Last seen: 2026-09-13T16:51:15Z
+- Last seen: 2026-09-13T21:25:53Z
 - **Events (rolling):**
+  - Sep 13 21:25Z — informational-methodology: statistical caveat post on hike data analysis (N=63 events, Dec 2018 & 2022-23 cycles, no cross-asset pooling); "take with grain of salt" data limitation disclaimer [$MACRO/$RESEARCH-CAVEAT] [2099248222711726589]
   - Sep 13 16:51Z — informational-methodology: reply to @MauritianMonsta on visual chart analysis approach (retracements, trend structure, BB levels); educational framework; no ticker/action [$FRAMEWORK] [2099179108785689030]
   - Sep 13 01:16Z — informational: technical methodology; TraderXO Macro Trend Scanner + yearly VWAP ±1σ framework [$FRAMEWORK] [2098943853600338012]
   - Sep 11 16:04Z — informational: BTC consolidation structure; rotation from VAL sweep low, cleaned up move, established compression zone 76-80K, break above 83K acceptance = no fade, break below requires finesse; spot vs perps dynamics analysis on cushion-buying vs persistent longing scenarios [$BTC] [2098442671119335841]
