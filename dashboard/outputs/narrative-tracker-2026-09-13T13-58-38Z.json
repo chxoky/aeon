@@ -1,0 +1,1041 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-13",
+        "description": "Crypto narratives by lifecycle, reflexivity patterns, and positioning"
+      },
+      "children": [
+        "section-transitions",
+        "sep-1",
+        "section-reflexivity",
+        "sep-2",
+        "section-positions",
+        "sep-3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-transitions",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1-header",
+        "t1-desc",
+        "t1-stat",
+        "t1-link"
+      ]
+    },
+    "t1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new",
+        "h-t1"
+      ]
+    },
+    "badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "h-t1": {
+      "type": "Heading",
+      "props": {
+        "text": "NFT Season / Argonauts",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "6-day escalating conviction. STANDARDRESERVE genesis charter mint Sep 14 on Robinhood chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ARGONAUTS floor 1D",
+        "value": "+41.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "t1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "The NFT Market Bottom Is In — Argonauts Are The Spark",
+        "href": "https://x.com/bull_genius/status/2099069963768045787",
+        "source": "@bull_genius"
+      },
+      "children": []
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t2-header",
+        "t2-desc",
+        "t2-stat",
+        "t2-link"
+      ]
+    },
+    "t2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new2",
+        "h-t2"
+      ]
+    },
+    "badge-new2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "h-t2": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Identity Layer",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "a16z notes bottleneck shifting from intelligence to identity. Coinbase, Kraken, OKX racing to build agent infrastructure. Olas production: 176M transactions",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "On-chain settlement volume",
+        "value": "$73M"
+      },
+      "children": []
+    },
+    "t2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Trends: AI Agents & Automation in Crypto",
+        "href": "https://a16zcrypto.com/posts/article/trends-ai-agents-automation-crypto/",
+        "source": "a16z Crypto"
+      },
+      "children": []
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t3-header",
+        "t3-desc",
+        "t3-link"
+      ]
+    },
+    "t3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new3",
+        "h-t3"
+      ]
+    },
+    "badge-new3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "h-t3": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC Daily Trend Test",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Target: 1,000 fill by Sep 18. OI reset, 3-chart technical setup",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ZEC Daily Technical Setup",
+        "href": "https://x.com/Wild_Randomness/status/2098988985234407463",
+        "source": "@Wild_Randomness"
+      },
+      "children": []
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t4-header",
+        "t4-desc"
+      ]
+    },
+    "t4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new4",
+        "h-t4"
+      ]
+    },
+    "badge-new4": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "h-t4": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain / Standard Reserve",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Genesis mint Sep 14 (Dutch auction). ARGONAUTS + ARTIFICIAL-INU + ROBINHOOD-TOKEN thesis converging on Robinhood as NFT/DeFi onramp",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "refl-1",
+        "refl-2"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "refl-1": {
+      "type": "Alert",
+      "props": {
+        "title": "NFT Season self-amplification",
+        "message": "@bull_genius authored and reshared \"The NFT Market Bottom Is In. Argonauts Are The Spark\". ARGONAUTS floor jumped +41.7% 1D same day narrative amplified. Story directly moving floor price.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "refl-2": {
+      "type": "Alert",
+      "props": {
+        "title": "STANDARDRESERVE FOMO loop",
+        "message": "\"Expect dutch to insta sell out\" prediction creates self-fulfilling FOMO ahead of Sep 14 launch",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-positions",
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5",
+        "pos-6",
+        "pos-7"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p1-header",
+        "p1-desc",
+        "p1-bear"
+      ]
+    },
+    "p1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun1",
+        "h-pos1",
+        "p1-mindshare",
+        "badge-bull1"
+      ]
+    },
+    "badge-frontrun1": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "h-pos1": {
+      "type": "Heading",
+      "props": {
+        "text": "NFT Season / Argonauts",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p1-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "mindshare",
+        "value": "3/5",
+        "delta": "↑↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-bull1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "p1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius 6-day escalation, Hashcat 983 active mints, STANDARDRESERVE Sep 14 catalyst",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p1-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "1-trader narrative, no cross-trader confirmation yet",
+        "type": "info"
+      },
+      "children": []
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p2-header",
+        "p2-desc",
+        "p2-bear"
+      ]
+    },
+    "p2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun2",
+        "h-pos2",
+        "p2-mindshare",
+        "badge-bull2"
+      ]
+    },
+    "badge-frontrun2": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "h-pos2": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain / STANDARDRESERVE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p2-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "mindshare",
+        "value": "2/5",
+        "delta": "↑↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-bull2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "p2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Concrete Sep 14 genesis launch. ARGONAUTS + ROBINHOOD-TOKEN + ARTIFICIAL-INU convergence",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p2-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "New chain, thin liquidity, dutch-auction pump-dump risk",
+        "type": "info"
+      },
+      "children": []
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p3-header",
+        "p3-desc",
+        "p3-bear"
+      ]
+    },
+    "p3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride1",
+        "h-pos3",
+        "p3-mindshare",
+        "badge-bull3"
+      ]
+    },
+    "badge-ride1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "h-pos3": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agents × Crypto",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p3-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "mindshare",
+        "value": "4/5",
+        "delta": "↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-bull3": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "p3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "a16z leadership, Coinbase/Kraken/OKX infrastructure race, Olas production traffic, identity bottleneck as emerging sub-narrative",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p3-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "Most AI-crypto tokens thin on production vs narrative",
+        "type": "info"
+      },
+      "children": []
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p4-header",
+        "p4-desc",
+        "p4-bear"
+      ]
+    },
+    "p4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride2",
+        "h-pos4",
+        "p4-mindshare",
+        "badge-bull4"
+      ]
+    },
+    "badge-ride2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "h-pos4": {
+      "type": "Heading",
+      "props": {
+        "text": "Bittensor / Monad / 0G Labs",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p4-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "mindshare",
+        "value": "4/5",
+        "delta": "→",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "badge-bull4": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "p4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito top-3 mindshare leaders Sep 2026",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p4-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear case",
+        "message": "Saturated, no fresh catalyst",
+        "type": "info"
+      },
+      "children": []
+    },
+    "pos-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p5-header",
+        "p5-desc",
+        "p5-bear"
+      ]
+    },
+    "p5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade",
+        "h-pos5",
+        "p5-mindshare",
+        "badge-bear"
+      ]
+    },
+    "badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "h-pos5": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Hawkish / CL Crude",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p5-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "mindshare",
+        "value": "3/5",
+        "delta": "↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-bear": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "p5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@HeartCanHodl conviction short adds Sep 13. @Wild_Randomness rates+crude thesis. Brent $102+. FOMC hike odds 63.5%. Crypto headwind narrative",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p5-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Counter-risk",
+        "message": "Energy disruption could reverse this fade thesis",
+        "type": "info"
+      },
+      "children": []
+    },
+    "pos-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p6-header",
+        "p6-desc",
+        "p6-gate"
+      ]
+    },
+    "p6-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch1",
+        "h-pos6",
+        "p6-mindshare",
+        "badge-mixed1"
+      ]
+    },
+    "badge-watch1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "h-pos6": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Structural Bottom",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p6-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "mindshare",
+        "value": "4/5",
+        "delta": "→",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "badge-mixed1": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "p6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "KillaXBT 3-4% upside inverse-move prediction. bull_genius 7D RVWAP + Sept POC entry zones. t_in_crypto bearish 44-39K divergence",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p6-gate": {
+      "type": "Alert",
+      "props": {
+        "title": "Gate",
+        "message": "FOMC Sep 16",
+        "type": "info"
+      },
+      "children": []
+    },
+    "pos-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p7-header",
+        "p7-desc"
+      ]
+    },
+    "p7-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch2",
+        "h-pos7",
+        "p7-mindshare",
+        "badge-mixed2"
+      ]
+    },
+    "badge-watch2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "h-pos7": {
+      "type": "Heading",
+      "props": {
+        "text": "FOMC Sep 16",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p7-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "mindshare",
+        "value": "5/5",
+        "delta": "→",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "badge-mixed2": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "p7-desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p7-text1",
+        "p7-text2",
+        "p7-text3"
+      ]
+    },
+    "p7-text1": {
+      "type": "Text",
+      "props": {
+        "text": "Single highest-impact event this month",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p7-text2": {
+      "type": "Stat",
+      "props": {
+        "label": "25bps hike priced",
+        "value": "63.5%"
+      },
+      "children": []
+    },
+    "p7-text3": {
+      "type": "Stat",
+      "props": {
+        "label": "Crypto MTD rally (rates-driven)",
+        "value": "+17.6%"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "NARRATIVE MAP (Lifecycle)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-emerging",
+        "t-emerging"
+      ]
+    },
+    "h-emerging": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t-emerging": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC daily test · Robinhood Chain / STANDARDRESERVE",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-rising",
+        "t-rising"
+      ]
+    },
+    "h-rising": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t-rising": {
+      "type": "Text",
+      "props": {
+        "text": "NFT Season / Argonauts · AI Agent Identity Layer",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-peak",
+        "t-peak"
+      ]
+    },
+    "h-peak": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t-peak": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Sep 16 · BTC Structural Bottom · Bittensor / Monad / 0G",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-fading",
+        "t-fading"
+      ]
+    },
+    "h-fading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t-fading": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Stablecoins",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
