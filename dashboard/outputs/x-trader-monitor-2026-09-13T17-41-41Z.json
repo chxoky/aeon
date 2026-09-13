@@ -1,0 +1,68 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "links-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "Strategy for $STANDARD reserve launch: describes a 'no loss strat' (per simulators) with caveats on real parameters, tax complexity (90% decay), and market participant behavior. Mints expected public immediately at 1.25 ETH. Trader has whitelist and plans to participate ('will mint and play the game')."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "links-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "substack-link",
+        "tweet-link"
+      ]
+    },
+    "substack-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Substack deep-dive",
+        "href": "https://bmgfromx.substack.com",
+        "source": "Substack"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099190926509814021"
+      }
+    }
+  }
+}
