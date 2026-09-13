@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Flat below POC, wouldn't bother shorting it (it's literally one of the 3-4 special coins that can/will sustainably outperform BTC)\n\nWanting to fill daily trend test at 1000 by Wednesday\n\nOI reset nicely"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_detail",
+        "view_link"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "context_detail": {
+      "type": "Text",
+      "props": {
+        "text": "4H consolidation at 1,140.81 below ~1,200 POC; 1D daily trendline shows uptrend structure targeting 1,000 fill by end-of-week; aggregated OI decline from 2B→1.451B (speculative pressure relief)",
+        "variant": "body"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2098988985234407463"
+      }
+    }
+  }
+}
