@@ -1,0 +1,227 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration Request",
+        "description": "Cryptic market notation requiring interpretation"
+      },
+      "children": [
+        "event_section",
+        "separator_1",
+        "message_section",
+        "separator_2",
+        "classification_section",
+        "separator_3",
+        "context_section"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "event_details"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_channel",
+        "event_author",
+        "event_time"
+      ]
+    },
+    "event_channel": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: Primary Trades channel (DC: HCH — Trades)",
+        "variant": "body"
+      }
+    },
+    "event_author": {
+      "type": "Text",
+      "props": {
+        "text": "Author: heartcanhodl",
+        "variant": "body"
+      }
+    },
+    "event_time": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: Sep 13 11:26Z",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_label",
+        "message_content"
+      ]
+    },
+    "message_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc clusdt 1hr\"",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification_status",
+        "interpretation_label",
+        "interpretations_stack"
+      ]
+    },
+    "classification_status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to Classify",
+        "message": "Message meaning is unclear. Your read requested."
+      }
+    },
+    "interpretation_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_1",
+        "interp_2",
+        "interp_3"
+      ]
+    },
+    "interp_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Floor Check cluster",
+        "variant": "outline"
+      }
+    },
+    "interp_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Force Close cluster",
+        "variant": "outline"
+      }
+    },
+    "interp_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Other technical notation",
+        "variant": "outline"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_label",
+        "context_details"
+      ]
+    },
+    "context_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_prior",
+        "context_positions",
+        "context_market"
+      ]
+    },
+    "context_prior": {
+      "type": "Text",
+      "props": {
+        "text": "Prior similar message: Sep 12 07:10Z",
+        "variant": "body"
+      }
+    },
+    "context_positions": {
+      "type": "Text",
+      "props": {
+        "text": "Ongoing DCA positions",
+        "variant": "body"
+      }
+    },
+    "context_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market condition: BTC consolidation",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Trades]*
 
 **Discord Trader Monitor Skill — Execution Complete**
 
@@ -24,3 +24,7 @@ Processed real-time Discord event from HeartCanHodl:
    - **memory/logs/2026-09-13.md**: Detailed execution log entry appended
 
 **Position Context:** HCH maintains CL short from Aug 18-19 entries (2% allocation). Sep 13 message shows tactical re-entry of partial position previously covered, indicating sustained bearish crude oil conviction on macro energy thesis.
+Event: Cryptic market notation, primary Trades channel (Sep 13 11:26Z)
+heartcanhodl: "Fc clusdt 1hr"
+
+Unable to classify — what's your read? Possible interpretations: Floor Check cluster, Force Close cluster, or other technical notation. Prior similar message Sep 12 07:10Z. Context: ongoing DCA positions, BTC consolidation.
