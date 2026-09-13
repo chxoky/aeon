@@ -190,8 +190,9 @@
 - Recent thesis: **ESCALATING ARGONAUTS CONVICTION** (Sep 07–13 five-mention window). Thesis: Argonauts moat is community + founder creativity (immune from 0); asymmetric beta to ETH; sub-1 ETH is "total no-brainer" entry; expects eventual correction 3-5 ETH range but "kingmaker from day 1" conviction frames long-term hold thesis; "months ahead of broader market" macro framing on NFT recovery cycle.
 - Conviction notes: NFT market recovery believer (Sep 07 position statement → Sep 12 Substack + narrative escalation → Sep 13 market structure + thesis reinforcement). Protocol design depth (FWA analysis Aug 03 = non-NFT diversification, gaming mechanics bull thesis). Founder/community narrative focus (Argonauts: Ack as captain).
 - Calibration: None active (all ARGONAUTS mentions INFORMATIONAL-only, no personal execution signals per prior Sep 12 threshold).
-- Last seen: 2026-09-13T22:05:00Z
+- Last seen: 2026-09-13T22:46:11Z
 - **Events (rolling):**
+  - Sep 13 22:46Z — informational: pump looks cheap; 15m chart oversold (RSI 32.23), support cluster 0.004063-0.004200 validates 3-entry long thesis [$PUMP] [2099268433925865486]
   - Sep 13 22:05Z — informational-escalation: Argonauts thesis reinforcement; "extremely asymmetric beta to eth"; sub 1 eth = "total no brainer"; community moat (founder + creativity); months ahead of broader market; FOURTH mention, further conviction escalation [$ARGONAUTS] [2099258068588482926]
 
 ## swarmister

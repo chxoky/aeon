@@ -1,0 +1,64 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_header",
+        "tweet_card",
+        "tweet_link",
+        "separator",
+        "analysis_text"
+      ]
+    },
+    "tweet_header": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 *[X] @bull_genius",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "pump looks cheap"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099268433925865486"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ PUMP 15m chart shows oversold (RSI 32.23) after recent dump to 0.004244; support cluster at 0.004063-0.004200 zone; validates existing long thesis (3 entries Sep 05-09).",
+        "variant": "body"
+      }
+    }
+  }
+}
