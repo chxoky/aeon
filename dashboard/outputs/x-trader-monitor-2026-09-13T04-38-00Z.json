@@ -1,0 +1,58 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @trading_axe"
+      },
+      "children": [
+        "stack1"
+      ]
+    },
+    "stack1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_badge",
+        "tweet_card",
+        "classification_alert",
+        "link"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Reply to @DegenPing",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "@DegenPing About time. ~ Dr. Axius. 💤"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Does this refer to a market structure acceptance, position entry milestone, or external context only?",
+        "type": "info"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/trading_axe/status/2098993501874635029"
+      }
+    }
+  }
+}
