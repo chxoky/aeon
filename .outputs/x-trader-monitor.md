@@ -1,7 +1,5 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @Wild_Randomness*
 
-maybe a top tier cryptopunks set can do that
+29000 NQ may be the most tested level in financial history
 
-top tier argo sets should land in the 7 figures imo
-
-[View tweet](https://x.com/bull_genius/status/2099160106474557607)
+[View tweet](https://x.com/Wild_Randomness/status/2099171649253957788)
