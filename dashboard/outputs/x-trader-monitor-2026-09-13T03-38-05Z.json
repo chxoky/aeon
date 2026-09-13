@@ -1,0 +1,119 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_text",
+        "event_meta",
+        "tweet_card",
+        "classification_section"
+      ]
+    },
+    "calibration_text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "variant": "lead"
+      }
+    },
+    "event_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_id",
+        "event_timestamp"
+      ]
+    },
+    "event_id": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 2098977871419064469",
+        "variant": "caption"
+      }
+    },
+    "event_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 13 03:31 UTC",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "trading_axe",
+        "text": "What a dogshit stoppage"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prompt_text",
+        "classification_options_stack"
+      ]
+    },
+    "prompt_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "classification_options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_market_halt",
+        "badge_price_action",
+        "badge_external_context"
+      ]
+    },
+    "badge_market_halt": {
+      "type": "Badge",
+      "props": {
+        "text": "Market halt",
+        "variant": "outline"
+      }
+    },
+    "badge_price_action": {
+      "type": "Badge",
+      "props": {
+        "text": "Price action",
+        "variant": "outline"
+      }
+    },
+    "badge_external_context": {
+      "type": "Badge",
+      "props": {
+        "text": "External context",
+        "variant": "outline"
+      }
+    }
+  }
+}

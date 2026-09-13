@@ -14,3 +14,10 @@
 4. ✓ **Silent skip** — no alert to Kyle
 
 **Outcome:** Event properly filtered as noise. No false positives sent. Task complete.
+🔍 *Calibration — @trading_axe*
+
+Event: 2098977871419064469 (Sep 13 03:31 UTC)
+
+trading_axe: "What a dogshit stoppage"
+
+Unable to classify — what's your read? Market halt, price action, external context?
