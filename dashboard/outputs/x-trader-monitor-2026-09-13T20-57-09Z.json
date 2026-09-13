@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "Gold forming potential Head & Shoulders pattern on daily chart, currently testing major descending trendline as support. Confirmed break below would strengthen bearish setup and open door toward support zone.\n\n@bluebull_CUO indicator validates pattern (captured prior two major highs with sell signals before declines). Now rolled over below midline while price tests critical support.\n\nCombined indicator + market structure approach.\n\n**CROSS-TRADER CONVERGENCE UPDATE**: Three-trader GOLD focus — KillaXBT (active SHORT Aug 09, aiming down), Wild_Randomness (XAUUSD/SPX ratio technical structure), Bitcoin_Astro (H&S pattern + trendline break). Bearish technical convergence emerging."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Bitcoin_Astro/status/2099239680999038989"
+      }
+    }
+  }
+}
