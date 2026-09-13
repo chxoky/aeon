@@ -830,26 +830,24 @@
 
 - Platforms: X (Twitter)
 - Current open positions: None stated in current activity; historical closed CASHCAT 15x long (profitable exit)
-- Recent thesis: BTC technical analyst. Structural analysis (price structure, RSI divergence, rVWAP levels). Interest in meme-coin consolidation patterns. Recognition of undervalued projects.
+- Recent thesis: BTC technical analyst. Structural analysis (price structure, RSI divergence, rVWAP levels). Interest in meme-coin consolidation patterns. Recognition of undervalued projects. Expanding NFT market recovery conviction.
 - Conviction notes: Prior technical analyst on CASHCAT profited 15x. BTC analysis focus (4H perpetual charting). Medium conviction on emerging meme/sentiment tokens. Business model: bitcoin:native charting + research offering (free basics, paid subs get long-form research/Telegram).
 - Calibration: None yet
-- Last seen: 2026-09-11T22:46:48Z
+- Last seen: 2026-09-13T01:02:11Z
 - **Events (rolling):**
-  - Sep 11 22:46Z — informational: BTC/ETH structural outlook; "i think ETH looks really good... as soon as BTC bottoms out it flies"; conditional BTC-bottom-triggers-ETH-rally thesis; 2-chart technical setup (BTC consolidation + ETH structural setup); aligns with Sep 10 16:46Z "bear market bottom" conviction + multi-timeframe rVWAP analysis; continuation of HTF bullish structural view [$ETH/$BTC] [2098543812054290667]
-- Last seen: 2026-09-12T22:18:34Z
-- **Events (rolling):**
+  - Sep 13 01:02Z — informational: research announcement for paid subs; three NFT/adjacent projects on Robinhood being analyzed; "too early/small for public access", directing to blog and premium Telegram for ongoing updates; service/content announcement, not personal execution [$NFT/$ROBINHOOD] [2098940269362243538]
   - Sep 12 22:18Z — informational: NFT market recovery bull thesis; Argonauts holder community fundamental analysis (2331 unique owners, ~20-30% of active NFT right now); bullish on strongest-handed cohort resilience after 4-year bear; philosophical macro conviction "its about time, it is LONG overdue"; no personal trade action [$NFT/$ARGONAUTS] [2098899095800742286]
   - Sep 12 15:24Z — informational: ROBINHOOD token (robinhood:0x2e8c31162b855a2ffa90f6f8634643ad6f111e18) price target; "think robinhood...pulls a 2-3x in the near future"; bullish consolidation conviction on emerging Robinhood chain token; price prediction/technical opinion, no execution action [$ROBINHOOD] [2098795012574077406]
   - Sep 12 12:56Z — informational: trading philosophy reply to @kryptRR5; "that sounds more emotional rather than rational...morally dislike pump but we are trying to make money here"; personal conviction statement on PUMP thesis (psychology over morality); reinforces profit-motive stance on existing PUMP positions [$PUMP/$PSYCHOLOGY] [2098757597847306480]
   - Sep 12 12:40Z — informational: PUMP bottomed confirmation; terse follow-up technical opinion to Sep 11 23:21Z analysis; conviction escalation from "possible low" to "bottomed"; no chart/no personal trade action [$PUMP] [2098753619092787269]
   - Sep 11 23:21Z — informational: PUMP 4h technical setup; "interesting spot here...could be a possible low lets see weekend"; chart shows RSI 31.77 (oversold), multiple VWAP levels, labeled "wick fill" event; potential consolidation bottom observation [$PUMP] [2098552432171089949]
   - Sep 11 22:49Z — informational: ETH/BTC technical analysis; shared 1D charts (ETH 2,400–2,530 range + multi-VWAP confluence, BTC 80K+ 365D rVWAP level); bullish ETH sentiment conditional on BTC bottom; "as soon as BTC bottoms out it flies"; personal posture: "take weekend off and chill, next week decision time" (not executing yet, waiting); sentiment + technical sharing [$BTC/$ETH] [2098544584225697880]
+  - Sep 11 22:46Z — informational: BTC/ETH structural outlook; "i think ETH looks really good... as soon as BTC bottoms out it flies"; conditional BTC-bottom-triggers-ETH-rally thesis; 2-chart technical setup (BTC consolidation + ETH structural setup); aligns with Sep 10 16:46Z "bear market bottom" conviction + multi-timeframe rVWAP analysis; continuation of HTF bullish structural view [$ETH/$BTC] [2098543812054290667]
   - Sep 11 22:13Z — ambiguous-cryptic: reply to @cipher1knight on mining-related asset; "maybe worth a revisit when things calm down and mining is over" = conditional future bullish; "otherwise just hard inflation / absolutely not buy these lol" = current strong bearish; no explicit ticker; cryptic reply context requires Kyle calibration on asset identity (HR-2) [$UNKNOWN/$MINING-IMPLIED] [2098535442727473307]
   - Sep 11 14:04Z — informational: BTC technical setup; 30D/7D rVWAP frontrun with hammer candlestick formation; entry suggestion above 7D/ATH aVWAP level; bullish consolidation bias [$BTC] [2098412311807484382]
   - Sep 11 12:16Z — informational: macro conviction on rate hike scares as cycle buying opportunity; bullish sentiment affirmation [$BTC/$MACRO] [2098385114723971431]
   - Sep 11 08:44Z — ambiguous-cryptic: reply to @blancxbt "@blancxbt objectively false"; single-word dismissal, no context visible; HR-2 calibration sent [$UNKNOWN] [2098331893431140528]
   - Sep 11 06:56Z — informational: BTC 4H structure analysis; resistance 80K+ (365D level), retest to 30D rVWAP ~75K expected; RSI cooling at 38.23 (lower timeframe pivot pattern); bullish divergence setup; business announcement (bitcoin:native charting/research model launch) [$BTC] [2098304770372952347]
-  - Sep 12 22:16Z — informational: NFT market sentiment; strongest-handed cohort recovery thesis; philosophical conviction [NFT/$ARGONAUTS] [2098898672826163635]
   - Sep 10 08:25Z — informational: NFT market recovery sentiment; art appreciation analysis; 1000s new users on OpenSea signal HTF reversal [$NFT] [2097964723245371452]
   - Sep 08 21:32Z — informational: altcoin sentiment + consolidation opportunity; $CASHCAT revisit + $PONS mention; bullish on "interesting one" but prefers other runners [$CASHCAT/$PONS] [2097437919816610243]
 

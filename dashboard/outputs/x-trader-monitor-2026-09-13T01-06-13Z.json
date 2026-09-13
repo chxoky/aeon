@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "platform-badge",
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "platform-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "X",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "research update for paid subs\n\nwe are looking at three NFT/adjacent projects on robinhood today. too early/small for public access\n\nworthy to look closer, will update the blog as it goes and premium telegram is always up to date"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2098940269362243538"
+      },
+      "children": []
+    }
+  }
+}
