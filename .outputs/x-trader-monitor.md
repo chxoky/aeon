@@ -1,21 +1,17 @@
-🐦 *[X] @t_in_crypto*
+🐦 *[X] @bull_genius*
 
-BTC trading date calendar; cyclical/astrological framework marking key September dates:
-• 2 & 4
-• 6-8 window (!!!)
-• 11 ± 1D
-• 14
-• Peak of wave: 29
+**Robinhood** (0x2e8c31162b855a2ffa90f6f8634643ad6f111e18) — Market Analysis
 
-October dates teased for future share.
+No second attempt for the high, instead another rejection back into value zone and at 7d rVWAP / Sept POC.
 
-[View tweet](https://x.com/t_in_crypto/status/2099100195967402037)
-Elliott Wave timing analysis: Sep 29 marked as **peak of wave** on their chart.
+ATH got delayed by a bit, thinking connected to pre-FOMC fears and possible rotation due to yesterday's PumpFun announcement. Maybe traders expect a PumpFun offensive going for Robinhood meme market share.
 
-_"I deliberately left the date of Sep 29 open...I want to emphasize that it falls on a wave peak on my chart. The previous wave peak was on Aug 14, and long before that, I had mentioned in my group that it was a very significant date—one that would mark a strong turning point $btc"_
+Unexpected weakness: such rejection usually means a larger scale correction below $180M could be about to happen.
 
-Chart shows handwritten Elliott Wave dates: Sep 2, 4, 6-8 window, 11±1D, 14, **29 (PEAK)**, Oct dates TBD.
+**Caveat**: weekend price action less relevant, FOMC coming, but this coin lost its relative strength right after the PUMP announcement.
 
-[View post](https://x.com/t_in_crypto/status/2099101032617849222)
+September VAH might turn to resistance.
 
-↳ Aligns with Sep 10 Elliott Wave setup thesis + established Sep/Oct significance conviction.
+**Long-term outlook**: still no change. Short-term outlook only gets better if 300M+ is reclaimed with confidence — this is merely a shakeout.
+
+[View post](https://x.com/bull_genius/status/2099108350650622188)
