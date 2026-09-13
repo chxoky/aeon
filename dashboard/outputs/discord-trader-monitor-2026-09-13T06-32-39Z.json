@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_cal",
+        "sep1",
+        "body_stack"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "body_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trader_info",
+        "message_section",
+        "classification_alert",
+        "question_text"
+      ]
+    },
+    "trader_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trader_label",
+        "trader_badge"
+      ]
+    },
+    "trader_label": {
+      "type": "Text",
+      "props": {
+        "text": "Trader:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trader_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "heartcanhodl (supporting channel)"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg_label",
+        "msg_text"
+      ]
+    },
+    "msg_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "msg_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc muusdt 1hr",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to classify — appears related to Sep 12 07:10Z \"Fc clusdt 1hr\" pattern. Cryptic shorthand (Floor Check? Force Close?)."
+      },
+      "children": []
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
