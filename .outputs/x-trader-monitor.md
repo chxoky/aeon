@@ -1,24 +1,7 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @abetrade*
 
-Strategy for $STANDARD reserve launch: describes a 'no loss strat' (per simulators) with caveats on real parameters, tax complexity (90% decay), and market participant behavior. Mints expected public immediately at 1.25 ETH. Trader has whitelist and plans to participate ('will mint and play the game').
+shorting volatility is fun; it is fun mostly because of all the memes and massive blowouts it caused over the year. is there a way to short volatility without waking up homeless if someone eats bat in china? yes, but you need set of clever rules and strategies
 
-Substack deep-dive linked (bmgfromx.substack.com)
+Strategy evidence: SICK STRATEGY FROM BLOG.TRADINGHOT.COM backtest results show 23.0% CAGR with 1.74 Sharpe Ratio vs SPY 14.6% CAGR / 1.01 Sharpe; lower volatility (12.5% vs 14.6%), lower max drawdown (-14.5% vs -20.3%) over 2021-2026 period.
 
-[View tweet](https://x.com/bull_genius/status/2099190926509814021)
-✅ **X Trader Monitor execution complete**
-
-**Event processed:**
-- **Trader:** @swarmister
-- **Tweet ID:** 2099191698303721502
-- **Classification:** Skip (non-financial)
-- **Content:** Personal post about considering adopting a second cat as companion for existing pet
-- **Action:** Logged to memory but not alerted
-
-**Steps executed:**
-1. ✓ Decoded base64 event JSON successfully
-2. ✓ Classified as Step 4A (Non-financial) — personal life post with zero financial content
-3. ✓ Added tweet ID to `memory/x-trader-seen.txt` for dedup tracking
-4. ✓ Logged full event to `memory/logs/2026-09-13.md`
-5. ✓ No notification sent (per HR-A skip protocol)
-
-The post contains no trading signals, market commentary, or financial activity — it's purely personal life discussion about pet adoption, so it was correctly skipped per the skill's hardcoded rules.
+[View tweet](https://x.com/abetrade/status/2099192530508148982)

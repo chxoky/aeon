@@ -872,6 +872,7 @@
   - Sep 07 21:02Z — informational: options expiration availability; @LSDinmycoffee engagement; dropdown shows chain expirations 28d-833d [$OPTIONS/$VOL] [2097068047634772258]
   - Sep 07 21:14Z — informational: opinion on GLD ETF vs futures for long-term; single-trader mention on Kyle's watch list [$GLD] [2097070934905561473]
   - Sep 11 13:19Z — ambiguous-cryptic: reply to @FoftyPawlow/@deltaxbt "gold is mentioned there almost as many times as fartcoin"; context unclear (original posts not visible); HR-2 calibration sent [$GOLD/$FARTCOIN] [2098401029586907208]
+  - Sep 13 17:44Z — informational: educational strategy share; volatility-shorting strategy performance post w/ backtest results (23% CAGR, 1.74 Sharpe vs SPY 14.6% CAGR, 1.01 Sharpe; -14.5% DD vs -20.3%); no personal execution language; aligns with existing options volatility specialist profile & Sep vol-bottom thesis [$VOL/$STRATEGY] [2099192530508148982]
 
 ## bull_genius
 

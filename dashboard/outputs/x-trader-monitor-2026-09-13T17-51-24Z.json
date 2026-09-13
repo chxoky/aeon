@@ -1,0 +1,153 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor — Volatility Shorting Strategy"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "evidence_heading",
+        "story_link",
+        "sep2",
+        "perf_heading",
+        "stats_grid",
+        "sep3",
+        "tweet_link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "abetrade",
+        "handle": "abetrade",
+        "text": "shorting volatility is fun; it is fun mostly because of all the memes and massive blowouts it caused over the year. is there a way to short volatility without waking up homeless if someone eats bat in china? yes, but you need set of clever rules and strategies"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "evidence_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Strategy Evidence",
+        "level": "h3"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SICK STRATEGY Backtest Results",
+        "href": "https://blog.tradinghot.com",
+        "source": "blog.tradinghot.com"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "perf_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Performance Comparison (2021-2026)",
+        "level": "h3"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_cagr",
+        "stat_sharpe",
+        "stat_vol",
+        "stat_dd",
+        "stat_spy_cagr",
+        "stat_spy_sharpe",
+        "stat_spy_vol",
+        "stat_spy_dd"
+      ]
+    },
+    "stat_cagr": {
+      "type": "Stat",
+      "props": {
+        "label": "Strategy CAGR",
+        "value": "23.0%",
+        "delta": "+8.4%",
+        "trend": "up"
+      }
+    },
+    "stat_sharpe": {
+      "type": "Stat",
+      "props": {
+        "label": "Strategy Sharpe Ratio",
+        "value": "1.74",
+        "delta": "+0.73",
+        "trend": "up"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Strategy Volatility",
+        "value": "12.5%",
+        "delta": "-2.1%",
+        "trend": "down"
+      }
+    },
+    "stat_dd": {
+      "type": "Stat",
+      "props": {
+        "label": "Strategy Max Drawdown",
+        "value": "-14.5%",
+        "delta": "+5.8%",
+        "trend": "up"
+      }
+    },
+    "stat_spy_cagr": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY CAGR",
+        "value": "14.6%"
+      }
+    },
+    "stat_spy_sharpe": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY Sharpe Ratio",
+        "value": "1.01"
+      }
+    },
+    "stat_spy_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY Volatility",
+        "value": "14.6%"
+      }
+    },
+    "stat_spy_dd": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY Max Drawdown",
+        "value": "-20.3%"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/abetrade/status/2099192530508148982"
+      }
+    }
+  }
+}
