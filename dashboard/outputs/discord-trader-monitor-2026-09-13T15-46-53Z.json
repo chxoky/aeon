@@ -1,0 +1,181 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "TradFi analyst tracking: Crypto_Chase S&P discussion"
+      },
+      "children": [
+        "section-prior",
+        "separator-1",
+        "section-current",
+        "separator-2",
+        "section-classification"
+      ]
+    },
+    "section-prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-prior",
+        "badges-prior",
+        "text-prior"
+      ]
+    },
+    "heading-prior": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior Message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badges-prior": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-user",
+        "badge-time-prior"
+      ]
+    },
+    "badge-user": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-time-prior": {
+      "type": "Badge",
+      "props": {
+        "text": "15:37Z (6min prior)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-prior": {
+      "type": "Text",
+      "props": {
+        "text": "Expressed long-term S&P accumulation hope",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-current": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-current",
+        "badges-current",
+        "text-current-msg",
+        "text-image-note"
+      ]
+    },
+    "heading-current": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "badges-current": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-user-current",
+        "badge-time-current"
+      ]
+    },
+    "badge-user-current": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto_chase",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-time-current": {
+      "type": "Badge",
+      "props": {
+        "text": "15:43:41Z",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-current-msg": {
+      "type": "Text",
+      "props": {
+        "text": "\"Yeah there's more detail\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-image-note": {
+      "type": "Text",
+      "props": {
+        "text": "Image attachment (CDN unavailable to analyze)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-classification": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert-classification",
+        "text-question"
+      ]
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Image context needed to determine intent",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "Is this continuation of S&P/equities analysis, or unrelated detail on different topic?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
