@@ -1,0 +1,23 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "message-card"
+      ]
+    },
+    "message-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Chase",
+        "handle": "DC — TradFi",
+        "text": "I feel like I've answered this many times lol really depends on the situation. I'll over-risk a fuck ton (on like serious crashes, like tariff 2024, iran 2025 etc), then trim a lot, and then hold some for the long term, but I end up mostly getting rid of all of it over time"
+      }
+    }
+  }
+}

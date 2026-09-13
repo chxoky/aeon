@@ -110,6 +110,8 @@
 - Recent thesis: Technical mean-reversion on BTC structure; respect liquidity clusters 75.5–76.5K below current; multi-timeframe chart-driven entry discipline; positions aligned with HTF support/resistance zones.
 - Conviction notes: TradFi equities optimism emerging (Sep 13 15:37Z conviction on long-term S&P accumulation); Crypto primary-channel trader (deliberate trade plans). Supporting channels = real-time conviction shifts, member Q&A context.
 - Last seen: 2026-09-13T15:37:14.982000+00:00
+- Conviction notes: TradFi equities skepticism (Tesla "ugly chart, no interest"); Crypto primary-channel trader (deliberate trade plans). Supporting channels = real-time conviction shifts, member Q&A context.
+- Last seen: 2026-09-13T15:38:37.479000+00:00
 - **Events (rolling):**
   - Sep 13 15:37Z — informational (supporting channel): TradFi equities sentiment; "Yeah I'm really hoping we get some long-term S&P buys over the next year"; personal hope/conviction on S&P broad-market long-term accumulation window; 1-year horizon thesis; no execution language, no personal action ("I bought" = missing); sentiment/belief statement on equities market structure; supporting-channel conviction shift reaffirms TradFi optimism (contrast with Sep 12 15:58Z ambiguity); fast-path=false, Telegram alert sent [$SPX/$MACRO] [1548719216318881793]
   - Sep 12 15:58Z — ambiguous-cryptic (primary channel): "guaranteed on this one for those taking the time out of their Saturday" (Discord Chase — Chase); cryptic market conviction statement; no ticker explicit; no first-person explicit execution language; "this one" = unknown reference (prior trade context? ticker? setup?); Saturday context unclear (weekend timing signal? member banter?); requires Kyle calibration on intent & asset reference (HR-2) [$UNKNOWN] [1548362257115779083]
@@ -119,6 +121,7 @@
   - Sep 11 15:55Z — informational (supporting channel): ETH/BTC correlation skepticism; market commentary on "random ETH pump to fill inefficiency without Bitcoin leading" = questionable move structurally; no personal action [$ETH/$BTC/$MACRO] [1547999132822806599]
   - Sep 11 15:57Z — ambiguous-cryptic: "Pretty sure I even said we would scam this morning in the video yesterday" (Discord supporting channel Chase — Crypto); cryptic reference to external video/context; unclear market intent or personal action; possible sarcasm on price action; requires Kyle calibration (HR-2) [$UNKNOWN/CONTEXT-DEPENDENT] [1547999660055199835]
   - Sep 11 00:35Z — ambiguous-cryptic: "Imagine this is the state in 2 daily green candles.." Discord primary channel (HCH — Free); hypothetical scenario/chart pattern reference, no ticker explicit, no personal action language; context: HCH building BTC DCA continuation long (Sep 10 76.7→74s entries). Cryptic phrasing requires Kyle calibration ask (HR-2). Could reference 2D recovery setup or pattern recognition teaching. [$UNKNOWN/IMPLIED-BTC] [15477667483400716369]
+  - Sep 13 15:38Z — informational (supporting channel): Risk management philosophy; over-sizes into crashes (tariff 2024, iran 2025), trims afterward, holds some long-term but mostly exits over time [$RISK-MGMT] [1548719562336378881]
 
 ## Wild_Randomness
 
