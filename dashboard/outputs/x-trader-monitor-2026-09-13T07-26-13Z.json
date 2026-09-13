@@ -1,0 +1,60 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "separator",
+        "interpretation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Levels of 29–32k are indeed mathematically possible, but that's more of a \"black swan\" scenario (like COVID). Otherwise, I'd look for 44–39k"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2099035992753676391"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish macro outlook. Contrasts with KillaXBT's bullish structural conviction; t_in_crypto watching lower support zones (44-39k realistic, 29-32k black swan only).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
