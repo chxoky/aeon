@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Social Media Trade Analysis"
+      },
+      "children": [
+        "tweet_card",
+        "separator_1",
+        "context_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "STANDARD RESERVE Launch Strategy — Paid Subscriber Update\n\nOptimal strategy analysis for the Standard Reserve launch (Genesis Charter Mint on Robinhood Sep 14). Game theory framework + simulator analysis. Sharing with paid Substack subscribers ('Marmot's Burrow')."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "details_heading",
+        "launch_info",
+        "analysis_detail",
+        "signal_badge",
+        "view_link"
+      ]
+    },
+    "details_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Launch Details",
+        "level": "h3"
+      }
+    },
+    "launch_info": {
+      "type": "Text",
+      "props": {
+        "text": "Genesis Charter Mint on Robinhood",
+        "variant": "lead"
+      }
+    },
+    "analysis_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Game theory framework and simulator analysis. Distributed to paid Substack subscribers ('Marmot's Burrow'). No personal execution signal detected—informational strategy content distribution only."
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No personal trade signal",
+        "variant": "outline"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099208507203481993"
+      }
+    }
+  }
+}
