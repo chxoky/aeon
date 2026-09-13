@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @bull_genius"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event",
+        "tweetcard_quote",
+        "sep2",
+        "text_unable",
+        "stack_questions",
+        "link_post"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply to @dezzaNZ/@internet_monkes about \"them\" — recent context shows strong ARGONAUTS/NFT conviction (Sep 12 long-form post, portfolio rebalance Sep 11, multiple NFT collection analyses Sep 10+)."
+      }
+    },
+    "tweetcard_quote": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "i faded them initially because i dont like them visually and i assumed theyre just pfps. im looking into them, thanks. now seems to be a cheap price point"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    },
+    "stack_questions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this NFT-related (likely given \"pfps\" mention + recent ARGONAUTS focus)?"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• Which specific collection/asset?"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Exploratory interest vs. intended entry?"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2098957841029628364"
+      }
+    }
+  }
+}
