@@ -1,0 +1,136 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration alert from trading channel"
+      },
+      "children": [
+        "text-calibration",
+        "separator-1",
+        "text-event-meta",
+        "separator-2",
+        "heading-message",
+        "text-message-content",
+        "link-reference",
+        "separator-3",
+        "heading-analysis",
+        "text-classification-status",
+        "text-notation-question",
+        "stack-interpretations",
+        "text-context"
+      ]
+    },
+    "text-calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-event-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Sep 13 05:46Z Discord message from HeartCanHodl (supporting channel)",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text-message-content": {
+      "type": "Text",
+      "props": {
+        "text": "Fc SNDKusdt 1hr",
+        "variant": "lead"
+      }
+    },
+    "link-reference": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/goodalexander/status/2098457944253661470",
+        "href": "https://x.com/goodalexander/status/2098457944253661470"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis & Interpretation",
+        "level": "h3"
+      }
+    },
+    "text-classification-status": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "muted"
+      }
+    },
+    "text-notation-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on the \"Fc SNDKusdt 1hr\" notation? (Floor Check? Force Close? Price action chart reference?)",
+        "variant": "body"
+      }
+    },
+    "stack-interpretations": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-floor-check",
+        "badge-force-close",
+        "badge-price-action"
+      ]
+    },
+    "badge-floor-check": {
+      "type": "Badge",
+      "props": {
+        "text": "Floor Check",
+        "variant": "outline"
+      }
+    },
+    "badge-force-close": {
+      "type": "Badge",
+      "props": {
+        "text": "Force Close",
+        "variant": "outline"
+      }
+    },
+    "badge-price-action": {
+      "type": "Badge",
+      "props": {
+        "text": "Price action chart reference",
+        "variant": "outline"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: SNDK last traded Jul 27, this appears to be a new/renewed interest signal on 1hr timeframe.",
+        "variant": "caption"
+      }
+    }
+  }
+}
