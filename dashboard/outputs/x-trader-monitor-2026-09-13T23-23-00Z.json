@@ -1,0 +1,57 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "container_stack"
+      ]
+    },
+    "container_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "platform_badge",
+        "tweet_card",
+        "view_tweet_link",
+        "reinforcement_text"
+      ]
+    },
+    "platform_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 [X]",
+        "variant": "outline"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "A lot of people focus heavily on macro, policy and economic data to predict where an asset will move next.\n\nBut in seven years of trading, four of them full-time, I have never relied on news to justify an outcome. To me, most narratives are simply distractions...\n\nThe market does not move because the majority understands it. The majority understands it because the market has already moved.\n\nConsistency comes from observing what price is actually doing, structure, momentum and behaviour, not from allowing every new headline or data release to reshape your conviction."
+      }
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099276827030335815"
+      }
+    },
+    "reinforcement_text": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Philosophical reinforcement of Sep 13 20:04Z conviction: \"BTC has officially bottomed.\"",
+        "variant": "muted"
+      }
+    }
+  }
+}

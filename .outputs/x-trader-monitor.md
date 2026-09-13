@@ -1,7 +1,13 @@
-🐦 [X] @bull_genius
+🐦 *[X] @KillaXBT*
 
-BTC close to key supports on Monday week open. Rate-hike + AI scare headwinds create uncertainty. FOMC Sep 16 = decisive gate. Consolidation range 76–77K with key supports: September POC 77K, VAH 76.2K, further support 73.6K. Fear of liquidations possible on downside.
+A lot of people focus heavily on macro, policy and economic data to predict where an asset will move next.
 
-Tactical: meditate & fade extremes until Wednesday evening. No urgency to enter new positions now — wait for reversals vs max-leverage knife-catch into uncertainty events.
+But in seven years of trading, four of them full-time, I have never relied on news to justify an outcome. To me, most narratives are simply distractions...
 
-[View tweet](https://x.com/bull_genius/status/2099273419946660028)
+The market does not move because the majority understands it. The majority understands it because the market has already moved.
+
+Consistency comes from observing what price is actually doing, structure, momentum and behaviour, not from allowing every new headline or data release to reshape your conviction.
+
+[View tweet](https://x.com/KillaXBT/status/2099276827030335815)
+
+↳ _Philosophical reinforcement of Sep 13 20:04Z conviction: "BTC has officially bottomed."_

@@ -5,7 +5,7 @@
 - Recent thesis: Structural BTC bull — bear cycle ~80% complete, 2.5yr target 126K+. CONVICTION DOWNGRADE Aug 28: "0% chance $100K this year" → Q2 2027. Near-term: range consolidation; liquidity cluster 75.5–76.5K; next planned long 74–75K. Sweep-wick-expansion macro: 86.5K sweep→82.2K wick→expansion. Sep 13 conviction: "BTC has officially bottomed"; 30% gain on 2x entry from 62.6K. Dump-into-Sep-14 = inverse move +3-4% next week. Accumulation→re-accumulation→expansion framework. ASTER: 200d range compression breakout.
 - Conviction notes: HTF bullish structural bias. "Shorts are scalps. Remember that." Tactical scalp shorts + structural long = hedge ethos. Relocated country Aug 28 (tax optimization). Kalshi partnership. Removed SL on DCA swing Sep 11 (full directional conviction). "If I'm wrong, I will deactivate my account." 2x longs correctly leveraged > spot.
 - Calibration: CONVICTION DOWNGRADE SIGNAL active (Sep 04 questioning Q4 bottom-buy plan). PENDING Aug 27 11:11Z ("Aged like fine wine. $SOL up 50%... Thanks for playing. $120+ waiting room"; open vs closed unclear).
-- Last seen: 2026-09-13T20:04:00Z
+- Last seen: 2026-09-13T23:19:32Z
 - **Events (rolling):**
   - Sep 10 11:33Z — informational (supporting): HYPE $350 target (4.2x) + ZEC $10k target (8.2x) at ~$18-21B mcap context [$HYPE/$ZEC] [1547570708572283011]
   - Sep 10 12:48Z — dca-plan: BTC low-lev continuation long; gradual entry 76.7 down to 74s; invalidation 72.5K [$BTC] [1547589659641512050]
@@ -26,6 +26,7 @@
   - Sep 13 18:30Z — informational: "that's when i think the low will be printed / will be really good entries imo" [$BTC/$MACRO] [2099204140572311671]
   - Sep 13 19:13Z — ambiguous-cryptic: "After temporary chop below it" — incomplete referential; HR-2 sent [$UNKNOWN] [1548773630958239858]
   - Sep 13 20:04Z — informational: "BTC has officially bottomed"; 30% gain on 2x from 62.6K; 0% chance -50% from here; "will deactivate if wrong" [$BTC] [2099227698916646992]
+  - Sep 13 23:19Z — informational-philosophy: Price action > narratives; market moves before reasons obvious; consistency from observing PA/structure/momentum not headlines [$BTC/$MACRO] [2099276827030335815]
 
 ## Wild_Randomness
 
