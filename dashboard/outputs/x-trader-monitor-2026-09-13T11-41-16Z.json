@@ -1,0 +1,33 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "BTC trading date calendar; cyclical/astrological framework marking key September dates:\n• 2 & 4\n• 6-8 window (!!!)\n• 11 ± 1D\n• 14\n• Peak of wave: 29\n\nOctober dates teased for future share."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2099100195967402037"
+      },
+      "children": []
+    }
+  }
+}

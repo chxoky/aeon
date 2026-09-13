@@ -893,3 +893,13 @@
   - Sep 11 05:50Z — ambiguous-cryptic: Discord supporting channel "Fc clusdt 5m" — cryptic abbreviation, likely CL (Crude Oil/CLUSDT) related given Aug 18-19 CL short conviction adds; possible force-close/false-close pattern reference on 5m timeframe; context: HCH 2% CL short Aug 18 entry + Aug 19 conviction add; HR-2 calibration sent [$CL/IMPLIED] [1547846722599002123]
   - Sep 13 10:51Z — ambiguous-cryptic: Discord primary Trades channel (1279738718680256553) "To them and to others we entered 1% yesterday" — cryptic reference lacking explicit ticker name; appears to reference one or more of Sep 12 1% entries (XPL 07:09Z / FONE 07:32Z / NEAR 07:40Z); "them" unclear (other tracked traders? Discord community members?); which specific position and counterparties involved requires Kyle calibration; HR-2 calibration sent [$UNKNOWN] [1548647191357296812]
   - Sep 13 11:26Z — conviction-add: "Add back cl 1/3rd short exposure" (Discord HCH — Trades primary channel, is_reply to own prior message covering 1/3rd of CL short); re-entry of partial short position just exited; bearish CL macro conviction continuation; fast-path alerted (no Telegram duplicate per protocol) [$CL] [1548656094589485117]
+
+## t_in_crypto
+
+- Platforms: X (Twitter)
+- Current open positions: Unknown (shares trading calendars / cyclical analysis)
+- Recent thesis: Astrological/cyclical trading framework; shares important technical dates/zones for markets
+- Conviction notes: Date/cycle prediction specialist. Emoji signature (🧘🏽‍♀️ meditation pose) suggests zen/spiritual trading philosophy.
+- Last seen: 2026-09-13T11:37:40Z
+- **Events (rolling):**
+  - Sep 13 11:37Z — informational: BTC trading date calendar; cyclical/astrological framework marking key September dates: 2&4 (red), 6-8 window (red), 11±1D (red), 14 (blue), 29 (peak of wave). October dates teased for future share. Step 7 chart analysis: calendar image confirms clear date/zone predictions; no personal execution language. [$BTC] [2099100195967402037]
