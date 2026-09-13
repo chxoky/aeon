@@ -1,17 +1,7 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @KillaXBT*
 
-**Robinhood** (0x2e8c31162b855a2ffa90f6f8634643ad6f111e18) — Market Analysis
+BTC dump-into-significant-dates inverse-move prediction. Tomorrow is the 14th—BTC dumping creates the perfect bearish narrative, but when we dump into significant dates/lows, I look for the inverse move. Expecting 3-4% move back to upside at minimum next week.
 
-No second attempt for the high, instead another rejection back into value zone and at 7d rVWAP / Sept POC.
+Charts show clear pattern: downtrend dumps marked by red candles + technical levels, followed by green recovery structure. Aligns with group bullish BTC consensus.
 
-ATH got delayed by a bit, thinking connected to pre-FOMC fears and possible rotation due to yesterday's PumpFun announcement. Maybe traders expect a PumpFun offensive going for Robinhood meme market share.
-
-Unexpected weakness: such rejection usually means a larger scale correction below $180M could be about to happen.
-
-**Caveat**: weekend price action less relevant, FOMC coming, but this coin lost its relative strength right after the PUMP announcement.
-
-September VAH might turn to resistance.
-
-**Long-term outlook**: still no change. Short-term outlook only gets better if 300M+ is reclaimed with confidence — this is merely a shakeout.
-
-[View post](https://x.com/bull_genius/status/2099108350650622188)
+[View tweet](https://x.com/KillaXBT/status/2099117139361746947)
