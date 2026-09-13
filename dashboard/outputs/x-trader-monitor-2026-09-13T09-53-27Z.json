@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @t_in_crypto"
+      },
+      "children": [
+        "event_text",
+        "sep1",
+        "tweet",
+        "sep2",
+        "analysis",
+        "sep3",
+        "link"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Earlier discussion with @guru2602 on Sep 13 07:22Z about BTC downside targets (44-39K realistic vs 29-32K black swan)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@M11Trading @guru2602 I wrote about this many times"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "\"this\" is undefined. Appears to reference prior written analysis/article but context invisible. Related to Sep 13 07:22Z BTC target discussion, or separate thesis?",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Tweet",
+        "href": "https://x.com/t_in_crypto/status/2099072051441005023",
+        "source": "X"
+      }
+    }
+  }
+}

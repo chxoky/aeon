@@ -5563,5 +5563,6 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-13,x-trader-monitor,claude-haiku-4-5-20251001,185,9368,1730449,79287
 2026-09-13,x-trader-monitor,claude-haiku-4-5-20251001,161,9229,1076178,65965
 2026-09-13,x-trader-monitor,claude-haiku-4-5-20251001,153,10850,1710639,105505
-2026-09-13,x-trader-monitor,claude-haiku-4-5-20251001,257,13236,1440074,43476
-2026-09-13,heartbeat,claude-sonnet-4-6,13,12269,713018,65561
+2026-09-13,x-trader-monitor,claude-haiku-4-5-20251001,161,18291,1834707,115199
+2026-09-13,x-trader-monitor,claude-haiku-4-5-20251001,153,11148,961087,63288
+2026-09-13,x-trader-monitor,claude-haiku-4-5-20251001,169,8484,1370052,63907

@@ -652,7 +652,7 @@
 - Recent thesis: Contrarian BTC trader. Range structure 62.1K–87.2K key levels; September/October = "VERY IMPORTANT" per MRK analyst. "Several levels between 46K and 42K" if macro deteriorates. Bearish at BTC 90K+: "not 90 or 90+ imo." Top of range not in yet. Near-term: uptrend resumed from Aug 14 bottom; "Haha 100% YES! They laughed at me for almost two months...market quickly put them in their place." Rejects 90K+ "not 90 or 90+."
 - Conviction notes: Contrarian exit discipline. Skeptical of trend-followers. NOT confirmed ironic (apply HR-2 for ambiguous posts). Pattern of cryptic replies requires consistent calibration.
 - Calibration: PENDING Aug 30 15:27Z (@exitpumpBTC "Yep soon"), PENDING Aug 30 12:43Z (@MylesGinvest 🧐), PENDING Aug 30 12:16Z ("90? Not sure dear... not 90 or 90+"), PENDING Aug 30 05:04Z (@dabaylove @exitpumpBTC "Near"), PENDING Aug 30 04:35Z ($btc "You don't understand what awaits you"), PENDING Aug 29 12:44Z (@DieguitoCharts "Yeah, soon"), PENDING Aug 29 10:10Z (@MylesGinvest "not the peak yet"), PENDING Aug 29 10:07Z (@MintBlock @Lambada @Alulim "Near"), PENDING Aug 27 17:43Z (@Alulim "reach my target, strong reversal"), PENDING Aug 27 17:16Z (refs Aug 14 bottom + X target on pivot day), PENDING Aug 27 10:41Z (@Alulim "not that simple, my target different")
-- Last seen: 2026-09-09T13:46:39Z
+- Last seen: 2026-09-13T09:45:50Z
 - **Events (rolling):**
   - Sep 09 13:46Z — ambiguous: @BangXBT "Oh good"; reply context unclear; HR-2 sent [$UNKNOWN] [2097683102432714788]
   - Sep 10 15:24Z — informational: Elliott Wave setup dates Sep/Oct, peak marked; "Get your bids ready again soon" [$BTC] [2098070189447303337]
@@ -694,6 +694,7 @@
   - Sep 11 18:32Z — ambiguous-cryptic: market structure philosophy; "sky wants pink, market is organism"; intent/sentiment unclear [$BTC/$MACRO] [2098479796267209210]
   - Sep 11 18:30Z — informational: BTC/ALT bearish range ceiling; "We aren't getting 90–100k and altseason" [$BTC/$ALT] [2098479332473655443]
   - Sep 13 07:22Z — informational: BTC price level opinion; 29-32K "black swan" only, more realistic 44-39K range reply to @guru2602 [$BTC] [2099035992753676391]
+  - Sep 13 09:45Z — ambiguous-cryptic: "@M11Trading @guru2602 I wrote about this many times" reply context; "this" undefined, no external context visible; escalation/reiteration of Sep 13 07:22Z analysis [$UNKNOWN/$BTC-IMPLIED] [2099072051441005023]
 
 ## Crypto_Chase
 
