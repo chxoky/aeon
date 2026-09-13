@@ -306,7 +306,7 @@
 - Recent thesis: BTC "bear market end" HTF structural (bottom in) but FOMC Sep 16 = decisive gate. Rate hike scare Sep = last major bottom before "complete bear destruction." PUMP: Alon (CEO) announcement catalyst; ATH aVWAP→ICO cluster deep-value. ARGONAUTS: 2331 unique owners (20-30% of active NFT market), "blue chip will be argonauts." ETH: "as soon as BTC bottoms out it flies"; ETH-native best performer this cycle. Sep 13: "rate hike scare is, indeed, here; bottom next week." STANDARD reserve = Dutch auction mint Sep 14 (Robinhood ecosystem). NFT market bottom formation conviction.
 - Conviction notes: Technical analyst/educator. Mixed near-term BTC caution with LTF HTF bullish. Personal positions documented Aug 28+. Argonauts escalating conviction (Sep 07 first entry → 97+ NFTs → Sep 13 "top tier sets in 7 figures"). "Always TP when celebrating P&L card." Ethereum:native research service (paid subs).
 - Calibration: PENDING Sep 13 13:28Z (@shillyxbt "yep i gotta commit"), PENDING Sep 13 07:35Z (@frostyz "wouldn't be so sure about that"), PENDING Sep 13 02:12Z (faded initially, now seems cheap; NFT context), PENDING Sep 12 10:59Z ("real action next week"), PENDING Sep 11 22:13Z (mining asset conditional bullish/bearish), PENDING Sep 11 13:14Z (@JETSKIHH "yes the strong ones definitely"), PENDING Sep 10 11:16Z ("i was waiting for him to sell tbh"), PENDING Sep 08 22:48Z (@Manugougou "lore advantage"/"rh spot"), PENDING Sep 06 09:46Z ("rejected at 300m; excited to accumulate lower"), PENDING Aug 30 01:46Z (@0xtygra "hip-5 options" thesis).
-- Last seen: 2026-09-13T21:51:40Z
+- Last seen: 2026-09-13T22:01:41Z
 - **Events (rolling):**
   - Sep 10 08:12Z — trade-new-entry: ARGONAUTS scaling into buy at 0.5 ETH floor; 17 held → scaling higher; "we are buying them, right now" [$ARGONAUTS-NFT] [2097961426925031805]
   - Sep 10 13:01Z — mirror-full-tp: BTC closed ALL shorts at 79.6K (+38%); pivot to neutral/long bias; "r/r bad for shorts" [$BTC] [2098034241212698799]
@@ -326,6 +326,7 @@
   - Sep 13 18:25Z — informational: ethereum:native bullish; 365d rVWAP wick fill + ATH aVWAP target; "finding entries near 30d rVWAP if not already loaded" [$ETH] [2099202904452210815]
   - Sep 13 20:36Z — informational: validator set launch 1d after Clarity Act vote = confidence signal; agreement on uncertainty being main driver [$CIRCLE/$ROBINHOOD] [2099235801003381204]
   - Sep 13 21:51Z — informational-conviction-escalation: ARGONAUTS long-form narrative (4th mention 6-day window); "remaining 300 spartans strongest cohort"; "lets row"; NFT market bottom + community resilience thesis [$ARGONAUTS/$NFT] [2099254714252898720]
+  - Sep 13 22:01Z — informational-research: "on crypto cults and argonauts" free Substack; Zoomer Oracle thread on cult dynamics; aligns ARGONAUTS thesis [$ARGONAUTS] [2099257234949591319]
 
 ## t_in_crypto
 
