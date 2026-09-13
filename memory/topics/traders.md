@@ -478,8 +478,9 @@
 - Last seen: 2026-09-11T12:14:38Z
 - **Events (rolling):**
   - Sep 11 08:40Z — ambiguous-cryptic: reply to @melooox3 "insane radioactive captain and insane crew"; cryptic phrase, no ticker/financial context visible, very short; likely personal banter or reference to unknown context; requires Kyle calibration (HR-2) [$UNKNOWN] [2098330722947735760]
-- Last seen: 2026-09-11T09:42:17Z
+- Last seen: 2026-09-13T09:37:32Z
 - **Events (rolling):**
+  - Sep 13 09:37Z — informational: $ARGONAUTS/$NFT shares Marmot article "Argonauts spark" [2099069963768045787]
   - Sep 11 11:56Z — informational: CPI macro caution; 75.5K BTC support test; Argonauts conviction reiteration; "no rush to gamble on CPI", "fade extremes short term"; market reposition prep into Sep 11/16 catalysts [$BTC/$ARGONAUTS] [2098380257929691246]
   - Sep 11 09:42Z — informational: ETH sentiment reiteration; reply to @lexbigboycrypto/@argonauts9999 "image cuts off at only 3 eth is adorable"; sarcastic commentary on ETH price cap limitation (same theme as Sep 11 00:53Z post); filed silently [$ETH/$SENTIMENT] [2098346380297199787]
   - Sep 11 08:52Z — ambiguous-cryptic: reply to @tiemei "its 4269's set but i agree"; Argonaut #4269 context from Sep 07 $30k sale; external event (tiemei's statement) not visible; HR-2 calibration sent [$ARGONAUTS] [2098333792918249680]
