@@ -1,9 +1,7 @@
-🐦 bull_genius @bull_genius
+🐦 *[X] @Wild_Randomness*
 
-STANDARD RESERVE Launch Strategy — Paid Subscriber Update
+Box working overtime • FUD intensifying
 
-bull_genius just shared an optimal strategy analysis for the Standard Reserve launch (Genesis Charter Mint on Robinhood Sep 14). Game theory framework + simulator analysis. Sharing with paid Substack subscribers ('Marmot's Burrow').
+Positioning already light into Sept-Oct window (election + Anthropic IPO catalysts). Valuations reasonable but net leverage at extremes. FUD intensifying but market unprepared. Well-telegraphed risk off period ahead.
 
-No personal execution signal detected — informational strategy content distribution, not personal trade entry.
-
-[View tweet](https://x.com/bull_genius/status/2099208507203481993)
+[View post](https://x.com/Wild_Randomness/status/209921281323561409)
