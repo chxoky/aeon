@@ -1,30 +1,22 @@
-🔍 *Calibration — [DC: HCH — Trades]*
+## Summary
 
-**Discord Trader Monitor Skill — Execution Complete**
+Discord-trader-monitor execution complete for message `1548689135428964433`.
 
-Processed real-time Discord event from HeartCanHodl:
+**Event decoded:**
+- Trader: HeartCanHodl
+- Channel: 1023638573313966212 (HCH — Chat, supporting)
+- Message: "Fc SNDKusdt 15m" (2026-09-13T13:37:43Z)
+- Fast-path alerted: ✓ (Cloudflare Worker sent Telegram ~2-5s ago)
 
-**Event Details:**
-- **Channel**: 1279738718680256553 (HCH — Trades, primary ★)
-- **Message ID**: 1548656094589485117
-- **Timestamp**: 2026-09-13T11:26:25Z
-- **Content**: "Add back cl 1/3rd short exposure" (is_reply to own prior message: "Cover 1/3rd of that CL short here")
-- **Classification**: conviction-add (re-entry of short exposure just covered)
-- **Ticker**: [$CL] (Crude Oil)
+**Classification:** AMBIGUOUS-CRYPTIC (HR-2 calibration required)
+- "Fc" notation unclear (Floor Check? Force Close?)
+- Similar to recurring Sep 12-13 pattern: "Fc clusdt 1hr", "Fc muusdt 1hr"
+- Supporting-channel context, no verbatim rule applies
 
-**Processing:**
-1. ✅ Message decoded & validated (first-time sighting, not previously processed)
-2. ✅ Channel & trader resolved (HCH — Trades primary, verbatim rule applies)
-3. ✅ Fast-path protocol honored (fast_path_alerted=true; Telegram suppressed, memory-only processing)
-4. ✅ Classification: conviction-add (clear first-person execution language "Add back", continuation of bearish CL macro thesis)
-5. ✅ Memory updates:
-   - **discord-trader-seen.txt**: Message ID appended (now 75 lines total)
-   - **traders.md**: New event logged (Sep 13 11:26Z conviction-add, CL ticker)
-   - **active-trades.md**: Position evolution updated with Sep 13 conviction reentry
-   - **memory/logs/2026-09-13.md**: Detailed execution log entry appended
+**Actions taken:**
+- ✅ Updated `memory/topics/traders.md` with event line
+- ✅ Appended message ID to `memory/discord-trader-seen.txt` (dedup prevention)
+- ✅ Logged to `memory/logs/2026-09-13.md`
+- ✅ Skipped Telegram (fast-path protocol: Worker already alerted Kyle)
 
-**Position Context:** HCH maintains CL short from Aug 18-19 entries (2% allocation). Sep 13 message shows tactical re-entry of partial position previously covered, indicating sustained bearish crude oil conviction on macro energy thesis.
-Event: Cryptic market notation, primary Trades channel (Sep 13 11:26Z)
-heartcanhodl: "Fc clusdt 1hr"
-
-Unable to classify — what's your read? Possible interpretations: Floor Check cluster, Force Close cluster, or other technical notation. Prior similar message Sep 12 07:10Z. Context: ongoing DCA positions, BTC consolidation.
+No further action needed; awaiting Kyle calibration on "Fc SNDKusdt 15m" intent.
