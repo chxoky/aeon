@@ -1,27 +1,33 @@
 ## Summary
 
-✅ **Discord Trader Monitor — Skill Execution Complete**
+**Discord Trader Monitor Event Processed — 2026-09-13T10:51:02Z**
 
-Processed real-time Discord event from HeartCanHodl (HCH) on 2026-09-13 at 10:02 UTC:
+### Event Details
+- **Trader**: HeartCanHodl (heartcanhodl)
+- **Channel**: 1279738718680256553 (HCH — Trades, primary ★ most important)
+- **Message ID**: 1548647191357296812
+- **Content**: "To them and to others we entered 1% yesterday"
+- **Fast-path status**: `true` (Cloudflare Worker already alerted via Telegram ~2-5s post-message)
 
-**Event Details:**
-- **Trader:** HeartCanHodl
-- **Channel:** 1279738718680256553 (HCH — Trades, ★ primary)
-- **Message:** "Add back 1% each" (reply to prior reduction on ENS, SOL, LINK)
-- **Classification:** Conviction-add (reverting prior 1% position size reduction)
-- **Tickers:** ENS, SOL, LINK
-- **Fast-path status:** Already Telegram-alerted by Cloudflare Worker (~2-5s latency)
+### Classification: **AMBIGUOUS-CRYPTIC** (HR-2 Rule)
+The message lacks critical information for classification:
+1. **No explicit ticker** — doesn't specify which asset
+2. **Unclear reference** — "them" and "others" undefined (other traders? community members?)
+3. **Ambiguous temporal reference** — references entry "yesterday" (Sep 12), but three 1% entries exist that day: XPL (07:09Z), FONE (07:32Z), NEAR (07:40Z)
+4. **Unclear intent** — appears to be reiteration/confirmation, not new entry announcement
 
-**Workflow Steps Completed:**
-1. ✅ **Decoded** base64 event successfully
-2. ✅ **Fast-path check:** true → Skipped duplicate Telegram sends, proceeded to classification + memory
-3. ✅ **Resolved channel + trader:** HeartCanHodl in primary trading channel (verbatim rule applies)
-4. ✅ **Classified:** Conviction-add (1% position add-back on alts)
-5. ✅ **Memory updated:**
-   - Added event line to traders.md (Sep 13 10:02Z conviction-add entry)
-   - Recorded message ID in discord-trader-seen.txt (dedup tracking)
-   - Logged event in daily log (2026-09-13.md)
+### Actions Taken
+✅ **Memory updates:**
+- Added message ID `1548647191357296812` to `/memory/discord-trader-seen.txt` (74 tracked messages)
+- Updated `/memory/topics/traders.md` with new event line
+- Updated HeartCanHodl "Last seen" timestamp to 2026-09-13T10:51:02Z
+- Added to Calibration section (PENDING)
 
-**Pattern Context:** Continuation of HCH's systematic tactical altcoin long accumulation (Aug 01+ net-long regime; Sep 04-05 initial BCH/BNB/STRK entries; Sep 11-12 MARSCOIN/ENS/FONE/NEAR/XPL entries; Sep 13 conviction-add = reaffirmation of bullish alt positioning within broader strategy).
+✅ **Logging:**
+- Appended full event record to `/memory/logs/2026-09-13.md` with calibration note
 
-**Status:** Execution complete. No additional alerts needed (fast-path protocol honored). All memory and logging current.
+✅ **Protocol compliance:**
+- Honored fast-path protocol (skipped Telegram duplicate, proceeded to classification + memory-only)
+- Per HR-2: No trade alert assumed; awaiting Kyle calibration on which position/traders referenced
+
+**Next step:** Kyle should clarify which Sep 12 entry (XPL/FONE/NEAR) HCH is referencing and what "them"/"others" means.
