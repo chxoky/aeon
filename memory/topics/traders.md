@@ -660,6 +660,7 @@
 - **Events (rolling):**
   - Sep 09 13:46Z — ambiguous: @BangXBT "Oh good"; reply context unclear; HR-2 sent [$UNKNOWN] [2097683102432714788]
   - Sep 10 15:24Z — informational: Elliott Wave setup dates Sep/Oct, peak marked; "Get your bids ready again soon" [$BTC] [2098070189447303337]
+  - Sep 13 11:41Z — informational: Elliott Wave timing chart; Sep 29 marked as wave peak; previous Aug 14 bottom confirmed turning point; range structure thesis reaffirm [$BTC] [2099101032617849222]
 - Last seen: 2026-09-11T18:43:06Z
 - **Events (rolling):**
   - Sep 11 18:43Z — informational: BTC position discipline; patient limit-order holder, dismisses "manipulation"; waiting for time-based pivots [$BTC] [2098482484195324228]
