@@ -1,8 +1,10 @@
-🔁 *Mirrored — @HeartCanHodl*
+🔍 *Calibration — @Bitcoin_Astro*
 
-HeartCanHodl just covered 50% of their crypto shorts.
+Event: Unknown (appears to be reply to another message)
+Bitcoin_Astro: "Yes, of course it is.
+But what time frame?"
 
-"Covered 50% crypto shorts so far.
+Unable to classify — what's your read? Likely related to Gann angle/timeframe analysis but need context.
 
 Last line of defence is 76k before 74k point of interest
 
@@ -43,3 +45,4 @@ Recommends @5morewhooppers take a look, mentions "opportunity costs" and same ho
 
 ↳ Aligns with bull_genius' established Argonauts conviction (Sep 07–13 holdings + thesis).
 ```
+https://x.com/Bitcoin_Astro/status/2099070584055374138
