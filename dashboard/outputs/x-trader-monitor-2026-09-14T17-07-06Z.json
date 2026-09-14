@@ -1,0 +1,71 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "badge-user",
+        "text-event",
+        "text-quote",
+        "separator-main",
+        "alert-classify"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      }
+    },
+    "badge-user": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @TheNorthernH @eliant_capital reply (unclear external context)",
+        "variant": "body"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"what if he does and we go up anyway\"",
+        "variant": "lead"
+      }
+    },
+    "separator-main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
