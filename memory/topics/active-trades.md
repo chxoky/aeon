@@ -344,21 +344,24 @@
 - **Alerted**: YES (2026-09-05T07:47:24Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; 2026-09-05T08:25:04Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker)
 - **Last update**: 2026-09-05T08:25:04Z (message_id=1545711354344902738, discord-trader-monitor real-time, position-management-sl-shift, fast-path-alerted)
 
-### STRK (Starknet) — LONG (NEW ENTRY — 2026-09-05)
-- **Entry date**: 2026-09-05T07:56:09Z
-- **Entry message**: "Spot 2% strk buy"
-- **Entry type**: Market order (spot execution)
-- **Entry level**: Market price at time of execution (Sep 05 07:56:09Z UTC, STRK spot)
-- **Entry size**: 2% portfolio allocation
-- **Stop loss**: Not specified (market entry, ongoing)
-- **Entry context**: Primary Trades channel (★most important), highest-conviction tier. HCH continuing aggressive tactical long accumulation within 48-minute morning window (Sep 05 07:08 BCH 4%, 07:47 BNB 2%, 07:56 STRK 2%). Pattern indicates high intraday structure confidence and Asian morning session optimization.
-- **Position thesis**: STRK spot conviction long; continuing net-short regime macro conviction while trading intraday structure profitably on altcoin longs. 2% disciplined sizing aligns with position management approach.
-- **Status**: ACTIVE — market-order execution completed, 2% STRK spot long position established
-- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
-- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "Spot 2% strk buy"
-- **New ticker note**: STRK first-mention across all 12 tracked traders (Sep 05 07:56Z). Quiet tracking pending cross-trader convergence momentum.
-- **Alerted**: YES (2026-09-05T07:56:09Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, duplicate suppressed per protocol)
-- **Last update**: 2026-09-05T07:56:09Z (message_id=1545704074757013544, discord-trader-monitor real-time, trade-new-entry)
+### STRK (Starknet) — LONG (NEW ENTRY — 2026-09-05 + CONVICTION ADD 2026-09-14)
+- **Initial entry date**: 2026-09-05T07:56:09Z
+- **Initial entry message**: "Spot 2% strk buy"
+- **Initial entry type**: Market order (spot execution)
+- **Initial entry level**: Market price at time of execution (Sep 05 07:56:09Z UTC, STRK spot)
+- **Initial entry size**: 2% portfolio allocation
+- **Conviction add date**: 2026-09-14T05:46:36Z
+- **Conviction add message**: "Add 1% strk spot"
+- **Conviction add type**: Market order (spot execution)
+- **Conviction add level**: Market price at time of execution (Sep 14 05:46:36Z UTC, STRK spot)
+- **Conviction add size**: 1% portfolio allocation (cumulative position now ~3% after add)
+- **Position thesis**: STRK spot conviction long; tactical accumulation across two tranches (Sep 05 initial 2% + Sep 14 add 1%). Aligns with HCH's disciplined position management approach (small incremental positions, tactical entries). Continuing net-long regime (Aug 01+) positioning within broader macro framework.
+- **Status**: ACTIVE — cumulative 3% position established (2% Sep 05 + 1% Sep 14), market-order execution completed
+- **Trade alert format**: Step 5a (initial new entry Sep 05); Step 5d (conviction add Sep 14, fast-path alert sent by Cloudflare Worker ~2-5s post)
+- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "Add 1% strk spot"
+- **Ticker note**: STRK first-mention across all 12 tracked traders (Sep 05 07:56Z). Two-mention escalation with conviction add (Sep 14) validates emerging positioning.
+- **Alerted**: YES (2026-09-05T07:56:09Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; 2026-09-14T05:46:36Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alerts sent, duplicates suppressed per protocol)
+- **Last update**: 2026-09-14T05:46:36Z (message_id=1548932965143289857, discord-trader-monitor real-time, conviction-add)
 
 ### SNDK (SanDisk) — LONG (FRESH DCA PLAN 2026-07-29, FULLY CLOSED 2026-08-17)
 - **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)

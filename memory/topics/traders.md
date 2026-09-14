@@ -271,6 +271,7 @@
   - Sep 13 10:02Z — conviction-add: "Add back 1% each" ENS/SOL/LINK (Trades ★); reversing Sep 12 reduction [$ENS/$SOL/$LINK] [1548634871914569810]
   - Sep 13 11:26Z — conviction-add: "Add back cl 1/3rd short exposure" (Trades ★); re-entry of partial CL short [$CL] [1548656094589485117]
   - Sep 13 13:37Z — ambiguous-cryptic: "Fc SNDKusdt 15m" (Chat supporting); similar pattern to Fc clusdt/muusdt; HR-2 sent [$SNDK] [1548689135428964433]
+  - Sep 14 05:46Z — trade-conviction-add: "Add 1% strk spot" (Trades ★); conviction add to prior Sep 05 2% STRK position [$STRK] [1548932965143289857]
 
 ## Stoiiic
 
