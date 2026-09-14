@@ -1,0 +1,171 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration",
+        "sep1",
+        "event_stack",
+        "sep2",
+        "message_stack",
+        "sep3",
+        "context_stack",
+        "sep4",
+        "alert"
+      ]
+    },
+    "calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "treasury_stat",
+        "sentiment"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      }
+    },
+    "treasury_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "US 10Y Treasury (Treasury Tantrum spike)",
+        "value": "5.006%",
+        "delta": "+0.74%",
+        "trend": "up"
+      }
+    },
+    "sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Meme sentiment: concern/distress",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_heading",
+        "message_text"
+      ]
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h2"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Citrini 's filare stapinn info get me somewhere\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "garbled_note",
+        "citrini_info",
+        "citrini_status",
+        "treasury_note"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "garbled_note": {
+      "type": "Text",
+      "props": {
+        "text": "Text appears garbled.",
+        "variant": "body"
+      }
+    },
+    "citrini_info": {
+      "type": "Text",
+      "props": {
+        "text": "References Citrini (Sep 12 noted as \"Citrini's sale as Top Signal\" — still PENDING in traders.md)",
+        "variant": "body"
+      }
+    },
+    "citrini_status": {
+      "type": "Badge",
+      "props": {
+        "text": "PENDING",
+        "variant": "secondary"
+      }
+    },
+    "treasury_note": {
+      "type": "Text",
+      "props": {
+        "text": "Treasury chart shows macro yield pressure.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to parse intent",
+        "message": "Macro concern on yields? Related to prior Citrini event? What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
