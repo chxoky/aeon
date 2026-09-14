@@ -271,8 +271,9 @@
 - Recent thesis: Net-short since Aug 07 ("full mega retrace" thesis). Fake-bottom thesis: real bottom October. Sep 13 covered 50% crypto shorts; 76K last defense before 74K POI. ZEC short: 1235/1295 entries (2% total), scale-in confirmed Sep 09. CL short rebalanced to 1x Sep 11; 1/3rd re-added Sep 13. Tactical long accumulation (gold + micro alt spots) within net-short regime.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (NOT execution). Scaled entries NOT all-in. Partial TPs do not end regime. NEAR 15m monitoring Sep 11-12. AMD technical level watching.
 - Calibration: PENDING Sep 13 10:51Z ("To them and to others we entered 1% yesterday" — which Sep 12 entry?), PENDING Sep 11 16:02Z ("SL $98.00" — asset unclear), PENDING Sep 11 14:03Z ("6% sl" — ticker unknown), PENDING Sep 11 07:31Z ("small near long leg here?" — NEAR token or pattern?), PENDING Sep 11 05:42Z (Fc clusdt 5m — force-close or false-close?), PENDING Sep 09 15:08Z ("That looks ugly.."), PENDING Sep 07 09:13Z ("Will give rough invalidation if it gets filled" — ticker unknown), PENDING Sep 07 11:57Z (domain purchase / yellow ticker / 2M coin context).
-- Last seen: 2026-09-14T16:59:03Z
+- Last seen: 2026-09-14T17:11:14Z
 - **Events (rolling):**
+  - Sep 14 17:11Z — ambiguous-cryptic: "Let's see" (Chat supporting); standalone, no context; HR-2 calibration sent [$UNKNOWN] [1549105259794661540]
   - Sep 14 16:59Z — trade-new-entry: "Short 1% zro" (Trades ★); 1% ZRO short; net-short regime continuation; fast-path alerted by Cloudflare Worker [$ZRO] [1549102193574158367]
   - Sep 14 16:19Z — trade-new-entry: "Adding 1% spot $Bnc (bnb dat)" (Trades ★); 1% BNB spot entry; new ticker; fast-path alerted by Cloudflare Worker [$BNB] [1549092303606644840]
   - Sep 14 14:55Z — informational: "Important flip area here 👀" (Free primary channel); market commentary on technical flip level, X post reference (2099388179963150793); primary-channel deliberate trade plan sharing; fast-path alerted by Cloudflare Worker, no Telegram duplicate per protocol [$BTC/$MACRO] [1549071086346309772]

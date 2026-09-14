@@ -1,6 +1,7 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Chat]*
 
-I've executed the discord-trader-monitor skill with the provided Discord event. Here's what happened:
+Event: standalone message in supporting channel
+heartcanhodl: "Let's see"
 
 **Event Details:**
 - **Trader:** HeartCanHodl
@@ -32,3 +33,4 @@ Skill execution complete: **discord-trader-monitor** for event 2026-09-14T17:07:
 - ✅ memory/logs/2026-09-14.md: Appended event log entry (skip classification, non-financial)
 
 No notification sent (non-financial content per hardcoded rule HR-1). Logged for audit trail only.
+Unable to classify — what's your read?
