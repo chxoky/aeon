@@ -279,6 +279,7 @@
   - Sep 14 06:36Z — trade-partial-close: "Close 1/4th more crypto short exposure" (Trades ★); third tranche of basket de-risk; fast-path alerted [$MULTI-SHORT] [1548945444476948562]
   - Sep 14 07:55Z — ambiguous-cryptic: "we frontrunning this <emoji_13>" (Chat supporting); execution language with emoji reference uninterpretable; unclear which asset/action; HR-2 calibration sent [$UNKNOWN] [1548965368930897931]
   - Sep 14 08:05Z — trade-new-entry: "spot buy 1% ondo" (Trades ★); personal execution, 1% spot allocation; new ticker first mention [$ONDO] [1548968016975499325]
+  - Sep 14 10:05Z — trade-partial-close: "Cover" (Trades ★ reply); closing CL short re-added Sep 13 11:26Z; fast-path alerted [$CL] [1548998012263600139]
 
 ## Stoiiic
 

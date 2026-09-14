@@ -1,25 +1,17 @@
-🔍 *Calibration — [DC: HCH — Chat]*
+## Summary
 
-Event: HeartCanHodl sent terse message from supporting channel (premium member chat)
-Message: "Fc btc 15m"
-
-Context: "Fc" pattern indicates technical chart check (false-close? force-close?), referencing BTC 15-minute timeframe. Similar to earlier today's "Fc nvda 4hr" from same trader/channel. Previous "Fc" messages (Fc SNDKusdt, Fc poly:clarity, Fc clusdt) marked ambiguous per protocol.
-
-Unable to classify — what's your read on "Fc btc 15m"?
-Executed `discord-trader-monitor` skill for the real-time Discord event from HeartCanHodl.
+Successfully executed the Discord Trader Monitor skill for HeartCanHodl's real-time event (2026-09-14T10:05:05Z).
 
 **Event Details:**
-- Message ID: 1548973825851523135
-- Channel: 1023638573313966212 (HCH — Chat, supporting)
-- Username: heartcanhodl ✓
-- Content: `<:Pepeokay:1537462913164378132>` (Discord emoji only)
-- Created: 2026-09-14T08:28:58Z
+- **Trader:** HeartCanHodl
+- **Channel:** 1279738718680256553 (HCH — Trades ★ most important)
+- **Message:** "Cover" (reply to "Add back cl 1/3rd short exposure" from Sep 13 11:26Z)
+- **Classification:** trade-partial-close (closing CL short)
+- **Fast-path status:** Cloudflare Worker already sent Telegram alert ~2-5s post-message
 
-**Classification:** `skip (emoji-only)` — non-financial banter per HR-1
+**Actions Completed:**
+1. ✅ Added message ID to `discord-trader-seen.txt` (1548998012263600139)
+2. ✅ Updated `memory/topics/traders.md` with event entry: Sep 14 10:05Z — trade-partial-close, closing CL short from Sep 13 re-entry
+3. ✅ Created log entry in `memory/logs/2026-09-14.md` documenting classification, ticker, and context
 
-**Action Taken:**
-- Added message ID to `memory/discord-trader-seen.txt` (dedup tracking)
-- Logged event to `memory/logs/2026-09-14.md`
-- No alert sent (emoji reaction has no trading signal)
-
-The skill completed successfully with silent logging per protocol.
+Since `fast_path_alerted: true`, the Cloudflare Worker pre-sent the Telegram notification, so I correctly skipped redundant messaging and proceeded directly to memory/logging per Step 2 protocol. The verbatim message requirement for this channel (1279738718680256553) is met: exact text "Cover" recorded.
