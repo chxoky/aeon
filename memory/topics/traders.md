@@ -329,7 +329,6 @@
 - Recent thesis: BTC "bear market end" HTF structural (bottom in) but FOMC Sep 16 = decisive gate. Rate hike scare Sep = last major bottom before "complete bear destruction." PUMP: Alon (CEO) announcement catalyst; ATH aVWAP→ICO cluster deep-value. ARGONAUTS: 2331 unique owners (20-30% of active NFT market), "blue chip will be argonauts." ETH: "as soon as BTC bottoms out it flies"; ETH-native best performer this cycle. Sep 13: "rate hike scare is, indeed, here; bottom next week." STANDARD reserve = Dutch auction mint Sep 14 (Robinhood ecosystem). NFT market bottom formation conviction.
 - Conviction notes: Technical analyst/educator. Mixed near-term BTC caution with LTF HTF bullish. Personal positions documented Aug 28+. Argonauts escalating conviction (Sep 07 first entry → 97+ NFTs → Sep 13 "top tier sets in 7 figures"). "Always TP when celebrating P&L card." Ethereum:native research service (paid subs).
 - Calibration: PENDING Sep 13 13:28Z (@shillyxbt "yep i gotta commit"), PENDING Sep 13 07:35Z (@frostyz "wouldn't be so sure about that"), PENDING Sep 13 02:12Z (faded initially, now seems cheap; NFT context), PENDING Sep 12 10:59Z ("real action next week"), PENDING Sep 11 22:13Z (mining asset conditional bullish/bearish), PENDING Sep 11 13:14Z (@JETSKIHH "yes the strong ones definitely"), PENDING Sep 10 11:16Z ("i was waiting for him to sell tbh"), PENDING Sep 08 22:48Z (@Manugougou "lore advantage"/"rh spot"), PENDING Sep 06 09:46Z ("rejected at 300m; excited to accumulate lower"), PENDING Aug 30 01:46Z (@0xtygra "hip-5 options" thesis).
-- Last seen: 2026-09-14T09:04:27Z
 - **Events (rolling):**
   - Sep 13 23:06Z — informational-macro: BTC close to key supports on Monday week open; rate-hike + AI scare headwinds; FOMC Sep 16 gate; consolidation 76-77K range; tactical guidance: wait for reversals, fade extremes until Wednesday evening; no urgency for new entries; 4h chart shows September POC/VAL/30d rVWAP support cluster [$BTC/$MACRO] [2099273419946660028]
   - Sep 14 09:04Z — informational-bullish-conviction: SOL HYPE + ZEC conviction; replies to @ProspectorP_; "i think ZEC can become one this cycle" = bullish thesis on ZEC as emerging top performer; aligns with bull_genius structural BTC/ETH bottom + altseason expansion framework [$SOL/$HYPE/$ZEC] [2099424026540002014]
@@ -352,6 +351,8 @@
   - Sep 13 20:36Z — informational: validator set launch 1d after Clarity Act vote = confidence signal; agreement on uncertainty being main driver [$CIRCLE/$ROBINHOOD] [2099235801003381204]
   - Sep 13 21:51Z — informational-conviction-escalation: ARGONAUTS long-form narrative (4th mention 6-day window); "remaining 300 spartans strongest cohort"; "lets row"; NFT market bottom + community resilience thesis [$ARGONAUTS/$NFT] [2099254714252898720]
   - Sep 13 22:01Z — informational-research: "on crypto cults and argonauts" free Substack; Zoomer Oracle thread on cult dynamics; aligns ARGONAUTS thesis [$ARGONAUTS] [2099257234949591319]
+  - Sep 14 09:36Z — informational: AI market risk analysis; Substack on potential vamp attack paralleling 2024 Unipcs incident ($300k+ loss). On-chain situation + risk management guidance. First major $AI signal from tracker [$AI] [2099432185866379752]
+- Last seen: 2026-09-14T09:36:53Z
 
 ## t_in_crypto
 
