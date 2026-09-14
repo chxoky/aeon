@@ -1,0 +1,74 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_section",
+        "separator1",
+        "insight_section"
+      ]
+    },
+    "tweet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Today is the perfect day to see what is holding up best / bid intraday during this smackdown\n\nWorst: Photonics (Lite, COHR)\n\nBest: CPUs (INTC, AMD, NVDA)"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099552464857071834"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "insight_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "insight_heading",
+        "insight_text"
+      ]
+    },
+    "insight_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sector Rotation Insight",
+        "level": "h4"
+      }
+    },
+    "insight_text": {
+      "type": "Text",
+      "props": {
+        "text": "Semis (esp INTC/AMD/NVDA) outperforming photonics during risk-off.",
+        "variant": "body"
+      }
+    }
+  }
+}
