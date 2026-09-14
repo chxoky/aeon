@@ -1,0 +1,61 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "setup_section",
+        "setup_details",
+        "setup_note",
+        "separator_1",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "You're all gonna hate me but… higher low?"
+      }
+    },
+    "setup_section": {
+      "type": "Heading",
+      "props": {
+        "text": "Setup",
+        "level": "h3"
+      }
+    },
+    "setup_details": {
+      "type": "Text",
+      "props": {
+        "text": "SPX forming higher-low pattern with support holding. Technical validation: 19x P/E valuation (below 20y median), hedge fund exposure at multi-year lows, Nasdaq spec shorts at all-time peaks. Contrarian bullish setup for near-term bounce."
+      }
+    },
+    "setup_note": {
+      "type": "Text",
+      "props": {
+        "text": "Shorter-term bounce structure within broader bearish-equities conviction (Sep/Oct seasonal frame).",
+        "variant": "muted"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099530350204772814"
+      }
+    }
+  }
+}
