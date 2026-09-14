@@ -1,0 +1,48 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @swarmister"
+      },
+      "children": [
+        "eventType",
+        "tweetCard",
+        "alert",
+        "viewPost"
+      ]
+    },
+    "eventType": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @Sokio8D",
+        "variant": "lead"
+      }
+    },
+    "tweetCard": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "1)\n\nWhat"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "viewPost": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2099581024845930650"
+      }
+    }
+  }
+}
