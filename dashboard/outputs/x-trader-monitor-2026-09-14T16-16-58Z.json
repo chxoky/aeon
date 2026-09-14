@@ -1,0 +1,97 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "chart-context"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Your entire bloodline is watching how you conduct yourself at the 50 day moving average"
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099532001955160347"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart-context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "price-stat",
+        "ma-info",
+        "recovery-info",
+        "position-note"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XAUUSL (Gold)",
+        "value": "$4,293.30"
+      },
+      "children": []
+    },
+    "ma-info": {
+      "type": "Text",
+      "props": {
+        "text": "Testing 50-day moving average (~$4,500 zone) – critical technical pivot for trend continuation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "recovery-info": {
+      "type": "Text",
+      "props": {
+        "text": "Recovered from ~$4,000 lows",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "position-note": {
+      "type": "Alert",
+      "props": {
+        "title": "Position Status",
+        "message": "GOLD long position awaiting approval",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
