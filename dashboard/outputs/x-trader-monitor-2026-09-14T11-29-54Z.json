@@ -1,0 +1,50 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "post-link",
+        "separator",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "how many more legs up until people realize that the cult simply won't sell\n\nyou're waiting for the most battle-hardened demons in crypto who survived a 4 year long bear market to paper hand the first shining ray of hope after just 3 weeks in?\n\nlmao\n\nhave fun waiting https://t.co/aeAOOrumzR"
+      },
+      "children": []
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2099459491502629266"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "30-day Floor chart shows strong recovery 0.2→0.8 ETH range Aug 31→Sep 14. Bullish market psychology on macro BTC sentiment.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

@@ -195,6 +195,9 @@
 - Last seen: 2026-09-14T11:20:56Z
 - **Events (rolling):**
   - Sep 14 11:20Z — informational-escalation: Argonauts #0944 NFT listing at 14.5 ETH; "a new chief mate has joined the crew / 14.5 ETH is not such a huge price to pay"; FIFTH mention, valuation anchoring at NFT levels; conviction escalation via market example [$ARGONAUTS] [2099458373288624497]
+- Last seen: 2026-09-14T11:25:23Z
+- **Events (rolling):**
+  - Sep 14 11:25Z — informational: BTC market psychology/sentiment; "cult won't sell" bullish conviction after 4yr bear; waiting for "battle-hardened demons" capitulation; 30d Floor price chart recovery 0.2→0.8 ETH Aug 31→Sep 14 [$BTC/$MACRO/$SENTIMENT] [2099459491502629266]
   - Sep 14 09:59Z — informational: BTC consolidation continuation; scalp-long profit-taking context at support cluster 76-77K; no breakouts pre-FOMC; wait-for-reversals tactical philosophy; 1h/4h charts annotated (365D rVWAP, POC/VAL, 30d support) [$BTC/$MACRO] [2099437984567144482]
   - Sep 13 23:02Z — informational: BTC close to key supports Monday week open; rate-hike/AI scare; FOMC gate (Sep 16); consolidation 76-77K vs downside 73.6K; tactical: wait for reversals not max leverage; 4h chart shows September POC/VAL/30d rVWAP support cluster [$BTC/$MACRO] [2099272574492360836]
   - Sep 13 22:46Z — informational: pump looks cheap; 15m chart oversold (RSI 32.23), support cluster 0.004063-0.004200 validates 3-entry long thesis [$PUMP] [2099268433925865486]
