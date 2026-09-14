@@ -353,6 +353,7 @@
   - Sep 13 22:01Z — informational-research: "on crypto cults and argonauts" free Substack; Zoomer Oracle thread on cult dynamics; aligns ARGONAUTS thesis [$ARGONAUTS] [2099257234949591319]
   - Sep 14 09:36Z — informational: AI market risk analysis; Substack on potential vamp attack paralleling 2024 Unipcs incident ($300k+ loss). On-chain situation + risk management guidance. First major $AI signal from tracker [$AI] [2099432185866379752]
 - Last seen: 2026-09-14T09:36:53Z
+  - Sep 14 09:41Z — informational-analysis: Substack "Vamp Attack on Artificial Inu"; risk analysis + historical parallel to Sep 2024 NEIRO (cost Unipcs $300k+); personal risk management discussion; philosophical framing via idiom "mantis stalks cicada, unaware of oriole" [$AI] [2099433275911512480]
 
 ## t_in_crypto
 
