@@ -1,9 +1,5 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @Wild_Randomness*
 
-Event: Treasury Tantrum spike on US 10Y (5.006%, +0.74% intraday); meme sentiment shows concern/distress
+Another day where energy stocks are sold despite oil staying bid https://t.co/V4eBY7TkQr
 
-Message: "Citrini 's filare stapinn info get me somewhere"
-
-Context: Text appears garbled. References Citrini (Sep 12 noted as "Citrini's sale as Top Signal" — still PENDING in traders.md). Treasury chart shows macro yield pressure.
-
-Unable to parse intent — macro concern on yields? Related to prior Citrini event? What's your read?
+↳ _Continuation of Sep 10 XLE/oil divergence thesis; bearish dispersion signal for equities._
