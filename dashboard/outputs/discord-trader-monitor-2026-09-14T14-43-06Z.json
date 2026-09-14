@@ -1,0 +1,86 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor — Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_message",
+        "text_message",
+        "sep1",
+        "heading_context",
+        "text_pattern",
+        "text_source",
+        "sep2",
+        "alert_classification"
+      ]
+    },
+    "heading_message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 15m",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern Context",
+        "level": "h3"
+      }
+    },
+    "text_pattern": {
+      "type": "Text",
+      "props": {
+        "text": "HCH has been posting similar messages to Chat (supporting) channel (07:54Z today: \"Fc poly:clarity\"). \"Fc\" likely = false-close chart check on 15m BTC timeframe."
+      }
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "Source: Discord Chat channel",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Uncertainty",
+        "message": "Unable to classify — is this a trade alert or just a technical chart observation Kyle should be aware of?",
+        "type": "warning"
+      }
+    }
+  }
+}
