@@ -1,0 +1,95 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration",
+        "description": "@Wild_Randomness tweet analysis"
+      },
+      "children": [
+        "event_header",
+        "separator1",
+        "tweet_card",
+        "separator2",
+        "media_alert",
+        "separator3",
+        "analysis_section",
+        "separator4",
+        "view_link"
+      ]
+    },
+    "event_header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: 30 mins ago, external sentiment unknown (Twitter quote)",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "30 mins ago… 'no news. they must know something'\n\nnot so sure anymore lol https://t.co/4ffA6iSkHX"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "media_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Media Unavailable",
+        "message": "2 images timed out. Embedded link unresolved.",
+        "type": "warning"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "WR quoting bullish insider-knowledge sentiment, then reacting skeptical. Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099605944774910421"
+      }
+    }
+  }
+}
