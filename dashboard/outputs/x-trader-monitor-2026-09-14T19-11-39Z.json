@@ -1,0 +1,96 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "QQQ market calibration and support level analysis"
+      },
+      "children": [
+        "heading",
+        "stack_main"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_tweet",
+        "separator",
+        "stack_context",
+        "alert_quote",
+        "text_question"
+      ]
+    },
+    "story_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "QQQ 5m Chart - Support Levels Calibration",
+        "href": "https://x.com/Wild_Randomness/status/2099575785552269388",
+        "source": "Wild_Randomness"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event",
+        "text_levels"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: QQQ 5m chart showing key support levels"
+      },
+      "children": []
+    },
+    "text_levels": {
+      "type": "Text",
+      "props": {
+        "text": "Support levels: 711.41, 707.77, 704.59"
+      },
+      "children": []
+    },
+    "alert_quote": {
+      "type": "Alert",
+      "props": {
+        "title": "Wild_Randomness",
+        "message": "You can't let them win",
+        "type": "info"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Bullish (hold the levels) or bearish (if we break, bears win)?"
+      },
+      "children": []
+    }
+  }
+}
