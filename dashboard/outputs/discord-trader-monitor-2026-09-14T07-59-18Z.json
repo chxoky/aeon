@@ -1,0 +1,122 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — Discord message classification"
+      },
+      "children": [
+        "alert",
+        "separator1",
+        "event_section",
+        "separator2",
+        "questions_section"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify message",
+        "message": "Emoji reference and 'frontrunning' execution language are unclear without additional context"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_event",
+        "channel_badge",
+        "timestamp_text",
+        "message_quoted"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event Details",
+        "level": "h3"
+      }
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Supporting-channel message in HCH premium member chat",
+        "variant": "secondary"
+      }
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 14 07:55Z",
+        "variant": "caption"
+      }
+    },
+    "message_quoted": {
+      "type": "Text",
+      "props": {
+        "text": "\"we frontrunning this <emoji>\"",
+        "variant": "lead"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "questions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_context",
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification context required",
+        "level": "h3"
+      }
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a crypto position?",
+        "variant": "body"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Is this onchain execution?",
+        "variant": "body"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a reference to external news?",
+        "variant": "body"
+      }
+    }
+  }
+}
