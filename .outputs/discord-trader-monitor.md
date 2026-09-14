@@ -1,7 +1,18 @@
-🔍 *Calibration — [DC: HCH — Chat]*
+## Summary
 
-Message: "Fc btc 15m"
+**Discord-Trader-Monitor execution complete.**
 
-Pattern context: HCH has been posting similar messages to Chat (supporting) channel (07:54Z today: "Fc poly:clarity"). "Fc" likely = false-close chart check on 15m BTC timeframe.
+**Event:** Message ID 1549067381991673988 from HeartCanHodl in supporting channel (HCH — Chat, 1023638573313966212)
 
-Unable to classify — is this a trade alert or just a technical chart observation Kyle should be aware of?
+**Classification:** DUPLICATE_SKIP
+
+**Reason:** Message already processed at 2026-09-14T14:43:21Z. ID exists in memory/discord-trader-seen.txt (line 18). Per Step 9 skill protocol: *"If `id` is already in `memory/discord-trader-seen.txt`, stop after logging — don't re-alert."*
+
+**Content:** "Fc SNDK 1hr wide" — technical chart check pattern (ambiguous "Fc" shorthand, HR-2 calibration sent earlier)
+
+**Action taken:**
+- ✅ Verified ID in seen list (no duplicate alert)
+- ✅ Appended dedup log entry to memory/logs/2026-09-14.md
+- ✅ No Telegram/notification sent (dedup protocol)
+
+**Status:** Skipped silently. All prior alerts and memory entries preserved from initial 14:43Z processing.
