@@ -1,0 +1,52 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "text-analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "short squeeze went higher, now monthly VAH with 365d rVWAP sitting above.\n\nthink now slowly market is getting ahead of its skips here. the uncertainty is still ahead."
+      },
+      "children": []
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099565327159906586"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Monthly VAH/365D VWAP confluence on BTC perps (15m) at ~79.8K; consolidation risk ahead of FOMC Wed. Support at 76.3K (30D) and 77.2K below.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
