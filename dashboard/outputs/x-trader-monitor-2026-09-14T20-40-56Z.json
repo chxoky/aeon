@@ -1,0 +1,59 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "event-desc",
+        "question-text",
+        "analysis-text",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: No external context visible",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Tom Lee quoting Mel?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this bullish/bearish on macro/tech? Who is Mel in this context?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099598294985187496"
+      },
+      "children": []
+    }
+  }
+}

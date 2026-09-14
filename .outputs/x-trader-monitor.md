@@ -1,11 +1,9 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @Wild_Randomness*
 
-$BTC is up 4% since the 14th.
+Event: No external context visible
 
-Exactly the move I anticipated.✅
+Wild_Randomness: "Tom Lee quoting Mel?"
 
-There are levels to this.
+Unable to classify — is this bullish/bearish on macro/tech? Who is Mel in this context?
 
-[View tweet](https://x.com/KillaXBT/status/2099596177847038270)
-
-↳ _Validates Sep 13 "BTC has officially bottomed" conviction + cycle-acceleration thesis (266d current vs 364d baseline = 100d faster). Aligns with group bullish lean (bull_genius, KillaXBT, swarmister structural bull thesis)._
+[View post](https://x.com/Wild_Randomness/status/2099598294985187496)
