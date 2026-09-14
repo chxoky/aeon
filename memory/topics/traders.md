@@ -255,6 +255,9 @@
 - Last seen: 2026-09-14T06:42:10Z
 - **Events (rolling):**
   - Sep 14 06:42Z — ambiguous-cryptic: "Yes" (Chat supporting); standalone one-word; no reply context; HR-2 calibration sent [$UNKNOWN] [1548946949724700753]
+- Last seen: 2026-09-14T06:42:01Z
+- **Events (rolling):**
+  - Sep 14 06:42Z — mirror-partial-tp: "Covered more this morning" (X post w/ BTC chart context); fourth tranche of crypto short de-risk continuation [$CRYPTO-SHORT] [2099388179963150793]
   - Sep 09 15:35Z — informational-reiteration: ZEC short scale-in confirmed (1% limit at 1295 filled); "$ZEC to zero...Feels good to be back in sync" [$ZEC-SHORT] [2097710518496850156]
   - Sep 09 15:49Z — trade-new-entry: "2% pf 20x lev. long btc with invalidate 77,999" (Trades ★); tactical long contrasting net-short regime [$BTC-LONG] [1547272847725166733]
   - Sep 09 16:42Z — informational: VLTF structure + wick fill rationale for tactical long; bearish below 79.4K mid-range; NOT a regime flip [$BTC] [1547286135829565552]
