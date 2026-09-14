@@ -1,0 +1,420 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-09-14"
+      },
+      "children": [
+        "summary-text",
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "trending-heading",
+        "trending-table",
+        "sep4",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Selectively green — 68/100 large caps in the black, median 24h +0.4%; FIL the standout mover (+18.8%) while trending leans heavy on capitulation names.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Data",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "FIL (Filecoin)",
+            "$0.99",
+            "+18.8%",
+            "+21.4%",
+            "-0.3%",
+            "$433M / #84",
+            "BREAKOUT"
+          ],
+          [
+            "2",
+            "BTW (Bitway)",
+            "$0.70",
+            "+8.7%",
+            "+55.0%",
+            "+7.5%",
+            "$41.7M / #46",
+            ""
+          ],
+          [
+            "3",
+            "CAKE (PancakeSwap)",
+            "$2.35",
+            "+8.0%",
+            "+4.0%",
+            "+0.1%",
+            "$86.8M / #80",
+            ""
+          ],
+          [
+            "4",
+            "LIT (Lighter)",
+            "$4.41",
+            "+7.9%",
+            "-1.3%",
+            "-0.5%",
+            "$78.4M / #69",
+            "TRENDING+UP"
+          ],
+          [
+            "5",
+            "XLM (Stellar)",
+            "$0.19",
+            "+7.0%",
+            "+0.4%",
+            "+1.5%",
+            "$193M / #20",
+            "MAJOR"
+          ],
+          [
+            "6",
+            "NEAR (NEAR Protocol)",
+            "$2.40",
+            "+3.9%",
+            "+2.0%",
+            "-0.8%",
+            "$246M / #32",
+            ""
+          ],
+          [
+            "7",
+            "XRP (XRP)",
+            "$1.39",
+            "+3.8%",
+            "-0.4%",
+            "-0.2%",
+            "$2.08B / #5",
+            "MAJOR"
+          ],
+          [
+            "8",
+            "ZEC (Zcash)",
+            "$1,118",
+            "+2.5%",
+            "-5.7%",
+            "-0.6%",
+            "$1.08B / #10",
+            "MAJOR TRENDING+UP"
+          ],
+          [
+            "9",
+            "HYPE (Hyperliquid)",
+            "$79.58",
+            "+2.4%",
+            "-9.1%",
+            "-0.3%",
+            "$675M / #11",
+            "MAJOR TRENDING+UP"
+          ],
+          [
+            "10",
+            "ADA (Cardano)",
+            "$0.21",
+            "+1.6%",
+            "-4.9%",
+            "-0.4%",
+            "$320M / #19",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Data",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "LSK (Lisk)",
+            "$0.691",
+            "-31.2%",
+            "—",
+            "—",
+            "$158M / #197",
+            "CAPITULATION TRENDING+DOWN"
+          ],
+          [
+            "2",
+            "STONK (STONK)",
+            "$0.197",
+            "-24.8%",
+            "—",
+            "—",
+            "$51.2M / #195",
+            "CAPITULATION TRENDING+DOWN"
+          ],
+          [
+            "3",
+            "XMR (Monero)",
+            "$509",
+            "-3.9%",
+            "-4.3%",
+            "-0.2%",
+            "$110M / #15",
+            "MAJOR"
+          ],
+          [
+            "4",
+            "ATOM (Cosmos)",
+            "$1.54",
+            "-3.5%",
+            "-5.2%",
+            "-2.1%",
+            "$40.0M / #85",
+            ""
+          ],
+          [
+            "5",
+            "PUMP (Pump.fun)",
+            "$0.003600",
+            "-3.4%",
+            "-20.5%",
+            "-0.4%",
+            "$103M / #53",
+            ""
+          ],
+          [
+            "6",
+            "KAS (Kaspa)",
+            "$0.033",
+            "-2.7%",
+            "-5.2%",
+            "-0.5%",
+            "$8.3M / #78",
+            ""
+          ],
+          [
+            "7",
+            "ARB (Arbitrum)",
+            "$0.134",
+            "-2.6%",
+            "-18.7%",
+            "-0.3%",
+            "$127M / #79",
+            ""
+          ],
+          [
+            "8",
+            "WLD (Worldcoin)",
+            "$0.381",
+            "-2.5%",
+            "-14.1%",
+            "-0.7%",
+            "$120M / #62",
+            ""
+          ],
+          [
+            "9",
+            "M (MemeCore)",
+            "$1.13",
+            "-2.1%",
+            "-0.6%",
+            "+0.7%",
+            "$1.6M / #41",
+            ""
+          ],
+          [
+            "10",
+            "RAIN (Rain)",
+            "$0.015",
+            "-1.6%",
+            "-8.8%",
+            "-0.2%",
+            "$34.4M / #13",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Rank #",
+          "Price",
+          "24h%",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "LSK (Lisk)",
+            "#197",
+            "$0.691",
+            "-31.2%",
+            "CAPITULATION TRENDING+DOWN"
+          ],
+          [
+            "2",
+            "LAPTOP (Hunter Biden's Laptop)",
+            "#329",
+            "$0.218",
+            "-27.2%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "3",
+            "PONS (Pons)",
+            "#120",
+            "$0.536",
+            "-3.7%",
+            ""
+          ],
+          [
+            "4",
+            "DOT (Polkadot)",
+            "#51",
+            "$1.009",
+            "-0.1%",
+            ""
+          ],
+          [
+            "5",
+            "STONK (STONK)",
+            "#195",
+            "$0.197",
+            "-24.8%",
+            "CAPITULATION TRENDING+DOWN"
+          ],
+          [
+            "6",
+            "PENGU (Pudgy Penguins)",
+            "#113",
+            "$0.00708",
+            "-1.2%",
+            ""
+          ],
+          [
+            "7",
+            "EMBER (embercurve)",
+            "#804",
+            "$0.0224",
+            "-45.5%",
+            "MICROCAP TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "LSK: trending #1 + -31.2% on vol nearly matching full mcap ($158M vol / $162M mcap) — hard capitulation event"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "STONK: trending #5 + -25% on vol/mcap 0.31 — capitulation; probable news-driven exit"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "FIL: +18.8% on $433M vol with +21.4% 7d momentum — strongest sustained winner"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "LIT: only trending name in the green today (+7.9%) — [TRENDING+UP] signal isolated against a red trending list"
+      }
+    }
+  }
+}
