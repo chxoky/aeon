@@ -31,3 +31,4 @@ Meme context: Seller (wants to profit) vs Buyer (wants seller to suffer)
 Unable to classify — What's your read on this positioning? Is this a signal to mirror QQQ hedges, or market observation?
 
 [View post](https://x.com/Wild_Randomness/status/2099571464576119131)
+🔍 Calibration — @Bitcoin_Astro: Just '@newparadigm33 😉' with no context. Unable to classify. What's your read?
