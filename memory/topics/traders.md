@@ -391,7 +391,7 @@
 - Recent thesis: Contrarian exit discipline. Range structure 62.1K–87.2K key levels. Elliott Wave: Sep 29 = wave peak; Aug 14 bottom confirmed turning point. Upper limit only AFTER retest of lower level first. "We aren't getting 90-100K and altseason." Bearish macro: 46K/42K support levels possible if deteriorates. BTC 29-32K = "black swan only"; realistic 44-39K possible. ETH "looking quite strong" but that's more of a potential BTC move.
 - Conviction notes: Contrarian. Skeptical of trend-followers. NOT confirmed ironic — apply HR-2. Cryptic reply pattern consistent. Range-retest thesis before eventual expansion.
 - Calibration: PENDING Sep 13 09:45Z ("I wrote about this many times" reply), PENDING Sep 11 18:32Z ("sky wants pink, market is organism"), PENDING Sep 11 07:01Z ("+- and depend of time"), PENDING Sep 11 11:12Z ("No no no"), PENDING Sep 10 06:24Z (@cz_binance "Wow Really????"), PENDING Aug 30 15:27Z (@exitpumpBTC "Yep soon"), PENDING Aug 30 12:16Z ("90? Not sure dear... not 90 or 90+").
-- Last seen: 2026-09-13T13:43:00Z
+- Last seen: 2026-09-14T16:57:59Z
 - **Events (rolling):**
   - Aug 29 15:32Z — informational: BTC 1h structure 62.1K–87.2K; September VERY IMPORTANT per MRK analyst [$BTC] [2093723474711699770]
   - Aug 30 04:38Z — informational: "several levels between 46K and 42K...liquidity hunt and a bull trap" [$BTC] [2093921217103163874]
@@ -399,6 +399,7 @@
   - Sep 10 15:24Z — informational: Elliott Wave setup Sep/Oct; peak marked; "Get your bids ready again soon" [$BTC] [2098070189447303337]
   - Sep 11 16:07Z — informational: bearish sentiment on CPI pump bounce; "going to get swallowed up soon" [$BTC] [2098443240835858737]
   - Sep 11 16:09Z — informational: "Bottom isn't in imo" reply to @LP_NXT; aligns 46K/42K support thesis [$BTC] [2098443821990244696]
+  - Sep 14 16:57Z — informational-sentiment: "Everyone is so super bullish bitcoin:native" — market sentiment observation; contrarian note on crowd bullishness aligning w/ Sep 29 Elliott Wave peak thesis [$BTC] [2099543192228020578]
   - Sep 11 18:30Z — informational: "We aren't getting 90–100K and altseason" [$BTC/$ALT] [2098479332473655443]
   - Sep 11 18:43Z — informational: patient limit-order holder; dismisses "manipulation"; waiting for time-based pivots [$BTC] [2098482484195324228]
   - Sep 13 07:22Z — informational: BTC 29-32K "black swan only"; more realistic 44-39K range [$BTC] [2099035992753676391]
