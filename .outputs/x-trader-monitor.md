@@ -1,9 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-$IWM small caps narrative breakdown. A month ago "peak hawkishness" (red arrow) — since then IWM down -5.90% in 32 days. Now everyone panicking: oil, yields, AI slowdown, hiking cycle.
+Event: Reply to @1traitnodemkey about downside positioning
 
-Self-aware take: "your favorite macro larper knows far less than they make you believe (this applies to me too)"
+Wild_Randomness: "No longer interested in downside"
 
-[View tweet](https://x.com/Wild_Randomness/status/2099539674436096484)
+Context: WR holds Nov puts on IWM/SPY (bearish equities into Oct). This could mean: (a) closing/reducing the hedges, (b) shifting to full bullish bias, or (c) generic sentiment commentary.
 
-↳ _Macro sentiment alignment with broader group bearish-equities-into-Oct lens; meta-commentary on forecasting precision._
+Unable to classify — what's your read? Is this a hedge closure, position adjustment, or just commentary?

@@ -1,0 +1,157 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "event_section",
+        "separator_1",
+        "context_section",
+        "separator_2",
+        "question_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_value"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event_value": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @1traitnodemkey about downside positioning"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_section",
+        "context_intro",
+        "context_options"
+      ]
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"No longer interested in downside\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "context_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Context: WR holds Nov puts on IWM/SPY (bearish equities into Oct). This could mean:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_a",
+        "option_b",
+        "option_c"
+      ]
+    },
+    "option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) closing/reducing the hedges"
+      },
+      "children": []
+    },
+    "option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) shifting to full bullish bias"
+      },
+      "children": []
+    },
+    "option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) generic sentiment commentary"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification needed",
+        "message": "Unable to classify — what's your read? Is this a hedge closure, position adjustment, or just commentary?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
