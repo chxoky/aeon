@@ -1,5 +1,11 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @KillaXBT*
 
-Another day where energy stocks are sold despite oil staying bid https://t.co/V4eBY7TkQr
+_"Are you listening... $BTC_
 
-↳ _Continuation of Sep 10 XLE/oil divergence thesis; bearish dispersion signal for equities._
+_The market always recovers before good news appears."_
+
+**Chart context**: 5-year BTC price chart illustrating historical pattern — recovery happened before ETF Approval (2023), recovery happening before Clarity Act passage (Sep 15). Current price 64,121.69 with similar "emerging recovery before catalyst" pattern marked.
+
+**Signal**: Reaffirms KillaXBT's conviction on BTC structural bottom (Sep 13: "BTC has officially bottomed"); market-recovery thesis validates structural bull framework. Catalyst-agnostic framing: recovery happens regardless of headline catalysts.
+
+[View tweet](https://x.com/KillaXBT/status/2099517733004009734)

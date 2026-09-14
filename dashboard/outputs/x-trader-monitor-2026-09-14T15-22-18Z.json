@@ -1,0 +1,104 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "chart-section",
+        "separator-2",
+        "signal-section",
+        "separator-3",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Are you listening... $BTC\n\nThe market always recovers before good news appears."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-heading",
+        "chart-text"
+      ]
+    },
+    "chart-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "chart-text": {
+      "type": "Text",
+      "props": {
+        "text": "5-year BTC price chart illustrating historical pattern — recovery happened before ETF Approval (2023), recovery happening before Clarity Act passage (Sep 15). Current price 64,121.69 with similar \"emerging recovery before catalyst\" pattern marked.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signal-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "signal-heading",
+        "signal-text"
+      ]
+    },
+    "signal-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal",
+        "level": "h3"
+      }
+    },
+    "signal-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reaffirms KillaXBT's conviction on BTC structural bottom (Sep 13: \"BTC has officially bottomed\"); market-recovery thesis validates structural bull framework. Catalyst-agnostic framing: recovery happens regardless of headline catalysts.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099517733004009734"
+      }
+    }
+  }
+}
