@@ -1,0 +1,61 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "IWM Small Caps Analysis",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link",
+        "separator-1",
+        "meta-commentary"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$IWM small caps narrative breakdown. A month ago \"peak hawkishness\" (red arrow) — since then IWM down -5.90% in 32 days. Now everyone panicking: oil, yields, AI slowdown, hiking cycle.\n\nSelf-aware take: \"your favorite macro larper knows far less than they make you believe (this applies to me too)\""
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099539674436096484"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "meta-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Macro sentiment alignment with broader group bearish-equities-into-Oct lens; meta-commentary on forecasting precision.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
