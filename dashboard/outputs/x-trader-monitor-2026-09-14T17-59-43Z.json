@@ -1,0 +1,179 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "tech_section",
+        "sep_2",
+        "context_section",
+        "sep_3",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "SOXL Bottom Call — Semiconductors at critical support (104.27)\n\nDirectexion Daily Semiconductor ETF (SOXL) identified at potential bottom on technical support level 104.27 (weekly chart, -14.39% daily). Chart structure shows major crash 225→104.27 with support cluster marked by multiple inflection points; current price consolidating at critical technical floor."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tech_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_stack",
+        "chart_text"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      }
+    },
+    "tech_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_support",
+        "stat_daily",
+        "badge_soxl"
+      ]
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support Level",
+        "value": "104.27"
+      }
+    },
+    "stat_daily": {
+      "type": "Stat",
+      "props": {
+        "label": "Daily Change",
+        "value": "-14.39%",
+        "trend": "down"
+      }
+    },
+    "badge_soxl": {
+      "type": "Badge",
+      "props": {
+        "text": "SOXL"
+      }
+    },
+    "chart_text": {
+      "type": "Text",
+      "props": {
+        "text": "Major crash 225→104.27 with support cluster marked by multiple inflection points; current price consolidating at critical technical floor",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "thesis_text",
+        "positions_text",
+        "tickers_stack"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces established 3-trader semis recovery thesis. High-convergence overlap ticker with confirmed cross-trader bullish positioning."
+      }
+    },
+    "positions_text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto_Chase profitable Jul 27 closes on MU/SNDK + ryzzqq mean-reversion Jul 28 entries + WR sector bottom Jul 29 confirmation",
+        "variant": "caption"
+      }
+    },
+    "tickers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mu",
+        "badge_sndk",
+        "badge_ryzzqq"
+      ]
+    },
+    "badge_mu": {
+      "type": "Badge",
+      "props": {
+        "text": "MU",
+        "variant": "secondary"
+      }
+    },
+    "badge_sndk": {
+      "type": "Badge",
+      "props": {
+        "text": "SNDK",
+        "variant": "secondary"
+      }
+    },
+    "badge_ryzzqq": {
+      "type": "Badge",
+      "props": {
+        "text": "ryzzqq",
+        "variant": "secondary"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099557754033828016"
+      }
+    }
+  }
+}
