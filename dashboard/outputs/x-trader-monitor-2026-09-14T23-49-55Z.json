@@ -1,0 +1,165 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "ETH technical analysis and trader convergence"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "analysis-section",
+        "sep2",
+        "convergence-section",
+        "sep3",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ETH technical breakdown: 5m chart shows spike to 2615 rejected, sharp reversal to 2515.11 with breakdown structure. Meme caption \"Not ideal\" + Thomas Tank reaction frames as bearish exhaustion sentiment."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "tech-details"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Structure",
+        "level": "h3"
+      }
+    },
+    "tech-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "spike-info",
+        "reversal-info",
+        "sentiment-badge"
+      ]
+    },
+    "spike-info": {
+      "type": "Text",
+      "props": {
+        "text": "5m spike to 2615 rejected",
+        "variant": "caption"
+      }
+    },
+    "reversal-info": {
+      "type": "Text",
+      "props": {
+        "text": "Sharp reversal to 2515.11 with breakdown structure",
+        "variant": "caption"
+      }
+    },
+    "sentiment-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Exhaustion",
+        "variant": "destructive"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conv-heading",
+        "conv-summary",
+        "trader-positions"
+      ]
+    },
+    "conv-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3-Trader Bearish Convergence",
+        "level": "h3"
+      }
+    },
+    "conv-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Intraday technical structure validation of established group bearish lean",
+        "variant": "body"
+      }
+    },
+    "trader-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-hch",
+        "pos-ryzzqq",
+        "pos-crypto-chase"
+      ]
+    },
+    "pos-hch": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH: Short",
+        "variant": "outline"
+      }
+    },
+    "pos-ryzzqq": {
+      "type": "Badge",
+      "props": {
+        "text": "ryzzqq: Short @2095",
+        "variant": "outline"
+      }
+    },
+    "pos-crypto-chase": {
+      "type": "Badge",
+      "props": {
+        "text": "Crypto_Chase: $2000 pullback target",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099646023702610097"
+      }
+    }
+  }
+}
