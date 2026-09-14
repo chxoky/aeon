@@ -1,5 +1,5 @@
 🐦 *[X] @Wild_Randomness*
 
-$QQQ $SOXX $MAGS divergence: Historical parallel to Sep 2024 when semis traded flat for 100 days while QQQ rallied 20%. Currently observing same pattern — SOXX consolidating at lower levels while QQQ holding strength.
+What I'm telling you here is don't over index to a cyclical industry that is less than 1/3 of the index 17% for SPY, watching multiple compression could get you killed as other sectors get bid
 
-[View tweet](https://x.com/Wild_Randomness/status/2099555422374101500)
+[View tweet](https://x.com/Wild_Randomness/status/2099556086579958271)
