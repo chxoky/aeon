@@ -1,0 +1,141 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 discord-trader-monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "channel-metadata",
+        "sep1",
+        "message-block",
+        "sep2",
+        "classification-alert",
+        "pattern-section",
+        "sep3",
+        "context-section"
+      ]
+    },
+    "channel-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message from heartcanhodl at 2026-09-14T07:54:08Z",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-text"
+      ]
+    },
+    "message-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h4"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc poly:clarity",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification",
+        "message": "Unable to classify — what's your read?",
+        "type": "warning"
+      }
+    },
+    "pattern-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pattern-heading",
+        "pattern-text"
+      ]
+    },
+    "pattern-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern Note",
+        "level": "h4"
+      }
+    },
+    "pattern-text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH uses \"Fc\" for false-close checks on technical charts. \"poly\" likely = Polygon token or related. \"clarity\" = unclear reference (possible CLARITY token mention?).",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel (premium member chat) — real-time conviction updates. Message very terse; needs clarification on intended asset/pattern.",
+        "variant": "body"
+      }
+    }
+  }
+}

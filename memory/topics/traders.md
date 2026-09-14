@@ -252,11 +252,10 @@
 - Recent thesis: Net-short since Aug 07 ("full mega retrace" thesis). Fake-bottom thesis: real bottom October. Sep 13 covered 50% crypto shorts; 76K last defense before 74K POI. ZEC short: 1235/1295 entries (2% total), scale-in confirmed Sep 09. CL short rebalanced to 1x Sep 11; 1/3rd re-added Sep 13. Tactical long accumulation (gold + micro alt spots) within net-short regime.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (NOT execution). Scaled entries NOT all-in. Partial TPs do not end regime. NEAR 15m monitoring Sep 11-12. AMD technical level watching.
 - Calibration: PENDING Sep 13 10:51Z ("To them and to others we entered 1% yesterday" — which Sep 12 entry?), PENDING Sep 11 16:02Z ("SL $98.00" — asset unclear), PENDING Sep 11 14:03Z ("6% sl" — ticker unknown), PENDING Sep 11 07:31Z ("small near long leg here?" — NEAR token or pattern?), PENDING Sep 11 05:42Z (Fc clusdt 5m — force-close or false-close?), PENDING Sep 09 15:08Z ("That looks ugly.."), PENDING Sep 07 09:13Z ("Will give rough invalidation if it gets filled" — ticker unknown), PENDING Sep 07 11:57Z (domain purchase / yellow ticker / 2M coin context).
-- Last seen: 2026-09-14T06:42:10Z
+- Last seen: 2026-09-14T07:54:08Z
 - **Events (rolling):**
+  - Sep 14 07:54Z — ambiguous-cryptic: "Fc poly:clarity" (Chat supporting); false-close check pattern, "poly" likely Polygon or related, "clarity" unclear reference; HR-2 calibration sent [$POLY/CLARITY] [1548965059709902891]
   - Sep 14 06:42Z — ambiguous-cryptic: "Yes" (Chat supporting); standalone one-word; no reply context; HR-2 calibration sent [$UNKNOWN] [1548946949724700753]
-- Last seen: 2026-09-14T06:42:01Z
-- **Events (rolling):**
   - Sep 14 06:42Z — mirror-partial-tp: "Covered more this morning" (X post w/ BTC chart context); fourth tranche of crypto short de-risk continuation [$CRYPTO-SHORT] [2099388179963150793]
   - Sep 09 15:35Z — informational-reiteration: ZEC short scale-in confirmed (1% limit at 1295 filled); "$ZEC to zero...Feels good to be back in sync" [$ZEC-SHORT] [2097710518496850156]
   - Sep 09 15:49Z — trade-new-entry: "2% pf 20x lev. long btc with invalidate 77,999" (Trades ★); tactical long contrasting net-short regime [$BTC-LONG] [1547272847725166733]
