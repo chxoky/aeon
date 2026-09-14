@@ -20,3 +20,14 @@ I've successfully executed the x-trader-monitor skill for the provided tweet eve
 - ✅ Not added to traders.md rolling events (size discipline rule)
 
 No further action required.
+Event: QQQ put options table shared with meme framing
+
+Large sweep orders posted:
+• 10/16/2026 strike 713 puts: $7.4M premium  
+• 10/02/2026 strike 700 puts: $3.4M premium
+
+Meme context: Seller (wants to profit) vs Buyer (wants seller to suffer)
+
+Unable to classify — What's your read on this positioning? Is this a signal to mirror QQQ hedges, or market observation?
+
+[View post](https://x.com/Wild_Randomness/status/2099571464576119131)

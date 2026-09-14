@@ -1,0 +1,158 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "QQQ Put Options Positioning"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_calibration",
+        "text_author",
+        "sep_1",
+        "heading_event",
+        "text_event",
+        "sep_2",
+        "heading_orders",
+        "table_orders",
+        "sep_3",
+        "heading_context",
+        "text_context",
+        "sep_4",
+        "heading_analysis",
+        "text_analysis",
+        "sep_5",
+        "link_post"
+      ]
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration"
+      }
+    },
+    "text_author": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ put options table shared with meme framing"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_orders": {
+      "type": "Heading",
+      "props": {
+        "text": "Large Sweep Orders",
+        "level": "h3"
+      }
+    },
+    "table_orders": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Expiration",
+          "Strike",
+          "Premium"
+        ],
+        "rows": [
+          [
+            "10/16/2026",
+            "$713",
+            "$7.4M"
+          ],
+          [
+            "10/02/2026",
+            "$700",
+            "$3.4M"
+          ]
+        ]
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Meme context: Seller (wants to profit) vs Buyer (wants seller to suffer)"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis Request",
+        "level": "h3"
+      }
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — What's your read on this positioning? Is this a signal to mirror QQQ hedges, or market observation?"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099571464576119131"
+      }
+    }
+  }
+}
