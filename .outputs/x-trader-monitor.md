@@ -1,9 +1,9 @@
-🐦 *[X] @trading_axe*
+🐦 **[X] @bull_genius**
 
-SOL is an OG, it'll always remain and pop out with a random winner here and there imo.
+SOL HYPE
 
-~ Dr. Axius.
+and i think ZEC can become one this cycle
 
-[View tweet](https://x.com/trading_axe/status/2099406528763539960)
+https://x.com/bull_genius/status/2099424026540002014
 
-↳ _Bullish sentiment on SOL's long-term viability. Contrasts with HCH short + aligns with prior KillaXBT bullish-if-BTC-bottoms thesis. Group lean remains CONTESTED._
+↳ *Cross-trader context:* Bullish thesis on SOL + HYPE aligns with emerging KillaXBT/HCH structural convergence. ZEC conviction adds to bull_genius's bottom-call thesis (BTC/ETH bottom → altseason expansion). Group SOL/ZEC lean contested (HCH short vs bull_genius/axe bullish; risk-on barometer thesis).

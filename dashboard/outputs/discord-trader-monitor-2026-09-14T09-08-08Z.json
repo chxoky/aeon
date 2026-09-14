@@ -1,0 +1,188 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "event-heading",
+        "event-stack",
+        "context-sep",
+        "context-heading",
+        "pattern-text",
+        "examples-text",
+        "examples-stack",
+        "classification-sep",
+        "classification-heading",
+        "status-text",
+        "alert"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      }
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sender-text",
+        "channel-row",
+        "message-row"
+      ]
+    },
+    "sender-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sender: HeartCanHodl"
+      }
+    },
+    "channel-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-label",
+        "channel-badge"
+      ]
+    },
+    "channel-label": {
+      "type": "Text",
+      "props": {
+        "text": "Channel:",
+        "variant": "caption"
+      }
+    },
+    "channel-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "supporting channel (premium member chat)",
+        "variant": "secondary"
+      }
+    },
+    "message-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-badge"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "caption"
+      }
+    },
+    "message-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc btc 15m",
+        "variant": "outline"
+      }
+    },
+    "context-sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "pattern-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc\" pattern indicates technical chart check (false-close? force-close?), referencing BTC 15-minute timeframe. Similar to earlier today's \"Fc nvda 4hr\" from same trader/channel."
+      }
+    },
+    "examples-text": {
+      "type": "Text",
+      "props": {
+        "text": "Previous \"Fc\" messages marked ambiguous per protocol:",
+        "variant": "caption"
+      }
+    },
+    "examples-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ex1",
+        "ex2",
+        "ex3"
+      ]
+    },
+    "ex1": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc SNDKusdt",
+        "variant": "secondary"
+      }
+    },
+    "ex2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc poly:clarity",
+        "variant": "secondary"
+      }
+    },
+    "ex3": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc clusdt",
+        "variant": "secondary"
+      }
+    },
+    "classification-sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h2"
+      }
+    },
+    "status-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "muted"
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Awaiting calibration",
+        "message": "What's your read on \"Fc btc 15m\"?",
+        "type": "info"
+      }
+    }
+  }
+}

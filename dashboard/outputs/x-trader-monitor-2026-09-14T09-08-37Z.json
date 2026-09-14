@@ -1,0 +1,65 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🐦 [X]"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link",
+        "separator",
+        "context_label",
+        "context_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "SOL HYPE\n\nand i think ZEC can become one this cycle"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/bull_genius/status/2099424026540002014"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-trader context:",
+        "variant": "lead"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish thesis on SOL + HYPE aligns with emerging KillaXBT/HCH structural convergence. ZEC conviction adds to bull_genius's bottom-call thesis (BTC/ETH bottom → altseason expansion). Group SOL/ZEC lean contested (HCH short vs bull_genius/axe bullish; risk-on barometer thesis).",
+        "variant": "body"
+      }
+    }
+  }
+}
