@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "divider",
+        "footer-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "During macro accumulation, volume consistently builds around the lows.\n\nOnce we reclaim the POC and establish the VAL, it signals a breakout from the accumulation range & we never trade below the POC again.\n\nVolume doesn't lie... $BTC"
+      }
+    },
+    "divider": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "view-link",
+        "alignment-text"
+      ]
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099458345950163455"
+      }
+    },
+    "alignment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with KillaXBT's documented Sep 13 accumulation framework thesis; technical validation with labeled volume-profile chart.",
+        "variant": "caption"
+      }
+    }
+  }
+}
