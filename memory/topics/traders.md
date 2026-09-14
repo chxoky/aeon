@@ -229,7 +229,7 @@
 - Recent thesis: BTC 1x1 Gann angle critical — below for ~3 weeks (tough resistance). Historical 2022 breakout above 1x1 confirmed bullish; current rejection = lower retests 72-74K. Time-cycle framework (45° geometry from 2023 bear low). CUO Blue Bull indicator: cycle-low possible but needs BTC hold >$81-83K. October-low consensus = contrarian probe. Alts always have another leg down until bottom — watch BTC pairs not USD. Gold: Head & Shoulders forming on daily; trendline break + @bluebull_CUO indicator rolled below midline = bearish structural lean.
 - Conviction notes: Pure technical Gann/geometric analyst. No personal execution language. Astrological/geometric framework. "Don't marry your bias. Trade what the market is showing you."
 - Calibration: PENDING Sep 13 23:26Z (reply to @tristanqcolt/@chartinspect "Very likely we test those levels" — unclear which asset/levels), PENDING Sep 13 09:40Z (reply to unknown "Yes,of course it is. But what time frame?"), PENDING Sep 08 17:49Z (@Sandeep "Usually when time and price square"), PENDING Sep 06 21:18Z ("First I need bottom for calculations"), PENDING Sep 06 16:32Z ("10 major planets" astrological), PENDING Aug 23 10:12Z ("The way this move happened...same quick and unexpected").
-- Last seen: 2026-09-13T23:26:58Z
+- Last seen: 2026-09-14T14:48:23Z
 - **Events (rolling):**
   - Aug 27 22:20Z — informational: solar eclipse / BTC correlation 10yr analysis; untested hypothesis [$BTC/$MACRO] [2093101492257575388]
   - Aug 29 22:17Z — informational: "Everyone is expecting low in October. Will they get it?" — contrarian probe [$BTC] [2093825501978628570]
@@ -239,6 +239,7 @@
   - Sep 13 09:40Z — ambiguous-cryptic: "Yes, of course it is. But what time frame?" — reply to unknown; HR-2 sent [$UNKNOWN] [2099070584055374138]
   - Sep 13 20:51Z — informational: Gold H&S pattern forming; trendline support broken; @bluebull_CUO rolled below midline; prior sell-signal record validated [$GOLD/$TECHNICAL] [2099239680999038989]
   - Sep 13 23:26Z — ambiguous-cryptic: "@tristanqcolt @chartinspect Very likely we test those levels" — reply to unknown; asset/levels context missing; HR-2 sent [$UNKNOWN] [2099278695114375336]
+  - Sep 14 14:48Z — informational-framework: "Back in JANUARY" time windows thesis; predicted 3 DATE windows mapped pre-price knowledge (15-21 Aug✓ breakout+green candle; 31Aug-4Sep✓ high; 23-30 Sep APPROACHING); rhetorical market outcome question (green+expansion or sideways?); educational framework: TIME=when to pay attention, PRICE/STRUCTURE=what market doing; referenced Patreon+Telegram+private-book members-only context [$BTC] [2099510577567515045]
 
 ## ryzzyqq
 

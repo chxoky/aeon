@@ -1,0 +1,41 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-stack"
+      ]
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "🐦 Back in JANUARY, Bitcoin_Astro shared 3 TIME windows for BTC to watch:\n• 15–21 August → gave break of resistance + big green candle ✓\n• 31 August–4 September → gave a high so far ✓\n• 23–30 September → approaching next week\n\nQuestion: Does this window give another strong green candle + expansion, or continued sideways?\n\nFramework: TIME tells us when to pay attention. PRICE/STRUCTURE tells us what the market is actually doing."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2099510577567515045"
+      }
+    }
+  }
+}
