@@ -1,0 +1,76 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X-Trader-Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-source",
+        "text-quote",
+        "heading-bottom",
+        "text-analysis",
+        "link-tweet",
+        "separator-1",
+        "text-reinforcement"
+      ]
+    },
+    "badge-source": {
+      "type": "Badge",
+      "props": {
+        "text": "🐦 [X] @KillaXBT"
+      }
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"No one is more hated than he who speaks the truth\"",
+        "variant": "muted"
+      }
+    },
+    "heading-bottom": {
+      "type": "Heading",
+      "props": {
+        "text": "Bottom is in for $BTC",
+        "level": "h2"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Chart analysis: Current BTC cycle bottomed 266 days, ~100 days faster than traditional 364-day cycles. Validates Sep 13 conviction: \"BTC has officially bottomed; 30% gain on 2x entry from 62.6K.\""
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099564810488676414"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-reinforcement": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Reinforces group bullish convergence (KillaXBT HTF structural bull + Stoiiic range confirmation + bull_genius ETH/NFT recovery thesis + HeartCanHodl net-long regime). Cycle acceleration adds technical validation heading into FOMC Sep 16."
+      }
+    }
+  }
+}
