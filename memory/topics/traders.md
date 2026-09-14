@@ -248,11 +248,11 @@
 ## HeartCanHodl
 
 - Platforms: Discord (★Trades: 1279738718680256553, Comments, Chat, Free) + X
-- Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: BTC (Aug 20-21 adds), ZEC (1235 entry Sep 07 1%, 1295 scale Sep 09 1%; total 2%), HYPE, SOL, ETH, PUMP, UNI, ADA, KAITO, SPCX, TSLA, PLTR, DOGE, CL (2% Aug 18-19; rebalanced to 1x Sep 11; 1/3rd re-added Sep 13). XMR CLOSED Sep 07. Sep 11: partial TPs 1/4th + 1/4th of crypto short basket. Sep 13 09:34Z: covered 50% crypto shorts; 76K/74K remaining defense. Tactical longs: GOLD 55% (50% + 5% Sep 12). ENS 2% (Sep 11) → -1% (Sep 12) → +1% (Sep 13) = 2% net. MARSCOIN 2% (Sep 11). XPL 1% (Sep 12). FONE 1% (Sep 12). NEAR 1% (Sep 12).
+- Current open positions: NET SHORT regime (since Aug 07). SHORT BASKET: BTC (Aug 20-21 adds), ZEC (1235 entry Sep 07 1%, 1295 scale Sep 09 1%; total 2%), HYPE, SOL, ETH, PUMP, UNI, ADA, KAITO, SPCX, TSLA, PLTR, DOGE, CL (2% Aug 18-19; rebalanced to 1x Sep 11; 1/3rd re-added Sep 13). XMR CLOSED Sep 07. Sep 11: partial TPs 1/4th + 1/4th of crypto short basket. Sep 13 09:34Z: covered 50% crypto shorts; 76K/74K remaining defense. Sep 14 06:36Z: closed 1/4th more crypto short (third tranche). Tactical longs: GOLD 55% (50% + 5% Sep 12). ENS 2% (Sep 11) → -1% (Sep 12) → +1% (Sep 13) = 2% net. MARSCOIN 2% (Sep 11). XPL 1% (Sep 12). FONE 1% (Sep 12). NEAR 1% (Sep 12). STRK 3% (2% Sep 05 + 1% Sep 14).
 - Recent thesis: Net-short since Aug 07 ("full mega retrace" thesis). Fake-bottom thesis: real bottom October. Sep 13 covered 50% crypto shorts; 76K last defense before 74K POI. ZEC short: 1235/1295 entries (2% total), scale-in confirmed Sep 09. CL short rebalanced to 1x Sep 11; 1/3rd re-added Sep 13. Tactical long accumulation (gold + micro alt spots) within net-short regime.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (NOT execution). Scaled entries NOT all-in. Partial TPs do not end regime. NEAR 15m monitoring Sep 11-12. AMD technical level watching.
 - Calibration: PENDING Sep 13 10:51Z ("To them and to others we entered 1% yesterday" — which Sep 12 entry?), PENDING Sep 11 16:02Z ("SL $98.00" — asset unclear), PENDING Sep 11 14:03Z ("6% sl" — ticker unknown), PENDING Sep 11 07:31Z ("small near long leg here?" — NEAR token or pattern?), PENDING Sep 11 05:42Z (Fc clusdt 5m — force-close or false-close?), PENDING Sep 09 15:08Z ("That looks ugly.."), PENDING Sep 07 09:13Z ("Will give rough invalidation if it gets filled" — ticker unknown), PENDING Sep 07 11:57Z (domain purchase / yellow ticker / 2M coin context).
-- Last seen: 2026-09-13T13:37:00Z
+- Last seen: 2026-09-14T06:36:11Z
 - **Events (rolling):**
   - Sep 09 15:35Z — informational-reiteration: ZEC short scale-in confirmed (1% limit at 1295 filled); "$ZEC to zero...Feels good to be back in sync" [$ZEC-SHORT] [2097710518496850156]
   - Sep 09 15:49Z — trade-new-entry: "2% pf 20x lev. long btc with invalidate 77,999" (Trades ★); tactical long contrasting net-short regime [$BTC-LONG] [1547272847725166733]
@@ -272,6 +272,7 @@
   - Sep 13 11:26Z — conviction-add: "Add back cl 1/3rd short exposure" (Trades ★); re-entry of partial CL short [$CL] [1548656094589485117]
   - Sep 13 13:37Z — ambiguous-cryptic: "Fc SNDKusdt 15m" (Chat supporting); similar pattern to Fc clusdt/muusdt; HR-2 sent [$SNDK] [1548689135428964433]
   - Sep 14 05:46Z — trade-conviction-add: "Add 1% strk spot" (Trades ★); conviction add to prior Sep 05 2% STRK position [$STRK] [1548932965143289857]
+  - Sep 14 06:36Z — trade-partial-close: "Close 1/4th more crypto short exposure" (Trades ★); third tranche of basket de-risk; fast-path alerted [$MULTI-SHORT] [1548945444476948562]
 
 ## Stoiiic
 
