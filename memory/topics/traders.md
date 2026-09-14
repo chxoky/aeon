@@ -395,14 +395,12 @@
   - Sep 14 09:41Z — informational-analysis: Substack "Vamp Attack on Artificial Inu"; risk analysis + historical parallel to Sep 2024 NEIRO (cost Unipcs $300k+); personal risk management discussion; philosophical framing via idiom "mantis stalks cicada, unaware of oriole" [$AI] [2099433275911512480]
   - Sep 14 10:06Z — informational (sentiment/clarification): BTC consolidation structure; bullish "short squeeze going higher" sentiment; defensive clarification on positioning (closing leveraged longs NOT equal to pico top, NOT to flipping shorts). 1h chart: 365D declining ~80.4K, 7D range ~77.8-79.2K, 30D support ~76.3K. Step 6 informational [$BTC] [2099439609809600575]
   - Sep 14 10:13Z — informational-clarification-followup: Detailed technical explanation of long-close rationale. 1h chart with VWAP confluence (365D declining, 7D range 77.8-79.2K, 30D support 76.3K); fair value thesis ahead of FOMC; clarifies no short flip. Follow-up to 10:06Z with substantive chart analysis. Step 6 [$BTC] [2099441375922081812]
-- Last seen: 2026-09-14T18:25:56Z
+- Last seen: 2026-09-14T19:05:33Z
 - **Events (rolling):**
   - Sep 14 12:36Z — informational: ARC token research; recommended by @1lemonsour @SatoshiSender; bull_genius checking it out; no personal execution yet [$ARC] [2099477418968813826]
   - Sep 14 18:25Z — informational-technical: BTC short squeeze higher; monthly VAH + 365D rVWAP confluence ~79.8K; market ahead of skips; uncertainty until FOMC; consolidation risk structure [$BTC] [2099565327159906586]
-- Last seen: 2026-09-14T18:28:55Z
-- **Events (rolling):**
-  - Sep 14 12:36Z — informational: ARC token research; recommended by @1lemonsour @SatoshiSender; bull_genius checking it out; no personal execution yet [$ARC] [2099477418968813826]
   - Sep 14 18:28Z — ambiguous-cryptic: @xyzbtc1 reply "agreed but before wednesday i believe it when i see it"; reply context external/unclear (what was original thesis?); skeptical/conditional tone on timing before FOMC Wed; HR-2 calibration sent [$UNKNOWN/$FOMC] [2099566077227274465]
+  - Sep 14 19:05Z — skip: KOL behavior meta-commentary + marmot burrow substack promo; image shows $PQON deleted call 0.71x; non-financial banter [2099575298278732025]
 
 ## t_in_crypto
 
