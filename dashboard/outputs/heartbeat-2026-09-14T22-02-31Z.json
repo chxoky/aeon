@@ -1,0 +1,88 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "watch-badge",
+        "stale-alert",
+        "separator1",
+        "clear-header",
+        "clear-checks"
+      ]
+    },
+    "watch-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "destructive"
+      }
+    },
+    "stale-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "P3 STALE: morning-pipeline chain",
+        "message": "Daily schedule 07:00 UTC. Last succeeded 2026-09-06 (8 days overdue). morning-brief downstream also stale. Individual steps (token-movers, market-context-refresh) healthy on standalone 12/13:00 UTC schedules. Chain dispatch itself may be broken."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clear-header": {
+      "type": "Heading",
+      "props": {
+        "text": "All other checks clear:",
+        "level": "h3"
+      }
+    },
+    "clear-checks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "check1",
+        "check2",
+        "check3",
+        "check4"
+      ]
+    },
+    "check1": {
+      "type": "Text",
+      "props": {
+        "text": "X webhook WATCHED_TRADERS rule active (is_effect: 1)",
+        "variant": "body"
+      }
+    },
+    "check2": {
+      "type": "Text",
+      "props": {
+        "text": "No failed/stuck/degrading skills",
+        "variant": "body"
+      }
+    },
+    "check3": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs or urgent issues",
+        "variant": "body"
+      }
+    },
+    "check4": {
+      "type": "Text",
+      "props": {
+        "text": "0 open issues",
+        "variant": "body"
+      }
+    }
+  }
+}
