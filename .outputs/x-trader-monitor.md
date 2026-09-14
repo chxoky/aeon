@@ -1,5 +1,9 @@
-🐦 *[ETH] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-Upside fakeout pattern holding. Daily structure: consolidation 2,400–2,500 with repeated tests of resistance. RSI now recovering from oversold, suggesting market recognizing this scenario (fakeout followed by accumulation). Consensus turning incrementally positive.
+Event: Macro sentiment post Sep 14 22:12:31 UTC
 
-[View post](https://x.com/Wild_Randomness/status/2099616996564623718)
+Wild_Randomness: "Distribution? or a lot of chasing will ensure as event vol rolls off‖ (even if we get a hike… provided Warsh doesn't go full 6-12 mth outlook Hawk), "
+
+Unable to classify — Grammar garbled, sentiment ambiguous. What event is referenced (FOMC Sep 16? earnings cycle?), and is this bullish (chasing/momentum) or bearish (distribution) framing?
+
+[View post](https://x.com/Wild_Randomness/status/2099622348144124272)

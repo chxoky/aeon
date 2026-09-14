@@ -1,0 +1,80 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "event-info",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "analysis-alert",
+        "post-link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Macro sentiment post Sep 14 22:12:31 UTC",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Distribution? or a lot of chasing will ensure as event vol rolls off‖ (even if we get a hike… provided Warsh doesn't go full 6-12 mth outlook Hawk)"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify",
+        "message": "Grammar garbled, sentiment ambiguous. What event is referenced (FOMC Sep 16? earnings cycle?), and is this bullish (chasing/momentum) or bearish (distribution) framing?"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099622348144124272"
+      }
+    }
+  }
+}
