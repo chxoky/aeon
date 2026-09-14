@@ -1,0 +1,106 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-section",
+        "separator-1",
+        "classification-section",
+        "view-link"
+      ]
+    },
+    "calibration-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "calibration-heading",
+        "event-label",
+        "tweet-card",
+        "image-note"
+      ]
+    },
+    "calibration-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic headline commentary",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Shh Tree not the type of headline we need ahead of Clarity"
+      }
+    },
+    "image-note": {
+      "type": "Text",
+      "props": {
+        "text": "Post includes meme-reaction image (three people at formal event).",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-alert",
+        "question-1",
+        "question-2"
+      ]
+    },
+    "unable-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "info"
+      }
+    },
+    "question-1": {
+      "type": "Text",
+      "props": {
+        "text": "What headline/event is 'Tree' referencing?",
+        "variant": "body"
+      }
+    },
+    "question-2": {
+      "type": "Text",
+      "props": {
+        "text": "Is 'Clarity' the Act catalyst, or something else?",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099633563390128511"
+      }
+    }
+  }
+}
