@@ -44,6 +44,9 @@
 - Last seen: 2026-09-14T23:46:36Z
 - **Events (rolling):**
   - Sep 14 23:46Z — informational-technical: ETH 5m breakdown (spike 2615→2515 rejection); bearish meme sentiment; no execution [$ETH] [2099646023702610097]
+- Last seen: 2026-09-14T23:45:04Z
+- **Events (rolling):**
+  - Sep 14 23:45Z — informational-macro: All-In Summits vs BTC/ETH conferences comparative event-impact question; philosophical observation on conference-driven sentiment effects across asset classes; no personal execution [$MACRO/$AI/$CONFERENCES] [2099645639965757709]
   - Sep 14 23:29Z — informational-macro: Fed policy commentary; market's approach to reading forward guidance from statements; reply to @ssefXBT; commentary on language complexity and market interpretation [$MACRO/$FED] [2099641829247570046]
   - Sep 14 22:57Z — ambiguous-cryptic: "Tree not type of headline we need ahead of Clarity"; cryptic headline ref; HR-2 calibration sent [$UNKNOWN] [2099633563390128511]
   - Sep 14 22:33Z — informational-macro: Fed policy sentiment (uncertainty roll-off on rate hike, medium-term language importance); reply to @rahmbotrades; macro commentary on forward guidance reliance [$MACRO/$FED] [2099627621265113432]
