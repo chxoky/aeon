@@ -1,0 +1,98 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "sep",
+        "details"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$RKT — Pressure keeps building…\n\n30Y bond yield (5.286%) rising, RKT consolidation testing key levels (13-15 zone, prior resistance 20-21, support 11.94).\n\nContinuation of Sep 10 mean-reversion DCA plan on March 2027 calls — thesis: 30Y bond breakout drives 3x historical doubles over 2-4 months."
+      }
+    },
+    "sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market",
+        "link"
+      ]
+    },
+    "market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bond_yield",
+        "rkt_consolidation",
+        "resistance_level",
+        "support_level"
+      ]
+    },
+    "bond_yield": {
+      "type": "Stat",
+      "props": {
+        "label": "30Y Bond Yield",
+        "value": "5.286%",
+        "trend": "up"
+      }
+    },
+    "rkt_consolidation": {
+      "type": "Text",
+      "props": {
+        "text": "RKT Consolidation: 13-15 zone"
+      }
+    },
+    "resistance_level": {
+      "type": "Text",
+      "props": {
+        "text": "Prior Resistance: 20-21"
+      }
+    },
+    "support_level": {
+      "type": "Text",
+      "props": {
+        "text": "Support: 11.94"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099535250691084624"
+      }
+    }
+  }
+}
