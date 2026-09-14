@@ -1,0 +1,51 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trading sentiment and market analysis"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "tech_context",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "To be clear I can't recommend this instrument to anyone\n\nTry and pick your spots on individual semis but don't overindex to them imo, the market can look past them"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tech_context": {
+      "type": "Text",
+      "props": {
+        "text": "Technical context: SOXX (semiconductor ETF) consolidation at lower support levels after recent weakness. Reinforces multi-trader semis convergence thesis (Jul 28-29) with caution on broad sector concentration despite recovery opportunity.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099581865384640780"
+      },
+      "children": []
+    }
+  }
+}
