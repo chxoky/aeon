@@ -277,6 +277,7 @@
   - Sep 14 05:46Z — trade-conviction-add: "Add 1% strk spot" (Trades ★); conviction add to prior Sep 05 2% STRK position [$STRK] [1548932965143289857]
   - Sep 14 06:36Z — trade-partial-close: "Close 1/4th more crypto short exposure" (Trades ★); third tranche of basket de-risk; fast-path alerted [$MULTI-SHORT] [1548945444476948562]
   - Sep 14 07:55Z — ambiguous-cryptic: "we frontrunning this <emoji_13>" (Chat supporting); execution language with emoji reference uninterpretable; unclear which asset/action; HR-2 calibration sent [$UNKNOWN] [1548965368930897931]
+  - Sep 14 08:05Z — trade-new-entry: "spot buy 1% ondo" (Trades ★); personal execution, 1% spot allocation; new ticker first mention [$ONDO] [1548968016975499325]
 
 ## Stoiiic
 

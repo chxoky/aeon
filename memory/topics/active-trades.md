@@ -363,6 +363,21 @@
 - **Alerted**: YES (2026-09-05T07:56:09Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; 2026-09-14T05:46:36Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alerts sent, duplicates suppressed per protocol)
 - **Last update**: 2026-09-14T05:46:36Z (message_id=1548932965143289857, discord-trader-monitor real-time, conviction-add)
 
+### ONDO (Ondo Finance) — LONG (NEW ENTRY — 2026-09-14)
+- **Entry date**: 2026-09-14T08:05:53Z
+- **Entry message**: "spot buy 1% ondo"
+- **Entry type**: Market order (spot execution)
+- **Entry level**: Market price at time of execution (Sep 14 08:05:53Z UTC, ONDO spot market)
+- **Entry size**: 1% portfolio allocation
+- **Entry context**: Primary Trades channel (★most important), highest-conviction tier. HCH continuing tactical spot long accumulation. Pattern: ongoing strategic positioning on altcoin accumulation (Sep 04-14 CHIP/BITLIGHT/BCH/BNB/STRK/MARSCOIN/GOLD/XPL/FONE/ENS/ONDO entries) = systematic micro-position portfolio diversification within broader net-long regime (Aug 01+).
+- **Position thesis**: ONDO spot conviction long; emerging ticker first-sighting across tracked traders (Sep 14 08:05:53Z). Likely new altcoin narrative or DeFi protocol play aligning with HCH's tactical long positioning strategy. 1% disciplined sizing consistent with position management approach.
+- **Status**: ACTIVE — market-order execution completed, 1% ONDO spot long position established; fast-path pre-alerted by Cloudflare Worker ~2-5s post-message
+- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
+- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "spot buy 1% ondo"
+- **Ticker note**: ONDO first mention across all 12 tracked traders (Sep 14 08:05:53Z). Single-trader mention tracking pending cross-trader convergence.
+- **Alerted**: YES (2026-09-14T08:05:53Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, duplicate suppressed per protocol)
+- **Last update**: 2026-09-14T08:05:53Z (message_id=1548968016975499325, discord-trader-monitor real-time, trade-new-entry)
+
 ### SNDK (SanDisk) — LONG (FRESH DCA PLAN 2026-07-29, FULLY CLOSED 2026-08-17)
 - **Entry**: 2026-07-29T21:06:29Z (X post, tweet_id=2082573501102178638)
 - **Entry message**: "Starting $SNDK here at 980~, leaving room to add towards high 800's. I don't think these trades will play out as quickly as the previous two and I've sized them conservatively so I have room to average down."
