@@ -1,0 +1,31 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "ETH Trading Analysis"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Upside fakeout pattern holding. Daily structure: consolidation 2,400–2,500 with repeated tests of resistance. RSI now recovering from oversold, suggesting market recognizing this scenario (fakeout followed by accumulation). Consensus turning incrementally positive."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099616996564623718"
+      }
+    }
+  }
+}
