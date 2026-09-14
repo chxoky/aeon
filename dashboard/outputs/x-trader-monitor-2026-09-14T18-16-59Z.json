@@ -1,0 +1,71 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event_desc",
+        "tweet_card",
+        "alert_context",
+        "text_question",
+        "link_view"
+      ]
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @MissMuScian's chart post",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Chart looks good"
+      },
+      "children": []
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Unable to read referenced chart or external context"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read on this message? Is it related to a specific asset/setup Wild_Randomness has been tracking?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099561742187819425"
+      },
+      "children": []
+    }
+  }
+}
