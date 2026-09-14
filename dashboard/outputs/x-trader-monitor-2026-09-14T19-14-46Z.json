@@ -1,0 +1,151 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event_badge",
+        "sep1",
+        "quote_stack",
+        "sep2",
+        "status_alert",
+        "interp_stack",
+        "question"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Reply to @Mrlegend2949",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_author",
+        "quote_text"
+      ]
+    },
+    "quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "@t_in_crypto:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"only locally\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "External context missing",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "interp_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp_label",
+        "interp_list"
+      ]
+    },
+    "interp_label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp1",
+        "interp2",
+        "interp3"
+      ]
+    },
+    "interp1": {
+      "type": "Badge",
+      "props": {
+        "text": "Local technical level (Elliott Wave range reference)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "interp2": {
+      "type": "Badge",
+      "props": {
+        "text": "Geographic constraint",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "interp3": {
+      "type": "Badge",
+      "props": {
+        "text": "Local-move reference",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
