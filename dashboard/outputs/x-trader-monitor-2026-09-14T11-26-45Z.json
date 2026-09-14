@@ -1,0 +1,56 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "context"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "a new chief mate has joined the crew\n\n14.5 ETH is not such a huge price to pay if you really think about it for a bit"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099458373288624497"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Continued Argonauts conviction escalation (5th mention, Sep 07-14 window; thesis: community moat + founder + asymmetric ETH beta; sub-1 ETH \"no brainer\" entry zone). NFT #0944 listed 14.5 ETH as valuation anchor point.",
+        "variant": "muted"
+      }
+    }
+  }
+}

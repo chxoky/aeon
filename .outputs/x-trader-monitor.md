@@ -1,11 +1,9 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @bull_genius*
 
-During macro accumulation, volume consistently builds around the lows.
+a new chief mate has joined the crew
 
-Once we reclaim the POC and establish the VAL, it signals a breakout from the accumulation range & we never trade below the POC again.
+14.5 ETH is not such a huge price to pay if you really think about it for a bit
 
-Volume doesn't lie... $BTC
+[View tweet](https://x.com/bull_genius/status/2099458373288624497)
 
-[View tweet](https://x.com/KillaXBT/status/2099458345950163455)
-
-↳ Aligns with KillaXBT's documented Sep 13 accumulation framework thesis; technical validation with labeled volume-profile chart.
+↳ _Continued Argonauts conviction escalation (5th mention, Sep 07-14 window; thesis: community moat + founder + asymmetric ETH beta; sub-1 ETH "no brainer" entry zone). NFT #0944 listed 14.5 ETH as valuation anchor point._
