@@ -1,7 +1,9 @@
-📌 **ARC Research Alert — @bull_genius**
+🔍 *Calibration — @trading_axe*
 
-@1lemonsour and @SatoshiSender just recommended **ARC** to bull_genius, who's now checking it out. Early research phase, no personal execution signal yet.
+Event: Mention of @sershokunin with Dr. Axius persona; t.co link (image unreadable, 0-byte CDN)
 
-This is the first mention of ARC across all tracked traders. Monitor for cross-trader convergence or bull_genius entry signal.
+trading_axe: "@sershokunin ~ Dr. Axius. https://t.co/YY9alGqJuG"
 
-[View tweet](https://x.com/bull_genius/status/2099477418968813826)
+Media attachment failed to load (0 bytes from CDN). Unable to classify — what's your read? (This is calibration #13 for @trading_axe; 12 prior PENDING)
+
+[View post](https://x.com/trading_axe/status/2099479786271780938)
