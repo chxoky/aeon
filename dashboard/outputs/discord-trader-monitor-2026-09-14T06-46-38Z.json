@@ -1,0 +1,103 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "text-event",
+        "sep2",
+        "quote-stack",
+        "sep3",
+        "closing-text"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting channel observation without explicit context",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author-badge",
+        "quote-text"
+      ]
+    },
+    "author-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "heartcanhodl",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "Interesting timing of situational awareness being active in options market and this fall",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "closing-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Macro sentiment on options market? Timing commentary on market fall?)",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
