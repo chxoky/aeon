@@ -280,6 +280,7 @@
   - Sep 14 07:55Z — ambiguous-cryptic: "we frontrunning this <emoji_13>" (Chat supporting); execution language with emoji reference uninterpretable; unclear which asset/action; HR-2 calibration sent [$UNKNOWN] [1548965368930897931]
   - Sep 14 08:05Z — trade-new-entry: "spot buy 1% ondo" (Trades ★); personal execution, 1% spot allocation; new ticker first mention [$ONDO] [1548968016975499325]
   - Sep 14 10:05Z — trade-partial-close: "Cover" (Trades ★ reply); closing CL short re-added Sep 13 11:26Z; fast-path alerted [$CL] [1548998012263600139]
+  - Sep 14 10:05Z — ambiguous-cryptic: "Will wait to re-add to it" (Trades ★); cryptic standalone statement; unclear which position ("re-add" implies post-cover recovery); context: just closed 3rd short tranche (06:36Z), added ONDO (08:05Z); HR-2 calibration sent [$UNKNOWN] [1548998157571072001]
 
 ## Stoiiic
 
