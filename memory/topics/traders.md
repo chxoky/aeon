@@ -395,6 +395,10 @@
 - **Events (rolling):**
   - Sep 14 12:36Z — informational: ARC token research; recommended by @1lemonsour @SatoshiSender; bull_genius checking it out; no personal execution yet [$ARC] [2099477418968813826]
   - Sep 14 18:25Z — informational-technical: BTC short squeeze higher; monthly VAH + 365D rVWAP confluence ~79.8K; market ahead of skips; uncertainty until FOMC; consolidation risk structure [$BTC] [2099565327159906586]
+- Last seen: 2026-09-14T18:28:55Z
+- **Events (rolling):**
+  - Sep 14 12:36Z — informational: ARC token research; recommended by @1lemonsour @SatoshiSender; bull_genius checking it out; no personal execution yet [$ARC] [2099477418968813826]
+  - Sep 14 18:28Z — ambiguous-cryptic: @xyzbtc1 reply "agreed but before wednesday i believe it when i see it"; reply context external/unclear (what was original thesis?); skeptical/conditional tone on timing before FOMC Wed; HR-2 calibration sent [$UNKNOWN/$FOMC] [2099566077227274465]
 
 ## t_in_crypto
 

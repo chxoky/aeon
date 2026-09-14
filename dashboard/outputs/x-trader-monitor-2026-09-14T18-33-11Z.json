@@ -1,0 +1,193 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_section",
+        "sep1",
+        "event_section",
+        "sep2",
+        "quote_section",
+        "sep3",
+        "analysis_alert",
+        "sep4",
+        "reference_section",
+        "sep5",
+        "link_element"
+      ]
+    },
+    "header_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "header_text",
+        "author_badge"
+      ]
+    },
+    "header_text": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "author_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@bull_genius",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_content"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "event_content": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @xyzbtc1; original message context unknown"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_content"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Quote from bull_genius",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "quote_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"agreed but before wednesday i believe it when i see it\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Is this BTC/macro conviction with FOMC skepticism, or something else?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "reference_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reference_label",
+        "reference_content"
+      ]
+    },
+    "reference_label": {
+      "type": "Text",
+      "props": {
+        "text": "Reference",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "reference_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"wednesday\" = FOMC Sep 16?"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2099566077227274465"
+      },
+      "children": []
+    }
+  }
+}
