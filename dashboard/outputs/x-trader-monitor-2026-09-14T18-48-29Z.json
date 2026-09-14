@@ -1,0 +1,194 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_alert",
+        "payload_section",
+        "decode_section",
+        "question_section"
+      ]
+    },
+    "event_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Event: Payload Corruption",
+        "message": "Base64 decode error during event processing"
+      }
+    },
+    "payload_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "payload_heading",
+        "payload_text"
+      ]
+    },
+    "payload_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Base64 Payload",
+        "level": "h3"
+      }
+    },
+    "payload_text": {
+      "type": "Text",
+      "props": {
+        "text": "eyJpZCI6IjIwOTk1NzAwMzIwNzQ0NDA3NDciLCJ1c2VybmFtZSI6IldpbGRfUmFuZG9tbmVzcyIsInRleHQiOiJAWE9WRVJMRVZFUkFHRVgg WYeah I have a tweet about correlation with those who missed LITI/HYPE/ZEC/VVV opportunities; sentiment line indicates reluctance to share full opinion due to social/reputation concerns.\",\"created_at\":\"Mon Sep 14 18:44:38 +0000 2026\",\"url\":\"https://x.com/Wild_Randomness/status/20995700320744407\",\"media\":[]}",
+        "variant": "caption"
+      }
+    },
+    "decode_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "decode_heading",
+        "decode_metadata",
+        "tickers_section"
+      ]
+    },
+    "decode_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Partial Decode",
+        "level": "h3"
+      }
+    },
+    "decode_metadata": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Field",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Author",
+            "@Wild_Randomness"
+          ],
+          [
+            "Tweet ID",
+            "20995700320744407"
+          ],
+          [
+            "Mentions",
+            "@XOVERLEVERAGEX"
+          ],
+          [
+            "Topic",
+            "Discussion of correlation with those who missed opportunities"
+          ],
+          [
+            "Sentiment",
+            "Reluctance to share full opinion due to social/reputation concerns"
+          ],
+          [
+            "Created",
+            "Mon Sep 14 18:44:38 +0000 2026"
+          ],
+          [
+            "Media",
+            "None"
+          ],
+          [
+            "Link",
+            "https://x.com/Wild_Randomness/status/20995700320744407"
+          ]
+        ]
+      }
+    },
+    "tickers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tickers_heading",
+        "tickers_badges"
+      ]
+    },
+    "tickers_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Missed Opportunities (Tickers):",
+        "variant": "caption"
+      }
+    },
+    "tickers_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_liti",
+        "badge_hype",
+        "badge_zec",
+        "badge_vvv"
+      ]
+    },
+    "badge_liti": {
+      "type": "Badge",
+      "props": {
+        "text": "LITI"
+      }
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE"
+      }
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC"
+      }
+    },
+    "badge_vvv": {
+      "type": "Badge",
+      "props": {
+        "text": "VVV"
+      }
+    },
+    "question_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "separator",
+        "question_alert"
+      ]
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to Classify",
+        "message": "Text corrupted. What's the actual tweet text and your read on the signal?"
+      }
+    }
+  }
+}
