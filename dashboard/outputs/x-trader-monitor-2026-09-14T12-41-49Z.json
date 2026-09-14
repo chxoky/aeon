@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {},
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_alert",
+        "text_description",
+        "text_context",
+        "link_tweet"
+      ]
+    },
+    "heading_alert": {
+      "type": "Heading",
+      "props": {
+        "text": "📌 ARC Research Alert — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "text_description": {
+      "type": "Text",
+      "props": {
+        "text": "@1lemonsour and @SatoshiSender just recommended ARC to bull_genius, who's now checking it out. Early research phase, no personal execution signal yet.",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "This is the first mention of ARC across all tracked traders. Monitor for cross-trader convergence or bull_genius entry signal.",
+        "variant": "muted"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099477418968813826"
+      }
+    }
+  }
+}

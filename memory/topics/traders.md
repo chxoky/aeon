@@ -365,7 +365,9 @@
   - Sep 14 09:41Z — informational-analysis: Substack "Vamp Attack on Artificial Inu"; risk analysis + historical parallel to Sep 2024 NEIRO (cost Unipcs $300k+); personal risk management discussion; philosophical framing via idiom "mantis stalks cicada, unaware of oriole" [$AI] [2099433275911512480]
   - Sep 14 10:06Z — informational (sentiment/clarification): BTC consolidation structure; bullish "short squeeze going higher" sentiment; defensive clarification on positioning (closing leveraged longs NOT equal to pico top, NOT to flipping shorts). 1h chart: 365D declining ~80.4K, 7D range ~77.8-79.2K, 30D support ~76.3K. Step 6 informational [$BTC] [2099439609809600575]
   - Sep 14 10:13Z — informational-clarification-followup: Detailed technical explanation of long-close rationale. 1h chart with VWAP confluence (365D declining, 7D range 77.8-79.2K, 30D support 76.3K); fair value thesis ahead of FOMC; clarifies no short flip. Follow-up to 10:06Z with substantive chart analysis. Step 6 [$BTC] [2099441375922081812]
-- Last seen: 2026-09-14T10:13:24Z
+- Last seen: 2026-09-14T12:36:37Z
+- **Events (rolling):**
+  - Sep 14 12:36Z — informational: ARC token research; recommended by @1lemonsour @SatoshiSender; bull_genius checking it out; no personal execution yet [$ARC] [2099477418968813826]
 
 ## t_in_crypto
 
