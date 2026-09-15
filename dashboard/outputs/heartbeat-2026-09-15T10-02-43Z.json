@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "alert_watch",
+        "sep1",
+        "text_steps",
+        "sep2",
+        "text_webhook",
+        "sep3",
+        "stack_summary"
+      ]
+    },
+    "alert_watch": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🟡 WATCH: morning-pipeline chain + morning-brief",
+        "message": "Last ran 2026-09-06 (9 days on a daily schedule)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_steps": {
+      "type": "Text",
+      "props": {
+        "text": "Individual chain steps (token-movers, market-context-refresh) are healthy on standalone 12:00/13:00 UTC schedules",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_webhook": {
+      "type": "Text",
+      "props": {
+        "text": "X webhook WATCHED_TRADERS rule active",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_no_failures",
+        "text_no_issues"
+      ]
+    },
+    "text_no_failures": {
+      "type": "Text",
+      "props": {
+        "text": "No failed or stuck skills",
+        "variant": "body"
+      }
+    },
+    "text_no_issues": {
+      "type": "Text",
+      "props": {
+        "text": "No open issues",
+        "variant": "body"
+      }
+    }
+  }
+}
