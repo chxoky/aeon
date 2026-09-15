@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "badge_status",
+        "text_member_context",
+        "link_x_post",
+        "text_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_member_context": {
+      "type": "Text",
+      "props": {
+        "text": "Member context: (Tree Capital's message not captured)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link_x_post": {
+      "type": "Link",
+      "props": {
+        "label": "HCH: https://x.com/HeartCanHodl/status/2099695492292870369",
+        "href": "https://x.com/HeartCanHodl/status/2099695492292870369"
+      },
+      "children": []
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "URL-only reply, no visible content. Unable to classify — what's your read?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
