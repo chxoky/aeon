@@ -1,0 +1,59 @@
+{
+  "root": "skill-health-card",
+  "state": {},
+  "elements": {
+    "skill-health-card": {
+      "type": "Card",
+      "props": {
+        "title": "Skill Health — 2026-09-15"
+      },
+      "children": [
+        "health-stack"
+      ]
+    },
+    "health-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "health-alert",
+        "metrics-stack"
+      ]
+    },
+    "health-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "HEALTH: OK",
+        "message": "8 skills healthy",
+        "type": "success"
+      }
+    },
+    "metrics-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "open-issues-stat",
+        "resolved-stat"
+      ]
+    },
+    "open-issues-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Open issues",
+        "value": "0"
+      }
+    },
+    "resolved-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolved this run",
+        "value": "0"
+      }
+    }
+  }
+}
