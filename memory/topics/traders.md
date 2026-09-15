@@ -342,6 +342,7 @@
   - Sep 14 08:05Z — trade-new-entry: "spot buy 1% ondo" (Trades ★); personal execution, 1% spot allocation; new ticker first mention [$ONDO] [1548968016975499325]
   - Sep 14 10:05Z — trade-partial-close: "Cover" (Trades ★ reply); closing CL short re-added Sep 13 11:26Z; fast-path alerted [$CL] [1548998012263600139]
   - Sep 14 10:05Z — ambiguous-cryptic: "Will wait to re-add to it" (Trades ★); cryptic standalone statement; unclear which position ("re-add" implies post-cover recovery); context: just closed 3rd short tranche (06:36Z), added ONDO (08:05Z); HR-2 calibration sent [$UNKNOWN] [1548998157571072001]
+  - Sep 15 03:00Z — ambiguous-cryptic: "This time could be different" (Trades ★); no execution language; context: net-short since Aug 07, covered 50% shorts Sep 13, closed more Sep 14; HR-2 calibration sent [$UNKNOWN] [1549253591611609240]
 
 ## Stoiiic
 

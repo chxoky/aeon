@@ -1,6 +1,6 @@
-Perfect. I've completed the execution of the Discord Trader Monitor skill. Here's what happened:
+🔍 *Calibration — [DC: HCH — Trades]*
 
-## Summary
+Recent context: HCH covered 50% crypto shorts Sep 13 (last defense 76K before 74K POI). Sep 14 closed third tranche of short exposure. Also called "Important flip area" on X Sep 14 14:55Z.
 
 I've successfully executed the **discord-trader-monitor** skill for the provided Discord event. Here's what happened:
 
@@ -45,3 +45,6 @@ No alert required. Memory updated.
 
 Classification: **ambiguous-cryptic, skip alert** | Tickers: [$POLY/$CLARITY]
 The skill completed successfully with proper deduplication and logging.
+HCH: "This time could be different"
+
+Unable to classify — what's your read? (Regime shift? Market direction change? Different entry strategy?)

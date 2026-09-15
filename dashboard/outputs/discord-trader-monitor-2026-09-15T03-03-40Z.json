@@ -1,0 +1,86 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-context",
+        "sep-1",
+        "text-quote-label",
+        "text-quote",
+        "sep-2",
+        "alert-question"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Trades]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent context: HCH covered 50% crypto shorts Sep 13 (last defense 76K before 74K POI). Sep 14 closed third tranche of short exposure. Also called \"Important flip area\" on X Sep 14 14:55Z.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-quote-label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"This time could be different\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify — what's your read?",
+        "message": "Regime shift? Market direction change? Different entry strategy?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
