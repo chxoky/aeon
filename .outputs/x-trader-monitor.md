@@ -1,8 +1,7 @@
-🔍 *Calibration — @t_in_crypto*
+🐦 *[X] @Bitcoin_Astro*
 
-*New trader (not in tracked list)*
+Price is still stuck inside the same 74–81K range it's been coiling in since late August. Looking at historical cycles with similar structure and compression, expecting sideways action to continue for another week, taking us straight into the Sep 23–30 window mapped out months ago.
 
-Position: Short at 79.297, waiting to flip long
-Conviction: "In my opinion, it's still too early"
+Sep 23–30 is the key decision window. Market waiting for the next time cycle to determine expansion or rotation inside the box.
 
-Unable to classify — what's your read on this trader and the signal? What asset is 79.297 (BTC?)?
+[View tweet](https://x.com/Bitcoin_Astro/status/2099816512160768301)

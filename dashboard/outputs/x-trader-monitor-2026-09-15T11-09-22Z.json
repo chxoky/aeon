@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "Price is still stuck inside the same 74–81K range it's been coiling in since late August. Looking at historical cycles with similar structure and compression, expecting sideways action to continue for another week, taking us straight into the Sep 23–30 window mapped out months ago.\n\nSep 23–30 is the key decision window. Market waiting for the next time cycle to determine expansion or rotation inside the box.\n\nhttps://x.com/Bitcoin_Astro/status/2099816512160768301"
+      }
+    }
+  }
+}
