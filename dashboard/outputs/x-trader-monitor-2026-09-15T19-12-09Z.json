@@ -1,0 +1,183 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal — @KillaXBT",
+        "description": "$BTC — LONG — Market order filled"
+      },
+      "children": [
+        "header_stack",
+        "separator1",
+        "details_stack",
+        "separator2",
+        "quote_section",
+        "separator3",
+        "link_section",
+        "separator4",
+        "cta_alert"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "alert_text",
+        "long_badge",
+        "status_badge"
+      ]
+    },
+    "alert_text": {
+      "type": "Text",
+      "props": {
+        "text": "🚨",
+        "variant": "lead"
+      }
+    },
+    "long_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Market order filled",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "asset_heading",
+        "stats_grid"
+      ]
+    },
+    "asset_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "$BTC",
+        "level": "h2"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "entry_stat",
+        "stop_stat"
+      ]
+    },
+    "entry_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Average entry",
+        "value": "76.4K"
+      }
+    },
+    "stop_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Hard stop",
+        "value": "62.8K"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "Signal details:",
+        "variant": "muted"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "It is time. 🎯 I've taken another continuation long on $BTC. Average entry: 76.4K. Hard stop 62.8K, around the entry of my existing 2x long. Note: This is a separate position from my current long at 62.6K.",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "source_label",
+        "story_link"
+      ]
+    },
+    "source_label": {
+      "type": "Text",
+      "props": {
+        "text": "Source:",
+        "variant": "muted"
+      }
+    },
+    "story_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/KillaXBT/status/2099938160403005516",
+        "source": "@KillaXBT"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cta_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Reply `approve BTC` to mirror this on Kraken (spot), or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}

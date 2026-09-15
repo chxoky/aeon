@@ -8,6 +8,9 @@
 - Last seen: 2026-09-15T19:06:26Z
 - **Events (rolling):**
   - Sep 15 19:06Z — dca-plan-execution: "All DCA's hit. My average entry on this position is now 76.4K." DCA orders from prior Sep 15 11:54Z plan (adds planned 72.5K) now filled; blended average upgraded from 62.6K (original swing long entry) to 76.4K (new average including DCA fills); reply to own prior message on testing 1D trendline + previous lows; informational position update, no new execution signal [$BTC] [1549496638530125918]
+- Last seen: 2026-09-15T19:07:27Z
+- **Events (rolling):**
+  - Sep 15 19:07Z — trade-new-entry: BTC LONG continuation separate position; avg entry 76.4K, hard stop 62.8K; market-order filled; "It is time. I've taken another continuation long on $BTC" [$BTC] [2099938160403005516]
   - Sep 15 15:47Z — informational-sentiment: cultural market reflection + BTC consolidation state; "end of OG era, space overrun with extraction-minded people"; nostalgic tone on market evolution; no personal action [$BTC] [2099887716347629806]
   - Sep 15 15:14Z — informational-technical: BTC sweep pattern validation; "its time to start building—first genuine sweep in weeks"; charts confirm sweep-wick-expansion macro framework; accumulation zone forming post-sweep; conviction reaffirmation [$BTC] [2099879655385813345]
   - Sep 15 15:05Z — informational-sentiment: BTC 3-4% pump validation; rhetorical confirmation of Sep 13-14 prediction accuracy; conviction reaffirmation [$BTC] [2099877395884913060]

@@ -484,6 +484,21 @@
 - **HEDGE SHORT — EXECUTION (2026-08-21T00:24:15Z)**: Activated 35% short hedge against core 62.6K long position. Entry zone: 73.6-74.9K. Hard stop loss: 76.1K. Invalidation/Target: if HSL hit, next POI is 80-82K. Framework: dual-conviction hedging (maintain core long directional thesis while capping drawdown risk on intraday range-bound consolidation). Message: "73.6-74.9 zone approaching, activating & building into a 35% hedge against holdings." (Discord Trades primary, is_reply=true, message_id=1540154534821765201, fast-path alerted by Worker)
 - **Last update**: 2026-08-21T00:24:15Z (discord-trader-monitor real-time event, message_id=1540154534821765201, fast-path alerted; hedge execution activation in 73.6-74.9K zone with HSL 76.1K)
 
+### BTC — LONG (CONTINUATION ENTRY — 2026-09-15, PENDING APPROVAL)
+- **Entry date**: 2026-09-15T19:07:27Z
+- **Entry message**: "It is time. 🎯 I've taken another continuation long on $BTC. Average entry: 76.4K. Hard stop 62.8K, around the entry of my existing 2x long. Note: This is a separate position from my current long at 62.6K."
+- **Entry type**: Market order (filled, "I've taken" = executed)
+- **Entry level**: 76.4K average
+- **Entry size**: Unspecified (awaiting Kyle approval)
+- **Stop loss**: 62.8K (hard stop, ~6.6% risk from entry)
+- **Entry context**: **SEPARATE new position** explicitly distinct from existing 2x long at 62.6K. Tweet 2026-09-15T19:07:27Z, ~3.5 hours post-last activity (15:47Z sentiment post). Timing: Aligns with structural bull conviction (Sep 13 bottom confirmation, Sep 14-15 sweep-wick-expansion validation, 30% gain on 2x swing confirmed). Entry 76.4K sits near recent consolidation breakout zone (Sep 13-15 range: 73.6-76.2K).
+- **Position thesis**: Conviction continuation scaling into higher technical confluence. Average entry 76.4K implies market order or filled limit (trader language "I've taken" = execution complete, not pending). New separate position adds leverage to existing 2x long structure (total BTC exposure escalation across 2 distinct positions). Risk framework: Hard stop 62.8K caps loss at 6.6%; upside: aligned with structural targets 80-90s per prior Sep 13-14 thesis.
+- **Media**: 1 chart image attached (pbs.twimg.com/media/HSR6DrfWwAAlLY.png) — chart not fetched (20s timeout), pattern: Killa typically publishes technical confluence chart supporting entry level
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve BTC` to mirror on Kraken spot at 76.4K entry with 62.8K SL), or ignore to skip
+- **Trade alert format**: Step 5a (new entry, market-order filled, requires Kyle approval to mirror)
+- **Alerted**: YES (2026-09-15T19:07:27Z X post, x-trader-monitor real-time event, Step 5a trade-alert sent via ./notify at 19:07-19:10Z window)
+- **Last update**: 2026-09-15T19:07:27Z (x-trader-monitor real-time event, tweet_id=2099938160403005516, X post, step-5a pending-approval)
+
 ### BTC — SHORT (scalp hedge, ACTIVE entry 2026-07-14)
 - **Status**: ACTIVE — LADDER ENTRY INITIATED 2026-07-14T15:38:48Z
 - **Entry range**: 64.8K–65.8K (laddering gradual, small-position entry)
