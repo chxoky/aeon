@@ -1,0 +1,115 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "event_section",
+        "trader_section",
+        "analysis_section",
+        "link_post"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_label",
+        "stat_support",
+        "text_breakdown",
+        "badge_timeframe"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event",
+        "variant": "muted"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "SNDK Chart at Critical Support",
+        "value": "~$1560",
+        "trend": "down"
+      }
+    },
+    "text_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Broken from $1822 → $1574 over the past week"
+      }
+    },
+    "badge_timeframe": {
+      "type": "Badge",
+      "props": {
+        "text": "1h perpetual",
+        "variant": "outline"
+      }
+    },
+    "trader_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trader_label",
+        "quote"
+      ]
+    },
+    "trader_label": {
+      "type": "Text",
+      "props": {
+        "text": "@HeartCanHodl",
+        "variant": "muted"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Last hope here.. 👀\"",
+        "variant": "lead"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_observation",
+        "calibration_question"
+      ]
+    },
+    "analysis_observation": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows massive downtrend with support testing."
+      }
+    },
+    "calibration_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify intent — is this flagging a short opportunity on support break, or observational commentary? How would you read it?"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2099695912562086347",
+        "source": "X"
+      }
+    }
+  }
+}

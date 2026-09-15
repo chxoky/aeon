@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — @HeartCanHodl*
 
 **Event Processed:** @HeartCanHodl X post on CRCL (Circle Internet Group)
 
@@ -23,3 +23,10 @@
 - ✅ Daily log entry in 2026-09-15.md (detailed classification notes)
 
 No notification sent. Monitoring for cross-trader convergence on $CRCL.
+Event: SNDK chart at critical support ~$1560 (1h perp, broken from 1822→1574 over week)
+
+HeartCanHodl: "Last hope here.. 👀"
+
+Chart shows massive downtrend with support testing. Unable to classify intent — is this flagging a short opportunity on support break, or observational commentary? How would you read it?
+
+[View post](https://x.com/HeartCanHodl/status/2099695912562086347)
