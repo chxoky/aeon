@@ -1,0 +1,41 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "How times change…\n\n$BTC is consolidating at local resistance after breaking out of its macro downtrend.\n\nI remember a time when people were actually happy to see price go up.\n\nA time when being on the right side of the move mattered more than being right about the narrative.\n\nThe end of a true OG era. Now the space is overrun with people looking to extract every last dollar from the industry.\n\nSad times."
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099887716347629806"
+      },
+      "children": []
+    }
+  }
+}

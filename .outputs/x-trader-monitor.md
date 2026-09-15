@@ -3,23 +3,19 @@
 FOMC Pattern Observation — Sep 15 15:41:10 UTC
 
 Post: "What if same reaction as last FOMC"
+🐦 *[X] @KillaXBT*
 
-I've executed the x-trader-monitor skill for the real-time event triggered by KillaXBT's post:
+How times change…
 
-**Event processed:**
-- **Trader**: @KillaXBT
-- **Tweet ID**: 2099885463272136985  
-- **Text**: "@Soomez123 Bet against me."
-- **Time**: Sep 15 15:38:03 UTC 2026
+$BTC is consolidating at local resistance after breaking out of its macro downtrend.
 
-**Classification**: **Non-financial banter (skip)** per Step 4A
+I remember a time when people were actually happy to see price go up.
 
-**Notes:** Post is a personal attack reply to @justgiovannii2 @KryptoFynn ("Did your mom not love you..."). Classified as banter/hostile personal commentary outside the skill's financial monitoring scope. Skill exited cleanly without notification.
-**Event processed:**
-- **Trader:** @bull_genius
-- **Time:** Sep 15 15:33:30 UTC 2026
-- **Tweet ID:** 2099884319338557528
-- **Classification:** INFORMATIONAL (macro sentiment/market philosophy)
+A time when being on the right side of the move mattered more than being right about the narrative.
+
+The end of a true OG era. Now the space is overrun with people looking to extract every last dollar from the industry.
+
+Sad times.
 
 **Key findings:**
 - Reply to @satyamsoft7 reaffirming "don't trade at all rn, I have no edge, waiting for FOMC or extreme prices"
@@ -61,3 +57,4 @@ Chart: SPY 1D showing prior FOMC rally patterns (+6.55% moves over 5 bars/7 days
 Context: WR established bearish-equities-into-Oct thesis. FOMC Sep 16 catalyst imminent.
 
 [View post](https://x.com/Wild_Randomness/status/2099886249540817168)
+[View tweet](https://x.com/KillaXBT/status/2099887716347629806)
