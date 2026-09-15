@@ -1,0 +1,76 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "metrics-section",
+        "link-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "BTC 2023 cycle showing acceleration — chart displays steeper recent impulse vs historical pattern. Price 75,790 (-3.06%), testing resistance ~30,295 zone. Moving averages aligned bullish. Reply to @ezcontra."
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "btc-price",
+        "btc-change",
+        "resistance-zone"
+      ]
+    },
+    "btc-price": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Price",
+        "value": "75,790"
+      }
+    },
+    "btc-change": {
+      "type": "Stat",
+      "props": {
+        "label": "Change",
+        "value": "-3.06%",
+        "trend": "down"
+      }
+    },
+    "resistance-zone": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance Zone",
+        "value": "~30,295"
+      }
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-link"
+      ]
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099875348322345235"
+      }
+    }
+  }
+}
