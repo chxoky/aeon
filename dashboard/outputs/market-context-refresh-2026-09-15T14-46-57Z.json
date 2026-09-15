@@ -1,0 +1,164 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "market context"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "date-badge",
+        "risk-section",
+        "sep1",
+        "market-prices",
+        "breadth-stat",
+        "tvl-stat",
+        "sep2",
+        "narrative-section",
+        "clarity-alert"
+      ]
+    },
+    "date-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-09-15"
+      }
+    },
+    "risk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "risk-text",
+        "conviction-badge"
+      ]
+    },
+    "risk-text": {
+      "type": "Text",
+      "props": {
+        "text": "take: risk-off",
+        "variant": "lead"
+      }
+    },
+    "conviction-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "conviction high",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btc-stat",
+        "eth-stat",
+        "fg-stat"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$75,899",
+        "delta": "-3.19%",
+        "trend": "down"
+      }
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,420",
+        "delta": "-3.13%",
+        "trend": "down"
+      }
+    },
+    "fg-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "F&G Index (Greed)",
+        "value": "69",
+        "delta": "+12pt divergence",
+        "trend": "up"
+      }
+    },
+    "breadth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "breadth",
+        "value": "2/20"
+      }
+    },
+    "tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL chains (ETH)",
+        "value": "$49.6B",
+        "delta": "-0.84%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "narrative-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative-heading",
+        "fomc-text"
+      ]
+    },
+    "narrative-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "top narrative",
+        "level": "h3"
+      }
+    },
+    "fomc-text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC hike peak (86.5% YES, decision Sep 16)",
+        "variant": "body"
+      }
+    },
+    "clarity-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "CLARITY ACT COLLAPSED",
+        "message": "31.5% → 13.5% (-18pp) — cloture vote today 2:15 PM ET",
+        "type": "warning"
+      }
+    }
+  }
+}

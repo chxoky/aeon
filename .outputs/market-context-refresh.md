@@ -1,7 +1,7 @@
-market context — 2026-09-14
+market context — 2026-09-15
 
-take: chop (conviction medium)
-BTC $77,620 (+1.23%) / ETH $2,498 (+1.01%) · F&G 57 (Greed, -4pts)
-breadth 12/20 · TVL $50.1B Eth (+0.7%)
-top narrative: FOMC + CLARITY Act twin binary (peak, Sep 15)
-hot market: "Fed 25bps hike Sep" YES 80.5% (+3pp)
+take: risk-off (conviction high)
+BTC $75,899 (-3.19%) / ETH $2,420 (-3.13%) · F&G 69 (Greed, +12pt divergence)
+breadth 2/20 · TVL chains flat (ETH $49.6B, -0.84%)
+top narrative: FOMC hike peak (86.5% YES, decision Sep 16)
+CLARITY ACT COLLAPSED: 31.5%→13.5% (-18pp) — cloture vote today 2:15 PM ET
