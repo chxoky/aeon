@@ -1,0 +1,169 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "event_section",
+        "quote_section",
+        "btc_section",
+        "analysis_section",
+        "link_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_text"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Account down 40% after shorting high + buying dips; prior strategy was \"wait for reversals, fade extremes\"."
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Quote",
+        "level": "h3"
+      }
+    },
+    "quote_text": {
+      "type": "Alert",
+      "props": {
+        "message": "@bull_genius: \"anyway i went for the xtx time full long here into coins that didnt make a new low... if they liquidate me so be it. if im right im going to break even!\"",
+        "type": "info"
+      }
+    },
+    "btc_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_label",
+        "btc_content"
+      ]
+    },
+    "btc_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Current BTC",
+        "level": "h3"
+      }
+    },
+    "btc_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_price_stat",
+        "btc_context"
+      ]
+    },
+    "btc_price_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$79,795",
+        "label": "BTC Price"
+      }
+    },
+    "btc_context": {
+      "type": "Text",
+      "props": {
+        "text": "Chart shows consolidation 78-80K. Post tone: frustrated/resigned, not conviction-driven. Contradicts Sep 14-15 disciplined approach."
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_label",
+        "analysis_text"
+      ]
+    },
+    "analysis_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Assessment",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Is this a serious trade signal to mirror, or venting?"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_item"
+      ]
+    },
+    "link_item": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2099859861030813860"
+      }
+    }
+  }
+}
