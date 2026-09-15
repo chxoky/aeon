@@ -1,0 +1,50 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "view-link",
+        "separator-1",
+        "analysis-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "10000s of new users are minting their first NFTs on robinhood chain right now via projects like stonkbrokers, quotrons, standard reserve, hashcats, rare friends, yield fields (i could go on and on)\n\na new era is dawning and we get to rebuild the house of NFT from scratch, we geto make NFTs great again and its going to be awesome"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099854692402544959"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces bull_genius's NFT market bottom thesis; aligns with recent STANDARD reserve genesis mint participation (Sep 14) and Argonauts conviction narrative.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

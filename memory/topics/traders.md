@@ -451,7 +451,7 @@
   - Sep 14 09:41Z — informational-analysis: Substack "Vamp Attack on Artificial Inu"; risk analysis + historical parallel to Sep 2024 NEIRO (cost Unipcs $300k+); personal risk management discussion; philosophical framing via idiom "mantis stalks cicada, unaware of oriole" [$AI] [2099433275911512480]
   - Sep 14 10:06Z — informational (sentiment/clarification): BTC consolidation structure; bullish "short squeeze going higher" sentiment; defensive clarification on positioning (closing leveraged longs NOT equal to pico top, NOT to flipping shorts). 1h chart: 365D declining ~80.4K, 7D range ~77.8-79.2K, 30D support ~76.3K. Step 6 informational [$BTC] [2099439609809600575]
   - Sep 14 10:13Z — informational-clarification-followup: Detailed technical explanation of long-close rationale. 1h chart with VWAP confluence (365D declining, 7D range 77.8-79.2K, 30D support 76.3K); fair value thesis ahead of FOMC; clarifies no short flip. Follow-up to 10:06Z with substantive chart analysis. Step 6 [$BTC] [2099441375922081812]
-- Last seen: 2026-09-14T19:05:33Z
+- Last seen: 2026-09-15T13:35:46Z
 - **Events (rolling):**
   - Sep 14 12:36Z — informational: ARC token research; recommended by @1lemonsour @SatoshiSender; bull_genius checking it out; no personal execution yet [$ARC] [2099477418968813826]
   - Sep 14 18:25Z — informational-technical: BTC short squeeze higher; monthly VAH + 365D rVWAP confluence ~79.8K; market ahead of skips; uncertainty until FOMC; consolidation risk structure [$BTC] [2099565327159906586]
@@ -459,6 +459,7 @@
   - Sep 14 19:05Z — skip: KOL behavior meta-commentary + marmot burrow substack promo; image shows $PQON deleted call 0.71x; non-financial banter [2099575298278732025]
   - Sep 15 09:36Z — informational: Robinhood token liquidity observation; "LOT of liquidity for small market cap"; biggest RH pool 3x larger than PONS pool; token $37.8M market cap, $17.2M liquidity, +1410% 24h; market structure commentary [ROBINHOOD-TOKEN] [2099794389832753430]
   - Sep 15 12:17Z — informational-sentiment: Argonauts floor holds at 0% change while NFT market bleeds (most peers -20 to -40% in 30d); structural support + relative strength signal; chart analysis (14-collection floors sorted) validates thesis [chart $ARGONAUTS/$NFT] [2099835070722777264]
+  - Sep 15 13:35Z — informational-sentiment: Robinhood NFT ecosystem surge; "10000s of new users minting their first NFTs" via stonkbrokers/quotrons/standard/hashcats/rare-friends/yield-fields; "new era dawning, rebuild house of NFT from scratch"; bullish narrative on ecosystem recovery aligns ARGONAUTS + NFT-market-bottom conviction [$NFT/$ROBINHOOD] [2099854692402544959]
 
 ## t_in_crypto
 
