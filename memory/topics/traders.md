@@ -440,6 +440,7 @@
   - Sep 14 18:25Z — informational-technical: BTC short squeeze higher; monthly VAH + 365D rVWAP confluence ~79.8K; market ahead of skips; uncertainty until FOMC; consolidation risk structure [$BTC] [2099565327159906586]
   - Sep 14 18:28Z — ambiguous-cryptic: @xyzbtc1 reply "agreed but before wednesday i believe it when i see it"; reply context external/unclear (what was original thesis?); skeptical/conditional tone on timing before FOMC Wed; HR-2 calibration sent [$UNKNOWN/$FOMC] [2099566077227274465]
   - Sep 14 19:05Z — skip: KOL behavior meta-commentary + marmot burrow substack promo; image shows $PQON deleted call 0.71x; non-financial banter [2099575298278732025]
+  - Sep 15 09:36Z — informational: Robinhood token liquidity observation; "LOT of liquidity for small market cap"; biggest RH pool 3x larger than PONS pool; token $37.8M market cap, $17.2M liquidity, +1410% 24h; market structure commentary [ROBINHOOD-TOKEN] [2099794389832753430]
 
 ## t_in_crypto
 
