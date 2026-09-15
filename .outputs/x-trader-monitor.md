@@ -1,5 +1,8 @@
-🐦 *[X] @Crypto_Chase*
+🔍 *Calibration — @t_in_crypto*
 
-Imagine if all this dip buying unwinds..
+Event: reply to @DieguitoCharts on market signal (external context not visible)
+t_in_crypto: "Your sl is my target 😃"
 
-[View tweet](https://x.com/Crypto_Chase/status/2099952926588309951)
+Unable to classify — what's your read? (Ambiguous: trading banter vs price-level callout vs liquidation bet?)
+
+[View post](https://x.com/t_in_crypto/status/2099954275803648253)
