@@ -1,0 +1,105 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "market_heading",
+        "consolidation_text",
+        "prices_grid",
+        "entry_detail",
+        "sep2",
+        "tweet_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@bull_genius",
+        "handle": "bull_genius",
+        "text": "yeah im max long too but effectively from far higher"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Context",
+        "level": "h3"
+      }
+    },
+    "consolidation_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC consolidating 79-80K post-FOMC uncertainty",
+        "variant": "body"
+      }
+    },
+    "prices_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "consolidation_stat",
+        "entry_stat"
+      ]
+    },
+    "consolidation_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation Range",
+        "value": "$79–80K"
+      }
+    },
+    "entry_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Full Long Entry",
+        "value": "$79.8K"
+      }
+    },
+    "entry_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Reaffirms on Sep 15 13:56Z (within 12min)",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2099862955223363861"
+      }
+    }
+  }
+}
