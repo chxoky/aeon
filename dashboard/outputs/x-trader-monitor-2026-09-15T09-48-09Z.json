@@ -1,0 +1,175 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Trader leverage risk monitoring"
+      },
+      "children": [
+        "badge-status",
+        "stack-main"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved — @HeartCanHodl",
+        "variant": "default"
+      }
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-earlier",
+        "text-ambiguous",
+        "text-resolved-by",
+        "separator-1",
+        "heading-classification",
+        "text-classification",
+        "separator-2",
+        "heading-position",
+        "alert-risk",
+        "stat-leverage",
+        "stat-eth",
+        "stat-btc",
+        "stat-pnl",
+        "separator-3",
+        "heading-interpretation",
+        "text-interpretation",
+        "link-tweet"
+      ]
+    },
+    "heading-earlier": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier Report",
+        "level": "h3"
+      }
+    },
+    "text-ambiguous": {
+      "type": "Text",
+      "props": {
+        "text": "Brother machi is sitting way too uncomfortably on that leverage",
+        "variant": "body"
+      }
+    },
+    "text-resolved-by": {
+      "type": "Text",
+      "props": {
+        "text": "Resolved by: Screenshot of MachiBigBrother's Hyperdash dashboard",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-classification": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Observational commentary on third-party leverage risk",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-position": {
+      "type": "Heading",
+      "props": {
+        "text": "MachiBigBrother's Position",
+        "level": "h3"
+      }
+    },
+    "alert-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "High Leverage Risk",
+        "message": "Unsustainable risk exposure detected",
+        "type": "warning"
+      }
+    },
+    "stat-leverage": {
+      "type": "Stat",
+      "props": {
+        "label": "Account Leverage",
+        "value": "30.4x",
+        "delta": "111.31% margin usage",
+        "trend": "up"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH 25x Position",
+        "value": "-$538,980 PNL",
+        "delta": "$3.86M liquidation risk",
+        "trend": "down"
+      }
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC 40x Position",
+        "value": "-$237,746 PNL",
+        "delta": "$710K liquidation risk",
+        "trend": "down"
+      }
+    },
+    "stat-pnl": {
+      "type": "Stat",
+      "props": {
+        "label": "All-time Account PNL",
+        "value": "-$31.1M",
+        "delta": "$4.1M equity base",
+        "trend": "down"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-interpretation": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "text-interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl's read: unsustainable risk exposure (not their own position)",
+        "variant": "body"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2099795957890347024"
+      }
+    }
+  }
+}
