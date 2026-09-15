@@ -23,3 +23,14 @@ The message is personal banter with no financial signal:
 5. ✅ **No event line added to traders.md** (per protocol: skip/non-financial events log-only)
 
 The skill completed without issues. No action required from Kyle.
+🔍 *Calibration — @t_in_crypto*
+
+Event: Reply to @KryptoFynn during BTC consolidation (79-80K), Sep 15 14:52Z
+
+t_in_crypto: "@KryptoFynn Nonono\nToo early now but soon \nOctober 🍌"
+
+Context: t_in_crypto is newly-tracked BTC bullish trader. This appears to be disagreement ("Nonono") with KryptoFynn, but the external context is missing. Cryptic timeframe reference ("Too early now but soon / October 🍌") — unclear what's being called, when, or which asset.
+
+Unable to classify — what's your read? Is this: (a) dismissing a bearish call, (b) pricing in October event, (c) playful banter?
+
+[View post](https://x.com/t_in_crypto/status/2099874071789891735)

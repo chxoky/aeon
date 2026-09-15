@@ -1,0 +1,153 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 x-trader-monitor Calibration",
+        "description": "@t_in_crypto — BTC consolidation (79-80K), Sep 15 14:52Z"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "event-section",
+        "tweet-section",
+        "context-section",
+        "options-section",
+        "view-link"
+      ]
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to @KryptoFynn during BTC consolidation (79-80K), Sep 15 14:52Z"
+      }
+    },
+    "tweet-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "Nonono\nToo early now but soon\nOctober 🍌"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text1",
+        "context-text2",
+        "context-text3"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-text1": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto is newly-tracked BTC bullish trader."
+      }
+    },
+    "context-text2": {
+      "type": "Text",
+      "props": {
+        "text": "This appears to be disagreement (\"Nonono\") with KryptoFynn, but the external context is missing."
+      }
+    },
+    "context-text3": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic timeframe reference (\"Too early now but soon / October 🍌\") — unclear what's being called, when, or which asset."
+      }
+    },
+    "options-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "options-heading",
+        "options-question",
+        "option-a",
+        "option-b",
+        "option-c"
+      ]
+    },
+    "options-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      }
+    },
+    "options-question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this:",
+        "variant": "lead"
+      }
+    },
+    "option-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) dismissing a bearish call"
+      }
+    },
+    "option-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) pricing in October event"
+      }
+    },
+    "option-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) playful banter"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2099874071789891735"
+      }
+    }
+  }
+}
