@@ -7,3 +7,11 @@ Chart shows collection floors: while CryptoPunks (-7.5%), BAYC (-20.4%), Pudgy P
 "One is different from all the others" — Argonauts standing out as the holder.
 
 [View post](https://x.com/bull_genius/status/2099835070722777264)
+🔍 *Calibration — @bull_genius*
+
+Event: Reply to @kitsunedevs
+@bull_genius: "take a guess :)"
+
+Unable to classify — what's your read?
+
+[View post](https://x.com/bull_genieus/status/2099835610357698878)
