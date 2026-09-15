@@ -1,0 +1,31 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "A lot of people need to understand that news is used to steer the crowd towards a particular direction/outcome. For instance, if the chances of the Clarity Act being passed are unlikely, people would naturally think that this would likely mean Bitcoin would have a negative reaction, due to the news subconsciously influencing what they expect to happen.\n\nWhereas if the Clarity Act had a high chance of being passed, people would naturally assume Bitcoin would pump and continue upwards. But instead, the most likely outcome would have been a scam pump into a sell-the-news event. The exact opposite of what the crowd would expect.\n\nYou see, nothing is as it seems. What you expect is going to happen based on the news and data you're provided with is usually the exact opposite of what occurs. And that is simply because news influences expectations.\n\nAlgo's use certain expectations to trap individuals. That is usually the reason why when good or bad news happens, people are surprised that the market doesn't follow their expectations.\n\nThe moral here is to expect the unexpected despite the anticipated outcome of the news."
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099672181198197158"
+      }
+    }
+  }
+}
