@@ -1,0 +1,41 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view-post"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "At 76K, they'll aim for 74K.\n\nAt 74K, they'll aim for 70K.\n\nAt 70K, they'll aim for 66-68K.\n\nAt 66-68K, they'll aim for sub-57K.\n\nThe lower $BTC goes, the lower expectations shift.\n\nUltimately, nobody knows with 100% certainty which price region BTC will bounce from before its next leg higher.\n\nThat's why you work your way level to level, as I do."
+      }
+    },
+    "link-view-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2099824288077418974"
+      }
+    }
+  }
+}

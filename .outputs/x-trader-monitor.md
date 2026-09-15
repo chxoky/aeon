@@ -1,7 +1,17 @@
-🐦 *[X] @Bitcoin_Astro*
+🐦 *[X] @KillaXBT*
 
-Price is still stuck inside the same 74–81K range it's been coiling in since late August. Looking at historical cycles with similar structure and compression, expecting sideways action to continue for another week, taking us straight into the Sep 23–30 window mapped out months ago.
+At 76K, they'll aim for 74K.
 
-Sep 23–30 is the key decision window. Market waiting for the next time cycle to determine expansion or rotation inside the box.
+At 74K, they'll aim for 70K.
 
-[View tweet](https://x.com/Bitcoin_Astro/status/2099816512160768301)
+At 70K, they'll aim for 66-68K.
+
+At 66-68K, they'll aim for sub-57K.
+
+The lower $BTC goes, the lower expectations shift. 
+
+Ultimately, nobody knows with 100% certainty which price region BTC will bounce from before its next leg higher.
+
+That's why you work your way level to level, as I do.
+
+[View post](https://x.com/KillaXBT/status/2099824288077418974)
