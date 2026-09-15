@@ -1,0 +1,171 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "July 2027 Fed Funds Pricing Analysis",
+        "description": "Analysis from @Wild_Randomness on X"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "details_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Showing 3.5 hikes by the middle of next year, and pricing up two 25 bps hikes over the past two weeks…\n\nThis contract has been range-bound for four years; now at range highs…\n\nHence why I'm bothering with the seemingly contrarian longs"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "stats_section",
+        "technical_section",
+        "positioning_section",
+        "sep2",
+        "link_element"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h3"
+      }
+    },
+    "stats_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "contract_stat",
+        "hikes_stat",
+        "recent_move_stat"
+      ]
+    },
+    "contract_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "July 2027 Fed Funds Futures (100-ZQM2027)",
+        "value": "4.490"
+      }
+    },
+    "hikes_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Expected Hikes by Mid-Year 2027",
+        "value": "3.5"
+      }
+    },
+    "recent_move_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Recent Pricing Move (Past 2 Weeks)",
+        "value": "+50 bps",
+        "trend": "up"
+      }
+    },
+    "technical_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "technical_heading",
+        "range_context",
+        "daily_text",
+        "weekly_text"
+      ]
+    },
+    "technical_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h4"
+      }
+    },
+    "range_context": {
+      "type": "Text",
+      "props": {
+        "text": "Contract has been range-bound for 4 years; currently at range highs",
+        "variant": "body"
+      }
+    },
+    "daily_text": {
+      "type": "Text",
+      "props": {
+        "text": "Daily: Consolidation at resistance",
+        "variant": "body"
+      }
+    },
+    "weekly_text": {
+      "type": "Text",
+      "props": {
+        "text": "Weekly: Multi-year range-bound structure with price testing highs",
+        "variant": "body"
+      }
+    },
+    "positioning_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "positioning_heading",
+        "positioning_badge",
+        "positioning_rationale"
+      ]
+    },
+    "positioning_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Positioning",
+        "level": "h4"
+      }
+    },
+    "positioning_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Contrarian Long",
+        "variant": "secondary"
+      }
+    },
+    "positioning_rationale": {
+      "type": "Text",
+      "props": {
+        "text": "Long at range resistance after +50bps recent move",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_element": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099658869861744850"
+      }
+    }
+  }
+}
