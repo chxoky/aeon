@@ -1,0 +1,43 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-view-tweet"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Rate hike priced in with the current odds, so the speculative discussion is more so if there are two rate hikes this year.\n\nClarity act failed to pass.\n\nif BTC stays above 70-low 70s in the aftermath of all of this, imo it's a normal cooldown after an impulsive move."
+      },
+      "children": []
+    },
+    "link-view-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2099941998597714031"
+      },
+      "children": []
+    }
+  }
+}
