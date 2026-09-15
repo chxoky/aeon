@@ -402,8 +402,9 @@
 - Recent thesis: Technical entry trader; breakaway gap thesis; HYPE/ETH/GOLD confluence setups. BTC optimal bid 74.5-76.2K. Gold: 0.5-618 fib + MA retest + consolidation (47-day structure, 2-week bounce). No shorts unless "super clean." Order layering: 3-5 tranches. Risk management: over-sizes into crashes, trims afterward. "Guaranteed on this one" Sep 12 (PENDING calibration). 7691 deviation trade idea Sep 11 (PENDING).
 - Conviction notes: Known for ~20min pre-BTC-breakout call Aug 20. "Levels are areas I'm willing to buy, not predictions." Formations = "bait for newbies." Supporting channels = real-time conviction shifts.
 - Calibration: PENDING Sep 13 15:50Z ("This is still sort of my memory thought but I don't know. It's tough to tell"), PENDING Sep 12 15:58Z ("guaranteed on this one for those taking the time out of their Saturday"), PENDING Sep 11 16:14Z ("Probably going to look for a confirmation trade off of 7691 deviation"), PENDING Sep 11 15:57Z ("Pretty sure I even said we would scam this morning in the video yesterday"), PENDING Sep 11 00:35Z ("Imagine this is the state in 2 daily green candles.."), PENDING Sep 04 00:47Z (Discord "diaperterliquid").
-- Last seen: 2026-09-15T13:29:08Z
+- Last seen: 2026-09-15T13:53:33Z
 - **Events (rolling):**
+  - Sep 15 13:53Z — informational-technical: prior video BTC setup still valid; referencing trade presented in video; chart shows current PA [$BTC] [2099859168127492336]
   - Sep 08 15:50Z — informational: position update; 25% BTC long from 76.5K remains; 75% TP'd; key support box ~76,600K [$BTC] [2097351872453439604]
   - Sep 08 16:00Z — informational: support/retest conviction; "good entry already given, shouldn't be clean retests, hopefully low is in" [$BTC] [1546913114333909123]
   - Sep 08 23:24Z — informational: gold hold/patience; awaiting market response post long-weekend; no adds planned [$GOLD] [1547024829889380383]
