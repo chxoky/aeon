@@ -1,0 +1,52 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_text",
+        "tweet_card",
+        "tweet_link"
+      ]
+    },
+    "header_text": {
+      "type": "Text",
+      "props": {
+        "text": "🐦 [X] @Stoiiic",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "@Stnxbt agreed rotational until shown otherwise. would like to see acceptance back above 77-77.5.\n\nI think it's pretty straight forward for me here since I'm more so looking for a clean break of value vs. playing rotations on BTC currently.\n\nso acceptance above 82-83 or acceptance below composite value."
+      },
+      "children": []
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2099920697116246086"
+      },
+      "children": []
+    }
+  }
+}

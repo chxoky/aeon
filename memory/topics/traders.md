@@ -423,8 +423,9 @@
 - Recent thesis: BTC 365d rolling VWAP ~82.4K = HTF pivot (last above Nov 2025). BTC 250d VWAP ~$80K = "final boss" resistance. H4 EMA 9/21 trend-continuation; RSI cooldown backtesting (1107 resets, 12 alts; shelf ~45, cluster 55+). Price-Volume-Momentum Trifecta. Yearly VWAP ±1σ framework. NEAR: yearly VWAP pullback consolidation; mispriced vs AI×Privacy narrative. PENDLE H1/H4 strength ~$2 confluence. BTC 76-80K range: supply 81K+, demand 76K; 70-71K downside if breakdown. Conditional DCA: if BTC pulls back, NEAR top of list. FOMC historical analysis: 14-day outcomes across 12 rate hikes (worst dips -0.5% to -33.7%; best peaks +0.2% to +20.1%).
 - Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis (NEAR/ZEC). ~15-20% banter ratio. High conviction NEAR mispriced vs AI×Privacy. Coinalyze OI extension: ZEC/HYPE/LIT leading.
 - Calibration: PENDING Sep 09 22:31Z (@Evan_ss6 "banger"), PENDING Sep 09 20:30Z ("one door to exit, a lot of people antsy"), PENDING Sep 09 19:33Z (@docXBT "u know the drill"), PENDING Sep 09 19:18Z ("who is prepped for the next leg up?"), PENDING Sep 07 17:59Z ("@crypto_linn pendle"), PENDING Sep 07 07:28Z (meta-commentary; no signal), PENDING Sep 05 16:38Z (INDEX/PONS/CASHCAT examples; education?), PENDING Aug 25 02:49Z (conditional short language; area unspecified).
-- Last seen: 2026-09-13T21:25:53Z
+- Last seen: 2026-09-15T17:58:03Z
 - **Events (rolling):**
+  - Sep 15 17:58Z — informational-technical: BTC 77-77.5K acceptance; clean break of value vs rotations; 82-83K or below composite value acceptance [$BTC] [2099920697116246086]
   - Sep 07 06:45Z — informational: NEAR & PENDLE yearly breakouts; NEAR mispriced on ZEC-attention privacy narrative; PENDLE at 365d VWAP [$NEAR/$PENDLE] [2096852378578285017]
   - Sep 07 06:59Z — informational: conditional DCA plan if BTC pullback; NEAR top focus, mispriced/no momentum pickup [$BTC/$NEAR] [2096855843195027552]
   - Sep 08 15:51Z — informational: NEAR pullback into yearly VWAP; PENDLE H1/H4 strength at ~2 confluence [$NEAR/$PENDLE] [2097352100749451684]
