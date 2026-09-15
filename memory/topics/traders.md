@@ -191,8 +191,9 @@
 - Current open positions: Unknown (privacy narrative trader, technical analyst)
 - Recent thesis: Privacy-narrative bull (NEAR protocol alpha thesis); technical structure analyst (365d VWAP, yearly std dev bands, consolidation breakouts). Concern: BTC stability contingency for alt continuation. Conditional DCA plan: if BTC pulls back, NEAR on top of buy list (mispriced, lacks momentum relative to narrative). Strategy: mapping out areas that offer high probability reaction setups.
 - Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view). High conviction on NEAR mispricing relative to AI×Privacy narrative emerging thesis. PENDLE strength recognition on shorter timeframes (H1/H4) + yearly VWAP structure. Banter ratio: ~15-20% (community engagement on altcoin ticker requests).
-- Last seen: 2026-09-15T17:14:32Z
+- Last seen: 2026-09-15T18:05:50Z
 - **Events (rolling):**
+  - Sep 15 18:05Z — informational-technical: perp vs spot dynamics analysis; squeeze-driven spike mostly perps; wants spot support consolidation 77-77.5 range; chart PERP/CVD/SPOT comparison [$BTC] [2099922657202385166]
   - Sep 15 16:16Z — informational-technical: BTC breakdown from consolidation; rejecting yearly 1 SD band; 30d rolling VWAP analysis; spot accumulation vs perp long bias warning; target low 70s acceptance below; 6h chart consolidation 76-80K breakdown structure [$BTC] [2099895058833019127]
   - Sep 13 21:38Z — informational-methodology: clarification on Fed hike data filtering; image excluded from webhook payload; only mapping BTC consolidation cases [$MACRO/$BTC/$RESEARCH] [2099251446973677576]
   - Sep 13 21:25Z — informational-methodology: statistical caveat post on hike data analysis (N=63 events, Dec 2018 & 2022-23 cycles, no cross-asset pooling); "take with grain of salt" data limitation disclaimer [$MACRO/$RESEARCH-CAVEAT] [2099248222711726589]
