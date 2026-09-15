@@ -1,7 +1,7 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @t_in_crypto*
 
-Current expectations for $BTC.
+@KObtceth @DieguitoCharts This pullback will end very soon
 
-**Chart context:** Price at 79,381 (breaking above prior range high of 73,834). Expecting consolidation phase with 'more pro-longed chop, maintain current range', followed by liquidity building phase ('Front run some major resets, build liquidity'), then eventual deviation below lower support levels.
+Bullish BTC continuation prediction; aligns with multi-trader structural bull sentiment (KillaXBT Sep 15 19:07Z new long 76.4K + Stoiiic Sep 15 19:22Z consolidation analysis). Three-trader convergence on short-term BTC reversal theme.
 
-[View tweet](https://x.com/KillaXBT/status/2099970681941250510)
+[View tweet](https://x.com/t_in_crypto/status/2099984651712344351)

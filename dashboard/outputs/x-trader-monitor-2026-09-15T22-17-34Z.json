@@ -1,0 +1,50 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "@KObtceth @DieguitoCharts This pullback will end very soon"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish BTC continuation prediction; aligns with multi-trader structural bull sentiment (KillaXBT Sep 15 19:07Z new long 76.4K + Stoiiic Sep 15 19:22Z consolidation analysis). Three-trader convergence on short-term BTC reversal theme.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2099984651712344351"
+      },
+      "children": []
+    }
+  }
+}
