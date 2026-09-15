@@ -1,0 +1,221 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-stack",
+        "sep1",
+        "tweet-stack",
+        "sep2",
+        "classification-stack",
+        "sep3",
+        "context-stack",
+        "sep4",
+        "assessment-text",
+        "sep5",
+        "activity-stack",
+        "sep6",
+        "link"
+      ]
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-time",
+        "event-context"
+      ]
+    },
+    "event-time": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Sep 15 16:37Z",
+        "variant": "lead"
+      }
+    },
+    "event-context": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Sep 16 context (macro parlay setup)",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-label",
+        "tweet"
+      ]
+    },
+    "tweet-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet",
+        "level": "h4"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "@_tolks @Evan_ss6 10x trade but predicates on a macro parlay hitting \n\nGot some on now, will buy more on guaranteed rate hike dump tomorrow and then pray"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-alert"
+      ]
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "clue1",
+        "clue2",
+        "clue3"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context clues",
+        "level": "h4"
+      }
+    },
+    "clue1": {
+      "type": "Text",
+      "props": {
+        "text": "\"10x trade\" (leveraged)",
+        "variant": "body"
+      }
+    },
+    "clue2": {
+      "type": "Text",
+      "props": {
+        "text": "\"macro parlay\" (event-gated)",
+        "variant": "body"
+      }
+    },
+    "clue3": {
+      "type": "Text",
+      "props": {
+        "text": "\"guaranteed rate hike dump tomorrow\" (FOMC catalyst Sep 16)",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "assessment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Likely BTC/crypto long leveraged bet, but ticker not explicitly named.",
+        "variant": "lead"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "activity-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "activity-heading",
+        "activity1",
+        "activity2"
+      ]
+    },
+    "activity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prior WR activity",
+        "level": "h4"
+      }
+    },
+    "activity1": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 15 15:51Z — FOMC scenario analysis",
+        "variant": "body"
+      }
+    },
+    "activity2": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 15 14:57Z — BTC cycle acceleration observation",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099900383988756729"
+      }
+    }
+  }
+}

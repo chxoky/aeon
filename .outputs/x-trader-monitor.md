@@ -1,9 +1,11 @@
-🐦 *[X] @Stoiiic*
+🔍 *Calibration — @Wild_Randomness*
 
-BTC now breaking down from consolidation value after rejecting developing yearly 1 sd. band a few times.
+Event: Sep 15 16:37Z, FOMC Sep 16 context (macro parlay setup)
 
-Currently trading into 30d rolling with some passive skew on the buyside on the spot OB. Some binance spot buying but perps seem to be more active here on the long side for a start which typically isn't the best sign because a little push back down to the local lows will cause this positioning to puke.
+Wild_Randomness: "@_tolks @Evan_ss6 10x trade but predicates on a macro parlay hitting \n\nGot some on now, will buy more on guaranteed rate hike dump tomorrow and then pray"
 
-Acceptance below opens up the entire area down to the low 70s.
+**Unable to classify — what's your read?**
 
-[View tweet](https://x.com/Stoiiic/status/2099895058833019127)
+Context clues: "10x trade" (leveraged), "macro parlay" (event-gated), "guaranteed rate hike dump tomorrow" (FOMC catalyst Sep 16). Likely BTC/crypto long leveraged bet, but ticker not explicitly named. Prior WR activity: Sep 15 15:51Z FOMC scenario analysis, Sep 15 14:57Z BTC cycle acceleration observation.
+
+[View tweet](https://x.com/Wild_Randomness/status/2099900383988756729)
