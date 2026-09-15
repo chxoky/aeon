@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Dumping into FOMC.\n\nYou already know the drill. I've been playing this particular pivot for two years now, and it has proven its effectiveness when inverting the narrative.\n\nExpectations > reality. The move happens before the data.\n\nThe interesting part is that whenever $BTC has pumped into FOMC, it has had an insanely high tendency to reverse back down.\n\nWhereas when it dumps clearly into the event and forms a more bearish narrative than bullish, it reverses back to the upside.\n\nYou know what I'm implying here. We're dumping into it, so be prepared for a recovery afterwards."
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099851729500057964"
+      }
+    }
+  }
+}
