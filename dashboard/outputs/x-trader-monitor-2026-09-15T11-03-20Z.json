@@ -1,0 +1,126 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration needed"
+      },
+      "children": [
+        "header_stack",
+        "separator_1",
+        "content_stack",
+        "separator_2",
+        "questions_alert"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_new_trader",
+        "heading_trader"
+      ]
+    },
+    "badge_new_trader": {
+      "type": "Badge",
+      "props": {
+        "text": "New trader (not in tracked list)",
+        "variant": "outline"
+      }
+    },
+    "heading_trader": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position_section",
+        "conviction_section"
+      ]
+    },
+    "position_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_label",
+        "position_text"
+      ]
+    },
+    "position_label": {
+      "type": "Text",
+      "props": {
+        "text": "Position",
+        "variant": "lead"
+      }
+    },
+    "position_text": {
+      "type": "Text",
+      "props": {
+        "text": "Short at 79.297, waiting to flip long",
+        "variant": "body"
+      }
+    },
+    "conviction_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "conviction_label",
+        "conviction_quote"
+      ]
+    },
+    "conviction_label": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction",
+        "variant": "lead"
+      }
+    },
+    "conviction_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"In my opinion, it's still too early\"",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "questions_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read on this trader and the signal? What asset is 79.297 (BTC?)?",
+        "type": "warning"
+      }
+    }
+  }
+}

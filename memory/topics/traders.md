@@ -497,6 +497,17 @@
   - Sep 14 09:31Z — skip: RH force-sold SOL bottom; ecosystem platform analysis (Vlad/RH/Circle). Hypothetical speculation ("probably trade shitcoin"), no execution signal. Market commentary persona established. Silent log [$SOL/$RH/$MACRO] [2099430924874076483]
   - Sep 15 08:51Z — informational: @ExponentLabs_ token dynamics analysis; describes market pattern (founder triggers panic sell on rapid rise → cheap supply accumulation → strategic reveals → real info release); market psychology commentary, no personal trade execution [$MARKET-PSYCHOLOGY] [2099783260570017875]
 
+## t_in_crypto
+
+- Platforms: X (Twitter)
+- Current open positions: SHORT at 79.297 (asset unclear — BTC?), planning to flip to LONG
+- Recent thesis: Price-time combination analysis; currently short, waiting for right moment to flip long but conviction it's still too early
+- Conviction notes: First sighting. Price-time trader. Awaiting Kyle calibration on what asset/signal this represents.
+- Calibration: PENDING Sep 15 10:58Z (short at 79.297, plan to flip long, asset unclear; HR-2 calibration sent)
+- Last seen: 2026-09-15T10:58:58Z
+- **Events (rolling):**
+  - Sep 15 10:58Z — calibration-required: holding short 79.297, waiting to flip long, conviction "still too early" [$UNKNOWN] [2099815230473740381]
+
 ## abetrade
 
 - Platforms: X (Twitter)
