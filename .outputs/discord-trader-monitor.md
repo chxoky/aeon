@@ -44,3 +44,29 @@ Appending to memory/logs/2026-09-15.md:
 
 **Summary:**
 Event processed: Fast-path alert was already sent by Cloudflare Worker (~2-5s latency). This skill completes the slower memory + logging work. Classification: informational-technical. No Kyle alert needed (informational only, not a trade signal). Memory updated with entry timestamp and context.
+Perfect. **Skill execution complete.** Here's a summary:
+
+## Summary
+
+**Discord Trader Monitor Event (Sep 15 17:53Z)**
+
+**Message Processed:**
+- **Trader:** HeartCanHodl (@heartcanhodl)
+- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
+- **Message ID:** 1549478289251368992
+- **Content:** "180 level on?" (reply to member tkglitch369's message "im expecting to get my 180-190 level but it could be a bit too greed")
+- **Fast-path Status:** Worker sent Telegram alert 2-5s post-message
+
+**Classification:** **SKIP**
+- Supporting channel member Q&A (not HeartCanHodl's own trade signal)
+- Message is asking for confirmation on a member's price level expectation
+- No first-person execution language
+- No related primary-channel message from HeartCanHodl on 180-190 level
+- Per skill Step 7 rules: Supporting channel messages without related primary-channel context = skip
+
+**Memory Updates:**
+- ✓ Message ID 1549478289251368992 added to `memory/discord-trader-seen.txt` for dedup prevention
+- ✓ No event line added to traders.md (skip events don't generate rolling event entries)
+- Last Seen timestamp not updated (only active trades/classifications update this)
+
+**Action Taken:** Logged event for audit trail. No trader alert generated (member Q&A only).
