@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context",
+        "message"
+      ]
+    },
+    "context": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Comments"
+      }
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Technical analysis chart posted",
+        "variant": "body"
+      }
+    }
+  }
+}
