@@ -1,0 +1,185 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "FOMC Pattern Observation",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "timestamp",
+        "sep-1",
+        "post-label",
+        "post-quote",
+        "chart-label",
+        "chart-desc",
+        "sep-2",
+        "interp-heading",
+        "interp-stack",
+        "sep-3",
+        "context-alert",
+        "view-link"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 15 15:41:10 UTC",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post-label": {
+      "type": "Text",
+      "props": {
+        "text": "Post:",
+        "variant": "muted"
+      }
+    },
+    "post-quote": {
+      "type": "Text",
+      "props": {
+        "text": "What if same reaction as last FOMC",
+        "variant": "lead"
+      }
+    },
+    "chart-label": {
+      "type": "Text",
+      "props": {
+        "text": "Chart:",
+        "variant": "muted"
+      }
+    },
+    "chart-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SPY 1D showing prior FOMC rally patterns (+6.55% moves over 5 bars/7 days)"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "interp-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "bull-opt",
+        "bear-opt",
+        "neutral-opt"
+      ]
+    },
+    "bull-opt": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "bull-badge",
+        "bull-desc"
+      ]
+    },
+    "bull-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish",
+        "variant": "default"
+      }
+    },
+    "bull-desc": {
+      "type": "Text",
+      "props": {
+        "text": "expecting same rally bounce post-FOMC"
+      }
+    },
+    "bear-opt": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "bear-badge",
+        "bear-desc"
+      ]
+    },
+    "bear-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish/contrarian",
+        "variant": "destructive"
+      }
+    },
+    "bear-desc": {
+      "type": "Text",
+      "props": {
+        "text": "implying pattern won't repeat"
+      }
+    },
+    "neutral-opt": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "neutral-badge",
+        "neutral-desc"
+      ]
+    },
+    "neutral-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Neutral",
+        "variant": "secondary"
+      }
+    },
+    "neutral-desc": {
+      "type": "Text",
+      "props": {
+        "text": "technical observation"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Context",
+        "message": "WR established bearish-equities-into-Oct thesis. FOMC Sep 16 catalyst imminent."
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2099886249540817168"
+      }
+    }
+  }
+}
