@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-view",
+        "text-validation"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Did or did I not say that BTC would pump 3-4% from the 14th? And did or did BTC not pump 3-4%?"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2099877395884913060"
+      }
+    },
+    "text-validation": {
+      "type": "Text",
+      "props": {
+        "text": "Validates Sep 13-14 conviction on cycle-acceleration bottom + 3-4% move prediction. Sentiment reaffirmation on BTC structural bull thesis.",
+        "variant": "muted"
+      }
+    }
+  }
+}
