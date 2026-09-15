@@ -1,0 +1,186 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Calibration event from HeartCanHodl in Free channel"
+      },
+      "children": [
+        "context-stack",
+        "sep1",
+        "event-section",
+        "sep2",
+        "statement-section",
+        "sep3",
+        "pattern-section",
+        "sep4",
+        "classification-alert"
+      ]
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-calibration",
+        "badge-user",
+        "badge-channel"
+      ]
+    },
+    "badge-calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "badge-user": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "outline"
+      }
+    },
+    "badge-channel": {
+      "type": "Badge",
+      "props": {
+        "text": "Free Channel",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "FixTweet reply linking to X tweet about HeartCanHodl's analysis"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "statement-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "statement-heading",
+        "statement-text"
+      ]
+    },
+    "statement-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HeartCanHodl Statement",
+        "level": "h3"
+      }
+    },
+    "statement-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc clusdt 1hr\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pattern-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern-heading",
+        "pattern-list"
+      ]
+    },
+    "pattern-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recurring Pattern",
+        "level": "h3"
+      }
+    },
+    "pattern-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "occurrence-1",
+        "occurrence-2",
+        "occurrence-3"
+      ]
+    },
+    "occurrence-1": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 11 — 5m"
+      }
+    },
+    "occurrence-2": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 15 11:19 — 1hr"
+      }
+    },
+    "occurrence-3": {
+      "type": "Text",
+      "props": {
+        "text": "Now — 1hr (in Free channel)"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Required",
+        "message": "Unable to classify — is this a false-close chart check on CL (crude oil) 1-hour timeframe, or force-close execution?",
+        "type": "warning"
+      }
+    }
+  }
+}
