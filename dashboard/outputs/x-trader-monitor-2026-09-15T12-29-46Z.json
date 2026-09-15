@@ -1,0 +1,220 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "stack_event",
+        "sep2",
+        "stack_post",
+        "sep3",
+        "stack_context",
+        "sep4",
+        "stack_classify",
+        "sep5",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_label",
+        "text_event_time"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      }
+    },
+    "text_event_time": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 15 12:25:10Z"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_post": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_post_label",
+        "text_post_content",
+        "text_post_image"
+      ]
+    },
+    "text_post_label": {
+      "type": "Text",
+      "props": {
+        "text": "Post:",
+        "variant": "lead"
+      }
+    },
+    "text_post_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"word for word\""
+      }
+    },
+    "text_post_image": {
+      "type": "Text",
+      "props": {
+        "text": "6-panel NFT pixel art image (pixelated avatars, multi-color designs)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_context_label",
+        "text_context_1",
+        "text_context_2",
+        "text_context_3"
+      ]
+    },
+    "text_context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "lead"
+      }
+    },
+    "text_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius in extreme ARGONAUTS conviction window (Sep 07-14 escalation, +4 mentions)"
+      }
+    },
+    "text_context_2": {
+      "type": "Text",
+      "props": {
+        "text": "Just posted ARGONAUTS floor sentiment (Sep 15 12:17Z)"
+      }
+    },
+    "text_context_3": {
+      "type": "Text",
+      "props": {
+        "text": "Participated in STANDARD reserve genesis mint Sep 14"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack_classify": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_classify",
+        "text_issue_label",
+        "text_issue_1",
+        "text_issue_2",
+        "text_questions_label",
+        "text_question_1",
+        "text_question_2",
+        "text_question_3"
+      ]
+    },
+    "heading_classify": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "text_issue_label": {
+      "type": "Text",
+      "props": {
+        "text": "Issue:",
+        "variant": "lead"
+      }
+    },
+    "text_issue_1": {
+      "type": "Text",
+      "props": {
+        "text": "Text cryptic (\"word for word\" = ?)"
+      }
+    },
+    "text_issue_2": {
+      "type": "Text",
+      "props": {
+        "text": "Image appears NFT art but cannot confirm collection without metadata"
+      }
+    },
+    "text_questions_label": {
+      "type": "Text",
+      "props": {
+        "text": "Questions:",
+        "variant": "lead"
+      }
+    },
+    "text_question_1": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this ARGONAUTS collection showcase?"
+      }
+    },
+    "text_question_2": {
+      "type": "Text",
+      "props": {
+        "text": "• Is \"word for word\" referencing exact positioning/narrative?"
+      }
+    },
+    "text_question_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this worth tracking as conviction signal or personal banter?"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2099836924412240237"
+      }
+    }
+  }
+}
