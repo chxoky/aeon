@@ -1,11 +1,9 @@
-🔍 *Calibration — @HeartCanHodl*
+🐦 *[X] @bull_genius*
 
-Event: Reply to external trader @kaleemisst
-HeartCanHodl: "@kaleemisst Yes. On spot ✅"
+Argonauts floor holding at 0% while NFT market bleeds (most peers -20 to -40% in 30d)
 
-This appears to be confirming something "on spot" (spot market), but the original post from @kaleemisst isn't visible in the webhook. Is this:
-- Confirming a spot trade execution?
-- Agreeing to enter a position on spot?
-- Something else?
+Chart shows collection floors: while CryptoPunks (-7.5%), BAYC (-20.4%), Pudgy Penguins (-11.1%), Azuki (-20.5%), Chimpers (-30.9%), and others crater, Argonauts sits flat at 0.869 ETH (0% change). Structural support signal.
 
-Unable to classify without context — what's your read?
+"One is different from all the others" — Argonauts standing out as the holder.
+
+[View post](https://x.com/bull_genius/status/2099835070722777264)

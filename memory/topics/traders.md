@@ -448,6 +448,7 @@
   - Sep 14 18:28Z — ambiguous-cryptic: @xyzbtc1 reply "agreed but before wednesday i believe it when i see it"; reply context external/unclear (what was original thesis?); skeptical/conditional tone on timing before FOMC Wed; HR-2 calibration sent [$UNKNOWN/$FOMC] [2099566077227274465]
   - Sep 14 19:05Z — skip: KOL behavior meta-commentary + marmot burrow substack promo; image shows $PQON deleted call 0.71x; non-financial banter [2099575298278732025]
   - Sep 15 09:36Z — informational: Robinhood token liquidity observation; "LOT of liquidity for small market cap"; biggest RH pool 3x larger than PONS pool; token $37.8M market cap, $17.2M liquidity, +1410% 24h; market structure commentary [ROBINHOOD-TOKEN] [2099794389832753430]
+  - Sep 15 12:17Z — informational-sentiment: Argonauts floor holds at 0% change while NFT market bleeds (most peers -20 to -40% in 30d); structural support + relative strength signal; chart analysis (14-collection floors sorted) validates thesis [chart $ARGONAUTS/$NFT] [2099835070722777264]
 
 ## t_in_crypto
 

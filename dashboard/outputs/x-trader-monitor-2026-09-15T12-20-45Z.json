@@ -1,0 +1,127 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "perf_heading",
+        "stats_grid",
+        "sep2",
+        "quote",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Argonauts floor holding at 0% while NFT market bleeds (most peers -20 to -40% in 30d)\n\nChart shows collection floors: while CryptoPunks (-7.5%), BAYC (-20.4%), Pudgy Penguins (-11.1%), Azuki (-20.5%), Chimpers (-30.9%), and others crater, Argonauts sits flat at 0.869 ETH (0% change). Structural support signal.\n\n\"One is different from all the others\" — Argonauts standing out as the holder."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "perf_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Collection Performance (30 days)",
+        "level": "h3"
+      }
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_argonauts",
+        "stat_cryptopunks",
+        "stat_bayc",
+        "stat_pudgy",
+        "stat_azuki",
+        "stat_chimpers"
+      ]
+    },
+    "stat_argonauts": {
+      "type": "Stat",
+      "props": {
+        "label": "Argonauts",
+        "value": "0.869 ETH",
+        "delta": "0%",
+        "trend": "neutral"
+      }
+    },
+    "stat_cryptopunks": {
+      "type": "Stat",
+      "props": {
+        "label": "CryptoPunks",
+        "value": "Floor",
+        "delta": "-7.5%",
+        "trend": "down"
+      }
+    },
+    "stat_bayc": {
+      "type": "Stat",
+      "props": {
+        "label": "BAYC",
+        "value": "Floor",
+        "delta": "-20.4%",
+        "trend": "down"
+      }
+    },
+    "stat_pudgy": {
+      "type": "Stat",
+      "props": {
+        "label": "Pudgy Penguins",
+        "value": "Floor",
+        "delta": "-11.1%",
+        "trend": "down"
+      }
+    },
+    "stat_azuki": {
+      "type": "Stat",
+      "props": {
+        "label": "Azuki",
+        "value": "Floor",
+        "delta": "-20.5%",
+        "trend": "down"
+      }
+    },
+    "stat_chimpers": {
+      "type": "Stat",
+      "props": {
+        "label": "Chimpers",
+        "value": "Floor",
+        "delta": "-30.9%",
+        "trend": "down"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "\"One is different from all the others\" — Argonauts standing out as the holder."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/bull_genius/status/2099835070722777264"
+      }
+    }
+  }
+}
