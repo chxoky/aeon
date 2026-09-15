@@ -190,14 +190,12 @@
 - Platforms: X (Twitter)
 - Current open positions: Unknown (privacy narrative trader, technical analyst)
 - Recent thesis: Privacy-narrative bull (NEAR protocol alpha thesis); technical structure analyst (365d VWAP, yearly std dev bands, consolidation breakouts). Concern: BTC stability contingency for alt continuation. Conditional DCA plan: if BTC pulls back, NEAR on top of buy list (mispriced, lacks momentum relative to narrative). Strategy: mapping out areas that offer high probability reaction setups.
-- Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view). High conviction on NEAR mispricing relative to AI×Privacy narrative emerging thesis. PENDLE strength recognition on shorter timeframes (H1/H4) + yearly VWAP structure. Banter ratio: ~15-20%.
-- Last seen: 2026-09-13T21:38:41Z
-- **Events (rolling):**
-  - Sep 13 21:38Z — informational-methodology: clarification on Fed hike data filtering; image excluded from webhook payload; only mapping BTC consolidation cases [$MACRO/$BTC/$RESEARCH] [2099251446973677576]
-  - Sep 13 21:25Z — informational-methodology: statistical caveat post on hike data analysis (N=63 events, Dec 2018 & 2022-23 cycles, no cross-asset pooling); "take with grain of salt" data limitation disclaimer [$MACRO/$RESEARCH-CAVEAT] [2099248222711726589]
-- Last seen: 2026-09-15T16:16:10Z
+- Conviction notes: Multi-timeframe technical depth; privacy-narrative thesis emerging (NEAR/ZEC theta commentary implies comparative valuation view). High conviction on NEAR mispricing relative to AI×Privacy narrative emerging thesis. PENDLE strength recognition on shorter timeframes (H1/H4) + yearly VWAP structure. Banter ratio: ~15-20% (community engagement on altcoin ticker requests).
+- Last seen: 2026-09-15T17:14:32Z
 - **Events (rolling):**
   - Sep 15 16:16Z — informational-technical: BTC breakdown from consolidation; rejecting yearly 1 SD band; 30d rolling VWAP analysis; spot accumulation vs perp long bias warning; target low 70s acceptance below; 6h chart consolidation 76-80K breakdown structure [$BTC] [2099895058833019127]
+  - Sep 13 21:38Z — informational-methodology: clarification on Fed hike data filtering; image excluded from webhook payload; only mapping BTC consolidation cases [$MACRO/$BTC/$RESEARCH] [2099251446973677576]
+  - Sep 13 21:25Z — informational-methodology: statistical caveat post on hike data analysis (N=63 events, Dec 2018 & 2022-23 cycles, no cross-asset pooling); "take with grain of salt" data limitation disclaimer [$MACRO/$RESEARCH-CAVEAT] [2099248222711726589]
   - Sep 14 20:52Z — informational-technical: PENDLE + NEAR structure commentary; "both continue to look good so far w/ PENDLE pulling back to 365d rvwap and previous month high for a bounce"; technical level consolidation observation; no personal execution language [$PENDLE/$NEAR] [2099602178742587730]
   - Sep 13 21:25Z — informational: Fed hike historical analysis table (14-day outcomes, worst dips, best peaks across 12 hikes 2018-2023). Tabular data: worst dips -0.5% to -33.7%, best peaks +0.2% to +20.1%. Educational research on post-hike price action patterns. Context: informs FOMC catalyst monitoring (Sep 16 upcoming). No personal execution language; pure technical/macro educational content. Step 7 chart analysis confirmed. [$MACRO/$FOMC] [2099248212770947234]
   - Sep 13 16:51Z — informational-methodology: reply to @MauritianMonsta on visual chart analysis approach (retracements, trend structure, BB levels); educational framework; no ticker/action [$FRAMEWORK] [2099179108785689030]
