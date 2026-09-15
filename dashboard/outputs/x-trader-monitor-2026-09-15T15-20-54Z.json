@@ -1,0 +1,136 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "ANSEM — 2-Trader Convergence"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "main-text",
+        "separator-1",
+        "prices-grid",
+        "separator-2",
+        "validation-section",
+        "separator-3",
+        "chart-link",
+        "consensus-text"
+      ]
+    },
+    "main-text": {
+      "type": "Text",
+      "props": {
+        "text": "swarmister shared ANSEM/USDT 1d chart showing breakdown from 0.3992 peak to 0.1256 current with key supports at 0.1479 and 0.1106."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-peak",
+        "stat-current",
+        "stat-support1",
+        "stat-support2"
+      ]
+    },
+    "stat-peak": {
+      "type": "Stat",
+      "props": {
+        "label": "Peak",
+        "value": "0.3992"
+      }
+    },
+    "stat-current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current",
+        "value": "0.1256"
+      }
+    },
+    "stat-support1": {
+      "type": "Stat",
+      "props": {
+        "label": "Support 1",
+        "value": "0.1479"
+      }
+    },
+    "stat-support2": {
+      "type": "Stat",
+      "props": {
+        "label": "Support 2",
+        "value": "0.1106"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "validation-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "validation-heading",
+        "validation-text"
+      ]
+    },
+    "validation-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Validation",
+        "level": "h3"
+      }
+    },
+    "validation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates Wild_Randomness Sep 09-11 breakdown prediction: 'lose this level and its lights out'."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ANSEM/USDT Breakdown Chart",
+        "href": "https://x.com/swarmister/status/2099880193179422946",
+        "source": "swarmister"
+      }
+    },
+    "consensus-text": {
+      "type": "Text",
+      "props": {
+        "text": "Breakdown structure confirmed — 2-trader consensus on ANSEM bearish thesis emerging.",
+        "variant": "lead"
+      }
+    }
+  }
+}
