@@ -38,6 +38,17 @@
   - Sep 13 23:19Z — informational-philosophy: Price action > narratives; market moves before reasons obvious; consistency from observing PA/structure/momentum not headlines [$BTC/$MACRO] [2099276827030335815]
   - Sep 14 16:19Z — ambiguous-cryptic: @GeorgeKcb350 1000% (reply, context external); HR-2 calibration sent [$UNKNOWN] [2099533513804390780]
 
+## bull_genius
+
+- Platforms: X (Twitter)
+- Current open positions: PUMP long (multi-entry Sep 05-09, awaiting Kyle approval Sep 09 entry). Unknown other holdings status.
+- Recent thesis: BTC structural analysis — at first pullback wick, price below big volume gap at lowest Aug 20-Sep 15 range point. High liquidation risk + headline risk (FOMC clarity decision catalyst). Expects sharp reversal on good headline + post-FOMC flush market recovery thesis. Macro conviction: expects "last flush" then market goes higher post-clarity/FOMC week.
+- Conviction notes: Conservative on personal account (sitting out), bullish on trading comp account (play money long stays). Risk management: nervous about headline impact on volatile market. Structural macro view aligns with post-FOMC recovery thesis per Sep 13 conviction notes.
+- Calibration: None currently pending.
+- Last seen: 2026-09-15T15:02:37Z
+- **Events (rolling):**
+  - Sep 15 15:02Z — informational-macro-technical: BTC pullback wick + volume gap technical analysis; liquidation risk + headline risk assessment (FOMC clarity catalyst); macro conviction on post-flush recovery; personal positioning (trading comp long, personal sitting out); chart shows 4H BTC consolidation with liquidation heat map at multiple levels [$BTC/$MACRO] [2099876548144681230]
+
 ## Wild_Randomness
 
 - Platforms: X (Twitter)

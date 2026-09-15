@@ -1,0 +1,139 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - BTC Analysis"
+      },
+      "children": [
+        "tweet",
+        "separator1",
+        "chart-analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "BTC at first pullback wick, price below big volume gap at lowest Aug 20-Sep 15 range point.\n\nHigh liquidation + headline risk (FOMC clarity catalyst). Trading comp long on play money. Personal account sitting out — expects this clarity/fomc week is the last flush before market goes higher.\n\nhttps://x.com/bull_genius/status/2099876548144681230"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart-analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "analysis-heading",
+        "liquidation-box",
+        "supports-box"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4H BTC Chart Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "liquidation-box": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "liq-label",
+        "liq-stat"
+      ]
+    },
+    "liq-label": {
+      "type": "Text",
+      "props": {
+        "text": "Liquidation Level",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "liq-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "79K - 82K"
+      },
+      "children": []
+    },
+    "supports-box": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "supports-label",
+        "supports-grid"
+      ]
+    },
+    "supports-label": {
+      "type": "Text",
+      "props": {
+        "text": "Key Support Levels",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "supports-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    "s1": {
+      "type": "Stat",
+      "props": {
+        "value": "73.6K"
+      },
+      "children": []
+    },
+    "s2": {
+      "type": "Stat",
+      "props": {
+        "value": "76.4K"
+      },
+      "children": []
+    },
+    "s3": {
+      "type": "Stat",
+      "props": {
+        "value": "77.5K"
+      },
+      "children": []
+    },
+    "s4": {
+      "type": "Stat",
+      "props": {
+        "value": "78.2K"
+      },
+      "children": []
+    }
+  }
+}
