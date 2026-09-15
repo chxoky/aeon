@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "prices_grid",
+        "phases_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "Current expectations for $BTC.\n\nChart context: Price at 79,381 (breaking above prior range high of 73,834). Expecting consolidation phase with 'more pro-longed chop, maintain current range', followed by liquidity building phase ('Front run some major resets, build liquidity'), then eventual deviation below lower support levels."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "prices_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "current_price",
+        "range_high"
+      ]
+    },
+    "current_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current BTC Price",
+        "value": "79,381"
+      }
+    },
+    "range_high": {
+      "type": "Stat",
+      "props": {
+        "label": "Prior Range High",
+        "value": "73,834"
+      }
+    },
+    "phases_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "phases_heading",
+        "phase1",
+        "phase2",
+        "phase3",
+        "separator2",
+        "tweet_link"
+      ]
+    },
+    "phases_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Expected Market Phases",
+        "level": "h3"
+      }
+    },
+    "phase1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Consolidation phase: More prolonged chop, maintain current range",
+        "variant": "body"
+      }
+    },
+    "phase2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Liquidity building phase: Front run some major resets, build liquidity",
+        "variant": "body"
+      }
+    },
+    "phase3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Eventual deviation: Below lower support levels",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View Full Tweet",
+        "href": "https://x.com/KillaXBT/status/2099970681941250510",
+        "source": "X"
+      }
+    }
+  }
+}
