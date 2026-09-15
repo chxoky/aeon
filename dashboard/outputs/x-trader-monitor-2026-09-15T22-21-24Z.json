@@ -1,0 +1,33 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "BTC support level ~$75,582 for longs on 2-3x leverage. Chart shows horizontal support with consolidation structure."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/KillaXBT/status/2099985419051868288"
+      },
+      "children": []
+    }
+  }
+}
