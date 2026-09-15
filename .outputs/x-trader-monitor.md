@@ -1,17 +1,11 @@
-🐦 *[X] @KillaXBT*
+🔍 *Calibration — @HeartCanHodl*
 
-At 76K, they'll aim for 74K.
+Event: Reply to external trader @kaleemisst
+HeartCanHodl: "@kaleemisst Yes. On spot ✅"
 
-At 74K, they'll aim for 70K.
+This appears to be confirming something "on spot" (spot market), but the original post from @kaleemisst isn't visible in the webhook. Is this:
+- Confirming a spot trade execution?
+- Agreeing to enter a position on spot?
+- Something else?
 
-At 70K, they'll aim for 66-68K.
-
-At 66-68K, they'll aim for sub-57K.
-
-The lower $BTC goes, the lower expectations shift. 
-
-Ultimately, nobody knows with 100% certainty which price region BTC will bounce from before its next leg higher.
-
-That's why you work your way level to level, as I do.
-
-[View post](https://x.com/KillaXBT/status/2099824288077418974)
+Unable to classify without context — what's your read?

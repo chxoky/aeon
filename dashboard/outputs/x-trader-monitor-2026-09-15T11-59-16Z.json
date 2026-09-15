@@ -1,0 +1,124 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "sep-1",
+        "event-section",
+        "sep-2",
+        "tweet-section",
+        "sep-3",
+        "analysis-section"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-desc"
+      ]
+    },
+    "event-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to external trader @kaleemisst"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-context",
+        "tweet-card"
+      ]
+    },
+    "tweet-context": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl's reply:",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@kaleemisst Yes. On spot ✅"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-title",
+        "analysis-text",
+        "analysis-questions"
+      ]
+    },
+    "analysis-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "This appears to be confirming something 'on spot' (spot market), but the original post from @kaleemisst isn't visible in the webhook.",
+        "variant": "body"
+      }
+    },
+    "analysis-questions": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Classification needed",
+        "message": "Unable to classify without context — what's your read?\n\nPossible interpretations:\n• Confirming a spot trade execution?\n• Agreeing to enter a position on spot?\n• Something else?"
+      }
+    }
+  }
+}
