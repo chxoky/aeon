@@ -1,0 +1,121 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "alert-calibration",
+        "stack-main"
+      ]
+    },
+    "alert-calibration": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "🔍 Calibration — [DC: HCH — Free]"
+      }
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-event",
+        "sep-1",
+        "section-content",
+        "sep-2",
+        "section-error",
+        "section-question"
+      ]
+    },
+    "section-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-event",
+        "text-event-desc"
+      ]
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "text-event-desc": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl posted X link in Discord primary channel (HCH — Free)"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-content",
+        "link-post",
+        "text-created"
+      ]
+    },
+    "heading-content": {
+      "type": "Heading",
+      "props": {
+        "text": "Content",
+        "level": "h3"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/HeartCanHodl/status/2099736924556309908",
+        "href": "https://x.com/HeartCanHodl/status/2099736924556309908"
+      }
+    },
+    "text-created": {
+      "type": "Text",
+      "props": {
+        "text": "Created: 2026-09-15T05:48:49.241Z"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-error": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "Unable to Classify",
+        "message": "Link returns 404 (post not found or deleted). Unable to classify without post content."
+      }
+    },
+    "section-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's this about?",
+        "variant": "lead"
+      }
+    }
+  }
+}

@@ -312,6 +312,9 @@
 - Last seen: 2026-09-15T05:47:48Z
 - **Events (rolling):**
   - Sep 15 05:47Z — informational-technical: Oil weakness setup + SNDK 4hr strength; macro AI-slowdown context + discount-dip opportunity framing; reply to @goodalexander [$OIL/$SNDK/$MACRO] [2099736924563099806]
+- Last seen: 2026-09-15T05:48:49Z
+- **Events (rolling):**
+  - Sep 15 05:48Z — ambiguous-cryptic: X link URL-only reply (Free primary); https://x.com/HeartCanHodl/status/2099736924556309908 returns 404 (post not found/deleted); unable to classify; HR-2 calibration sent [$UNKNOWN] [1549295909039374502]
   - Sep 15 05:38Z — trade-conviction-add: "Add back 1/3rd cl short exposure" (Trades ★); CL short re-add to existing net-short regime; is_reply to "Will wait to re-add to it"; continuation of Aug 18-19 2% entry, Sep 11 1x rebalance, Sep 13 re-add pattern [$CL] [1549293319572693023]
   - Sep 15 03:07Z — ambiguous-cryptic: "Could be interesting" (Free primary); cryptic vague phrase, no context, standalone; HR-2 calibration sent [$UNKNOWN] [1549255403089563791]
   - Sep 15 02:54Z — ambiguous-cryptic: "Fc poly:clarity" (Chat supporting); false-close pattern check, "poly" likely Polygon/related, "clarity" unclear; same message repeated from Sep 14 07:54Z but different message ID; no alert sent per Step 7 (supporting channel, no primary context, chart-check chatter not conviction shift) [$POLY/CLARITY] [1549252037995270215]
