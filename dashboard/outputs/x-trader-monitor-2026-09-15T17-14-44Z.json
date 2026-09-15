@@ -1,0 +1,23 @@
+{
+  "root": "card-x-trader-monitor",
+  "state": {},
+  "elements": {
+    "card-x-trader-monitor": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-1"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "My limit orders are still waiting to be filled $btc | Bullish positioning update; 4-trader BTC accumulation convergence into FOMC window | https://x.com/t_in_crypto/status/2099908691168211310"
+      }
+    }
+  }
+}

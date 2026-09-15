@@ -310,15 +310,13 @@
 ## t_in_crypto
 
 - Platforms: X (Twitter)
-- Current open positions: Unknown (first mention; price-commentary style trader)
-- Recent thesis: BTC structural bullish — "we aren't done with the upper target yet"; dismissive of bearish drop calls from 57k (price now 80k). Multi-timeframe bullish bias, price-level focused.
-- Conviction notes: Reply-style commentator on price action; first sighting Sep 15 14:00Z. Bullish conviction on BTC continuation higher. Disputes @dbetrading bearish sentiment.
-- Calibration: PENDING Sep 15 14:05Z (reply to @KObtceth @dbtrading "Nope"; cryptic disagreement, external context unknown; HR-2 calibration sent).
-- Last seen: 2026-09-15T14:52:02Z
-- Conviction notes: Reply-style commentator on price action; first sighting Sep 15 14:00Z. Bullish conviction on BTC continuation higher. Disputes @dbetrading bearish sentiment. Frequent cryptic replies to other traders (external context-dependent).
+- Current open positions: BTC limit orders (awaiting fill, Sep 15 17:10Z status update)
+- Recent thesis: BTC structural bullish — "we aren't done with the upper target yet"; dismissive of bearish drop calls from 57k (price now 80k). Multi-timeframe bullish bias, price-level focused. Active limit order accumulation strategy on pending fills.
+- Conviction notes: Reply-style commentator on price action; first sighting Sep 15 14:00Z. Bullish conviction on BTC continuation higher. Disputes @dbetrading bearish sentiment. Frequent cryptic replies + informational position updates. Systematic accumulation via limit orders (Sep 15 17:10Z update).
 - Calibration: PENDING Sep 15 14:52Z (reply to @KryptoFynn "Nonono\nToo early now but soon\nOctober 🍌"; cryptic disagreement, banana emoji ambiguous, "October" timeframe unclear, external context unknown; HR-2 calibration sent). PENDING Sep 15 14:05Z (reply to @KObtceth @dbtrading "Nope"; cryptic disagreement, external context unknown; HR-2 calibration sent).
-- Last seen: 2026-09-15T14:52:47Z
+- Last seen: 2026-09-15T17:10:21Z
 - **Events (rolling):**
+  - Sep 15 17:10Z — informational-position: BTC limit orders awaiting fill; personal accumulation activity signal; bullish-aligned positioning [$BTC] [2099908691168211310]
   - Sep 15 14:52Z — ambiguous-cryptic: reply to @KryptoFynn disagreement "Nonono/Too early now but soon/October 🍌"; banana emoji + timeframe ref; HR-2 calibration sent [$UNKNOWN] [2099874071789891735]
   - Sep 15 14:19Z — informational-sentiment: challenging @dbetrading on prior bearish calls ("blood in markets, lower targets"); consistent bullish BTC structure [$BTC] [2099865649212182942]
   - Sep 15 14:05Z — ambiguous-cryptic: reply to @KObtceth @dbtrading dismissal "Nope"; context external; HR-2 calibration sent [$UNKNOWN] [2099862242023882771]
