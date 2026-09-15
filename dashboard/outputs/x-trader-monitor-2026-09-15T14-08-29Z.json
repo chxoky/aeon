@@ -1,0 +1,72 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading",
+        "badge",
+        "context",
+        "tweet_card",
+        "analysis",
+        "view_link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h3"
+      }
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Reply to @KObtceth @dbtrading on BTC price structure (Sep 15 14:05Z)",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "@t_in_crypto",
+        "text": "Nope"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? This trader posted bullish BTC sentiment 5 minutes earlier (\"we aren't done with upper target yet\" vs @dbtrading's prior bearish calls)."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/t_in_crypto/status/2099862242023882771"
+      }
+    }
+  }
+}
