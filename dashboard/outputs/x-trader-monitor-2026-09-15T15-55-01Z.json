@@ -1,0 +1,52 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_to_tweet",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Need to discount the insane parlay from last FOMC\n\nDown only into MSFT + AMZN giga earnings beats + SALP liq headline\n\nSo we'd need a macro equivalent… something like Warsh dovish relative to 3.5-4 hikes into mid 2027, plus serious de-escalation in east to contain the long end"
+      },
+      "children": []
+    },
+    "link_to_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099888721957183877"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro analysis on FOMC scenario setup — references Fed policy (Warsh, hike expectations mid-2027) + geopolitical de-escalation catalyst to support longer-dated yields.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

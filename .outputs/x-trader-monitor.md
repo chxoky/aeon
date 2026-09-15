@@ -58,3 +58,4 @@ Context: WR established bearish-equities-into-Oct thesis. FOMC Sep 16 catalyst i
 
 [View post](https://x.com/Wild_Randomness/status/2099886249540817168)
 [View tweet](https://x.com/KillaXBT/status/2099887716347629806)
+🐦 *[X] @Wild_Randomness*\n\nNeed to discount the insane parlay from last FOMC\n\nDown only into MSFT + AMZN giga earnings beats + SALP liq headline\n\nSo we'd need a macro equivalent… something like Warsh dovish relative to 3.5-4 hikes into mid 2027, plus serious de-escalation in east to contain the long end\n\n[View tweet](https://x.com/Wild_Randomness/status/2099888721957183877)\n\n↳ _Macro analysis on FOMC scenario setup — references Fed policy (Warsh, hike expectations mid-2027) + geopolitical de-escalation catalyst to support longer-dated yields._
