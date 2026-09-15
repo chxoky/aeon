@@ -1,0 +1,178 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat",
+        "description": "2026-09-15 15:00 UTC"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-watch",
+        "sep-1",
+        "section-p3",
+        "sep-2",
+        "section-p0"
+      ]
+    },
+    "alert-watch": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 WATCH",
+        "message": "Schedule gaps detected",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-p3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-p3",
+        "issue-morning-brief",
+        "issue-narrative"
+      ]
+    },
+    "heading-p3": {
+      "type": "Heading",
+      "props": {
+        "text": "🔵 P3 SCHEDULE GAP",
+        "level": "h3"
+      }
+    },
+    "issue-morning-brief": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-morning-brief-title",
+        "text-morning-brief-detail"
+      ]
+    },
+    "text-morning-brief-title": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief / morning-pipeline",
+        "variant": "lead"
+      }
+    },
+    "text-morning-brief-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Last success 2026-09-06 (9 days stale on daily schedule). Chain hasn't run since Sep 6; individual steps token-movers/market-context-refresh are healthy on standalone crons, but morning-brief (consumes their output) is not running.",
+        "variant": "body"
+      }
+    },
+    "issue-narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-narrative-title",
+        "text-narrative-detail"
+      ]
+    },
+    "text-narrative-title": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "lead"
+      }
+    },
+    "text-narrative-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Last success 2026-09-13 14:00 UTC (~49h ago — just crossed 2× daily interval).",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-p0": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-p0",
+        "status-p0"
+      ]
+    },
+    "heading-p0": {
+      "type": "Heading",
+      "props": {
+        "text": "✅ P0 all clear",
+        "level": "h3"
+      }
+    },
+    "status-p0": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-p0-1",
+        "text-p0-2",
+        "text-p0-3",
+        "text-p0-4"
+      ]
+    },
+    "text-p0-1": {
+      "type": "Text",
+      "props": {
+        "text": "No failed/stuck skills",
+        "variant": "body"
+      }
+    },
+    "text-p0-2": {
+      "type": "Text",
+      "props": {
+        "text": "No chronic failures",
+        "variant": "body"
+      }
+    },
+    "text-p0-3": {
+      "type": "Text",
+      "props": {
+        "text": "X webhook WATCHED_TRADERS active (is_effect:1)",
+        "variant": "body"
+      }
+    },
+    "text-p0-4": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs or issues",
+        "variant": "body"
+      }
+    }
+  }
+}
