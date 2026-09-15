@@ -1,45 +1,24 @@
-Perfect! I've successfully executed the discord-trader-monitor skill. Here's what happened:
+Perfect! I've successfully executed the discord-trader-monitor skill for this real-time Discord event. Here's what was processed:
 
 ## Summary
 
-**Event processed:**
-- **Trader:** HeartCanHodl (@heartcanhodl)
-- **Channel:** 1472153627324842057 (HCH — Free, primary)
-- **Message ID:** 1549280281200951337
-- **Timestamp:** 2026-09-15T04:46:43.274000+00:00
-- **Content:** `https://x.com/HeartCanHodl/status/2099695912562086347` (URL-only link)
+**Event Details:**
+- **Trader:** HeartCanHodl
+- **Channel:** HCH — Trades (★ most important)
+- **Time:** 2026-09-15T05:38:31Z
+- **Message:** "Add back 1/3rd cl short exposure"
+- **Message ID:** 1549293319572693023
 
-**Classification:** Skip (non-financial)
-- The message is just a URL link to HCH's own X post with no accompanying commentary
-- Per Step 4A protocol: link-sharing with no context = non-financial banter
-- No trade signal, no execution language, no market information
-- No alert sent
+**Classification:** `trade-conviction-add`
 
-**Memory updates:**
-- ✓ Added message ID to `memory/discord-trader-seen.txt`
-- ✓ Logged event to `memory/logs/2026-09-15.md`
-- No event line added to `traders.md` (skip protocol: non-financial events don't get rolling entries)
+**Processing:**
+- ✅ **Fast-path alert:** Already sent by Cloudflare Worker (~2-5s after message)
+- ✅ **Skip Telegram:** No secondary alert needed per fast-path protocol
+- ✅ **Memory updated:**
+  - Registered message ID to discord-trader-seen.txt (dedup tracking)
+  - Added event to traders.md (Sep 15 05:38Z entry)
+  - Updated HCH position summary to show "CL re-added Sep 13 + Sep 15"
+  - Updated Last Seen timestamp to Sep 15 05:38:31Z
+  - Added detailed log entry to memory/logs/2026-09-15.md
 
-**Result:** Event processed cleanly with no Kyle notification required.
-## Summary
-
-**Discord Message Processed Successfully**
-
-**Event:** HeartCanHodl shares X post link in HCH — Free Discord channel (primary tier)
-- **Message ID:** 1549280305406419006
-- **Channel:** 1472153627324842057 (HCH — Free, primary)
-- **Content:** Link to X post 2099697640556683743
-- **Time:** 2026-09-15T04:46:49Z
-
-**Classification:** **SKIP (Non-financial)**
-- Message contains only a URL with no accompanying analysis or trade signal
-- Per skill protocol Step 5A: cross-platform link shares without financial detail → skip, log only
-- No Kyle alert sent
-- No traders.md event line added (per size-discipline rules for non-financial skips)
-
-**Memory Updates:**
-- ✓ Added message ID to discord-trader-seen.txt (dedup prevention)
-- ✓ Appended detailed log entry to memory/logs/2026-09-15.md
-- ✓ Last Seen timestamp updated to 2026-09-15T04:46:49Z
-
-**Status:** Complete. Non-financial URL reference logged but not alerted.
+**Context:** This is a continuation of HeartCanHodl's net-short regime (active since Aug 07). The CL short was originally 2% Aug 18-19, rebalanced to 1x on Sep 11, first re-added 1/3rd on Sep 13, and now re-adding another 1/3rd on Sep 15. This represents disciplined de-risking on crypto while maintaining conviction on crude oil short exposure.
