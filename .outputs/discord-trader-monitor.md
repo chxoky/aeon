@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Comments]*
 
 I've successfully executed the `discord-trader-monitor` skill with the provided Discord event. Here's what was processed:
 
@@ -20,3 +20,7 @@ I've successfully executed the `discord-trader-monitor` skill with the provided 
 - No secondary Telegram alert (supporting channel protocol)
 
 **Final Status**: Event successfully logged. No Kyle alert required as the related primary-channel message (CL short conviction-add at 05:38Z) was already alerted via fast-path protocol.
+Event: Recurring pattern (sep 11: 'Fc clusdt 5m')
+heartcanhodl: "Fc clusdt 1hr"
+
+Same cryptic 'Fc clusdt' pattern, now on 1hr timeframe. Please clarify: force-close of crude short? False-close chart check? Or something else? [ID: 1549379221015498844]

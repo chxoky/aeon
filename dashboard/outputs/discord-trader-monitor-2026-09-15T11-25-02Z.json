@@ -1,0 +1,125 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration alert — recurring cryptic pattern"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "section-event",
+        "sep-1",
+        "section-pattern",
+        "sep-2",
+        "alert-clarification"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Comments]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "section-event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-event-label",
+        "text-event-date",
+        "text-user-handle"
+      ]
+    },
+    "text-event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Recurring pattern",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-event-date": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 11: 'Fc clusdt 5m'",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-user-handle": {
+      "type": "Text",
+      "props": {
+        "text": "User: heartcanhodl — \"Fc clusdt 1hr\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-pattern": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-pattern-title",
+        "text-pattern-observation"
+      ]
+    },
+    "text-pattern-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Cryptic Pattern Observed",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-pattern-observation": {
+      "type": "Text",
+      "props": {
+        "text": "Same cryptic 'Fc clusdt' pattern, now on 1hr timeframe.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-clarification": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification Required",
+        "message": "Please clarify: force-close of crude short? False-close chart check? Or something else? [ID: 1549379221015498844]",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
