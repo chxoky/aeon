@@ -1,0 +1,503 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-15"
+      },
+      "children": [
+        "transitions-section",
+        "reflexivity-section",
+        "positions-section",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transitions-new",
+        "transitions-promoted",
+        "transitions-demoted",
+        "transitions-dead"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions-new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "new-badge",
+        "new-1",
+        "new-2"
+      ]
+    },
+    "new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "new-1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Sep 16 Binary — 60% hike odds (CME/Kalshi/Polymarket 49-60% range); BTC 3/6 FOMC 2026 dates = $300-500M long liquidations; dot plot + presser tomorrow",
+        "variant": "body"
+      }
+    },
+    "new-2": {
+      "type": "Text",
+      "props": {
+        "text": "TradFi Integration/RWA — LSE + Payward (UK stocks on-chain); ICE stake in tZERO (tokenized securities); Messari Mainnet NYC late-Sep = Q4 institutional capital signal",
+        "variant": "body"
+      }
+    },
+    "transitions-promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "promoted-badge",
+        "promoted-1",
+        "promoted-1-link",
+        "promoted-2",
+        "promoted-3"
+      ]
+    },
+    "promoted-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "promoted-1": {
+      "type": "Text",
+      "props": {
+        "text": "Clarity Act (Dead → Emerging) — Senate cloture vote TODAY Sep 15, needs 53R + 7D (60 votes); KillaXBT posted algo-expectations-trap philosophy around it 01:30Z",
+        "variant": "body"
+      }
+    },
+    "promoted-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "NPR: Clarity Act Crypto Senate Vote",
+        "href": "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote"
+      }
+    },
+    "promoted-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI×Crypto Infrastructure (Rising → Peak) — Kraken MCP server, Coinbase for Agents, OKX MCP toolkit built; $73M agent settlement across 176M txns; MemeToro AI-meme convergence = late-stage signal",
+        "variant": "body"
+      }
+    },
+    "promoted-3": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC-XMR (Emerging/WATCH → Rising/RIDE) — ZEC $850 Aug 25 → $1,172 Sep 10 (+40.9% 7d); confirmed move",
+        "variant": "body"
+      }
+    },
+    "transitions-demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "demoted-badge",
+        "demoted-1",
+        "demoted-2"
+      ]
+    },
+    "demoted-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "demoted-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $80K Structural (Peak/RIDE → Peak/WATCH) — recovered from $76,914 Sep 10 dip; bull_genius max long @ 79.8K; FOMC headwind kills RIDE call",
+        "variant": "body"
+      }
+    },
+    "demoted-2": {
+      "type": "Text",
+      "props": {
+        "text": "ETH Cycle Conviction (Emerging/FRONT-RUN → Fading/WATCH) — WR ENA inflection at 0.1437 (threshold 0.15) first ETH-ecosystem signal in 3 weeks",
+        "variant": "body"
+      }
+    },
+    "transitions-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dead-badge",
+        "dead-1",
+        "dead-2",
+        "dead-3"
+      ]
+    },
+    "dead-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "outline"
+      }
+    },
+    "dead-1": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole/Fed Binary — resolved Aug 28 (Warsh keynote done)",
+        "variant": "caption"
+      }
+    },
+    "dead-2": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA Earnings Binary — resolved Aug 26 AH",
+        "variant": "caption"
+      }
+    },
+    "dead-3": {
+      "type": "Text",
+      "props": {
+        "text": "STX/BTC L2 Breakout — no signal since Aug 25",
+        "variant": "caption"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep-1",
+        "reflexivity-heading",
+        "reflexivity-1",
+        "reflexivity-2"
+      ]
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-1": {
+      "type": "Alert",
+      "props": {
+        "title": "FOMC/BTC",
+        "message": "bull_genius MAX LONG 79.8K into 60% hike event. BTC 2026 FOMC track record: 3/6 = bearish flush. @bull_genius + @t_in_crypto + @KillaXBT all bullish simultaneously = crowded long into binary catalyst",
+        "type": "warning"
+      }
+    },
+    "reflexivity-2": {
+      "type": "Alert",
+      "props": {
+        "title": "AI×Crypto",
+        "message": "MemeToro 'institutional capital rotating into AI memecoins' pitch = late-stage narrative recycling over real infra (Kraken/Coinbase MCP)",
+        "type": "warning"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep-2",
+        "positions-heading",
+        "positions-table"
+      ]
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Narrative",
+          "Status",
+          "Stage/Conviction",
+          "Sources",
+          "Bear Case"
+        ],
+        "rows": [
+          [
+            "FOMC Binary",
+            "WATCH",
+            "Emerging ↑↑, Mixed",
+            "@KillaXBT, @bull_genius",
+            "60% hike + 2026 track record = BTC flush to 76K; gate: Sep 16 2PM ET"
+          ],
+          [
+            "Clarity Act Cloture",
+            "WATCH",
+            "Emerging ↑↑, Mixed",
+            "@KillaXBT",
+            "3rd fail kills regulatory-clarity narrative until 2027; vote outcome today"
+          ],
+          [
+            "AI×Crypto Infrastructure",
+            "RIDE",
+            "Peak ↑, Bull",
+            "Kraken/Coinbase/OKX, a16z",
+            "identity bottleneck friction; agent-meme cope layer forming"
+          ],
+          [
+            "TradFi Integration/RWA",
+            "RIDE",
+            "Rising ↑, Bull",
+            "LSE/Payward, ICE/tZERO",
+            "structural/slow; alpha already in RWA token prices"
+          ],
+          [
+            "BTC $80K Structural",
+            "WATCH",
+            "Peak →, Bull",
+            "@bull_genius, @t_in_crypto",
+            "FOMC flush risk; $80K ceiling confirmed across multiple sources"
+          ],
+          [
+            "Privacy/ZEC-XMR",
+            "RIDE",
+            "Rising ↑, Bull",
+            "@trading_axe, @Stoiiic",
+            "already +40.9% 7d, thin fundamentals"
+          ],
+          [
+            "Alt Rotation/DeFi",
+            "FADE",
+            "Fading ↓, Mixed",
+            "",
+            "breadth 1/20 Sep 10; no recovery signal"
+          ]
+        ]
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sep-3",
+        "map-heading",
+        "map-grid"
+      ]
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NARRATIVE MAP",
+        "level": "h2"
+      }
+    },
+    "map-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging-label",
+        "emerging-1",
+        "emerging-2"
+      ]
+    },
+    "emerging-label": {
+      "type": "Badge",
+      "props": {
+        "text": "EMERGING",
+        "variant": "default"
+      }
+    },
+    "emerging-1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Sep 16 Binary",
+        "variant": "body"
+      }
+    },
+    "emerging-2": {
+      "type": "Text",
+      "props": {
+        "text": "Clarity Act Cloture",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising-label",
+        "rising-1",
+        "rising-2"
+      ]
+    },
+    "rising-label": {
+      "type": "Badge",
+      "props": {
+        "text": "RISING",
+        "variant": "secondary"
+      }
+    },
+    "rising-1": {
+      "type": "Text",
+      "props": {
+        "text": "TradFi Integration/RWA",
+        "variant": "body"
+      }
+    },
+    "rising-2": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC-XMR",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "peak-label",
+        "peak-1",
+        "peak-2",
+        "peak-3"
+      ]
+    },
+    "peak-label": {
+      "type": "Badge",
+      "props": {
+        "text": "PEAK",
+        "variant": "default"
+      }
+    },
+    "peak-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $80K Structural",
+        "variant": "body"
+      }
+    },
+    "peak-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI×Crypto Infrastructure",
+        "variant": "body"
+      }
+    },
+    "peak-3": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Payments",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fading-label",
+        "fading-1",
+        "fading-2"
+      ]
+    },
+    "fading-label": {
+      "type": "Badge",
+      "props": {
+        "text": "FADING",
+        "variant": "outline"
+      }
+    },
+    "fading-1": {
+      "type": "Text",
+      "props": {
+        "text": "ETH Cycle Conviction",
+        "variant": "body"
+      }
+    },
+    "fading-2": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Rotation/DeFi",
+        "variant": "body"
+      }
+    }
+  }
+}
