@@ -1,4 +1,19 @@
 🔍 *Calibration — [DC: HCH — Trades]*
+Executed discord-trader-monitor skill for HeartCanHodl message (2026-09-15 03:01:53 UTC).
+
+**Classification: SKIP** — Message "Fc crcl ema50 4hr wide" is a false-close pattern check on the 50-EMA 4H, not a trade signal.
+
+**Processing:**
+- ✅ Event decoded (JSON base64)
+- ✅ Trader identity verified (heartcanhodl, HCH — Trades channel ★)
+- ✅ Message ID checked (NEW, not duplicate)
+- ✅ fast_path_alerted: false → processed through full steps
+- ✅ Classified as non-financial technical annotation
+- ✅ No Telegram alert sent
+- ✅ Message ID logged to discord-trader-seen.txt
+- ✅ Event logged to memory/logs/2026-09-15.md
+
+**Rationale:** Per traders.md calibration, "Fc X posts = false-close chart check (NOT execution)". This is chart-monitoring activity, not a trade or conviction signal. No actionable content for Kyle.
 
 Recent context: HCH covered 50% crypto shorts Sep 13 (last defense 76K before 74K POI). Sep 14 closed third tranche of short exposure. Also called "Important flip area" on X Sep 14 14:55Z.
 
@@ -48,3 +63,8 @@ The skill completed successfully with proper deduplication and logging.
 HCH: "This time could be different"
 
 Unable to classify — what's your read? (Regime shift? Market direction change? Different entry strategy?)
+**Skill:** discord-trader-monitor  
+**Trader:** HeartCanHodl  
+**Event:** False-close EMA50 pattern check (4H)  
+**Status:** Logged, no alert needed  
+**Files updated:** discord-trader-seen.txt, memory/logs/2026-09-15.md
