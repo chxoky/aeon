@@ -1,0 +1,85 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "$ANSEM Token Price Analysis"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_token",
+        "tweet_card",
+        "metrics_grid",
+        "tweet_link"
+      ]
+    },
+    "badge_token": {
+      "type": "Badge",
+      "props": {
+        "text": "$ANSEM",
+        "variant": "default"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$ANSEM continuing collapse — exhaustion set in. Charts show cascade: $0.35 highs → $0.1154 current (-19.86%) with critical support levels tested. Community sentiment captured in meme thread (buying-the-bottom calls). This validates prior Sep 11 breakdown prediction (\"lose this level and lights out\"). 2-trader convergence with swarmister technical analysis (Sep 15)."
+      }
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_high",
+        "stat_current",
+        "stat_decline"
+      ]
+    },
+    "stat_high": {
+      "type": "Stat",
+      "props": {
+        "label": "Previous High",
+        "value": "$0.35"
+      }
+    },
+    "stat_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "$0.1154"
+      }
+    },
+    "stat_decline": {
+      "type": "Stat",
+      "props": {
+        "label": "Decline",
+        "value": "-19.86%",
+        "trend": "down"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2099963244068913174"
+      }
+    }
+  }
+}
