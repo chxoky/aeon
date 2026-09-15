@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "ticker_info",
+        "sep_1",
+        "interpretation_question"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH Chat",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "ticker_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_row",
+        "signal_row"
+      ]
+    },
+    "ticker_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ticker_label",
+        "ticker_value"
+      ]
+    },
+    "ticker_label": {
+      "type": "Text",
+      "props": {
+        "text": "Ticker:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "ticker_value": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "signal_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "hch_label",
+        "hch_badge"
+      ]
+    },
+    "hch_label": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "hch_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc nvda 1d",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretation_question": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to interpret shorthand",
+        "message": "Is this a short signal (fits HCH's equity-shorts thesis from Aug 07) or technical analysis referencing 1-day timeframe? What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

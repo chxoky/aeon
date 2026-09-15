@@ -1,6 +1,7 @@
-Now I'll process this Discord message through the skill steps. The event is from HeartCanHodl on the "Comments" channel with a technical commentary.
+🔍 *Calibration — [DC: HCH — Chat]*
 
-**Step 1 ✓ — Event decoded successfully**
+Ticker: NVDA
+HeartCanHodl: "Fc nvda 1d"
 
 **Step 2 — Channel & trader resolution:**
 - Channel 1393137051108507728 = "HCH — Comments" (primary)
@@ -70,3 +71,4 @@ Perfect. **Skill execution complete.** Here's a summary:
 - Last Seen timestamp not updated (only active trades/classifications update this)
 
 **Action Taken:** Logged event for audit trail. No trader alert generated (member Q&A only).
+Unable to interpret shorthand — is this a short signal (fits HCH's equity-shorts thesis from Aug 07) or technical analysis referencing 1-day timeframe? What's your read?
