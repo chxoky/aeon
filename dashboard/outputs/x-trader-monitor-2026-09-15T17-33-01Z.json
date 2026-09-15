@@ -1,0 +1,98 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "tweet_bitcoin",
+        "text_classify",
+        "sep1",
+        "alert_context",
+        "alert_unable",
+        "sep2",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Sep 15 17:29:46 UTC, reply to @TheLightofK1",
+        "variant": "caption"
+      }
+    },
+    "tweet_bitcoin": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "Bitcoin_Astro",
+        "text": "@TheLightofK1 🔥\nWhat time frame are we taking about for the high?"
+      }
+    },
+    "text_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_context": {
+      "type": "Alert",
+      "props": {
+        "title": "Context",
+        "message": "External message from @TheLightofK1 not captured in event payload. Bitcoin_Astro asking for timeframe clarification on \"the high\" (likely technical level or BTC/macro target). Fire emoji suggests affirmation/excitement but intent ambiguous. Previous Bitcoin_Astro posts show Gann/geometric technical analysis pattern.",
+        "type": "info"
+      }
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to determine",
+        "message": "Is this a technical clarification request? Continuation of prior level discussion? Banter? Requires Kyle context awareness.",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2099913578606104750",
+        "source": "X"
+      }
+    }
+  }
+}
