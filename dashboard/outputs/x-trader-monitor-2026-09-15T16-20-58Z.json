@@ -1,0 +1,43 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "BTC now breaking down from consolidation value after rejecting developing yearly 1 sd. band a few times.\n\nCurrently trading into 30d rolling with some passive skew on the buyside on the spot OB. Some binance spot buying but perps seem to be more active here on the long side for a start which typically isn't the best sign because a little push back down to the local lows will cause this positioning to puke.\n\nAcceptance below opens up the entire area down to the low 70s."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2099895058833019127"
+      },
+      "children": []
+    }
+  }
+}
