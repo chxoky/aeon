@@ -1,0 +1,159 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @bull_genius",
+        "description": "Classification uncertainty on recent activity"
+      },
+      "children": [
+        "event_section",
+        "sep1",
+        "alert",
+        "sep2",
+        "context_section",
+        "sep3",
+        "link"
+      ]
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "quote_section"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: Reply to @fun_nft",
+        "level": "h3"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius:",
+        "variant": "lead"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"cant wait to see what radioactive seafoam will turn into\"",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What is 'radioactive seafoam'? Is this a trade signal on a new position/narrative, or banter?",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "conviction",
+        "bullish",
+        "tokens",
+        "recent"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Escalating ARGONAUTS conviction (4+ mentions, Sep 07-13)",
+        "variant": "secondary"
+      }
+    },
+    "bullish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullish on ETH/NFTs 2027-2028",
+        "variant": "secondary"
+      }
+    },
+    "tokens": {
+      "type": "Badge",
+      "props": {
+        "text": "Accumulating various micro-cap tokens",
+        "variant": "secondary"
+      }
+    },
+    "recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recent_label",
+        "recent_text"
+      ]
+    },
+    "recent_label": {
+      "type": "Text",
+      "props": {
+        "text": "Recent pattern (Sep 15):",
+        "variant": "caption"
+      }
+    },
+    "recent_text": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple cryptic replies (12:19Z, 12:25Z, 12:43Z) requiring calibration",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2099853555792273767"
+      }
+    }
+  }
+}
