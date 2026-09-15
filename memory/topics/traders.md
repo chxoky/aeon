@@ -446,8 +446,9 @@
 - Recent thesis: Contrarian exit discipline. Range structure 62.1K–87.2K key levels. Elliott Wave: Sep 29 = wave peak; Aug 14 bottom confirmed turning point. Upper limit only AFTER retest of lower level first. "We aren't getting 90-100K and altseason." Bearish macro: 46K/42K support levels possible if deteriorates. BTC 29-32K = "black swan only"; realistic 44-39K possible. ETH "looking quite strong" but that's more of a potential BTC move.
 - Conviction notes: Contrarian. Skeptical of trend-followers. NOT confirmed ironic — apply HR-2. Cryptic reply pattern consistent. Range-retest thesis before eventual expansion.
 - Calibration: PENDING Sep 13 09:45Z ("I wrote about this many times" reply), PENDING Sep 11 18:32Z ("sky wants pink, market is organism"), PENDING Sep 11 07:01Z ("+- and depend of time"), PENDING Sep 11 11:12Z ("No no no"), PENDING Sep 10 06:24Z (@cz_binance "Wow Really????"), PENDING Aug 30 15:27Z (@exitpumpBTC "Yep soon"), PENDING Aug 30 12:16Z ("90? Not sure dear... not 90 or 90+").
-- Last seen: 2026-09-14T19:12:07Z
+- Last seen: 2026-09-15T06:59:13Z
 - **Events (rolling):**
+  - Sep 15 06:59Z — informational-sentiment: "Even lower soon $btc"; bearish directional sentiment, aligns w/ contrarian no-90K thesis; not personal execution [$BTC] [2099754897637847323]
   - Sep 14 19:12Z — ambiguous-cryptic: "@bitcoinjack Elevator up…"; trailing ellipsis, cryptic short reply, no execution language; HR-2 calibration sent [$BTC] [2099576948699664842]
   - Aug 29 15:32Z — informational: BTC 1h structure 62.1K–87.2K; September VERY IMPORTANT per MRK analyst [$BTC] [2093723474711699770]
   - Aug 30 04:38Z — informational: "several levels between 46K and 42K...liquidity hunt and a bull trap" [$BTC] [2093921217103163874]
