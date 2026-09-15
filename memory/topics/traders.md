@@ -474,7 +474,7 @@
 - Recent thesis: "Permabull forever." World Tokenization Supercycle. ETH-beta repricing (ENA +70% exemplar). HYPE/ZEC cult dynamics; beta play. ZZZ as "second shot for VVV styled AI gains." Bagwork tactic analysis (CZ/Aster vs HL precedent). CASHCAT retrospecrtive (100M→300M via Robinhood listing). "About time" (Sep 13 — PENDING).
 - Conviction notes: Builder/commentator identity transitioning to executor. ~70% banter ratio. LIT = CONTESTED ticker (trading_axe bullish vs HCH short — flag to Kyle). "Dr. Axius" persona. 13 PENDING calibrations active.
 - Calibration: PENDING Sep 14 12:46Z (@sershokunin mention + "Dr. Axius" + t.co link; media 0-byte), PENDING Sep 13 04:33Z ("About time. ~ Dr. Axius." to @DegenPing), PENDING Sep 12 22:09Z (@22khai1 "Go look at him rn, he's filled up."), PENDING Sep 09 06:17Z (@loraclexyz "Close your CASHCAT and PONS shorts"), PENDING Sep 06 04:59Z ("This was APG in 2021" + 0-byte image), PENDING Sep 05 18:03Z ("I put the whole thing back into memes"), PENDING Sep 05 14:58Z (Dr. Axius + @0xNetanyahu "Amazing things on PF"), PENDING Aug 30 20:41Z ("Perhapsingly it is time. ~ Dr. Axius.").
-- Last seen: 2026-09-14T12:46:02Z
+- Last seen: 2026-09-15T08:51:56Z
 - **Events (rolling):**
   - Sep 07 07:45Z — informational: HYPE/ZEC cult dynamics analysis; beta play comparison; valuations thesis [$HYPE/$ZEC] [2096867562122273246]
   - Sep 07 16:36Z — informational: LAPTOP token "worst P&D ever"; advises ignoring entirely [$LAPTOP] [2097001188814168396]
@@ -491,6 +491,7 @@
   - Sep 14 07:54Z — informational-sentiment: SOL bullish long-term conviction ("OG, it'll always remain and pop out with a random winner"); general macro bullish bias. Contrasts HCH SOL short + aligns KillaXBT bullish-if-BTC-bottoms thesis. Group SOL lean: CONTESTED [$SOL] [2099406528763539960]
   - Sep 14 12:46Z — ambiguous-cryptic: @sershokunin mention + "Dr. Axius" persona + t.co link; media unreadable (0-byte CDN); HR-2 sent [$UNKNOWN] [2099479786271780938]
   - Sep 14 09:31Z — skip: RH force-sold SOL bottom; ecosystem platform analysis (Vlad/RH/Circle). Hypothetical speculation ("probably trade shitcoin"), no execution signal. Market commentary persona established. Silent log [$SOL/$RH/$MACRO] [2099430924874076483]
+  - Sep 15 08:51Z — informational: @ExponentLabs_ token dynamics analysis; describes market pattern (founder triggers panic sell on rapid rise → cheap supply accumulation → strategic reveals → real info release); market psychology commentary, no personal trade execution [$MARKET-PSYCHOLOGY] [2099783260570017875]
 
 ## abetrade
 
