@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_probability",
+        "separator_1",
+        "tweet_main",
+        "separator_2",
+        "link_tweet"
+      ]
+    },
+    "stat_probability": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed Rate Hike Probability (FOMC Decision)",
+        "value": "89%"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Fed rate hike expected at 89% probability (market consensus ahead of today's FOMC decision). Trader views as \"short bait\" setup with extreme whipsaw risk both directions — expects general market liquidation cascade on either outcome.\n\nPersonal stance: Sitting idle in spot, not trading. Conservative positioning pre-FOMC given headline volatility risk."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_geniUs/status/2100226708863430795"
+      }
+    }
+  }
+}
