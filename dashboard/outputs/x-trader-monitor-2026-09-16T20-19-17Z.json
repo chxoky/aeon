@@ -1,0 +1,126 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tweet",
+        "chart-section",
+        "link-section",
+        "analysis-section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "With exactly four hikes priced-in by mid 2027... is this \"Peak Hawkishness\"?"
+      },
+      "children": []
+    },
+    "chart-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart-title",
+        "treasury-stat",
+        "support-text"
+      ]
+    },
+    "chart-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Dec 2027 10Y Treasury Futures",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "treasury-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "4.615"
+      },
+      "children": []
+    },
+    "support-text": {
+      "type": "Text",
+      "props": {
+        "text": "Technical support at 3.000 zone on multi-year consolidation",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link-section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100317145595097106"
+      },
+      "children": []
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text",
+        "pattern-badges"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces WR's Warsh Fed day pattern analysis (Sep 16 18:20-18:31Z); bearish equities/rate-shock conviction.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pattern-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-warsh",
+        "badge-bearish"
+      ]
+    },
+    "badge-warsh": {
+      "type": "Badge",
+      "props": {
+        "text": "Warsh Fed Day",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-bearish": {
+      "type": "Badge",
+      "props": {
+        "text": "Bearish Equities/Rates",
+        "variant": "destructive"
+      },
+      "children": []
+    }
+  }
+}
