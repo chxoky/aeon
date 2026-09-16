@@ -1,0 +1,126 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "stocks-grid",
+        "sep2",
+        "tweet-link",
+        "sep3",
+        "note-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "AMD/LITE consolidation showing weakness. Charts indicate support/resistance testing; semiconductor sector continues distribution amid bearish-equities-into-Oct thesis."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stocks-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "amd-stack",
+        "lite-stack"
+      ]
+    },
+    "amd-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-amd",
+        "amd-detail"
+      ]
+    },
+    "stat-amd": {
+      "type": "Stat",
+      "props": {
+        "label": "AMD",
+        "value": "520.21",
+        "delta": "+3.18%",
+        "trend": "up"
+      }
+    },
+    "amd-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation 480-520 range",
+        "variant": "caption"
+      }
+    },
+    "lite-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-lite",
+        "lite-detail"
+      ]
+    },
+    "stat-lite": {
+      "type": "Stat",
+      "props": {
+        "label": "LITE",
+        "value": "844.18",
+        "delta": "-8.94%",
+        "trend": "down"
+      }
+    },
+    "lite-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bearish technical setup",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100218735198085316"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces existing WR bearish equity conviction & LITE technical monitoring.",
+        "variant": "muted"
+      }
+    }
+  }
+}
