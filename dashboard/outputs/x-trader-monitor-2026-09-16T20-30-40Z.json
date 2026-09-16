@@ -1,0 +1,51 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "analysis-heading",
+        "analysis-text",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Green Arrow: 2.9% Fed Funds Rate priced for mid 2027…\n\nThen Iran Incursion began…\n\nRed Arrow: 4.62% Fed Funds Rate priced for mid 2027…\n\nTLDR Iran is the key."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show Dec 2027 10-year Treasury futures repricing +162bp from 2.9% to 4.62% as market reprices Fed rate expectations in response to Iran geopolitical escalation. FOMC decision today is critical inflection point. Aligns with bearish-equities / rate-shock macro thesis."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2100320514652983435"
+      }
+    }
+  }
+}
