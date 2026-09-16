@@ -1,0 +1,89 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_calibration",
+        "sep_1",
+        "text_commentary_label",
+        "text_quote",
+        "sep_2",
+        "text_context_label",
+        "text_context_body",
+        "sep_3",
+        "text_question"
+      ]
+    },
+    "text_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Comments]",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_commentary_label": {
+      "type": "Text",
+      "props": {
+        "text": "Technical commentary on price action:"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Btw..sample size of PA post rate hike scenario (if)\"",
+        "variant": "muted"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:"
+      }
+    },
+    "text_context_body": {
+      "type": "Text",
+      "props": {
+        "text": "Chart image attachment (cryptic reference); appears to be conditional PA analysis around rate hike scenarios; unclear if execution signal or technical observation."
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?"
+      }
+    }
+  }
+}
