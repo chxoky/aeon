@@ -98,6 +98,7 @@
 - Last seen: 2026-09-16T17:20:59Z
 - **Events (rolling):**
   - Sep 16 17:20Z — informational-macro-sentiment: fintwit sentiment pivot on Fed hike (no-hike→90% priced); meme reinforces surprise; aligns bearish-equities/rate-shock thesis [$MACRO/$FOMC] [2100273757290189289]
+  - Sep 16 17:23Z — ambiguous-cryptic: "$ZEC\n\ntf are you doing" — questioning/critical take on ZEC; 2 media charts; HR-2 calibration sent [$ZEC] [2100274439352692948]
   - Sep 16 17:10Z — ambiguous-cryptic: "That's better, keep derisking!" — short reaction/approval comment; media 3-image attachment (URLs auth-blocked); cryptic without visual context; HR-2 calibration sent [$UNKNOWN] [2100271157199229221]
   - Sep 16 16:43Z — informational-macro-sentiment: Risk-rally discomfort reply to @Steefms; preference for market "bleed" over rally scenario; bullish tilted option flow awareness; FOMC post-decision conviction on continued weakness [$MACRO/$BTC/$OPTIONS] [2100264444643455158]
   - Sep 16 16:12Z — informational-macro-technical: FOMC post-mortum analysis; charts show Jul 29 FOMC announcement QQQ reaction (5m chart + 1D recovery structure); Warsh Fed impact on long-end yields ("cucked the long end"); failed VIX reset hope; AMZN/MSFT earnings + SALP liq cascade; 5-day rally followed by bleed thereafter; meme "so you're telling me there's a chance?" on potential recovery; aligns continued bearish-equities conviction with technical detail [$QQQ/$MACRO/$FOMC] [2100256548761260135]
