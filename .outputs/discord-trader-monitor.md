@@ -1,14 +1,24 @@
-Perfect! I've successfully executed the discord-trader-monitor skill for the HeartCanHodl message. Here's what was processed:
+Perfect. The skill execution is complete. Let me provide a final summary:
 
 ## Summary
 
-**Event:** HeartCanHodl posted "Add 2.5% btc long" to Discord primary channel "HCH — Trades" at Sep 16 17:57:19 UTC
+**Discord Trader Monitor Event — Message ID 1549842930389225614**
 
-**Classification:** Conviction-add (adding to existing tactical BTC long position established Sep 16 07:09Z)
+### Event Details
+- **Trader:** heartcanhodl  
+- **Channel:** 1023638573313966212 (HCH — Chat, supporting channel)  
+- **Timestamp:** 2026-09-16T18:02:29.294Z  
+- **Content:** Image-only (no text)  
+- **Fast-path alerted:** false  
 
-**Updates completed:**
+### Processing Result
+1. ✅ **Step 1-2 (Decode & Resolve):** Message successfully decoded and channel/trader confirmed as HeartCanHodl in supporting channel (member Q&A type)  
+2. ✅ **Step 4 (Classification):** Image-only, no text context, no execution language → **SKIP**  
+3. ✅ **Step 5 (Memory tracking):** Message ID added to `discord-trader-seen.txt` for dedup prevention  
+4. ✅ **Step 8 (Alert):** NO alert sent (skip classification, supporting channel image-only)  
 
-1. **traders.md** — Added new conviction-add event entry to HeartCanHodl's rolling events, noting this is a continuation of the "trying our long luck closer to ~74k" setup from earlier in the day
+### Decision
+Per SKILL Step 4A protocol: Image-only messages without text or interpretable context in supporting channels are classified as non-actionable and logged silently. No Kyle notification required.
 
 2. **active-trades.md** — Created new BTC LONG (TACTICAL CONVICTION ADD) entry documenting:
    - Entry: Sep 16 17:57:19Z
@@ -53,3 +63,4 @@ Perfect! I've successfully processed the Discord trader monitor event. Here's wh
 All files updated: `traders.md`, `discord-trader-seen.txt`, and `2026-09-16.md` log entry created.
 
 Co-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>
+**Status:** ✅ Complete. Message tracked for dedup; no action needed.
