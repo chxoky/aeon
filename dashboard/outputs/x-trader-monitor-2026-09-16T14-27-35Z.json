@@ -1,0 +1,137 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Trade Signal",
+        "description": "@KillaXBT"
+      },
+      "children": [
+        "badge_long",
+        "text_btc",
+        "stack_details",
+        "separator1",
+        "link_tweet",
+        "alert_action"
+      ]
+    },
+    "badge_long": {
+      "type": "Badge",
+      "props": {
+        "text": "LONG",
+        "variant": "default"
+      }
+    },
+    "text_btc": {
+      "type": "Text",
+      "props": {
+        "text": "$BTC — Continuation long entry",
+        "variant": "lead"
+      }
+    },
+    "stack_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_entry",
+        "text_entry_context",
+        "stat_entry",
+        "text_entry_note",
+        "heading_stop",
+        "stat_stop",
+        "heading_target",
+        "stat_target",
+        "text_target_note"
+      ]
+    },
+    "heading_entry": {
+      "type": "Heading",
+      "props": {
+        "text": "Entry",
+        "level": "h4"
+      }
+    },
+    "text_entry_context": {
+      "type": "Text",
+      "props": {
+        "text": "Avg entry ~76.2K range"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry Price (Chart EP)",
+        "value": "76,192.6"
+      }
+    },
+    "text_entry_note": {
+      "type": "Text",
+      "props": {
+        "text": "Building on prior 62.6K swing + recent DCA adds",
+        "variant": "caption"
+      }
+    },
+    "heading_stop": {
+      "type": "Heading",
+      "props": {
+        "text": "Hard Stop",
+        "level": "h4"
+      }
+    },
+    "stat_stop": {
+      "type": "Stat",
+      "props": {
+        "label": "Stop Loss",
+        "value": "62,876.6"
+      }
+    },
+    "heading_target": {
+      "type": "Heading",
+      "props": {
+        "text": "Target",
+        "level": "h4"
+      }
+    },
+    "stat_target": {
+      "type": "Stat",
+      "props": {
+        "label": "Price Target",
+        "value": "126,402.3+"
+      }
+    },
+    "text_target_note": {
+      "type": "Text",
+      "props": {
+        "text": "Anything below 126,402.3 is irrelevant",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Why I've taken another $BTC swing long",
+        "href": "https://x.com/KillaXBT/status/2100228510274986210",
+        "source": "@KillaXBT"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Reply `approve BTC` to mirror on Kraken, or ignore to skip.",
+        "type": "info"
+      }
+    }
+  }
+}
