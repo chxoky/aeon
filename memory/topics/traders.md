@@ -435,6 +435,9 @@
 - Last seen: 2026-09-16T17:56:08Z
 - **Events (rolling):**
   - Sep 16 17:56Z — ambiguous-cryptic: "Looking to cover the remaining 25% short exposure on any small dip here" (X); conditional short-cover intention; unclear which asset(s) or if active position vs strategic planning; cryptic "remaining 25%" reference; HR-2 calibration sent [$UNKNOWN] [2100282600602673403]
+- Last seen: 2026-09-16T17:57:19.062000+00:00
+- **Events (rolling):**
+  - Sep 16 17:57Z — conviction-add: "Add 2.5% btc long" (Trades ★ 1279738718680256553); tactical long accumulation continuation; adding to existing long leg aligned with "trying our long luck closer to ~74k" (Sep 16 07:09Z) + NEAR long pattern; fast-path alerted by Cloudflare Worker [$BTC] [1549841629181907116]
   - Sep 16 09:56Z — informational-sentiment: "value ^" affirming options narrative pickup interest and early-buyer value bids; supporting channel (Chat 1023638573313966212) reply to own prior message; conviction reinforcement on options sentiment shift; no personal action [$MACRO/$OPTIONS] [1549720593212121099]
 - Last seen: 2026-09-16T09:56:01.267Z
 - **Events (rolling):**

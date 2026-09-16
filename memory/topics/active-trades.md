@@ -455,6 +455,21 @@
 - **Alerted**: YES (2026-09-12T07:09:23Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, duplicate suppressed per protocol)
 - **Last update**: 2026-09-12T07:09:23Z (message_id=1548229022800937191, discord-trader-monitor real-time, trade-new-entry)
 
+### BTC (Bitcoin) — LONG (TACTICAL CONVICTION ADD — 2026-09-16)
+- **Entry date**: 2026-09-16T17:57:19Z
+- **Entry message**: "Add 2.5% btc long"
+- **Entry type**: Market order (spot execution)
+- **Entry level**: Market price at time of execution (Sep 16 17:57:19Z UTC, BTC spot)
+- **Entry size**: 2.5% portfolio allocation
+- **Entry context**: Primary Trades channel (★most important, 1279738718680256553 — HCH — Trades ★) highest-conviction tier. Tactical long accumulation continuation aligned with "trying our long luck closer to ~74k area" conviction message (Sep 16 07:09Z Comments primary). Pattern: ongoing BTC long positioning within tactical long regime (Sep 16 07:09Z "trying our long luck", Sep 16 17:57Z "Add 2.5%") = tactical entry-scale strategy during consolidation/support structure recovery.
+- **Position thesis**: BTC spot tactical conviction add; scaling into tactical long accumulation zone (74K support level identified Sep 16 07:09Z). Aligns with HCH's disciplined portfolio architect approach (scaled incremental entries, specific size allocation, conviction-driven adding). Part of broader tactical long pattern (GOLD 55%, ENS 3%, MARSCOIN 2%, XPL 1%, FONE 1%, NEAR 1%, STRK 3%, BNB 1%, ONDO 1%) within net-short regime (Aug 07+) — tactical longs serve as hedge/optionality on structural breaks.
+- **Risk management**: No stop-loss explicitly mentioned; conviction-hold posture within tactical long accumulation thesis. Position discipline aligns with HCH's systematic approach (small-to-medium incremental sizes, conviction-driven holds, tactical scaling).
+- **Status**: ACTIVE — market-order execution completed, 2.5% BTC tactical long position established; fast-path alerted by Cloudflare Worker ~2-5s post-message (no Telegram duplicate per protocol)
+- **Trade alert format**: Step 5d (conviction add to existing tactical long regime; fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
+- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "Add 2.5% btc long"
+- **Alerted**: YES (2026-09-16T17:57:19Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, duplicate suppressed per protocol)
+- **Last update**: 2026-09-16T17:57:19Z (message_id=1549841629181907116, discord-trader-monitor real-time, conviction-add execution, fast-path-alerted)
+
 ## ES (S&P 500 E-mini Futures) — LONG
 - **Entry**: 2026-06-21T23:23Z (dream/gut feeling conviction entry)
 - **Size/Targets**: Not explicitly disclosed
