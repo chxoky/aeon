@@ -337,8 +337,9 @@
 - Recent thesis: BTC structural bullish — "we aren't done with the upper target yet"; dismissive of bearish drop calls from 57k (price now 80k). Multi-timeframe bullish bias, price-level focused. Active limit order accumulation strategy on pending fills.
 - Conviction notes: Reply-style commentator on price action; first sighting Sep 15 14:00Z. Bullish conviction on BTC continuation higher. Disputes @dbetrading bearish sentiment. Frequent cryptic replies + informational position updates. Systematic accumulation via limit orders (Sep 15 17:10Z update).
 - Calibration: PENDING Sep 15 19:11Z (reply to @captain_kole "This is not bottom"; dismissing bearish call or reaffirming bullish stance?; context external; HR-2 calibration sent). PENDING Sep 15 14:52Z (reply to @KryptoFynn "Nonono\nToo early now but soon\nOctober 🍌"; cryptic disagreement, banana emoji ambiguous, "October" timeframe unclear, external context unknown; HR-2 calibration sent). PENDING Sep 15 14:05Z (reply to @KObtceth @dbtrading "Nope"; cryptic disagreement, external context unknown; HR-2 calibration sent).
-- Last seen: 2026-09-16T08:02:57Z
+- Last seen: 2026-09-16T08:32:03Z
 - **Events (rolling):**
+  - Sep 16 08:32Z — informational-conviction: "I still in short 🤓 $btc"; position conviction reaffirmation on existing BTC SHORT (contrarian to prior bullish sentiment Sep 15; DIVERGENCE from group bullish lean); emoji adds smirk/confidence tone; no new execution [$BTC-SHORT] [2100140646338105747]
   - Sep 16 08:02Z — informational-sentiment: reply to @0x_Tokenomics on BTC price history "jumped to 82k in May"; past-tense price commentary, no personal execution signal [$BTC] [2100133324429697389]
   - Sep 15 22:12Z — informational-sentiment: "pullback will end very soon"; bullish BTC continuation prediction, aligns with group bullish structural thesis [$BTC] [2099984651712344351]
   - Sep 15 19:11Z — ambiguous-cryptic: reply to @captain_kole "This is not bottom"; context external (Kyle's message not visible); HR-2 calibration sent [$UNKNOWN] [2099939231615287612]
