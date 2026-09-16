@@ -1,0 +1,50 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "separator",
+        "chart_analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "I'll be working on a $BTC update video today covering this trade. It'll be posted on X.\n\nI held my long from 62.6K for 2–3 months, and it was far from uncomfortable. I round tripped my PnL countless times, to the point where most would have closed and looked for another entry.\n\nIn the end, holding the trade was the smartest decision I made."
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2100186683077529847"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "chart_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Chart shows entry 62.6K (original long), continuation long 76.2K, add zone 71.4K, target 126K+. Reinforces structural bull thesis conviction post-Sep 15 entries/adds.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
