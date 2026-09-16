@@ -1,6 +1,5 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @Wild_Randomness*
 
-We closing each time before a pump👌🏻
-https://x.com/HeartCanHodl/status/2100286677399068986
+Warsh Fed day SPX collapse-into-close pattern prediction. Chart comparison shows prior 6/17 (-1.21% post-close) and 7/29 (-1.52% post-close) declines. Expecting another leg up before sharp "nuke" into close starting in ~45 mins.
 
-[BTC 1m: shorts covered at 75298 low, pump to 76407 validates timing discipline]
+[View tweet](https://x.com/Wild_Randomness/status/2100288757069165048)

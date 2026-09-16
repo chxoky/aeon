@@ -98,6 +98,7 @@
   - Sep 16 14:37Z — informational-macro-sentiment: hawkishness setup evolution commentary; "take a month ago was just flat-out misguided...today's setup is quite a bit more hawkish"; critiques past trade setup, reflects on current Fed/rate sentiment shift; no personal action [$MACRO/$BTC] [2100232527466353126]
 - Last seen: 2026-09-16T17:20:59Z
 - **Events (rolling):**
+  - Sep 16 18:20Z — informational-macro-technical: Warsh Fed day SPX collapse-into-close pattern prediction; chart comparison 6/17/26 (-1.21% post-close) vs 7/29/26 (-1.52% post-close); expects "nuke into close starting in ~45 mins"; technical structure observation [$SPX/$MACRO/$FOMC] [2100288757069165048]
   - Sep 16 17:20Z — informational-macro-sentiment: fintwit sentiment pivot on Fed hike (no-hike→90% priced); meme reinforces surprise; aligns bearish-equities/rate-shock thesis [$MACRO/$FOMC] [2100273757290189289]
   - Sep 16 17:23Z — ambiguous-cryptic: "$ZEC\n\ntf are you doing" — questioning/critical take on ZEC; 2 media charts; HR-2 calibration sent [$ZEC] [2100274439352692948]
   - Sep 16 17:10Z — ambiguous-cryptic: "That's better, keep derisking!" — short reaction/approval comment; media 3-image attachment (URLs auth-blocked); cryptic without visual context; HR-2 calibration sent [$UNKNOWN] [2100271157199229221]
