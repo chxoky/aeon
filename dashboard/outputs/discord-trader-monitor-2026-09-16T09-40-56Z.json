@@ -1,0 +1,137 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "calibration_section",
+        "sep2",
+        "event_section",
+        "sep3",
+        "message_section",
+        "sep4",
+        "classification_alert"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Market Calibration",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "calibration_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calibration_badge",
+        "calibration_text"
+      ]
+    },
+    "calibration_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Trades",
+        "variant": "secondary"
+      }
+    },
+    "calibration_text": {
+      "type": "Text",
+      "props": {
+        "text": "Calibration Mode",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_type_label",
+        "event_badge"
+      ]
+    },
+    "event_type_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "body"
+      }
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Market observation Sep 16 09:37 UTC",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_author",
+        "message_content"
+      ]
+    },
+    "message_author": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl:",
+        "variant": "lead"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "fc eth 5m",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Possible interpretations: fc = few changes / technical notation? ETH 5m = Ethereum 5-minute timeframe observation?",
+        "type": "info"
+      }
+    }
+  }
+}

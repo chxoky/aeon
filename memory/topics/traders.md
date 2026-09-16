@@ -8,8 +8,9 @@
 - Last seen: 2026-09-15T19:06:26Z
 - **Events (rolling):**
   - Sep 15 19:06Z — dca-plan-execution: "All DCA's hit. My average entry on this position is now 76.4K." DCA orders from prior Sep 15 11:54Z plan (adds planned 72.5K) now filled; blended average upgraded from 62.6K (original swing long entry) to 76.4K (new average including DCA fills); reply to own prior message on testing 1D trendline + previous lows; informational position update, no new execution signal [$BTC] [1549496638530125918]
-- Last seen: 2026-09-15T22:27:56Z
+- Last seen: 2026-09-16T09:37:22Z
 - **Events (rolling):**
+  - Sep 16 09:37Z — ambiguous-cryptic: "fc eth 5m" — two-word + timeframe cryptic notation; cannot classify without context (possible interpretations: "few changes eth 5m", technical shorthand notation); HR-2 calibration sent [$UNKNOWN] [1549715815648202763]
   - Sep 15 22:27Z — conviction-add: "Decided to add bit more. Going to be playing this out like my X plan." Discord reply to own prior DCA-plan-execution message (Sep 15 19:06Z avg 76.4K); references X plan (Sep 15 19:07Z trade-new-entry); conviction escalation adding to existing BTC long structure with attachment chart; following up continuation entry 22:15Z trade-idea with execution follow-through [$BTC] [1549547345090191470]
   - Sep 15 22:15Z — informational-trade-idea: BTC support ~75.5K for longs on 2-3x leverage; chart shows horizontal support line with consolidation structure; general trade suggestion "All you have to do is long $BTC below this line on 2-3x" [$BTC] [2099985419051868288]
   - Sep 15 19:07Z — trade-new-entry: BTC LONG continuation separate position; avg entry 76.4K, hard stop 62.8K; market-order filled; "It is time. I've taken another continuation long on $BTC" [$BTC] [2099938160403005516]
