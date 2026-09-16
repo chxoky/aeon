@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Trade Signal Alert"
+      },
+      "children": [
+        "alert_signal",
+        "separator_1",
+        "context_section"
+      ]
+    },
+    "alert_signal": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 Trade Signal — DC: HCH — Chat",
+        "message": "That re-test technically was 100% guaranteed considering the good news pump, greed, euphoria and other patterns so that we went max short net crypto",
+        "type": "warning"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_summary",
+        "derisked_detail",
+        "pattern_detail",
+        "catalyst_detail"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel conviction escalation from de-risked state back to MAX SHORT on crypto",
+        "variant": "body"
+      }
+    },
+    "derisked_detail": {
+      "type": "Badge",
+      "props": {
+        "text": "De-risked: 50% covered Sep 13, more Sep 14",
+        "variant": "secondary"
+      }
+    },
+    "pattern_detail": {
+      "type": "Badge",
+      "props": {
+        "text": "Technical re-test pattern validates conviction",
+        "variant": "outline"
+      }
+    },
+    "catalyst_detail": {
+      "type": "Badge",
+      "props": {
+        "text": "Same-day FOMC macro catalyst (Sep 16)",
+        "variant": "outline"
+      }
+    }
+  }
+}

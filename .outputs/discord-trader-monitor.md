@@ -1,4 +1,4 @@
-💬 *[DC: HCH — Chat]*
+🚨 *Trade Signal — [DC: HCH — Chat]*
 
 Now that we have both fear & de-risking before FOMC
 Execution complete. 
@@ -17,3 +17,7 @@ Execution complete.
   - ✅ No Telegram alert (supporting-channel protocol; informational sentiment only)
 
 **Context**: HeartCanHodl confirms Clarity Act regulatory vote has been decided/resolved. This aligns with prior traders' observations (Wild_Randomness Sep 15: "failed to pass"; KillaXBT Sep 15: regulatory catalyst). Supporting-channel message treated as conviction update without standalone Telegram alert per skill protocol.
+That re-test technically was 100% guaranteed considering the good news pump, greed, euphoria and other patterns so that we went max short net crypto
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**Context:** Supporting channel conviction escalation from de-risked state (50% covered Sep 13, more Sep 14) back to MAX SHORT on crypto. Technical re-test pattern validates conviction. Same-day FOMC (Sep 16) macro catalyst.
