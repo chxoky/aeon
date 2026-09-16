@@ -398,6 +398,9 @@
 - Last seen: 2026-09-16T09:56:21.838000+00:00
 - **Events (rolling):**
   - Sep 16 09:56Z — informational-sentiment: "value ^" affirming options narrative pickup interest and early-buyer value bids; supporting channel (Chat 1023638573313966212) reply to own prior message; conviction reinforcement on options sentiment shift; no personal action [$MACRO/$OPTIONS] [1549720593212121099]
+- Last seen: 2026-09-16T09:56:01.267Z
+- **Events (rolling):**
+  - Sep 16 09:56Z — ambiguous-cryptic: "Fc zec 5m" (Chat supporting 1023638573313966212); cryptic abbreviated notation (documented pattern: "Fc {ticker} {tf}" = false-close chart check, but supporting-channel context + no referenced_message creates ambiguity on execution vs observation intent); ZEC short active (1235/1295); unable to classify conviction without Kyle input; HR-2 calibration sent [$ZEC] [1549720506931085423]
   - Sep 16 07:24Z — ambiguous-cryptic: "It will take a little push it much higher" (Chat supporting 1023638573313966212); cryptic market sentiment, no ticker/asset specified, unable to classify conviction context; HR-2 calibration sent [$UNKNOWN] [1549682413817434155]
   - Sep 16 07:09Z — informational-position-update: "we are trying our long luck closer to that ~74k area" (Comments primary); reply to own prior message on "important htf re-test is at 74k $BTC"; position conviction reinforcement on BTC long at 74k support level; aligns with tactical long accumulation pattern [$BTC] [1549678699631353946]
   - Sep 16 07:05Z — conviction-add: "Add 1% to useless 1x short"; adding to existing short position; dismissive tone ("useless") but execution language clear (personal "Add" action); ticker unspecified (generic/ambiguous reference); 1x leverage = minimal/spot; fast-path alerted by Cloudflare Worker [$UNKNOWN] [1549677589822574603]
