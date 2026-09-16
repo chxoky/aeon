@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "link_1",
+        "analysis_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "We closing each time before a pump👌🏻"
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/HeartCanHodl/status/2100286677399068986",
+        "href": "https://x.com/HeartCanHodl/status/2100286677399068986"
+      }
+    },
+    "analysis_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC 1m: shorts covered at 75298 low, pump to 76407 validates timing discipline",
+        "variant": "caption"
+      }
+    }
+  }
+}

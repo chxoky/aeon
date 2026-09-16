@@ -1,9 +1,6 @@
-🔁 *KillaXBT — Structural Conviction*
+🐦 *[X] @HeartCanHodl*
 
-We have 20 days left of this $BTC bear market.
+We closing each time before a pump👌🏻
+https://x.com/HeartCanHodl/status/2100286677399068986
 
-Using 3644-day cycle framework showing phase transitions. Charts document cycle structure (multiple phase labels across 10-year history).
-
-Reinforces Sep 13 "BTC has officially bottomed" call + 2.5yr structural bull thesis (126K+ target). Implies high conviction that cycle inflection point imminent.
-
-https://x.com/KillaXBT/status/2100284581421240449
+[BTC 1m: shorts covered at 75298 low, pump to 76407 validates timing discipline]
