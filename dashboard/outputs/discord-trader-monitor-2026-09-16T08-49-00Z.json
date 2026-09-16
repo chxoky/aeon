@@ -1,0 +1,114 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor",
+        "description": "Market sentiment calibration analysis"
+      },
+      "children": [
+        "calibration-note",
+        "event-info",
+        "separator-1",
+        "message-card",
+        "separator-2",
+        "questions-section"
+      ]
+    },
+    "calibration-note": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "event-info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting-channel market sentiment update (Sep 16 08:43Z)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "option narrative picking up interest. Some early buyers bidding value already"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "questions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "unable-text",
+        "question-list"
+      ]
+    },
+    "unable-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "question-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "• Is \"option narrative\" referring to a specific token/protocol (OPTION? OP? derivatives market?)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "• Is this bullish sentiment signal, neutral observation, or macro context?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "• Should I track this for pattern recognition on HCH's narrative themes?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
