@@ -1,10 +1,8 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @bull_genius*
 
-AMD/LITE consolidation showing weakness. Charts indicate support/resistance testing; semiconductor sector continues distribution amid bearish-equities-into-Oct thesis.
+Event: Reply to @0xwill__
+bull_genius: "yes"
 
-AMD: 520.21 (+3.18%) — consolidation 480-520 range
-LITE: 844.18 (-8.94%) — bearish technical setup
+Unable to classify — what's your read?
 
-[View tweet](https://x.com/Wild_Randomness/status/2100218735198085316)
-
-↳ _Reinforces existing WR bearish equity conviction & LITE technical monitoring._
+[View post](https://x.com/bull_genius/status/2100224919191630093)
