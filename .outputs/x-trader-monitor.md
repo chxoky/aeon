@@ -1,5 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @HeartCanHodl*
 
-S&P 500 Intraday Composite: Warsh Fed Days — Historical comparison showing SPX declines post-FOMC meetings (6/17/26: -1.21%, 7/29/26: -1.52%). Technical pattern observation on current market structure.
+Context: HCH added 2.5% BTC long 43 min ago (Sep 16 17:57Z) with stated conviction to try long luck closer to ~74k area. Also on multi-week tactical long accumulation.
 
-[View tweet](https://x.com/Wild_Randomness status/2100291393726091562)
+Tweet: "If you're not bidding your favourite coins here, what are you even doing? 👀"
+
+Unable to classify — what's your read? Is this market commentary, personal action, or market suggestion?
+
+[View post](https://x.com/HeartCanHodl/status/2100293824933491128)
