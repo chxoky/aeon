@@ -1,57 +1,25 @@
 ## Summary
 
-I've successfully executed the `discord-trader-monitor` skill for the provided Discord event. Here's what happened:
+I've successfully executed the **discord-trader-monitor** skill with the provided Discord event. Here's what was processed:
 
-**Event Processed:**
-- **Trader:** heartcanhodl
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
-- **Message:** "Right before news and reaction" (reply to own prior message)
-- **Time:** Sep 16 18:10:47 UTC
-
-**Classification:** informational-macro-sentiment-reinforcement
-- Reply to HeartCanHodl's own Sep 16 17:59Z message about bullish hikes calming bond markets
-- Supporting channel chatter, not a trade signal
-- No execution language, no new conviction shift
-
-**Decision:** No Telegram alert sent
-- Per SKILL Step 7, supporting channel messages are "member Q&A — real-time conviction shifts, not standalone plans"
-- Rule: "Do NOT send a standalone alert by default" unless genuinely new conviction shift
-- This message is just chatter reinforcing the prior statement
-- No primary-channel anchor point to fold into
-
-**Memory Updated:**
-- ✓ Message ID added to `memory/discord-trader-seen.txt` (dedup prevention)
-- ✓ Event logged in `memory/topics/traders.md` (HeartCanHodl section)
-- ✓ Daily log entry created in `memory/logs/2026-09-16.md` with full Step 1-10 analysis
-
-Co-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>
-**Status:** ✅ Complete. Message tracked for dedup; no action needed.
-## Summary
-
-I have successfully executed the **discord-trader-monitor** skill for the Discord event from HeartCanHodl.
-
-**Event processed:**
+**Event Details:**
 - **Trader**: HeartCanHodl
-- **Channel**: 1472153627324842057 ("HCH — Free" primary)
-- **Time**: 2026-09-16T18:07:12Z
-- **Message ID**: 1549844116454768652
-- **Content**: "Fc btc 1m https://x.com/HeartCanHodl/status/2100282600602673403"
-- **Fast-path alerted**: YES (Cloudflare Worker already sent Telegram ~2-5s post)
+- **Channel**: 1279738718680256553 (HCH — Trades, primary)
+- **Time**: Sep 16 18:19:45Z
+- **Message**: "Close remaining 25% crypto shorts"
+- **Classification**: trade-mirror-final-tp (final tranche of short closure)
 
-**Classification**: **AMBIGUOUS-CRYPTIC** (HR-2 calibration alert)
-- "Fc btc 1m" = HCH's pattern for false-close checks (observation notation)
-- URL references X post (Sep 16 17:56Z) on short-cover intention ("cover remaining 25%")
-- **Ambiguity**: Is this a false-close chart check observation, or execution signal for the short-cover plan? Asset in "25% short" unclear.
+**Key Processing Steps:**
 
-**Actions taken:**
-1. ✅ Decoded base64 event
-2. ✅ Resolved channel & trader (HeartCanHodl, primary channel confirmed)
-3. ✅ Loaded memory context (traders.md, ticker-focus.md, active-trades.md)
-4. ✅ Cross-platform dedup (found matching X post from 17:56Z, 11min prior; this is reiteration with new notation)
-5. ✅ Classified as ambiguous-cryptic (requires Kyle calibration)
-6. ✅ Skipped Telegram (fast-path already alerted)
-7. ✅ Updated memory (traders.md event, discord-trader-seen.txt dedup tracker)
-8. ✅ Logged event to memory/logs/2026-09-16.md
+1. ✅ **Decoded** base64 JSON event — valid Discord message structure
+2. ✅ **Validated** message ID (1549847277751763048) was new, not previously processed
+3. ✅ **Fast-path check** — `fast_path_alerted=true` means Cloudflare Worker already sent Telegram alert ~2-5s after posting. Per SKILL protocol, skipped duplicate Telegram send, proceeded to memory updates only.
+4. ✅ **Classified** as trade-mirror-final-tp: closing final 25% of crypto short basket
+5. ✅ **Updated Memory**:
+   - Added event to traders.md with full tranche closure history
+   - Updated HeartCanHodl's position summary: **NET SHORT REGIME FULLY CLOSED** (Aug 07–Sep 16)
+   - Marked all short positions (BTC, ZEC, ZRO, HYPE, SOL, ETH, etc.) as 0%
+   - Added message ID to discord-trader-seen.txt dedup tracking
+6. ✅ **Logged** full event to memory/logs/2026-09-16.md with classification, context, and reasoning
 
-**Note**: This Discord message cross-posts the X post (2100282600602673403) which already received an HR-2 calibration alert at Sep 16 17:56Z via x-trader-monitor. Kyle should review both together for full context.
-**Final Status:** Event processed silently. No Kyle notification needed (supporting-channel sentiment reinforcement on established macro conviction).
+**Regime Shift**: HeartCanHodl has completed 4-tranche de-risking (Sep 11→13→14→**16**), shifting from a 70-day net-short conviction to tactical-longs-only configuration (GOLD 55%, ENS 3%, MARSCOIN 2%, etc.). Post-FOMC decision timing suggests market-driven exit completion on rate clarity.
