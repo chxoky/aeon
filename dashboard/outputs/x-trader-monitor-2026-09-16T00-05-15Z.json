@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_content"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_info",
+        "quote_text",
+        "alert_classify",
+        "link_post"
+      ]
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @chumbawamba22",
+        "variant": "body"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness: \"would Twitter lie?\"",
+        "variant": "lead"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100011845813965036"
+      }
+    }
+  }
+}

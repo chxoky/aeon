@@ -9,3 +9,11 @@ The rebound came on Powell's first hike
 [View tweet](https://x.com/Wild_Randomness/status/2100011375355662808)
 
 ↳ _Reinforces September bearish sentiment (equities weakness into Oct FOMC). Charts show Titanic Syndrome + Hindenburg Omen technical deterioration. Historical parallel: March 2022 rebound on rate-hike surprise._
+🔍 *Calibration — @Wild_Randomness*
+
+Event: Reply to @chumbawamba22
+Wild_Randomness: "would Twitter lie?"
+
+Unable to classify — what's your read?
+
+[View post](https://x.com/Wild_Randomness/status/2100011845813965036)
