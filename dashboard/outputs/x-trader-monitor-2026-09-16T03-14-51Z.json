@@ -1,0 +1,34 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "NFT Market Sentiment"
+      },
+      "children": [
+        "tweet_1",
+        "link_view"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "RARE FRIENDS Opportunity:\nFree mint → 2-3 ETH per flip (via Uniswap CCA / OpenSea arb)\nPeople making first multiples on NFT flips, getting exposed to OpenSea\n\n\"it like this butterfly wings causing a tsunami story what i feel is about to unfold\"\n\nFloor chart shows 7d volatility spike. Sentiment observation on NFT market cycle awakening."
+      },
+      "children": []
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2100059716994863568"
+      },
+      "children": []
+    }
+  }
+}

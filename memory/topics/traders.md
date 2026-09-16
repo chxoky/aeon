@@ -302,6 +302,7 @@
   - Sep 13 23:02Z — informational: BTC supports Monday open; rate-hike/AI scare; FOMC gate Sep 16; consolidation 76-77K vs 73.6K downside; wait reversals not max leverage [$BTC/$MACRO] [2099272574492360836]
   - Sep 13 22:46Z — informational: PUMP looks cheap; 15m RSI 32.23; support cluster validates 3-entry long thesis [$PUMP] [2099268433925865486]
   - Sep 13 22:05Z — informational-escalation: Argonauts reinforcement; "extremely asymmetric beta to eth"; sub-1 eth total no-brainer; community moat; months ahead market; FOURTH mention [$ARGONAUTS] [2099258068588482926]
+  - Sep 16 03:10Z — informational-nft-market-sentiment: RARE FRIENDS free mint → 2-3 ETH multiples; observes arb opportunity Uniswap CCA vs OpenSea; people exposing to OpenSea flipping JPEGs; "butterfly wings tsunami" cycle philosophy; floor chart 7d volatility; no personal execution [$RARE-FRIENDS/$NFT/$ROBINHOOD-CHAIN] [2100059716994863568]
 
 ## swarmister
 
