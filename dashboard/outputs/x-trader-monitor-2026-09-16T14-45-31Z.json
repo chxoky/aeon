@@ -1,0 +1,66 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-context",
+        "tweet-wild-randomness",
+        "alert-image",
+        "text-classification"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Reference to @leveraged_cat trader post + market reaction",
+        "variant": "caption"
+      }
+    },
+    "tweet-wild-randomness": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Historically, the market can sustain about 10 minutes of listening to him before FSI™ing"
+      }
+    },
+    "alert-image": {
+      "type": "Alert",
+      "props": {
+        "title": "Image unavailable",
+        "message": "CDN 0-byte",
+        "type": "warning"
+      }
+    },
+    "text-classification": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}
