@@ -691,8 +691,9 @@
 - Recent thesis: BTC IV at historic lows; Sep historically vol bottom (2023+2025 precedents). Options selling: straddles/strangles capture overpriced premium (60% win rate, 20.1% median monthly return) but catastrophic tail risk (-1727% worst trade). SPCX calendar spread (sell Sep straddle, buy Oct; IV 110% vs RV 50%). ETH call skew z-score spikes correlate with consolidation. Volatility-shorting strategy: 23% CAGR, 1.74 Sharpe vs SPY 14.6%/1.01 (16yr backtest).
 - Conviction notes: Educational framework only; no personal execution language. Options volatility specialist. No personal trades documented.
 - Calibration: PENDING Sep 13 17:44Z (volatility strategy backtest shared — but no personal execution), PENDING Sep 11 13:19Z (gold/fartcoin mention frequency — context unclear), PENDING Sep 07 20:59Z (@tradesonpoint link content unavailable), PENDING Aug 26 08:37Z (@btc_charlie @tradingriot "yes").
-- Last seen: 2026-09-13T19:24:25Z
+- Last seen: 2026-09-16T18:46:29Z
 - **Events (rolling):**
+  - Sep 16 18:46Z — informational-macro-sarcasm: Fed policy commentary (both rate hikes & cuts framed as bullish); educational sarcasm, no personal execution [$MACRO/$FED] [2100295273075347716]
   - Aug 25 14:20Z — informational: ETH call skew z-score spike correlation with consolidation; OTM call selling strategy education [$ETH/$VOL] [2092255885493932333]
   - Sep 04 18:32Z — informational: on-chain vs ES market structure; retail-driven pools commentary [$MARKET-STRUCTURE] [2095943038153465906]
   - Sep 07 21:02Z — informational: options expiration availability; chain expirations dropdown 28d-833d [$OPTIONS/$VOL] [2097068047634772258]
