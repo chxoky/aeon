@@ -1,0 +1,77 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event",
+        "sep1",
+        "tweet-card",
+        "sep2",
+        "text-context",
+        "text-classify",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: FOMC post-decision market action (~17:10Z Sep 16, ~10min after 16:00Z FOMC announcement).",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "That's better, keep derisking!"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Posted 27min after Sep 16 16:43Z macro-sentiment reply (\"Risk-rally discomfort\"; prefers market bleed). 3-image media attachment (URLs auth-blocked; images unreadable).",
+        "variant": "caption"
+      }
+    },
+    "text-classify": {
+      "type": "Text",
+      "props": {
+        "text": "Text is a short reaction/recommendation with implied context. Unable to classify — what's your read?",
+        "variant": "muted"
+      }
+    },
+    "link-view": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100271157199229221"
+      }
+    }
+  }
+}
