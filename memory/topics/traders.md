@@ -438,6 +438,7 @@
   - Sep 15 03:03Z — informational-technical: $CRCL chart observation (4h NYSE consolidation 96.47-103.49 range, uptrend structure from 57.64 base); single-trader mention; new ticker, filed silently per quiet-ticker protocol [X post] [$CRCL] [2099695492292870369]
   - Sep 15 03:07Z — ambiguous-cryptic: URL-only reply (Free primary); "https://x.com/HeartCanHodl/status/2099695492292870369" reply to Tree Capital (empty message); HR-2 calibration sent [$UNKNOWN] [1549255386081525810]
   - Sep 15 03:04Z — ambiguous-cryptic: SNDK 1h chart critical support $1560; "Last hope here 👀" — intent unclear (short opportunity? observational?); HR-2 calibration sent [$SNDK] [2099695912562086347]
+  - Sep 16 03:32Z — informational-technical: "Fc btc 15m" (Comments primary, Discord); false-close chart check on 15m BTC; reply to own Sep 15 18:03Z image post; structure verification below resistance; no execution signal [$BTC] [1549623914018377830]
 
 ## Stoiiic
 
