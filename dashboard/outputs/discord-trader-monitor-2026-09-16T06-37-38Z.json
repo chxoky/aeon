@@ -1,0 +1,99 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — Message Classification"
+      },
+      "children": [
+        "calibration-header",
+        "sep1",
+        "message-tweet",
+        "sep2",
+        "classification-stack",
+        "sep3",
+        "message-id"
+      ]
+    },
+    "calibration-header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "I will take this as a reference and reaction post news as an area to re-assess"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prompt",
+        "opt1",
+        "opt2",
+        "opt3"
+      ]
+    },
+    "prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "opt1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Meta-commentary on using news reactions to inform position reassessment?"
+      }
+    },
+    "opt2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Signal of upcoming position reassessment/tactical pivot?"
+      }
+    },
+    "opt3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Non-financial banter?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1549669774974394402",
+        "variant": "muted"
+      }
+    }
+  }
+}
