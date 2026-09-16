@@ -1,16 +1,9 @@
-🔍 *Calibration — @HeartCanHodl*
+🔁 *KillaXBT — Structural Conviction*
 
-Event: Conditional short-cover intention
+We have 20 days left of this $BTC bear market.
 
-@HeartCanHodl: "Looking to cover the remaining 25% short exposure on any small dip here"
+Using 3644-day cycle framework showing phase transitions. Charts document cycle structure (multiple phase labels across 10-year history).
 
-Unable to classify — is this an active short position you're managing (trade signal to mirror), or strategic positioning commentary? Statement is conditional ("on any small dip") with no specific asset/execution level.
+Reinforces Sep 13 "BTC has officially bottomed" call + 2.5yr structural bull thesis (126K+ target). Implies high conviction that cycle inflection point imminent.
 
-https://x.com/HeartCanHodl/status/2100282600602673403
-🔍 *Calibration — @t_in_crypto*
-
-Event: Market context unclear — reference to @Crypto_R0D with "35 min left" timeframe
-
-t_in_crypto: "@Crypto_R0D 35 min left"
-
-Unable to classify — what's your read? (Countdown to market event? Trading deadline?)
+https://x.com/KillaXBT/status/2100284581421240449
