@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-ticker",
+        "tweet-card",
+        "link-tweet"
+      ]
+    },
+    "badge-ticker": {
+      "type": "Badge",
+      "props": {
+        "text": "$QQQ",
+        "variant": "default"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Constructive… this action is probably pissing some bears off but I wouldn't put much weight into this action though\n\nAll the volume is going to come through FOMC https://x.com/Wild_Randomness/status/2100243399437934850\n\nQQQ in daily consolidation (710.95 level); support zones 700/680; higher lows forming but potential fake-out setup pre-FOMC. Real volume expected on Sep 16 FOMC decision event."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2100243399437934850"
+      }
+    }
+  }
+}
