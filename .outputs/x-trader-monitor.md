@@ -1,13 +1,12 @@
-The script requires approval. This command will:
+🐦 *[X] @Bitcoin_Astro*
 
-1. **Decode** the base64-encoded tweet event from the `@Bitcoin_Astro` user
-2. **Parse** the tweet: `"@JustintoldU Thanks for the shout out 🙏"`
-3. **Check for duplicates** against `memory/x-trader-seen.txt`
-4. **Classify** the tweet (in this case: personal banter, non-financial, skip silently)
-5. **Update memory files:**
-   - Add tweet ID to `memory/x-trader-seen.txt`
-   - Append event to `memory/logs/2026-09-16.md`
+Learn to Identify Market Turning Points Before They Happen
 
-The tweet is clearly personal communication (thanking someone for a mention), not a trade signal, so it will be logged silently with no alert sent.
+In my September Monthly Report, shared before the month began, I said I expected the monthly high to form around September 4th, 6th or 9th ± a few days.
+So far, the high came directly inside my main 31 Aug–4 Sep timing window.
 
-Would you like me to proceed?
+This is what my work is really about, not simply predicting whether Bitcoin goes up or down, but understanding WHEN the market is likely to change direction and WHERE price is likely to reach.
+
+https://x.com/Bitcoin_Astro/status/2100359811602809257
+
+↳ _Forecast validation: Predicted 31 Aug–4 Sep high window ✓. Upcoming windows: 23–30 Sep, Oct 5, Nov 5._

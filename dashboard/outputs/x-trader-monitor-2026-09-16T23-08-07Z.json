@@ -1,0 +1,79 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "forecast-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Bitcoin_Astro",
+        "handle": "@Bitcoin_Astro",
+        "text": "Learn to Identify Market Turning Points Before They Happen\n\nIn my September Monthly Report, shared before the month began, I said I expected the monthly high to form around September 4th, 6th or 9th ± a few days.\nSo far, the high came directly inside my main 31 Aug–4 Sep timing window.\n\nThis is what my work is really about, not simply predicting whether Bitcoin goes up or down, but understanding WHEN the market is likely to change direction and WHERE price is likely to reach.\n\nhttps://x.com/Bitcoin_Astro/status/2100359811602809257"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "forecast-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "forecast-label",
+        "forecast-content"
+      ]
+    },
+    "forecast-label": {
+      "type": "Text",
+      "props": {
+        "text": "Forecast validation",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "forecast-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "validation-badge",
+        "upcoming-badge"
+      ]
+    },
+    "validation-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Predicted 31 Aug–4 Sep high window ✓",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "upcoming-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Upcoming windows: 23–30 Sep, Oct 5, Nov 5",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
