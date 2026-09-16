@@ -1,0 +1,169 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor Calibration",
+        "description": "Human-in-the-loop classification request"
+      },
+      "children": [
+        "heading1",
+        "text-observation",
+        "sep1",
+        "context-stack",
+        "sep2",
+        "alert-classify",
+        "classification-options",
+        "sep3",
+        "metadata-stack"
+      ]
+    },
+    "heading1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-observation": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting-channel cryptic observation: \"missed this one\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-label",
+        "context-text",
+        "message-quality-text"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Dense Sep 16 macro window (FOMC announcement today, Clarity Act resolved, rate-hike scenario analysis, BTC technical confirmation, max short crypto re-entry moments prior).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "message-quality-text": {
+      "type": "Text",
+      "props": {
+        "text": "Message lacks context (no reply, no referenced message).",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "info"
+      },
+      "children": []
+    },
+    "classification-options": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "Missed trade opportunity?",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Missed announcement?",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "Missed market move?",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-id",
+        "timestamp"
+      ]
+    },
+    "message-id": {
+      "type": "Text",
+      "props": {
+        "text": "Discord message ID: 1549646451145973791",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 16 05:01:44 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

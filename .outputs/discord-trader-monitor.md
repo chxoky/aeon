@@ -23,3 +23,12 @@ I successfully executed the **discord-trader-monitor** skill for the HeartCanHod
 - `memory/discord-trader-seen.txt` — Added message ID for dedup prevention
 - `memory/topics/traders.md` — Added event entry + updated Last Seen timestamp
 - `memory/logs/2026-09-16.md` — Comprehensive event log with HR-2 calibration context
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Supporting-channel cryptic observation: "missed this one"
+
+Context: Dense Sep 16 macro window (FOMC announcement today, Clarity Act resolved, rate-hike scenario analysis, BTC technical confirmation, max short crypto re-entry moments prior). Message lacks context (no reply, no referenced message).
+
+Unable to classify — what's your read? (Missed trade opportunity? Missed announcement? Missed market move?)
+
+Discord message ID: 1549646451145973791 | Sep 16 05:01:44 UTC
