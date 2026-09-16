@@ -94,8 +94,9 @@
 - Last seen: 2026-09-16T14:37:09Z
 - **Events (rolling):**
   - Sep 16 14:37Z — informational-macro-sentiment: hawkishness setup evolution commentary; "take a month ago was just flat-out misguided...today's setup is quite a bit more hawkish"; critiques past trade setup, reflects on current Fed/rate sentiment shift; no personal action [$MACRO/$BTC] [2100232527466353126]
-- Last seen: 2026-09-16T16:02:33Z
+- Last seen: 2026-09-16T16:12:36Z
 - **Events (rolling):**
+  - Sep 16 16:12Z — informational-macro-technical: FOMC post-mortum analysis; charts show Jul 29 FOMC announcement QQQ reaction (5m chart + 1D recovery structure); Warsh Fed impact on long-end yields ("cucked the long end"); failed VIX reset hope; AMZN/MSFT earnings + SALP liq cascade; 5-day rally followed by bleed thereafter; meme "so you're telling me there's a chance?" on potential recovery; aligns continued bearish-equities conviction with technical detail [$QQQ/$MACRO/$FOMC] [2100256548761260135]
   - Sep 16 16:02Z — informational-macro: Multi-asset macro setup; IWM down -6.87%, US10Y bonds rising (Treasury Tantrum), crude -3.26%; small-cap breakdown confirms macro deterioration; aligns bearish-equities conviction [$IWM/$SPY/$UST/$MACRO] [2100254019298136316]
   - Sep 16 14:56Z — informational-macro-sentiment: BTC market structure on trash cleanup over 10 days; looking for final FOMC move; would try BTC calls if strength seen; macro sentiment + catalyst awareness; conditional framing (not personal execution) [$BTC/$MACRO/$FOMC] [2100237430599438731]
   - Sep 16 14:39Z — ambiguous-cryptic: @leveraged_cat "market can sustain about 10 minutes before FSI™ing"; URL link + image unavailable (0-byte CDN); cryptic ref; HR-2 calibration sent [$UNKNOWN] [2100233160336531510]
