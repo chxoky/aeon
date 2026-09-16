@@ -650,14 +650,15 @@
 ## t_in_crypto
 
 - Platforms: X (Twitter)
-- Current open positions: SHORT at 79.297 (asset unclear — BTC?), planning to flip to LONG
+- Current open positions: SHORT at 79.297 (BTC), planning to flip to LONG
 - Recent thesis: Price-time combination analysis; currently short, waiting for right moment to flip long but conviction it's still too early
-- Conviction notes: First sighting. Price-time trader. Awaiting Kyle calibration on what asset/signal this represents.
-- Calibration: PENDING Sep 15 10:58Z (short at 79.297, plan to flip long, asset unclear; HR-2 calibration sent)
-- Last seen: 2026-09-16T13:08:50Z
+- Conviction notes: First sighting. Price-time trader. Price-time combination methodology. Awaiting Kyle calibration on signal interpretation.
+- Calibration: PENDING Sep 15 10:58Z (short at 79.297, plan to flip long, asset confirmed BTC)
+- Last seen: 2026-09-16T16:15:22Z
 - **Events (rolling):**
+  - Sep 16 16:15Z — informational-chart-share: BTC chart showing consolidation/recovery to ~75.5K; shared with @CryptoSavy1; sentiment/market structure communication [$BTC] [2100257241848832086]
   - Sep 16 13:08Z — informational: BTC consolidation and lows testing dragging on longer than expected; market sentiment [$BTC] [2100210300867735998]
-  - Sep 15 10:58Z — calibration-required: holding short 79.297, waiting to flip long, conviction "still too early" [$UNKNOWN] [2099815230473740381]
+  - Sep 15 10:58Z — calibration-required: holding short 79.297, waiting to flip long, conviction "still too early" [$BTC] [2099815230473740381]
 
 ## abetrade
 
