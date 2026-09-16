@@ -1,0 +1,96 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration-text",
+        "sep1",
+        "event-heading",
+        "event-text",
+        "sep2",
+        "quote-heading",
+        "quote-text",
+        "sep3",
+        "analysis-heading",
+        "analysis-text",
+        "sep4",
+        "post-link"
+      ]
+    },
+    "calibration-text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h2"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ at 704.69 (Nasdaq-100 entry point). WR tweeted this ~14 min after 'Not ideal' market commentary, following detailed FOMC/macro analysis earlier."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Quote",
+        "level": "h2"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Beat me to it\" + QQQ chart"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h2"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — which trader beat them to what entry/trade? And is this a missed opportunity you want to monitor for cross-trader signals?"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100314791458062598",
+        "source": "X"
+      }
+    }
+  }
+}
