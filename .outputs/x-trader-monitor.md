@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — @t_in_crypto*
 
 Processed real-time X trader monitor event for @t_in_crypto at Sep 16 19:32:03 UTC.
 
@@ -12,3 +12,12 @@ Processed real-time X trader monitor event for @t_in_crypto at Sep 16 19:32:03 U
 - ✓ No event line added to traders.md (protocol: skips omit event entries)
 
 No notification sent. Event complete.
+Event: Trader has active BTC SHORT (Sep 16 08:32Z), focusing on intraday time-window strategy.
+
+t_in_crypto: "Keep an eye on the 5 AM to 8 AM window \n-+1h is okay \n\nMy time zone UTC+7"
+
+Unable to classify — what's your read?
+- Is this a SHORT management window (cover opportunity)?
+- What market catalyst makes this time-window significant?
+- What direction does trader anticipate?
+- Should you adjust positioning ahead of this window, or just observe?

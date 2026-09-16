@@ -1,0 +1,166 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-cal",
+        "sep1",
+        "event-section",
+        "sep2",
+        "quote-section",
+        "sep3",
+        "alert-section",
+        "sep4",
+        "questions-section"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-label",
+        "event-text"
+      ]
+    },
+    "event-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Event",
+        "variant": "secondary"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Trader has active BTC SHORT (Sep 16 08:32Z), focusing on intraday time-window strategy."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote-label",
+        "quote-text"
+      ]
+    },
+    "quote-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Trader Comment",
+        "variant": "secondary"
+      }
+    },
+    "quote-text": {
+      "type": "Text",
+      "props": {
+        "text": "Keep an eye on the 5 AM to 8 AM window\n-+1h is okay\n\nMy time zone UTC+7"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert-section": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Unable to classify"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "questions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "q-intro",
+        "q-list"
+      ]
+    },
+    "q-intro": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "q-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "- Is this a SHORT management window (cover opportunity)?"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "- What market catalyst makes this time-window significant?"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "- What direction does trader anticipate?"
+      }
+    },
+    "q4": {
+      "type": "Text",
+      "props": {
+        "text": "- Should you adjust positioning ahead of this window, or just observe?"
+      }
+    }
+  }
+}
