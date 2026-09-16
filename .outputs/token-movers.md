@@ -1,42 +1,42 @@
-*Token Movers — 2026-09-14*
+*Token Movers — 2026-09-16*
 
-_Selectively green — 68/100 large caps in the black, median 24h +0.4%; FIL the standout mover (+18.8%) while trending leans heavy on capitulation names._
+_Broad risk-off — ~88% of top-100 coins are red, median 24h ≈ −2.8%; ARB and a handful of trending low-caps are the exception in an otherwise uniform sell-off._
 
 *Top Winners (24h)*
-1. FIL (Filecoin) — $0.99  +18.8% / 7d +21.4% / 1h -0.3%  •  $433M / #84  [BREAKOUT]
-2. BTW (Bitway) — $0.70  +8.7% / 7d +55.0% / 1h +7.5%  •  $41.7M / #46
-3. CAKE (PancakeSwap) — $2.35  +8.0% / 7d +4.0% / 1h +0.1%  •  $86.8M / #80
-4. LIT (Lighter) — $4.41  +7.9% / 7d -1.3% / 1h -0.5%  •  $78.4M / #69  [TRENDING+UP]
-5. XLM (Stellar) — $0.19  +7.0% / 7d +0.4% / 1h +1.5%  •  $193M / #20  [MAJOR]
-6. NEAR (NEAR Protocol) — $2.40  +3.9% / 7d +2.0% / 1h -0.8%  •  $246M / #32
-7. XRP (XRP) — $1.39  +3.8% / 7d -0.4% / 1h -0.2%  •  $2.08B / #5  [MAJOR]
-8. ZEC (Zcash) — $1,118  +2.5% / 7d -5.7% / 1h -0.6%  •  $1.08B / #10  [MAJOR][TRENDING+UP]
-9. HYPE (Hyperliquid) — $79.58  +2.4% / 7d -9.1% / 1h -0.3%  •  $675M / #11  [MAJOR][TRENDING+UP]
-10. ADA (Cardano) — $0.21  +1.6% / 7d -4.9% / 1h -0.4%  •  $320M / #19  [MAJOR]
+1. ARB (Arbitrum) — $0.1677  +22.6% / 7d −0.5% / 1h +3.5%  •  $586M / #69  [TRENDING+UP][FADE]
+2. AKE (Akedo) — $0.02856  +20.1% / 7d +86.4% / 1h +0.2%  •  $65.7M / #94  [BREAKOUT]
+3. BTW (Bitway) — $0.7856  +8.9% / 7d +74.0% / 1h +0.2%  •  $15.7M / #45
+4. ZEC (Zcash) — $1,227  +8.4% / 7d −1.4% / 1h +1.0%  •  $1.37B / #10  [MAJOR][TRENDING+UP]
+5. NEAR — $2.47  +4.5% / 7d −2.4% / 1h +2.1%  •  $367M / #32
+6. VVV (Venice Token) — $23.06  +4.5% / 7d −12.0% / 1h +3.2%  •  $43.5M / #70
+7. RAIN — $0.01363  +3.1% / 7d −14.4% / 1h −0.4%  •  $27.5M / #13
+8. ENA (Ethena) — $0.1439  +1.9% / 7d −12.1% / 1h +0.1%  •  $351M / #57
+9. DASH — $53.83  +1.5% / 7d −17.2% / 1h +2.4%  •  $115.8M / #90
+10. PUMP — $0.003652  +1.0% / 7d −17.9% / 1h +0.5%  •  $150M / #51
 
 *Top Losers (24h)*
-1. LSK (Lisk) — $0.691  -31.2% / 1h n/a  •  $158M / #197  [CAPITULATION][TRENDING+DOWN]
-2. STONK (STONK) — $0.197  -24.8% / 1h n/a  •  $51.2M / #195  [CAPITULATION][TRENDING+DOWN]
-3. XMR (Monero) — $509  -3.9% / 7d -4.3% / 1h -0.2%  •  $110M / #15  [MAJOR]
-4. ATOM (Cosmos) — $1.54  -3.5% / 7d -5.2% / 1h -2.1%  •  $40.0M / #85
-5. PUMP (Pump.fun) — $0.003600  -3.4% / 7d -20.5% / 1h -0.4%  •  $103M / #53
-6. KAS (Kaspa) — $0.033  -2.7% / 7d -5.2% / 1h -0.5%  •  $8.3M / #78
-7. ARB (Arbitrum) — $0.134  -2.6% / 7d -18.7% / 1h -0.3%  •  $127M / #79
-8. WLD (Worldcoin) — $0.381  -2.5% / 7d -14.1% / 1h -0.7%  •  $120M / #62
-9. M (MemeCore) — $1.13  -2.1% / 7d -0.6% / 1h +0.7%  •  $1.6M / #41
-10. RAIN (Rain) — $0.015  -1.6% / 7d -8.8% / 1h -0.2%  •  $34.4M / #13  [MAJOR]
+1. PI (Pi Network) — $0.08346  −12.3% / 7d −14.2% / 1h +0.3%  •  $15M / #76
+2. XLM (Stellar) — $0.1764  −9.0% / 7d −6.4% / 1h +0.6%  •  $388M / #20  [MAJOR]
+3. INJ (Injective) — $5.40  −8.6% / 7d −14.1% / 1h +0.2%  •  $113M / #101
+4. FIL (Filecoin) — $0.8062  −7.9% / 7d −3.2% / 1h −0.2%  •  $142M / #93
+5. CRV (Curve DAO) — $0.3128  −7.4% / 7d −13.0% / 1h −0.1%  •  $66M / #106
+6. JUP (Jupiter) — $0.2135  −7.2% / 7d −13.7% / 1h +1.2%  •  $68M / #87
+7. ALGO (Algorand) — $0.08804  −6.8% / 7d −9.7% / 1h +0.3%  •  $47M / #82
+8. KAS (Kaspa) — $0.03224  −5.6% / 7d −9.1% / 1h +0.9%  •  $11.8M / #78
+9. AAVE — $120.34  −5.5% / 7d −6.9% / 1h +0.5%  •  $267M / #47
+10. ONDO — $0.3285  −5.4% / 7d −12.6% / 1h +0.6%  •  $133M / #53  [TRENDING+DOWN]
 
 *Trending*
-1. LSK (Lisk) — #197, $0.691, -31.2%  [CAPITULATION][TRENDING+DOWN]
-2. LAPTOP (Hunter Biden's Laptop) — #329, $0.218, -27.2%  [TRENDING+DOWN]
-3. PONS (Pons) — #120, $0.536, -3.7%
-4. DOT (Polkadot) — #51, $1.009, -0.1%
-5. STONK (STONK) — #195, $0.197, -24.8%  [CAPITULATION][TRENDING+DOWN]
-6. PENGU (Pudgy Penguins) — #113, $0.00708, -1.2%
-7. EMBER (embercurve) — #804, $0.0224, -45.5%  [MICROCAP][TRENDING+DOWN]
+1. ZEC (Zcash) — #10, $1,227, +8.4%  [MAJOR][TRENDING+UP]
+2. ARB (Arbitrum) — #69, $0.167, +22.6%  [TRENDING+UP][FADE]
+3. SYN (Synapse) — #508, $0.187, +134.5%  [PUMP-RISK][MICROCAP]
+4. BR (Bedrock) — #202, $0.54, +89.8%  [PUMP-RISK]
+5. LSK (Lisk) — #204, $0.679, +74.9%  [PUMP-RISK]
+6. EDEL — #854, $0.028, +50.2%  [PUMP-RISK][MICROCAP]
+7. TRUMP — #103, $1.87, −4.6%
 
 *Notable*
-• LSK: trending #1 + -31.2% on vol nearly matching full mcap ($158M vol / $162M mcap) — hard capitulation event
-• STONK: trending #5 + -25% on vol/mcap 0.31 — capitulation; probable news-driven exit
-• FIL: +18.8% on $433M vol with +21.4% 7d momentum — strongest sustained winner
-• LIT: only trending name in the green today (+7.9%) — [TRENDING+UP] signal isolated against a red trending list
+• ARB: trending + up 22.6% but 7d −0.5% — single-day spike against a downtrend [FADE]
+• SYN: trending + up 134.5% at rank #508 — extreme low-cap pump, no validation [PUMP-RISK]
+• BR: trending + up 89.8% at rank #202 — [PUMP-RISK]
+• AKE: +20.1% with 7d +86.4% — sustained [BREAKOUT] since Aug; not a flash pump
