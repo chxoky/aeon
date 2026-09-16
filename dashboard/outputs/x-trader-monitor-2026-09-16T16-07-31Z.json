@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "🐦 FOMC Day Macro Setup\n\nWhat if these close the week red?\n\nMulti-asset weakness:\n• IWM (Russell 2000) -6.87% over 22 days (small caps breaking down)\n• US10Y yields rising (4.95%→5.00%+) — Treasury Tantrum pattern\n• Crude -3.26% (inflation narrative pressure)\n• Bonds selling off, equities cascading lower\n\nReinforces WR's bearish-equities-into-Oct conviction + Sept seasonal cycle. IWM breakdown is the key signal — macro deterioration confirmed."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View original tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100254019298136316"
+      }
+    }
+  }
+}
