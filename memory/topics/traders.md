@@ -58,6 +58,9 @@
 - Last seen: 2026-09-16T10:49:59Z
 - **Events (rolling):**
   - Sep 16 10:49Z — informational-technical: Solana pump token consolidation on 365d rvwap (nance spot) analysis; break 7d rvwap = fast expansion target imo; macro context FOMC Sep 16 + Yom Kippur Sep 20-21; technical opinion no personal execution; chart image unavailable for analysis [$SOLANA/$PUMP] [2100175357236154519]
+- Last seen: 2026-09-16T10:53:03Z
+- **Events (rolling):**
+  - Sep 16 10:53Z — informational-technical: @chief_xbt reply "theres a bunch of liq pockets to take out along the way too"; market structure commentary on liquidation levels to be cleared; no specific price levels or actionable signal; low-signal generic technical banter; no execution language [$BTC] [2100176130699297058]
   - Sep 16 02:10Z — informational-conviction-extreme-escalation: ARGONAUTS chart comparison vs whale-dominated 2026 collections; "mortgage house" hyperbolic conviction on community-holder thesis; supports older collections (50-65% unique holders) vs new 2026 collections (14-23% unique holders); 5th mention in 9-day window validates extreme escalation pattern [$ARGONAUTS] [2100044588341710995]
   - Sep 16 02:04Z — ambiguous-cryptic: reply to @BlueBadger2600 "yes"; one-word affirmation, no context visible; cannot classify without knowing referenced question; HR-2 sent [$UNKNOWN] [21000432271977840955]
   - Sep 15 15:33Z — informational-macro-philosophy: reply to @satyamsoft7 reaffirming market discipline stance; "best dont trade at all rn...i have no edge so i wait it out until fomc happened or some really extreme prices appear"; reinforces Sep 15 15:15Z and 15:02Z conservative positioning thesis; reiterates "fade extremes" advice; no new position change [$BTC/$MACRO] [2099884319338557528]
