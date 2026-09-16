@@ -1,0 +1,64 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Tweet from X by @Wild_Randomness"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "tweet-link",
+        "analysis"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Honestly pretty hilarious how it has played out the same way:\n\n1. Grind down into for weeks into FOMC\n2. Initial spike then FSH when Warsh speaks\n3. Semiconductor fears (AI slowdown/regulation this time, SALP liq last time)\n4. Bullish cloud/compute headline after hours\n\nChart: QQQ 5m FOMC pattern reference (Jul 29 example)"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100342404650070394"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pattern-heading",
+        "pattern-text"
+      ]
+    },
+    "pattern-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Pattern Match",
+        "level": "h3"
+      }
+    },
+    "pattern-text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates Wild_Randomness's bearish-equities-into-Oct thesis + FOMC catalyst framework."
+      }
+    }
+  }
+}
