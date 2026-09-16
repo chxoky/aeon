@@ -1,0 +1,38 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "💬 [DC: Chase — Chase]"
+      },
+      "children": [
+        "status-text",
+        "separator",
+        "method-text"
+      ]
+    },
+    "status-text": {
+      "type": "Text",
+      "props": {
+        "text": "all recents sent out",
+        "variant": "lead"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "method-text": {
+      "type": "Text",
+      "props": {
+        "text": "via Discord — chart with recent positions",
+        "variant": "muted"
+      }
+    }
+  }
+}

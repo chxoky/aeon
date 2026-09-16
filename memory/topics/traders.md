@@ -1,3 +1,13 @@
+## Crypto_Chase
+
+- Platforms: Discord (primary: 1336082716063694962 "Chase — Chase"; supporting: 1343971265962049597 "Chase — TradFi", 1247927786681794601 "Chase — Crypto")
+- Current open positions: [tracking from recent messages]
+- Recent thesis: [to be populated from messages]
+- Conviction notes: [to be populated]
+- Last seen: 2026-09-16T14:25:59Z
+- **Events (rolling):**
+  - Sep 16 14:25Z — informational-administrative: "all recents sent out"; position/trade summary announcement with chart image to channel members; administrative notification, no new execution signal [$SUMMARY] [1549788447013863534]
+
 ## KillaXBT
 
 - Platforms: X (Twitter) + Discord (★Trades: 1411492188315193416)
