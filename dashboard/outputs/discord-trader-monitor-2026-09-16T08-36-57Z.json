@@ -1,0 +1,99 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration event — message classification issue"
+      },
+      "children": [
+        "calibration_header",
+        "sep1",
+        "event_section",
+        "sep2",
+        "message_section",
+        "sep3",
+        "classification_alert"
+      ]
+    },
+    "calibration_header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_badge",
+        "event_text"
+      ]
+    },
+    "event_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event",
+        "variant": "secondary"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH's reply to own prior message: \"Yes. A lot of bullishness around it\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_label",
+        "message_text"
+      ]
+    },
+    "author_label": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "lead"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fc drv 1hr",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Abbreviated shorthand unclear. What's your read?",
+        "type": "warning"
+      }
+    }
+  }
+}
