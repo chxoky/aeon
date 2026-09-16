@@ -1,0 +1,38 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "context"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Just makes me less comfortable about a scenario where we see a 1-2 week rally in risk out of this. I would have preferred bleed this morning (with bullish tilted option flow)"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context": {
+      "type": "Text",
+      "props": {
+        "text": "Macro sentiment on risk-rally discomfort + option-flow preference for market weakness. FOMC context: Sep 16 decision (earlier today).",
+        "variant": "muted"
+      }
+    }
+  }
+}
