@@ -111,8 +111,9 @@
 - Last seen: 2026-09-16T20:56:53Z
 - **Events (rolling):**
   - Sep 16 20:56Z — informational-macro-technical: SPX/SPY multi-stage breakdown pattern; "Stage 1 complete" = first leg of decline from ATHs; charts show 2-image SPY daily (support zones 760-770, horizontal levels marked) + 1-image SPX daily (potential reversal zones 7,800-7,921 up, 7,481-7,545 down); "SFP'd previous ATHs" = Sell-side Flow Pattern rejection at highs; expects continued "grinding down" requiring positive catalysts (Iran, Trump-Xi) to reverse; technical structure validation on bearish-equities-into-Oct thesis [$SPX/$SPY/$MACRO] [2100328088781693168]
-- Last seen: 2026-09-16T21:53:46Z
+- Last seen: 2026-09-16T22:03:44Z
 - **Events (rolling):**
+  - Sep 16 22:03Z — informational-technical-sentiment: IWM (Russell 2000) failed ATH breakout sarcasm; "Chart looked good (fresh ATH breakout) a month ago😒"; charts show ATH from Aug (~305 level) followed by -7.87% decline to 283, current recovery to 303 area; mocking failed technical setup/false breakout; reinforces established bearish IWM technical thesis [$IWM/$MACRO] [2100344914978730370]
   - Sep 16 21:53Z — informational-fomc-pattern: FOMC market cycle recurring pattern; QQQ grind-spike-FSH-fears-headline [$QQQ/$SEMIS/$MACRO] [2100342404650070394]
 - Last seen: 2026-09-16T21:51:26Z
 - **Events (rolling):**
