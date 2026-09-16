@@ -1,0 +1,43 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-1",
+        "link-view"
+      ]
+    },
+    "tweet-1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$BTC Market has done a fairly good job taking out the trash over the past 10 days or so, not many liqs left\n\nLooking for the final move to clean up those wicks through FOMC in what could be a complex pullback. Would likely try some BTC calls *if* we start seeing strength"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100237430599438731"
+      },
+      "children": []
+    }
+  }
+}

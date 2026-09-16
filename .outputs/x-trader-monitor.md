@@ -1,14 +1,7 @@
 🐦 *[X] @Wild_Randomness*
 
-The point I'm trying to make if it isn't clear is that take a month ago was just flat-out misguided, partially due to the Iran war ofc…
+$BTC Market has done a fairly good job taking out the trash over the past 10 days or so, not many liqs left
 
-Today's setup is quite a bit more hawkish, and the irony is you don't see any discussion of peak
-🔍 *Calibration — @Wild_Randomness*
+Looking for the final move to clean up those wicks through FOMC in what could be a complex pullback. Would likely try some BTC calls *if* we start seeing strength https://t.co/7KLVwYyQ04
 
-Context: Reference to @leveraged_cat trader post + market reaction
-
-@Wild_Randomness: "Historically, the market can sustain about 10 minutes of listening to him before FSI™ing"
-
-Image unavailable (CDN 0-byte).
-
-Unable to classify — what's your read?
+[View tweet](https://x.com/Wild_Randomness/status/2100237430599438731)
