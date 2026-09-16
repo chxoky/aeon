@@ -1,0 +1,58 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "🔍 Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "context_section",
+        "quote_card",
+        "analysis_section"
+      ]
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_badge",
+        "context_text"
+      ]
+    },
+    "context_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro Context",
+        "variant": "outline"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Dense macro window (FOMC Sep 16, Clarity Act resolved Sep 16 04:23Z, rate-hike analysis Sep 16 04:09Z, BTC technical Sep 16 03:47Z).",
+        "variant": "body"
+      }
+    },
+    "quote_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "heartcanhodl",
+        "text": "But it only makes sense when it happens. Sigh"
+      }
+    },
+    "analysis_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Interpretation Question",
+        "message": "Cryptic incomplete referential, resigned/frustrated tone. Unable to classify — what's your read? (financial decision point? market sentiment? personal reflection?)",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -1,9 +1,9 @@
 🚨 *Trade Signal — [DC: HCH — Chat]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Now that we have both fear & de-risking before FOMC
-Execution complete. 
+Context: Dense macro window (FOMC Sep 16, Clarity Act resolved Sep 16 04:23Z, rate-hike analysis Sep 16 04:09Z, BTC technical Sep 16 03:47Z).
 
-## Summary
+heartcanhodl: "But it only makes sense when it happens. Sigh"
 
 **Discord Trader Monitor — Event Processed**
 
@@ -21,3 +21,4 @@ That re-test technically was 100% guaranteed considering the good news pump, gre
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 **Context:** Supporting channel conviction escalation from de-risked state (50% covered Sep 13, more Sep 14) back to MAX SHORT on crypto. Technical re-test pattern validates conviction. Same-day FOMC (Sep 16) macro catalyst.
+Cryptic incomplete referential, resigned/frustrated tone. Unable to classify — what's your read? (financial decision point? market sentiment? personal reflection?)
