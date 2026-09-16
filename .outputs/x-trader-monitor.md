@@ -1,4 +1,4 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @trading_axe*
 
 Honestly pretty hilarious how it has played out the same way:
 
@@ -15,3 +15,4 @@ Chart: QQQ 5m FOMC pattern reference (Jul 29 example)
 Is this a soft serve version of last FOMC where MSFT + AMZN ripped on earnings cloud beats?
 
 [View tweet](https://x.com/Wild_Randomness/status/2100341816415687034)
+Event: Market mania on CASHCAT

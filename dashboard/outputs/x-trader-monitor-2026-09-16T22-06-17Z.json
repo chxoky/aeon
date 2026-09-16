@@ -1,0 +1,47 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "calibration",
+        "event"
+      ]
+    },
+    "calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @trading_axe",
+        "variant": "muted"
+      }
+    },
+    "event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_content"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "caption"
+      }
+    },
+    "event_content": {
+      "type": "Text",
+      "props": {
+        "text": "Market mania on CASHCAT"
+      }
+    }
+  }
+}

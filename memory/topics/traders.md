@@ -91,6 +91,16 @@
   - Sep 15 15:15Z — informational-macro-technical: expanded BTC analysis with personal positioning detail; pullback wick + volume gap + liquidation heat map structure (4H Binance chart); risk management fear (headline whips both directions); trading comp long (play money), personal sitting out for post-FOMC flush entry; macro conviction: clarity/FOMC week = last flush then market goes higher [$BTC/$MACRO] [2099879876094296509]
   - Sep 15 15:02Z — informational-macro-technical: BTC pullback wick + volume gap technical analysis; liquidation risk + headline risk assessment (FOMC clarity catalyst); macro conviction on post-flush recovery; personal positioning (trading comp long, personal sitting out); chart shows 4H BTC consolidation with liquidation heat map at multiple levels [$BTC/$MACRO] [2099876548144681230]
 
+## trading_axe
+
+- Platforms: X (Twitter)
+- Current open positions: DOPAMEME $830K (Aug 24, +3850% unrealized); others unknown
+- Recent thesis: Macro market observer, onchain narrative focus, CASHCAT conviction macro analysis (Aug 08-21), LIT bullish catalyst thesis (Aug 20). Market psychology on mania/sequel chasing vs original opportunity (Sep 16).
+- Conviction notes: Positioned macro observer; track market psychology + narrative structure. Known to reference BONK parallel thesis on meme-token reflexivity dynamics.
+- Last seen: 2026-09-16T21:57:59Z
+- **Events (rolling):**
+  - Sep 16 21:57Z — ambiguous-cryptic: market philosophy on CASHCAT sequels vs originals; "buy the CASHCAT of …CASHCAT?" philosophy critique on chasing Arc/RH replays while original winner distracted; intent unclear (bullish conviction? market psychology observation? broader market structure critique on distraction cost); referents Arc/RH unconfirmed; HR-2 calibration sent [$CASHCAT/$ARC/$RH/$DOW] [2100343467004100733]
+
 ## Wild_Randomness
 
 - Platforms: X (Twitter)
