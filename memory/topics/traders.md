@@ -432,8 +432,9 @@
 - Recent thesis: Net-short since Aug 07 ("full mega retrace" thesis). Fake-bottom thesis: real bottom October. Sep 13 covered 50% crypto shorts; 76K last defense before 74K POI. ZEC short: 1235/1295 entries (2% total), scale-in confirmed Sep 09. CL short rebalanced to 1x Sep 11; 1/3rd re-added Sep 13. Tactical long accumulation (gold + micro alt spots) within net-short regime.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (NOT execution). Scaled entries NOT all-in. Partial TPs do not end regime. NEAR 15m monitoring Sep 11-12. AMD technical level watching.
 - Calibration: PENDING Sep 13 10:51Z ("To them and to others we entered 1% yesterday" — which Sep 12 entry?), PENDING Sep 11 16:02Z ("SL $98.00" — asset unclear), PENDING Sep 11 14:03Z ("6% sl" — ticker unknown), PENDING Sep 11 07:31Z ("small near long leg here?" — NEAR token or pattern?), PENDING Sep 11 05:42Z (Fc clusdt 5m — force-close or false-close?), PENDING Sep 09 15:08Z ("That looks ugly.."), PENDING Sep 07 09:13Z ("Will give rough invalidation if it gets filled" — ticker unknown), PENDING Sep 07 11:57Z (domain purchase / yellow ticker / 2M coin context).
-- Last seen: 2026-09-16T09:56:21.838000+00:00
+- Last seen: 2026-09-16T17:56:08Z
 - **Events (rolling):**
+  - Sep 16 17:56Z — ambiguous-cryptic: "Looking to cover the remaining 25% short exposure on any small dip here" (X); conditional short-cover intention; unclear which asset(s) or if active position vs strategic planning; cryptic "remaining 25%" reference; HR-2 calibration sent [$UNKNOWN] [2100282600602673403]
   - Sep 16 09:56Z — informational-sentiment: "value ^" affirming options narrative pickup interest and early-buyer value bids; supporting channel (Chat 1023638573313966212) reply to own prior message; conviction reinforcement on options sentiment shift; no personal action [$MACRO/$OPTIONS] [1549720593212121099]
 - Last seen: 2026-09-16T09:56:01.267Z
 - **Events (rolling):**

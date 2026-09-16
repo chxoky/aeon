@@ -1,17 +1,9 @@
-## Summary
+🔍 *Calibration — @HeartCanHodl*
 
-**Event processed: @t_in_crypto tweet (2100278801926160892)**
+Event: Conditional short-cover intention
 
-**Classification:** Step 4A — Non-financial personal banter
+@HeartCanHodl: "Looking to cover the remaining 25% short exposure on any small dip here"
 
-**Details:**
-- **Tweet:** "@0x_Tokenomics How did you roast me, lol? Get a grip. You keep telling me about your setups—dude, I'm not interested."
-- **Time:** Sep 16 17:41:02 +0000 2026
-- **Assessment:** Personal reply dismissing another trader's commentary. Zero financial signal (no tickers, positions, or market conviction). Pure platform banter.
+Unable to classify — is this an active short position you're managing (trade signal to mirror), or strategic positioning commentary? Statement is conditional ("on any small dip") with no specific asset/execution level.
 
-**Actions taken:**
-1. ✓ Tweet ID added to `memory/x-trader-seen.txt` (dedup prevention)
-2. ✓ Event logged to `memory/logs/2026-09-16.md` (no traders.md entry per protocol for skips)
-3. ✓ No alert sent (per Step 4A: "Skip entirely. Do not store, do not alert")
-
-**Result:** Silent skip. No Kyle notification required.
+https://x.com/HeartCanHodl/status/2100282600602673403
