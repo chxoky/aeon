@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — [DC: HCH — Trades]",
+        "description": "Message on primary Trades channel (1279738718680256553)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "user_section",
+        "separator1",
+        "message_section",
+        "separator2",
+        "metadata_section",
+        "separator3",
+        "calibration_section"
+      ]
+    },
+    "user_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "user_label",
+        "user_badge"
+      ]
+    },
+    "user_label": {
+      "type": "Text",
+      "props": {
+        "text": "User:",
+        "variant": "body"
+      }
+    },
+    "user_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "default"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_content"
+      ]
+    },
+    "message_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"They are Spot/long plays\"",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metadata_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_id_text",
+        "timestamp_text",
+        "context_text"
+      ]
+    },
+    "message_id_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1549651395400171611",
+        "variant": "caption"
+      }
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp: 2026-09-16T05:21:23.794Z",
+        "variant": "caption"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Context: No reply, no attachments, standalone message",
+        "variant": "caption"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "calibration_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Calibration Needed",
+        "message": "Message references \"They\" but no prior context visible. Unable to classify — what's your read?",
+        "type": "info"
+      }
+    }
+  }
+}

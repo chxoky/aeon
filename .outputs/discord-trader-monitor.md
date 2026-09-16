@@ -61,3 +61,13 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the Hea
 
 The skill completed successfully with no Telegram duplication per fast-path protocol.
 **Status:** Fast-path Telegram already sent by Cloudflare Worker. Skill tracks ambiguity in memory for Kyle's interpretation. Awaiting confirmation on whether "link" = Chainlink for active position tracking.
+🔍 *Calibration — [DC: HCH — Trades]*
+
+Event: Message on primary Trades channel (1279738718680256553)
+HeartCanHodl: "They are Spot/long plays"
+
+Message references "They" but no prior context visible. Unable to classify — what's your read?
+
+Message ID: 1549651395400171611
+Timestamp: 2026-09-16T05:21:23.794Z
+Context: No reply, no attachments, standalone message
