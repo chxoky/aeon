@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Discord discussion snapshot"
+      },
+      "children": [
+        "header",
+        "separator1",
+        "discussion",
+        "separator2",
+        "image_note"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 [DC: HCH — Comments]",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "discussion": {
+      "type": "Text",
+      "props": {
+        "text": "What do we all think about this? Now that clarity with 20% odds didn't pass",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "image_note": {
+      "type": "Alert",
+      "props": {
+        "title": "Attachment",
+        "message": "Macro chart context, not fetched",
+        "type": "info"
+      }
+    }
+  }
+}
