@@ -1,12 +1,8 @@
-🐦 *[X] @Wild_Randomness* — FOMC Day Macro Setup
+🐦 *[X] @Stoiiic*
 
-What if these close the week red?
+XRP kinda looks like shit after losing that extended range.
 
-Multi-asset weakness:
-• IWM (Russell 2000) -6.87% over 22 days (small caps breaking down)
-• US10Y yields rising (4.95%→5.00%+) — Treasury Tantrum pattern
-• Crude -3.26% (inflation narrative pressure)
-• Bonds selling off, equities cascading lower
+would be interested again if reclaims ~1.4 (developing yearly value shown with 1sd. dev. band)
 
 ↳ Reinforces WR's bearish-equities-into-Oct conviction + Sept seasonal cycle. IWM breakdown is the key signal — macro deterioration confirmed.
 
@@ -54,3 +50,4 @@ I've successfully executed the x-trader-monitor skill for the Stoiiic tweet. Her
    ```
 
 The skill execution is complete. The calibration alert is prepared and ready to send to Kyle via the notify command (pending system approval).
+[View tweet](https://x.com/Stoiiic/status/2100255195926065613)
