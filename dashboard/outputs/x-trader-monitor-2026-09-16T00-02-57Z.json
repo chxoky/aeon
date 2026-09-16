@@ -1,0 +1,61 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market analysis and technical indicators"
+      },
+      "children": [
+        "tweet-card",
+        "separator",
+        "analysis-stack"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The last time we hit these levels into a hiking cycle? Dead center of the chart…March 2022\n\nThe rebound came on Powell's first hike\n\n(Obviously a much bigger drawdown into the event back in 2022)"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-text",
+        "view-link"
+      ]
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces September bearish sentiment (equities weakness into Oct FOMC). Charts show Titanic Syndrome + Hindenburg Omen technical deterioration. Historical parallel: March 2022 rebound on rate-hike surprise.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100011375355662808"
+      },
+      "children": []
+    }
+  }
+}
