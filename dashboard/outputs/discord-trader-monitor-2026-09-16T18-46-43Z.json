@@ -1,0 +1,120 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — DC: HCH — Chat"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-intro",
+        "sep1",
+        "text-context-label",
+        "text-context-value",
+        "sep2",
+        "text-command-label",
+        "stack-command",
+        "sep3",
+        "alert-issue"
+      ]
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-context-value": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel real-time market observation"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-command-label": {
+      "type": "Text",
+      "props": {
+        "text": "Command",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack-command": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-user",
+        "text-command"
+      ]
+    },
+    "badge-user": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH"
+      },
+      "children": []
+    },
+    "text-command": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 1m"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-issue": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "Is this a chart observation vs. a position signal? (Documented pattern: \"Fc X\" = false-close check, but supporting-channel context needs clarification.)",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

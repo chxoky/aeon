@@ -48,3 +48,10 @@ Perfect! I've successfully completed the Discord trader monitor skill execution 
 
 All memory updated successfully. Kyle was notified via Cloudflare Worker's fast-path Telegram alert.
 Co-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Context: Supporting channel real-time market observation
+
+HCH: "Fc btc 1m"
+
+Unable to classify — is this a chart observation vs. a position signal? (Documented pattern: "Fc X" = false-close check, but supporting-channel context needs clarification.)
