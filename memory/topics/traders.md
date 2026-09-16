@@ -104,6 +104,9 @@
 - Last seen: 2026-09-16T21:53:46Z
 - **Events (rolling):**
   - Sep 16 21:53Z — informational-fomc-pattern: FOMC market cycle recurring pattern; QQQ grind-spike-FSH-fears-headline [$QQQ/$SEMIS/$MACRO] [2100342404650070394]
+- Last seen: 2026-09-16T21:51:26Z
+- **Events (rolling):**
+  - Sep 16 21:51Z — informational-sentiment-macro: Cloud stocks rally speculation (MSFT/AMZN post-FOMC parallels); visual meme post (N-chart, NVIDIA logo, reaction) [$MSFT/$AMZN/$MACRO/$FOMC] [2100341816415687034]
   - Sep 16 20:57Z — ambiguous-cryptic: "it's gotta be soon r or we have a date with the 200 / Need the macro parlay to hit"; cryptic urgency on macro parlay setup referenced Sep 15 16:37Z pending item (10x trade, rate-hike bounce thesis, ticker unconfirmed); unclear if "200" = 200-day MA, $200 level, or 20K level; HR-2 calibration sent [$MACRO/$UNKNOWN] [2100328237331325413]
   - Sep 16 20:41Z — informational-macro-geopolitical-sentiment: Geopolitical macro thesis on Iran/US/Trump/China dynamics; crude oil repricing (CLH2027 +10.4% vs XLE energy ETF +2.5% divergence); conviction that "charts read the news first"; macro LARP thoughts: Iran economy rinsed, US pain points, Trump admin mid-term posturing, China oil leverage for Xi deal-making; technical chart validates crude repricing geopolitical risk; aligns bearish-equities/commodity-momentum thesis [$MACRO/$GEOPOLITICAL/$OIL] [2100324252692144610]
   - Sep 16 20:26Z — informational-macro-technical-geopolitical: Iran incursion reprices Fed Funds expectations; Dec 2027 10Y Treasury futures (100-ZQM2027) spike 2.9% (green arrow) → 4.62% (red arrow) = +162bp repricing; 3 labeled charts showing candlestick + 2 macro trend lines (3.0 support, 4.62 recent high); FOMC decision catalyst today (Sep 16); technical structure validation on bearish-equities/rate-shock thesis; aligns established bearish conviction [$UST/$MACRO/$FOMC/$IRAN-CATALYST] [2100320514652983435]

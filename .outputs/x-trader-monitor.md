@@ -12,3 +12,6 @@ Chart: QQQ 5m FOMC pattern reference (Jul 29 example)
 [View tweet](https://x.com/Wild_Randomness/status/2100342404650070394)
 
 ↳ *Pattern match:* Validates Wild_Randomness's bearish-equities-into-Oct thesis + FOMC catalyst framework.
+Is this a soft serve version of last FOMC where MSFT + AMZN ripped on earnings cloud beats?
+
+[View tweet](https://x.com/Wild_Randomness/status/2100341816415687034)
