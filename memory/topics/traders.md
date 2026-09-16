@@ -388,8 +388,9 @@
 - Recent thesis: Net-short since Aug 07 ("full mega retrace" thesis). Fake-bottom thesis: real bottom October. Sep 13 covered 50% crypto shorts; 76K last defense before 74K POI. ZEC short: 1235/1295 entries (2% total), scale-in confirmed Sep 09. CL short rebalanced to 1x Sep 11; 1/3rd re-added Sep 13. Tactical long accumulation (gold + micro alt spots) within net-short regime.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (NOT execution). Scaled entries NOT all-in. Partial TPs do not end regime. NEAR 15m monitoring Sep 11-12. AMD technical level watching.
 - Calibration: PENDING Sep 13 10:51Z ("To them and to others we entered 1% yesterday" — which Sep 12 entry?), PENDING Sep 11 16:02Z ("SL $98.00" — asset unclear), PENDING Sep 11 14:03Z ("6% sl" — ticker unknown), PENDING Sep 11 07:31Z ("small near long leg here?" — NEAR token or pattern?), PENDING Sep 11 05:42Z (Fc clusdt 5m — force-close or false-close?), PENDING Sep 09 15:08Z ("That looks ugly.."), PENDING Sep 07 09:13Z ("Will give rough invalidation if it gets filled" — ticker unknown), PENDING Sep 07 11:57Z (domain purchase / yellow ticker / 2M coin context).
-- Last seen: 2026-09-15T18:03:08.007000+00:00
+- Last seen: 2026-09-16T03:47:54.588000+00:00
 - **Events (rolling):**
+  - Sep 16 03:47Z — informational-technical: X post share + technical commentary; "reclaim of that zone would be quite bullish and risk on"; technical level observation on BTC price action structure (Free primary channel); fast-path alerted by Cloudflare Worker [$BTC] [1549627868684746853]
   - Sep 15 18:03Z — informational-technical: image-only chart/analysis post (Comments primary); technical screenshot analysis; aligns with "Fc" false-close check pattern [$BTC/?] [1549480704897974302]
   - Sep 15 17:43Z — ambiguous-cryptic: "Fc btc 1m" (Chat supporting); false-close check on 1m BTC with reference to external X post (tradfi analysis); fast-path alerted by Cloudflare Worker; no duplicate Telegram alert [$BTC] [1549475650115604552]
   - Sep 15 14:34Z — ambiguous-cryptic: "Fc zro 15m" (Trades ★, Discord, reply to own "Short 1% zro"); false-close chart check on 15m ZRO (per conviction notes "Fc X" = false-close chart check, NOT execution); continuation of Sep 14 16:59Z short entry; pattern confirms short still open, 15m wick not break; HR-2 calibration sent (fast-path alerted: true, Cloudflare Worker sent Telegram ~2-5s post; no duplicate alert required) [$ZRO] [1549428147878100993]
@@ -441,6 +442,7 @@
   - Sep 15 03:04Z — ambiguous-cryptic: SNDK 1h chart critical support $1560; "Last hope here 👀" — intent unclear (short opportunity? observational?); HR-2 calibration sent [$SNDK] [2099695912562086347]
   - Sep 16 03:45Z — informational-sentiment: "What do we all think about this? Now that clarity with 20% odds didn't pass" (Comments primary, Discord); Clarity Act failure community sentiment inquiry; regulatory decision catalyst commentary; image attachment context unclear; macro context on failed regulatory vote [$MACRO/$CLARITY-ACT] [1549627233663062087]
   - Sep 16 03:32Z — informational-technical: "Fc btc 15m" (Comments primary, Discord); false-close chart check on 15m BTC; reply to own Sep 15 18:03Z image post; structure verification below resistance; no execution signal [$BTC] [1549623914018377830]
+  - Sep 16 03:47Z — informational-technical: X post share + technical commentary; "reclaim of that zone would be quite bullish and risk on"; technical level observation on BTC price action structure (Free primary channel); fast-path alerted by Cloudflare Worker [$BTC] [1549627868684746853]
 
 ## Stoiiic
 
