@@ -22,3 +22,10 @@ That re-test technically was 100% guaranteed considering the good news pump, gre
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 **Context:** Supporting channel conviction escalation from de-risked state (50% covered Sep 13, more Sep 14) back to MAX SHORT on crypto. Technical re-test pattern validates conviction. Same-day FOMC (Sep 16) macro catalyst.
 Cryptic incomplete referential, resigned/frustrated tone. Unable to classify — what's your read? (financial decision point? market sentiment? personal reflection?)
+💬 *[DC: HCH — Chat]*
+
+Aggressive pumps off a single piece of information (could be challengeable to too) give you very little time to process the move, which is why they're often better played with a normie mindset rather than overthinking every layer
+
+If we can learn to switch, in that instant, from second-level thinking back to first-level thinking, playing PVE becomes much easier
+
+Ema trend chasing on fundamental/narrative plays

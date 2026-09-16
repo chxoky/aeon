@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "header_badge",
+        "separator1",
+        "content_stack"
+      ]
+    },
+    "header_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text1",
+        "text2",
+        "text3"
+      ]
+    },
+    "text1": {
+      "type": "Text",
+      "props": {
+        "text": "Aggressive pumps off a single piece of information (could be challengeable to too) give you very little time to process the move, which is why they're often better played with a normie mindset rather than overthinking every layer",
+        "variant": "body"
+      }
+    },
+    "text2": {
+      "type": "Text",
+      "props": {
+        "text": "If we can learn to switch, in that instant, from second-level thinking back to first-level thinking, playing PVE becomes much easier",
+        "variant": "body"
+      }
+    },
+    "text3": {
+      "type": "Text",
+      "props": {
+        "text": "Ema trend chasing on fundamental/narrative plays",
+        "variant": "body"
+      }
+    }
+  }
+}
