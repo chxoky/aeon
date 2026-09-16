@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "The point I'm trying to make if it isn't clear is that take a month ago was just flat-out misguided, partially due to the Iran war ofc…\n\nToday's setup is quite a bit more hawkish, and the irony is you don't see any discussion of peak"
+      }
+    }
+  }
+}
