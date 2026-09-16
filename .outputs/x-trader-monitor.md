@@ -15,3 +15,12 @@
 - ✓ No event line added to `traders.md` (size-discipline rule: skip events omit entry)
 
 **Result:** No notification sent. Event properly filed as non-market signal.
+🔍 *Calibration — @bull_genius*
+
+Event: Reply to @BlueBadger2600
+
+bull_genius: "yes"
+
+Unable to classify — what's your read? (One-word affirmation, no external context visible. Trade conviction affirmation? Market sentiment agreement? Personal banter?)
+
+https://x.com/bull_genius/status/21000432271977840955
