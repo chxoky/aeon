@@ -1,8 +1,15 @@
-All done. No alerts fired — all three tokens moved less than their thresholds over the past 24h (BTC +1.22% vs 5%, ETH +0.93% vs 8%, SOL +1.38% vs 10%). Current prices logged to `memory/logs/2026-09-14.md` for tomorrow's comparison.
+Done. Here's the summary:
 
 ## Summary
 
-- Fetched live prices from CoinGecko for BTC, ETH, SOL
-- Compared against Sep 13 baseline and 24h API change — all within thresholds
-- No notifications sent
-- Appended `TOKEN_ALERT_OK` entry with current prices and volumes to `memory/logs/2026-09-14.md`
+**token-alert — 2026-09-16**
+
+Fetched live prices for all 3 tracked tokens from CoinGecko. No alert thresholds breached:
+
+| Token | Price | 24h Change | Threshold |
+|-------|-------|-----------|-----------|
+| BTC | $76,180 | -0.90% | 5% |
+| ETH | $2,418.91 | -2.34% | 8% |
+| SOL | $97.91 | -2.92% | 10% |
+
+**TOKEN_ALERT_OK** — no notifications sent. Prices logged to `memory/logs/2026-09-16.md` for future comparison.
