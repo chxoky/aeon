@@ -633,8 +633,9 @@
 - Recent thesis: Price-time combination analysis; currently short, waiting for right moment to flip long but conviction it's still too early
 - Conviction notes: First sighting. Price-time trader. Awaiting Kyle calibration on what asset/signal this represents.
 - Calibration: PENDING Sep 15 10:58Z (short at 79.297, plan to flip long, asset unclear; HR-2 calibration sent)
-- Last seen: 2026-09-15T10:58:58Z
+- Last seen: 2026-09-16T13:08:50Z
 - **Events (rolling):**
+  - Sep 16 13:08Z — informational: BTC consolidation and lows testing dragging on longer than expected; market sentiment [$BTC] [2100210300867735998]
   - Sep 15 10:58Z — calibration-required: holding short 79.297, waiting to flip long, conviction "still too early" [$UNKNOWN] [2099815230473740381]
 
 ## abetrade
