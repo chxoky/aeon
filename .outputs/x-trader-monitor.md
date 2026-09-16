@@ -1,7 +1,8 @@
-🐦 [X] @bull_genius
+🔍 *Calibration — @Wild_Randomness*
 
-Fed rate hike expected at 89% probability (market consensus ahead of today's FOMC decision). Trader views as "short bait" setup with extreme whipsaw risk both directions — expects general market liquidation cascade on either outcome.
+Event: Reply to @bholu_eth
+@Wild_Randomness: "@bholu_eth ofc"
 
-Personal stance: Sitting idle in spot, not trading. Conservative positioning pre-FOMC given headline volatility risk.
+Unable to classify — what's your read?
 
-[View tweet](https://x.com/bull_geniUs/status/2100226708863430795)
+[View post](https://x.com/Wild_Randomness/status/2100228486929777123)

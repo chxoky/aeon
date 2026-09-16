@@ -1,0 +1,65 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header-stack",
+        "tweet",
+        "classification-note",
+        "post-link"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "calibration-badge",
+        "event-text"
+      ]
+    },
+    "calibration-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration",
+        "variant": "secondary"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @bholu_eth",
+        "variant": "muted"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@bholu_eth ofc"
+      }
+    },
+    "classification-note": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "body"
+      }
+    },
+    "post-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100228486929777123"
+      }
+    }
+  }
+}
