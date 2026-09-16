@@ -1,0 +1,84 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis_section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "No confidence but I'm watching for clues…\n\nAs cringe as it sounds, the news will always be in the charts before we read it on the sqwuaks\n\nMacro thoughts: (1) Iran economy is getting rinsed, (2) US hitting pain points, (3) Trump Admin signalling war past mid-terms, (4) Trump meets XI in 8 days (China oil buying = leverage for deal-making)\n\nhttps://x.com/Wild_Randomness/status/2100324252692144610"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_heading",
+        "chart_insight",
+        "performance_stats"
+      ]
+    },
+    "chart_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h3"
+      }
+    },
+    "chart_insight": {
+      "type": "Text",
+      "props": {
+        "text": "Geopolitical risk repricing in commodities faster than equities.",
+        "variant": "body"
+      }
+    },
+    "performance_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "crude_oil_stat",
+        "energy_etf_stat"
+      ]
+    },
+    "crude_oil_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Crude Oil (CLH2027)",
+        "value": "+10.4%",
+        "trend": "up"
+      }
+    },
+    "energy_etf_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Energy ETF (XLE)",
+        "value": "+2.5%",
+        "trend": "up"
+      }
+    }
+  }
+}

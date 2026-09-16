@@ -1,13 +1,1 @@
-🐦 *[X] @Wild_Randomness*
-
-Green Arrow: 2.9% Fed Funds Rate priced for mid 2027….
-
-Then Iran Incursion began…
-
-Red Arrow: 4.62% Fed Funds Rate priced for mid 2027…
-
-TLDR Iran is the key.
-
-https://x.com/Wild_Randomness/status/2100320514652983435
-
-_Charts show Dec 2027 10-year Treasury futures repricing +162bp from 2.9% to 4.62% as market reprices Fed rate expectations in response to Iran geopolitical escalation. FOMC decision today is critical inflection point. Aligns with bearish-equities / rate-shock macro thesis._
+🐦 [X] @Wild_Randomness\n\nNo confidence but I'm watching for clues…\n\nAs cringe as it sounds, the news will always be in the charts before we read it on the sqwuaks\n\nMacro thoughts: (1) Iran economy is getting rinsed, (2) US hitting pain points, (3) Trump Admin signalling war past mid-terms, (4) Trump meets XI in 8 days (China oil buying = leverage for deal-making)\n\nhttps://x.com/Wild_Randomness/status/2100324252692144610\n\n↳ Chart shows crude oil (CLH2027) +10.4% vs energy ETF (XLE) +2.5% — geopolitical risk repricing in commodities faster than equities.
