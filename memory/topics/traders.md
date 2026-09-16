@@ -7,6 +7,10 @@
 - Last seen: 2026-09-16T19:11:01Z
 - **Events (rolling):**
   - Sep 16 19:11Z — trade-contingent-risk-management: GOLD position decision point—needs constructive price action or will cut remaining half; position threshold set [$GOLD] [1549860178696872069]
+- Conviction notes: Gold long conviction expressed Sep 16 18:24Z in supporting channel; patient on macro timing. ES conviction at 19:11Z (do-or-die level assessment in TradFi channel).
+- Last seen: 2026-09-16T19:11:36Z
+- **Events (rolling):**
+  - Sep 16 19:11Z — informational-conviction-sentiment: "Pretty do-or-die, I'd say here"; Discord reply to member's ES question (optiontrader5325 asking "wonder <ID> you still think this is a bid? on ES"); conviction expression on current ES price level with chart context; supporting channel (Chase — TradFi); macro/TradFi conviction update; no new execution signal [$ES/$MACRO] [1549860326537822370]
   - Sep 16 18:24Z — informational-conviction-sentiment: "But idk. Warsh is too new. I'm just going to sit out, I'm content with the gold long still open."; supporting channel (Chase — Crypto) conviction expression on holding gold long amid Fed uncertainty (Warsh); no new trade action; sentiment/positioning update [$GOLD/$MACRO] [1549848378152583200]
   - Sep 16 14:25Z — informational-administrative: "all recents sent out"; position/trade summary announcement with chart image to channel members; administrative notification, no new execution signal [$SUMMARY] [1549788447013863534]
 
