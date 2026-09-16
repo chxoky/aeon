@@ -3,9 +3,10 @@
 - Platforms: Discord (primary: 1336082716063694962 "Chase — Chase"; supporting: 1343971265962049597 "Chase — TradFi", 1247927786681794601 "Chase — Crypto")
 - Current open positions: GOLD long (conviction held), BTC DCA (partial fill Sep 15)
 - Recent thesis: Cautious on Fed uncertainty (Warsh); sitting out on new entries pending clarity
-- Conviction notes: Gold long conviction expressed Sep 16 18:24Z in supporting channel; patient on macro timing
-- Last seen: 2026-09-16T18:24:08Z
+- Conviction notes: Gold long conviction expressed Sep 16 18:24Z in supporting channel; position at decision threshold as of 19:11Z (constructive PA needed or cut remaining)
+- Last seen: 2026-09-16T19:11:01Z
 - **Events (rolling):**
+  - Sep 16 19:11Z — trade-contingent-risk-management: GOLD position decision point—needs constructive price action or will cut remaining half; position threshold set [$GOLD] [1549860178696872069]
   - Sep 16 18:24Z — informational-conviction-sentiment: "But idk. Warsh is too new. I'm just going to sit out, I'm content with the gold long still open."; supporting channel (Chase — Crypto) conviction expression on holding gold long amid Fed uncertainty (Warsh); no new trade action; sentiment/positioning update [$GOLD/$MACRO] [1549848378152583200]
   - Sep 16 14:25Z — informational-administrative: "all recents sent out"; position/trade summary announcement with chart image to channel members; administrative notification, no new execution signal [$SUMMARY] [1549788447013863534]
 
