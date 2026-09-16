@@ -1,0 +1,123 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event_info",
+        "sep1",
+        "post_section",
+        "sep2",
+        "ambig_section",
+        "sep3",
+        "media_alert",
+        "sep4",
+        "calibration_prompt"
+      ]
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Sep 16 16:34:06 UTC (FOMC decision context)",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "post_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "post_label",
+        "post_text"
+      ]
+    },
+    "post_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Post",
+        "level": "h4"
+      }
+    },
+    "post_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"ngl ofc I want to see these get blown out but this morning has went exactly how I didn't want it to go lol\n\nlow vol rally + heavy put flow\n\nNot ideal\"",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "ambig_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ambig_label",
+        "ambig_1",
+        "ambig_2",
+        "ambig_3"
+      ]
+    },
+    "ambig_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Ambiguities",
+        "level": "h4"
+      }
+    },
+    "ambig_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. \"these get blown out\" — unclear what asset/position"
+      }
+    },
+    "ambig_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. \"exactly how I didn't want\" — what expectation vs reality?"
+      }
+    },
+    "ambig_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. \"low vol rally + heavy put flow\" — personal position impact?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "media_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Media image unavailable (0-byte fetch)"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "calibration_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Reversed directional trade? Options conflict? Sector-specific? Please calibrate.",
+        "variant": "lead"
+      }
+    }
+  }
+}
