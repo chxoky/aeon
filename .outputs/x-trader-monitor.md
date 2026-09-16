@@ -20,3 +20,10 @@ The trader reaffirms holding an existing BTC SHORT position (documented Sep 16 0
 - ✅ No alert sent (low-signal post-FOMC sentiment, no actionable signal)
 
 **Result:** Silent memory log only. No Kyle notification required (supporting sentiment on established conviction, post-FOMC decision context).
+🔍 *Calibration — @Crypto_Chase*
+
+Event: FOMC Sep 16 hike decision (86.5% priced) + CLARITY Act cloture vote failing (13.5% odds); macro risk-off regime (BTC -3.19%, breadth 2/20).
+
+Crypto_Chase: "Iran deal by morning or it's LIGHTS OUT."
+
+Unable to classify — what's your read? (geopolitical catalyst → oil/macro volatility? market risk event?)
