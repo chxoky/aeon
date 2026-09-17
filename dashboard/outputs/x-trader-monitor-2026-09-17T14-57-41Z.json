@@ -1,0 +1,79 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "type-badge",
+        "separator",
+        "content"
+      ]
+    },
+    "type-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "informational-technical",
+        "variant": "secondary"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-row",
+        "alert-box"
+      ]
+    },
+    "header-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mention",
+        "badge-trx",
+        "badge-4h"
+      ]
+    },
+    "mention": {
+      "type": "Text",
+      "props": {
+        "text": "@swarmister",
+        "variant": "lead"
+      }
+    },
+    "badge-trx": {
+      "type": "Badge",
+      "props": {
+        "text": "TRX"
+      }
+    },
+    "badge-4h": {
+      "type": "Badge",
+      "props": {
+        "text": "4H"
+      }
+    },
+    "alert-box": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Scalping opportunity after HTF support test; upward order flow forming into consolidation correction setup"
+      }
+    }
+  }
+}
