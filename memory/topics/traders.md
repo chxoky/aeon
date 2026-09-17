@@ -646,6 +646,7 @@
 - Last seen: 2026-09-16T12:23:57.537000+00:00
 - **Events (rolling):**
   - Sep 16 12:23Z — ambiguous-cryptic: "Fc litusdt 5m" (Chat supporting 1023638573313966212); cryptic shorthand pattern identical to prior Sep 16 09:56Z "Fc zec 5m"; "Fc" likely false-close or futures-contract check on LIT/USDT 5m chart; LIT active short conviction (prior statements); unable to definitively classify execution intent vs observation; supporting channel + no referenced_message = ambiguity; fast-path alerted by Cloudflare Worker ~2-5s post; no duplicate Telegram alert per protocol; HR-2 calibration pending [$LIT] [1549757736705728623]
+  - Sep 17 19:05Z — ambiguous-cryptic: "Fc gold 15m" (Chat supporting 1023638573313966212); cryptic shorthand pattern continuation (8th "Fc" variant since Sep 14); "Fc" likely false-close chart pattern observation on GOLD 15-minute timeframe; context: HCH active 55% GOLD long position (Sep 12 conviction add to prior 50% holding); supporting channel real-time chart observation; no execution language ("adding", "closed", "adjusted") detected; unable to definitively interpret (technical chart check? breakout signal? structural validation?); fast-path alerted by Cloudflare Worker ~2-5s post (Telegram suppressed per protocol); HR-2 calibration needed on intent (observation vs execution intent vs specific support/resistance validation) [$GOLD] [1550221239711309917]
 
 ## Stoiiic
 
