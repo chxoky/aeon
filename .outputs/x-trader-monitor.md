@@ -1,17 +1,9 @@
+🔍 *Calibration — @Stoiiic*
 
-🐦 *[X] @HeartCanHodl*
+Event: ~1h 40min after geopolitical macro commentary (Iran tension → oil $120 target)
 
-They were waiting for me https://x.com/HeartCanHodl/status/2100658432273797411
+Stoiiic: "yeah expecting some cooldown here now"
 
-↳ _Celebrating execution: Sep 16 planned short cover (25% final tranche) hit as intended. Trading discipline + tactical execution validation._
-🔍 *Calibration — @t_in_crypto*
+Unable to classify — what's your read?
 
-Event: BTC price action on Sep 17 18:51 UTC
-
-t_in_crypto: "Ma10 $btc"
-
-Unable to classify — what's your read? (MA10 technical level test? Pending short flip signal? Price-time entry signal?)
-
-Trader known for cryptic price-time analysis + Elliott Wave combo.
-
-[View post](https://x.com/t_in_crypto/status/2100658978141209054)
+[View post](https://x.com/Stoiiic/status/2100661473882124792)
