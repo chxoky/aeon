@@ -1,6 +1,5 @@
-🔴 HEARTBEAT SELF-CHECK (P0): last success 2026-09-15T21:42Z (41h ago, threshold 36h). Scheduler missed Sep 16 + Sep 17 08:00/14:00 UTC heartbeat runs — agent appears to be under-dispatching.
+🟡 WATCH
 
-🟡 STALE (P3): market-context-refresh last success 2026-09-15 (~48h on daily 13:00 UTC schedule)
-🟡 STALE (P3): narrative-tracker last success 2026-09-15 (~48h on daily 13:30 UTC schedule)
+🔵 STALE: morning-brief last succeeded 2026-09-06 (11 days ago). Daily skill — threshold is 48h. The morning-pipeline chain (token-movers → morning-brief) has not completed since Sep 6. Check GitHub Actions for the chain:morning-pipeline workflow for errors.
 
-(morning-pipeline/morning-brief 11d stale — dedup, flagged Sep 15)
+All other enabled skills healthy. X webhook WATCHED_TRADERS active (is_effect=1). No open PRs or urgent issues.

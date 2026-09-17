@@ -1,0 +1,102 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert-watch",
+        "separator-1",
+        "stack-stale",
+        "separator-2",
+        "stack-status"
+      ]
+    },
+    "alert-watch": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 WATCH",
+        "type": "warning"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack-stale": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-stale",
+        "text-morning-brief",
+        "text-chain",
+        "text-check-actions"
+      ]
+    },
+    "badge-stale": {
+      "type": "Badge",
+      "props": {
+        "text": "🔵 STALE",
+        "variant": "destructive"
+      }
+    },
+    "text-morning-brief": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief last succeeded 2026-09-06 (11 days ago). Daily skill — threshold is 48h."
+      }
+    },
+    "text-chain": {
+      "type": "Text",
+      "props": {
+        "text": "The morning-pipeline chain (token-movers → morning-brief) has not completed since Sep 6."
+      }
+    },
+    "text-check-actions": {
+      "type": "Text",
+      "props": {
+        "text": "Check GitHub Actions for the chain:morning-pipeline workflow for errors."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stack-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-healthy",
+        "text-webhook",
+        "text-prs"
+      ]
+    },
+    "text-healthy": {
+      "type": "Text",
+      "props": {
+        "text": "All other enabled skills healthy."
+      }
+    },
+    "text-webhook": {
+      "type": "Text",
+      "props": {
+        "text": "X webhook WATCHED_TRADERS active (is_effect=1)."
+      }
+    },
+    "text-prs": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs or urgent issues."
+      }
+    }
+  }
+}
