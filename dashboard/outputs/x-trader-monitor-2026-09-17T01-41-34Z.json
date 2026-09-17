@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Post from @Wild_Randomness on X (Twitter)"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "analysis_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Hiking cycle historical precedent — 2022 post-Fed-hike dynamics\n\nJan-Apr 2022: After first Fed rate hike, SPY rallied +11% in a straight line (~2 weeks), then declined -13%. Posting sardonic comparison with today's setup: \"Then we simply die\" + \"This was when they allowed indexes to move.\""
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "sentiment_text",
+        "tweet_link"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Sentiment",
+        "level": "h3"
+      }
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates bearish-equities-into-Oct thesis."
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100398750191784305"
+      }
+    }
+  }
+}
