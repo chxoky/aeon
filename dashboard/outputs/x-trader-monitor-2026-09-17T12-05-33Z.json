@@ -1,0 +1,87 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-type",
+        "heading-title",
+        "tweet-card",
+        "text-charts",
+        "text-education",
+        "separator-1",
+        "text-disclaimer",
+        "story-tweet"
+      ]
+    },
+    "badge-type": {
+      "type": "Badge",
+      "props": {
+        "text": "Informational",
+        "variant": "default"
+      }
+    },
+    "heading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Sweep Entry Philosophy",
+        "level": "h2"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "I always look to capitalize on $BTC sweeps. That's usually when everyone starts overthinking and overcomplicating everything... I simply enter based on context and trend."
+      }
+    },
+    "text-charts": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show historical sweep patterns (marked breakdowns → expansion moves) validating his sweep-identification methodology."
+      }
+    },
+    "text-education": {
+      "type": "Text",
+      "props": {
+        "text": "Educational content showing his market structure framework for tactical entries."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "No personal trade action announced.",
+        "variant": "muted"
+      }
+    },
+    "story-tweet": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2100555926079987973",
+        "source": "X"
+      }
+    }
+  }
+}
