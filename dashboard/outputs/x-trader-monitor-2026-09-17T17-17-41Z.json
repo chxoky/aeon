@@ -1,0 +1,122 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Wild_Randomness"
+      },
+      "children": [
+        "event-meta",
+        "sep1",
+        "tweet",
+        "sep2",
+        "media-alert",
+        "sep3",
+        "classification-section"
+      ]
+    },
+    "event-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Post at Sep 17 17:09:53 UTC, following earlier Warsh market window commentary",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "wild_randomness",
+        "text": "Keep working boys!\n\nNeed that sub 100 weekly close"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "media-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Media Attachment",
+        "message": "1 video thumbnail attached - content unreadable",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "classification-intro",
+        "options-stack",
+        "closing-question"
+      ]
+    },
+    "classification-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify without seeing the media context. Is this:",
+        "variant": "body"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option-a",
+        "option-b",
+        "option-c"
+      ]
+    },
+    "option-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Motivational sentiment about awaiting a market level (no new execution)?",
+        "variant": "body"
+      }
+    },
+    "option-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Setup signal with specific ticker that the attached media reveals?",
+        "variant": "body"
+      }
+    },
+    "option-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Reference to VIX / specific equity component / other asset?",
+        "variant": "body"
+      }
+    },
+    "closing-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "body"
+      }
+    }
+  }
+}
