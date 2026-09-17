@@ -1,0 +1,121 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration"
+      },
+      "children": [
+        "heading_calibration",
+        "text_event",
+        "sep_1",
+        "tweet_card",
+        "sep_2",
+        "alert_classify",
+        "stack_options",
+        "sep_3",
+        "link_tweet"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h3"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Sep 17 23:06 UTC standalone post",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Important reminder that it's much easier just to own both"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's the referent for 'own both'?",
+        "type": "info"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_a",
+        "option_b",
+        "option_c",
+        "option_d",
+        "option_e"
+      ]
+    },
+    "option_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) HYPE/LIT pair (existing 50:50 conviction)?",
+        "variant": "body"
+      }
+    },
+    "option_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) BTC/ETH dichotomy?",
+        "variant": "body"
+      }
+    },
+    "option_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Longs vs shorts comparison?",
+        "variant": "body"
+      }
+    },
+    "option_d": {
+      "type": "Text",
+      "props": {
+        "text": "(d) Market philosophy/approach?",
+        "variant": "body"
+      }
+    },
+    "option_e": {
+      "type": "Text",
+      "props": {
+        "text": "(e) Something else?",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2100723104897237494"
+      }
+    }
+  }
+}
