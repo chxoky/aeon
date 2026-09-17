@@ -1,0 +1,151 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_post",
+        "separator1",
+        "analysis_section",
+        "separator2",
+        "conviction_section"
+      ]
+    },
+    "tweet_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "BTC $100K rejection — reaffirms range thesis\n\nUnfortunately, I don't see $BTC reaching $100K this year. That target feels like a stretch.\n\nThe most logical & probable outcome is a range. The re-accumulation range.\n\nI may be bullish, but I'm not delusional. $100K only gets broken next year."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_heading",
+        "consolidation_zone",
+        "high_established",
+        "range_structure"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "consolidation_zone": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show 74-76K consolidation zone as most logical scenario",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "high_established": {
+      "type": "Text",
+      "props": {
+        "text": "82.8K established high",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "range_structure": {
+      "type": "Text",
+      "props": {
+        "text": "Range structure validates re-accumulation framework (aligns with accumulation→re-accumulation→expansion thesis)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "conviction_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conviction_heading",
+        "conviction_badge",
+        "conviction_detail",
+        "position_performance",
+        "breakout_note",
+        "view_link"
+      ]
+    },
+    "conviction_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "conviction_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Aug 28 Conviction Downgrade",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "conviction_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Reaffirms: 0% chance $100K this year → Q2 2027 target",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "position_performance": {
+      "type": "Stat",
+      "props": {
+        "label": "Structural Long Position",
+        "value": "+30%",
+        "delta": "2x from 62.6K entry"
+      },
+      "children": []
+    },
+    "breakout_note": {
+      "type": "Text",
+      "props": {
+        "text": "Near-term chop/consolidation expected before HTF breakout",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/KillaXBT/status/2100632420957540781"
+      },
+      "children": []
+    }
+  }
+}
