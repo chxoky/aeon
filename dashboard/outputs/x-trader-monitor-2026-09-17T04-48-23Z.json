@@ -1,0 +1,46 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "post_link",
+        "interpretation"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "If oil doesn't drop to $80 in the next month or two, equities are in for a long grind."
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "post_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100445156029940203"
+      }
+    },
+    "interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces established macro view on commodity bid supporting bearish-equities thesis; 10Y-2Y Treasury spread chart shows yield curve dynamics.",
+        "variant": "muted"
+      }
+    }
+  }
+}

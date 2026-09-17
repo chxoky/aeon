@@ -13,3 +13,10 @@ Chart: Yield curve spread (US10Y-US02Y) vs SPX comparison, hiking cycle technica
 How do you read this — is Wild_Randomness personally taking contrarian long, or sharing market setup?
 
 [View post](https://x.com/Wild_Randomness/status/2100444628621447560)
+🐦 [X] @Wild_Randomness
+
+If oil doesn't drop to $80 in the next month or two, equities are in for a long grind.
+
+[View post](https://x.com/Wild_Randomness/status/2100445156029940203)
+
+↳ _Reinforces established macro view on commodity bid supporting bearish-equities thesis; 10Y-2Y Treasury spread chart shows yield curve dynamics._
