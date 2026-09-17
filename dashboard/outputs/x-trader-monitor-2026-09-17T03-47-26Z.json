@@ -1,0 +1,107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — @trading_axe"
+      },
+      "children": [
+        "text_event",
+        "sep1",
+        "tweetcard_1",
+        "sep2",
+        "text_analysis_intro",
+        "stack_options",
+        "sep3",
+        "text_question",
+        "badge_id"
+      ]
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @latentliq about AI narrative focus on Robinhood",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweetcard_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "trading_axe",
+        "handle": "@trading_axe",
+        "text": "Been telling niggaz AI meta is next up for RH. ~ Dr. Axius. 💤"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_analysis_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify intent — sarcastic tone (💤 emoji) makes it ambiguous. Is this:",
+        "variant": "body"
+      }
+    },
+    "stack_options": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "option_1",
+        "option_2",
+        "option_3"
+      ]
+    },
+    "option_1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Bullish conviction on AI tokens coming to RH?"
+      }
+    },
+    "option_2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Sarcastic dismissal of AI hype narrative?"
+      }
+    },
+    "option_3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Market psychology observation on sequel chasing vs originals (aligns w/ Sep 16 CASHCAT commentary)?"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "badge_id": {
+      "type": "Badge",
+      "props": {
+        "text": "tweet_id: 2100430442897752116",
+        "variant": "outline"
+      }
+    }
+  }
+}
