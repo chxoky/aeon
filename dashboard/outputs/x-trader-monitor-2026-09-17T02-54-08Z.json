@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Stage 1 complete\n\nES 5m chart: first leg decline from 7,670→7,600 printed; recovery building structure forming.\n\nValidates Sep 16 multi-stage breakdown thesis on SPX/equities. Bearish-into-Oct framework reaffirmed; watching for Stage 2 continuation."
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100416946105946617"
+      },
+      "children": []
+    }
+  }
+}
