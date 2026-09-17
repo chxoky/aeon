@@ -1,0 +1,63 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "separator-1",
+        "heading-insight",
+        "text-insight"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "I'd just say if we trade down tomorrow into the guaranteed rate hike and we knee-jerk down, pay special attention for any strength from there— it may be our best long opportunity since…. the last FOMC…"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100574995957051822"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-insight": {
+      "type": "Heading",
+      "props": {
+        "text": "Macro Insight",
+        "level": "h3"
+      }
+    },
+    "text-insight": {
+      "type": "Text",
+      "props": {
+        "text": "Conditional bullish setup IF we see weakness continuation into rate-hike follow-through. Aligns with WR's bearish-equities-into-Oct framework (contrarian long opportunity on oversold ricochet). 5 charts attached to post."
+      }
+    }
+  }
+}
