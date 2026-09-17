@@ -1,12 +1,10 @@
-✅ *Self-resolved — @trading_axe*
+🐦 *[X] @Wild_Randomness*
 
-Event: Reply to @_tolks (external context unknown); FOMC same-day decision context (Sep 16 16:00Z Federal Reserve announcement)
+Very important levels tested today
 
-@Wild_Randomness: "It's a positive step, let's see if the market runs with it"
+📊 **NDX (Nasdaq-100)**: 28,945 — Moving averages showing consolidation at key support
+📊 **ES (S&P 500 E-mini)**: 7,636 — Support zones at 7,600/7,000 and POC volume profile
 
-Unable to classify — what's your read? Does 'positive step' refer to Fed decision, geopolitical event, or market structure development?
-Earlier ambiguous: "buy the CASHCAT of …CASHCAT?" (philosophy critique on chasing Arc/RH replays while original winner distracted)
-Resolved by: "@dudupiyenge37 You can't be this slow, it's sarcasm to say buy CASHCAT coz it's 1 of 1."
-Classification: Sarcastic market-psychology critique on sequel/narrative-fatigue risk; original opportunity gets diluted while traders chase worthless 1-of-1 meme replays.
+Both charts validate the macro bearish-into-Oct structure with technical levels heavily tested. Aligns with established thesis on equity deterioration vs commodities.
 
-[View post](https://x.com/trading_axe/status/2100373198155977103)
+[View tweet](https://x.com/Wild_Randomness/status/2100376563401494991)

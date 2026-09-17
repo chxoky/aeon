@@ -1,0 +1,33 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "Very important levels tested today\n\n📊 NDX (Nasdaq-100): 28,945 — Moving averages showing consolidation at key support\n📊 ES (S&P 500 E-mini): 7,636 — Support zones at 7,600/7,000 and POC volume profile\n\nBoth charts validate the macro bearish-into-Oct structure with technical levels heavily tested. Aligns with established thesis on equity deterioration vs commodities."
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100376563401494991"
+      },
+      "children": []
+    }
+  }
+}
