@@ -1,0 +1,199 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "stack_main"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_event",
+        "separator_1",
+        "section_tweet",
+        "separator_2",
+        "section_analysis"
+      ]
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "Cryptic tweet about LINK community",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_tweet",
+        "tweetcard_main"
+      ]
+    },
+    "heading_tweet": {
+      "type": "Heading",
+      "props": {
+        "text": "Tweet",
+        "level": "h3"
+      }
+    },
+    "tweetcard_main": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Where did all the $LINK marines go? I'm in your camp"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "text_unable_classify",
+        "interpretations_stack",
+        "separator_3",
+        "portfolio_section",
+        "separator_4",
+        "images_note",
+        "link_tweet"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "text_unable_classify": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "interpretations_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interpretation_1",
+        "interpretation_2",
+        "interpretation_3"
+      ]
+    },
+    "interpretation_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Bullish conviction/entry (joining LINK community)",
+        "variant": "body"
+      }
+    },
+    "interpretation_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Sarcastic bearish (where did holders go as price fell?)",
+        "variant": "body"
+      }
+    },
+    "interpretation_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Neutral market sentiment",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "portfolio_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_portfolio",
+        "stat_link_position"
+      ]
+    },
+    "heading_portfolio": {
+      "type": "Heading",
+      "props": {
+        "text": "Portfolio Context",
+        "level": "h3"
+      }
+    },
+    "stat_link_position": {
+      "type": "Stat",
+      "props": {
+        "label": "HCH LINK position (Sep 17)",
+        "value": "3%",
+        "delta": "tactical long"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "images_note": {
+      "type": "Alert",
+      "props": {
+        "title": "Images unavailable",
+        "message": "Referenced images (t.co link) were unfetchable in this environment.",
+        "type": "info"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet on X",
+        "href": "https://x.com/HeartCanHodl/status/2100565795734802748"
+      }
+    }
+  }
+}
