@@ -507,8 +507,9 @@
 - Recent thesis: Net-short since Aug 07 ("full mega retrace" thesis). Fake-bottom thesis: real bottom October. Sep 13 covered 50% crypto shorts; 76K last defense before 74K POI. ZEC short: 1235/1295 entries (2% total), scale-in confirmed Sep 09. CL short rebalanced to 1x Sep 11; 1/3rd re-added Sep 13. Tactical long accumulation (gold + micro alt spots) within net-short regime.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (NOT execution). Scaled entries NOT all-in. Partial TPs do not end regime. NEAR 15m monitoring Sep 11-12. AMD technical level watching.
 - Calibration: PENDING Sep 13 10:51Z ("To them and to others we entered 1% yesterday" — which Sep 12 entry?), PENDING Sep 11 16:02Z ("SL $98.00" — asset unclear), PENDING Sep 11 14:03Z ("6% sl" — ticker unknown), PENDING Sep 11 07:31Z ("small near long leg here?" — NEAR token or pattern?), PENDING Sep 11 05:42Z (Fc clusdt 5m — force-close or false-close?), PENDING Sep 09 15:08Z ("That looks ugly.."), PENDING Sep 07 09:13Z ("Will give rough invalidation if it gets filled" — ticker unknown), PENDING Sep 07 11:57Z (domain purchase / yellow ticker / 2M coin context).
-- Last seen: 2026-09-17T12:48:33Z
+- Last seen: 2026-09-17T12:56:51Z
 - **Events (rolling):**
+  - Sep 17 12:56Z — ambiguous-image-only: Image-only message (no text) in supporting channel (Chat 1023638573313966212); Discord CDN image fetch failed (404 error); Unable to interpret chart/image content — context: recent 20% BTC hedge short added (12:17Z), tactical longs accumulating; may be technical validation/position update; HR-2 calibration sent to Kyle [$UNKNOWN] [1550128402462146690]
   - Sep 17 12:48Z — ambiguous-cryptic: @goodalexander "Today seems interesting" with 2 30m technical charts (CL crude + SNDK). CL: 95.54 current, support 96.15, breakdown structure (bearish). SNDK: 1570.51 current, range 1530-1572 consolidation. Intent unclear (bullish/bearish/neutral technical observation?); HR-2 calibration sent [$CL/$SNDK] [2100567583217074253]
 - Last seen: 2026-09-17T12:52:46Z
 - **Events (rolling):**

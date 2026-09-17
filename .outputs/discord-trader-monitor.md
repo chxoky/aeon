@@ -1,6 +1,8 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Processed cryptic Discord message from HeartCanHodl: **"Fc btc 15m"** at 2026-09-17T12:52:46Z
+Event: Image-only Discord message in HCH's premium member chat (Sep 17 12:56Z)
+Context: Recent 20% BTC hedge short added, tactical longs accumulating
+HCH: (image attachment — unable to fetch; Discord CDN returned 404)
 
 **Event details:**
 - Channel: 1393137051108507728 (HCH — Comments, primary)
@@ -37,3 +39,4 @@ Processed cryptic Discord message from HeartCanHodl: **"Fc btc 15m"** at 2026-09
 7. Logged event to `memory/logs/2026-09-17.md` ✓
 
 **No notification sent** — message is pure banter with no financial content or trade signal.
+Unable to classify image content — what does this chart show?

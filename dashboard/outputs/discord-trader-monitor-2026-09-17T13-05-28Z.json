@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calibration",
+        "separator_1",
+        "stack_event",
+        "separator_2",
+        "alert_image_error"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Chat",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event_label",
+        "text_event_detail",
+        "text_timestamp",
+        "text_context_label",
+        "text_context_detail"
+      ]
+    },
+    "text_event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_event_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Image-only Discord message in HCH's premium member chat (Sep 17 12:56Z)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Context: Recent 20% BTC hedge short added, tactical longs accumulating",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Message Attachment:",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_context_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Image attachment — unable to fetch; Discord CDN returned 404",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_image_error": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify image content",
+        "message": "What does this chart show?",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
