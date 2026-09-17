@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "caption"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "They were waiting for me"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "https://x.com/HeartCanHodl/status/2100658432273797411",
+        "href": "https://x.com/HeartCanHodl/status/2100658432273797411"
+      }
+    },
+    "caption": {
+      "type": "Text",
+      "props": {
+        "text": "Celebrating execution: Sep 16 planned short cover (25% final tranche) hit as intended. Trading discipline + tactical execution validation.",
+        "variant": "muted"
+      }
+    }
+  }
+}
