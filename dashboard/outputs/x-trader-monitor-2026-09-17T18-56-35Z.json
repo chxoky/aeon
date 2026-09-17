@@ -1,0 +1,65 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — x-trader-monitor",
+        "description": "BTC price action on Sep 17 18:51 UTC"
+      },
+      "children": [
+        "tweet_card",
+        "sep_1",
+        "context_stack"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "Ma10 $btc"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "question_text",
+        "trader_note",
+        "view_link"
+      ]
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (MA10 technical level test? Pending short flip signal? Price-time entry signal?)",
+        "variant": "body"
+      }
+    },
+    "trader_note": {
+      "type": "Text",
+      "props": {
+        "text": "Trader known for cryptic price-time analysis + Elliott Wave combo.",
+        "variant": "caption"
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2100658978141209054"
+      }
+    }
+  }
+}
