@@ -1,0 +1,237 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "event_section",
+        "sep2",
+        "charts_section",
+        "sep3",
+        "quote_section",
+        "sep4",
+        "intent_section",
+        "sep5",
+        "link_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Brief mention to @goodalexander with two 30m technical charts (crude oil CL + SanDisk SNDK)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "charts_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "charts_heading",
+        "cl_chart",
+        "sndk_chart"
+      ]
+    },
+    "charts_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Charts Show",
+        "level": "h3"
+      }
+    },
+    "cl_chart": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cl_title",
+        "cl_consolidation",
+        "cl_support",
+        "cl_breakdown"
+      ]
+    },
+    "cl_title": {
+      "type": "Text",
+      "props": {
+        "text": "CL (Crude)",
+        "variant": "lead"
+      }
+    },
+    "cl_consolidation": {
+      "type": "Text",
+      "props": {
+        "text": "30m consolidation",
+        "variant": "body"
+      }
+    },
+    "cl_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Support",
+        "value": "96.15"
+      }
+    },
+    "cl_breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cl_breakdown_text",
+        "cl_breakdown_badge"
+      ]
+    },
+    "cl_breakdown_text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent breakdown to 95.54",
+        "variant": "body"
+      }
+    },
+    "cl_breakdown_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "bearish structure",
+        "variant": "destructive"
+      }
+    },
+    "sndk_chart": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sndk_title",
+        "sndk_range",
+        "sndk_current",
+        "sndk_status"
+      ]
+    },
+    "sndk_title": {
+      "type": "Heading",
+      "props": {
+        "text": "SNDK (SanDisk)",
+        "level": "h4"
+      }
+    },
+    "sndk_range": {
+      "type": "Text",
+      "props": {
+        "text": "30m range 1530–1572",
+        "variant": "body"
+      }
+    },
+    "sndk_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Current price",
+        "value": "1570.51"
+      }
+    },
+    "sndk_status": {
+      "type": "Badge",
+      "props": {
+        "text": "consolidation",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quote_text",
+        "quote_author"
+      ]
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Today seems interesting\"",
+        "variant": "lead"
+      }
+    },
+    "quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "— HeartCanHodl",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "intent_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Signal Classification",
+        "message": "Unable to classify intent — is this: (a) Bullish technical signal on both charts? (b) Bearish signal (CL breakdown suggests downside)? (c) Neutral market update to @goodalexander for discussion? (d) Reference to external conversation context? What's your read on the signal?",
+        "type": "info"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link_section": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2100567583217074253"
+      }
+    }
+  }
+}
