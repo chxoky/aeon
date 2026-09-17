@@ -1,7 +1,7 @@
-market context — 2026-09-15
+market context — 2026-09-17
 
-take: risk-off (conviction high)
-BTC $75,899 (-3.19%) / ETH $2,420 (-3.13%) · F&G 69 (Greed, +12pt divergence)
-breadth 2/20 · TVL chains flat (ETH $49.6B, -0.84%)
-top narrative: FOMC hike peak (86.5% YES, decision Sep 16)
-CLARITY ACT COLLAPSED: 31.5%→13.5% (-18pp) — cloture vote today 2:15 PM ET
+take: rotation (conviction medium)
+BTC $76,571 (+1.34%) / ETH $2,462 (+3.22%) · F&G 50 (Neutral)
+breadth 17/20 · TVL $49.6B ETH chain (flat)
+top narrative: post-FOMC alt rotation (rising)
+hot market: "Fed no change Oct 2026" YES 52.5%
