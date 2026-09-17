@@ -1,0 +1,33 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "@Stoiiic",
+        "text": "keep going. Persistence diagram: Days flat → Weeks stable → Months trending up → Years exponential curve.\n\nMarathon mindset reinforcement—aligns with Sep 10 compound-growth conviction thesis."
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Stoiiic/status/2100461094418653322"
+      },
+      "children": []
+    }
+  }
+}
