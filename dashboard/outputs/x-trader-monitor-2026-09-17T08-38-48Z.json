@@ -1,0 +1,39 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link",
+        "alert_note"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Green candles across the crypto board 📈"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100503348491460919"
+      }
+    },
+    "alert_note": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Referenced chart images could not be fetched; sentiment classification based on text."
+      }
+    }
+  }
+}
