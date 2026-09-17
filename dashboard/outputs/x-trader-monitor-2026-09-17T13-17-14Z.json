@@ -1,0 +1,132 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Market technical analysis from X"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_tickers",
+        "tweet_card",
+        "separator1",
+        "stack_technical",
+        "separator2",
+        "link_post"
+      ]
+    },
+    "stack_tickers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_spx",
+        "badge_spy"
+      ]
+    },
+    "badge_spx": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPX"
+      }
+    },
+    "badge_spy": {
+      "type": "Badge",
+      "props": {
+        "text": "$SPY"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Technical consolidation structure with volume profile analysis. Sarcastic \"Are you not entertained?\" sentiment on current market price action.\n\nCharts show SPY consolidation support (755-760), resistance (770-780), volume distribution. Price at 756.75 (-0.55%), multi-timeframe 5-bar/7d patterns marked.\n\nInformational market structure observation - aligns with bearish-equities-into-Oct thesis + multi-stage breakdown framework validation."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_technical": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "text_support",
+        "text_resistance",
+        "text_volume",
+        "text_patterns"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "SPY Price",
+        "value": "756.75",
+        "delta": "-0.55%",
+        "trend": "down"
+      }
+    },
+    "text_support": {
+      "type": "Text",
+      "props": {
+        "text": "Support: 755-760",
+        "variant": "body"
+      }
+    },
+    "text_resistance": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance: 770-780",
+        "variant": "body"
+      }
+    },
+    "text_volume": {
+      "type": "Text",
+      "props": {
+        "text": "Volume profile distribution analysis included",
+        "variant": "body"
+      }
+    },
+    "text_patterns": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-timeframe patterns: 5-bar/7d marked",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100573175797162347"
+      }
+    }
+  }
+}
