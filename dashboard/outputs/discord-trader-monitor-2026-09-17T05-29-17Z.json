@@ -1,0 +1,173 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration — [DC: HCH — Chat]"
+      },
+      "children": [
+        "event-stack",
+        "sep1",
+        "message-stack",
+        "sep2",
+        "classification-stack",
+        "sep3",
+        "options-stack",
+        "sep4",
+        "question-stack"
+      ]
+    },
+    "event-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Member chat message from HeartCanHodl on 2026-09-17T05:27:19Z",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-heading",
+        "message-text"
+      ]
+    },
+    "message-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message-text": {
+      "type": "Text",
+      "props": {
+        "text": "send hype > 80.5",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification-text",
+        "classification-badge"
+      ]
+    },
+    "classification-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — is this:",
+        "variant": "body"
+      }
+    },
+    "classification-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Requires interpretation",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "options-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "option-a",
+        "option-b",
+        "option-c"
+      ]
+    },
+    "option-a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Personal execution signal (place/send HYPE order)?",
+        "variant": "body"
+      }
+    },
+    "option-b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Conviction statement on HYPE direction?",
+        "variant": "body"
+      }
+    },
+    "option-c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Response to member question about HYPE trading?",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "question-alert"
+      ]
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "What's your read?",
+        "type": "info"
+      }
+    }
+  }
+}
