@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Wild_Randomness — Macro analysis on wage normalization & Fed repricing"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_analysis",
+        "sep1",
+        "grid_metrics",
+        "sep2",
+        "text_commentary",
+        "sep3",
+        "alert_action",
+        "link_post"
+      ]
+    },
+    "text_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Wage growth normalized to 3.47% YoY (down from 6.5% Oct 2021 peak). Market forcing Fed to chase oil; Warsh/dovish dynamics. Charts show 10Y Treasury repricing +162bp (2.9%→4.62%).",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "grid_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_wage",
+        "stat_treasury"
+      ]
+    },
+    "stat_wage": {
+      "type": "Stat",
+      "props": {
+        "label": "Wage Growth YoY",
+        "value": "3.47%",
+        "delta": "down 2.03pp from 6.5% (Oct 2021 peak)",
+        "trend": "down"
+      }
+    },
+    "stat_treasury": {
+      "type": "Stat",
+      "props": {
+        "label": "10Y Treasury Repricing",
+        "value": "+162bp",
+        "delta": "2.9% → 4.62%"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Informational commentary aligned with existing bearish-equities-into-Oct thesis.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "No action required"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100377544923254834"
+      }
+    }
+  }
+}

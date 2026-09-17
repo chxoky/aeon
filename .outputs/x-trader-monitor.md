@@ -1,10 +1,7 @@
-🐦 *[X] @Wild_Randomness*
+🔍 Wild_Randomness — Macro analysis on wage normalization & Fed repricing
 
-Very important levels tested today
+Wage growth normalized to 3.47% YoY (down from 6.5% Oct 2021 peak). Market forcing Fed to chase oil; Warsh/dovish dynamics. Charts show 10Y Treasury repricing +162bp (2.9%→4.62%).
 
-📊 **NDX (Nasdaq-100)**: 28,945 — Moving averages showing consolidation at key support
-📊 **ES (S&P 500 E-mini)**: 7,636 — Support zones at 7,600/7,000 and POC volume profile
+Informational commentary aligned with existing bearish-equities-into-Oct thesis. No action required.
 
-Both charts validate the macro bearish-into-Oct structure with technical levels heavily tested. Aligns with established thesis on equity deterioration vs commodities.
-
-[View tweet](https://x.com/Wild_Randomness/status/2100376563401494991)
+[View post](https://x.com/Wild_Randomness/status/2100377544923254834)
