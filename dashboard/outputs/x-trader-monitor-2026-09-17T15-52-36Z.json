@@ -1,0 +1,143 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Technical Setup Analysis & Calibration"
+      },
+      "children": [
+        "heading-calibration",
+        "text-event-intro",
+        "text-event-quote",
+        "separator-1",
+        "heading-context",
+        "stack-levels",
+        "separator-2",
+        "heading-position-context",
+        "text-positions",
+        "separator-3",
+        "alert-classification",
+        "text-question",
+        "link-post"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "text-event-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Technical charts showing commodity/bond price levels — US 10Y Treasury and WTI Crude Oil with support/resistance zones marked."
+      }
+    },
+    "text-event-quote": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness: \"What if?\" + 4 technical images [@chumbawamba22 @Evan_ss6]",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Levels",
+        "level": "h3"
+      }
+    },
+    "stack-levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-treasury",
+        "stat-wti",
+        "text-setup"
+      ]
+    },
+    "stat-treasury": {
+      "type": "Stat",
+      "props": {
+        "label": "US 10Y Treasuries",
+        "value": "4.943–4.959%",
+        "trend": "down"
+      }
+    },
+    "stat-wti": {
+      "type": "Stat",
+      "props": {
+        "label": "WTI Crude Oil",
+        "value": "101.15–102.05"
+      }
+    },
+    "text-setup": {
+      "type": "Text",
+      "props": {
+        "text": "Support/resistance zones marked. Red downward arrows. Hypothetical breakdown scenario question on commodity/bond levels.",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-position-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Context",
+        "level": "h3"
+      }
+    },
+    "text-positions": {
+      "type": "Text",
+      "props": {
+        "text": "@Wild_Randomness holdings: commodities long (GOLD, uranium, rare earths), BTC 2027 LEAPS. Possible position management signal suggested."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "(a) Technical observation/market structure commentary for discussion, OR (b) Setup signal for personal trade entry/position adjustment based on these levels?",
+        "type": "warning"
+      }
+    },
+    "text-question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?",
+        "variant": "lead"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View original post",
+        "href": "https://x.com/Wild_Randomness/status/2100612680646287646",
+        "source": "X / Twitter"
+      }
+    }
+  }
+}
