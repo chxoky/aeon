@@ -1,0 +1,63 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet",
+        "separator",
+        "analysis",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "You have 5 trading days to make all your money the moment Warsh stops speaking, then it's chop for 6 weeks"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-label",
+        "analysis-text"
+      ]
+    },
+    "analysis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Analysis",
+        "variant": "lead"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "QQQ daily consolidation (660-745 range). Tactical acceleration window into Warsh Fed communications, then 6-week chop phase. Aligns bearish-equities-into-Oct with precise timing window."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/Wild_Randomness/status/2100626814876155975"
+      }
+    }
+  }
+}
