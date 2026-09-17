@@ -1,7 +1,9 @@
-🐦 *[X] @bull_genius*
+🐦 *[X] @KillaXBT*
 
-Artificial Inu / USDT breakout retesting ATH on 1h chart. Currently testing 7D high of 0.3491 from 0.2876 base. Strong uptrend structure visible.
+$BTC
 
-Chart: Artificial Inu showing consolidation break with liquidation levels mapped via volume profile analysis.
+You are going to look back 2 years from & the only problem you're gonna have is that you didn't buy more.
 
-https://x.com/bull_genius/status/2100673679793271006
+When in doubt, zoom out.
+
+[View tweet](https://x.com/KillaXBT/status/2100676947047051671)

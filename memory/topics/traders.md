@@ -23,11 +23,9 @@
 - Recent thesis: Structural BTC bull — bear cycle ~80% complete, 2.5yr target 126K+. CONVICTION DOWNGRADE Aug 28: "0% chance $100K this year" → Q2 2027. Near-term: range consolidation; liquidity cluster 75.5–76.5K; next planned long 74–75K. Sweep-wick-expansion macro: 86.5K sweep→82.2K wick→expansion. Sep 13 conviction: "BTC has officially bottomed"; 30% gain on 2x entry from 62.6K. Dump-into-Sep-14 = inverse move +3-4% next week. Accumulation→re-accumulation→expansion framework. ASTER: 200d range compression breakout.
 - Conviction notes: HTF bullish structural bias. "Shorts are scalps. Remember that." Tactical scalp shorts + structural long = hedge ethos. Relocated country Aug 28 (tax optimization). Kalshi partnership. Removed SL on DCA swing Sep 11 (full directional conviction). "If I'm wrong, I will deactivate my account." 2x longs correctly leveraged > spot.
 - Calibration: CONVICTION DOWNGRADE SIGNAL active (Sep 04 questioning Q4 bottom-buy plan). PENDING Aug 27 11:11Z ("Aged like fine wine. $SOL up 50%... Thanks for playing. $120+ waiting room"; open vs closed unclear).
-- Last seen: 2026-09-17T11:32:33Z
+- Last seen: 2026-09-17T20:03:07Z
 - **Events (rolling):**
-  - Sep 17 11:32Z — conviction-add-confirmation: Voice message reply to Sep 15 22:27Z "Decided to add bit more..." conviction-add message; audio annotation to existing BTC long execution; position-management confirmation (no new levels/targets); Discord primary channel 1411492188315193416; fast-path alerted [$BTC] [1550107188863963206]
-- Last seen: 2026-09-17T17:06:11Z
-- **Events (rolling):**
+  - Sep 17 20:03Z — informational-conviction-reaffirmation: Historical 2yr $BTC retrospective; "zoom out" philosophy + exponential bull chart; long-term HTF conviction messaging [$BTC] [2100676947047051671]
   - Sep 17 17:06Z — informational-conviction-reaffirmation: "$100K this year feels like a stretch / most logical outcome is re-accumulation range / bullish but not delusional"; reaffirms Aug 28 CONVICTION DOWNGRADE ("0% chance $100K this year"); 3 chart images with BTC range/support analysis (74-76K consolidation, 82.8K established high, range-structure validation); reinforces accumulation→re-accumulation→expansion framework [$BTC] [2100632420957540781]
   - Sep 17 14:35Z — informational-conviction-reaffirmation: X response to @Her_Majestea_ defending existing swing long; "I said I'm long...I posted my entry and made entire video explaining why"; clarifying/defending previously-posted position, not new execution signal [$BTC] [2100594596011003996]
   - Sep 17 11:32Z — ambiguous-cryptic: "Little update regarding position" (Discord reply); role mention doesn't clarify which position or what update; HR-2 calibration sent [$UNKNOWN] [1550107258006798368]
