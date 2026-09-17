@@ -1,0 +1,49 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 X Trader Monitor — @KillaXBT [X]"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "link-tweet",
+        "text-context"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "I was short $BTC from 123K before the move to 80K.\n\nI was short from 95K before the move to 70K.\n\nI was short from 76K before the move to 60+.\n\nI am currently long from 62.6K.\n\nI have also added longs on sub-accounts at 76.4K.\n\nIs that clear enough? Because lately, it genuinely seems like people cannot read."
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2100711012429181041"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction reaffirmation on 62.6K structural long + 76.4K continuation adds. Defensive tone responds to criticism on position clarity.",
+        "variant": "caption"
+      }
+    }
+  }
+}
