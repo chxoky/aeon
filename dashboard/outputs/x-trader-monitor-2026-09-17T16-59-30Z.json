@@ -1,0 +1,78 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "alert_event",
+        "sep2",
+        "stack_quote",
+        "sep3",
+        "alert_classify"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "alert_event": {
+      "type": "Alert",
+      "props": {
+        "title": "Event",
+        "message": "Post with 3 attached technical charts (unable to fetch/read via automation)",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "stack_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label_poster",
+        "text_quote"
+      ]
+    },
+    "label_poster": {
+      "type": "Text",
+      "props": {
+        "text": "Wild_Randomness",
+        "variant": "lead"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"Are you watching closely?\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Image content unreadable. What's your read on this? (Technical setup observation? Personal trade entry signal? Market structure confirmation?)",
+        "type": "info"
+      }
+    }
+  }
+}
