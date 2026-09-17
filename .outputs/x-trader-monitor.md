@@ -1,24 +1,9 @@
-🐦 *[X] @KillaXBT*
+🐦 *[X] @Wild_Randomness*
 
-I was short $BTC from 123K before the move to 80K.
+$HYPE $LIT
 
-I was short from 95K before the move to 70K.
+I'm hearing a lot of whining lately about the opportunity cost of owning hype…
 
-I was short from 76K before the move to 60+.
+[View tweet](https://x.com/Wild_Randomness/status/2100722678076453209)
 
-I am currently long from 62.6K.
-
-I have also added longs on sub-accounts at 76.4K.
-
-Is that clear enough? Because lately, it genuinely seems like people cannot read.
-
-[View tweet](https://x.com/KillaXBT/status/2100711012429181041)
-
-↳ _Conviction reaffirmation on 62.6K structural long + 76.4K continuation adds. Defensive tone responds to criticism on position clarity._
-🐦 *[X] @Bitcoin_Astro*
-
-Yes 1x1 is the strongest support and resistance, divides bulls and bears
-
-[View tweet](https://x.com/Bitcoin_Astro/status/2100711214342918359)
-
-↳ _Reiterates existing 1x1 Gann thesis tracked since Sep 10._
+↳ _HYPE/LIT ratio recovered from 18 support (intraday +5.99%). Charts show ratio crashed from ~50 peak, now consolidating with recovery bounce forming. Technical validation on ratio mean-reversion opportunity._
