@@ -1,7 +1,13 @@
 🐦 *[X] @Wild_Randomness*
 
-You now have Kenny G praying that the Iran War heats up again and oil rips to $120
+Just own the construction companies imo
 
-↳ _Geopolitical risk + commodity escalation aligns with established Iran-catalyst thesis (Sep 16 repricing of Fed expectations +162bp). Oil consolidating 101-102 range; $120 target validates bearish-equities-into-Oct + commodities-long conviction framework._
+Their backlog is going to be huge for years
 
-[View tweet](https://x.com/Wild_Randomness7/status/2100636613462438198)
+Will come back in a year when these double
+
+**Tickers**: ARE (Aecon Group Inc.), BDT (Bird Construction Inc.) — Canadian construction equities, recent technical strength
+
+**Classification**: Informational trade idea (Step 6) — no personal execution signal
+
+[View tweet](https://x.com/Wild_Randomness/status/2100638997123051833)

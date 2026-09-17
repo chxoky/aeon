@@ -1,0 +1,189 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor",
+        "description": "Trade idea from @Wild_Randomness"
+      },
+      "children": [
+        "tweet",
+        "sep1",
+        "tickers_section",
+        "sep2",
+        "classification_section",
+        "sep3",
+        "links_section"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Just own the construction companies imo\n\nTheir backlog is going to be huge for years\n\nWill come back in a year when these double"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tickers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tickers_heading",
+        "tickers_grid",
+        "ticker_context"
+      ]
+    },
+    "tickers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tickers",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "tickers_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "are_card",
+        "bdt_card"
+      ]
+    },
+    "are_card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "are_badge",
+        "are_name"
+      ]
+    },
+    "are_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ARE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "are_name": {
+      "type": "Text",
+      "props": {
+        "text": "Aecon Group Inc.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "bdt_card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bdt_badge",
+        "bdt_name"
+      ]
+    },
+    "bdt_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BDT",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "bdt_name": {
+      "type": "Text",
+      "props": {
+        "text": "Bird Construction Inc.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ticker_context": {
+      "type": "Text",
+      "props": {
+        "text": "Canadian construction equities, recent technical strength",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_label",
+        "classification_value",
+        "signal_badge"
+      ]
+    },
+    "classification_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "classification_value": {
+      "type": "Text",
+      "props": {
+        "text": "Informational trade idea (Step 6)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No personal execution signal",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "links_section": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100638997123051833"
+      },
+      "children": []
+    }
+  }
+}
