@@ -1,0 +1,98 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor - AAII Sentiment Alert"
+      },
+      "children": [
+        "tweet-card",
+        "sep1",
+        "stats-stack",
+        "sep2",
+        "analysis-text",
+        "sep3",
+        "link-view"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "AAII Sentiment Survey: Sep 16 shows highest bearish reading since May 11, 2025 (53.3%) and lowest bullish since Sep 11, 2025 (28.8%)."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stats-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-bearish",
+        "stat-bullish"
+      ]
+    },
+    "stat-bearish": {
+      "type": "Stat",
+      "props": {
+        "label": "Bearish Sentiment",
+        "value": "53.3%",
+        "delta": "Highest since May 11, 2025",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-bullish": {
+      "type": "Stat",
+      "props": {
+        "label": "Bullish Sentiment",
+        "value": "28.8%",
+        "delta": "Lowest since Sep 11, 2025",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Extreme bearish sentiment validates established macro deterioration thesis; confirms Sep 11-14 multi-stage breakdown framework and bearish-equities-into-Oct positioning.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100570884763459928"
+      },
+      "children": []
+    }
+  }
+}
