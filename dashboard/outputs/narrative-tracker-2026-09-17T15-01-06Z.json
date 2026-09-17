@@ -1,0 +1,897 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-17"
+      },
+      "children": [
+        "transitions-section",
+        "sep1",
+        "reflexivity-section",
+        "sep2",
+        "positions-section",
+        "sep3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-header",
+        "t1-content"
+      ]
+    },
+    "t1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge",
+        "t1-title"
+      ]
+    },
+    "t1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "t1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Privacy/ZEC Peak",
+        "level": "h3"
+      }
+    },
+    "t1-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-text",
+        "t1-link"
+      ]
+    },
+    "t1-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETF launch (ZCSH, $500M AUM) + Sep 16 network upgrade approved + 2,496% YoY; sector the only crypto category above Oct 2025 BTC peak (+213%)"
+      }
+    },
+    "t1-link": {
+      "type": "Link",
+      "props": {
+        "label": "crypto.news/zcash-1000-privacy-coin-spot-etf-grayscale/",
+        "href": "https://crypto.news/zcash-1000-privacy-coin-spot-etf-grayscale/"
+      }
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-header",
+        "t2-content"
+      ]
+    },
+    "t2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge",
+        "t2-title"
+      ]
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "t2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Macro Recovery (Rates Trade)",
+        "level": "h3"
+      }
+    },
+    "t2-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-text"
+      ]
+    },
+    "t2-text": {
+      "type": "Text",
+      "props": {
+        "text": "24.8% weekly (top 1% of moves since 2020); total market cap $2.70T; post-FOMC Sep 16 rally confirmed — KillaXBT long 76.4K, Stoiiic 70-72K hold, t_in_crypto pullback ending call"
+      }
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-header",
+        "t3-content"
+      ]
+    },
+    "t3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge",
+        "t3-title"
+      ]
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "t3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Pre-IPO Token Bubble",
+        "level": "h3"
+      }
+    },
+    "t3-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-text"
+      ]
+    },
+    "t3-text": {
+      "type": "Text",
+      "props": {
+        "text": "ANTHROPICUSDT peaked $2T (~30x revenue run rate, double Series H); Crypto_Chase SNDK/MU plays earlier in cycle"
+      }
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-header",
+        "t4-content"
+      ]
+    },
+    "t4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-badge",
+        "t4-title"
+      ]
+    },
+    "t4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "t4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agents × Crypto Infrastructure Rising",
+        "level": "h3"
+      }
+    },
+    "t4-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-text"
+      ]
+    },
+    "t4-text": {
+      "type": "Text",
+      "props": {
+        "text": "@a16zcrypto/@Circle/@Coinbase/@OKX building agent rails; Keyrock: $73M agent settlement across 176M txns, USDC 98.6% of flow"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-1",
+        "reflexivity-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-1": {
+      "type": "Alert",
+      "props": {
+        "title": "ZEC/Privacy",
+        "message": "ETF narrative (not adoption) is the entire trade; $500M AUM in 10 days; Wall Street framing = \"insurance against BTC's transparent ledger\"; Sep 16 network upgrade timed to price milestone = story coordinating with technical event",
+        "type": "warning"
+      }
+    },
+    "reflexivity-2": {
+      "type": "Alert",
+      "props": {
+        "title": "Pre-IPO Tokens",
+        "message": "ANTHROPICUSDT at $2T = 30x revenue run rate with no legal equity claim; multiple compression incoming when hype cools",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "positions-heading",
+        "position-1",
+        "position-2",
+        "position-3",
+        "position-4",
+        "position-5",
+        "position-6",
+        "position-7",
+        "position-8"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-header",
+        "p1-meta",
+        "p1-mention",
+        "p1-reasoning"
+      ]
+    },
+    "p1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-badge",
+        "p1-title"
+      ]
+    },
+    "p1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "p1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Privacy/ZEC",
+        "level": "h3"
+      }
+    },
+    "p1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 4 ↑↑, Peak, Bull→Cope",
+        "variant": "caption"
+      }
+    },
+    "p1-mention": {
+      "type": "Text",
+      "props": {
+        "text": "@Grayscale @ZcashFoundation @trading_axe"
+      }
+    },
+    "p1-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "2,496% YoY with ETF catalyst fully priced; late cycle; reflexivity peak"
+      }
+    },
+    "position-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-header",
+        "p2-meta",
+        "p2-mention",
+        "p2-reasoning"
+      ]
+    },
+    "p2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-badge",
+        "p2-title"
+      ]
+    },
+    "p2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "p2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Pre-IPO Tokens",
+        "level": "h3"
+      }
+    },
+    "p2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 ↑, Fading, Cope",
+        "variant": "caption"
+      }
+    },
+    "p2-mention": {
+      "type": "Text",
+      "props": {
+        "text": "issuers + Chase-adjacent plays"
+      }
+    },
+    "p2-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "30x revenue ANTHROPICUSDT = valuation disconnect; no new catalyst"
+      }
+    },
+    "position-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-header",
+        "p3-meta",
+        "p3-mention",
+        "p3-reasoning"
+      ]
+    },
+    "p3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-badge",
+        "p3-title"
+      ]
+    },
+    "p3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "p3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZK Infrastructure",
+        "level": "h3"
+      }
+    },
+    "p3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 2 →, Emerging, Bull",
+        "variant": "caption"
+      }
+    },
+    "p3-mention": {
+      "type": "Text",
+      "props": {
+        "text": "@DefiLlama ZK sector, CYS prover"
+      }
+    },
+    "p3-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "privacy peaked in ZEC (pure token); real adoption accrues to the ZK proving/rollup layer next; bear: proving costs still high"
+      }
+    },
+    "position-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-header",
+        "p4-meta",
+        "p4-mention",
+        "p4-reasoning"
+      ]
+    },
+    "p4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-badge",
+        "p4-title"
+      ]
+    },
+    "p4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "p4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agents × Crypto",
+        "level": "h3"
+      }
+    },
+    "p4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 4 ↑, Rising, Bull",
+        "variant": "caption"
+      }
+    },
+    "p4-mention": {
+      "type": "Text",
+      "props": {
+        "text": "@a16zcrypto @Circle @OKX"
+      }
+    },
+    "p4-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "USDC 98.6% of agent settlements; infrastructure build phase, not yet at peak"
+      }
+    },
+    "position-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5-header",
+        "p5-meta",
+        "p5-mention",
+        "p5-reasoning"
+      ]
+    },
+    "p5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p5-badge",
+        "p5-title"
+      ]
+    },
+    "p5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "p5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization",
+        "level": "h3"
+      }
+    },
+    "p5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 →, Rising, Bull",
+        "variant": "caption"
+      }
+    },
+    "p5-mention": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock + institutional custodians"
+      }
+    },
+    "p5-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "$26.7B tokenized; structural and durable"
+      }
+    },
+    "position-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p6-header",
+        "p6-meta",
+        "p6-mention",
+        "p6-reasoning"
+      ]
+    },
+    "p6-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p6-badge",
+        "p6-title"
+      ]
+    },
+    "p6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "p6-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Markets",
+        "level": "h3"
+      }
+    },
+    "p6-meta": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 →, Rising, Bull",
+        "variant": "caption"
+      }
+    },
+    "p6-mention": {
+      "type": "Text",
+      "props": {
+        "text": "@Polymarket"
+      }
+    },
+    "p6-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC hike odds tracked live Sep 16; event-driven demand growing"
+      }
+    },
+    "position-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p7-header",
+        "p7-meta",
+        "p7-mention",
+        "p7-reasoning"
+      ]
+    },
+    "p7-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p7-badge",
+        "p7-title"
+      ]
+    },
+    "p7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "p7-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Post-FOMC",
+        "level": "h3"
+      }
+    },
+    "p7-meta": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 5 ↑↑→→, Peak",
+        "variant": "caption"
+      }
+    },
+    "p7-mention": {
+      "type": "Text",
+      "props": {
+        "text": "@KillaXBT expects \"prolonged chop + liquidity grab below\"; Bitcoin_Astro Sep 23-30 window = potential inflection; Crypto_Chase capital preservation mode"
+      }
+    },
+    "position-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p8-header",
+        "p8-meta",
+        "p8-mention",
+        "p8-reasoning"
+      ]
+    },
+    "p8-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p8-badge",
+        "p8-title"
+      ]
+    },
+    "p8-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "p8-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE/Perp DEXs",
+        "level": "h3"
+      }
+    },
+    "p8-meta": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 ↑, Rising",
+        "variant": "caption"
+      }
+    },
+    "p8-mention": {
+      "type": "Text",
+      "props": {
+        "text": "ATH hit; HCH crypto short closed Sep 16 (squeeze catalyst consumed)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-title",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "ZK Infrastructure, Modular Blockchains"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-title",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents × Crypto, Stablecoins-as-Rails, RWA, Prediction Markets, HYPE/Perp DEXs"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-title",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZEC, BTC Macro Recovery"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-title",
+        "map-fading-items"
+      ]
+    },
+    "map-fading-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Season (ANSEM -20%), Pre-IPO Tokens (reflexivity turning)"
+      }
+    }
+  }
+}

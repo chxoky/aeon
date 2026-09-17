@@ -1,32 +1,27 @@
-*Narrative Tracker — 2026-09-15*
+*Narrative Tracker — 2026-09-17*
 
 TRANSITIONS
-• NEW: FOMC Sep 16 Binary — 60% hike odds (CME/Kalshi/Polymarket 49-60% range); BTC 3/6 FOMC 2026 dates = $300-500M long liquidations; dot plot + presser tomorrow
-• NEW: TradFi Integration/RWA — LSE + Payward (UK stocks on-chain); ICE stake in tZERO (tokenized securities); Messari Mainnet NYC late-Sep = Q4 institutional capital signal
-• PROMOTED: Clarity Act (Dead → Emerging) — Senate cloture vote TODAY Sep 15, needs 53R + 7D (60 votes); KillaXBT posted algo-expectations-trap philosophy around it 01:30Z — https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote
-• PROMOTED: AI×Crypto Infrastructure (Rising → Peak) — Kraken MCP server, Coinbase for Agents, OKX MCP toolkit built; $73M agent settlement across 176M txns; MemeToro AI-meme convergence = late-stage signal
-• PROMOTED: Privacy/ZEC-XMR (Emerging/WATCH → Rising/RIDE) — ZEC $850 Aug 25 → $1,172 Sep 10 (+40.9% 7d); confirmed move
-• DEMOTED: BTC $80K Structural (Peak/RIDE → Peak/WATCH) — recovered from $76,914 Sep 10 dip; bull_genius max long @ 79.8K; FOMC headwind kills RIDE call
-• DEMOTED: ETH Cycle Conviction (Emerging/FRONT-RUN → Fading/WATCH) — WR ENA inflection at 0.1437 (threshold 0.15) first ETH-ecosystem signal in 3 weeks
-• DEAD: Jackson Hole/Fed Binary — resolved Aug 28 (Warsh keynote done)
-• DEAD: NVDA Earnings Binary — resolved Aug 26 AH
-• DEAD: STX/BTC L2 Breakout — no signal since Aug 25
+• NEW: Privacy/ZEC Peak — ETF launch (ZCSH, $500M AUM) + Sep 16 network upgrade approved + 2,496% YoY; sector the only crypto category above Oct 2025 BTC peak (+213%) — https://crypto.news/zcash-1000-privacy-coin-spot-etf-grayscale/
+• NEW: BTC Macro Recovery (Rates Trade) — 24.8% weekly (top 1% of moves since 2020); total market cap $2.70T; post-FOMC Sep 16 rally confirmed — KillaXBT long 76.4K, Stoiiic 70-72K hold, t_in_crypto pullback ending call
+• NEW: Pre-IPO Token Bubble — ANTHROPICUSDT peaked $2T (~30x revenue run rate, double Series H); Crypto_Chase SNDK/MU plays earlier in cycle
+• NEW: AI Agents × Crypto Infrastructure Rising — @a16zcrypto/@Circle/@Coinbase/@OKX building agent rails; Keyrock: $73M agent settlement across 176M txns, USDC 98.6% of flow
 
 REFLEXIVITY ALERT
-• FOMC/BTC — bull_genius MAX LONG 79.8K into 60% hike event. BTC 2026 FOMC track record: 3/6 = bearish flush. @bull_genius + @t_in_crypto + @KillaXBT all bullish simultaneously = crowded long into binary catalyst
-• AI×Crypto — MemeToro "institutional capital rotating into AI memecoins" pitch = late-stage narrative recycling over real infra (Kraken/Coinbase MCP)
+• ZEC/Privacy — ETF narrative (not adoption) is the entire trade; $500M AUM in 10 days; Wall Street framing = "insurance against BTC's transparent ledger"; Sep 16 network upgrade timed to price milestone = story coordinating with technical event
+• Pre-IPO Tokens — ANTHROPICUSDT at $2T = 30x revenue run rate with no legal equity claim; multiple compression incoming when hype cools
 
 POSITIONS
-• WATCH: FOMC Binary (Emerging ↑↑, Mixed) — @KillaXBT, @bull_genius — bear: 60% hike + 2026 track record = BTC flush to 76K; gate: Sep 16 2PM ET
-• WATCH: Clarity Act Cloture (Emerging ↑↑, Mixed) — @KillaXBT — bear: 3rd fail kills regulatory-clarity narrative until 2027; vote outcome today
-• RIDE: AI×Crypto Infrastructure (Peak ↑, Bull) — Kraken/Coinbase/OKX, a16z — bear: identity bottleneck friction; agent-meme cope layer forming
-• RIDE: TradFi Integration/RWA (Rising ↑, Bull) — LSE/Payward, ICE/tZERO — bear: structural/slow; alpha already in RWA token prices
-• WATCH: BTC $80K Structural (Peak →, Bull) — @bull_genius, @t_in_crypto — bear: FOMC flush risk; $80K ceiling confirmed across multiple sources
-• RIDE: Privacy/ZEC-XMR (Rising ↑, Bull) — @trading_axe, @Stoiiic — bear: already +40.9% 7d, thin fundamentals
-• FADE: Alt Rotation/DeFi (Fading ↓, Mixed) — breadth 1/20 Sep 10; no recovery signal
+• FADE: Privacy/ZEC (mindshare 4 ↑↑, Peak, Bull→Cope) — @Grayscale @ZcashFoundation @trading_axe — 2,496% YoY with ETF catalyst fully priced; late cycle; reflexivity peak
+• FADE: Pre-IPO Tokens (mindshare 3 ↑, Fading, Cope) — issuers + Chase-adjacent plays — 30x revenue ANTHROPICUSDT = valuation disconnect; no new catalyst
+• FRONT-RUN: ZK Infrastructure (mindshare 2 →, Emerging, Bull) — @DefiLlama ZK sector, CYS prover — privacy peaked in ZEC (pure token); real adoption accrues to the ZK proving/rollup layer next; bear: proving costs still high
+• RIDE: AI Agents × Crypto (mindshare 4 ↑, Rising, Bull) — @a16zcrypto @Circle @OKX — USDC 98.6% of agent settlements; infrastructure build phase, not yet at peak
+• RIDE: RWA Tokenization (mindshare 3 →, Rising, Bull) — BlackRock + institutional custodians — $26.7B tokenized; structural and durable
+• RIDE: Prediction Markets (mindshare 3 →, Rising, Bull) — @Polymarket — FOMC hike odds tracked live Sep 16; event-driven demand growing
+• WATCH: BTC Post-FOMC (mindshare 5 ↑↑→→, Peak) — @KillaXBT expects "prolonged chop + liquidity grab below"; Bitcoin_Astro Sep 23-30 window = potential inflection; Crypto_Chase capital preservation mode
+• WATCH: HYPE/Perp DEXs (mindshare 3 ↑, Rising) — ATH hit; HCH crypto short closed Sep 16 (squeeze catalyst consumed)
 
 MAP
-Emerging: FOMC Sep 16 Binary | Clarity Act Cloture
-Rising: TradFi Integration/RWA | Privacy/ZEC-XMR
-Peak: BTC $80K Structural | AI×Crypto Infrastructure | Stablecoin Payments
-Fading: ETH Cycle Conviction | Alt Rotation/DeFi
+Emerging: ZK Infrastructure, Modular Blockchains
+Rising: AI Agents × Crypto, Stablecoins-as-Rails, RWA, Prediction Markets, HYPE/Perp DEXs
+Peak: Privacy/ZEC, BTC Macro Recovery
+Fading: Memecoin Season (ANSEM -20%), Pre-IPO Tokens (reflexivity turning)
