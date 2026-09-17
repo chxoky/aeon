@@ -15,3 +15,10 @@ Is that clear enough? Because lately, it genuinely seems like people cannot read
 [View tweet](https://x.com/KillaXBT/status/2100711012429181041)
 
 ↳ _Conviction reaffirmation on 62.6K structural long + 76.4K continuation adds. Defensive tone responds to criticism on position clarity._
+🐦 *[X] @Bitcoin_Astro*
+
+Yes 1x1 is the strongest support and resistance, divides bulls and bears
+
+[View tweet](https://x.com/Bitcoin_Astro/status/2100711214342918359)
+
+↳ _Reiterates existing 1x1 Gann thesis tracked since Sep 10._

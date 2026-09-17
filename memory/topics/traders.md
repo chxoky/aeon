@@ -495,8 +495,9 @@
 - Recent thesis: BTC 1x1 Gann angle critical — below for ~3 weeks (tough resistance). Historical 2022 breakout above 1x1 confirmed bullish; current rejection = lower retests 72-74K. Time-cycle framework (45° geometry from 2023 bear low). CUO Blue Bull indicator: cycle-low possible but needs BTC hold >$81-83K. October-low consensus = contrarian probe. Alts always have another leg down until bottom — watch BTC pairs not USD. Gold: Head & Shoulders forming on daily; trendline break + @bluebull_CUO indicator rolled below midline = bearish structural lean.
 - Conviction notes: Pure technical Gann/geometric analyst. No personal execution language. Astrological/geometric framework. "Don't marry your bias. Trade what the market is showing you."
 - Calibration: PENDING Sep 14 18:53Z (@newparadigm33 wink emoji; external context unknown; HR-2 sent), PENDING Sep 14 15:19Z (reply to @Sonnysideup22 "Indeed my friend 🙂" — context missing), PENDING Sep 13 23:26Z (reply to @tristanqcolt/@chartinspect "Very likely we test those levels" — unclear which asset/levels), PENDING Sep 13 09:40Z (reply to unknown "Yes,of course it is. But what time frame?"), PENDING Sep 08 17:49Z (@Sandeep "Usually when time and price square"), PENDING Sep 06 21:18Z ("First I need bottom for calculations"), PENDING Sep 06 16:32Z ("10 major planets" astrological), PENDING Aug 23 10:12Z ("The way this move happened...same quick and unexpected").
-- Last seen: 2026-09-16T23:02:56Z
+- Last seen: 2026-09-17T22:19:17Z
 - **Events (rolling):**
+  - Sep 17 22:19Z — informational-reiteration: 1x1 Gann support/resistance thesis confirmed in reply; continues Sep 10-12 angle tracking [$BTC/$GANN] [2100711214342918359]
   - Sep 16 23:02Z — informational: forecast validation—predicted high window (31Aug-4Sep) confirmed; upcoming forecast windows (23-30Sep, Oct5, Nov5) [$BTC] [2100359811602809257]
   - Aug 27 22:20Z — informational: solar eclipse / BTC correlation 10yr analysis; untested hypothesis [$BTC/$MACRO] [2093101492257575388]
   - Aug 29 22:17Z — informational: "Everyone is expecting low in October. Will they get it?" — contrarian probe [$BTC] [2093825501978628570]
