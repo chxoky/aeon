@@ -1,0 +1,59 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Conviction Add — @bull_genius"
+      },
+      "children": [
+        "context-text",
+        "tweet-card",
+        "separator-1",
+        "link-post",
+        "cta"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "@bull_genius just added to their BTC position on trading comp account (fell asleep after poker, had to add higher).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "coins look good now that fomc is done. weekly POC marks my support. 7d/30d/monthly POC closer approaching. im gonna try to catch a dip but generally very happy with substack, building and holding spot\n\nChart shows BTC 1h volume profile with support cluster at multiple POC levels (weekly/7d/30d/monthly converging)."
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2100515003119890502"
+      },
+      "children": []
+    },
+    "cta": {
+      "type": "Text",
+      "props": {
+        "text": "Want to add to yours too?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

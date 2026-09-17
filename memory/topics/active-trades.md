@@ -2,6 +2,24 @@
 
 ## bull_genius
 
+### BTC (Bitcoin) — LONG PLAY-MONEY (TRADING COMP ACCOUNT, CONVICTION ADDS — Sep 15-17)
+- **Account**: Trading comp account (play money; separate from personal spot holdings)
+- **Entry history**:
+  - **Sep 15** (Prior entry): Initial long established on trading comp acc; awaiting full context from prior session
+  - **Sep 17 09:19Z** (Conviction add): Add executed higher after fell asleep post-poker; weekly+7d+30d+monthly POC converging at support; post-FOMC euphoria ("coins look good now that fomc is done"); chart shows BTC 1h volume profile with multiple POC support levels
+- **Entry type**: Spot/perp conviction scaling on technical support structure (multiple timeframe POCs)
+- **Action commitment**: Aggressive play-money scaling; already had position, added higher due to FOMC passed (risk of macro shock removed)
+- **Technical thesis**: 
+  - Volume profile analysis: Weekly POC marks support; 7d/30d/monthly POC converging = strong structural support cluster
+  - Chart context (HSaG6odXQAEqd2T): 1h BTC/USDT perpetual on Binance; visible support levels at 78,262.4 (purple), 77,045.4 (green), 76,939.9 (cyan), 76,649.4, with 73,626.3 as lower support
+  - Post-FOMC sentiment: Market proved bulls right, no bearish catalyst remained
+- **Personal account status**: Sitting out trading comp long != personal account; personal account in SPOT (not leverage), building and holding conviction maximum ("very happy with substack, building and holding spot")
+- **Risk posture**: Play money account = high conviction, aggressive adds acceptable; personal account = conservative spot hold
+- **Status**: ACTIVE — conviction add Sep 17; awaiting Kyle decision on whether to mirror play-money conviction to live account or hold separate strategies
+- **Trade alert format**: Step 5d (conviction add, informational + decision prompt)
+- **Alerted**: YES (2026-09-17T09:19:37Z alert sent via ./notify)
+- **Last update**: 2026-09-17T09:19:37Z (tweet_id=2100515003119890502, x-trader-monitor real-time, conviction add with chart)
+
 ### PUMP (Pump.fun) — LONG SPOT/PERP (MULTI-ENTRY ESCALATION — Sep 05-09)
 - **Entry history**:
   - **Sep 05 20:47Z** (Conviction add): Spot position add on pullback to first-pullback support. "i expect a red week in markets but will keep adding to my spot position. might get absolute fire sale prices, currently already below ICO which is insane"

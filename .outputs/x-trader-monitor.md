@@ -1,10 +1,11 @@
-🐦 *[X] @HeartCanHodl*
+➕ *Conviction Add — @bull_genius*
 
-Green candles across the crypto board 📈
+@bull_genius just added to their BTC position on trading comp account (fell asleep after poker, had to add higher).
 
-[View tweet](https://x.com/HeartCanHodl/status/2100503348491460919)
+"coins look good now that fomc is done. weekly POC marks my support. 7d/30d/monthly POC closer approaching. im gonna try to catch a dip but generally very happy with substack, building and holding spot"
 
-_Note: Referenced chart images could not be fetched; sentiment classification based on text._
-The $CL short hedge is paying too 👌🏻
+Chart shows BTC 1h volume profile with support cluster at multiple POC levels (weekly/7d/30d/monthly converging).
 
-[View tweet](https://x.com/HeartCanHodl/status/2100503371283411260)
+[View post](https://x.com/bull_genius/status/2100515003119890502)
+
+Want to add to yours too?
