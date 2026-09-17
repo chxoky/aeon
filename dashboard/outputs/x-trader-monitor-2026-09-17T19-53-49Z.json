@@ -1,0 +1,89 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "sep-1",
+        "stack-levels",
+        "sep-2",
+        "chart-desc",
+        "link-tweet"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "Artificial Inu / USDT breakout retesting ATH on 1h chart. Currently testing 7D high of 0.3491 from 0.2876 base. Strong uptrend structure visible."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-levels": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-7d-high",
+        "stat-base"
+      ]
+    },
+    "stat-7d-high": {
+      "type": "Stat",
+      "props": {
+        "label": "7D High",
+        "value": "0.3491"
+      }
+    },
+    "stat-base": {
+      "type": "Stat",
+      "props": {
+        "label": "Base",
+        "value": "0.2876"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: Artificial Inu showing consolidation break with liquidation levels mapped via volume profile analysis.",
+        "variant": "body"
+      }
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View Tweet",
+        "href": "https://x.com/bull_genius/status/2100673679793271006"
+      }
+    }
+  }
+}
