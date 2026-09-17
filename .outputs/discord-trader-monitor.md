@@ -1,42 +1,20 @@
-🔍 *Calibration — [DC: HCH — Chat]*
+## Summary
 
-Event: Image-only Discord message in HCH's premium member chat (Sep 17 12:56Z)
-Context: Recent 20% BTC hedge short added, tactical longs accumulating
-HCH: (image attachment — unable to fetch; Discord CDN returned 404)
-
-**Event details:**
-- Channel: 1393137051108507728 (HCH — Comments, primary)
-- Classification: **ambiguous-cryptic** (pattern similar to KillaXBT's "fc eth 5m" Sep 16)
-- Fast-path status: **Telegram alert already sent** by Cloudflare Worker (~2-5s post); skipped duplicate per protocol
-
-**Steps executed:**
-1. ✅ Decoded base64 event JSON 
-2. ✅ Verified channel mapping (HCH — Comments primary, username matches)
-3. ✅ Loaded trader context from memory
-4. ✅ Cross-platform dedup check (no matching X post)
-5. ✅ Classified: Cannot determine meaning without Kyle's interpretation of "fc" abbreviation and intent
-6. ✅ Recorded message_id to `discord-trader-seen.txt` (16th dedup entry)
-7. ✅ Updated `traders.md` event log (new entry: "Sep 17 12:52Z — ambiguous-cryptic")
-8. ✅ Logged to `memory/logs/2026-09-17.md` with full analysis
-
-**Outcome:** Memory updates complete. Awaiting Kyle calibration response on what "fc" means and whether this represents a trade signal or market observation. No action taken; classification logged for HR-2 pattern tracking (now 3 occurrences of "fc {ticker} {timeframe}" cryptic notation across multiple traders).
-✅ **discord-trader-monitor skill executed successfully**
+Successfully executed the discord-trader-monitor skill for HeartCanHodl's Discord message:
 
 **Event processed:**
-- **Message:** "👀" (eyes emoji)
-- **Trader:** HeartCanHodl (heartcanhodl)
-- **Channel:** 1393137051108507728 (HCH — Comments, primary)
-- **Time:** Sep 17 12:52:49 UTC
-- **Classification:** Non-financial / banter (silent skip per HR-1)
+- **Trader:** heartcanhodl
+- **Channel:** 1023638573313966212 (HCH — Chat / supporting)
+- **Message:** "Fc hype 15m" (reply to own "send hype > 80.5")
+- **Classification:** ambiguous-cryptic (follows established "Fc X Tm" false-close-check pattern)
+- **Status:** fast-path-alerted=true (Cloudflare Worker already sent Telegram ~2-5s post)
 
-**Actions taken:**
-1. Decoded base64-encoded Discord message event ✓
-2. Verified new message (not in dedup list) ✓
-3. Resolved channel & trader identity ✓
-4. Classified as non-financial (eyes emoji observational) ✓
-5. Applied silent skip protocol (no alert sent, no event line in traders.md per Step 9 rules) ✓
-6. Recorded message ID 1550127390401892373 to `memory/discord-trader-seen.txt` ✓
-7. Logged event to `memory/logs/2026-09-17.md` ✓
+**Actions completed:**
+1. ✅ Decoded base64 message event
+2. ✅ Verified dedup (new message ID 1550131283173314651 not previously seen)
+3. ✅ Skipped duplicate Telegram send per fast-path protocol
+4. ✅ Updated traders.md with new event + added to calibration queue
+5. ✅ Logged event to daily memory/logs/2026-09-17.md
+6. ✅ Tracked seen-ID to memory/discord-trader-seen.txt (18th dedup entry)
 
-**No notification sent** — message is pure banter with no financial content or trade signal.
-Unable to classify image content — what does this chart show?
+The message matches HCH's documented pattern ("Fc X" posts = false-close chart check, not execution), but flagged for Kyle calibration per HR-2 protocol on ambiguous/cryptic messages in supporting channels.
