@@ -1,0 +1,88 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration",
+        "description": "@Wild_Randomness on hiking cycle & yield curve spread"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-header",
+        "separator1",
+        "quote-section",
+        "unable-classify-alert",
+        "chart-section",
+        "separator2",
+        "interpretation-q",
+        "view-link"
+      ]
+    },
+    "event-header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: @50ptMAE discussion on hiking cycle + yield curve spread analysis",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote-section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "if this hiking cycle is happening I'd expect a miniature version of 2022… probably draw down into 2H Q1…\n\nofc I am playing the contrarian longs here but this is like a 3-4 week view max"
+      }
+    },
+    "unable-classify-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "\"I am playing the contrarian longs here\" is ambiguous: does trader have entered position or discussing scenario?",
+        "type": "warning"
+      }
+    },
+    "chart-section": {
+      "type": "Text",
+      "props": {
+        "text": "Chart: Yield curve spread (US10Y-US02Y) vs SPX comparison, hiking cycle technical thesis."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation-q": {
+      "type": "Text",
+      "props": {
+        "text": "How do you read this — is Wild_Randomness personally taking contrarian long, or sharing market setup?",
+        "variant": "muted"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100444628621447560"
+      }
+    }
+  }
+}
