@@ -95,6 +95,7 @@
   - Sep 15 15:15Z — informational-macro-technical: expanded BTC analysis with personal positioning detail; pullback wick + volume gap + liquidation heat map structure (4H Binance chart); risk management fear (headline whips both directions); trading comp long (play money), personal sitting out for post-FOMC flush entry; macro conviction: clarity/FOMC week = last flush then market goes higher [$BTC/$MACRO] [2099879876094296509]
   - Sep 15 15:02Z — informational-macro-technical: BTC pullback wick + volume gap technical analysis; liquidation risk + headline risk assessment (FOMC clarity catalyst); macro conviction on post-flush recovery; personal positioning (trading comp long, personal sitting out); chart shows 4H BTC consolidation with liquidation heat map at multiple levels [$BTC/$MACRO] [2099876548144681230]
   - Sep 17 09:21Z — informational-technical-sentiment: $PUMP consolidation into Yom Kippur seasonal period; 1h Binance chart with support/resistance levels; technical observation on price structure; no personal execution signal [$PUMP] [2100515484718252350]
+  - Sep 17 11:41Z — informational-conviction-sentiment: dropped substack article on @artmachinexyz; expressing bullish conviction on generative art/genesis mint [$ARTMACHINEXYZ/$GENART] [2100550828205470103]
 
 ## trading_axe
 
