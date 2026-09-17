@@ -1,0 +1,155 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Self-resolved — @trading_axe"
+      },
+      "children": [
+        "status_badge",
+        "original_question",
+        "separator1",
+        "resolution_section",
+        "separator2",
+        "classification_section",
+        "separator3",
+        "link_section"
+      ]
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✅ Self-resolved",
+        "variant": "secondary"
+      }
+    },
+    "original_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "original_label",
+        "original_quote",
+        "original_context"
+      ]
+    },
+    "original_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Earlier ambiguous",
+        "level": "h3"
+      }
+    },
+    "original_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"buy the CASHCAT of …CASHCAT?\"",
+        "variant": "lead"
+      }
+    },
+    "original_context": {
+      "type": "Text",
+      "props": {
+        "text": "Philosophy critique on chasing Arc/RH replays while original winner distracted",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "resolution_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resolution_label",
+        "resolution_quote",
+        "resolver_name"
+      ]
+    },
+    "resolution_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Resolved by",
+        "level": "h3"
+      }
+    },
+    "resolution_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"You can't be this slow, it's sarcasm to say buy CASHCAT coz it's 1 of 1.\"",
+        "variant": "body"
+      }
+    },
+    "resolver_name": {
+      "type": "Text",
+      "props": {
+        "text": "@dudupiyenge37",
+        "variant": "muted"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "classification_label",
+        "classification_text"
+      ]
+    },
+    "classification_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "classification_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic market-psychology critique on sequel/narrative-fatigue risk; original opportunity gets diluted while traders chase worthless 1-of-1 meme replays.",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "view_link"
+      ]
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/trading_axe/status/2100373198155977103"
+      }
+    }
+  }
+}
