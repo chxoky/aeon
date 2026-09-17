@@ -1,0 +1,113 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat Self-Check"
+      },
+      "children": [
+        "alert_p0",
+        "separator_1",
+        "heading_p3",
+        "stack_p3",
+        "separator_2",
+        "note_morning"
+      ]
+    },
+    "alert_p0": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "🔴 HEARTBEAT SELF-CHECK (P0)",
+        "message": "Last success 2026-09-15T21:42Z (41h ago, threshold 36h). Scheduler missed Sep 16 + Sep 17 08:00/14:00 UTC heartbeat runs — agent appears to be under-dispatching."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_p3": {
+      "type": "Heading",
+      "props": {
+        "text": "Stale Skills (P3)",
+        "level": "h3"
+      }
+    },
+    "stack_p3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_market_context",
+        "item_narrative_tracker"
+      ]
+    },
+    "item_market_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_p3_1",
+        "text_market_context"
+      ]
+    },
+    "badge_p3_1": {
+      "type": "Badge",
+      "props": {
+        "text": "🟡 STALE (P3)",
+        "variant": "secondary"
+      }
+    },
+    "text_market_context": {
+      "type": "Text",
+      "props": {
+        "text": "market-context-refresh: last success 2026-09-15 (~48h on daily 13:00 UTC schedule)"
+      }
+    },
+    "item_narrative_tracker": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_p3_2",
+        "text_narrative_tracker"
+      ]
+    },
+    "badge_p3_2": {
+      "type": "Badge",
+      "props": {
+        "text": "🟡 STALE (P3)",
+        "variant": "secondary"
+      }
+    },
+    "text_narrative_tracker": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: last success 2026-09-15 (~48h on daily 13:30 UTC schedule)"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note_morning": {
+      "type": "Text",
+      "props": {
+        "text": "morning-pipeline/morning-brief 11d stale — dedup, flagged Sep 15",
+        "variant": "muted"
+      }
+    }
+  }
+}
