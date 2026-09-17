@@ -116,8 +116,9 @@
 - **Events (rolling):**
   - Sep 16 22:03Z — informational-technical-sentiment: IWM (Russell 2000) failed ATH breakout sarcasm; "Chart looked good (fresh ATH breakout) a month ago😒"; charts show ATH from Aug (~305 level) followed by -7.87% decline to 283, current recovery to 303 area; mocking failed technical setup/false breakout; reinforces established bearish IWM technical thesis [$IWM/$MACRO] [2100344914978730370]
   - Sep 16 21:53Z — informational-fomc-pattern: FOMC market cycle recurring pattern; QQQ grind-spike-FSH-fears-headline [$QQQ/$SEMIS/$MACRO] [2100342404650070394]
-- Last seen: 2026-09-17T00:13:24Z
+- Last seen: 2026-09-17T00:41:26Z
 - **Events (rolling):**
+  - Sep 17 00:41Z — ambiguous-cryptic: BTC heatmap + multi-timeframe charts; "Got maybe half the desired fills, ideally that's all I get"; unclear whether SHORT/LONG entry or market commentary; HR-2 calibration sent [$BTC] [2100384600363278810]
   - Sep 17 00:13Z — informational-macro-technical-sentiment: wage normalization + Fed policy analysis; wage growth normalized to 3.47% YoY; market forcing Fed to chase oil prices; Warsh/dovish-hawk dynamics; charts show wage normalization (Oct 2021 spike ~6.5% → current 3.47%) + 10Y Treasury repricing (2.9% → 4.62%, +162bp); macro market structure validation [$UST/$MACRO/$OIL/$FOMC] [2100377544923254834]
   - Sep 17 00:09Z — informational-technical-macro: NDX (Nasdaq-100) and ES (S&P 500 E-mini) daily levels tested; 2-image daily charts (NDX 28,945 showing moving averages/consolidation, ES 7,636 showing support zones 7,600/7,000 and POC volume profile); technical structure validation on established macro bearish-into-Oct thesis; higher-level market indicator (not specific ticker) [$NDX/$ES/$MACRO] [2100376563401494991]
   - Sep 16 23:52Z — ambiguous-cryptic: @_tolks reply; cryptic positive step sentiment; context external [$UNKNOWN] [2100372297718919545]

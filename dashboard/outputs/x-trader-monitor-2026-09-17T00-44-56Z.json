@@ -1,0 +1,170 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: BTC Consolidation Structure"
+      },
+      "children": [
+        "header_stack",
+        "separator_1",
+        "event_text",
+        "separator_2",
+        "quote_section",
+        "separator_3",
+        "chart_context",
+        "separator_4",
+        "question_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "calibration_badge",
+        "handle_link"
+      ]
+    },
+    "calibration_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔍 Calibration",
+        "variant": "secondary"
+      }
+    },
+    "handle_link": {
+      "type": "Link",
+      "props": {
+        "label": "@Wild_Randomness",
+        "href": "https://twitter.com/Wild_Randomness"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_text": {
+      "type": "Heading",
+      "props": {
+        "text": "Event: BTC consolidation structure; order-book heatmap analysis with multi-timeframe charts",
+        "level": "h3"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC\n\nIs it their turn now?\n\nGot maybe half the desired fills, ideally that's all I get."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chart_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chart_header",
+        "context_grid"
+      ]
+    },
+    "chart_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Context",
+        "level": "h4"
+      }
+    },
+    "context_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "btc_price_stat",
+        "resistance_stat",
+        "support1_stat",
+        "support2_stat",
+        "ibit_text",
+        "recovery_text"
+      ]
+    },
+    "btc_price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC 1H",
+        "value": "75,670"
+      }
+    },
+    "resistance_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Resistance",
+        "value": "82,601"
+      }
+    },
+    "support1_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Support 1",
+        "value": "74,663"
+      }
+    },
+    "support2_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Support 2",
+        "value": "73,656"
+      }
+    },
+    "ibit_text": {
+      "type": "Text",
+      "props": {
+        "text": "IBIT ETF consolidation",
+        "variant": "body"
+      }
+    },
+    "recovery_text": {
+      "type": "Text",
+      "props": {
+        "text": "Daily recovery structure from Sep 13 bottom",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Clarification Needed",
+        "message": "Unable to classify — what's your read? Is this a personal SHORT/LONG entry, or market structure commentary?",
+        "type": "info"
+      }
+    }
+  }
+}
