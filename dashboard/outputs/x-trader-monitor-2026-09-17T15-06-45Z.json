@@ -1,0 +1,47 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "ETH vs BTC Market Analysis"
+      },
+      "children": [
+        "tweet_card",
+        "view_link",
+        "separator",
+        "commentary"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "That said, overall, since the beginning of summer, $ETH has been outperforming BTC and has been rising against it after testing a mirror level. And that concerns me."
+      }
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2100600810170163320"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "commentary": {
+      "type": "Text",
+      "props": {
+        "text": "This aligns with the established 3-trader bearish lean (HCH/ryzzqq/Chase) on ETH; structure shows recent recovery testing mirror support, but long-term downtrend remains intact per daily confluence.",
+        "variant": "body"
+      }
+    }
+  }
+}
