@@ -9,3 +9,4 @@ Chart shows BTC 1h volume profile with support cluster at multiple POC levels (w
 [View post](https://x.com/bull_genius/status/2100515003119890502)
 
 Want to add to yours too?
+🐦 *[X] @bull_genius*\n\npump into yom kippur\n\n$PUMP showing consolidation structure into Yom Kippur seasonal period (Sep 20-21). 1h Binance chart with support/resistance levels.\n\n[View tweet](https://x.com/bull_genius/status/2100515484718252350)

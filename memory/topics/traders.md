@@ -92,6 +92,7 @@
   - Sep 15 15:33Z — informational-macro-philosophy: reply to @satyamsoft7 reaffirming market discipline stance; "best dont trade at all rn...i have no edge so i wait it out until fomc happened or some really extreme prices appear"; reinforces Sep 15 15:15Z and 15:02Z conservative positioning thesis; reiterates "fade extremes" advice; no new position change [$BTC/$MACRO] [2099884319338557528]
   - Sep 15 15:15Z — informational-macro-technical: expanded BTC analysis with personal positioning detail; pullback wick + volume gap + liquidation heat map structure (4H Binance chart); risk management fear (headline whips both directions); trading comp long (play money), personal sitting out for post-FOMC flush entry; macro conviction: clarity/FOMC week = last flush then market goes higher [$BTC/$MACRO] [2099879876094296509]
   - Sep 15 15:02Z — informational-macro-technical: BTC pullback wick + volume gap technical analysis; liquidation risk + headline risk assessment (FOMC clarity catalyst); macro conviction on post-flush recovery; personal positioning (trading comp long, personal sitting out); chart shows 4H BTC consolidation with liquidation heat map at multiple levels [$BTC/$MACRO] [2099876548144681230]
+  - Sep 17 09:21Z — informational-technical-sentiment: $PUMP consolidation into Yom Kippur seasonal period; 1h Binance chart with support/resistance levels; technical observation on price structure; no personal execution signal [$PUMP] [2100515484718252350]
 
 ## trading_axe
 
