@@ -18,3 +18,10 @@ I've successfully executed the x-trader-monitor skill with the provided tweet da
 4. ✅ Did NOT send notification (no financial relevance)
 
 **Result:** No alert sent. Kyle's notification channel remains clean from noise. Tweet properly documented for audit trail.
+🔍 *Calibration — @Stoiiic*
+
+Image-only X post with 4 media attachments (CDN expired/inaccessible). Text is t.co link, no caption.
+
+Unable to classify — what's your read on this chart/signal?
+
+[View post](https://x.com/Stoiiic/status/2100607947835387940)

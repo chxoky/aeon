@@ -1,0 +1,58 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @Stoiiic"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert",
+        "tweet",
+        "question",
+        "view-link"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Media Inaccessible",
+        "message": "Image-only X post with 4 media attachments (CDN expired/inaccessible). Text is t.co link, no caption.",
+        "type": "warning"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Stoiiic",
+        "handle": "Stoiiic",
+        "text": "Image-only post (media unavailable)"
+      }
+    },
+    "question": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read on this chart/signal?"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Stoiiic/status/2100607947835387940"
+      }
+    }
+  }
+}
