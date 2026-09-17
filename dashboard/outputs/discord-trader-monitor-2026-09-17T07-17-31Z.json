@@ -1,0 +1,70 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "calibration_label",
+        "sep1",
+        "message",
+        "sep2",
+        "content_stack"
+      ]
+    },
+    "calibration_label": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Free]",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "fc btc 15m"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_text",
+        "question_text"
+      ]
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic notation—two-word ticker/timeframe combo. Possible interpretations: \"few changes btc 15-min\", technical shorthand, personal abbr.",
+        "variant": "body"
+      }
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify—what's your read?",
+        "variant": "lead"
+      }
+    }
+  }
+}

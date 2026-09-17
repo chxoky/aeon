@@ -1,12 +1,7 @@
-🔍 *Calibration — [DC: HCH — Chat]*
+🔍 *Calibration — [DC: HCH — Free]*
 
-Event: Member chat message from HeartCanHodl on 2026-09-17T05:27:19Z
+HeartCanHodl: "fc btc 15m"
 
-HCH: "send hype > 80.5"
+Cryptic notation—two-word ticker/timeframe combo. Possible interpretations: "few changes btc 15-min", technical shorthand, personal abbr.
 
-Unable to classify — is this:
-(a) Personal execution signal (place/send HYPE order)?
-(b) Conviction statement on HYPE direction?
-(c) Response to member question about HYPE trading?
-
-What's your read?
+Unable to classify—what's your read?
