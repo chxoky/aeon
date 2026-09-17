@@ -1,0 +1,92 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_calibration",
+        "section_event",
+        "section_analysis"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      }
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_event_desc",
+        "tweet_reply"
+      ]
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @kitsunedevs and @artmachinexyz about mint mechanics",
+        "variant": "lead"
+      }
+    },
+    "tweet_reply": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "text": "@kitsunedevs @artmachinexyz mint mechanics not public yet idk them"
+      }
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_classify",
+        "text_question",
+        "text_context"
+      ]
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "type": "info"
+      }
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read? Is this responding to a specific project announcement/discussion, or generic banter?",
+        "variant": "body"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Second cryptic reply to @kitsunedevs in recent window (Sep 15 12:19Z also pending).",
+        "variant": "caption"
+      }
+    }
+  }
+}
