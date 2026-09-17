@@ -1,6 +1,6 @@
-🐦 *[X] @Wild_Randomness*
+🔍 *Calibration — @Wild_Randomness*
 
-Market just moves so much faster now, what more do you really want at this point?
+Event: Reply to @Going2Disappear on market activity
 
 Equities may be slower to respond, but this stuff is already fully priced into the yield curve
 $SPX $SPY
@@ -18,3 +18,8 @@ Informational market structure observation - aligns with bearish-equities-into-O
 
 ↳ _Aligns with established bearish-equities-into-Oct thesis; validates macro pricing of yield curve dynamics._
 [View post](https://x.com/Wild_Randomness/status/2100573175797162347)
+Wild_Randomness: "5. gtd algo firing on the indices"
+
+Unable to classify — cryptic abbreviation-heavy notation (gtd = good-till-canceled, algo = algorithm). What's your read on this? Index commentary or technical level call?
+
+[View post](https://x.com/Wild_Randomness/status/2100573944210133313)

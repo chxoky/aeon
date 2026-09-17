@@ -124,8 +124,9 @@
 - Last seen: 2026-09-17T04:39:58Z
 - **Events (rolling):**
   - Sep 17 04:39Z — ambiguous-cryptic: @50ptMAE reply on hiking cycle comparison; "if this hiking cycle is happening I'd expect a miniature version of 2022… probably draw down into 2H Q1…"; "I am playing the contrarian longs here but this is like a 3-4 week view max" — unclear if personal execution (placed contrarian long position) or discussing scenario; US10Y-US02Y spread chart vs SPX comparison (2022 vs current structure); yield curve analysis thesis; HR-2 calibration sent [$SPX/$ES/$MACRO/$HIKING-CYCLE/$YIELD-CURVE] [2100444628621447560]
-- Last seen: 2026-09-17T13:07:16Z
+- Last seen: 2026-09-17T13:13:49Z
 - **Events (rolling):**
+  - Sep 17 13:13Z — ambiguous-cryptic: reply to @Going2Disappear on algorithmic orders; "5. gtd algo firing on the indices" — cryptic abbreviation (gtd=good-till-canceled, algo=algorithm); unclear if market observation, technical level, or external context reference; HR-2 calibration sent [$INDICES/$UNKNOWN] [2100573944210133313]
   - Sep 17 13:07Z — informational-macro-sentiment-conviction: market pricing/forward-discovery commentary; "Market just moves so much faster now… Equities may be slower to respond, but this stuff is already fully priced into the yield curve"; conviction alignment with bearish-equities-into-Oct thesis; validates that market structure already pricing rates/yield repricing; macro observation no new trade action [$EQUITIES/$UST/$MACRO] [2100572295706370309]
   - Sep 17 13:01Z — informational-macro-sentiment: AAII Sentiment Survey historical data chart; Sep 16 reading shows 53.3% bearish (highest since May 11, 2025) and 28.8% bullish (lowest since Sep 11, 2025); macro sentiment validation of established bearish-equities-into-Oct thesis; extreme positioning confirms multi-stage breakdown framework [$MACRO/$SENTIMENT/$AAII] [2100570884763459928]
 - Last seen: 2026-09-17T13:10:46Z
