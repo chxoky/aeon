@@ -117,8 +117,9 @@
 - **Events (rolling):**
   - Sep 16 22:03Z — informational-technical-sentiment: IWM (Russell 2000) failed ATH breakout sarcasm; "Chart looked good (fresh ATH breakout) a month ago😒"; charts show ATH from Aug (~305 level) followed by -7.87% decline to 283, current recovery to 303 area; mocking failed technical setup/false breakout; reinforces established bearish IWM technical thesis [$IWM/$MACRO] [2100344914978730370]
   - Sep 16 21:53Z — informational-fomc-pattern: FOMC market cycle recurring pattern; QQQ grind-spike-FSH-fears-headline [$QQQ/$SEMIS/$MACRO] [2100342404650070394]
-- Last seen: 2026-09-17T01:45:31Z
+- Last seen: 2026-09-17T01:53:27Z
 - **Events (rolling):**
+  - Sep 17 01:53Z — informational-technical-sentiment: $HYPE recovery "hiking cycle" from Aug lows; 4H V-shape + 1D consolidation toward 88-90 [$HYPE] [2100402723393040595]
   - Sep 17 01:45Z — informational-technical: LIT/USDT 4H consolidation above POC level ~4.7; bullish structure [$LIT] [2100400726782640248]
   - Sep 17 01:39Z — informational-macro-sentiment: market rally risk vs consensus October bottom plan; "nonsensical face-ripping rally" upside warning (contrarian to October-bottom wait plan); sentiment/directional outlook, no personal action [$MACRO/$SPY/$RALLY-RISK] [2100399310445977756]
   - Sep 17 01:33Z — informational-macro-sentiment: market structure patience commentary; reply to @_MLAR_ on May 2026 bullish action post-"clarity" (Clarity Act regulatory decision failed); "giving myself at least that much to see what kind of action we can get / Hike cycle or not" = expressed patience waiting ~10 days for potential market rally regardless of Fed policy direction; no specific ticker, no personal trade action [$MACRO/$FOMC/$SENTIMENT] [2100397749091156011]
