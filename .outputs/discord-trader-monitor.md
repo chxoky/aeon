@@ -25,3 +25,9 @@ I've successfully processed the Discord event for **KillaXBT** at 2026-09-17T11:
 - Maintained size discipline (event line ≤200 chars, no duplicate trader sections) ✓
 
 No action required — informational logging complete. Fast-path Telegram was sent ~2-5s after message creation by the Cloudflare Worker.
+🔍 *Calibration — [DC: K]*
+
+Event: KillaXBT messaging in primary channel (Trades)
+Message: "Little update regarding position <@&1411520653000966245>"
+
+Unable to classify — what's your read? (Position not specified, no actionable detail)

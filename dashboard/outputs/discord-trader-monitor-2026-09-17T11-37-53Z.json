@@ -1,0 +1,69 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "calibration_text",
+        "sep1",
+        "event_details",
+        "sep2",
+        "classification_status"
+      ]
+    },
+    "calibration_text": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: K]",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_header",
+        "message_text"
+      ]
+    },
+    "event_header": {
+      "type": "Text",
+      "props": {
+        "text": "Event: KillaXBT messaging in primary channel (Trades)"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message: \"Little update regarding position <@&1411520653000966245>\""
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify — what's your read?",
+        "message": "Position not specified, no actionable detail",
+        "type": "warning"
+      }
+    }
+  }
+}
