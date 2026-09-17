@@ -1,0 +1,268 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Chart Validation: $PUMP Recovery",
+        "description": "Technical analysis and trading signal by @Wild_Randomness"
+      },
+      "children": [
+        "header-stack",
+        "separator-1",
+        "main-stats",
+        "separator-2",
+        "analysis-section",
+        "separator-3",
+        "conviction-stack",
+        "separator-4",
+        "links-section",
+        "separator-5",
+        "note-alert"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-author",
+        "badge-indicator"
+      ]
+    },
+    "badge-author": {
+      "type": "Badge",
+      "props": {
+        "text": "@Wild_Randomness",
+        "variant": "default"
+      }
+    },
+    "badge-indicator": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart Validation",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "main-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-summary",
+        "stat-recovery",
+        "stat-price"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "$PUMP recovery with bullish structure",
+        "variant": "lead"
+      }
+    },
+    "stat-recovery": {
+      "type": "Stat",
+      "props": {
+        "label": "1D Recovery",
+        "value": "+8.90%",
+        "trend": "up"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Price",
+        "value": "0.004703"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-analysis",
+        "grid-timeframes"
+      ]
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Analysis",
+        "level": "h2"
+      }
+    },
+    "grid-timeframes": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "timeframe-4h",
+        "timeframe-1d"
+      ]
+    },
+    "timeframe-4h": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-4h",
+        "text-4h-consolidation",
+        "text-4h-resistance"
+      ]
+    },
+    "heading-4h": {
+      "type": "Heading",
+      "props": {
+        "text": "4H",
+        "level": "h3"
+      }
+    },
+    "text-4h-consolidation": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation at 0.003732",
+        "variant": "body"
+      }
+    },
+    "text-4h-resistance": {
+      "type": "Text",
+      "props": {
+        "text": "Resistance: 0.005",
+        "variant": "body"
+      }
+    },
+    "timeframe-1d": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-1d",
+        "text-1d-highs",
+        "text-1d-momentum",
+        "text-1d-mas"
+      ]
+    },
+    "heading-1d": {
+      "type": "Heading",
+      "props": {
+        "text": "1D",
+        "level": "h3"
+      }
+    },
+    "text-1d-highs": {
+      "type": "Text",
+      "props": {
+        "text": "Higher highs and lows",
+        "variant": "body"
+      }
+    },
+    "text-1d-momentum": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish momentum",
+        "variant": "body"
+      }
+    },
+    "text-1d-mas": {
+      "type": "Text",
+      "props": {
+        "text": "Above key moving averages",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "conviction-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-conviction",
+        "badge-conviction"
+      ]
+    },
+    "heading-conviction": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading Signal",
+        "level": "h3"
+      }
+    },
+    "badge-conviction": {
+      "type": "Badge",
+      "props": {
+        "text": "Hike it — Conviction on further upside",
+        "variant": "default"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "links-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-tweet"
+      ]
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100414371361075655"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Pending Approval",
+        "message": "$PUMP still awaiting your approval from Sep 09 entry. Chart validates recovery thesis post-FOMC.",
+        "type": "info"
+      }
+    }
+  }
+}
