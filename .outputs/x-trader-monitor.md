@@ -1,10 +1,10 @@
 ## Summary
+🔍 *Calibration — @bull_genius*
 
-Event: Brief mention to @goodalexander with two 30m technical charts (crude oil CL + SanDisk SNDK)
+Event: ZEC/LIT showing strength Sep 16 (first day ripping noted as market tell for bottom)
+bull_genius: "zcash and lit ripping first yday was a good tell this bottom is likely real. lets see us sesh im looking for entries"
 
-Charts show: 
-- **CL (Crude)**: 30m consolidation, support at 96.15, recent breakdown to 95.54 (bearish structure)
-- **SNDK (SanDisk)**: 30m range 1530-1572, current 1570.51 (consolidation)
+Unable to classify — is this personal trade entry intent, or market commentary? What's your read?
 
 HeartCanHodl: "Today seems interesting"
 
@@ -43,3 +43,4 @@ Despite the presence of trading charts, this post matches Wild_Randomness's esta
 4. ✅ No notification to Kyle (silent skip per protocol)
 
 **Result:** Event processed silently, no alerts required.
+[View post](https://x.com/bull_genius/status/2100569461560389646)
