@@ -127,6 +127,9 @@
 - Last seen: 2026-09-17T13:01:40Z
 - **Events (rolling):**
   - Sep 17 13:01Z — informational-macro-sentiment: AAII Sentiment Survey historical data chart; Sep 16 reading shows 53.3% bearish (highest since May 11, 2025) and 28.8% bullish (lowest since Sep 11, 2025); macro sentiment validation of established bearish-equities-into-Oct thesis; extreme positioning confirms multi-stage breakdown framework [$MACRO/$SENTIMENT/$AAII] [2100570884763459928]
+- Last seen: 2026-09-17T13:06:06Z
+- **Events (rolling):**
+  - Sep 17 13:06Z — informational-macro-technical: yield curve 10Y-2Y setup scary similar to 2022 hiking cycle start; same action into first hike (image 1); starting yields different materially (thinks 26/27 ≠ 22 per image 2); charts unavailable for fetch; validates established hiking-cycle macro thesis [$UST/$MACRO/$HIKING-CYCLE] [2100572001568170110]
   - Sep 17 04:42Z — informational-macro-sentiment: oil pricing outlook; if doesn't drop to $80 next 1-3 weeks (month or two window), equities grind lower. 10Y-2Y Treasury spread chart (yield curve dynamics). Reply to @itsminutess. [$OIL/$MACRO/$UST] [2100445156029940203]
   - Sep 17 04:09Z — ambiguous-cryptic: "April 2024?" SPY daily charts (Mar-Sep consolidation structure); April 2024 reference pattern unconfirmed; HR-2 calibration sent [$SPX/$MACRO] [2100436949920346390]
   - Sep 17 03:11Z — ambiguous-cryptic: @AlexCorrino/@chumbawamba22 "What if?" reply; context unknown; HR-2 sent [$UNKNOWN] [2100422409849614821]
