@@ -1,0 +1,125 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Sentiment — @bull_genius",
+        "description": "x-trader-monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-text",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "metrics-grid",
+        "separator-3",
+        "analysis-stack"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC NFT mint (ZKSNARKS NODE 07) auction results: 16,971 bids for 8,000 NFTs, cleared at 1.52ZEC (~$2.19K), $36.94M total volume.",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "zec nft mint zksnarks just casually raised 17M usd and you think nfts are not back as fuck?"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-bids",
+        "stat-nfts",
+        "stat-price",
+        "stat-volume"
+      ]
+    },
+    "stat-bids": {
+      "type": "Stat",
+      "props": {
+        "label": "Bids",
+        "value": "16,971"
+      }
+    },
+    "stat-nfts": {
+      "type": "Stat",
+      "props": {
+        "label": "NFTs",
+        "value": "8,000"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Cleared Price",
+        "value": "1.52 ZEC (~$2.19K)"
+      }
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Volume",
+        "value": "$36.94M"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-tweet",
+        "analysis-text"
+      ]
+    },
+    "link-tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2100624062330364097"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Validates bull_genius's ARGONAUTS bullish NFT thesis (6+ mentions Sep 07-16). Strong demand signal on ZEC protocol NFT mints supports broader market recovery narrative.",
+        "variant": "muted"
+      }
+    }
+  }
+}
