@@ -12,3 +12,10 @@ Unable to classify — what's your read? Possible interpretations:
 HCH holds 3% LINK tactical long (Sep 17 portfolio summary). Referenced images (t.co link) were unfetchable in this environment.
 
 Tweet: https://x.com/HeartCanHodl/status/2100565795734802748
+🐦 *[X] @HeartCanHodl*
+
+$NEAR & $LIT mogging ZEC today
+
+Performance: NEAR +17.00%, LIT +15.02% vs ZEC +13.24%
+
+[View tweet](https://x.com/HeartCanHodl/status/2100566136001864118)

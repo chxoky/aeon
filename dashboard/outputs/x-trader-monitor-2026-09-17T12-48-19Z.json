@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet",
+        "separator_1",
+        "perf_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "$NEAR & $LIT mogging ZEC today"
+      },
+      "children": []
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100566136001864118"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "perf_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "perf_heading",
+        "perf_grid"
+      ]
+    },
+    "perf_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Performance",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "perf_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_near",
+        "stat_lit",
+        "stat_zec"
+      ]
+    },
+    "stat_near": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR",
+        "value": "+17.00%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_lit": {
+      "type": "Stat",
+      "props": {
+        "label": "LIT",
+        "value": "+15.02%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+13.24%",
+        "trend": "up"
+      },
+      "children": []
+    }
+  }
+}
