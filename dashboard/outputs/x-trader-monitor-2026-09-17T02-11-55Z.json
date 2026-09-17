@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_tweet_link",
+        "separator1",
+        "interpretation_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "If this stupid FOMC \"fractal\" keeps holding then expect some reversion overnight\n\nJust putting it out there lol"
+      },
+      "children": []
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100405234350891027"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretation_text": {
+      "type": "Text",
+      "props": {
+        "text": "Post-FOMC market structure prediction. Conditional reversion thesis on fractal pattern (charts show technical formation tied to Sep 16 Fed decision).",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
