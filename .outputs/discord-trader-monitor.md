@@ -1,23 +1,27 @@
 ## Summary
 
-✅ **Skill execution complete**: discord-trader-monitor processed Crypto_Chase's GOLD conviction confirmation.
+**Discord Trader Monitor — discord-trader-monitor skill executed**
 
-**Event Details:**
-- **Trader:** Crypto_Chase (verified username)
-- **Channel:** Chase — Chase (primary, 1336082716063694962)
-- **Time:** 2026-09-17T13:37:55Z
-- **Message:** "Gold still open and fine. The low gave us constructive price action." + chart attachment
-- **Classification:** Self-resolved-conviction (informational)
+**Event Processed:**
+- **Trader:** crypto_chase
+- **Channel:** 1336082716063694962 (Chase — Chase primary)
+- **Message ID:** 1550176117799915632
+- **Timestamp:** 2026-09-17T16:06:27Z
 
-**Protocol Applied:**
-- **Fast-path alert:** true → Cloudflare Worker pre-alerted Telegram ~2-5s post-message; skipped duplicate send per protocol
-- **HR-3 (Self-resolve rule):** Sep 16 logged GOLD position at decision threshold ("constructive PA needed or cut"). Sep 17 message directly resolves → confirmed holding.
-- **Steps executed:** 2 (resolve) → 5 (classify) → 9 (memory update) → 10 (log)
+**Classification:** NON-FINANCIAL → SKIP
 
-**Memory Updates:**
-- Message ID added to dedup tracker
-- traders.md updated: Sep 17 13:37Z event logged (rolling 25-event window, <200 char enforced)
-- Log entry appended to 2026-09-17.md with full classification + notes
-- Last Seen timestamp: 2026-09-17T13:37:55Z
+**Analysis:**
+The message is promotional content asking for engagement on an X post: `"<@&1247940234558177521> https://x.com/Crypto_Chase/status/2100617251942494237 any likes/comments on the game appreciated, thank you."`
 
-**No Kyle action needed** — conviction confirmation only, no approval checkpoint. GOLD long position held, conviction validated by constructive low price action.
+This matches **HR-1 (Non-financial content)** — pure banter/administrative, no trade signal or market insight. Per protocol, this message was:
+
+- **Skipped silently** (no calibration alert sent)
+- **Not added to traders.md** (skip events don't create event lines per size-discipline rules)
+- **Message ID recorded** to `memory/discord-trader-seen.txt` for dedup prevention
+- **Logged to daily activity log** with classification and reasoning
+
+No Telegram notification was sent. No memory updates needed.
+
+**Files Updated:**
+- `memory/discord-trader-seen.txt` — added message ID 1550176117799915632
+- `memory/logs/2026-09-17.md` — appended event log entry
