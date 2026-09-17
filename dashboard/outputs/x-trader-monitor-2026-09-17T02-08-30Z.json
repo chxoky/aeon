@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @t_in_crypto"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-text",
+        "position-stat",
+        "separator-1",
+        "tweet-card",
+        "separator-2",
+        "question-text"
+      ]
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: t_in_crypto currently SHORT at 79.297 BTC (awaiting flip signal per Sep 15 calibration)",
+        "variant": "lead"
+      }
+    },
+    "position-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Position",
+        "value": "79.297 BTC",
+        "delta": "SHORT"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "text": "@Giant_Bull12 🚀"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? (Bullish sentiment? Agreement with Giant_Bull12's bullish take? Signal to exit short / begin flip prep?)",
+        "variant": "body"
+      }
+    }
+  }
+}
