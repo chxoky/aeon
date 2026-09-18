@@ -1,5 +1,7 @@
-💬 *[DC: HCH — Free]*
+🔍 *Calibration — [DC: HCH — Chat]*
 
-Keep "breaking key levels" as the trigger
+HeartCanHodl (Sep 18 05:16 UTC): "Fc bncusdt 15m"
 
-https://x.com/HeartCanHodl/status/2100805744866341354
+Unable to classify — what's your read? 
+
+Possible interpretations: technical shorthand on BNB/USDT pair? macro commentary? Could be: 'Few changes BN CUSDT 15m' or similar notation not yet documented in baseline.

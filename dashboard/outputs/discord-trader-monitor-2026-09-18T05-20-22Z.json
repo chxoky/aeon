@@ -1,0 +1,114 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration request — unclassified message"
+      },
+      "children": [
+        "heading_calibration",
+        "sep_1",
+        "text_message",
+        "alert_unable",
+        "text_question",
+        "sep_2",
+        "heading_interp",
+        "stack_interp"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_message": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl (Sep 18 05:16 UTC): \"Fc bncusdt 15m\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_unable": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Message classification failed",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_interp": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_interp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_interp_1",
+        "text_interp_2",
+        "text_interp_3"
+      ]
+    },
+    "text_interp_1": {
+      "type": "Text",
+      "props": {
+        "text": "technical shorthand on BNB/USDT pair?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interp_2": {
+      "type": "Text",
+      "props": {
+        "text": "macro commentary?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_interp_3": {
+      "type": "Text",
+      "props": {
+        "text": "Could be: 'Few changes BN CUSDT 15m' or similar notation not yet documented in baseline.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
