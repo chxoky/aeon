@@ -1,0 +1,89 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "analysis-section"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "@KillaXBT",
+        "text": "So who the fuck is laughing now? All week the same clowns were talking shit. Now they're eating it. I was right. They're loud, wrong, and broke. Last laugh is mine, yet again. If you're scalping, do what you want. We saw a 3.87% bounce. If you're swing trading like I am, hold.\n\n$BTC"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-heading",
+        "consolidation-text",
+        "bounce-stat",
+        "support-level",
+        "conviction-text",
+        "tweet-link"
+      ]
+    },
+    "analysis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chart Analysis",
+        "level": "h4"
+      }
+    },
+    "consolidation-text": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidation chart validates 75.5–76.5K support holding thesis.",
+        "variant": "body"
+      }
+    },
+    "bounce-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Bounce",
+        "value": "3.87%",
+        "trend": "up"
+      }
+    },
+    "support-level": {
+      "type": "Text",
+      "props": {
+        "text": "Support Zone: 75.5–76.5K",
+        "variant": "caption"
+      }
+    },
+    "conviction-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligned with bull_genius post-FOMC conviction adds (Sep 17 09:19Z)",
+        "variant": "muted"
+      }
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2100909619832885284"
+      }
+    }
+  }
+}
