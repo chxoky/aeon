@@ -1,4 +1,4 @@
-🔍 *Calibration — @bull_genius*
+Given the detailed analysis and chart reading, this is HCH's portfolio summary from Sep 11-16 now being reiterated on Sep 18 with a performance chart. It's an **INFORMATIONAL** post—no new trades to mirror, just validation of the completed book with visual performance data showing how the 20+ position allocation is performing (NEAR leading at +17.3%, LIT +16.3%; CL short down -2.2%).
 
 Event: Reply to @thefeelgambler
 bull_genius: "it could be yes"
@@ -36,3 +36,4 @@ What's your read?
 [View post](https://x.com/HeartCanHodlstatus/2100860037883183195)
 [View post](https://x.com/bull_genius/status/2100860540935385332)
 ↳ Sarcastic sentiment on alt recovery; HYPE/ZEC watch-list tickers performing (follows HCH 03:34Z HYPE regret post).
+**Summary**: Portfolio allocation book recap with performance validation. No Kyle approval needed. Classification logged.
