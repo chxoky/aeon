@@ -1,0 +1,138 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "portfolio_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Many more from the portfolio mogging it today 👀\n\n$near $bnc $form $hype"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "portfolio_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "portfolio_heading",
+        "stats_grid",
+        "performance_context",
+        "positions_details",
+        "view_tweet_link"
+      ]
+    },
+    "portfolio_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Portfolio snapshot",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_near",
+        "stat_bnb",
+        "stat_form",
+        "stat_hype"
+      ]
+    },
+    "stat_near": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR",
+        "value": "+27.87%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_bnb": {
+      "type": "Stat",
+      "props": {
+        "label": "BNB",
+        "value": "+14.56%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_form": {
+      "type": "Stat",
+      "props": {
+        "label": "FORM",
+        "value": "+10.66%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "+9.65%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "performance_context": {
+      "type": "Text",
+      "props": {
+        "text": "Strong tactical long performance",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "positions_details": {
+      "type": "Text",
+      "props": {
+        "text": "Positions align with documented holdings: NEAR 1% Sep 12, BNB 1% Sep 14, HYPE was short basket closed Sep 16—monitor for re-entry signals.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "view_tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100795740322963874"
+      },
+      "children": []
+    }
+  }
+}

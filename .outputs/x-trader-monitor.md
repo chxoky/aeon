@@ -1,8 +1,9 @@
-🔍 *Calibration — @swarmister*
+🐦 *[X] @HeartCanHodl*
 
-Event: Reply to @garbycab with 4 chart images
-swarmister: "Found one https://t.co/3OEVPMJBjw"
+Many more from the portfolio mogging it today 👀
 
-Unable to classify — what's your read? The referenced images couldn't be fetched.
+$near $bnc $form $hype
 
-[https://x.com/swarmister/status/2100791339222757412]
+[View tweet](https://x.com/HeartCanHodl/status/2100795740322963874)
+
+↳ Portfolio snapshot: NEAR +27.87%, BNB +14.56%, FORM +10.66%, HYPE +9.65% (strong tactical long performance). Positions align with documented holdings (NEAR 1% Sep 12, BNB 1% Sep 14, HYPE was short basket closed Sep 16—monitor for re-entry signals).
