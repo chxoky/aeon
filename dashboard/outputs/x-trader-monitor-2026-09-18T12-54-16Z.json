@@ -1,0 +1,72 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-hype",
+        "text-time",
+        "tweet-card",
+        "link-view",
+        "sep-analysis",
+        "text-analysis"
+      ]
+    },
+    "badge-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "$HYPE",
+        "variant": "default"
+      }
+    },
+    "text-time": {
+      "type": "Text",
+      "props": {
+        "text": "32 hours later…",
+        "variant": "muted"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Sometimes the coin just needs a little push (bull post)…"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100930030234931643"
+      }
+    },
+    "sep-analysis": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show V-shape recovery from Aug lows ($55→$91 range) with intact moving-average support; volume-confirmed uptrend.",
+        "variant": "body"
+      }
+    }
+  }
+}
