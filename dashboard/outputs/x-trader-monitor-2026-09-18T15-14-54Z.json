@@ -1,0 +1,65 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — @HeartCanHodl"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event-badge",
+        "tweet-card",
+        "analysis-text",
+        "separator-1",
+        "link-post"
+      ]
+    },
+    "event-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Event: Reply to @chrisgpx_ tweet",
+        "variant": "default"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@chrisgpx_ 👀👀"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — need context on what @chrisgpx_ tweeted about. Eyes emoji suggests market interest/excitement, but without the original tweet context, can't determine if this is a financial signal or social banter. Check @chrisgpx_'s timeline ~15:09 UTC Sep 18 for likely topics (recent HCH activity shows BTC conviction adds, SOL victory lap, market-timing commentary).",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2100965528877568246",
+        "source": "X"
+      }
+    }
+  }
+}
