@@ -1,0 +1,71 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-cal",
+        "separator1",
+        "stack-main"
+      ]
+    },
+    "heading-cal": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-event",
+        "tweet-card",
+        "alert-error",
+        "link-post"
+      ]
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Standalone cryptic post with unretrievable media"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "@ContrariansYessir"
+      }
+    },
+    "alert-error": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — media image failed to fetch. What's your read?",
+        "type": "warning"
+      }
+    },
+    "link-post": {
+      "type": "StoryLink",
+      "props": {
+        "title": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100782240284455041"
+      }
+    }
+  }
+}
