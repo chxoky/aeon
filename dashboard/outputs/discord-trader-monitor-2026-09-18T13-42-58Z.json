@@ -1,0 +1,153 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-calibration",
+        "text-ref",
+        "sep1",
+        "heading-event",
+        "text-event",
+        "sep2",
+        "heading-message",
+        "trader-badge",
+        "text-message",
+        "sep3",
+        "heading-analysis",
+        "status-badge",
+        "text-analysis",
+        "sep4",
+        "heading-context",
+        "text-context"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-ref": {
+      "type": "Text",
+      "props": {
+        "text": "[DC: HCH — Chat]",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Trader post in supporting member-chat channel"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-message": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trader-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-message": {
+      "type": "Text",
+      "props": {
+        "text": "Fc btc 5m",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Unable to classify",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-analysis": {
+      "type": "Text",
+      "props": {
+        "text": "This looks like technical shorthand (possible: few changes / fundamentals change / force close / condition on 5m timeframe?)"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-context": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Similar pattern appeared Sep 16 from KillaXBT (\"fc eth 5m\", also marked ambiguous)"
+      },
+      "children": []
+    }
+  }
+}
