@@ -1,0 +1,129 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "altcoin_section",
+        "sep2",
+        "sentiment_section"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Even $ENS is up more!\n\nAltcoin momentum post-FOMC: NEAR +27-28%, BNC +23%, STRK +20-22%, HYPE +10-11%, ZEC +7-8%"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "altcoin_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "altcoin_heading",
+        "altcoin_table"
+      ]
+    },
+    "altcoin_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Altcoin Performance",
+        "level": "h3"
+      }
+    },
+    "altcoin_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Change"
+        ],
+        "rows": [
+          [
+            "NEAR",
+            "+27-28%"
+          ],
+          [
+            "BNC",
+            "+23%"
+          ],
+          [
+            "STRK",
+            "+20-22%"
+          ],
+          [
+            "HYPE",
+            "+10-11%"
+          ],
+          [
+            "ZEC",
+            "+7-8%"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sentiment_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sentiment_heading",
+        "sentiment_text",
+        "context_badge",
+        "tweet_link"
+      ]
+    },
+    "sentiment_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "sentiment_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic sentiment on alt recovery; HYPE/ZEC watch-list tickers performing (follows HCH 03:34Z HYPE regret post).",
+        "variant": "body"
+      }
+    },
+    "context_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Post-FOMC Momentum",
+        "variant": "secondary"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100862683620770209"
+      }
+    }
+  }
+}

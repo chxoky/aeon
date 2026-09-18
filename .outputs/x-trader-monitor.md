@@ -4,13 +4,13 @@ Event: Reply to @thefeelgambler
 bull_genius: "it could be yes"
 
 Unable to classify — what's your read?
+🐦 *[X] @HeartCanHodl*
 
-**Key details:**
-- **Ticker:** BTCDOM (Bitcoin Dominance)
-- **Technical level:** Support zone at 5114.1-5138.7 (1h Binance Perp)
-- **Signal interpretation:** Chart-based commentary identifying key support with implied bullish bias ("If you're not bidding your favourite coins here, what are you even doing?")
-- **Sentiment:** Bullish accumulation opportunity at support
-- **Cross-platform dedup:** No matching Discord post within 30-min window; proceeds with full classification
+Even $ENS is up more!
+
+*Altcoin momentum post-FOMC: NEAR +27-28%, BNC +23%, STRK +20-22%, HYPE +10-11%, ZEC +7-8%*
+
+[View tweet](https://x.com/HeartCanHodl/status/2100862683620770209)
 
 **Memory updates needed:**
 1. Add tweet ID (2100859779857973320) to `x-trader-seen.txt` ✓
@@ -35,3 +35,4 @@ What's your read?
 
 [View post](https://x.com/HeartCanHodlstatus/2100860037883183195)
 [View post](https://x.com/bull_genius/status/2100860540935385332)
+↳ Sarcastic sentiment on alt recovery; HYPE/ZEC watch-list tickers performing (follows HCH 03:34Z HYPE regret post).
