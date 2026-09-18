@@ -1,5 +1,8 @@
-🟡 WATCH
+🟡 *Heartbeat — 2026-09-18 15:15 UTC*
 
-🔵 STALE: morning-brief last succeeded 2026-09-06 (11 days ago). Daily skill — threshold is 48h. The morning-pipeline chain (token-movers → morning-brief) has not completed since Sep 6. Check GitHub Actions for the chain:morning-pipeline workflow for errors.
+🔵 P3 — STALE SKILLS:
+• `morning-brief` — last success 2026-09-06 (12 days ago; daily schedule). `morning-pipeline` chain also last ran Sep 6.
+• `token-alert` — last success 2026-09-16 (51h ago; daily schedule, 48h threshold crossed)
+• `token-movers` — last success 2026-09-16 (51h ago; daily schedule, 48h threshold crossed)
 
-All other enabled skills healthy. X webhook WATCHED_TRADERS active (is_effect=1). No open PRs or urgent issues.
+✅ No failed or stuck skills. X webhook WATCHED_TRADERS active (is_effect: 1). No open PRs or issues.

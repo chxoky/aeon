@@ -1,0 +1,43 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "🟡 Heartbeat",
+        "description": "2026-09-18 15:15 UTC"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_p3",
+        "alert_status"
+      ]
+    },
+    "alert_p3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🔵 P3 — STALE SKILLS",
+        "message": "• morning-brief — last success 2026-09-06 (12 days ago; daily schedule). morning-pipeline chain also last ran Sep 6.\n• token-alert — last success 2026-09-16 (51h ago; daily schedule, 48h threshold crossed)\n• token-movers — last success 2026-09-16 (51h ago; daily schedule, 48h threshold crossed)"
+      }
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "✅ Status Summary",
+        "message": "No failed or stuck skills. X webhook WATCHED_TRADERS active (is_effect: 1). No open PRs or issues."
+      }
+    }
+  }
+}
