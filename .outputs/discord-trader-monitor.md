@@ -46,3 +46,8 @@ Now that we are in profits, keeping SLs and trading view alerts at BE
    - Logged event to `memory/logs/2026-09-18.md`
 
 **No Telegram alert sent** per fast-path protocol (already handled upstream). Memory and audit trail updated for context/dedup purposes.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+HeartCanHodl: "fc others.d 1w"
+
+Cryptic notation from supporting channel. Unable to interpret — what's your read? (Possible interpretations: timeframe reference? ticker shorthand? technical setup? 1-week outlook?)

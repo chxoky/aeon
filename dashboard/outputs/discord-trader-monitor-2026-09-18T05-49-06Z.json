@@ -1,0 +1,130 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "heading",
+        "separator1",
+        "message_section",
+        "separator2",
+        "interpretation_section"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_label",
+        "message_text"
+      ]
+    },
+    "author_label": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "caption"
+      }
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"fc others.d 1w\"",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretation_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "challenge_text",
+        "context_text",
+        "badges_container"
+      ]
+    },
+    "challenge_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to interpret — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic notation from supporting channel. Possible interpretations:",
+        "variant": "body"
+      }
+    },
+    "badges_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3",
+        "badge4"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "timeframe reference?",
+        "variant": "outline"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "ticker shorthand?",
+        "variant": "outline"
+      }
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "technical setup?",
+        "variant": "outline"
+      }
+    },
+    "badge4": {
+      "type": "Badge",
+      "props": {
+        "text": "1-week outlook?",
+        "variant": "outline"
+      }
+    }
+  }
+}
