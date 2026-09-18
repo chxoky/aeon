@@ -1,0 +1,49 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "text_explanation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Lots of bear euphoria over this tweet 🐻\n\nHave you thought about the last time this got around these levels?\n\nApril 2024 🐻"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100799198887288976"
+      }
+    },
+    "text_explanation": {
+      "type": "Text",
+      "props": {
+        "text": "Historical comparison to April 2024 sentiment levels (SPX/SPY technical analysis with Kevin Gordon Fed commentary); aligns with bearish-equities-into-Oct thesis.",
+        "variant": "muted"
+      }
+    }
+  }
+}

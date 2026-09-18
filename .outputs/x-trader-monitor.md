@@ -1,9 +1,11 @@
-🐦 *[X] @HeartCanHodl*
+🐦 *[X] @Wild_Randomness*
 
-Many more from the portfolio mogging it today 👀
+Lots of bear euphoria over this tweet 🐻
 
-$near $bnc $form $hype
+Have you thought about the last time this got around these levels?
 
-[View tweet](https://x.com/HeartCanHodl/status/2100795740322963874)
+April 2024 🐻
 
-↳ Portfolio snapshot: NEAR +27.87%, BNB +14.56%, FORM +10.66%, HYPE +9.65% (strong tactical long performance). Positions align with documented holdings (NEAR 1% Sep 12, BNB 1% Sep 14, HYPE was short basket closed Sep 16—monitor for re-entry signals).
+[View tweet](https://x.com/Wild_Randomness/status/2100799198887288976)
+
+↳ _Historical comparison to April 2024 sentiment levels (SPX/SPY technical analysis with Kevin Gordon Fed commentary); aligns with bearish-equities-into-Oct thesis._
