@@ -1,0 +1,41 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "link_view"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "@bull_genius",
+        "text": "longing solana:pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn into yom kippur worked\n\nbottom rosh hashanah → long into yom kippur → take profits and go to the synagogue\n\n↳ Seasonal pattern (Rosh Hashanah Sep 11-13 bottom → Yom Kippur Sep 20-21 TP). 4H PUMP chart shows MA confluence resistance (130D/7D/365D/90D boxes). No new execution signal—validates existing PUMP conviction adds (Sep 05-09, awaiting approval)."
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2100950318808695196"
+      }
+    }
+  }
+}

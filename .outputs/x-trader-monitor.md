@@ -1,6 +1,6 @@
-Perfect! I've successfully processed the event. Here's the summary:
+🐦 *[X] @bull_genius*
 
-## Summary
+longing solana:pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn into yom kippur worked
 
 **Event Processed:** swarmister X post (2026-09-18T14:02:14Z)
 🔍 *Calibration — @HeartCanHodl*
@@ -69,3 +69,8 @@ $BTC — Did you fade?
 
 **Status:** Complete — Event classified as non-actionable informational sentiment. No trade approval needed. No cross-platform deduplication issues.
 What's your read?
+bottom rosh hashanah → long into yom kippur → take profits and go to the synagogue
+
+↳ Seasonal pattern (Rosh Hashanah Sep 11-13 bottom → Yom Kippur Sep 20-21 TP). 4H PUMP chart shows MA confluence resistance (130D/7D/365D/90D boxes). No new execution signal—validates existing PUMP conviction adds (Sep 05-09, awaiting approval).
+
+[View tweet](https://x.com/bull_genius/status/2100950318808695196)
