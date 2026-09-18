@@ -1,0 +1,93 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor Calibration"
+      },
+      "children": [
+        "heading-calibration",
+        "badge-event",
+        "text-event",
+        "sep-1",
+        "tweet-post",
+        "sep-2",
+        "alert-question",
+        "sep-3",
+        "text-context",
+        "link-view"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Wild_Randomness",
+        "level": "h2"
+      }
+    },
+    "badge-event": {
+      "type": "Badge",
+      "props": {
+        "text": "Post Analysis",
+        "variant": "default"
+      }
+    },
+    "text-event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Post with 4 technical chart images mentioning $BTC $IBIT",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tweet-post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$BTC $IBIT https://t.co/1Z1vQB6Uxv"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-question": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Needed",
+        "message": "Unable to classify without reading charts — what's your read? Is this:\n\n1. Personal trade setup/execution signal?\n2. Informational technical analysis share?\n3. Trade idea suggestion (not your own action)?",
+        "type": "info"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-context": {
+      "type": "Text",
+      "props": {
+        "text": "Context: 4 images blocked by sandbox (cannot fetch from pbs.twimg.com)",
+        "variant": "caption"
+      }
+    },
+    "link-view": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100954250692133134"
+      }
+    }
+  }
+}

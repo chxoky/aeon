@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Decode the event
+var='eyJpZCI6IjIxMDA5NTQyNTA2OTIxMzMxMzQiLCJ1c2VybmFtZSI6IldpbGRfUmFuZG9tbmVzcyIsInRleHQiOiIkQlRDICRJQklUIGh0dHBzOi8vdC5jby8xWjF2UUI2VXh2IiwiY3JlYXRlZF9hdCI6IkZyaSBTZXAgMTggMTQ6MjU6MDEgKzAwMDAgMjAyNiIsInVybCI6Imh0dHBzOi8veC5jb20vV2lsZF9SYW5kb21uZXNzL3N0YXR1cy8yMTAwOTU0MjUwNjkyMTMzMTM0IiwibWVkaWEiOlsiaHR0cHM6Ly9wYnMudHdpbWcuY29tL21lZGlhL0hTZ1d3SlRhOEFBM3dPQS5qcGciLCJodHRwczovL3Bicy50d2ltZy5jb20vbWVkaWEvSFNnV3dKV2JFQUE1bW53LmpwZyIsImh0dHBzOi8vcGJzLnR3aW1nLmNvbS9tZWRpYS9IU1lRcVhqYkVBQW1IdmcuanBnIiwiaHR0cHM6Ly9wYnMudHdpbWcuY29tL21lZGlhL0hTWVFxWGphd0FFTmZNZC5qcGciXX0='
+
+EVENT_JSON=$(echo "$var" | base64 -d 2>/dev/null)
+
+if [ -z "$EVENT_JSON" ]; then
+  echo "ERROR: X_TRADER_BAD_EVENT"
+  exit 1
+fi
+
+echo "$EVENT_JSON" > /tmp/event.json
+cat /tmp/event.json
