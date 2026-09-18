@@ -1,0 +1,90 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_1",
+        "separator_1",
+        "trade_stats",
+        "link_tweet"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Now that i have posted about ETH so why not SOL as well! Context: Sharing successful SOL long +193.66% (15x leverage, entry 98.02 to 110.63)."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trade_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_gain",
+        "stat_leverage",
+        "stat_entry",
+        "stat_exit"
+      ]
+    },
+    "stat_gain": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL Long Gain",
+        "value": "+193.66%",
+        "trend": "up"
+      }
+    },
+    "stat_leverage": {
+      "type": "Stat",
+      "props": {
+        "label": "Leverage",
+        "value": "15x"
+      }
+    },
+    "stat_entry": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "98.02"
+      }
+    },
+    "stat_exit": {
+      "type": "Stat",
+      "props": {
+        "label": "Exit",
+        "value": "110.63"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/HeartCanHodl/status/2100961876565799068"
+      }
+    }
+  }
+}

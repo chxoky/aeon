@@ -12,3 +12,4 @@ I've posted my $ETH outlook, along with the short-term target I'm watching. Now 
 [View tweet](https://x.com/HeartCanHodl/status/2100961541017288783)
 
 ↳ _Reinforces 3-trader bearish ETH convergence (HCH/ryzzqq/Chase shorts) — sentiment reaffirmation on existing bearish thesis._
+🐦 HeartCanHodl: Now that i have posted about ETH so why not SOL as well! Context: Sharing successful SOL long +193.66% (15x leverage, entry 98.02 to 110.63). https://x.com/HeartCanHodl/status/2100961876565799068
