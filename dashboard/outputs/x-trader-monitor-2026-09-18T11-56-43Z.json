@@ -1,0 +1,158 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_calibration",
+        "section_event",
+        "sep_1",
+        "section_quote",
+        "sep_2",
+        "alert_analysis",
+        "sep_3",
+        "section_context",
+        "sep_4",
+        "link_post"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_event",
+        "text_event"
+      ]
+    },
+    "label_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Formal portrait photo meme (no trading chart visible)"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_quote": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_label",
+        "quote_text"
+      ]
+    },
+    "quote_label": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"this is how you do it right btw. i like all these picks a lot\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "alert_analysis": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "References 'picks' but asset/position unclear. Appears to be either:\n• Response to another trader's thesis (missing thread context)\n• Vague approval statement on personal positions\n• Meme/non-financial banter",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_label",
+        "context_text"
+      ]
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Recent context:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius post-FOMC bullish on BTC spot + PUMP long (awaiting approval) + NFT conviction escalation (ARGONAUTS)."
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2100915664642777366"
+      },
+      "children": []
+    }
+  }
+}
