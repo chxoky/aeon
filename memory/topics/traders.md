@@ -514,6 +514,7 @@
   - Sep 15 14:52Z — ambiguous-cryptic: reply to @KryptoFynn disagreement "Nonono/Too early now but soon/October 🍌"; banana emoji + timeframe ref; HR-2 calibration sent [$UNKNOWN] [2099874071789891735]
   - Sep 15 14:19Z — informational-sentiment: challenging @dbetrading on prior bearish calls ("blood in markets, lower targets"); consistent bullish BTC structure [$BTC] [2099865649212182942]
   - Sep 15 14:05Z — ambiguous-cryptic: reply to @KObtceth @dbtrading dismissal "Nope"; context external; HR-2 calibration sent [$UNKNOWN] [2099862242023882771]
+  - Sep 18 10:25Z — informational-technical: swing trader methodology explanation (reply to @Ady070720); "14th was the top; bottom is coming soon"; awaiting next pivot date for entry; technical structure observation, no personal execution [$BTC] [2100894009665233305]
   - Sep 15 14:00Z — informational-sentiment: BTC price action reply; bullish on "upper target" not yet hit; dismissive of 57k-drop calls; current 80k level validates structure [$BTC] [2099860803922927828]
 
 ## Bitcoin_Astro
