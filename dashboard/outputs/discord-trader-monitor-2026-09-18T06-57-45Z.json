@@ -1,0 +1,174 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Calibration — DC: HCH — Chat",
+        "description": "Discord trader monitor signal interpretation"
+      },
+      "children": [
+        "message-display",
+        "sep1",
+        "context-section",
+        "sep2",
+        "analysis-section",
+        "sep3",
+        "question-alert"
+      ]
+    },
+    "message-display": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "msg-label",
+        "msg-content"
+      ]
+    },
+    "msg-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message:",
+        "variant": "lead"
+      }
+    },
+    "msg-content": {
+      "type": "Badge",
+      "props": {
+        "text": "Fc tao ema50 15m",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-text",
+        "observation-text"
+      ]
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic abbreviation \"Fc\" + technical notation. Pattern observed in recent messages but meaning unclear."
+      }
+    },
+    "observation-text": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "obs-label",
+        "obs-data"
+      ]
+    },
+    "obs-label": {
+      "type": "Text",
+      "props": {
+        "text": "Recent pattern:",
+        "variant": "caption"
+      }
+    },
+    "obs-data": {
+      "type": "Text",
+      "props": {
+        "text": "05:16Z BNCUSDT, 05:45Z others.d",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretations-label",
+        "interp-grid",
+        "no-execution-note"
+      ]
+    },
+    "interpretations-label": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "lead"
+      }
+    },
+    "interp-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "badge-2",
+        "badge-3"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "false-close check?",
+        "variant": "secondary"
+      }
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "few changes?",
+        "variant": "secondary"
+      }
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "EMA50 crossover signal?",
+        "variant": "secondary"
+      }
+    },
+    "no-execution-note": {
+      "type": "Text",
+      "props": {
+        "text": "No execution language.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "question-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read?"
+      }
+    }
+  }
+}
