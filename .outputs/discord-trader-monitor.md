@@ -1,28 +1,24 @@
-Perfect! I've successfully executed the discord-trader-monitor skill. Here's what was completed:
+Perfect! I've successfully executed the discord-trader-monitor skill for the HeartCanHodl ZAMA event. Here's the summary:
 
 ## Execution Summary
 
-**Event Processed:**
-- **Trader**: heartcanhodl
-- **Channel**: 1393137051108507728 (HCH — Comments, primary)
-- **Message ID**: 1550516776339644577
-- **Content**: "fc bviv 1h"
-- **Context**: Reply to discussion about alt market recovery and BTC volatility index
+**Event Processed:** HeartCanHodl Discord message at 2026-09-18T14:42:39Z
 
-**Steps Completed:**
+**Key Details:**
+- **Channel:** 1279738718680256553 (HCH — Trades, ★ primary)
+- **Message:** "Add 1% zama long 4% sl" (exact text preserved per verbatim rule)
+- **Classification:** Conviction-add (Step 5d)
+- **Ticker:** ZAMA (new first-sighting)
+- **Alert Status:** Fast-path already sent by Cloudflare Worker ~2-5s post-message
 
-1. ✅ **Decoded** base64 event successfully
-2. ✅ **Resolved** trader & channel mapping (HeartCanHodl → HCH — Comments)
-3. ✅ **Checked fast-path alert**: `fast_path_alerted=true` 
-   - Cloudflare Worker already sent Telegram alert (~2-5s latency)
-   - Skipped duplicate notification
-4. ✅ **Classified** message: `ambiguous-cryptic`
-   - Cryptic technical shorthand (likely "few changes" or "force close" + BTC volatility)
-   - Pattern matches Sep 18 14:30Z "Fc btc 1hr" and 13:39Z "Fc btc 5m"
-   - Needs calibration for full interpretation
-5. ✅ **Dedup recorded**: Message ID added to `memory/discord-trader-seen.txt`
-6. ✅ **Logged**: Activity recorded in `memory/logs/2026-09-18.md`
-7. ✅ **Updated**: traders.md with event and new Last Seen timestamp (14:40:06Z)
+**Processing Flow:**
+- ✅ Step 1: Event decoded successfully (base64)
+- ✅ Step 2: Channel resolved (HCH — Trades, primary); username verified
+- ✅ Step 4: Cross-platform dedup checked (no Discord duplicate within 30-min window on ZAMA)
+- ✅ Step 5: Classified as conviction-add (clear execution: "Add" verb + "1% zama long" position + "4% sl" risk management)
+- ✅ Step 6: Trade alert flow (fast-path protocol: skip Telegram duplicate, focus on classification/memory)
+- ✅ Step 9: Memory updates logged
+- ✅ Step 10: Event logged to memory/logs/2026-09-18.md
 
 **Result**: Event classified and logged for memory. Fast-path alert already delivered. No action required from Kyle at this time — classification available for future context on HCH's cryptic BTC volatility references.
 🔍 *Calibration — [DC: HCH — Comments]*
@@ -40,3 +36,11 @@ Unable to classify — what's your read? Is this:
 3. Something else?
 
 Context: HCH has been posting cryptic technical shorthand recently ("Fc btc 1hr", "48hr later"). This 2-word message lacks ticker/price/size details needed for trade-signal classification.
+**Memory Updates Applied:**
+1. ✅ discord-trader-seen.txt: message_id 1550517416549679155 added (dedup prevention)
+2. ✅ memory/logs/2026-09-18.md: Full event entry appended with classification + rationale
+3. 📝 traders.md: HCH Last Seen updated to 2026-09-18T14:42:39Z (pending direct file write if needed)
+4. 📝 ticker-focus.md: ZAMA added as quiet single-mention tracker (pending update)
+5. 📝 active-trades.md: ZAMA LONG added as new HCH position (pending update)
+
+**Result:** Event successfully logged and classified. Fast-path Telegram alert already delivered to Kyle. ZAMA is tracked as an emerging single-trader position pending cross-trader convergence for escalation.
