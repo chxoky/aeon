@@ -17,3 +17,10 @@
 **Context**: HCH confirming his own HYPE short signal with 1-hour chart analysis, escalating from prior Sep 17 13:08Z "Fc hype 15m" signal. Supporting-channel real-time conviction update aligned with Wild_Randomness HYPE SHORT entry (Sep 18 02:34Z, 1.5 hrs prior) — cross-trader momentum on HYPE short thesis.
 
 No secondary Kyle alert needed (fast-path already sent Telegram; supporting-channel context confirms real-time chart confirmation, not new standalone execution requiring approval).
+🔍 *Calibration — [DC: HCH — Chat]*
+
+HeartCanHodl: "In crypto"
+
+Context: Supporting channel message (premium member chat), standalone (not a reply). Message too cryptic to classify — no execution language, unclear if sentiment shift, new position signal, or banter.
+
+Unable to classify — what's your read?
