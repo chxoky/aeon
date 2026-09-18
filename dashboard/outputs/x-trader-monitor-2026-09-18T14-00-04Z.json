@@ -1,0 +1,213 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "X Trader Monitor"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-section",
+        "sep1",
+        "technical-section",
+        "sep2",
+        "alignment-section"
+      ]
+    },
+    "tweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet-card",
+        "tweet-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "74k-76k → 80.5k 👀\n\nTechnical level share: Built position Sep 11-16 in 74k-76k consolidation. Portfolio net-long crypto (+43.5% allocation). Multi-asset recovery validating Sep 15-17 upside trajectory (NEAR +17.3%, LIT +16.3%, alts averaging +4-5%). Targeting 80.5k for continuation."
+      },
+      "children": []
+    },
+    "tweet-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100946210827698397"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "technical-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech-heading",
+        "position-details",
+        "portfolio-stat",
+        "alts-section"
+      ]
+    },
+    "tech-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Position Details",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "position-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry-badge",
+        "target-badge"
+      ]
+    },
+    "entry-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Entry: 74k-76k (Sep 11-16)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "target-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Target: 80.5k",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "portfolio-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Portfolio Net-Long Crypto Allocation",
+        "value": "+43.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "alts-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alts-heading",
+        "alts-grid"
+      ]
+    },
+    "alts-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-Asset Recovery (Sep 15-17):",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "alts-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "near-stat",
+        "lit-stat",
+        "alts-avg-stat"
+      ]
+    },
+    "near-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR",
+        "value": "+17.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "lit-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "LIT",
+        "value": "+16.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "alts-avg-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Alts Average",
+        "value": "+4-5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alignment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alignment-text",
+        "consensus-note"
+      ]
+    },
+    "alignment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aligns with group bullish post-FOMC consensus. BTC consolidation recovery continuing as expected.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "consensus-note": {
+      "type": "Text",
+      "props": {
+        "text": "Consensus traders: KillaXBT, bull_genius, WR",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
