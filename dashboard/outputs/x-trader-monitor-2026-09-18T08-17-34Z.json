@@ -1,0 +1,116 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_1",
+        "event_text",
+        "tweet",
+        "sep1",
+        "unable_text",
+        "options_stack",
+        "sep2",
+        "question_text",
+        "link"
+      ]
+    },
+    "heading_1": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @DonAlt"
+      },
+      "children": []
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@DonAlt 🙏"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "unable_text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — context unclear. Is this:"
+      },
+      "children": []
+    },
+    "options_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option1",
+        "option2",
+        "option3"
+      ]
+    },
+    "option1": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcasm/irony on DonAlt's market call?"
+      },
+      "children": []
+    },
+    "option2": {
+      "type": "Text",
+      "props": {
+        "text": "Agreement/blessing on a position?"
+      },
+      "children": []
+    },
+    "option3": {
+      "type": "Text",
+      "props": {
+        "text": "Non-financial banter?"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "question_text": {
+      "type": "Text",
+      "props": {
+        "text": "What's your read?"
+      },
+      "children": []
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodlstatus/2100860037883183195"
+      },
+      "children": []
+    }
+  }
+}
