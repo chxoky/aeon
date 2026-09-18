@@ -1,0 +1,41 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Garrett's ETH → BTC rotation creates bullish setup for ETH. With structural strength returning post-FOMC, ETH targeting $2,650+ becomes realistic, especially if alt capital starts flowing. Meanwhile ENS is catching narrative momentum as beta goes live — could see meaningful capital inflow if attention builds, positioning for push toward $6.50+."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100900696430145561"
+      }
+    }
+  }
+}
