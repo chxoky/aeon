@@ -1,0 +1,141 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🔍 Calibration — Discord Trader Monitor"
+      },
+      "children": [
+        "message-section",
+        "sep1",
+        "classification-alert",
+        "possibilities-group",
+        "sep2",
+        "request-section"
+      ]
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-label",
+        "message-content"
+      ]
+    },
+    "message-label": {
+      "type": "Text",
+      "props": {
+        "text": "Message",
+        "variant": "lead"
+      }
+    },
+    "message-content": {
+      "type": "Text",
+      "props": {
+        "text": "\"fc bvol 1d wide\"",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "classification-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Cryptic abbreviation without context (no reply, no referenced message). What's your read?",
+        "type": "warning"
+      }
+    },
+    "possibilities-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "poss-heading",
+        "poss-items"
+      ]
+    },
+    "poss-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Possibilities:",
+        "variant": "lead"
+      }
+    },
+    "poss-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "poss-1",
+        "poss-2",
+        "poss-3"
+      ]
+    },
+    "poss-1": {
+      "type": "Text",
+      "props": {
+        "text": "Force Close + Bollinger Volume signal?",
+        "variant": "body"
+      }
+    },
+    "poss-2": {
+      "type": "Text",
+      "props": {
+        "text": "Technical shorthand on 1D wide range structure?",
+        "variant": "body"
+      }
+    },
+    "poss-3": {
+      "type": "Text",
+      "props": {
+        "text": "Position-related instruction?",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "request-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "kyle-label",
+        "kyle-request-text"
+      ]
+    },
+    "kyle-label": {
+      "type": "Text",
+      "props": {
+        "text": "Kyle:",
+        "variant": "lead"
+      }
+    },
+    "kyle-request-text": {
+      "type": "Text",
+      "props": {
+        "text": "Interpret this message so we can route it correctly.",
+        "variant": "body"
+      }
+    }
+  }
+}

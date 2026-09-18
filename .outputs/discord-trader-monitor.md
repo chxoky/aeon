@@ -21,3 +21,13 @@
 - ✅ Activity logged to memory/logs/2026-09-18.md  
 
 No Kyle notification needed (informational-only, already alerted via fast-path). Event archived for audit trail.
+🔍 *Calibration — [DC: HCH — Comments]*
+
+Message: "fc bvol 1d wide"
+
+Unable to classify — what's your read? Cryptic abbreviation without context (no reply, no referenced message). Possibilities:
+- Force Close + Bollinger Volume signal?
+- Technical shorthand on 1D wide range structure?
+- Position-related instruction?
+
+Kyle: interpret this message so we can route it correctly.
