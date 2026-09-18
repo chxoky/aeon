@@ -1,0 +1,41 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet-card",
+        "view-link"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild Randomness",
+        "handle": "Wild_Randomness",
+        "text": "$BTC — Complex Pullback Conclusion?\n\n4H/1D consolidation at 76.7-77.5K with support structure intact (75.5K, 72-73K, 70K). IBIT showing reversal pattern with higher lows + volume confirmation. Question framing suggests pullback nearing conclusion.\n\nAligns with group's HTF bullish thesis (HCH/KillaXBT/bull_genius net-long); consolidation validation reinforces recovery continuation."
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100777016375304568"
+      }
+    }
+  }
+}
