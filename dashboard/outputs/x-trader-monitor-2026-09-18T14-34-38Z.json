@@ -1,0 +1,273 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor",
+        "description": "Calibration — @bull_genius"
+      },
+      "children": [
+        "event_heading",
+        "separator_1",
+        "quote_section",
+        "separator_2",
+        "unable_classify_alert",
+        "conflicts_section",
+        "separator_3",
+        "questions_section",
+        "separator_4",
+        "context_section",
+        "separator_5",
+        "link_post"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC/PUMP technical levels + chart reference (chart unavailable)",
+        "level": "h2"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "quote_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quote_author",
+        "quote_text",
+        "quote_unavailable"
+      ]
+    },
+    "quote_author": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius:",
+        "variant": "lead"
+      }
+    },
+    "quote_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"i think bitcoin looks great so im optimistic it happens but pump is a rapist coin it might dip super hard first as well\n\nthe chart is there to show where decent spots are to take off leveraged long gains\"",
+        "variant": "body"
+      }
+    },
+    "quote_unavailable": {
+      "type": "Badge",
+      "props": {
+        "text": "Chart unavailable — media array empty",
+        "variant": "outline"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "unable_classify_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Conflicts & context missing",
+        "type": "warning"
+      }
+    },
+    "conflicts_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "conflict_1",
+        "conflict_2",
+        "conflict_3"
+      ]
+    },
+    "conflict_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "conflict_1_text",
+        "conflict_1_status"
+      ]
+    },
+    "conflict_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "(1) BTC bullish (clear)",
+        "variant": "lead"
+      }
+    },
+    "conflict_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "✓",
+        "variant": "secondary"
+      }
+    },
+    "conflict_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "conflict_2_text",
+        "conflict_2_detail"
+      ]
+    },
+    "conflict_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "(2) PUMP bearish near-term ('might dip super hard')",
+        "variant": "lead"
+      }
+    },
+    "conflict_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "BUT you hold PUMP long (Sep 05-09 multi-entry awaiting Kyle approval)",
+        "variant": "body"
+      }
+    },
+    "conflict_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "conflict_3_text",
+        "conflict_3_detail"
+      ]
+    },
+    "conflict_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Referenced chart unavailable (media array empty)",
+        "variant": "lead"
+      }
+    },
+    "conflict_3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Chart essential for entry levels",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "questions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "questions_title",
+        "question_a",
+        "question_b",
+        "question_c"
+      ]
+    },
+    "questions_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Are you:",
+        "level": "h3"
+      }
+    },
+    "question_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Expecting dip to add more?",
+        "variant": "body"
+      }
+    },
+    "question_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Planning to exit on weakness?",
+        "variant": "body"
+      }
+    },
+    "question_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) Holding through expected pullback?",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_fomc",
+        "context_pump"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_fomc": {
+      "type": "Text",
+      "props": {
+        "text": "bull_genius Sep 17 post-FOMC: spot conviction all-time high",
+        "variant": "body"
+      }
+    },
+    "context_pump": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP long multi-entry Sep 05-09: awaiting Kyle approval on Sep 09 entry",
+        "variant": "body"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/bull_genius/status/2100955324249231516"
+      }
+    }
+  }
+}
