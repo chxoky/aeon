@@ -1,0 +1,44 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_card",
+        "link_view",
+        "separator1",
+        "analysis_text"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "I've posted my $ETH outlook, along with the short-term target I'm watching. Now we wait and see how price plays it out"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100961541017288783"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Reinforces 3-trader bearish ETH convergence (HCH/ryzzqq/Chase shorts) — sentiment reaffirmation on existing bearish thesis.",
+        "variant": "muted"
+      }
+    }
+  }
+}
