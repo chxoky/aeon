@@ -1,0 +1,31 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_1",
+        "link_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "@swarmister",
+        "text": "$BTC 15m + 1h\n\nLooks like we're setting up for an upside breakout from the compression after the Fed, both locally and on the higher timeframe.\n\nI'm trying to find long positions"
+      }
+    },
+    "link_1": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/swarmister/status/2100788705816404455"
+      }
+    }
+  }
+}

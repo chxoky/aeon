@@ -1,9 +1,9 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @swarmister*
 
-Event: Standalone cryptic post with unretrievable media
+$BTC 15m + 1h
 
-@Wild_Randomness: "@ContrariansYessir"
+Looks like we're setting up for an upside breakout from the compression after the Fed, both locally and on the higher timeframe.
 
-Unable to classify — media image failed to fetch. What's your read?
+I'm trying to find long positions
 
-[View post](https://x.com/Wild_Randomness/status/2100782240284455041)
+[View tweet](https://x.com/swarmister/status/2100788705816404455)
