@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Free]*
 
 I've executed the `discord-trader-monitor` skill for the provided Discord message event. Here's what happened:
 
@@ -38,3 +38,7 @@ Unable to classify — what's your read?
    - Logged event to `memory/logs/2026-09-18.md` with classification and context
 
 **Result:** Processed as non-critical supporting-channel chatter. No additional alerts sent. Dedup tracking updated for this message.
+Event: HCH reply to own "One of those days 👽" (frustration/market commentary)
+heartcanhodl: "Fc hype 1hr [Discord ref link]"
+
+Context: Cryptic abbreviation + 1hr timeframe reference; possible technical setup or reflection on prior HYPE regret. Unable to classify — what's your read?
