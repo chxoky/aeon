@@ -1,8 +1,9 @@
-## Summary
+🔍 *Calibration — @bull_genius*
 
-**Event processed:** HeartCanHodl BTCDOM post from 2026-09-18T08:09:38Z
+Event: Reply to @thefeelgambler
+bull_genius: "it could be yes"
 
-**Classification: INFORMATIONAL (Step 6)** — Technical support level identification on Bitcoin Dominance with bullish accumulation sentiment.
+Unable to classify — what's your read?
 
 **Key details:**
 - **Ticker:** BTCDOM (Bitcoin Dominance)
@@ -33,3 +34,4 @@ Unable to classify — context unclear. Is this:
 What's your read?
 
 [View post](https://x.com/HeartCanHodlstatus/2100860037883183195)
+[View post](https://x.com/bull_genius/status/2100860540935385332)
