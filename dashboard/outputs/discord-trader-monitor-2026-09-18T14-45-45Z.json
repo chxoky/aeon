@@ -1,0 +1,212 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "calibration_heading",
+        "sep1",
+        "event_section",
+        "sep2",
+        "message_section",
+        "sep3",
+        "classify_alert",
+        "sep4",
+        "options_section",
+        "sep5",
+        "context_section"
+      ]
+    },
+    "calibration_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — DC: HCH — Comments",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "event_text",
+        "event_details"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl posted in primary Trades context channel",
+        "variant": "lead"
+      }
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel_detail",
+        "message_id_detail"
+      ]
+    },
+    "channel_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Channel: 1393137051108507728 (HCH — Comments, primary)",
+        "variant": "body"
+      }
+    },
+    "message_id_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1550516818668552195",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message_timestamp",
+        "message_author",
+        "message_content"
+      ]
+    },
+    "message_timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "Message timestamp: 2026-09-18T14:40:16Z",
+        "variant": "caption"
+      }
+    },
+    "message_author": {
+      "type": "Text",
+      "props": {
+        "text": "HCH:",
+        "variant": "lead"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Picking up\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classify_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "options_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "options_heading",
+        "options_list"
+      ]
+    },
+    "options_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Is this:",
+        "level": "h3"
+      }
+    },
+    "options_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "option_1",
+        "option_2",
+        "option_3"
+      ]
+    },
+    "option_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Picking up a position (trade entry)?",
+        "variant": "body"
+      }
+    },
+    "option_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Picking up momentum/pace commentary?",
+        "variant": "body"
+      }
+    },
+    "option_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Something else?",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH has been posting cryptic technical shorthand recently (\"Fc btc 1hr\", \"48hr later\"). This 2-word message lacks ticker/price/size details needed for trade-signal classification.",
+        "variant": "body"
+      }
+    }
+  }
+}

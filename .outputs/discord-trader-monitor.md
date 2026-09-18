@@ -25,3 +25,18 @@ Perfect! I've successfully executed the discord-trader-monitor skill. Here's wha
 7. ✅ **Updated**: traders.md with event and new Last Seen timestamp (14:40:06Z)
 
 **Result**: Event classified and logged for memory. Fast-path alert already delivered. No action required from Kyle at this time — classification available for future context on HCH's cryptic BTC volatility references.
+🔍 *Calibration — [DC: HCH — Comments]*
+
+Event: HeartCanHodl posted in primary Trades context channel
+HCH: "Picking up"
+
+Message timestamp: 2026-09-18T14:40:16Z
+Channel: 1393137051108507728 (HCH — Comments, primary)
+Message ID: 1550516818668552195
+
+Unable to classify — what's your read? Is this:
+1. Picking up a position (trade entry)?
+2. Picking up momentum/pace commentary?
+3. Something else?
+
+Context: HCH has been posting cryptic technical shorthand recently ("Fc btc 1hr", "48hr later"). This 2-word message lacks ticker/price/size details needed for trade-signal classification.
