@@ -1,0 +1,231 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration",
+        "description": "DC: HCH — Chat"
+      },
+      "children": [
+        "heading_calibration",
+        "sep1",
+        "event_section",
+        "sep2",
+        "message_section",
+        "sep3",
+        "analysis_section",
+        "sep4",
+        "channel_section"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration Event",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "event_details"
+      ]
+    },
+    "event_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_text",
+        "badge_user",
+        "badge_channel_type"
+      ]
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "HCH message in supporting channel (premium member Q&A chat)"
+      }
+    },
+    "badge_user": {
+      "type": "Badge",
+      "props": {
+        "text": "User: HCH",
+        "variant": "secondary"
+      }
+    },
+    "badge_channel_type": {
+      "type": "Badge",
+      "props": {
+        "text": "Channel: supporting (premium Q&A)",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message_label",
+        "message_content"
+      ]
+    },
+    "message_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"48hr later\"",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis_label",
+        "alert_classification",
+        "context_label",
+        "context_items",
+        "prior_message_text"
+      ]
+    },
+    "analysis_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis & Calibration",
+        "level": "h3"
+      }
+    },
+    "alert_classification": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Cryptic time reference or technical-timeframe shorthand?",
+        "type": "warning"
+      }
+    },
+    "context_label": {
+      "type": "Text",
+      "props": {
+        "text": "Context unclear without knowing what happened 48 hours ago (could be):",
+        "variant": "caption"
+      }
+    },
+    "context_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_item1",
+        "context_item2",
+        "context_item3"
+      ]
+    },
+    "context_item1": {
+      "type": "Text",
+      "props": {
+        "text": "• Trade setup",
+        "variant": "body"
+      }
+    },
+    "context_item2": {
+      "type": "Text",
+      "props": {
+        "text": "• Chart call",
+        "variant": "body"
+      }
+    },
+    "context_item3": {
+      "type": "Text",
+      "props": {
+        "text": "• Conviction statement",
+        "variant": "body"
+      }
+    },
+    "prior_message_text": {
+      "type": "Text",
+      "props": {
+        "text": "Could refer to impact/follow-up from earlier 'Running it back turbo' X message (Sep 18 14:03Z) or standalone observation",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "channel_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel_label",
+        "channel_id"
+      ]
+    },
+    "channel_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Channel Reference",
+        "level": "h3"
+      }
+    },
+    "channel_id": {
+      "type": "Text",
+      "props": {
+        "text": "Channel ID: 1023638573313966212",
+        "variant": "caption"
+      }
+    }
+  }
+}

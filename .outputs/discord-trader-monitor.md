@@ -21,3 +21,8 @@ I've executed the discord-trader-monitor skill for the Discord message from Hear
    - memory/logs/2026-09-18.md: Appended skip log entry
 
 **Result:** No notification to Kyle. Message logged for audit trail. Dedup tracking updated.
+Event: HCH in supporting channel (premium member Q&A chat)
+
+HCH: "48hr later"
+
+Unable to classify — what's your read? Cryptic time reference or technical-timeframe shorthand. Context unclear without knowing what happened 48 hours ago (trade setup, chart call, conviction statement?). Could refer to impact/follow-up from earlier 'Running it back turbo' X message (Sep 18 14:03Z) or standalone observation. Channel: supporting (1023638573313966212)
