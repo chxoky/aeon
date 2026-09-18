@@ -1,0 +1,276 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration Required"
+      },
+      "children": [
+        "alert-main",
+        "sep-1",
+        "event-section",
+        "sep-2",
+        "message-section",
+        "sep-3",
+        "context-section",
+        "sep-4",
+        "interpretations-section"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Unable to classify",
+        "message": "What's your read on this message?"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "Discord supporting channel (premium member chat) — HeartCanHodl posted from HCH's primary holding account"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "message-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "message-heading",
+        "message-quote"
+      ]
+    },
+    "message-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "message-quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"in a pvp scenario that will be a caution area\"",
+        "variant": "lead"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-grid",
+        "context-note"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message Context",
+        "level": "h3"
+      }
+    },
+    "context-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "ctx-channel",
+        "ctx-timestamp",
+        "ctx-reply",
+        "ctx-attachments"
+      ]
+    },
+    "ctx-channel": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "channel-label",
+        "channel-value"
+      ]
+    },
+    "channel-label": {
+      "type": "Text",
+      "props": {
+        "text": "Channel",
+        "variant": "muted"
+      }
+    },
+    "channel-value": {
+      "type": "Text",
+      "props": {
+        "text": "1023638573313966212"
+      }
+    },
+    "ctx-timestamp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp-label",
+        "timestamp-value"
+      ]
+    },
+    "timestamp-label": {
+      "type": "Text",
+      "props": {
+        "text": "Timestamp",
+        "variant": "muted"
+      }
+    },
+    "timestamp-value": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-18T08:34:48.968Z"
+      }
+    },
+    "ctx-reply": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reply-label",
+        "reply-badge"
+      ]
+    },
+    "reply-label": {
+      "type": "Text",
+      "props": {
+        "text": "Is reply",
+        "variant": "muted"
+      }
+    },
+    "reply-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No",
+        "variant": "secondary"
+      }
+    },
+    "ctx-attachments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "attach-label",
+        "attach-value"
+      ]
+    },
+    "attach-label": {
+      "type": "Text",
+      "props": {
+        "text": "Attachments",
+        "variant": "muted"
+      }
+    },
+    "attach-value": {
+      "type": "Text",
+      "props": {
+        "text": "1 image (URL present but unreadable)"
+      }
+    },
+    "context-note": {
+      "type": "Text",
+      "props": {
+        "text": "HCH — Chat, supporting/member-chat",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator"
+    },
+    "interpretations-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp-heading",
+        "interp-stack"
+      ]
+    },
+    "interp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      }
+    },
+    "interp-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp-1",
+        "interp-2",
+        "interp-3"
+      ]
+    },
+    "interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "Market structure commentary using PVP metaphor (price vs position dynamics)"
+      }
+    },
+    "interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "Risk management/caution-zone setup reference"
+      }
+    },
+    "interp-3": {
+      "type": "Text",
+      "props": {
+        "text": "Unrelated to trading / context-dependent on image attachment"
+      }
+    }
+  }
+}
