@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header",
+        "tweet",
+        "link"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "🔁 Mirrored — @swarmister",
+        "variant": "caption"
+      }
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "swarmister",
+        "handle": "swarmister",
+        "text": "Took 50% profit on $TRX, moved stop-loss to break-even on the remaining 50%. BPR pattern breakout on 4H, first target hit (1.22% run). Trade now risk-free."
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/swarmister/status/2100872599651643788"
+      }
+    }
+  }
+}
