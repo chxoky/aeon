@@ -1,24 +1,23 @@
 ## Summary
 
-Skill execution completed for **discord-trader-monitor**.
+**Skill execution completed:** `discord-trader-monitor`
 
-**Event Details:**
-- **Trader:** heartcanhodl
-- **Channel:** 1023638573313966212 (HCH — Chat, supporting/premium member)
-- **Message:** "Fc link 5m" (reply to "send it link!!!")
-- **Timestamp:** 2026-09-18T04:18:34Z
-- **Classification:** Technical chart observation (skip)
+### Event Processing
+- **Message ID:** 1550361295126274070 (NEW, not a duplicate)
+- **Trader:** HeartCanHodl (username: heartcanhodl)
+- **Channel:** 1023638573313966212 (HCH — Chat, supporting)
+- **Content:** "Yeah..i remember ignoring the rising OI warning in August-October"
+- **Fast-path alerted:** false → full processing
 
-**Analysis:**
-The message "Fc link 5m" follows heartcanhodl's documented pattern: **"Fc" = false-close check** (per conviction notes). This is a reply to a member requesting a chart/link analysis, and HCH responds with a 5-minute timeframe false-close check on $LINK consolidation. This is a supporting-channel technical observation, not an execution signal or conviction shift.
+### Classification: **skip-supporting-chatter**
+- **Non-financial:** Historical reflection on past market behavior ("ignoring the rising OI warning")
+- **Not a trade execution:** No first-person action language; pure narrative/commentary
+- **Supporting channel rule applied:** No related primary-channel message from HCH on OI/August-October topic exists; standalone supporting-channel reflection with no conviction shift or actionable plan
+- **Hardcoded rule HR-1:** Non-financial member chatter → silent skip
 
-**Action Taken:**
-- ✓ Decoded base64 event successfully
-- ✓ Verified fast-path status (false = full processing)
-- ✓ Resolved trader + channel (matched)
-- ✓ Checked dedup (new message)
-- ✓ Classified as informational-technical (skip alert)
-- ✓ Updated discord-trader-seen.txt (28 messages tracked)
-- ✓ Logged to memory/logs/2026-09-18.md
+### Action Taken
+- ✅ Message ID added to `memory/discord-trader-seen.txt`
+- ✅ Event logged to `memory/logs/2026-09-18.md` (skip classification)
+- ✅ No alert sent to Kyle (no Telegram notification)
 
-**Result:** No alert sent (correct — supporting channel technical observation only).
+**Result:** Event processed and logged. No notification required.
