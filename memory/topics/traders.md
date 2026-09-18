@@ -132,10 +132,11 @@
 
 - Platforms: X (Twitter)
 - Current open positions: DOPAMEME $830K (Aug 24, +3850% unrealized); others unknown
-- Recent thesis: Macro market observer, onchain narrative focus, CASHCAT conviction macro analysis (Aug 08-21), LIT bullish catalyst thesis (Aug 20). Market psychology on mania/sequel chasing vs original opportunity (Sep 16).
-- Conviction notes: Positioned macro observer; track market psychology + narrative structure. Known to reference BONK parallel thesis on meme-token reflexivity dynamics.
-- Last seen: 2026-09-17T03:43:36Z
+- Recent thesis: Macro market observer, onchain narrative focus, CASHCAT conviction macro analysis (Aug 08-21), LIT bullish catalyst thesis (Aug 20). Market psychology on mania/sequel chasing vs original opportunity (Sep 16). Regulatory/legal barriers commentary (Sep 18).
+- Conviction notes: Positioned macro observer; track market psychology + narrative structure. Known to reference BONK parallel thesis on meme-token reflexivity dynamics. Skeptical on crypto regulatory approval timelines.
+- Last seen: 2026-09-18T13:20:03Z
 - **Events (rolling):**
+  - Sep 18 13:20Z — informational-regulatory-sentiment: Macro commentary on regulatory/lobbying barriers for crypto/fintech; "@0xyspiral @DeedEstate @RobinhoodCrypto Insane levels of politicking/lobbying for favourability and overall legality that's probably too far away for now."; sarcastic/skeptical tone on regulatory approval timelines; sentiment: cautious on near-term regulatory favorability for RH/crypto expansion; no personal trade action; sentiment observation on macro/regulatory environment [$REGULATORY/$MACRO] [2100937900699295901]
   - Sep 17 03:43Z — ambiguous-cryptic: reply to @latentliq on AI narrative/RH; "Been telling niggaz AI meta is next up for RH. ~ Dr. Axius. 💤"; sarcastic tone (sleeping emoji) makes intent unclear—bullish conviction on AI tokens coming to RH? sarcastic dismissal of AI hype? market psychology observation on sequel narratives?; HR-2 calibration sent [$AI-META/$RH] [2100430442897752116]
   - Sep 16 23:56Z — self-resolved-clarification: explicitly confirms sarcasm on CASHCAT 1-of-1; clarifies 21:57Z ambiguous message = narrative-fatigue critique (sequel chasing while original diluted); intent confirmed [$CASHCAT/$ARC/$RH] [2100373198155977103]
   - Sep 16 21:57Z — ambiguous-cryptic: market philosophy on CASHCAT sequels vs originals; "buy the CASHCAT of …CASHCAT?" philosophy critique on chasing Arc/RH replays while original winner distracted; intent unclear (bullish conviction? market psychology observation? broader market structure critique on distraction cost); referents Arc/RH unconfirmed; HR-2 calibration sent [$CASHCAT/$ARC/$RH/$DOW] [2100343467004100733]
