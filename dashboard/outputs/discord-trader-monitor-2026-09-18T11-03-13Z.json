@@ -1,0 +1,222 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_main",
+        "badge_calibration",
+        "separator_1",
+        "event_info",
+        "separator_2",
+        "message_heading",
+        "author_text",
+        "message_content",
+        "reply_context",
+        "classification_status",
+        "separator_3",
+        "interpretations_heading",
+        "interpretations_list",
+        "separator_4",
+        "context_heading",
+        "context_list",
+        "separator_5",
+        "message_id_text"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — DC: HCH — Trades",
+        "level": "h2"
+      }
+    },
+    "badge_calibration": {
+      "type": "Badge",
+      "props": {
+        "text": "★ Most Important Channel",
+        "variant": "secondary"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_info": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Discord primary Trades channel | Sep 18 10:55:24Z",
+        "variant": "caption"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Message",
+        "level": "h3"
+      }
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "lead"
+      }
+    },
+    "message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Without RWAs\"",
+        "variant": "body"
+      }
+    },
+    "reply_context": {
+      "type": "Text",
+      "props": {
+        "text": "Reply to FixTweet link (external X post context)",
+        "variant": "muted"
+      }
+    },
+    "classification_status": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read?",
+        "type": "warning"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretations_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible interpretations",
+        "level": "h3"
+      }
+    },
+    "interpretations_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "interp_1",
+        "interp_2",
+        "interp_3",
+        "interp_4"
+      ]
+    },
+    "interp_1": {
+      "type": "Text",
+      "props": {
+        "text": "• Dismissive sentiment on RWAs narrative?",
+        "variant": "body"
+      }
+    },
+    "interp_2": {
+      "type": "Text",
+      "props": {
+        "text": "• Position commentary (long/short)?",
+        "variant": "body"
+      }
+    },
+    "interp_3": {
+      "type": "Text",
+      "props": {
+        "text": "• Related to specific asset/market?",
+        "variant": "body"
+      }
+    },
+    "interp_4": {
+      "type": "Text",
+      "props": {
+        "text": "• Technical structure observation?",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context_1",
+        "context_2",
+        "context_3",
+        "context_4"
+      ]
+    },
+    "context_1": {
+      "type": "Text",
+      "props": {
+        "text": "HCH net-long regime: 43.5% tactical longs",
+        "variant": "body"
+      }
+    },
+    "context_2": {
+      "type": "Text",
+      "props": {
+        "text": "Recent Sep 18 SNDK technical activity",
+        "variant": "body"
+      }
+    },
+    "context_3": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple cryptic shorthand entries earlier today",
+        "variant": "body"
+      }
+    },
+    "context_4": {
+      "type": "Text",
+      "props": {
+        "text": "One-word reply + image attachment suggests conviction-laden position statement but intent unclear without tweet/image context",
+        "variant": "muted"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_id_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1550460229605527672",
+        "variant": "caption"
+      }
+    }
+  }
+}
