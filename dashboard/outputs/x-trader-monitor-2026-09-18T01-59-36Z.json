@@ -1,0 +1,80 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "$HYPE Technical Follow-Up",
+        "description": "Technical validation of emerging group HYPE bullish structure; Kyle's watch list ticker"
+      },
+      "children": [
+        "tweet_card",
+        "separator1",
+        "links_section",
+        "separator2",
+        "classification_badge"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "Exactly 24 hours later (4H charts showing 79.077→86.807 recovery)\n\nCharts validate consolidation structure with support/resistance levels; diagonal trendline holding; RSI recovering from oversold. Price recovering in 76-88 range aligns emerging 3-trader bullish thesis (HCH/bull_genius/KillaXBT). WR recalibrating from Aug 17 dismissive stance."
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "links_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "view_link",
+        "price_stat"
+      ]
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View post on X",
+        "href": "https://x.com/Wild_Randomness/status/2100765525408395443"
+      },
+      "children": []
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price Recovery (24H)",
+        "value": "86.807",
+        "delta": "+9.77%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "classification_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Step 6 Informational",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
