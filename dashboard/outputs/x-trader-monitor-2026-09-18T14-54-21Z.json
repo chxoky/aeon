@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet",
+        "link",
+        "analysis"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "ZCash, but without infinite supply"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100960626378186920"
+      }
+    },
+    "analysis": {
+      "type": "Text",
+      "props": {
+        "text": "Sarcastic ZEC/BTC comparison amid 4-trader contested positioning (HCH short conviction vs bull_genius emerging bullish thesis). WR's dismissive tone suggests skepticism on ZEC differentiation narrative.",
+        "variant": "body"
+      }
+    }
+  }
+}
