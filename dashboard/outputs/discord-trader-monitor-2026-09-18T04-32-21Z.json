@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "tweet_1"
+      ]
+    },
+    "tweet_1": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HCH",
+        "handle": "Free",
+        "text": "Enjoy the run but be mindful of the rising OI... Also if you have crypto-only oi data (- rwas oi data) then do share with me"
+      },
+      "children": []
+    }
+  }
+}

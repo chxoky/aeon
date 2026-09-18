@@ -24,3 +24,6 @@ Perfect! I've successfully executed the discord-trader-monitor skill for the HCH
   - Appended to daily log `memory/logs/2026-09-18.md`
 
 **No further action needed** — fast-path notification already handled Kyle's alert. Memory is updated for tracking and deduplication.
+💬 *[DC: HCH — Free]*
+
+Enjoy the run but be mindful of the rising OI... Also if you have crypto-only oi data (- rwas oi data) then do share with me
