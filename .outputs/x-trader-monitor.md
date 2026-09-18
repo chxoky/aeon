@@ -1,20 +1,9 @@
-🐦 *[X] @Wild_Randomness*
+🐦 *[X] @HeartCanHodl*
 
-Lots of bear euphoria over this tweet 🐻
+Provided without considering RWAs OI, total crypto OI is meaningfully elevated, so if we fail to reclaim this area ~77k and eventually lose our grip on ~74K as well, I wouldn't mind seeing a brutal downside whipsaw.. the kind of move that could ultimately lead to an actual bottoming process
 
-Have you thought about the last time this got around these levels?
+[View tweet](https://x.com/HeartCanHodl/status/2100805744866341354)
 
-April 2024 🐻
+**Technical context**: Charts show BTC daily structure from prior 82.8K peak → 59.1K crash → consolidation at 63.8K support. Total crypto OI ~2.6T (elevated). 77K reclaim + 74K support = critical inflection points. Bearish whipsaw thesis = capitulatory bottom if breached.
 
-[View tweet](https://x.com/Wild_Randomness/status/2100799198887288976)
-
-↳ _Historical comparison to April 2024 sentiment levels (SPX/SPY technical analysis with Kevin Gordon Fed commentary); aligns with bearish-equities-into-Oct thesis._
-Honestly just chalk this into the bin of peak hawkishness
-
-No, really
-
-If not a single member believes there are downside risks to GDP then ofc this green lights them to hawk it up and fight inflation as much as they need
-
-↳ _Meta-commentary on Fed narrative disconnect — people called 'peak hawkishness' 6 weeks ago; now silent despite actual peak conditions. Reflects fintwit cycle frustration amid Warsh tactical window (Sep 17-20)._
-
-[View post](https://x.com/Wild_Randomness/status/2100799752103469567)
+↳ Contrasts group bullish bias (KillaXBT/WR/bull_genius) but aligns with WR's macro timing concern on near-term resolution.

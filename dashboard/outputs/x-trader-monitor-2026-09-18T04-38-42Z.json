@@ -1,0 +1,161 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor: BTC Trading Analysis"
+      },
+      "children": [
+        "stack_tweet",
+        "sep1",
+        "heading_context",
+        "text_context_desc",
+        "grid_prices",
+        "heading_thesis",
+        "text_thesis",
+        "sep2",
+        "heading_alignment",
+        "text_alignment"
+      ]
+    },
+    "stack_tweet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tweet_card",
+        "link_tweet"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "@HeartCanHodl",
+        "text": "Provided without considering RWAs OI, total crypto OI is meaningfully elevated, so if we fail to reclaim this area ~77k and eventually lose our grip on ~74K as well, I wouldn't mind seeing a brutal downside whipsaw.. the kind of move that could ultimately lead to an actual bottoming process"
+      }
+    },
+    "link_tweet": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100805744866341354"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Context",
+        "level": "h3"
+      }
+    },
+    "text_context_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Charts show BTC daily structure from prior 82.8K peak → 59.1K crash → consolidation at 63.8K support. Total crypto OI ~2.6T (elevated). 77K reclaim + 74K support = critical inflection points. Bearish whipsaw thesis = capitulatory bottom if breached.",
+        "variant": "body"
+      }
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_peak",
+        "stat_crash",
+        "stat_support",
+        "stat_77k",
+        "stat_74k",
+        "stat_oi"
+      ]
+    },
+    "stat_peak": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Daily Peak",
+        "value": "82.8K"
+      }
+    },
+    "stat_crash": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Crash Low",
+        "value": "59.1K"
+      }
+    },
+    "stat_support": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Support",
+        "value": "63.8K"
+      }
+    },
+    "stat_77k": {
+      "type": "Stat",
+      "props": {
+        "label": "Reclaim Level",
+        "value": "77K"
+      }
+    },
+    "stat_74k": {
+      "type": "Stat",
+      "props": {
+        "label": "Critical Support",
+        "value": "74K"
+      }
+    },
+    "stat_oi": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Crypto OI",
+        "value": "2.6T"
+      }
+    },
+    "heading_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Bearish Thesis",
+        "level": "h4"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "If 77K reclaim fails and 74K support is eventually breached, brutal downside whipsaw could lead to capitulatory bottom.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_alignment": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Alignment",
+        "level": "h3"
+      }
+    },
+    "text_alignment": {
+      "type": "Text",
+      "props": {
+        "text": "Contrasts group bullish bias (KillaXBT, WR, bull_genius) but aligns with WR's macro timing concern on near-term resolution.",
+        "variant": "body"
+      }
+    }
+  }
+}
