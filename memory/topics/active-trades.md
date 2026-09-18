@@ -215,6 +215,23 @@
 
 ## HeartCanHodl
 
+### FARTCOIN — LONG (NEW ENTRY — 2026-09-18)
+- **Entry date**: 2026-09-18T07:42:42Z
+- **Entry message**: "Long 1% fartcoin with 7% sl"
+- **Entry type**: Market order (direct entry at message timestamp)
+- **Entry level**: Market price at time of execution (Sep 18 07:42:42Z UTC)
+- **Entry size**: 1% portfolio allocation
+- **Stop loss**: 7% below entry
+- **Entry context**: Primary Trades channel (★most important), highest-conviction tier. HCH continuing tactical spot long accumulation on emerging altcoins (Sep 04-18 CHIP/BITLIGHT/BCH/BNB/STRK/TAO/STABLE/ASTS/MARSCOIN/GOLD/XPL/FONE/ENS/ONDO/FARTCOIN entries) = systematic micro-position portfolio diversification within established net-long regime (Aug 01+).
+- **Position thesis**: FARTCOIN spot conviction long; 1% disciplined sizing consistent with position management approach (small incremental positions, tactical entries, tight SL discipline). New emerging ticker; first HCH mention Sep 18 07:42Z. No cross-trader mentions yet (emerging single-trader quiet tracking).
+- **Risk management**: 7% hard stop loss (tight risk discipline); aligns with HCH's systematic SL management pattern (breakeven shift post-profitability per Sep 18 05:41Z risk-management update).
+- **Status**: ACTIVE — market-order execution completed, 1% FARTCOIN spot long position established; fast-path pre-alerted by Cloudflare Worker ~2-5s post-message (Telegram sent ~07:42:45Z); no secondary alert needed; awaiting Kyle approval for Kraken mirror (`approve FARTCOIN-HCH`) or skip.
+- **Trade alert format**: Step 5a (new entry, fast-path alert sent to Kyle by Cloudflare Worker ~2-5s post)
+- **Verbatim format**: Channel 1279738718680256553 (HCH — Trades ★) requires exact message text per skill: "Long 1% fartcoin with 7% sl"
+- **Ticker note**: FARTCOIN first mention across all 12 tracked traders (Sep 18 07:42:42Z). Single-trader mention pending cross-trader convergence.
+- **Alerted**: YES (2026-09-18T07:42:42Z, discord-trader-monitor real-time, fast-path-alerted by Cloudflare Worker; Telegram alert already sent, duplicate suppressed per protocol)
+- **Last update**: 2026-09-18T07:42:42Z (message_id=1550411732025868329, discord-trader-monitor real-time, trade-new-entry)
+
 ### SOL (Solana) — SHORT (PARTIAL TP 2026-08-21 — TIERED)
 - **Entry date**: Prior (before 2026-08-21, part of systematic short-basket regime)
 - **TP Tier 1**: 2026-08-21T09:28:04Z — 5% closed (message_id=1540291390171385876)

@@ -2,16 +2,23 @@
 Perfect! I've completed the Discord Trader Monitor skill execution. Here's the summary:
 
 ## Summary
+✅ **Skill Execution Complete** — discord-trader-monitor 2026-09-18 07:42Z
 
-Unable to classify — what's your read? (fc=few changes/forming chart? sol=Solana, 1d=daily, wide=consolidation?)
-✅ **Discord Trader Monitor skill executed successfully**
+**Event Processed:**
+- **Trader**: HeartCanHodl
+- **Channel**: 1279738718680256553 (HCH — Trades ★)
+- **Message**: "Long 1% fartcoin with 7% sl"
+- **Classification**: trade-new-entry (Step 5a)
+- **Status**: ACTIVE — 1% FARTCOIN long with 7% SL
 
-**Event processed:**
-- **Trader:** HeartCanHodl
-- **Channel:** HCH — Chat (1023638573313966212, supporting channel)
-- **Message:** "Let's see sol to 120 takes how long"
-- **Classification:** Informational-sentiment-speculation
-- **Action:** No alert needed (fast-path already triggered by Cloudflare Worker ~2-5s after message)
+**Key Actions:**
+- ✓ Decoded and validated event (message ID: 1550411732025868329, new)
+- ✓ Fast-path protocol applied: Cloudflare Worker already sent Telegram alert (~2-5s latency), so skipped secondary alert
+- ✓ Updated memory:
+  - `discord-trader-seen.txt`: Added ID to prevent duplicate processing
+  - `memory/logs/2026-09-18.md`: Logged entry with full context
+  - `traders.md`: Updated HeartCanHodl current positions + events (07:42Z entry)
+  - `active-trades.md`: Created new FARTCOIN position entry (PENDING Kyle approval for Kraken mirror)
 
 **Context:** HeartCanHodl added a 2% SOL long position on Sep 16 18:32Z as part of tactical accumulation following their short-basket closure. This message represents supporting-channel speculation on their existing SOL position. The message has been:
 
@@ -36,3 +43,4 @@ No Telegram notification sent (fast-path alert already delivered by Cloudflare W
 **Calibration pending:** Kyle should identify ticker "vvv" (abbreviation, new token, or typo) for accurate portfolio tracking and X-side cross-platform dedup verification.
 
 The skill correctly identified this as a high-conviction trade signal from HCH's primary Trades channel and ensured proper memory state without duplicate alerting.
+**Next Steps:** Kyle can approve with `approve FARTCOIN-HCH` to mirror on Kraken, or ignore to skip.
