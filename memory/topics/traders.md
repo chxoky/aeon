@@ -560,12 +560,11 @@
 - Recent thesis: Net-short since Aug 07 ("full mega retrace" thesis). Fake-bottom thesis: real bottom October. Sep 13 covered 50% crypto shorts; 76K last defense before 74K POI. ZEC short: 1235/1295 entries (2% total), scale-in confirmed Sep 09. CL short rebalanced to 1x Sep 11; 1/3rd re-added Sep 13. Tactical long accumulation (gold + micro alt spots) within net-short regime.
 - Conviction notes: Disciplined portfolio architect. Primary Trades channel = highest conviction. "Fc X" posts = false-close chart check (NOT execution). Scaled entries NOT all-in. Partial TPs do not end regime. NEAR 15m monitoring Sep 11-12. AMD technical level watching.
 - Calibration: PENDING Sep 17 13:08Z ("Fc hype 15m" — reply to own "send hype > 80.5"; false-close check pattern but supporting-channel context; HR-2 calibration sent; fast-path-alerted=true), PENDING Sep 13 10:51Z ("To them and to others we entered 1% yesterday" — which Sep 12 entry?), PENDING Sep 11 16:02Z ("SL $98.00" — asset unclear), PENDING Sep 11 14:03Z ("6% sl" — ticker unknown), PENDING Sep 11 07:31Z ("small near long leg here?" — NEAR token or pattern?), PENDING Sep 11 05:42Z (Fc clusdt 5m — force-close or false-close?), PENDING Sep 09 15:08Z ("That looks ugly.."), PENDING Sep 07 09:13Z ("Will give rough invalidation if it gets filled" — ticker unknown), PENDING Sep 07 11:57Z (domain purchase / yellow ticker / 2M coin context).
-- Last seen: 2026-09-18T08:19:16Z
+- Last seen: 2026-09-18T08:26:50Z
 - **Events (rolling):**
-  - Sep 18 08:19Z — informational-trading-philosophy: Discretionary trading wisdom; "right position almost always flat...right action almost always do nothing. 5x/yr free money on floor, pick it up then do nothing"; conviction on patience/discipline; Free primary (1472153627324842057); no execution [$PHILOSOPHY/$DISCIPLINE] [1550420937151619133]
-- Last seen: 2026-09-18T08:21:10Z
-- **Events (rolling):**
+  - Sep 18 08:26Z — informational-sentiment-market-breadth: Altseason market observation; "57 alts up more than 10% in the last 24h!👀"; supporting channel (HCH — Chat 1023638573313966212); real-time market sentiment/broadening conviction on alt strength post-FOMC; no personal trade execution; informational alert sent to Kyle [$ALTS/$MARKET-BREADTH] [1550422840493482005]
   - Sep 18 08:21Z — informational-sentiment: $HYPE/$ZEC altcoin momentum post-FOMC; sarcastic commentary on alts +7-10% [2100862683620770209]
+  - Sep 18 08:19Z — informational-trading-philosophy: Discretionary trading wisdom; "right position almost always flat...right action almost always do nothing. 5x/yr free money on floor, pick it up then do nothing"; conviction on patience/discipline; Free primary (1472153627324842057); no execution [$PHILOSOPHY/$DISCIPLINE] [1550420937151619133]
   - Sep 18 08:10Z — ambiguous-cryptic: Reply to @DonAlt with prayer hands emoji; cryptic intent (sarcasm/agreement/banter unclear); no financial context visible; image unavailable (0-byte CDN); HR-2 calibration alert sent [$UNKNOWN] [2100860037883183195]
 - Last seen: 2026-09-18T08:18:13Z
 - **Events (rolling):**

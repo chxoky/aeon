@@ -1,0 +1,22 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stat"
+      ]
+    },
+    "stat": {
+      "type": "Stat",
+      "props": {
+        "value": "57",
+        "label": "alts up more than 10% in last 24h 👀"
+      }
+    }
+  }
+}
