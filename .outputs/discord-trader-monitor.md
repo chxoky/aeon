@@ -1,6 +1,7 @@
 ## Summary
+Perfect! I've completed the Discord Trader Monitor skill execution. Here's the summary:
 
-HeartCanHodl: "fc sol 1d wide"
+## Summary
 
 Unable to classify — what's your read? (fc=few changes/forming chart? sol=Solana, 1d=daily, wide=consolidation?)
 ✅ **Discord Trader Monitor skill executed successfully**
@@ -19,3 +20,19 @@ Unable to classify — what's your read? (fc=few changes/forming chart? sol=Sola
 3. ✅ Added to `memory/logs/2026-09-18.md` with full classification details
 
 No Telegram notification sent (fast-path alert already delivered by Cloudflare Worker). SOL ticker tracked; no cross-trader convergence yet.
+**Event processed:** HeartCanHodl Discord message in primary Trades channel (1279738718680256553)
+
+**Message:** "Long vvv with sl down 7%" @ 2026-09-18T07:40:59Z (Message ID: 1550411299672952894)
+
+**Classification:** `trade-new-entry` — Clear first-person execution language ("Long" with defined stop loss)
+
+**Fast-path status:** `true` — Cloudflare Worker already sent Telegram alert ~2-5s after message. Skipped secondary Telegram sends per protocol.
+
+**Actions completed:**
+1. ✅ Added message ID to `memory/discord-trader-seen.txt` (dedup tracking)
+2. ✅ Updated `memory/topics/traders.md` — Added event entry with context + calibration note on unknown ticker "vvv"
+3. ✅ Created log entry in `memory/logs/2026-09-18.md` with full processing details
+
+**Calibration pending:** Kyle should identify ticker "vvv" (abbreviation, new token, or typo) for accurate portfolio tracking and X-side cross-platform dedup verification.
+
+The skill correctly identified this as a high-conviction trade signal from HCH's primary Trades channel and ensured proper memory state without duplicate alerting.
