@@ -1,0 +1,140 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration Alert",
+        "description": "Classification error for @bull_genius"
+      },
+      "children": [
+        "header",
+        "sep1",
+        "event_section",
+        "sep2",
+        "alert_box",
+        "sep3",
+        "activity_section"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — @bull_genius",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_label",
+        "tweet_card"
+      ]
+    },
+    "event_label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @DummySwing",
+        "variant": "caption"
+      }
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "bull_genius",
+        "handle": "bull_genius",
+        "text": "i also added"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_box": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to Classify",
+        "message": "What position was this referring to?",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "activity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "activity_title",
+        "activity_list"
+      ]
+    },
+    "activity_title": {
+      "type": "Text",
+      "props": {
+        "text": "Recent activity (candidates):",
+        "variant": "caption"
+      }
+    },
+    "activity_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "activity_1",
+        "activity_2",
+        "activity_3",
+        "activity_4"
+      ]
+    },
+    "activity_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC trading comp long conviction add — Sep 17",
+        "variant": "body"
+      }
+    },
+    "activity_2": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP multi-entry — Sep 05-09",
+        "variant": "body"
+      }
+    },
+    "activity_3": {
+      "type": "Text",
+      "props": {
+        "text": "personal spot holding maximum",
+        "variant": "body"
+      }
+    },
+    "activity_4": {
+      "type": "Text",
+      "props": {
+        "text": "ARGONAUTS extreme conviction — Sep 07-18",
+        "variant": "body"
+      }
+    }
+  }
+}
