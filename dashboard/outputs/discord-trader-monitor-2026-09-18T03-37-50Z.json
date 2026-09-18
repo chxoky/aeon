@@ -1,0 +1,98 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "message-header",
+        "sep-1",
+        "original-entry",
+        "sep-2",
+        "reflection"
+      ]
+    },
+    "message-header": {
+      "type": "Text",
+      "props": {
+        "text": "💬 Discord: Chase",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "original-entry": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "entry-label",
+        "entry-content"
+      ]
+    },
+    "entry-label": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Original entry",
+        "variant": "muted"
+      }
+    },
+    "entry-content": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE long. Personally going to split the risk a bit between BTC and HYPE for a total of 2R~ risk.",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflection-label",
+        "reflection-content"
+      ]
+    },
+    "reflection-label": {
+      "type": "Heading",
+      "props": {
+        "text": "📝 Self-Reflection — HYPE Position Review",
+        "level": "h3"
+      }
+    },
+    "reflection-content": {
+      "type": "Text",
+      "props": {
+        "text": "Should have kept this HYPE long active, sorry lads. Was weird timing with Gold, BTC, and HYPE potentially all to fill at one time. But we had trimmed prior positions and I should have revisited this trade. Going to blame it on being busy IRL atm, but nonetheless could have performed better here. I think the somewhat slow bleed, plus macro landscape also factored in but alas, always good to be honest with yourself and reflect.",
+        "variant": "body"
+      }
+    }
+  }
+}
