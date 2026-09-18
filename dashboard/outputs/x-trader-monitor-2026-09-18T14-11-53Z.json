@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor — Calibration @HeartCanHodl"
+      },
+      "children": [
+        "stack_body"
+      ]
+    },
+    "stack_body": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "text_event",
+        "separator_1",
+        "heading_context",
+        "stack_context",
+        "separator_2",
+        "tweetcard_post",
+        "separator_3",
+        "heading_question",
+        "alert_classify"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "HCH post responding to @alyannn2 in context of HYPE/BTC technical discussion",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_context_1",
+        "text_context_2",
+        "text_context_3"
+      ]
+    },
+    "text_context_1": {
+      "type": "Text",
+      "props": {
+        "text": "1h/5m HYPE charts",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_2": {
+      "type": "Text",
+      "props": {
+        "text": "4h BTC channel entry alert",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_context_3": {
+      "type": "Text",
+      "props": {
+        "text": "HCH's earlier message: \"send hype > 80.5\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tweetcard_post": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@alyannn2 Running it back turbo\n\n+ 3 images (technical charts, BTC alert)"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Interpretation",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Is HCH personally re-entering HYPE/BTC position, or affirming @alyannn2's trade idea? What's your read?",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}

@@ -3,9 +3,13 @@ Perfect! I've successfully processed the event. Here's the summary:
 ## Summary
 
 **Event Processed:** swarmister X post (2026-09-18T14:02:14Z)
+🔍 *Calibration — @HeartCanHodl*
 
-[View tweet](https://x.com/HeartCanHodl/status/2100946210827698397)
-## Summary
+Event: HCH post responding to @alyannn2 in context of HYPE/BTC technical discussion (1h/5m HYPE charts, 4h BTC channel entry alert; HCH's earlier message "send hype > 80.5")
+
+HCH: "@alyannn2 Running it back turbo" + 3 images (technical charts, BTC alert)
+
+Unable to classify — is HCH personally re-entering HYPE/BTC position, or affirming @alyannn2's trade idea?
 
 I've successfully executed the X Trader Monitor skill for the HeartCanHodl event. Here's what was completed:
 
@@ -64,3 +68,4 @@ $BTC — Did you fade?
 ✅ Informational alert sent via ./notify  
 
 **Status:** Complete — Event classified as non-actionable informational sentiment. No trade approval needed. No cross-platform deduplication issues.
+What's your read?
