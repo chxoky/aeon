@@ -1,0 +1,179 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor — Calibration"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_calibration",
+        "sep1",
+        "section_event"
+      ]
+    },
+    "section_calibration": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_calibration",
+        "text_calibration_details"
+      ]
+    },
+    "heading_calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_calibration_details": {
+      "type": "Text",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_event": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_event",
+        "event_detail_1",
+        "sep2",
+        "event_detail_2",
+        "sep3",
+        "event_question"
+      ]
+    },
+    "heading_event": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "event_detail_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_event_desc",
+        "text_event_quote"
+      ]
+    },
+    "text_event_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel discussion on invalidation/SL placement",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_event_quote": {
+      "type": "Text",
+      "props": {
+        "text": "14:57Z: 'Invalidation is close so it's fine'",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_detail_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_hch_time",
+        "text_hch_quote"
+      ]
+    },
+    "text_hch_time": {
+      "type": "Text",
+      "props": {
+        "text": "HCH (15:04Z)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_hch_quote": {
+      "type": "Text",
+      "props": {
+        "text": "'little roadmap in advance <@&1113695700723716186>'",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "event_question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_unable",
+        "text_question_prompt"
+      ]
+    },
+    "text_unable": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_question_prompt": {
+      "type": "Text",
+      "props": {
+        "text": "Is this market timing commentary, an upcoming plan announcement, or banter?",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
