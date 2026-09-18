@@ -1,0 +1,128 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "header",
+        "event-label",
+        "tweet-card",
+        "separator1",
+        "context-section",
+        "separator2",
+        "analysis-section",
+        "separator3",
+        "link"
+      ]
+    },
+    "header": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @HeartCanHodl",
+        "level": "h2"
+      }
+    },
+    "event-label": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Technical chart observation on crypto market structure",
+        "variant": "lead"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "@Route2FI Look at the HTF crypto total chart excluding top 10"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-label",
+        "context-para1",
+        "context-para2"
+      ]
+    },
+    "context-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "context-para1": {
+      "type": "Text",
+      "props": {
+        "text": "This post directs another trader to examine the higher-timeframe crypto total cap chart (excluding top 10 coins) but provides no interpretation, chart image, or execution signal.",
+        "variant": "body"
+      }
+    },
+    "context-para2": {
+      "type": "Text",
+      "props": {
+        "text": "HCH recently reflected on HYPE regret and holds net-long regime positions.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "analysis-label",
+        "analysis-text"
+      ]
+    },
+    "analysis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Classification",
+        "level": "h3"
+      }
+    },
+    "analysis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read? Is this a structural warning signal, a technical confirmation, or general market commentary?",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/HeartCanHodl/status/2100857758593454125"
+      }
+    }
+  }
+}
