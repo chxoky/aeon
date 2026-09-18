@@ -1,0 +1,55 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading_cal",
+        "text_event",
+        "story_swarmister",
+        "alert_classify",
+        "link_post"
+      ]
+    },
+    "heading_cal": {
+      "type": "Heading",
+      "props": {
+        "text": "Calibration — @swarmister",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @garbycab with 4 chart images"
+      }
+    },
+    "story_swarmister": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Found one",
+        "href": "https://t.co/3OEVPMJBjw",
+        "source": "swarmister"
+      }
+    },
+    "alert_classify": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? The referenced images couldn't be fetched.",
+        "type": "warning"
+      }
+    },
+    "link_post": {
+      "type": "Link",
+      "props": {
+        "label": "View on X",
+        "href": "https://x.com/swarmister/status/2100791339222757412"
+      }
+    }
+  }
+}
