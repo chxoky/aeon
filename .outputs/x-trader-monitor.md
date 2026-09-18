@@ -12,3 +12,10 @@ Unable to classify — what's your read? References 'picks' but asset/position u
 Recent context: bull_genius post-FOMC bullish on BTC spot + PUMP long (awaiting approval) + NFT conviction escalation (ARGONAUTS).
 
 [View post](https://x.com/bull_genius/status/2100915664642777366)
+🐦 *[X] @bull_genius*
+
+this is the only correct ZEC framing this cycle btw
+
+anyone telling you its just a privacy coin should be hard faded
+
+[View tweet](https://x.com/bull_genius/status/2100915855122968894)
