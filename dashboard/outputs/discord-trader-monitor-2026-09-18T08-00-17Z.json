@@ -1,0 +1,116 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-calibration",
+        "separator-1",
+        "event-section",
+        "link-section",
+        "context-section"
+      ]
+    },
+    "alert-calibration": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Calibration — [DC: HCH — Chat]",
+        "message": "Cannot classify without explanation — what's this address tracking?"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event-heading",
+        "event-text"
+      ]
+    },
+    "event-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Event",
+        "level": "h4"
+      }
+    },
+    "event-text": {
+      "type": "Text",
+      "props": {
+        "text": "URL-only message in supporting channel"
+      }
+    },
+    "link-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-heading",
+        "link-scanner"
+      ]
+    },
+    "link-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Address Scanner",
+        "level": "h4"
+      }
+    },
+    "link-scanner": {
+      "type": "Link",
+      "props": {
+        "label": "https://hypurrscan.io/address/0xefe4c06b6d310978bead596e1798a4fc1d9d194b",
+        "href": "https://hypurrscan.io/address/0xefe4c06b6d310978bead596e1798a4fc1d9d194b"
+      }
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-heading",
+        "context-text"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h4"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Shared 13 minutes after FARTCOIN 1% entry (Sep 18 07:42:42Z, same channel)"
+      }
+    }
+  }
+}

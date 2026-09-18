@@ -24,3 +24,12 @@ The message follows the documented "Fc {ticker} {timeframe}" pattern observed th
 7. ⏳ Calibration alert awaiting Kyle's interpretation on "Fc strk 5m" meaning
 
 **Next Step:** Kyle should clarify what "Fc strk 5m" indicates — whether it's a technical false-close check on the STRK 5-minute chart or another signal requiring different classification.
+🔍 *Calibration — [DC: HCH — Chat]*
+
+Event: URL-only message in supporting channel
+
+Address scanner link: https://hypurrscan.io/address/0xefe4c06b6d310978bead596e1798a4fc1d9d194b
+
+Context: Shared 13 minutes after FARTCOIN 1% entry (Sep 18 07:42:42Z, same channel).
+
+Cannot classify without explanation — what's this address tracking?
