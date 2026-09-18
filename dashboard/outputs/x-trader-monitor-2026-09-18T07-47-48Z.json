@@ -1,0 +1,60 @@
+{
+  "root": "container",
+  "state": {},
+  "elements": {
+    "container": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet_stack",
+        "separator",
+        "analysis_alert"
+      ]
+    },
+    "tweet_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "view_link"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "@bull_genius",
+        "handle": "bull_genius",
+        "text": "every single day that passes i am getting more bullish on art machine"
+      },
+      "children": []
+    },
+    "view_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/bull_genius/status/2100853187485872218"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "analysis_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Sustained daily conviction escalation on ARTMACHINEXYZ; 9th mention in 10-day window (ARGONAUTS+ARTMACHINEXYZ combo) = extreme ecosystem/community thesis building."
+      },
+      "children": []
+    }
+  }
+}
