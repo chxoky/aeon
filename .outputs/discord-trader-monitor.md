@@ -1,4 +1,4 @@
-## Summary
+🔍 *Calibration — [DC: HCH — Chat]*
 
 **Skill execution completed:** `discord-trader-monitor`
 
@@ -21,3 +21,13 @@
 - ✅ No alert sent to Kyle (no Telegram notification)
 
 **Result:** Event processed and logged. No notification required.
+Event: Supporting channel message, cryptic reference with linked Discord channel/message
+
+heartcanhodl: "Fc btc 1d https://discord.com/channels/1023571940922888272/1472153627324842057/1503637510771703888"
+
+Unable to classify — what's your read?
+- "Fc" = few changes? from chart? flow check?
+- "btc 1d" = Bitcoin 1-day timeframe?
+- URL links to another Discord message (possibly for context)
+
+Message ID: 1550361537682874410, Channel: 1023638573313966212 (HCH — Chat / supporting)

@@ -1,0 +1,130 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor",
+        "description": "Calibration Event"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_calibration",
+        "sep_1",
+        "text_event",
+        "stack_message",
+        "sep_2",
+        "text_unable_classify_title",
+        "text_bullet_fc",
+        "text_bullet_btc",
+        "text_bullet_url",
+        "sep_3",
+        "text_metadata"
+      ]
+    },
+    "text_calibration": {
+      "type": "Text",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Supporting channel message, cryptic reference with linked Discord channel/message"
+      }
+    },
+    "stack_message": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_author_label",
+        "text_message_content",
+        "link_discord"
+      ]
+    },
+    "text_author_label": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl:",
+        "variant": "body"
+      }
+    },
+    "text_message_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fc btc 1d\""
+      }
+    },
+    "link_discord": {
+      "type": "Link",
+      "props": {
+        "label": "https://discord.com/channels/1023571940922888272/1472153627324842057/1503637510771703888",
+        "href": "https://discord.com/channels/1023571940922888272/1472153627324842057/1503637510771703888"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_unable_classify_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "level": "h3"
+      }
+    },
+    "text_bullet_fc": {
+      "type": "Text",
+      "props": {
+        "text": "• \"Fc\" = few changes? from chart? flow check?"
+      }
+    },
+    "text_bullet_btc": {
+      "type": "Text",
+      "props": {
+        "text": "• \"btc 1d\" = Bitcoin 1-day timeframe?"
+      }
+    },
+    "text_bullet_url": {
+      "type": "Text",
+      "props": {
+        "text": "• URL links to another Discord message (possibly for context)"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_metadata": {
+      "type": "Text",
+      "props": {
+        "text": "Message ID: 1550361537682874410, Channel: 1023638573313966212 (HCH — Chat / supporting)"
+      }
+    }
+  }
+}
