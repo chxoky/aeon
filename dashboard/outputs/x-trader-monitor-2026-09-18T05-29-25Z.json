@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "tweet",
+        "tweet_link",
+        "separator",
+        "technical_context"
+      ]
+    },
+    "tweet": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "handle": "HeartCanHodl",
+        "text": "Crypto & semis' comeback.\n\n$SNDK"
+      }
+    },
+    "tweet_link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/HeartCanHodl/status/2100818309067260228"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tech_heading",
+        "tech_text"
+      ]
+    },
+    "tech_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Context",
+        "level": "h3"
+      }
+    },
+    "tech_text": {
+      "type": "Text",
+      "props": {
+        "text": "SNDK 1h shows descending trendline with recent recovery into support cluster (1620–1639 zone). Volume accumulation validating consolidation. Chart confirms broader semiconductor recovery thesis."
+      }
+    }
+  }
+}
