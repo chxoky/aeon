@@ -1,0 +1,63 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tweet_card",
+        "sep1",
+        "link_view",
+        "sep2",
+        "text_interpretation"
+      ]
+    },
+    "tweet_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "KillaXBT",
+        "handle": "KillaXBT",
+        "text": "Maybe it is priced in... $BTC\n\nI don't know mate, maybe it is priced in... $BTC\n\nMaybe people are just unable to comprehend that we live in a system where a huge amount happens behind closed doors, while most people are too naive to see it.\n\nInsider trading has existed since the beginning of markets. It happens in stocks, so there is absolutely no reason to believe crypto is any different.\n\n[Charts show FOMC cycle patterns with consistent pivot points — retail may miss outsized moves already reflected by institutional insiders]"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_view": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/KillaXBT/status/2100926973388136736"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_interpretation": {
+      "type": "Text",
+      "props": {
+        "text": "↳ Diverges from recent bullish messaging — subtle caution within ongoing HTF long thesis.",
+        "variant": "muted"
+      }
+    }
+  }
+}
