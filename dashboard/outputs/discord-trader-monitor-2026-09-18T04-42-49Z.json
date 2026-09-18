@@ -1,0 +1,49 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "instruction",
+        "tweet_link"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "💬 [DC: HCH — Free]",
+        "variant": "secondary"
+      }
+    },
+    "instruction": {
+      "type": "Text",
+      "props": {
+        "text": "Keep \"breaking key levels\" as the trigger",
+        "variant": "body"
+      }
+    },
+    "tweet_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tweet from HeartCanHodl",
+        "href": "https://x.com/HeartCanHodl/status/2100805744866341354",
+        "source": "X (Twitter)"
+      }
+    }
+  }
+}
