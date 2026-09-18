@@ -3,13 +3,15 @@
 lows are in 100% imo
 
 [View tweet](https://x.com/bull_genius/status/2100956075184849337)
+🔍 *Calibration — @HeartCanHodl*
 
-Unable to classify without reading charts — what's your read? Is this:
-1. Personal trade setup/execution signal?
-2. Informational technical analysis share?
-3. Trade idea suggestion (not your own action)?
+Event: Following Sep 18 14:30Z cryptic Discord message 'Fc btc 1hr' (force close? few changes? unclear)
 
-Context: 4 images blocked by sandbox (cannot fetch from pbs.twimg.com)
+@HeartCanHodl: "I genuinely forgot how to think bigger haha. We reached the initial target in two days — and now I'm not quite sure what I'm supposed to expect next 😅"
+
+Context: Recent post (Sep 18 13:53Z) referenced BTC 80.5K target from 74-76K range; this may be that target hit. But without seeing the charts (4 images attached to tweet), cannot confirm: which target reached? what timeframe? current positioning?
+
+Unable to classify — what's your read?
 
 [View post](https://x.com/Wild_Randomness/status/2100954250692133134)
 🔍 *Calibration — @bull_genius*
@@ -35,3 +37,4 @@ Context: bull_genius Sep 17 post-FOMC spot conviction all-time high; PUMP long m
 
 [View post](https://x.com/bull_genius/status/2100955324249231516)
 ↳ _Converges with post-FOMC bullish consensus (KillaXBT 'officially bottomed' Sep 13, HCH net-long, group recovery thesis)._
+[View post](https://x.com/HeartCanHodl/status/2100956540219883969)
