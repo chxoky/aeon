@@ -22,3 +22,14 @@ This post is personal social communication directing another user to check their
 4. ✓ No traders.md update (size discipline reserves rolling events for financial/actionable content only)
 
 **Result:** No notification sent. Event logged for record-keeping only.
+🐦 *[X] @Wild_Randomness*
+
+$BTC — Did you fade?
+
+**BTC Recovery Charts:**
+- 4H: +4.62% recovery from consolidation lows (79,943 target level)
+- 1D: Daily structure validation from Aug-Sep lows with intact support zones
+
+↳ Aligns group post-FOMC bullish recovery lens (KillaXBT 13:45Z + WR 13:49Z within 4min)
+
+[View post](https://x.com/Wild_Randomness/status/2100945434571358708)
