@@ -1,0 +1,137 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading-calibration",
+        "event-line",
+        "tweet-card",
+        "question-text",
+        "separator-1",
+        "interpretations-stack",
+        "separator-2",
+        "context-stack",
+        "view-link"
+      ]
+    },
+    "heading-calibration": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @t_in_crypto",
+        "level": "h2"
+      }
+    },
+    "event-line": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Cryptic reply at Sep 18 11:07Z UTC",
+        "variant": "caption"
+      }
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "t_in_crypto",
+        "handle": "t_in_crypto",
+        "text": "@Ady070720 21? Nope"
+      }
+    },
+    "question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unable to classify — what's your read?",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "interpretations-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interpretations-heading",
+        "interp-1",
+        "interp-2",
+        "interp-3"
+      ]
+    },
+    "interpretations-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations:",
+        "variant": "body"
+      }
+    },
+    "interp-1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Price-level dismissal (e.g. $21K BTC target)?",
+        "variant": "body"
+      }
+    },
+    "interp-2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Percentage-move disagreement?",
+        "variant": "body"
+      }
+    },
+    "interp-3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Generic banter?",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context-label",
+        "context-text"
+      ]
+    },
+    "context-label": {
+      "type": "Text",
+      "props": {
+        "text": "Context:",
+        "variant": "body"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "t_in_crypto = swing trader with technical bottom-anticipation thesis.",
+        "variant": "body"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/t_in_crypto/status/2100904498407293233"
+      }
+    }
+  }
+}
