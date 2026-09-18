@@ -1,0 +1,104 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_source",
+        "sep_1",
+        "message_indicator",
+        "discord_message",
+        "sep_2",
+        "analysis_section"
+      ]
+    },
+    "badge_source": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Chat",
+        "variant": "secondary"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "message_indicator": {
+      "type": "Text",
+      "props": {
+        "text": "↩️ Reply from Member:",
+        "variant": "caption"
+      }
+    },
+    "discord_message": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Member",
+        "text": "Closed sol here.. will see how it goes in the morning.. we should see a retrace.. but the OI bit is worrying"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_strategy",
+        "text_strategy",
+        "level_77k",
+        "level_74k"
+      ]
+    },
+    "heading_strategy": {
+      "type": "Heading",
+      "props": {
+        "text": "Trading Strategy",
+        "level": "h4"
+      }
+    },
+    "text_strategy": {
+      "type": "Text",
+      "props": {
+        "text": "I am keeping the hard line here",
+        "variant": "body"
+      }
+    },
+    "level_77k": {
+      "type": "Text",
+      "props": {
+        "text": "sub 77k — start worrying",
+        "variant": "body"
+      }
+    },
+    "level_74k": {
+      "type": "Text",
+      "props": {
+        "text": "sub 74k — zeroooo",
+        "variant": "body"
+      }
+    }
+  }
+}
