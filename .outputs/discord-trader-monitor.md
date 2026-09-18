@@ -1,4 +1,4 @@
-## Summary
+💬 *[DC: HCH — Comments]*
 
 Executed discord-trader-monitor skill for real-time Discord event.
 
@@ -17,3 +17,8 @@ Executed discord-trader-monitor skill for real-time Discord event.
 5. **Step 9-10**: Message ID added to discord-trader-seen.txt for dedup; event logged with HR-1 silent-skip classification; no traders.md update (skips don't get event entries per size discipline)  
 
 **Action Taken**: Silent skip — non-financial URL-only share, no Kyle alert needed. Skill completed successfully.
+Without equity OI
+
+_via Discord — HCH — Comments_
+
+📎 Chart image: https://cdn.discordapp.com/attachments/1393137051108507728/1550460120759017583/IMG_20260918_162258_024.jpg (Open Interest analysis)

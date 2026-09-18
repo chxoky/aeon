@@ -1,0 +1,60 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "heading_1",
+        "text_1",
+        "separator_1",
+        "badge_1",
+        "separator_2",
+        "storylink_1"
+      ]
+    },
+    "heading_1": {
+      "type": "Heading",
+      "props": {
+        "text": "💬 [DC: HCH — Comments]",
+        "level": "h3"
+      }
+    },
+    "text_1": {
+      "type": "Text",
+      "props": {
+        "text": "Without equity OI"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "via Discord — HCH — Comments",
+        "variant": "outline"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "storylink_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open Interest analysis",
+        "href": "https://cdn.discordapp.com/attachments/1393137051108507728/1550460120759017583/IMG_20260918_162258_024.jpg",
+        "source": "Chart image"
+      }
+    }
+  }
+}
