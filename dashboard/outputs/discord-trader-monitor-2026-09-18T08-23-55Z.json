@@ -1,0 +1,40 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge",
+        "quote"
+      ]
+    },
+    "badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DC: HCH — Free",
+        "variant": "secondary"
+      }
+    },
+    "quote": {
+      "type": "Text",
+      "props": {
+        "text": "💬 In discretionary trading, the right position is almost always flat, the right action is almost always do nothing. 5 times a year there's free money on the floor. Pick it up, then do nothing. Outperformance 👌🏻",
+        "variant": "lead"
+      }
+    }
+  }
+}

@@ -23,3 +23,6 @@
 - Primary channel → high-conviction tier, but messaging is informational
 
 **Next steps:** None required. Fast-path Telegram alert already sent by Worker; memory updates complete.
+💬 *[DC: HCH — Free]*
+
+In discretionary trading, the right position is almost always flat, the right action is almost always do nothing. 5 times a year there's free money on the floor. Pick it up, then do nothing. Outperformance 👌🏻
