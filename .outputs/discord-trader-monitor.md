@@ -42,3 +42,9 @@ The message was correctly classified as non-financial banter in a supporting cha
 7. ✓ Logged event to memory/logs/2026-09-18.md
 
 **No alert sent.** Pure emoji content carries zero financial information — correct skip per protocol.
+Event: Reply to FixTweet link (HeartCanHodl tweet referenced)
+heartcanhodl: "Fc eth 5m wide"
+
+Unable to classify — what's your read?
+
+(Similar to Sep 18 13:39Z 'Fc btc 5m' pattern)

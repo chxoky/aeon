@@ -1,0 +1,52 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "event_row",
+        "message_row",
+        "alert",
+        "pattern_row"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h3"
+      }
+    },
+    "event_row": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to FixTweet link (HeartCanHodl tweet referenced)"
+      }
+    },
+    "message_row": {
+      "type": "Text",
+      "props": {
+        "text": "heartcanhodl: \"Fc eth 5m wide\""
+      }
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Unable to classify — what's your read?"
+      }
+    },
+    "pattern_row": {
+      "type": "Text",
+      "props": {
+        "text": "Similar to Sep 18 13:39Z 'Fc btc 5m' pattern",
+        "variant": "caption"
+      }
+    }
+  }
+}
