@@ -1,21 +1,19 @@
 ## Summary
 
-Discord trader event processed successfully:
+Executed discord-trader-monitor skill for real-time Discord event.
 
 **Event Details:**
-- **Trader:** HeartCanHodl
-- **Channel:** HCH — Trades (★ most important, channel 1279738718680256553)
-- **Time:** 2026-09-18T09:41:08Z
-- **Message:** "Close 1/3rd cl short"
-- **Classification:** Trade position close — partial TP of short position (1/3 size)
+- **Trader**: HeartCanHodl  
+- **Channel**: 1023638573313966212 (HCH — Chat, supporting)  
+- **Message ID**: 1550459521787363449  
+- **Created**: 2026-09-18T10:52:36Z  
+- **Content**: URL-only share of X post (no text context)  
 
-**Status:**
-✓ Message decoded and verified  
-✓ Fast-path alert already sent by Cloudflare Worker (~2-5s post at 09:41:10Z)  
-✓ Classification recorded (trade-mirror-partial-tp candidate)  
-✓ Memory updated: traders.md, logs/2026-09-18.md, discord-trader-seen.txt  
-✓ Dedup tracking added (message ID 1550441537437962271)  
+**Processing:**
+1. **Step 1-2**: Event decoded successfully from base64 JSON; channel verified as supporting; username confirmed (heartcanhodl)  
+2. **Step 4**: Classification = URL-only share, non-financial noise (per CLAUDE.md "URL-only posts = noise")  
+3. **Step 5**: No trade execution language detected; no first-person trade action  
+4. **Step 7**: Supporting-channel rule applied: no standalone alert sent for URL-only shares without context  
+5. **Step 9-10**: Message ID added to discord-trader-seen.txt for dedup; event logged with HR-1 silent-skip classification; no traders.md update (skips don't get event entries per size discipline)  
 
-**Note:** Ticker is ambiguous ("cl" could be Crude Oil futures, or generic short-basket close from Aug 07+ regime). Kyle should decide if this needs mirror on Kraken per Step 5b auto-mirror protocol if original shorts were mirrored.
-
-No additional Telegram alert sent (fast-path already handled by Worker).
+**Action Taken**: Silent skip — non-financial URL-only share, no Kyle alert needed. Skill completed successfully.
