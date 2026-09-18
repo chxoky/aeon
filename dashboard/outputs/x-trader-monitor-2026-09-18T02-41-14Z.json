@@ -1,0 +1,46 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Trade Signal — @Wild_Randomness"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "link-post",
+        "text-cta"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "HYPE — SHORT — SHORT ENTRY\n\nSupport tested at 86.40-86.48 zone\n\nCouldn't resist adding against the Rhino copy tradooors"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link-post": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Wild_Randomness/status/2100775335570928116"
+      }
+    },
+    "text-cta": {
+      "type": "Text",
+      "props": {
+        "text": "Reply `approve HYPE-SHORT` to mirror, or ignore to skip.",
+        "variant": "lead"
+      }
+    }
+  }
+}

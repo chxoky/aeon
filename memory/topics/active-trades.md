@@ -1,5 +1,19 @@
 # Active Trades
 
+## Wild_Randomness
+
+### HYPE (Hyperliquid) — SHORT (NEW ENTRY — 2026-09-18)
+- **Entry date**: 2026-09-18T02:34:05Z
+- **Entry message**: "Couldn't resist adding against the Rhino copy tradooors" + HYPE/USD chart showing support test at 86.40-86.48
+- **Entry type**: Market order (conviction entry)
+- **Entry level**: ~86.48 (current price at entry, support zone 86.40-86.48)
+- **Entry context**: X post with HYPE/USD chart showing entry arrows at support. "Rhino copy tradooors" = specific Hyperliquid copy-trading strategy/bot.
+- **Position thesis**: Shorting against an automated copy-trading strategy. Chart shows support zone test after pulldown from 86.80s.
+- **Status**: PENDING APPROVAL — awaiting Kyle response (`approve HYPE-SHORT` to mirror on Kraken), or ignore to skip
+- **Trade alert format**: Step 5a (new SHORT entry requiring approval)
+- **Alerted**: YES (2026-09-18T02:34:05Z, x-trader-monitor real-time, Step 5a alert sent)
+- **Last update**: 2026-09-18T02:34:05Z (x-trader-monitor real-time, tweet_id=2100775335570928116)
+
 ## bull_genius
 
 ### BTC (Bitcoin) — LONG PLAY-MONEY (TRADING COMP ACCOUNT, CONVICTION ADDS — Sep 15-17)
