@@ -1,0 +1,54 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor"
+      },
+      "children": [
+        "heading_calib",
+        "text_event",
+        "text_quote",
+        "alert_status",
+        "text_interpretations"
+      ]
+    },
+    "heading_calib": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — [DC: HCH — Chat]",
+        "level": "h2"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: HeartCanHodl posted cryptic notation",
+        "variant": "body"
+      }
+    },
+    "text_quote": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl: \"Fc btc 1m\"",
+        "variant": "lead"
+      }
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "message": "Unable to classify — what's your read?",
+        "type": "warning"
+      }
+    },
+    "text_interpretations": {
+      "type": "Text",
+      "props": {
+        "text": "Possible interpretations: few changes? technical pattern? trade setup?",
+        "variant": "caption"
+      }
+    }
+  }
+}
