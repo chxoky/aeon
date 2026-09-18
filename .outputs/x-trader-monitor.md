@@ -1,8 +1,8 @@
-🔍 *Calibration — @Wild_Randomness*
+🐦 *[X] @bull_genius*
 
-Event: Post with 4 technical chart images mentioning $BTC $IBIT
+lows are in 100% imo
 
-Wild_Randomness: "$BTC $IBIT https://t.co/1Z1vQB6Uxv"
+[View tweet](https://x.com/bull_genius/status/2100956075184849337)
 
 Unable to classify without reading charts — what's your read? Is this:
 1. Personal trade setup/execution signal?
@@ -34,3 +34,4 @@ Are you:
 Context: bull_genius Sep 17 post-FOMC spot conviction all-time high; PUMP long multi-entry Sep 05-09 awaiting Kyle approval on Sep 09 entry.
 
 [View post](https://x.com/bull_genius/status/2100955324249231516)
+↳ _Converges with post-FOMC bullish consensus (KillaXBT 'officially bottomed' Sep 13, HCH net-long, group recovery thesis)._
