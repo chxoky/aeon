@@ -1,0 +1,140 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "x-trader-monitor"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "event",
+        "sep2",
+        "quote_stack",
+        "sep3",
+        "alert",
+        "concerns_stack",
+        "sep4",
+        "recent_context",
+        "sep5",
+        "link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Calibration — @Bitcoin_Astro",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "event": {
+      "type": "Text",
+      "props": {
+        "text": "Event: Reply to @ClarenceSm40051 with 3 chart images",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "quote_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bitcoin_astro_badge",
+        "bitcoin_astro_quote"
+      ]
+    },
+    "bitcoin_astro_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "@Bitcoin_Astro",
+        "variant": "secondary"
+      }
+    },
+    "bitcoin_astro_quote": {
+      "type": "Text",
+      "props": {
+        "text": "\"some of my charts\"",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "Media fetch unavailable (sandbox limit). Can't determine:",
+        "type": "warning"
+      }
+    },
+    "concerns_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "concern_a",
+        "concern_b",
+        "concern_c"
+      ]
+    },
+    "concern_a": {
+      "type": "Text",
+      "props": {
+        "text": "(a) Which asset/ticker referenced?",
+        "variant": "muted"
+      }
+    },
+    "concern_b": {
+      "type": "Text",
+      "props": {
+        "text": "(b) Informational chart-sharing or personal trade signal?",
+        "variant": "muted"
+      }
+    },
+    "concern_c": {
+      "type": "Text",
+      "props": {
+        "text": "(c) What was @ClarenceSm40051's prior question/topic?",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "recent_context": {
+      "type": "Text",
+      "props": {
+        "text": "Recent context: Bitcoin_Astro Sep 13 20:51Z GOLD Head & Shoulders pattern analysis (3-trader GOLD convergence with KillaXBT + WR).",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "link": {
+      "type": "Link",
+      "props": {
+        "label": "View post",
+        "href": "https://x.com/Bitcoin_Astro/status/2100933073411953010"
+      }
+    }
+  }
+}
