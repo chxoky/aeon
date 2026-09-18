@@ -1,0 +1,87 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Discord Trader Monitor"
+      },
+      "children": [
+        "metadata_badge",
+        "separator1",
+        "message_info",
+        "message_card",
+        "separator2",
+        "analysis_section",
+        "separator3",
+        "classification_alert"
+      ]
+    },
+    "metadata_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Calibration — [DC: HCH — Chat]",
+        "variant": "outline"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "message_info": {
+      "type": "Text",
+      "props": {
+        "text": "Supporting channel message from HeartCanHodl, 2026-09-18 14:58:37Z",
+        "variant": "caption"
+      }
+    },
+    "message_card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "HeartCanHodl",
+        "text": "Before the waves starts"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "analysis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "analysis_heading",
+        "analysis_text"
+      ]
+    },
+    "analysis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      }
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cryptic reference — could mean Elliott Wave technical inflection starting, market sentiment (waves = movement about to begin), volatility waves, or general chatter. Not clear financial meaning without context."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "classification_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Unable to classify",
+        "message": "What's your read? Technical setup signal, conviction shift, or general commentary?",
+        "type": "info"
+      }
+    }
+  }
+}
