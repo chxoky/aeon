@@ -1,0 +1,213 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "discord-trader-monitor — Calibration",
+        "description": "[DC: HCH — Chat]"
+      },
+      "children": [
+        "event_heading",
+        "sep1",
+        "message_section",
+        "sep2",
+        "status_alert",
+        "sep3",
+        "interpretations_section",
+        "sep4",
+        "metadata_section",
+        "sep5",
+        "similar_section"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Real-time conviction shift in premium member chat",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "message_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "author_text",
+        "message_text"
+      ]
+    },
+    "author_text": {
+      "type": "Text",
+      "props": {
+        "text": "HeartCanHodl",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "message_text": {
+      "type": "Text",
+      "props": {
+        "text": "\"80k!\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Classification Status",
+        "message": "Unable to classify — what's your read?",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "interpretations_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "interp_heading",
+        "interp1",
+        "interp2",
+        "interp3",
+        "interp4"
+      ]
+    },
+    "interp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Possible Interpretations",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "interp1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $80k price target/level?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp2": {
+      "type": "Text",
+      "props": {
+        "text": "Market observation (BTC reached 80k)?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp3": {
+      "type": "Text",
+      "props": {
+        "text": "Bullish or bearish signal?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "interp4": {
+      "type": "Text",
+      "props": {
+        "text": "External reference/context?",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metadata_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timestamp_text",
+        "channel_badge"
+      ]
+    },
+    "timestamp_text": {
+      "type": "Text",
+      "props": {
+        "text": "Message timestamp: 2026-09-18T13:49:08Z",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "channel_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HCH — Chat (supporting)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "similar_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "similar_heading",
+        "similar_content"
+      ]
+    },
+    "similar_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Similar Pattern",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "similar_content": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 18 13:39Z \"Fc btc 5m\" (also ambiguous-cryptic)",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
