@@ -1,0 +1,106 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "🐦 x-trader-monitor"
+      },
+      "children": [
+        "tweet-card",
+        "separator-1",
+        "metrics-section",
+        "separator-2",
+        "convergence-text"
+      ]
+    },
+    "tweet-card": {
+      "type": "TweetCard",
+      "props": {
+        "author": "Wild_Randomness",
+        "handle": "@Wild_Randomness",
+        "text": "$ENA — Point of Accumulation clearly printing + technical breakout validating. Consolidation at 0.1400-0.1405 (marked with heavy volume bars) now broken above at 0.1611 (+4.27% intraday).\n\nTwo rising trendlines + recovered RSI (25→75 recovery pattern) confirm bullish structure intact. Sep 15 prior technical call (0.1437 inflection) now +4.27% validated."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "metrics-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "metrics-grid",
+        "view-link"
+      ]
+    },
+    "metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "consolidation-stat",
+        "breakout-stat",
+        "change-stat",
+        "key-level-stat"
+      ]
+    },
+    "consolidation-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Consolidation",
+        "value": "0.1400-0.1405"
+      }
+    },
+    "breakout-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breakout",
+        "value": "0.1611"
+      }
+    },
+    "change-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Intraday",
+        "value": "+4.27%",
+        "trend": "up"
+      }
+    },
+    "key-level-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Sep 15 Call",
+        "value": "0.1437"
+      }
+    },
+    "view-link": {
+      "type": "Link",
+      "props": {
+        "label": "View tweet",
+        "href": "https://x.com/Wild_Randomness/status/2100771823172689950"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "convergence-text": {
+      "type": "Text",
+      "props": {
+        "text": "ENA now 3-trader convergence (trading_axe Aug 21 + Stoiiic Aug 22 bullish thesis + WR technical validation Sep 15-18). Emerging ticker escalation confirmed.",
+        "variant": "muted"
+      }
+    }
+  }
+}
